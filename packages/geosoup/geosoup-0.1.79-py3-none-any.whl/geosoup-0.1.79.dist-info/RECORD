@@ -1,0 +1,11 @@
+geosoup/__init__.py,sha256=rmSDHQJvkrTy7iNMTKGJHnUfgLFFzVWtji8J8dIPRAQ,412
+geosoup/common.py,sha256=9qDbJJGg-9N21jGTKhwyLSGbVEJTiJlY0lbRZXZVEQU,66985
+geosoup/exceptions.py,sha256=6Kq0C7Q4kewVKRQOJBYkPlI1Ffe_LagkDI5naZVfanA,4136
+geosoup/raster.py,sha256=iVZ0_UaYKC32k5meWn8srUwCdOMD8pnF6Gg-fUaEquY,98052
+geosoup/terrain.py,sha256=l1ax-irObQ9a3UnRDEnnJf_4sgn18xo3ATeD-9ffANQ,14625
+geosoup/vector.py,sha256=dPZU5hyMBR1Tl_mWJS7jtOMdIFy9OQ9SfLlwJvqVklU,55602
+geosoup-0.1.79.dist-info/LICENSE,sha256=rN2F1_JBDyU22i5eh7fU_zYcy0fUsoLVBGbpR5Md4Us,10917
+geosoup-0.1.79.dist-info/METADATA,sha256=lGeXcw1hrg-b28cazPnXDHfMnu2596HnIMkVcHL8TuA,1228
+geosoup-0.1.79.dist-info/WHEEL,sha256=YUYzQ6UQdoqxXjimOitTqynltBCkwY6qlTfTh2IzqQU,97
+geosoup-0.1.79.dist-info/top_level.txt,sha256=_5oAu13rLaVbey7V5zDzPgapE2_cZ7HX9WGtAHsVzPY,8
+geosoup-0.1.79.dist-info/RECORD,,
