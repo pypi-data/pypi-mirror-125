@@ -1,0 +1,3 @@
+set DEFAULT_COMMAND=$docker psql
+
+run=-U $arg0 -d $arg1 -c $arg2
