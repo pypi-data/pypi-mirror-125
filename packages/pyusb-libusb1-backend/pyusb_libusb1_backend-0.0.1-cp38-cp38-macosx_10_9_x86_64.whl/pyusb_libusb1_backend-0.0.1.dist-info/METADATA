@@ -1,0 +1,28 @@
+Metadata-Version: 2.1
+Name: pyusb-libusb1-backend
+Version: 0.0.1
+Summary: Portable pyusb libusb1 backend.
+Home-page: https://github.com/morinted/pyusb_libusb1_backend
+Author: Ted Morin
+Author-email: morinted@gmail.com
+License: GNU General Public License v2 or later (GPLv2+)
+Keywords: plover
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: End Users/Desktop
+Classifier: License :: OSI Approved :: GNU General Public License v2 or later (GPLv2+)
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+Requires-Dist: pyusb
+
+# Pyusb Libusb1 Backend
+
+Provides a portable libusb backend in a wheel for use with [pyusb](https://github.com/pyusb/pyusb).
+
+

@@ -1,0 +1,6 @@
+pyusb_libusb1_backend/__init__.py,sha256=k9Pj75mLYgERpbN4Rw2tIEmlzWXnU4dhE_MByZx3xhs,538
+pyusb_libusb1_backend/libusb.cpython-38-darwin.so,sha256=IDq-62Td5P_N0jRYtacmcfQiIu-OIKUeD8ViJjQQxY4,153472
+pyusb_libusb1_backend-0.0.1.dist-info/METADATA,sha256=jJ4qtVPxp7Rw0p2ZOkH0mTvfXtwDy0-CC3nGK1w_h2s,998
+pyusb_libusb1_backend-0.0.1.dist-info/WHEEL,sha256=m4Wk6eOy92yJY87gVAkQnn-qnRb0vl_v2zsmx0hgXfo,109
+pyusb_libusb1_backend-0.0.1.dist-info/top_level.txt,sha256=nWUb6ddCNSoH9jAp8Hk4UCc9WLBauJ9VGGpnVWdULF0,22
+pyusb_libusb1_backend-0.0.1.dist-info/RECORD,,
