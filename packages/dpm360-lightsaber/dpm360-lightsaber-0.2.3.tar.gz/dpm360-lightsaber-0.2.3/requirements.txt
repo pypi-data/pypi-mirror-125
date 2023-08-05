@@ -1,0 +1,6 @@
+scikit-learn==0.23.*
+mlflow>=1.2.0
+pytorch-lightning==0.8.5
+toolz
+tabulate
+
