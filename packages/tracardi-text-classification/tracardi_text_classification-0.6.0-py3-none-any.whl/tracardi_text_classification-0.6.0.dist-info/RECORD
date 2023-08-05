@@ -1,0 +1,11 @@
+tracardi_text_classification/plugin.py,sha256=o0b17R6C0zXQDwTi5nYH3QgQ8hZ0iEdZ8rm-5vIBPCo,6733
+tracardi_text_classification/model/configuration.py,sha256=ZiQTeuoHH8qAk41wF0yLXfck3sulcsA_Q4SVIiC8jUY,324
+tracardi_text_classification/model/ml_source_onfiguration.py,sha256=yl-94vd3reIHncckPZ_QFkkKarUaMqFGWZAzUKa5aVc,88
+tracardi_text_classification/model/__pycache__/configuration.cpython-38.pyc,sha256=GKHxfL5DV74ZI1xebtfKXPTmsqu2_9CXH8QDjtR5kWo,814
+tracardi_text_classification/model/__pycache__/ml_source_onfiguration.cpython-38.pyc,sha256=xgKvKhhdOUVgtsj30d4fwf7rob5FOIFkZ0OI-WawBU8,458
+tracardi_text_classification/test/manual_test.py,sha256=t5Z2yJTjFdzqUMEHT0Z4IA-ppar_Epk4iWQ__Gx698A,1431
+tracardi_text_classification-0.6.0.dist-info/LICENSE.md,sha256=zb4oZFMSjcWGxtkkv44KCWq6Rzbe877lv_UdTwG2ZAw,1071
+tracardi_text_classification-0.6.0.dist-info/METADATA,sha256=PWzpdHdFyrwg6HGO4lFeCtqLGWFtWiSS--phE1ElJFE,1547
+tracardi_text_classification-0.6.0.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+tracardi_text_classification-0.6.0.dist-info/top_level.txt,sha256=_ZJYy_8wtBzUPzlkfmWpe_tNsXm8EA3GDzp3lxZyVrw,29
+tracardi_text_classification-0.6.0.dist-info/RECORD,,
