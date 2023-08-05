@@ -1,0 +1,9 @@
+README.md
+setup.py
+sayHelloPackage/__init__.py
+sayHelloPackage/say.py
+sayHelloPackage.egg-info/PKG-INFO
+sayHelloPackage.egg-info/SOURCES.txt
+sayHelloPackage.egg-info/dependency_links.txt
+sayHelloPackage.egg-info/requires.txt
+sayHelloPackage.egg-info/top_level.txt
