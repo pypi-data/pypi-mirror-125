@@ -1,0 +1,21 @@
+Metadata-Version: 2.1
+Name: yubundle
+Version: 0.0.2
+Summary: a package used personally by Yudha Styawan
+Home-page: https://github.com/yudhastyawan/yubundle
+Author: Yudha Styawan
+Author-email: yudhastyawan@gmail.com
+License: UNKNOWN
+Project-URL: Bug Tracker, https://github.com/yudhastyawan/yubundle/issues
+Project-URL: Documentation, http://yubundle.readthedocs.io
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+License-File: LICENSE.md
+
+# YUBUNDLE
+
+a package containing some variant functions used by Yudha Styawan
+

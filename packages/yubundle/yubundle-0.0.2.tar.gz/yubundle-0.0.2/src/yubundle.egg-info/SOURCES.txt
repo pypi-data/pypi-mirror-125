@@ -1,0 +1,12 @@
+LICENSE.md
+MANIFEST.in
+README.md
+pyproject.toml
+setup.cfg
+src/yubundle/__init__.py
+src/yubundle/package.py
+src/yubundle.egg-info/PKG-INFO
+src/yubundle.egg-info/SOURCES.txt
+src/yubundle.egg-info/dependency_links.txt
+src/yubundle.egg-info/not-zip-safe
+src/yubundle.egg-info/top_level.txt
