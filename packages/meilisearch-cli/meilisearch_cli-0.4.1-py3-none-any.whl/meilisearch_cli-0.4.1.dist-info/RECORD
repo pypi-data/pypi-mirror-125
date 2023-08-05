@@ -1,0 +1,14 @@
+meilisearch_cli/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+meilisearch_cli/__main__.py,sha256=SqRGfs730dyt1bWdk_UazSuvo2JNXrzNRVYygqxys_4,113
+meilisearch_cli/_config.py,sha256=eLInx0ZbtrjqvPuA9FQLt8l20-oFsc6oN9j_5R3iCeo,345
+meilisearch_cli/_helpers.py,sha256=1v9l1Pp23xjAYoXMxo2RcmRsSiyPyDmXK0cEVkMwtYQ,4258
+meilisearch_cli/documents.py,sha256=RzUw8OAZSHvEKd-GkMOmG8XbVLYeDBgLY0-mv8wrNH0,13158
+meilisearch_cli/dump.py,sha256=GiYo3sAyMJukIx8qq1LZCcgYoaCBEhdPTqGECnq46Do,1523
+meilisearch_cli/index.py,sha256=qOXkyq0U-RJ3YY9J17w5XftuRnnZeRazGoq4-hlHixY,27926
+meilisearch_cli/main.py,sha256=D3_GUmAJxQgdI8ykprrMEgrLbUHVrCaPklUyDfKnFck,6064
+meilisearch_cli/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+meilisearch_cli-0.4.1.dist-info/entry_points.txt,sha256=TIHEqofv3O3D_LJBfBR5VONg7ODe4xlxYDqEwZuhStA,60
+meilisearch_cli-0.4.1.dist-info/LICENSE,sha256=xVzevI1TrlKfM0plmJ7vfK1Muu0V9n-dGE8RnDrOFlM,1069
+meilisearch_cli-0.4.1.dist-info/WHEEL,sha256=y3eDiaFVSNTPbgzfNn0nYn5tEn1cX6WrdetDlQM4xWw,83
+meilisearch_cli-0.4.1.dist-info/METADATA,sha256=CVioxpKWSAZGvrB-JdOrXzIEuUUXDnen7cgFcVSKEH0,2990
+meilisearch_cli-0.4.1.dist-info/RECORD,,
