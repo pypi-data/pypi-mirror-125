@@ -1,0 +1,11 @@
+Metadata-Version: 1.1
+Name: pytest_allure_spec_coverage
+Version: 0.0.2
+Summary: The pytest plugin aimed to display test coverage of the specs(requirements) in Allure
+Home-page: UNKNOWN
+Author: UNKNOWN
+Author-email: UNKNOWN
+License: UNKNOWN
+Description: UNKNOWN
+Platform: UNKNOWN
+Classifier: Framework :: Pytest

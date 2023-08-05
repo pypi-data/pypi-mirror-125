@@ -1,0 +1,36 @@
+[tool.black]
+line-length = 120
+target-version = ['py39']
+include = '\.py$'
+exclude = '''
+(
+      \.git
+    | \.venv
+    | /__pycache__
+    | /data/
+    | /docs/
+    | /spec/
+    | /build/
+    | /dist/
+    | /venv/
+)
+'''
+
+[tool.pylint.master]
+ignore-paths = [
+    "^build/.*$",
+    "^dist/.*$",
+]
+
+[tool.pylint.format]
+max-line-length = 120
+max-module-lines = 1000
+
+[tool.isort]
+profile = "black"
+line_length = 120
+
+[tool.pytest.ini_options]
+testpaths = ["tests/plugin"]
+pytester_example_dir = "tests/examples"
+filterwarnings = ["ignore:cannot collect test class:"]
