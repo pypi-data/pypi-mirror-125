@@ -1,0 +1,10 @@
+phlorest/__init__.py,sha256=tMCKlEA31l3fAnP5kZvMb7wHPWyNjkzw4Y3871KT_Cs,20961
+phlorest/commands/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+phlorest/commands/merge_characters.py,sha256=1KjwRdU4JbjAvsdmJNsAbmd3ZxfXQUL9M-P4RLwGb_U,1694
+phlorest/commands/plot.py,sha256=2romxr5JK-K3FFpcOpSqEC1RbZCWORyiM4toU_EQFV4,435
+phlorest-0.1.0.dist-info/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+phlorest-0.1.0.dist-info/METADATA,sha256=R__lO1jO7h3IAGgWZdmYN2_WPgrG88Ok4P48Iiw7khM,1721
+phlorest-0.1.0.dist-info/WHEEL,sha256=Z-nyYpwrcSqxfdux5Mbn_DQ525iP7J2DG3JgGvOYyTQ,110
+phlorest-0.1.0.dist-info/entry_points.txt,sha256=GWCko8VcKU-wfwUbTCkivTQ5HPFeSWSRlqZQdkqqtFk,51
+phlorest-0.1.0.dist-info/top_level.txt,sha256=l5sgyFOpoGa7ITC1D7c8pkMTHXOFbUXwN-0sj9HDfHA,9
+phlorest-0.1.0.dist-info/RECORD,,
