@@ -1,0 +1,10 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+types_checker/__init__.py
+types_checker/types_checker.py
+types_checker.egg-info/PKG-INFO
+types_checker.egg-info/SOURCES.txt
+types_checker.egg-info/dependency_links.txt
+types_checker.egg-info/top_level.txt

@@ -1,0 +1,27 @@
+Metadata-Version: 2.1
+Name: types_checker
+Version: 1.0.0
+Summary: This is a simple type checker for python functions.
+Home-page: https://github.com/vurdolag/py-func-type-checker
+Author: vurdolag
+Author-email: vlad_fotal@mail.ru
+License: Apache License, Version 2.0, see LICENSE file
+Download-URL: https://github.com/vurdolag/py-func-type-checker/archive/v1.0.0.zip
+Keywords: function,runtime,types,checker,strong types
+Platform: UNKNOWN
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: Implementation :: PyPy
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# py-func-type-cheker
+
