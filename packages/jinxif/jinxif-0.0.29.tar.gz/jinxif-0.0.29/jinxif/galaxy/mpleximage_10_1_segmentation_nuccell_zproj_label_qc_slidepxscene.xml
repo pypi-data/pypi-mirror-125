@@ -1,0 +1,52 @@
+<tool id="segmentation_zprojlabel_qc" name="segmentation_zprojlabel_qc" version="0.0.1" profile="21.09">
+    <description>match nucleus and cell segmentation labels</description>
+
+    <requirements>
+        <requirement type="package">jinxif</requirement>
+    </requirements>
+
+    <command detect_errors="exit_code"><![CDATA[
+	#import re
+
+        mkdir segmentation &&
+        mkdir output &&
+
+        #set $filename = re.sub('[^\w\-\.\s]', '_', str($png_nuc_zprojection.element_identifier))
+        ln -s $png_nuc_zprojection segmentation/${filename}.png &&
+
+        #set $filename = re.sub('[^\w\-\.\s]', '_', str($tiff_nuc_segmentation.element_identifier))
+        ln -s $tiff_nuc_segmentation segmentation/${filename}.tif &&
+
+        #set $filename = re.sub('[^\w\-\.\s]', '_', str($png_cell_zperojection.element_identifier))
+        ln -s $png_cell_zperojection segmentation/${filename}.png &&
+
+        #set $filename = re.sub('[^\w\-\.\s]', '_', str($tiff_cell_segmentation.element_identifier))
+        ln -s $tiff_cell_segmentation segmentation/${filename}.tif &&
+
+        #set $filename = re.sub('[^\w\-\.\s]', '_', str($tiff_cell_nuc_match_segmentation.element_identifier))
+        ln -s $tiff_cell_nuc_match_segmentation segmentation/${filename}.tif &&
+
+        #set $filename = re.sub('[^\w\-\.\s]', '_', str($tiff_cell_nuc_match_exp_segmentation.element_identifier))
+        ln -s $tiff_cell_nuc_match_exp_segmentation segmentation/${filename}.tif &&
+
+        python $__tool_directory__/mpleximage_10_1_segmentation_nuccell_zproj_label_qc_slidepxscene.py
+    ]]></command>
+
+    <inputs>
+        <param type="data" format="png" name="png_nuc_zprojection" label="png_nuc_zprojection" />
+        <param type="data" format="tiff" name="tiff_nuc_segmentation"  label="tiff_nuc_segmentation" />
+        <param type="data" format="png" name="png_cell_zperojection" label="png_cell_zperojection" />
+        <param type="data" format="tiff" name="tiff_cell_segmentation"  label="tiff_cell_segmentation" />
+        <param type="data" format="tiff" name="tiff_cell_nuc_match_segmentation"  label="tiff_cell_nuc_match_segmentation" />
+        <param type="data" format="tiff" name="tiff_cell_nuc_match_exp_segmentation"  label="tiff_cell_nuc_match_exp_segmentation" />
+    </inputs>
+
+    <outputs>
+        <collection type="list"  name="segmentation_output">
+            <discover_datasets pattern="__designation_and_ext__" visible="false" format="png" directory="output/" />
+        </collection>
+    </outputs>
+
+    <help></help>
+</tool>
+

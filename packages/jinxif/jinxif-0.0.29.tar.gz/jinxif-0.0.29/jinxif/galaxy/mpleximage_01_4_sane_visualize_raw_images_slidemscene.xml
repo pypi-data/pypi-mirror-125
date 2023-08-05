@@ -1,0 +1,37 @@
+<tool id="sane_visualize_raw_images" name="sane_visualize_raw_images" version="0.0.1" profile="21.09">
+
+    <description>check tiff_raw file names</description>
+
+    <requirements>
+        <requirement type="package">jinxif</requirement>
+    </requirements>
+
+    <command detect_errors="exit_code"><![CDATA[
+	#import re
+
+        #set $the_color = re.sub('[^\w\-\.\s]', '_', str($color))
+
+        mkdir tiff_raw &&
+	mkdir png_qc &&
+
+        #for $tiff in $tiff_raw_input:
+            #set $filename = re.sub('[^\w\-\.\s]', '_', str($tiff.element_identifier))
+            ln -s $tiff tiff_raw/$filename &&
+        #end for
+
+	python $__tool_directory__/mpleximage_01_4_sane_visualize_raw_images_slidemscene.py $the_color
+    ]]></command>
+
+    <inputs>
+        <param type="text" value="c1" name="color" label="color" help='space separated list of microscopy channels to qc plot'/>
+        <param type="data_collection" collection_type="list" format="tiff" name="tiff_raw_input" label="tiff_raw_input"/>
+    </inputs>
+
+    <outputs>
+        <collection type="list"  name="sane_visualize_raw_images_output">
+            <discover_datasets pattern="__designation_and_ext__" visible="false" format="png" directory="png_qc"/>
+        </collection>
+    </outputs>
+
+    <help></help>
+</tool>
