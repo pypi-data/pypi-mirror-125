@@ -1,0 +1,10 @@
+tracardi_event_scheduler/plugin.py,sha256=9cnlpEHZNxpce2dAsvamrMOjCAqQQTjZiHSC_gCg5d0,4116
+tracardi_event_scheduler/model/config.py,sha256=A3nMhQS1v2jJQxTeLjT0bDbpZYPL41z8Qlzb0O0-g-Y,320
+tracardi_event_scheduler/model/__pycache__/config.cpython-38.pyc,sha256=fUuWPm5jXQO6UfSllfHaM4O7uVFPzJTjOLE375F8Aug,529
+tracardi_event_scheduler/service/network.py,sha256=Jus9qRo7A-79gQuL1-kDfnEVLc5COd1-OuH0JRVcvpA,412
+tracardi_event_scheduler/service/__pycache__/network.cpython-38.pyc,sha256=3ApWP4lbhXe7UBNZn1hBll15bjRUE8Rx0rrk5rWXDVg,691
+tracardi_event_scheduler/test/test_plugin.py,sha256=AbpHGcgLb-kRsJGnwFEktk7uzpZOCcBY74-YBdrKVGs,1
+tracardi_event_scheduler-0.6.0.dist-info/METADATA,sha256=3QnnG0AtCbBJjZzry1VwLsTinLBcqQ4q3WZZOGblb8A,1198
+tracardi_event_scheduler-0.6.0.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+tracardi_event_scheduler-0.6.0.dist-info/top_level.txt,sha256=M6BCWYd7qlIPfOodH0BOgqbMTSI2ltNjdf5ZHxLFKr0,25
+tracardi_event_scheduler-0.6.0.dist-info/RECORD,,
