@@ -1,0 +1,6 @@
+tensorflow-probability
+numpyro
+jax<=0.2.20
+
+[test]
+pytest>=3.6
