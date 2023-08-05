@@ -1,0 +1,79 @@
+Metadata-Version: 2.1
+Name: wagtail-typograf
+Version: 0.1.0
+Summary: Brings russian typography to Wagtail rich text editor based on draftail
+Home-page: https://github.com/truetug/wagtail-typograf
+License: MIT
+Keywords: wagtail,draftail,typography,typus
+Author: Sergey Trofimov
+Author-email: truetug@gmail.com
+Requires-Python: >=3.8,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Topic :: Text Editors
+Classifier: Topic :: Text Editors :: Text Processing
+Requires-Dist: typus (>=0.2.2,<0.3.0)
+Project-URL: Repository, https://github.com/truetug/wagtail-typograf
+Description-Content-Type: text/x-rst
+
+wagtail-typograf
+----------------
+
+A plugin to add `typus <https://github.com/byashimov/typus>`_ functionality to wagtail rich text editor (draftail).
+
+Demo
+====
+
+.. image:: https://raw.githubusercontent.com/truetug/wagtail-typograf/master/demo.gif
+    :width: 400
+    :alt: Demo
+
+Installation
+============
+
+* Install with pip 
+
+::
+
+    pip install wagtail-typograf
+
+* Add app name to your list of installed apps
+  
+::
+
+    INSTALLED_APPS = [
+        ...
+        "wagtail_typograf",
+    ]
+    
+* Add typograf url to your urlpatterns (for now "/api/typograf/" is strongly hardcoded in js)
+
+::
+
+    urlpatterns = [
+      ...
+      path('api/', include('wagtail_typograf.urls')),
+      ...
+    ]
+
+
+* If you use limit number of features in RichTextBlock, don't forget to add ``typograf`` to its list
+
+::
+    
+    text_block = RichTextBlock(
+        features=[
+            "bold", "italic", "ol", "ul", "hr", 
+            "link", "document-link", "typograf",
+        ],
+        ...
+    )
+
+Usage
+=====
+
+Write or paste text content, push the ¶-button.
+
