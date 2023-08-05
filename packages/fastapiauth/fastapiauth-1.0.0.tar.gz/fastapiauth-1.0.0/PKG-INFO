@@ -1,0 +1,12 @@
+Metadata-Version: 2.1
+Name: fastapiauth
+Version: 1.0.0
+Summary: JWT auth for your fast api
+Home-page: UNKNOWN
+Author: Korhenon
+Author-email: korhenon.code@gmail.com
+License: UNKNOWN
+Description: UNKNOWN
+Platform: UNKNOWN
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown

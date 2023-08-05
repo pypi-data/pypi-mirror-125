@@ -1,0 +1,9 @@
+README.md
+setup.py
+fastapiauth/__init__.py
+fastapiauth/fast_api_auth.py
+fastapiauth.egg-info/PKG-INFO
+fastapiauth.egg-info/SOURCES.txt
+fastapiauth.egg-info/dependency_links.txt
+fastapiauth.egg-info/requires.txt
+fastapiauth.egg-info/top_level.txt
