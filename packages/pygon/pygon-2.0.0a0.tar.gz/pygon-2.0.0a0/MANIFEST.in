@@ -1,0 +1,5 @@
+include README.rst
+include LICENSE
+include requirements.txt
+include pygon/bin/*.dll
+include pygon/py.typed
