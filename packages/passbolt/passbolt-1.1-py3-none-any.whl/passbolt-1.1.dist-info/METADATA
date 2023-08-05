@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: passbolt
+Version: 1.1
+Summary: Passbolt python module
+Home-page: https://djlynch.us
+Author: Daniel Lynch
+Author-email: daniel.lynch2016@gmail.com
+License: MIT
+Platform: UNKNOWN
+License-File: LICENSE
+Requires-Dist: requests
+Requires-Dist: python-gnupg
+Requires-Dist: argparse
+
+UNKNOWN
+
