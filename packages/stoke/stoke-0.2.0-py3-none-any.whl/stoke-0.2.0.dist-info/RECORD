@@ -1,0 +1,17 @@
+stoke/__init__.py,sha256=tuYs5H_L-EpuVslIu14E-S80os5RizGpUQTsCiFl8fI,1222
+stoke/_version.py,sha256=pgv7Q2DA_KWCE7HqamWz-y0484Xuu8qh-GSmxM2vWhs,498
+stoke/configs.py,sha256=zceMyhV_EDLqqd1dv8gez_t5s4qvHTt3Wa6dx2E_Yz0,31999
+stoke/data.py,sha256=ByTP9DBTiiQ4UrkkqHumzu-YJJ5FHWpq5M2fYQMaPDI,23144
+stoke/distributed.py,sha256=24W12VZT9KA0wLYb1oKBlKxra44BeVa7mTyoQXUlE8U,49842
+stoke/extensions.py,sha256=6wfFHcOJ1Y27ciLrB43ZJXEBWviEPPTk1jYG-TGrHHI,11856
+stoke/fp16.py,sha256=TCdW4w7GcK0Slkx4lUyVcWJCWzBE8Qvstm_lNEVZtDo,25357
+stoke/io.py,sha256=i6UzEOBmwWT5wwmpFrj6KMm1hBkgGFVa_3lQ_YqugcU,28086
+stoke/status.py,sha256=vYCxRyC0fOBEQFBH4bM95_KAcYVcI242shMqT14XZ60,22520
+stoke/stoke.py,sha256=tevERyOhz11q1aVa7xF3df7M_IaZGbF0M28KeyDNPLo,48742
+stoke/utils.py,sha256=G-pfXh0bosxREYS9YGuL0gDC38peA7BcHBhlSJSqbBc,2699
+stoke-0.2.0.dist-info/LICENSE.txt,sha256=z8d0m5b2O9McPEK1xHG_dWgUBT6EfBDz6wA0F7xSPTA,11358
+stoke-0.2.0.dist-info/METADATA,sha256=kO9lMHJkLs7jI15P9cgPkBoxYYvUTGUIlpElKh8XVBs,14391
+stoke-0.2.0.dist-info/NOTICE.txt,sha256=UsIZSUfqamwDE6sXDl_9pr3ls1nNvV8dEvsJWZvVTpQ,928
+stoke-0.2.0.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+stoke-0.2.0.dist-info/top_level.txt,sha256=f3G_7WAzIPYgSrLHv7PL7DaUDwgb92SoEjRNs8HDRSg,6
+stoke-0.2.0.dist-info/RECORD,,
