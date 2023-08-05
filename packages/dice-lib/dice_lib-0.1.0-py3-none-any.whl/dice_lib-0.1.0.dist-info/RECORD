@@ -1,0 +1,11 @@
+dice_lib/__init__.py,sha256=IMwz8FHilewRnHUuvx-jaYcEW3jU5-BUuyS8Uj2cbEw,50
+dice_lib/hdfs.py,sha256=zBq5-yffbHgmE6qvZfK1nvnt5ApKFYTbv7Sgk_N5acc,2175
+dice_lib/host.py,sha256=5VnWfV2eNZBgguJ-qFL6Lt9_u5BU8_cyML4o0MYo7bE,146
+dice_lib/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+dice_lib/ranges.py,sha256=DEKEyONLDdlCMIO7hO_Hue0RClhUkNbj9jpC_XLRNNE,581
+dice_lib/unit.py,sha256=NAbmRwps3-wUnRAtbqz5bE_l9PjyXoALAf-gad1UICA,501
+dice_lib/user.py,sha256=WjRneEJnsIB4WklxVyid-pn7AEbfds_NLjAxrymbXc4,109
+dice_lib-0.1.0.dist-info/LICENSE,sha256=_PkyLhQewa0yvyUIFsNUt28kEOXsiSXOp6F5WAXTeNg,1523
+dice_lib-0.1.0.dist-info/WHEEL,sha256=pVNS5wRGlMB8qzi0M1coslDk7i694hS7VxZqRXRntY4,81
+dice_lib-0.1.0.dist-info/METADATA,sha256=kBePcXRcFUxRyEzk0j6aUVV2ZmzyspDCyoyVXDBuayE,3248
+dice_lib-0.1.0.dist-info/RECORD,,
