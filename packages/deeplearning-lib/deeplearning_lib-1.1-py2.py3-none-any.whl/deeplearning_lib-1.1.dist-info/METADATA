@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: deeplearning-lib
+Version: 1.1
+Summary: dl libs
+Home-page: UNKNOWN
+Author: Dengpan
+Author-email: yindengpan@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: Topic :: Software Development :: Build Tools
+Classifier: License :: OSI Approved :: MIT License
+Requires-Python: >=3.6
+License-File: LICENSE.txt
+
+deep learning libs
+
