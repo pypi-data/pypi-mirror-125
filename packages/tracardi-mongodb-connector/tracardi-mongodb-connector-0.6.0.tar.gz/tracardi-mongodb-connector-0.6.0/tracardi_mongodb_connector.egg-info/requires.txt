@@ -1,0 +1,4 @@
+tracardi_plugin_sdk>=0.6.22
+pydantic
+tracardi>=0.6.5
+motor~=2.5.0
