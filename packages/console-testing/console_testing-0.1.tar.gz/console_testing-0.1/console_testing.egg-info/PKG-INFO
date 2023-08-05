@@ -1,0 +1,14 @@
+Metadata-Version: 1.1
+Name: console-testing
+Version: 0.1
+Summary: Basic Python Package to help students write tests for programming exercises that interact with the console
+Home-page: https://github.com/sileence/python-console-testing
+Author: Duilio Palacios
+Author-email: duilio@styde.net
+License: MIT
+Description: UNKNOWN
+Keywords: Console,Testing
+Platform: UNKNOWN
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
