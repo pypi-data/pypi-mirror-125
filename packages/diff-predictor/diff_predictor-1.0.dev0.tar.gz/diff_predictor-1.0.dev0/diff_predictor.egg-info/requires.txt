@@ -1,0 +1,16 @@
+coverage
+coveralls
+pytest
+numpy
+scipy
+pandas
+matplotlib
+ipython
+jupyter
+scikit-learn
+sklearn
+boto3
+shapely
+shap
+xgboost>=1.2.1
+hypothesis
