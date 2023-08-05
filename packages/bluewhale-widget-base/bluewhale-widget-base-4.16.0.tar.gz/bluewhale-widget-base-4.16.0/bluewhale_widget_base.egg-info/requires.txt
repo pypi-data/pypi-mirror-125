@@ -1,0 +1,8 @@
+matplotlib
+pyqtgraph
+AnyQt
+typing_extensions>=3.7.4.3
+bluewhale-canvas-core<0.2a,>=0.1.19
+
+[:sys_platform == "darwin"]
+appnope
