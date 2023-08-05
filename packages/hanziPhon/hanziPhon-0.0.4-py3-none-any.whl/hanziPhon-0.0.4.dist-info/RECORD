@@ -1,0 +1,10 @@
+hanziPhon/__init__.py,sha256=IYPSCa_K3LJEkjSvPh0W-3nHTPC04Y-ZtqWR1rF63N4,49
+hanziPhon/guang.py,sha256=0XKKA76Db42trMtVG7U-w-SfHJxhiEfs-Duy9vpV19w,1546
+hanziPhon/moe.py,sha256=ZYIo2fmNFC7hOdDJIetcor1H_NPujEspXsa5poDJx28,2947
+hanziPhon/data/GuangYun.json,sha256=lkNg-daGmvdu9Wvcy_5-85_nLe2X8yg4Evmftm0nt0g,4305349
+hanziPhon/data/moe_char_phon.json,sha256=lkQJSG8K1Rm0ZDopctJTwGJcFJxD-L8mq_s_hXKdn4I,808128
+hanziPhon/data/moe_transcriptions.csv,sha256=nkTTuObuFv_QDuJNZF2cdsez5CK3EnBhunZsdr_p0rk,7730
+hanziPhon-0.0.4.dist-info/METADATA,sha256=mny3tYUTkmsCj21SnPd5NRzfR4zmIiSsb02mUI6lxf0,469
+hanziPhon-0.0.4.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+hanziPhon-0.0.4.dist-info/top_level.txt,sha256=ZmDzVhTQSR5zN0Xfj2bgcOxnBWwSdWfeOzRqXyzgw4w,10
+hanziPhon-0.0.4.dist-info/RECORD,,
