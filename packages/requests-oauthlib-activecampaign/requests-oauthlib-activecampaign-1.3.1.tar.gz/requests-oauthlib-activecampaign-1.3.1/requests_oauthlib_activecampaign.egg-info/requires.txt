@@ -1,0 +1,5 @@
+oauthlib-activecampaign>=3.0.0
+requests>=2.0.0
+
+[rsa]
+oauthlib-activecampaign[signedtoken]>=3.0.0
