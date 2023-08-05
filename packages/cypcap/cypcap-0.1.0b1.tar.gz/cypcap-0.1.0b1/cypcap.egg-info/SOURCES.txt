@@ -1,0 +1,17 @@
+LICENSE
+MANIFEST.in
+README.rst
+cpcap.pxd
+csocket.pxd
+cypcap.c
+cypcap.pyx
+npcap.pxi
+pyproject.toml
+setup.cfg
+setup.py
+cypcap.egg-info/PKG-INFO
+cypcap.egg-info/SOURCES.txt
+cypcap.egg-info/dependency_links.txt
+cypcap.egg-info/not-zip-safe
+cypcap.egg-info/requires.txt
+cypcap.egg-info/top_level.txt
