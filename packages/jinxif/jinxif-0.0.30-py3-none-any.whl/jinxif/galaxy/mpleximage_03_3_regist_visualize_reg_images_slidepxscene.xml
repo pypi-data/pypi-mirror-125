@@ -1,0 +1,41 @@
+<tool id="regist_visualize_reg_images" name="regist_visualize_reg_images" version="0.0.1" profile="21.09">
+    <description>check tiff_reg file names</description>
+
+    <requirements>
+        <requirement type="package">jinxif</requirement>
+    </requirements>
+
+    <command detect_errors="exit_code"><![CDATA[
+	#import re
+
+	#set $the_color = re.sub('[^\w\-\.\s]', '_', str($color))
+
+        mkdir tiff_registered &&
+        mkdir png_qc &&
+
+        #for $tiff in $tiff_reg:
+	    #set $filename = re.sub('[^\w\-\.\s]', '_', str($tiff.element_identifier))
+            #if str($filename).endswith('.tif') or str($filename).endswith('.tiff'):
+                ln -s $tiff tiff_registered/$filename &&
+            #else:
+                ln -s $tiff tiff_registered/${filename}.tif &&
+            #end if
+	#end for
+
+	python $__tool_directory__/mpleximage_03_3_regist_visualize_reg_images_slidepxscene.py $the_color
+    ]]></command>
+
+    <inputs>
+        <param type="text" value="c1" name="color" label="color_channel_input"/>
+        <param type="data_collection" collection_type="list" format="tiff" name="tiff_reg" label="tiff_reg_files_input"/>
+    </inputs>
+
+    <outputs>
+        <collection type="list" name="regist_visualize_reg_images_output">
+            <discover_datasets pattern="__designation_and_ext__" visible="false" format="png" directory="png_qc"/>
+        </collection>
+    </outputs>
+
+    <help></help>
+</tool>
+

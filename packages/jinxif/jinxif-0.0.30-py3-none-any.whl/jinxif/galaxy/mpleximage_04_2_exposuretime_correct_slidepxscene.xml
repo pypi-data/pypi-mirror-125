@@ -1,0 +1,41 @@
+<tool id="exposuretime_correct_slidepxscene" name="exposuretime_correct_slidepxscene" version="0.0.1" profile="21.09">
+    <description>run to correct exposure time error</description>
+
+    <requirements>
+        <requirement type="package">jinxif</requirement>
+    </requirements>
+
+    <command detect_errors="exit_code"><![CDATA[
+        #import re
+
+        mkdir tiff_registered &&
+    
+        #for $tiff in $tiff_registered_input:
+            #set $filename = re.sub('[^\w\-\.\s]', '_', str($tiff.element_identifier))
+            #if str($filename).endswith('.tif') or str($filename).endswith('.tiff') or str($filename).endswith('.json'):
+                ln -s $tiff tiff_registered/$filename &&
+            #elif str($filename).stratswith('ddd_etc'):
+                ln -s $tiff tiff_registered/${filename}.json &&
+            #else:
+                ln -s $tiff tiff_registered/${filename}.tif &&
+            #end if
+        #end for
+
+        ln -s $json_etc_dictionary tiff_registered/ddd_etc.json &&
+
+        python $__tool_directory__/mpleximage_04_2_exposuretime_correct_slidepxscene.py
+    ]]></command>
+
+    <inputs>
+        <param type="data" format="json" name="json_etc_dictionary" label="json_etc_dictionary" help="exposure time correction dictionary. required format: {'slide_pxscene': {'marker': {'is': 7,'should_be': 4}},}" />
+        <param type="data_collection" collection_type="list" format="tiff" name="tiff_registered_input" label="tiff_registered_input" />
+    </inputs>
+
+    <outputs>
+        <collection type="list"  name="tiff_etc_slidepxscene_output">
+            <discover_datasets pattern="__designation_and_ext__" visible="false" format="tiff" directory="tiff_registered" />
+        </collection>
+    </outputs>
+
+    <help></help>
+</tool>

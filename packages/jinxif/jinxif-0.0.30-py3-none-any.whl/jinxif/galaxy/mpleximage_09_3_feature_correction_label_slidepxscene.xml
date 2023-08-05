@@ -1,0 +1,45 @@
+<tool id="feature_correction_label" name="feature_correction_label" version="0.0.1" profile="21.09">
+    <description>match nucleus and cell segmentation labels</description>
+
+    <requirements>
+        <requirement type="package">jinxif</requirement>
+    </requirements>
+
+    <command detect_errors="exit_code"><![CDATA[
+	#import re
+
+        mkdir csv_segmentation &&
+        mkdir segmentation &&
+        mkdir output &&
+
+        #set $filename = re.sub('[^\w\-\.\s]', '_', str($tiff_nuc_segmentation.element_identifier))
+        ln -s $tiff_nuc_segmentation segmentation/${filename}.tif &&
+
+        #set $filename = re.sub('[^\w\-\.\s]', '_', str($tiff_cell_nuc_match_segmentation.element_identifier))
+        ln -s $tiff_cell_nuc_match_segmentation segmentation/${filename}.tif &&
+
+        #set $filename = re.sub('[^\w\-\.\s]', '_', str($csv_feature_raw.element_identifier))
+        ln -s $csv_feature_raw csv_segmentation/${filename}.csv &&
+
+        #set $cytopm = re.sub('[^\w\-\.\s]', '_', str($cytoplasm_marker))
+
+        python $__tool_directory__/mpleximage_09_3_feature_correction_label_slidepxscene.py --cytopmtheshold $cytoplasm_marker_threshold --cytopm $cytopm --exp $exp
+    ]]></command>
+
+    <inputs>
+        <param type="data" format="tiff" name="tiff_nuc_segmentation"  label="tiff_nuc_segmentation" />
+        <param type="data" format="tiff" name="tiff_cell_nuc_match_segmentation"  label="tiff_cell_nuc_match_segmentation" />
+        <param type="data" format="csv" name="csv_feature_raw" label="csv_feature_raw" />
+	<param type="text" value="Ecad" name="cytoplasm_marker" label="cytoplasm_marker" help="cytoplasm marker that was used for cytoplasm tresholding. e.g. Ecad or PANCK. can't be None." />
+	<param type="integer" value="0" name="cytoplasm_marker_threshold" label="cytoplasm_marker_threshold" help="cytoplasm marker tresholding value." />
+        <param type="integer" value="5" name="exp" label="exp" help="how many pixel should the nucleus be extend to be regared as the whole cell? how whide should the dougnut regared as cytoplasm be? default setting is 5, though this value depends on your pixel size." />
+    </inputs>
+
+    <outputs>
+        <collection type="list"  name="segmentation_output">
+            <discover_datasets pattern="__designation_and_ext__" visible="true" format="csv" directory="output" />
+        </collection>
+    </outputs>
+
+    <help></help>
+</tool>
