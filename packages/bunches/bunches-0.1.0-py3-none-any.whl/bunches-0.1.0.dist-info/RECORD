@@ -1,0 +1,8 @@
+bunches/__init__.py,sha256=RaO6QKcTfyVcB5R9EF1YXW_MhOrAXQ8ec5ivBAQBa_0,2884
+bunches/base.py,sha256=cRpXnaEFPOX1TD9xOIgJ32XYO_yfL-MhiSw1apmLhJI,9622
+bunches/mappings.py,sha256=qKUPI2DYaPFv3hwi7HDclKq8Kjo46oxpvThUVTfJnDk,20487
+bunches/sequences.py,sha256=ItqkAM5zY_JVPDtj3LXh5cZgkfNRHhdzKuiS2Uvl_vA,15760
+bunches/utilities.py,sha256=a4B_b1BCIsOIkd-ytliomQia6lUbVwMaquZ44KV1FB0,2679
+bunches-0.1.0.dist-info/WHEEL,sha256=V7iVckP-GYreevsTDnv1eAinQt_aArwnAxmnP0gygBY,83
+bunches-0.1.0.dist-info/METADATA,sha256=wA1LRFxfslQSEzw2bSOethrRZqgODX-UNBFbKp9bdtE,2472
+bunches-0.1.0.dist-info/RECORD,,
