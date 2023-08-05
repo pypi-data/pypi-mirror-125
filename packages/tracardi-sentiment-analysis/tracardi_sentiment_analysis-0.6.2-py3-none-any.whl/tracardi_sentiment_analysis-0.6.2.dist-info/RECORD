@@ -1,0 +1,11 @@
+tracardi_sentiment_analysis/plugin.py,sha256=ISX320eQP-CPDQ7cDGr42qZ_mJ1w8kSX6REwxgGSg_k,5390
+tracardi_sentiment_analysis/model/configuration.py,sha256=Yr28gEp0PVEhWHXVUk32nia26DqwO_Ndl_v1skaRAF8,427
+tracardi_sentiment_analysis/model/sa_source_onfiguration.py,sha256=Tc2Jb5egvFR-fGDgZ9UfWhRmRtms_NsQV_VLzX8olQg,88
+tracardi_sentiment_analysis/model/__pycache__/configuration.cpython-38.pyc,sha256=gXqWQ05s80XvurRzbhJ9Ii8GifSBonC1SHLBOq9gUyk,854
+tracardi_sentiment_analysis/model/__pycache__/sa_source_onfiguration.cpython-38.pyc,sha256=zxKUgDP9Q_CpOeG2lk_i-f0uGAeQ0FPPEUMac-Twgto,457
+tracardi_sentiment_analysis/test/manual_test.py,sha256=lS-XtkJhLaPEojuZKlogBxxm9iYvKKyLsSDR18M3VKo,953
+tracardi_sentiment_analysis-0.6.2.dist-info/LICENSE.md,sha256=zb4oZFMSjcWGxtkkv44KCWq6Rzbe877lv_UdTwG2ZAw,1071
+tracardi_sentiment_analysis-0.6.2.dist-info/METADATA,sha256=g4zX2gE4FlFPwqpZjIjhqRLx6VfRe-MAcMWeXTfLMfY,705
+tracardi_sentiment_analysis-0.6.2.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+tracardi_sentiment_analysis-0.6.2.dist-info/top_level.txt,sha256=2ytiHscM9_0Wvko3207SBHBe3ZaHVrTn4yQSBHZdE98,28
+tracardi_sentiment_analysis-0.6.2.dist-info/RECORD,,
