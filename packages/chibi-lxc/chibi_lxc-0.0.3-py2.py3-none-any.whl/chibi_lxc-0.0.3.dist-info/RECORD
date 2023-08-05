@@ -1,0 +1,14 @@
+chibi_lxc/__init__.py,sha256=_KtbWHiQ_fdZY2QASobtIyR_dPHQE777xMID2hm9MlE,156
+chibi_lxc/cli.py,sha256=ynwucc5JFx_wzu9IGmZzTsaW9LlEv7QbODpHxgxGG4A,7774
+chibi_lxc/config.py,sha256=qfMeLnomBDP9cIWr9OTO-k39vn6WEqSnvlGMLsgfiRM,589
+chibi_lxc/container.py,sha256=l0h_Mgu7hSis9abc5fvVfQrhE0qnoF42sA_79M3ACfM,9798
+chibi_lxc/snippets.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+chibi_lxc/file/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+chibi_lxc/file/config.py,sha256=yJC9W64fVvnF4x9ISfKa2gHG3TYQtk1NVAjpuWtBtg0,1456
+chibi_lxc-0.0.3.dist-info/AUTHORS.rst,sha256=ayKBnZKv2fuJWauTmcNKFh97UZYpkxHLnYg0NnFUo-k,150
+chibi_lxc-0.0.3.dist-info/LICENSE,sha256=41Jd5oYzMMN8J7DmQRgV-uEJc1mJ_EgOnVHbD-kxHDw,470
+chibi_lxc-0.0.3.dist-info/METADATA,sha256=TxZWFwvJOeBkS-l6QHiUJNC1uEnuQOvsuk-qQIg2zOM,1352
+chibi_lxc-0.0.3.dist-info/WHEEL,sha256=Z-nyYpwrcSqxfdux5Mbn_DQ525iP7J2DG3JgGvOYyTQ,110
+chibi_lxc-0.0.3.dist-info/entry_points.txt,sha256=X4JTIIHsKp_rff5f5fXEB-yi4O08Vk-Vxpg08CMmWNk,50
+chibi_lxc-0.0.3.dist-info/top_level.txt,sha256=fm-ivggDsQGrGv1pRMOx3W3sOLRcYl6HZatJxZlqTsk,10
+chibi_lxc-0.0.3.dist-info/RECORD,,
