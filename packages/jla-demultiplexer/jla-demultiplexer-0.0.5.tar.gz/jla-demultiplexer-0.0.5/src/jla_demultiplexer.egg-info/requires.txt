@@ -1,0 +1,2 @@
+jla-tailer>=0.1.5
+Affirmations>=0.0.10
