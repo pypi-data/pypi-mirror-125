@@ -1,0 +1,14 @@
+LICENSE.md
+README.md
+setup.py
+open_weather_api/__init__.py
+open_weather_api/api.py
+open_weather_api/config.py
+open_weather_api/constantes.py
+open_weather_api/opciones/__init__.py
+open_weather_api/opciones/ciudad.py
+open_weather_api/opciones/coordenadas.py
+owm_api_dftorres.egg-info/PKG-INFO
+owm_api_dftorres.egg-info/SOURCES.txt
+owm_api_dftorres.egg-info/dependency_links.txt
+owm_api_dftorres.egg-info/top_level.txt
