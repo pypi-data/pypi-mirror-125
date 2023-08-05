@@ -1,0 +1,16 @@
+CONTRIBUTING.md
+LICENSE
+MANIFEST.in
+README.md
+settings.ini
+setup.py
+oos/__init__.py
+oos/_nbdev.py
+oos/base.py
+oos.egg-info/PKG-INFO
+oos.egg-info/SOURCES.txt
+oos.egg-info/dependency_links.txt
+oos.egg-info/entry_points.txt
+oos.egg-info/not-zip-safe
+oos.egg-info/requires.txt
+oos.egg-info/top_level.txt
