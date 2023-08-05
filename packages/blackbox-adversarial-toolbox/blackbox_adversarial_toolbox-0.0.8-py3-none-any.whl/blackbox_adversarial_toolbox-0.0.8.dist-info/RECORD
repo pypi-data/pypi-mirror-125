@@ -1,0 +1,13 @@
+bat/__init__.py,sha256=68HEj_7LRwDLtpmr1_wTPQTCEegdppZp7pljXVOR6Qs,604
+bat/apis/__init__.py,sha256=oRXNc4sp7BZbyMAzVmwqBu-9oZL2QVNQL9tsg3hP3A0,577
+bat/apis/deepapi/__init__.py,sha256=rQteeWIu_xozS8wiWnrjtCagIbaA_Ubozzr2tca2Qq8,324
+bat/apis/deepapi/vgg16_cifar10.py,sha256=86OK5mCkc0Xb41OfCx0E14Z1hIgTUad9tEy6Zo6cl20,2229
+bat/attacks/__init__.py,sha256=NpqK0oDv8nBGSiFao4rmIhvwzKXYDSWZ_FccGBOTtTw,214
+bat/attacks/simba.py,sha256=DphGxYaHqklr62M1UIdQJpJU2PxE5CGV_E-1zIAdmG8,4109
+bat/utils/__init__.py,sha256=c_fANG2sP83DSvq6QCWo6EkAvqCGRpwvEcVUBmA6sSo,91
+bat/utils/proj_lp.py,sha256=j86aLViisTYkNpj5fQcbLhbcksLXYoVDmjufjBUFXT0,439
+blackbox_adversarial_toolbox-0.0.8.dist-info/LICENSE,sha256=QKJA6MPuTr3G7jFwlUdpyMoySmszYnduZGaF2yjHHfE,1084
+blackbox_adversarial_toolbox-0.0.8.dist-info/METADATA,sha256=T7FgxcexC6_gp3HYVCZdlgFrqe-lOWuEnd_BEFIhUKI,2695
+blackbox_adversarial_toolbox-0.0.8.dist-info/WHEEL,sha256=D1Wh14kWDxPnrM-5t_6UCB-UuQNrEODtRa3vF4OsvQY,97
+blackbox_adversarial_toolbox-0.0.8.dist-info/top_level.txt,sha256=Kxrw_jubMtakJfDU-bBureUM_3CqpBgk2gJVdtALv0c,4
+blackbox_adversarial_toolbox-0.0.8.dist-info/RECORD,,

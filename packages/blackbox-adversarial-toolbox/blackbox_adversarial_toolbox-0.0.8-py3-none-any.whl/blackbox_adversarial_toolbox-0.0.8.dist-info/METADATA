@@ -1,0 +1,81 @@
+Metadata-Version: 2.1
+Name: blackbox-adversarial-toolbox
+Version: 0.0.8
+Summary: Black-box Adversarial Toolbox (BAT) - Python Library for Deep Learning Security
+Home-page: https://github.com/wuhanstudio/blackbox-adversarial-toolbox
+Author: wuhanstudio
+Author-email: wuhanstudios@gmail.com
+Maintainer: wuhanstudio
+Maintainer-email: wuhanstudios@gmail.com
+License: MIT
+Platform: UNKNOWN
+Classifier: Development Status :: 1 - Planning
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: Education
+Classifier: Intended Audience :: Science/Research
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Topic :: Software Development :: Libraries
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Classifier: Topic :: Scientific/Engineering :: Artificial Intelligence
+Description-Content-Type: text/markdown
+Requires-Dist: numpy (>=1.18.0)
+Requires-Dist: scipy (>=1.4.1)
+Requires-Dist: scikit-learn (>=0.22.2)
+Requires-Dist: pillow
+Requires-Dist: requests
+Requires-Dist: tqdm
+Requires-Dist: six
+Requires-Dist: setuptools
+
+<img src="https://bat.wuhanstudio.uk/images/bat.png" width=300px style="float: left;" >
+
+# Black-box Adversarial Toolbox (BAT)
+
+[![Build Status](https://app.travis-ci.com/wuhanstudio/blackbox-adversarial-toolbox.svg?branch=master)](https://app.travis-ci.com/wuhanstudio/blackbox-adversarial-toolbox)
+[![PyPI version](https://badge.fury.io/py/blackbox-adversarial-toolbox.svg)](https://badge.fury.io/py/blackbox-adversarial-toolbox)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+[![PyPI - Python Version](https://img.shields.io/pypi/pyversions/blackbox-adversarial-toolbox)](https://pypi.org/project/blackbox-adversarial-toolbox/)
+
+A Python Library for Deep Learning Security that focuses on Black-box attacks.
+
+## Installation
+
+```python
+pip install blackbox-adversarial-toolbox
+```
+
+
+
+## Usage
+
+
+
+```python
+import numpy as np
+from PIL import Image
+
+from bat.attacks import SimBA
+from bat.apis.deepapi import VGG16Cifar10
+
+# Load Image [0.0, 1.0]
+x = np.asarray(Image.open('dog.jpg').resize((32, 32))) / 255.0
+
+# Initialize the Cloud API Model
+DEEP_API_URL = 'https://api.wuhanstudio.uk'
+model = VGG16Cifar10(DEEP_API_URL + "/vgg16_cifar10")
+
+# SimBA Attack
+simba = SimBA(model)
+x_adv = simba.attack(x, epsilon=0.1, max_it=1000)
+
+# Distributed SimBA Attack
+x_adv = simba.attack(x, epsilon=0.1, max_it=1000, distributed=True , batch=50, max_workers=10)
+
+```
+
+
+
