@@ -1,0 +1,17 @@
+onnxcustom/__init__.py,sha256=xT1g4tz4lK0wKML6Gtus3-4SY0_SpYHA7G2Nh762HWQ,449
+onnxcustom/__main__.py,sha256=EhiUPF2XAKPVXnrt7KVE2kUFhaHrC3S8kVe57xUSU0Y,314
+onnxcustom/cli/__init__.py,sha256=ahEneUTHFtOuFkSF4YTeaapJ8489xRlA8-uX2Kq8Hlo,41
+onnxcustom/cli/profiling.py,sha256=igPy5auWy8lo1hNOZvdRa3iMIVgrk59EzwipzwtWTds,1325
+onnxcustom/training/__init__.py,sha256=HOsNaaSKiwr9Hrbt2BdivpG8wH5ZZTXl_p1RzB2t8gU,119
+onnxcustom/training/data_loader.py,sha256=N2KbpylwcRSK7bo-vf_CO4yhUx7Ijzz9bxfRAQHLcFY,2359
+onnxcustom/training/optimizers.py,sha256=twQeeiTAUvN3QSu63BYW6GCREi_qroe_94yhRZGetO8,12923
+onnxcustom/training/orttraining.py,sha256=mCKUvgz2-_fxqZx8SnlmpQJXW-54p17JU6tr-tsGqqE,3727
+onnxcustom/utils/__init__.py,sha256=HchnyJLwB_dY5wF_Zo09AAhdhPindqUBl_L8AN8EeWw,88
+onnxcustom/utils/benchmark.py,sha256=3S3MBB7XDgVCRaiGvJAx_atOBe_K7gr0FPZHLnU5YJQ,1384
+onnxcustom/utils/imagenet_classes.py,sha256=pSQlQjYAqInT3DD02ZPF2VzZcU8tbr1GrebhaAs6YW8,34120
+onnxcustom/utils/nvprof2json.py,sha256=JyglBg3PfUcm0M8DXqLMqaJ83ukUUxDjeAWAZN3pn2w,23826
+onnxcustom-0.2.117.dist-info/LICENSE.txt,sha256=ZyFojwi81rsiZZZiGlMxpCoCJrhVEi8v9GuDV2mcX5Q,1083
+onnxcustom-0.2.117.dist-info/METADATA,sha256=n8DkmqWy31_ot4KxjCNpnPLT-lfAXel-yjD2UNU1cnc,3722
+onnxcustom-0.2.117.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+onnxcustom-0.2.117.dist-info/top_level.txt,sha256=oZ0MRC5lbSb9fpqRw98WM9yok378msmCH2Hwm9FxQLQ,11
+onnxcustom-0.2.117.dist-info/RECORD,,
