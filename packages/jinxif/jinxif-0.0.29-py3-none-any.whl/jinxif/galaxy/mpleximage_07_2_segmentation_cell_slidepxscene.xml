@@ -1,0 +1,47 @@
+<tool id="segmentation_cell" name="segmentation_cell" version="0.0.1" profile="21.09">
+    <description>cellpose cell segmentation</description>
+
+    <requirements>
+        <requirement type="package">jinxif</requirement>
+    </requirements>
+
+    <command detect_errors="exit_code"><![CDATA[
+	#import re
+
+	mkdir tiff_registered &&
+        mkdir tiff_segmentation &&
+
+        #for $tiff in $tiff_registered_input:
+            #set $filename = re.sub('[^\w\-\.\s]', '_', str($tiff.element_identifier))
+            #if str($filename).endswith('.tif') or str($filename).endswith('.tiff'):
+                ln -s $tiff tiff_registered/$filename &&
+            #else:
+                ln -s $tiff tiff_registered/${filename}.tif &&
+            #end if
+        #end for
+
+        #set $dapiround = re.sub('[^\w\-\.\s]', '_', str($dapi_round))
+        #set $segmarker = re.sub('[^\w\-\.\s]', '_', str($seg_marker))
+        #set $raremarker = re.sub('[^\w\-\.\s]', '_', str($rare_marker))
+
+	python $__tool_directory__/mpleximage_07_2_segmentation_cell_slidepxscene.py --celldiam $cell_diam --dapiround $dapiround --segmarker $segmarker --raremarker $raremarker --gpu $gpu
+
+    ]]></command>
+
+    <inputs>
+	<param type="data_collection" collection_type="list" format="tiff" name="tiff_registered_input" label="tiff_registered_input" />
+	<param type="integer" value="30" name="cell_diam" label="cell_diameter_input" help="cell diameter in pixel." />
+	<param type="text" value="R1" name="dapi_round" label="dapi_round" help="round from which dapi for segmentation should be used." />
+	<param type="text" value="Ecad" name="seg_marker" label="seg_marker" help="space separated list of cell segmentation markers. e.g. Ecad or PANCK." />
+	<param type="text" value="" name="rare_marker" label="rare_marker" help="space separated list of markers whos expression should be slightly enhanced by the scaleing step." />
+	<param type="boolean" truevalue="true" falsevalue="false" checked="false" name="gpu" label="gpu" help="are for segmentation gpu processor aviable and cellpose was gpu capable installed?" />
+    </inputs>
+
+    <outputs>
+        <collection type="list"  name="tiff_segmentation_output">
+            <discover_datasets pattern="__designation_and_ext__" visible="true" format="tiff" directory="tiff_segmentation" />
+        </collection>
+    </outputs>
+
+    <help></help>
+</tool>

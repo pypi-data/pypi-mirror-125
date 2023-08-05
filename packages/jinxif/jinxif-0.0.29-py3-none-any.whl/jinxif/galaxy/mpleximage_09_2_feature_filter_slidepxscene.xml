@@ -1,0 +1,61 @@
+<tool id="feature_filter" name="feature_filter" version="0.0.1" profile="21.09">
+    <description>for each marker filter and patch for relevant features</description>
+
+    <requirements>
+        <requirement type="package">jinxif</requirement>
+    </requirements>
+
+    <command detect_errors="exit_code"><![CDATA[
+        #import re
+
+        mkdir segmentation &&
+        mkdir registered &&
+        mkdir input &&
+        mkdir output &&
+
+        #set $filename = re.sub('[^\w\-\.\s]', '_', str($csv_feature_raw.element_identifier))
+        ln -s $csv_feature_raw segmentation/${filename}.csv &&
+
+        #set $filename = re.sub('[^\w\-\.\s]', '_', str($csv_threshold.element_identifier))
+        ln -s $csv_threshold registered/${filename}.csv &&
+
+        ln -s $json_feature_shape input/ds_feature_shape.json &&
+        ln -s $json_feature_centroid input/ds_feature_centroid.json &&
+
+        #set $dapifilter = re.sub('[^\w\-\.\s]', '_', str($dapi_parition_filter))
+        #set $cytopm = re.sub('[^\w\-\.\s]', '_', str($cytoplasm_marker))
+        #set $mneeded = re.sub('[^\w\-\.\s]', '_', str($marker_needed))
+        #set $custommp = re.sub('[^\w\-\.\s]', '_', str($custom_marker_parition))
+        #set $shrinkm = re.sub('[^\w\-\.\s]', '_', str($shrink_marker ))
+
+        python $__tool_directory__/mpleximage_09_2_feature_filter_slidepxscene.py --dapifilter $dapifilter --cytopmtheshold $cytoplasm_marker_theshold --cytopm $cytopm --exp $exp --mem $mem --shrink $shrink --mneeded $mneeded --custommp $custommp --shrinkm $shrinkm --filterna $filter_na
+    ]]></command>
+
+    <inputs>
+        <param type="data" format="csv" name="csv_feature_raw" label="csv_feature_raw" />
+        <param type="data" format="csv" name="csv_threshold" label="csv_treshold" />
+
+        <param type="data" format="json" name="json_feature_shape" label="json_feature_shape" help="dictinonaty which defiend original nucleus, cell, and cytoplasm shape numbers, and how they should be standard named (key)." />
+        <param type="data" format="json" name="json_feature_centroid" label="json_feature_centroid" help="dictinonaty which defiend original nucleus segmentation centroid, and how they should be standard named (key). the default dictionary is cellpose compatible." />
+
+        <param type="text" value="DAPI1_nuclei DAPI16_nuclei" name="dapi_parition_filter" label="dapi_parition_filter" help="" />
+        <param type="integer" value="1000" name="cytoplasm_marker_theshold" label="cytoplasm_marker_theshold" help="manual treshold for cytoplasm marker." />
+        <param type="text" value="Ecad" name="cytoplasm_marker" label="cytoplasm_marker" help="cytoplasm marker that will downstream. e.g. Ecad or PANCK. can be None." />
+
+        <param type="integer" value="5" name="exp" label="exp" help="how many pixel should the nucleus be extend to be regared as the whole cell? how whide should the dougnut regared as cytoplasm be? default setting is 5, though this value depends on your pixel size." />
+        <param type="integer" value="2" name="mem" label="mem" help="hom many pixel should the nucleus or cell border to the inside be extented to be regarded as  membran? how many pixel should the nucleus or cell border to the indside and outside be extended to be regared as adjacent? default setting is 2, though this value depends on your pixel size." />
+        <param type="integer" value="0" name="shrink" label="shrink" help="how much is the shrunk maker setting, this is the value that will be used if marker are patched against bleed through. note that this value have already be used for feature_extraction to be used here." />
+        <param type="text" value="" name="marker_needed" label="marker_needed" help="marker in the pannel that what so ever have to be in the extracted features. carefull, all rounds up to the round this markers occure will be processed." />
+        <param type="text" value="" name="custom_marker_parition" label="custom_marker_parition" help="custome marker_partitions, e.g. generated through shrink, that shoudl be included in the filtered and patched csv_feature_patch file." />
+        <param type="text" value="" name="shrink_marker" label="shrink_marker" help="optional against bleed throgh, list of shrunken marker  that should replace nucleus, exp{i_exp}, perinuc{i_exp}, or cytoplasm." />
+        <param type="boolean" truevalue="true" falsevalue="false" checked="false" name="filter_na" label="filter_na" help="boolean to specify if any rows with a NA segmentation feature mean intensity values should be droped. NAs occure, if in a batch from a slide_scene rounds are missing. default is False." />
+    </inputs>
+
+    <outputs>
+        <collection type="list"  name="segmentation_output">
+            <discover_datasets pattern="__designation_and_ext__" visible="true" format="csv" directory="output" /> 
+        </collection>
+    </outputs>
+
+    <help></help>
+</tool>

@@ -1,0 +1,41 @@
+<tool id="basic_marker_table" name="basic_marker_table" version="0.0.1" profile="21.09">
+
+    <description>generate batch wide marker table from one representative slide_pxscene</description>
+
+    <requirements>
+        <requirement type="package">jinxif</requirement>
+    </requirements>
+
+    <command detect_errors="exit_code"><![CDATA[
+	#import re
+
+        #set $the_batch = re.sub('[^\w\-\.\s]', '_', str($batch_id))
+
+        mkdir tiff_registered &&
+	mkdir csv_metaimages &&
+
+	#for $tiff in $tiff_registered_input:
+            #set $filename = re.sub('[^\w\-\.\s]', '_', str($tiff.element_identifier))
+            #if str($filename).endswith('.tif') or str($filename).endswith('.tiff'):
+                ln -s $tiff tiff_registered/$filename &&
+            #else:
+                ln -s $tiff tiff_registered/${filename}.tif &&
+            #end if
+	#end for
+
+	python $__tool_directory__/mpleximage_05_1_basic_marker_table_slidepxscene.py $the_batch
+    ]]></command>
+
+    <inputs>
+        <param type="text" value="batch-id" name="batch_id" label="batch_id" help="batch indetifier" />
+        <param type="data_collection" collection_type="list" format="tiff" name="tiff_registered_input" label="tiff_registered_input" />
+    </inputs>
+
+    <outputs>
+        <collection type="list"  name="basic_marker_table_batch_output">
+            <discover_datasets pattern="__designation_and_ext__" visible="false" format="csv" directory="csv_metaimages" />
+        </collection>
+    </outputs>
+
+    <help></help>
+</tool>
