@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: jaaql-middleware-python
+Version: 1.0.1
+Summary: The jaaql package, allowing for rapid development and deployment of RESTful HTTP applications
+Home-page: https://github.com/JAAQL/JAAQL-middleware-python
+Author: Software Quality Measurement and Improvement bv
+Author-email: aaron.tasker@sqmi.nl
+License: LICENSE.txt
+Description: # JAAQL-middleware-python
+        Please navigate to docker/docker.md to see setup instructions
+        
+Platform: UNKNOWN
+Description-Content-Type: text/markdown
