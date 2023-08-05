@@ -1,0 +1,9 @@
+backtesting/__init__.py,sha256=NdnlNQjZ0piT0kB1OR7AcU_Fslq2yBZOZKXLtHIo4PU,268
+backtesting/analysis.py,sha256=K_BzZwYMiQFydt7KTfUQaXB-PSPPIh5XLXgAnSilhoY,1941
+backtesting/report.py,sha256=O9sI6K2P_QWUY6y3yaFTXAaPkCw_3jz4kNPRFs1luy8,219
+backtesting/simulation.py,sha256=dfi1fK2DY_UtPCJLjCn313Nv_-IWR4x_0pSc-gt6qZU,9711
+trading_research-0.0.3.dist-info/LICENSE,sha256=XdcHxt6NfNHcmPZIaGa7HgZa4jZsCnk2-Osla5TNut4,1066
+trading_research-0.0.3.dist-info/METADATA,sha256=4JWbyRHaMasGZX_yxyPq_OFMEaHOSowKv_mA3KxzhFo,670
+trading_research-0.0.3.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+trading_research-0.0.3.dist-info/top_level.txt,sha256=TP-UsS1lkKd7MHfQDm3bM_vtXkNxZciKbARG4Do0t1M,12
+trading_research-0.0.3.dist-info/RECORD,,
