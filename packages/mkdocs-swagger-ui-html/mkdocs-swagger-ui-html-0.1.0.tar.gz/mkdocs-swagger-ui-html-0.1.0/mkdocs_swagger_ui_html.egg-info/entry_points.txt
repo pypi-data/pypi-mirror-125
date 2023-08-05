@@ -1,0 +1,3 @@
+[mkdocs.plugins]
+swagger-ui-html = mkdocs_swagger_ui_plugin.plugin:SwaggerUIPlugin
+
