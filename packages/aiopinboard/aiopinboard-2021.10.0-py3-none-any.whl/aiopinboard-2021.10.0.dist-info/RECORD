@@ -1,0 +1,9 @@
+aiopinboard/__init__.py,sha256=PTIMrwyOsnQQVInIPavmnuquyNJ9QCTuHywxBA0A4AM,78
+aiopinboard/api.py,sha256=Z5awkTPOcyub5eCDXOyugg3H_y1B7L4IWo6YwI-kKTg,2402
+aiopinboard/bookmark.py,sha256=bKLtypYSP8n-gnLHPSBmjuQJ_H41jRHnWFJgFf6lWB8,8330
+aiopinboard/errors.py,sha256=1WqZwt-Udyp4-RwCLj7mU2OBCFY1YyvWkAJAr7lAZJ0,597
+aiopinboard/note.py,sha256=g28Z4OtolE3sqkvdPzx9K4y5Z1aB3hmMOTOKVKeOtJQ,1355
+aiopinboard/tag.py,sha256=41qQN1OauXJECzwceXI-zpOyrAG0cYmAxWrCtUtiOMs,1165
+aiopinboard-2021.10.0.dist-info/WHEEL,sha256=y3eDiaFVSNTPbgzfNn0nYn5tEn1cX6WrdetDlQM4xWw,83
+aiopinboard-2021.10.0.dist-info/METADATA,sha256=ktR5BVU1CBRbXlVLZuh3YziUJFSAxTYjgWOjR-aBg5s,10656
+aiopinboard-2021.10.0.dist-info/RECORD,,
