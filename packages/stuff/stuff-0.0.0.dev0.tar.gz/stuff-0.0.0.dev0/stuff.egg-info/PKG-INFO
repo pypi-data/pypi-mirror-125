@@ -1,0 +1,32 @@
+Metadata-Version: 2.1
+Name: stuff
+Version: 0.0.0.dev0
+Summary: Stuff 'n' Things
+Home-page: https://github.com/simplistix/stuff
+Author: Chris Withers
+Author-email: chris@withers.org
+License: MIT
+Platform: UNKNOWN
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.9
+Provides-Extra: test
+Provides-Extra: build
+License-File: LICENSE.rst
+
+
+stuff
+=====
+
+|CircleCI|_  |Docs|_
+
+.. |CircleCI| image:: https://circleci.com/gh/simplistix/stuff/tree/master.svg?style=shield
+.. _CircleCI: https://circleci.com/gh/simplistix/stuff/tree/master
+
+.. |Docs| image:: https://readthedocs.org/projects/stuff/badge/?version=latest
+.. _Docs: http://stuff.readthedocs.org/en/latest/
+
+Stuff 'n' Things
+
+
