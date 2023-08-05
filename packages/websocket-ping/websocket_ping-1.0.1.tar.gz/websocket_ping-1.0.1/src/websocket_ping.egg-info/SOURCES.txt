@@ -1,0 +1,10 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+src/ping_ws/__init__.py
+src/ping_ws/ping_ws.py
+src/websocket_ping.egg-info/PKG-INFO
+src/websocket_ping.egg-info/SOURCES.txt
+src/websocket_ping.egg-info/dependency_links.txt
+src/websocket_ping.egg-info/top_level.txt
