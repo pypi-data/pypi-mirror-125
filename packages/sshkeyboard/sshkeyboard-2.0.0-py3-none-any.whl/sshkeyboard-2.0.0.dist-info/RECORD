@@ -1,0 +1,6 @@
+sshkeyboard/__init__.py,sha256=kncvvh1R885ip5zd81EhRAtQ9ULf-7LJwt9kxI7ao0Y,15517
+sshkeyboard/_asyncio_run_backport_36.py,sha256=ciTwrlcHu6zMm5-tFWK5EkIHXgyoqq_TXHORtr8FIH0,4783
+sshkeyboard-2.0.0.dist-info/LICENSE,sha256=otMX_psvVZ8QXajN9-cN62Sv0YvsXov7PEH6rvVTA2I,1081
+sshkeyboard-2.0.0.dist-info/WHEEL,sha256=VUbF57hf4yRZWWrOOjp25Fr4BQX9EtnVSbnP2vNxHDM,81
+sshkeyboard-2.0.0.dist-info/METADATA,sha256=bVWlJxWZS9UPBJ5UsEiHq8_JENn3aFuO-o4A8k-J-bc,11753
+sshkeyboard-2.0.0.dist-info/RECORD,,
