@@ -1,0 +1,14 @@
+sectoolkit/__init__.py,sha256=h2su6s1v4ETBaO5RHblIzNLXMCeagJR2kWyPbGSUnoc,295
+sectoolkit/config.py,sha256=nSJj4i9CJPsGX27gh2LC8SQOpSBRo22_ZcoM2gIHKAA,272
+sectoolkit/limiter.py,sha256=Uo5LTusEEl2HyQrL1DQEAD-q5skV9YaXPlHW_wG0bcE,1166
+sectoolkit/secfiling.py,sha256=WRxbfC6Y3fWCT3dG3E6H6NAfS0U-jJx90KNSauM9tpg,6581
+sectoolkit/secmeta.py,sha256=9yyYNip8_XDwC9H4W7GMi5FDv4wAnLbI-5_aZcrLmj8,19138
+sectoolkit/utils.py,sha256=YL4ivyL81WM6WGqZphwpjCLaKFLIsXIn2g7CvBTho1c,3274
+sectoolkit/formparsers/__init__.py,sha256=rKKG6oY0Q7DVfwxXgCaayEDHCI_PrvI-jJmweYPLO9M,173
+sectoolkit/formparsers/parser_13D.py,sha256=Yx2NpOQ9n7B2WN-b3CGvDc8vTyPsbPOjMyW0ENKzFXs,6369
+sectoolkit/formparsers/parser_base.py,sha256=ErtrWJywPjnfnkPoKoTkVlCF-RKjqSBXFJFv1Ym3gtA,942
+sectoolkit-0.2.2.dist-info/LICENSE,sha256=vhxU2ZK8hPxhOzQk8-tZlkb5j2uU4dj8CLWDvZsRzss,1089
+sectoolkit-0.2.2.dist-info/METADATA,sha256=qKE-kZrUUooMMA7NWVefEhFYILZqUAl8GN_cj8lHy4U,3513
+sectoolkit-0.2.2.dist-info/WHEEL,sha256=D1Wh14kWDxPnrM-5t_6UCB-UuQNrEODtRa3vF4OsvQY,97
+sectoolkit-0.2.2.dist-info/top_level.txt,sha256=fvrYTHEEzopHw31qPvcUL-EXSB91bf9NIr1586_crlo,11
+sectoolkit-0.2.2.dist-info/RECORD,,
