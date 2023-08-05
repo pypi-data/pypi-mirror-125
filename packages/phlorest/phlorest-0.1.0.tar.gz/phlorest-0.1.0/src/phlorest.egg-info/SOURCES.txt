@@ -1,0 +1,16 @@
+LICENSE
+MANIFEST.in
+README.md
+setup.cfg
+setup.py
+src/phlorest/__init__.py
+src/phlorest.egg-info/PKG-INFO
+src/phlorest.egg-info/SOURCES.txt
+src/phlorest.egg-info/dependency_links.txt
+src/phlorest.egg-info/entry_points.txt
+src/phlorest.egg-info/not-zip-safe
+src/phlorest.egg-info/requires.txt
+src/phlorest.egg-info/top_level.txt
+src/phlorest/commands/__init__.py
+src/phlorest/commands/merge_characters.py
+src/phlorest/commands/plot.py
