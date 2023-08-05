@@ -1,0 +1,22 @@
+Metadata-Version: 2.1
+Name: pydicomimg
+Version: 0.0.7
+Summary: Python DICOM image manipulator
+Home-page: UNKNOWN
+Author: Ryan Hennessey
+Author-email: <ryanphennessey@gmail.com>
+License: UNKNOWN
+Keywords: python,DICOM,Image,resize,rotate,flip
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Education
+Classifier: Programming Language :: Python :: 2
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: MacOS :: MacOS X
+Classifier: Operating System :: Microsoft :: Windows
+Requires-Dist: pydicom
+Requires-Dist: numpy
+
+Python DICOM image Manipulator allows for direct manipulation of DICOM images in python
+
+
