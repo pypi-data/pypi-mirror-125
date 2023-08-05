@@ -1,0 +1,34 @@
+[tool.poetry]
+name = "flashpass"
+version = "0.1.1"
+description = "Encrypt & Decrypt FlashPass .fp files"
+authors = ["Carson Mullins <carsonmullins@yahoo.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.9"
+cryptography = "^3.4.8"
+pyperclip = "^1.8.2"
+
+[tool.poetry.dev-dependencies]
+pytest = "^5.2"
+black = "^21.8b0"
+pylint = "^2.10.2"
+mypy = "^0.910"
+isort = "^5.9.3"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.isort]
+profile = "black"
+
+[tool.pylint.messages_control]
+disable = "C0330, C0326, W0511"
+
+[tool.pylint.format]
+max-line-length = "88"
+
+
+[tool.poetry.scripts]
+flashpass = "flashpass.cli:main"
