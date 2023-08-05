@@ -1,0 +1,10 @@
+rawpipe/__init__.py,sha256=Wyhv5Fji0SbNI2OLYpgUXCYEjLc7HAI90vGFV9Tf-uc,1649
+rawpipe/rawpipe.py,sha256=Blv8VQa6jVhgUDlN9xBPXf9CKmCTUaZQjXsiil9G9qo,23650
+test/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+test/regression.py,sha256=vKR4m-P1zlNYnL9SexvZ7cAxrT0H7oTNfHJwhidKjYU,2391
+rawpipe-0.10.0.dist-info/LICENSE,sha256=bnRO5PlrqZn0km-PVB2Wxsup0AMBLacMxKmE3ch94AM,1063
+rawpipe-0.10.0.dist-info/METADATA,sha256=D46zz0IBXrsjq6zjgjc_dUdZLge3DDQtMqDCyb8aZVY,405
+rawpipe-0.10.0.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+rawpipe-0.10.0.dist-info/top_level.txt,sha256=tUekisN99JJ4rTgBAv9IqioeDarlc2swmMeR7ZmvXX0,13
+rawpipe-0.10.0.dist-info/zip-safe,sha256=AbpHGcgLb-kRsJGnwFEktk7uzpZOCcBY74-YBdrKVGs,1
+rawpipe-0.10.0.dist-info/RECORD,,
