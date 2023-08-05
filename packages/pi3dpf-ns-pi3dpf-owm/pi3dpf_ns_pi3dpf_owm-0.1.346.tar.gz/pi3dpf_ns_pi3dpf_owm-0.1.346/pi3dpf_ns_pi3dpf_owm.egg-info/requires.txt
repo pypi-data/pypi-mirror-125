@@ -1,0 +1,11 @@
+Pillow>=8.1.1
+attrs>=20.3.0
+numpy>=1.16.2
+paho-mqtt>=1.5.1
+pyoo>=1.4
+regex
+reportlab>=3.5.66
+requests>=2.25.1
+soco>=0.21.3
+svglib>=1.0.1
+urllib3>=1.26.4
