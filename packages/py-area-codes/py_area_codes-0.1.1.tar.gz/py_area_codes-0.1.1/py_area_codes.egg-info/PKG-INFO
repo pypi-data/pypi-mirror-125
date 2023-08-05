@@ -1,0 +1,28 @@
+Metadata-Version: 2.1
+Name: py-area-codes
+Version: 0.1.1
+Summary: Lightweight package to simplify dealing with area codes
+Home-page: https://github.com/jbirdvegas/py_area_codes
+Author: Jon Stanford
+Author-email: jbirdvegas@gmail.com
+License: Creative Commons
+Platform: UNKNOWN
+Classifier: Operating System :: POSIX :: Linux
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Description-Content-Type: text/markdown
+
+PyAreaCodes
+
+A lightweight project that simplifies working with US area codes.
+
+- List a state's area codes from the state name or state abbreviation.
+- Discover the state name or abbreviation from a given area code.
+- Translate state names into state abbreviations and vice versa.
+
