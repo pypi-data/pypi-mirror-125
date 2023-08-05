@@ -1,0 +1,8 @@
+setup.py
+pydicomimg/__init__.py
+pydicomimg/pydicomimg.py
+pydicomimg.egg-info/PKG-INFO
+pydicomimg.egg-info/SOURCES.txt
+pydicomimg.egg-info/dependency_links.txt
+pydicomimg.egg-info/requires.txt
+pydicomimg.egg-info/top_level.txt
