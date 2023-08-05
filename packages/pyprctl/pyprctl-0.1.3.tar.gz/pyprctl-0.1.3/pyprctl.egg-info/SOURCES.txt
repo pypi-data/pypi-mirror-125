@@ -1,0 +1,17 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+setup.py
+pyprctl/__init__.py
+pyprctl/caps.py
+pyprctl/ffi.py
+pyprctl/file_caps.py
+pyprctl/fsid.py
+pyprctl/misc.py
+pyprctl/py.typed
+pyprctl.egg-info/PKG-INFO
+pyprctl.egg-info/SOURCES.txt
+pyprctl.egg-info/dependency_links.txt
+pyprctl.egg-info/requires.txt
+pyprctl.egg-info/top_level.txt
