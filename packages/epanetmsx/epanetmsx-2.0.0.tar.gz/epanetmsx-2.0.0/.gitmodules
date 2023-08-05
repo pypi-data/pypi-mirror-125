@@ -1,0 +1,4 @@
+[submodule "epanet-msx"]
+	path = epanet-msx
+	url = https://github.com/OpenWaterAnalytics/epanet-msx
+	branch = dev
