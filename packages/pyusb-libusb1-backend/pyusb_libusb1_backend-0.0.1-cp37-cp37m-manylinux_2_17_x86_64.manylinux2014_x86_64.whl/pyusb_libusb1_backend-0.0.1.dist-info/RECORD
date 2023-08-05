@@ -1,0 +1,13 @@
+pyusb_libusb1_backend/libusb.cpython-37m-x86_64-linux-gnu.so,sha256=Z0HQc5tqRvbkxjTtqWq9l_r3otLOrLzotUEmtTj6vks,148792
+pyusb_libusb1_backend/__init__.py,sha256=k9Pj75mLYgERpbN4Rw2tIEmlzWXnU4dhE_MByZx3xhs,538
+pyusb_libusb1_backend.libs/libcap-79733b59.so.2.22,sha256=LC4uoTM49e-E1u-EfFDS-ulD3y68YtNODRRuw-X_1Fo,25408
+pyusb_libusb1_backend.libs/libudev-cbe9b76e.so.1.6.2,sha256=P7PlAnLwtE5hFRAaavUbS89W4_ML0c0H6Fz1kZJokKE,110040
+pyusb_libusb1_backend.libs/libelf-0-3d9de92a.176.so,sha256=vNXIM4StWXL1VShLrddETo8E5AInRNKngdY8BETcdzE,105720
+pyusb_libusb1_backend.libs/libdw-0-780627ce.176.so,sha256=QeffxAYMO4jBJgnJJuLGrE8_03K5bcYovD7GTsX4V68,383192
+pyusb_libusb1_backend.libs/libattr-4f2a9577.so.1.1.0,sha256=B2FUS3_CrqK0NtDxWShfhzS8lNm5yz723oSxjM_fpAo,21456
+pyusb_libusb1_backend.libs/libbz2-a273e504.so.1.0.6,sha256=rG90qT6zByoD_7GEoC9BGhcYmz84nAlVGMxs0ts9bqw,70992
+pyusb_libusb1_backend.libs/liblzma-07b5b5c8.so.5.2.2,sha256=jbT30ebhJOCsHMXsU4AMu2mAe0U17dckTo2R6ESAy4E,163472
+pyusb_libusb1_backend-0.0.1.dist-info/WHEEL,sha256=Vqd_n_IKgR469FNqkIoqwEhrX3PSWel3O4QQXU4e5pU,150
+pyusb_libusb1_backend-0.0.1.dist-info/top_level.txt,sha256=nWUb6ddCNSoH9jAp8Hk4UCc9WLBauJ9VGGpnVWdULF0,22
+pyusb_libusb1_backend-0.0.1.dist-info/METADATA,sha256=jJ4qtVPxp7Rw0p2ZOkH0mTvfXtwDy0-CC3nGK1w_h2s,998
+pyusb_libusb1_backend-0.0.1.dist-info/RECORD,,
