@@ -1,0 +1,10 @@
+tracardi_postgresql_connector/plugin.py,sha256=ww7h2ETjsOFiZ7yJnWqUAHAyFfcRY4mnYxJgM2ZDIio,4289
+tracardi_postgresql_connector/model/configuration.py,sha256=x4WRYa6VPnYduqrxMguGDF6FdGnHEIGH70MXzm_J9XQ,163
+tracardi_postgresql_connector/model/postresql.py,sha256=CTtYnQnD4jacUzKR1hqKO8NxgsTBBKI9H25bDuBvwRk,520
+tracardi_postgresql_connector/model/__pycache__/configuration.cpython-38.pyc,sha256=yj17LavHQ6uoQ8on-UC1oOl4ZcVvbIHSOzhWV7oPPZM,557
+tracardi_postgresql_connector/model/__pycache__/postresql.cpython-38.pyc,sha256=h9l-hU27DDKh787BR8U1zS_fnRxhhrSZyLm8tZFyU6g,828
+tracardi_postgresql_connector-0.6.0.dist-info/LICENSE.md,sha256=VNNEIm2cRLjCDX_2IAzUILBOKovoWqUTYEanPFvqrWo,1068
+tracardi_postgresql_connector-0.6.0.dist-info/METADATA,sha256=5HTE5rKZJ5_HzaIhulJheZMyuggPmTgF05LFKa4z5xc,685
+tracardi_postgresql_connector-0.6.0.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+tracardi_postgresql_connector-0.6.0.dist-info/top_level.txt,sha256=9d9eLhmGB7wvFBMs3e_3vw9TDpyb1fWtbPySagEWplo,30
+tracardi_postgresql_connector-0.6.0.dist-info/RECORD,,
