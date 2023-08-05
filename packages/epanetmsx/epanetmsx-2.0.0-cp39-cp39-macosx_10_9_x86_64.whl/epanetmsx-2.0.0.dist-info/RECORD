@@ -1,0 +1,10 @@
+epanetmsx/toolkit.py,sha256=4udLl9ajgwv9KGWKIFsv7tg7ul6JjqwAVqe4MNffPwA,20636
+epanetmsx/__init__.py,sha256=bN74YrYPwqF_X44rtaokKdwQs2R_-wJiy-tWGsr9jh8,42
+epanetmsx/_toolkit.so,sha256=QyydxSsvrjXkMYWKQ5iZ0cHfszQZWClo38_tg4RH83Q,132048
+epanetmsx/libmsxcore.dylib,sha256=JrgV2vcgQ6nUAKExdBdtvzfAGVe5_Ix6qWDRCV0yK5I,166608
+epanetmsx/.dylibs/libomp.dylib,sha256=BPLsDY-eHP2NbsNtvhnRRDRSrlx9cqTKu2GpaThi6J8,662464
+epanetmsx-2.0.0.dist-info/RECORD,,
+epanetmsx-2.0.0.dist-info/LICENSE,sha256=Nod0_gL564kF5xTYQ9oK8OVCwmbXL6xWK7QyMzkTq3Q,1077
+epanetmsx-2.0.0.dist-info/WHEEL,sha256=LkvsUgcND9C8udpIYgVTdGd8GEOgjNF77MVgEl_o134,103
+epanetmsx-2.0.0.dist-info/top_level.txt,sha256=IK30ETLUc6LoBgH-aL0GMr5tc2xK-4iydyr0TNODjPk,10
+epanetmsx-2.0.0.dist-info/METADATA,sha256=IZQVMYgJIbYOiGc1-37Z0B2QySb61gjdZEZg5yqAJzA,2859
