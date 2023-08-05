@@ -1,0 +1,23 @@
+Metadata-Version: 2.1
+Name: fasttempcli
+Version: 0.0.11
+Summary: Template of fastapi to upload to heroku
+Home-page: https://github.com/LErnandes/fastcli
+Author: Luis Ernandes
+Author-email: luis78270@gmail.com
+License: MIT
+Description: # FastCLI
+        
+        ## Installation
+        ```
+        pip install fastcli
+        ```
+        
+        ## Create
+        ```
+        fastcli create backend
+        ```
+        
+Keywords: fastcli,fastapi,fascli,cli,api,template,heroku
+Platform: UNKNOWN
+Description-Content-Type: text/markdown

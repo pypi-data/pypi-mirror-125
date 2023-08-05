@@ -1,0 +1,9 @@
+README.md
+setup.cfg
+setup.py
+fasttempcli.egg-info/PKG-INFO
+fasttempcli.egg-info/SOURCES.txt
+fasttempcli.egg-info/dependency_links.txt
+fasttempcli.egg-info/entry_points.txt
+fasttempcli.egg-info/requires.txt
+fasttempcli.egg-info/top_level.txt

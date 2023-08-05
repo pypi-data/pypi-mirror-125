@@ -1,0 +1,5 @@
+click
+emoji
+fastapi
+typing
+uvicorn
