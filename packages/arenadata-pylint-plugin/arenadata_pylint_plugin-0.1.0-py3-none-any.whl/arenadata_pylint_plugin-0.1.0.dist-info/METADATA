@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: arenadata-pylint-plugin
+Version: 0.1.0
+Summary: The pylint plugin sniffing for a bad code
+Home-page: UNKNOWN
+Author: UNKNOWN
+Author-email: UNKNOWN
+License: UNKNOWN
+Platform: UNKNOWN
+Requires-Dist: pylint
+Requires-Dist: astroid
+
+UNKNOWN
+
+
