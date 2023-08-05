@@ -1,0 +1,1070 @@
+directive @dgraph(
+  type: String
+  pred: String
+) on OBJECT | INTERFACE | FIELD_DEFINITION
+
+directive @secret(field: String!, pred: String) on OBJECT | INTERFACE
+
+directive @lambda on FIELD_DEFINITION
+
+directive @cacheControl(maxAge: Int!) on QUERY
+
+directive @generate(
+  query: GenerateQueryParams
+  mutation: GenerateMutationParams
+  subscription: Boolean
+) on OBJECT | INTERFACE
+
+directive @custom(http: CustomHTTP, dql: String) on FIELD_DEFINITION
+
+directive @remoteResponse(name: String) on FIELD_DEFINITION
+
+directive @hasInverse(field: String!) on FIELD_DEFINITION
+
+directive @search(by: [DgraphIndex!]) on FIELD_DEFINITION
+
+directive @auth(
+  password: AuthRule
+  query: AuthRule
+  add: AuthRule
+  update: AuthRule
+  delete: AuthRule
+) on OBJECT | INTERFACE
+
+directive @id on FIELD_DEFINITION
+
+directive @withSubscription on OBJECT | INTERFACE | FIELD_DEFINITION
+
+directive @remote on OBJECT | INTERFACE | UNION | INPUT_OBJECT | ENUM
+
+directive @cascade(fields: [String]) on FIELD
+
+directive @lambdaOnMutate(
+  add: Boolean
+  update: Boolean
+  delete: Boolean
+) on OBJECT | INTERFACE
+
+input AddArtistInput {
+  id: String!
+  slug: String!
+  name: String!
+  sellers: [UserRef]
+  bookings: [BookingRef]
+}
+
+type AddArtistPayload {
+  artist(
+    filter: ArtistFilter
+    order: ArtistOrder
+    first: Int
+    offset: Int
+  ): [Artist]
+  numUids: Int
+}
+
+input AddBookingInput {
+  id: String!
+  artist: ArtistRef!
+  venue: VenueRef!
+  created_at: DateTime!
+  created_by: UserRef
+  status: String!
+}
+
+type AddBookingPayload {
+  booking(
+    filter: BookingFilter
+    order: BookingOrder
+    first: Int
+    offset: Int
+  ): [Booking]
+  numUids: Int
+}
+
+input AddStudentInput {
+  username: String!
+  name: String!
+  age: Int!
+  taught_by: TeacherRef!
+  is_friends_with: [StudentRef!]
+  optional_field: String
+  optional_list: [String!]
+  created_at: DateTime
+  favorite_artist_id: String!
+}
+
+type AddStudentPayload {
+  student(
+    filter: StudentFilter
+    order: StudentOrder
+    first: Int
+    offset: Int
+  ): [Student]
+  numUids: Int
+}
+
+input AddTeacherInput {
+  username: String!
+  name: String!
+  teaches: [StudentRef!]
+}
+
+type AddTeacherPayload {
+  teacher(
+    filter: TeacherFilter
+    order: TeacherOrder
+    first: Int
+    offset: Int
+  ): [Teacher]
+  numUids: Int
+}
+
+input AddUserInput {
+  id: String!
+  slug: String!
+  name: String!
+  artists: [ArtistRef]
+  venues: [VenueRef]
+  created_bookings: [BookingRef]
+}
+
+type AddUserPayload {
+  user(filter: UserFilter, order: UserOrder, first: Int, offset: Int): [User]
+  numUids: Int
+}
+
+input AddVenueInput {
+  id: String!
+  slug: String!
+  name: String!
+  owners: [UserRef]
+  bookings: [BookingRef]
+}
+
+type AddVenuePayload {
+  venue(
+    filter: VenueFilter
+    order: VenueOrder
+    first: Int
+    offset: Int
+  ): [Venue]
+  numUids: Int
+}
+
+type Artist {
+  id: String!
+  slug: String!
+  name: String!
+  sellers(filter: UserFilter, order: UserOrder, first: Int, offset: Int): [User]
+  bookings(
+    filter: BookingFilter
+    order: BookingOrder
+    first: Int
+    offset: Int
+  ): [Booking]
+  sellersAggregate(filter: UserFilter): UserAggregateResult
+  bookingsAggregate(filter: BookingFilter): BookingAggregateResult
+}
+
+type ArtistAggregateResult {
+  count: Int
+  idMin: String
+  idMax: String
+  slugMin: String
+  slugMax: String
+  nameMin: String
+  nameMax: String
+}
+
+input ArtistFilter {
+  id: StringHashFilter
+  slug: StringHashFilter
+  name: StringFullTextFilter_StringRegExpFilter_StringTermFilter
+  has: [ArtistHasFilter]
+  and: [ArtistFilter]
+  or: [ArtistFilter]
+  not: ArtistFilter
+}
+
+enum ArtistHasFilter {
+  id
+  slug
+  name
+  sellers
+  bookings
+}
+
+input ArtistOrder {
+  asc: ArtistOrderable
+  desc: ArtistOrderable
+  then: ArtistOrder
+}
+
+enum ArtistOrderable {
+  id
+  slug
+  name
+}
+
+input ArtistPatch {
+  name: String
+  sellers: [UserRef]
+  bookings: [BookingRef]
+}
+
+input ArtistRef {
+  id: String
+  slug: String
+  name: String
+  sellers: [UserRef]
+  bookings: [BookingRef]
+}
+
+input AuthRule {
+  and: [AuthRule]
+  or: [AuthRule]
+  not: AuthRule
+  rule: String
+}
+
+type BeatGigArtist {
+  id: ID!
+  slug: String!
+  name: String!
+}
+
+type Booking {
+  id: String!
+  artist(filter: ArtistFilter): Artist!
+  venue(filter: VenueFilter): Venue!
+  created_at: DateTime!
+  created_by(filter: UserFilter): User
+  status: String!
+}
+
+type BookingAggregateResult {
+  count: Int
+  idMin: String
+  idMax: String
+  created_atMin: DateTime
+  created_atMax: DateTime
+  statusMin: String
+  statusMax: String
+}
+
+input BookingFilter {
+  id: StringHashFilter
+  has: [BookingHasFilter]
+  and: [BookingFilter]
+  or: [BookingFilter]
+  not: BookingFilter
+}
+
+enum BookingHasFilter {
+  id
+  artist
+  venue
+  created_at
+  created_by
+  status
+}
+
+input BookingOrder {
+  asc: BookingOrderable
+  desc: BookingOrderable
+  then: BookingOrder
+}
+
+enum BookingOrderable {
+  id
+  created_at
+  status
+}
+
+input BookingPatch {
+  artist: ArtistRef
+  venue: VenueRef
+  created_at: DateTime
+  created_by: UserRef
+  status: String
+}
+
+input BookingRef {
+  id: String
+  artist: ArtistRef
+  venue: VenueRef
+  created_at: DateTime
+  created_by: UserRef
+  status: String
+}
+
+input ContainsFilter {
+  point: PointRef
+  polygon: PolygonRef
+}
+
+input CustomHTTP {
+  url: String!
+  method: HTTPMethod!
+  body: String
+  graphql: String
+  mode: Mode
+  forwardHeaders: [String!]
+  secretHeaders: [String!]
+  introspectionHeaders: [String!]
+  skipIntrospection: Boolean
+}
+
+"""
+The DateTime scalar type represents date and time as a string in RFC3339 format.
+For example: "1985-04-12T23:20:50.52Z" represents 20 minutes and 50.52 seconds
+after the 23rd hour of April 12th, 1985 in UTC.
+"""
+scalar DateTime
+
+input DateTimeFilter {
+  eq: DateTime
+  in: [DateTime]
+  le: DateTime
+  lt: DateTime
+  ge: DateTime
+  gt: DateTime
+  between: DateTimeRange
+}
+
+input DateTimeRange {
+  min: DateTime!
+  max: DateTime!
+}
+
+type DeleteArtistPayload {
+  artist(
+    filter: ArtistFilter
+    order: ArtistOrder
+    first: Int
+    offset: Int
+  ): [Artist]
+  msg: String
+  numUids: Int
+}
+
+type DeleteBookingPayload {
+  booking(
+    filter: BookingFilter
+    order: BookingOrder
+    first: Int
+    offset: Int
+  ): [Booking]
+  msg: String
+  numUids: Int
+}
+
+type DeleteStudentPayload {
+  student(
+    filter: StudentFilter
+    order: StudentOrder
+    first: Int
+    offset: Int
+  ): [Student]
+  msg: String
+  numUids: Int
+}
+
+type DeleteTeacherPayload {
+  teacher(
+    filter: TeacherFilter
+    order: TeacherOrder
+    first: Int
+    offset: Int
+  ): [Teacher]
+  msg: String
+  numUids: Int
+}
+
+type DeleteUserPayload {
+  user(filter: UserFilter, order: UserOrder, first: Int, offset: Int): [User]
+  msg: String
+  numUids: Int
+}
+
+type DeleteVenuePayload {
+  venue(
+    filter: VenueFilter
+    order: VenueOrder
+    first: Int
+    offset: Int
+  ): [Venue]
+  msg: String
+  numUids: Int
+}
+
+enum DgraphIndex {
+  int
+  int64
+  float
+  bool
+  hash
+  exact
+  term
+  fulltext
+  trigram
+  regexp
+  year
+  month
+  day
+  hour
+  geo
+}
+
+input FloatFilter {
+  eq: Float
+  in: [Float]
+  le: Float
+  lt: Float
+  ge: Float
+  gt: Float
+  between: FloatRange
+}
+
+input FloatRange {
+  min: Float!
+  max: Float!
+}
+
+input GenerateMutationParams {
+  add: Boolean
+  update: Boolean
+  delete: Boolean
+}
+
+input GenerateQueryParams {
+  get: Boolean
+  query: Boolean
+  password: Boolean
+  aggregate: Boolean
+}
+
+enum HTTPMethod {
+  GET
+  POST
+  PUT
+  PATCH
+  DELETE
+}
+
+"""
+The Int64 scalar type represents a signed 64‐bit numeric non‐fractional value.
+Int64 can represent values in range [-(2^63),(2^63 - 1)].
+"""
+scalar Int64
+
+input Int64Filter {
+  eq: Int64
+  in: [Int64]
+  le: Int64
+  lt: Int64
+  ge: Int64
+  gt: Int64
+  between: Int64Range
+}
+
+input Int64Range {
+  min: Int64!
+  max: Int64!
+}
+
+input IntersectsFilter {
+  polygon: PolygonRef
+  multiPolygon: MultiPolygonRef
+}
+
+input IntFilter {
+  eq: Int
+  in: [Int]
+  le: Int
+  lt: Int
+  ge: Int
+  gt: Int
+  between: IntRange
+}
+
+input IntRange {
+  min: Int!
+  max: Int!
+}
+
+enum Mode {
+  BATCH
+  SINGLE
+}
+
+type MultiPolygon {
+  polygons: [Polygon!]!
+}
+
+input MultiPolygonRef {
+  polygons: [PolygonRef!]!
+}
+
+type Mutation {
+  addUser(input: [AddUserInput!]!, upsert: Boolean): AddUserPayload
+  updateUser(input: UpdateUserInput!): UpdateUserPayload
+  deleteUser(filter: UserFilter!): DeleteUserPayload
+  addArtist(input: [AddArtistInput!]!, upsert: Boolean): AddArtistPayload
+  updateArtist(input: UpdateArtistInput!): UpdateArtistPayload
+  deleteArtist(filter: ArtistFilter!): DeleteArtistPayload
+  addVenue(input: [AddVenueInput!]!, upsert: Boolean): AddVenuePayload
+  updateVenue(input: UpdateVenueInput!): UpdateVenuePayload
+  deleteVenue(filter: VenueFilter!): DeleteVenuePayload
+  addBooking(input: [AddBookingInput!]!, upsert: Boolean): AddBookingPayload
+  updateBooking(input: UpdateBookingInput!): UpdateBookingPayload
+  deleteBooking(filter: BookingFilter!): DeleteBookingPayload
+  addTeacher(input: [AddTeacherInput!]!, upsert: Boolean): AddTeacherPayload
+  updateTeacher(input: UpdateTeacherInput!): UpdateTeacherPayload
+  deleteTeacher(filter: TeacherFilter!): DeleteTeacherPayload
+  addStudent(input: [AddStudentInput!]!, upsert: Boolean): AddStudentPayload
+  updateStudent(input: UpdateStudentInput!): UpdateStudentPayload
+  deleteStudent(filter: StudentFilter!): DeleteStudentPayload
+}
+
+input NearFilter {
+  distance: Float!
+  coordinate: PointRef!
+}
+
+type Point {
+  longitude: Float!
+  latitude: Float!
+}
+
+input PointGeoFilter {
+  near: NearFilter
+  within: WithinFilter
+}
+
+type PointList {
+  points: [Point!]!
+}
+
+input PointListRef {
+  points: [PointRef!]!
+}
+
+input PointRef {
+  longitude: Float!
+  latitude: Float!
+}
+
+type Polygon {
+  coordinates: [PointList!]!
+}
+
+input PolygonGeoFilter {
+  near: NearFilter
+  within: WithinFilter
+  contains: ContainsFilter
+  intersects: IntersectsFilter
+}
+
+input PolygonRef {
+  coordinates: [PointListRef!]!
+}
+
+type Query {
+  getArtistBeatGig(slug: String!): BeatGigArtist
+  add(a: Int, b: Int): Int!
+  getUser(id: String, slug: String): User
+  queryUser(
+    filter: UserFilter
+    order: UserOrder
+    first: Int
+    offset: Int
+  ): [User]
+  aggregateUser(filter: UserFilter): UserAggregateResult
+  getArtist(id: String, slug: String): Artist
+  queryArtist(
+    filter: ArtistFilter
+    order: ArtistOrder
+    first: Int
+    offset: Int
+  ): [Artist]
+  aggregateArtist(filter: ArtistFilter): ArtistAggregateResult
+  getVenue(id: String, slug: String): Venue
+  queryVenue(
+    filter: VenueFilter
+    order: VenueOrder
+    first: Int
+    offset: Int
+  ): [Venue]
+  aggregateVenue(filter: VenueFilter): VenueAggregateResult
+  getBooking(id: String!): Booking
+  queryBooking(
+    filter: BookingFilter
+    order: BookingOrder
+    first: Int
+    offset: Int
+  ): [Booking]
+  aggregateBooking(filter: BookingFilter): BookingAggregateResult
+  getTeacher(id: ID, username: String): Teacher
+  queryTeacher(
+    filter: TeacherFilter
+    order: TeacherOrder
+    first: Int
+    offset: Int
+  ): [Teacher]
+  aggregateTeacher(filter: TeacherFilter): TeacherAggregateResult
+  getStudent(id: ID, username: String): Student
+  queryStudent(
+    filter: StudentFilter
+    order: StudentOrder
+    first: Int
+    offset: Int
+  ): [Student]
+  aggregateStudent(filter: StudentFilter): StudentAggregateResult
+}
+
+input StringExactFilter {
+  eq: String
+  in: [String]
+  le: String
+  lt: String
+  ge: String
+  gt: String
+  between: StringRange
+}
+
+input StringFullTextFilter {
+  alloftext: String
+  anyoftext: String
+}
+
+input StringFullTextFilter_StringRegExpFilter_StringTermFilter {
+  alloftext: String
+  anyoftext: String
+  regexp: String
+  allofterms: String
+  anyofterms: String
+}
+
+input StringHashFilter {
+  eq: String
+  in: [String]
+}
+
+input StringRange {
+  min: String!
+  max: String!
+}
+
+input StringRegExpFilter {
+  regexp: String
+}
+
+input StringTermFilter {
+  allofterms: String
+  anyofterms: String
+}
+
+type Student {
+  id: ID!
+  username: String!
+  name: String!
+  age: Int!
+  taught_by(filter: TeacherFilter): Teacher!
+  is_friends_with(
+    filter: StudentFilter
+    order: StudentOrder
+    first: Int
+    offset: Int
+  ): [Student!]
+  optional_field: String
+  optional_list: [String!]
+  created_at: DateTime
+  favorite_artist_id: String!
+  favorite_artist: BeatGigArtist
+  is_friends_withAggregate(filter: StudentFilter): StudentAggregateResult
+}
+
+type StudentAggregateResult {
+  count: Int
+  usernameMin: String
+  usernameMax: String
+  nameMin: String
+  nameMax: String
+  ageMin: Int
+  ageMax: Int
+  ageSum: Int
+  ageAvg: Float
+  optional_fieldMin: String
+  optional_fieldMax: String
+  created_atMin: DateTime
+  created_atMax: DateTime
+  favorite_artist_idMin: String
+  favorite_artist_idMax: String
+}
+
+input StudentFilter {
+  id: [ID!]
+  username: StringHashFilter
+  has: [StudentHasFilter]
+  and: [StudentFilter]
+  or: [StudentFilter]
+  not: StudentFilter
+}
+
+enum StudentHasFilter {
+  username
+  name
+  age
+  taught_by
+  is_friends_with
+  optional_field
+  optional_list
+  created_at
+  favorite_artist_id
+}
+
+input StudentOrder {
+  asc: StudentOrderable
+  desc: StudentOrderable
+  then: StudentOrder
+}
+
+enum StudentOrderable {
+  username
+  name
+  age
+  optional_field
+  created_at
+  favorite_artist_id
+}
+
+input StudentPatch {
+  name: String
+  age: Int
+  taught_by: TeacherRef
+  is_friends_with: [StudentRef!]
+  optional_field: String
+  optional_list: [String!]
+  created_at: DateTime
+  favorite_artist_id: String
+}
+
+input StudentRef {
+  id: ID
+  username: String
+  name: String
+  age: Int
+  taught_by: TeacherRef
+  is_friends_with: [StudentRef!]
+  optional_field: String
+  optional_list: [String!]
+  created_at: DateTime
+  favorite_artist_id: String
+}
+
+type Teacher {
+  id: ID!
+  username: String!
+  name: String!
+  teaches(
+    filter: StudentFilter
+    order: StudentOrder
+    first: Int
+    offset: Int
+  ): [Student!]
+  teachesAggregate(filter: StudentFilter): StudentAggregateResult
+}
+
+type TeacherAggregateResult {
+  count: Int
+  usernameMin: String
+  usernameMax: String
+  nameMin: String
+  nameMax: String
+}
+
+input TeacherFilter {
+  id: [ID!]
+  username: StringHashFilter
+  has: [TeacherHasFilter]
+  and: [TeacherFilter]
+  or: [TeacherFilter]
+  not: TeacherFilter
+}
+
+enum TeacherHasFilter {
+  username
+  name
+  teaches
+}
+
+input TeacherOrder {
+  asc: TeacherOrderable
+  desc: TeacherOrderable
+  then: TeacherOrder
+}
+
+enum TeacherOrderable {
+  username
+  name
+}
+
+input TeacherPatch {
+  name: String
+  teaches: [StudentRef!]
+}
+
+input TeacherRef {
+  id: ID
+  username: String
+  name: String
+  teaches: [StudentRef!]
+}
+
+input UpdateArtistInput {
+  filter: ArtistFilter!
+  set: ArtistPatch
+  remove: ArtistPatch
+}
+
+type UpdateArtistPayload {
+  artist(
+    filter: ArtistFilter
+    order: ArtistOrder
+    first: Int
+    offset: Int
+  ): [Artist]
+  numUids: Int
+}
+
+input UpdateBookingInput {
+  filter: BookingFilter!
+  set: BookingPatch
+  remove: BookingPatch
+}
+
+type UpdateBookingPayload {
+  booking(
+    filter: BookingFilter
+    order: BookingOrder
+    first: Int
+    offset: Int
+  ): [Booking]
+  numUids: Int
+}
+
+input UpdateStudentInput {
+  filter: StudentFilter!
+  set: StudentPatch
+  remove: StudentPatch
+}
+
+type UpdateStudentPayload {
+  student(
+    filter: StudentFilter
+    order: StudentOrder
+    first: Int
+    offset: Int
+  ): [Student]
+  numUids: Int
+}
+
+input UpdateTeacherInput {
+  filter: TeacherFilter!
+  set: TeacherPatch
+  remove: TeacherPatch
+}
+
+type UpdateTeacherPayload {
+  teacher(
+    filter: TeacherFilter
+    order: TeacherOrder
+    first: Int
+    offset: Int
+  ): [Teacher]
+  numUids: Int
+}
+
+input UpdateUserInput {
+  filter: UserFilter!
+  set: UserPatch
+  remove: UserPatch
+}
+
+type UpdateUserPayload {
+  user(filter: UserFilter, order: UserOrder, first: Int, offset: Int): [User]
+  numUids: Int
+}
+
+input UpdateVenueInput {
+  filter: VenueFilter!
+  set: VenuePatch
+  remove: VenuePatch
+}
+
+type UpdateVenuePayload {
+  venue(
+    filter: VenueFilter
+    order: VenueOrder
+    first: Int
+    offset: Int
+  ): [Venue]
+  numUids: Int
+}
+
+type User {
+  id: String!
+  slug: String!
+  name: String!
+  artists(
+    filter: ArtistFilter
+    order: ArtistOrder
+    first: Int
+    offset: Int
+  ): [Artist]
+  venues(
+    filter: VenueFilter
+    order: VenueOrder
+    first: Int
+    offset: Int
+  ): [Venue]
+  created_bookings(
+    filter: BookingFilter
+    order: BookingOrder
+    first: Int
+    offset: Int
+  ): [Booking]
+  artistsAggregate(filter: ArtistFilter): ArtistAggregateResult
+  venuesAggregate(filter: VenueFilter): VenueAggregateResult
+  created_bookingsAggregate(filter: BookingFilter): BookingAggregateResult
+}
+
+type UserAggregateResult {
+  count: Int
+  idMin: String
+  idMax: String
+  slugMin: String
+  slugMax: String
+  nameMin: String
+  nameMax: String
+}
+
+input UserFilter {
+  id: StringHashFilter
+  slug: StringHashFilter
+  has: [UserHasFilter]
+  and: [UserFilter]
+  or: [UserFilter]
+  not: UserFilter
+}
+
+enum UserHasFilter {
+  id
+  slug
+  name
+  artists
+  venues
+  created_bookings
+}
+
+input UserOrder {
+  asc: UserOrderable
+  desc: UserOrderable
+  then: UserOrder
+}
+
+enum UserOrderable {
+  id
+  slug
+  name
+}
+
+input UserPatch {
+  name: String
+  artists: [ArtistRef]
+  venues: [VenueRef]
+  created_bookings: [BookingRef]
+}
+
+input UserRef {
+  id: String
+  slug: String
+  name: String
+  artists: [ArtistRef]
+  venues: [VenueRef]
+  created_bookings: [BookingRef]
+}
+
+type Venue {
+  id: String!
+  slug: String!
+  name: String!
+  owners(filter: UserFilter, order: UserOrder, first: Int, offset: Int): [User]
+  bookings(
+    filter: BookingFilter
+    order: BookingOrder
+    first: Int
+    offset: Int
+  ): [Booking]
+  ownersAggregate(filter: UserFilter): UserAggregateResult
+  bookingsAggregate(filter: BookingFilter): BookingAggregateResult
+}
+
+type VenueAggregateResult {
+  count: Int
+  idMin: String
+  idMax: String
+  slugMin: String
+  slugMax: String
+  nameMin: String
+  nameMax: String
+}
+
+input VenueFilter {
+  id: StringHashFilter
+  slug: StringHashFilter
+  has: [VenueHasFilter]
+  and: [VenueFilter]
+  or: [VenueFilter]
+  not: VenueFilter
+}
+
+enum VenueHasFilter {
+  id
+  slug
+  name
+  owners
+  bookings
+}
+
+input VenueOrder {
+  asc: VenueOrderable
+  desc: VenueOrderable
+  then: VenueOrder
+}
+
+enum VenueOrderable {
+  id
+  slug
+  name
+}
+
+input VenuePatch {
+  name: String
+  owners: [UserRef]
+  bookings: [BookingRef]
+}
+
+input VenueRef {
+  id: String
+  slug: String
+  name: String
+  owners: [UserRef]
+  bookings: [BookingRef]
+}
+
+input WithinFilter {
+  polygon: PolygonRef!
+}

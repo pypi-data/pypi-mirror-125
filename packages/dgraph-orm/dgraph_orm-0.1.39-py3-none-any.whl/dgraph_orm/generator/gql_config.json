@@ -1,0 +1,36 @@
+{
+  "https://sparkling-butterfly.us-east-1.aws.cloud.dgraph.io/graphql": {
+    "nodes": {
+      "Student": {
+        "default": true,
+        "aggregate": true
+      },
+      "Teacher": {
+        "default": true,
+        "aggregate": true
+      },
+      "User": {
+        "default": true,
+        "aggregate": true
+      },
+      "Venue": {
+        "default": true,
+        "aggregate": true
+      },
+      "Booking": {
+        "default": true,
+        "aggregate": true
+      },
+      "Artist": {
+        "default": true,
+        "aggregate": true
+      },
+      "BeatGigArtist": {
+        "config": {
+          "get_function_name": "getArtistBeatGig",
+          "uid_field_name": "id"
+        }
+      }
+    }
+  }
+}
