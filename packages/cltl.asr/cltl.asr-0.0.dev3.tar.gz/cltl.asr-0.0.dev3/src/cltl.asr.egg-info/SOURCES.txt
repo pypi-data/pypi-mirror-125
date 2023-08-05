@@ -1,0 +1,15 @@
+README.md
+VERSION
+setup.py
+src/cltl.asr.egg-info/PKG-INFO
+src/cltl.asr.egg-info/SOURCES.txt
+src/cltl.asr.egg-info/dependency_links.txt
+src/cltl.asr.egg-info/requires.txt
+src/cltl.asr.egg-info/top_level.txt
+src/cltl/asr/__init__.py
+src/cltl/asr/api.py
+src/cltl/asr/util.py
+src/cltl/asr/wav2vec_asr.py
+src/cltl_service/asr/__init__.py
+src/cltl_service/asr/schema.py
+src/cltl_service/asr/service.py
