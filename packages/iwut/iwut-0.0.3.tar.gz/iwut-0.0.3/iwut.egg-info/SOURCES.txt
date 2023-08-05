@@ -1,0 +1,11 @@
+LICENSE
+MANIFEST.in
+README.md
+setup.py
+iwut/__init__.py
+iwut.egg-info/PKG-INFO
+iwut.egg-info/SOURCES.txt
+iwut.egg-info/dependency_links.txt
+iwut.egg-info/not-zip-safe
+iwut.egg-info/requires.txt
+iwut.egg-info/top_level.txt
