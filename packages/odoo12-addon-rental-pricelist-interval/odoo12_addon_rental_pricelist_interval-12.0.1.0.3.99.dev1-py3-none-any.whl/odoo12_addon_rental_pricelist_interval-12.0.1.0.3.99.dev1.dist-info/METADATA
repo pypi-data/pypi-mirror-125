@@ -1,0 +1,25 @@
+Metadata-Version: 2.1
+Name: odoo12-addon-rental-pricelist-interval
+Version: 12.0.1.0.3.99.dev1
+Summary: Enables the user to define different rental prices with time uom ("Month", "Day" and "Hour").
+Home-page: UNKNOWN
+Author: Odoo Community Association (OCA)/Elego Software Solutions GmbH
+Author-email: support@odoo-community.org
+License: AGPL-3
+Platform: UNKNOWN
+Classifier: Programming Language :: Python
+Classifier: Framework :: Odoo
+Classifier: Framework :: Odoo :: 12.0
+Classifier: License :: OSI Approved :: GNU Affero General Public License v3
+Requires-Python: >=3.5
+Requires-Dist: odoo12-addon-rental-pricelist
+Requires-Dist: odoo (<12.1dev,>=12.0a)
+
+
+This Module implements a new rental service product for interval pricing under consideration
+of odoo price lists. This enables to rent out products and charge for day interval ranges.
+
+These ranges can be configured freely on general and/or product level. In contrast to rentals
+on daily, monthly or yearly bases a different price computation is applied in sale order lines.
+
+
