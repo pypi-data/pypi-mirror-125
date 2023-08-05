@@ -1,0 +1,9 @@
+LICENSE
+README.md
+setup.py
+gouhan/__init__.py
+gouhan/gouhan.py
+gouhan.egg-info/PKG-INFO
+gouhan.egg-info/SOURCES.txt
+gouhan.egg-info/dependency_links.txt
+gouhan.egg-info/top_level.txt
