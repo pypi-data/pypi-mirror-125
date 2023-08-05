@@ -1,0 +1,3 @@
+[console_scripts]
+crispy-winner = crispywinner:run
+
