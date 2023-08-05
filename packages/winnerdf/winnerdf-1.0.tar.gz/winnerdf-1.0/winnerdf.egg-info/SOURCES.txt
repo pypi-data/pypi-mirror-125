@@ -1,0 +1,10 @@
+LICENSE
+README.md
+setup.py
+winnerdf.egg-info/PKG-INFO
+winnerdf.egg-info/SOURCES.txt
+winnerdf.egg-info/dependency_links.txt
+winnerdf.egg-info/top_level.txt
+winnerpdf/__init__.py
+winnerpdf/pdf2image.py
+winnerpdf/pdf2text.py
