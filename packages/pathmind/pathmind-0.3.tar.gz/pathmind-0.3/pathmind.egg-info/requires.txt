@@ -1,0 +1,10 @@
+pyyaml
+tensorflow
+requests
+prettytable
+
+[tests]
+pytest
+flake8
+pre-commit
+pandas
