@@ -1,0 +1,12 @@
+demo_reader_cahvs/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+demo_reader_cahvs/__main__.py,sha256=pIN6fX-3ySqZk3HlEeGflQ6FQi9HIpY2rI2JfJNNpNs,150
+demo_reader_cahvs/multireader.py,sha256=idrwC6VX5TN67foR8X3RQOB-d5lCJGXrH-F9L_vGfBM,539
+demo_reader_cahvs/compressed/__init__.py,sha256=bY4Ct2MJyovx3k2FQAD-zREbyVO1_LAYznAL3t9k3Eg,20
+demo_reader_cahvs/compressed/bzipped.py,sha256=lIhzlUHzzQD8yYK-eRdPkil3NDnAhi79BYAfIgMove8,133
+demo_reader_cahvs/compressed/gzipped.py,sha256=2mXQJalTKSoZ0PkSO6o96YU2fagHEiVWJEssYgoSdP0,137
+demo_reader_cahvs/util/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+demo_reader_cahvs/util/writer.py,sha256=6uvXl3syxVmqVEaXBy99ObiLlBi22tBp6qzWlqKUIjc,127
+demo_reader_cahvstar-0.0.1.dist-info/METADATA,sha256=EwJu_amdKmmmOxhq-b5df-11v0_Y-ZDpHCw2TyJOORc,176
+demo_reader_cahvstar-0.0.1.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+demo_reader_cahvstar-0.0.1.dist-info/top_level.txt,sha256=jz_1IrLiUFXK0jJHW1vDBhfQzLfkxY3fMYUF1YXu2HU,18
+demo_reader_cahvstar-0.0.1.dist-info/RECORD,,
