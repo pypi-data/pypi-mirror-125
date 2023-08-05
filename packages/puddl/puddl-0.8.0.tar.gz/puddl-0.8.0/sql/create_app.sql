@@ -1,0 +1,4 @@
+CREATE SCHEMA foo;
+CREATE ROLE foo WITH LOGIN PASSWORD 'foo';
+GRANT CREATE ON SCHEMA foo TO foo;
+ALTER ROLE foo SET search_path = 'foo';

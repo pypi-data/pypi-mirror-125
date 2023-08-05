@@ -1,0 +1,17 @@
+Click
+filetype
+flask
+pandas
+psycopg2-binary
+python-dotenv
+requests
+sqlalchemy
+tinytag
+
+[dev]
+black
+bumpversion
+flake8
+pip-tools
+pytest
+twine

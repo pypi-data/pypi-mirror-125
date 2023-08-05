@@ -1,0 +1,8 @@
+#!/bin/bash
+set -euo pipefail
+
+# env >> /tmp/puddl-open.log
+url=$1
+
+echo "$(puddl date) $url" >> /tmp/puddl-open.log
+notify-send 'puddl-open' "url=$url"

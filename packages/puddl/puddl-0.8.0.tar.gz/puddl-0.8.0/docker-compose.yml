@@ -1,0 +1,22 @@
+version: '3.7'
+
+services:
+  db:
+    image: postgres:12
+    command: postgres -c 'config_file=/etc/postgresql/postgresql.conf'
+    environment:
+      # https://hub.docker.com/_/postgres/
+      - POSTGRES_PASSWORD
+    volumes:
+      - postgres_data:/var/lib/postgresql/data
+      - ./env/dev/docker-entrypoint-initdb.d:/docker-entrypoint-initdb.d
+      - ./env/dev/etc_postgresql/:/etc/postgresql/
+    ports:
+      - 127.0.0.1:${PGPORT}:5432
+    restart: unless-stopped
+
+volumes:
+  postgres_data:
+    labels:
+      - puddl=0.8.0
+      - puddl.dev=true

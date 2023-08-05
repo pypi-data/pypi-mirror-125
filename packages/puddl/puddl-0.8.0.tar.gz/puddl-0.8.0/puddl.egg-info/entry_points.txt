@@ -1,0 +1,4 @@
+[console_scripts]
+puddl = puddl.cli.main:main
+puddl-felix-git = puddl.felix.git.cli:main
+
