@@ -1,0 +1,6 @@
+django-model-utils
+edx-drf-extensions
+edx-toggles
+Django>=1.11
+django-rest-framework
+django-simple-history
