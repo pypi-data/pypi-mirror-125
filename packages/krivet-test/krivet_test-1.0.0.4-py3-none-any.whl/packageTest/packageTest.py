@@ -1,0 +1,2 @@
+def testpackage():
+    print("testpackageOK")
