@@ -1,0 +1,14 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+src/Yrange.egg-info/PKG-INFO
+src/Yrange.egg-info/SOURCES.txt
+src/Yrange.egg-info/dependency_links.txt
+src/Yrange.egg-info/top_level.txt
+src/yrange/__init__.py
+src/yrange/yrange.py
+src/yrange.egg-info/PKG-INFO
+src/yrange.egg-info/SOURCES.txt
+src/yrange.egg-info/dependency_links.txt
+src/yrange.egg-info/top_level.txt
