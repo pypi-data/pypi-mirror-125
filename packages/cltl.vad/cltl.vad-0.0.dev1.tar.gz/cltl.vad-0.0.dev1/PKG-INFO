@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: cltl.vad
+Version: 0.0.dev1
+Summary: VAD for Leolani
+Home-page: https://github.com/leolani/cltl-vad
+Author: CLTL
+Author-email: t.baier@vu.nl
+License: MIT License
+Description: # cltl-vad
+        Voice activity detection service.
+        
+        Split voice activities are necessary for STT, etc.
+        
+Platform: UNKNOWN
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+Provides-Extra: impl
+Provides-Extra: service

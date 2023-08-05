@@ -1,0 +1,15 @@
+README.md
+VERSION
+setup.py
+src/cltl.vad.egg-info/PKG-INFO
+src/cltl.vad.egg-info/SOURCES.txt
+src/cltl.vad.egg-info/dependency_links.txt
+src/cltl.vad.egg-info/requires.txt
+src/cltl.vad.egg-info/top_level.txt
+src/cltl/vad/__init__.py
+src/cltl/vad/api.py
+src/cltl/vad/util.py
+src/cltl/vad/webrtc_vad.py
+src/cltl_service/vad/__init__.py
+src/cltl_service/vad/schema.py
+src/cltl_service/vad/service.py

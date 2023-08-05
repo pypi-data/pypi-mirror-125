@@ -1,0 +1,12 @@
+numpy>=1.21.2
+
+[impl]
+soundfile>=0.10.3.post1
+webrtcvad>=2.0.10
+parameterized
+
+[service]
+cltl.backend
+cltl.combot
+emissor
+requests
