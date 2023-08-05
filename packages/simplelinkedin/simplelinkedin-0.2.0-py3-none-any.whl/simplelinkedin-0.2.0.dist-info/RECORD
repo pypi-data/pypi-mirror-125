@@ -1,0 +1,8 @@
+LICENSE,sha256=EklTpaB7nWLTJgx3ACc4VNbOklK2kMt7lzAgij3sJn4,1076
+simplelinkedin/__init__.py,sha256=8JcJialtFfi16CkmWCXAxAbeKrMcZdQ8JAkOKoKCZYE,53
+simplelinkedin/linkedin.py,sha256=IeYQBs6SjJJJlk48Hf58ke5Jw_AiBcIYx3ZAOKU-J1w,24682
+simplelinkedin/selenium_requests.py,sha256=qPM75sEiKMJfDmEZMgrt9f0XFd2NF_nhA3kMDYxnyCY,10370
+simplelinkedin-0.2.0.dist-info/LICENSE,sha256=EklTpaB7nWLTJgx3ACc4VNbOklK2kMt7lzAgij3sJn4,1076
+simplelinkedin-0.2.0.dist-info/WHEEL,sha256=DRf8A_Psd1SF2kVqTQOOFU1Xzl3-A2qljAxBMTOusUs,83
+simplelinkedin-0.2.0.dist-info/METADATA,sha256=qWFCHEjmEyVc-RzLbR7yRmg3N0V1gKfqBw5nE_yY8Ao,5194
+simplelinkedin-0.2.0.dist-info/RECORD,,
