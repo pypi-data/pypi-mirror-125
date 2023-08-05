@@ -1,0 +1,6 @@
+pandas
+pyecharts
+tushare
+requests
+seaborn
+transitions
