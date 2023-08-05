@@ -1,0 +1,17 @@
+dynamicopy/__init__.py,sha256=s_GvJtkAixwZCqohwmSDmtykMAFXqbH679WTGW5VMUs,665
+dynamicopy/basins.py,sha256=thOtLf78EZs7tyyOt7or22KEyX72azNR9WJprakeYms,2787
+dynamicopy/cartoplot.py,sha256=i0dYntAdW9uO1xs1ctSbfAWoB0xlk_cVIaoSO58zGUU,7872
+dynamicopy/compute.py,sha256=NMaXiXdzh5yMX-KPi1RDVGjMR2Q0Ti7b2cxtDV8Ln4A,18084
+dynamicopy/cyclones.py,sha256=yQ9K-VU9M2p9IHjZdZ4i1y-u5Lww4RSXzijewvXrAEw,21393
+dynamicopy/ncload.py,sha256=vQRZVIFyYsd_y7MYVN6ys3kipr0rL-68FVL5DixeVGY,6280
+dynamicopy/plot.py,sha256=jX2XQ6TT25pDUk4e2KXGnc3wV0aoMteqSGsJWo0l7s8,5804
+dynamicopy/tc_maps.py,sha256=t2eLteHKwuxecgFZ5yivUhEu5rKQH37h1nN3Dt6S5i8,3146
+dynamicopy/tc_metrics.py,sha256=RecyO-Ibd_fy7neeYshhe9VIwEER-CcEOLUH2P3_bl8,10145
+dynamicopy/utils.py,sha256=Pqhe68zatpH-P5JDF_ghtb-4qy2kMPTcSq83bq7H8SA,1721
+dynamicopy/utils_geo.py,sha256=KmFJWa2EyNL2J8yTgFsLjaMm1LJD4oLo8HYtN7QFyxw,8007
+dynamicopy/data/ibtracs.since1980.cleaned.csv,sha256=hTs6K0tLhZIC2GzTn_wxojb1vaAGsY7gUtCNaBMA9HY,24174887
+dynamicopy-0.3.4.3.dist-info/LICENSE,sha256=IwGE9guuL-ryRPEKi6wFPI_zOhg7zDZbTYuHbSt_SAk,35823
+dynamicopy-0.3.4.3.dist-info/METADATA,sha256=eQAo98yhXDXmvG6E-lZ0U9jm5lHLFL8BFRlxHdIeUW8,1146
+dynamicopy-0.3.4.3.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+dynamicopy-0.3.4.3.dist-info/top_level.txt,sha256=jsSr2nhTxg4A40NoKvREbYWrnhtWFVc9IWXyLgX7XHs,11
+dynamicopy-0.3.4.3.dist-info/RECORD,,
