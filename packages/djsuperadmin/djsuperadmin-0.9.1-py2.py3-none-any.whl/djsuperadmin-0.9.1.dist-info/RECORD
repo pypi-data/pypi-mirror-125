@@ -1,0 +1,16 @@
+djsuperadmin/__init__.py,sha256=IFZntsHJ4ZDIbvSOZb10J0jAPQVPRVK5u-vM0niSiY4,21
+djsuperadmin/apps.py,sha256=pHOhY-m6GFnv2MZNKvCPe-Ymadxd6vMJ5tJ84hlL59s,99
+djsuperadmin/mixins.py,sha256=Mcu0Dymcm3bIrF6zwxLBIkRxmg4rQPNZ-CBVxRhYY_Q,277
+djsuperadmin/dist/djsuperadmin.bundle.js,sha256=PvK4QhUsuW5RLc-soNjpwosSvMaRsSg5LQkW4-u9jCE,11091
+djsuperadmin/src/index.js,sha256=w-FOAjI2siuWMFg8NnkBnDTTs3Pzb8xR5wyJZtIFU-Y,64
+djsuperadmin/src/js/djsuperadmin.ckeditor.js,sha256=y8Kl7GQjgGQ6Ahyaio8fZd90roejg-QBvh0vq9NpXJw,1241
+djsuperadmin/src/js/djsuperadmin.core.js,sha256=bZJbonnR0R65Nkd9W_adUloH2d_XEmQPcKDzSNCuLHI,5370
+djsuperadmin/src/scss/modal.scss,sha256=cCvm22g0Jh1z8GKbq2g7d3_oWvuTFYaJp5rVvElsIfA,1380
+djsuperadmin/src/scss/styles.scss,sha256=SluQrX5NZ552_Lws6t__deRT1isA3KF_8Jwian11Oh4,24
+djsuperadmin/templatetags/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+djsuperadmin/templatetags/djsuperadmintag.py,sha256=PyWdQXqmqEoGsOwGjJTLXJpwoXxuADICp_6PrcL9Jgw,1396
+djsuperadmin-0.9.1.dist-info/LICENSE,sha256=pNKLOJi9UM_Oyl_sPwr1Sz2k9doRTDqWh-EP9VK3-bI,1059
+djsuperadmin-0.9.1.dist-info/METADATA,sha256=F89tixCch6cBPFYtUOckML0oylim_6FnC6EC0sK4WMU,2309
+djsuperadmin-0.9.1.dist-info/WHEEL,sha256=kGT74LWyRUZrL4VgLh6_g12IeVl_9u9ZVhadrgXZUEY,110
+djsuperadmin-0.9.1.dist-info/top_level.txt,sha256=Hrb2p7H6kPDVhZV844xwW07Vkt1k5yn9XBs-3QVogsA,13
+djsuperadmin-0.9.1.dist-info/RECORD,,

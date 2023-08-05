@@ -1,0 +1,83 @@
+
+.djsuperadmin-background {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  height: 100vh;
+  background: #4a4a4aa1;
+  z-index: 10000;
+}
+.djsuperadmin-logout {
+  position: fixed;
+  top: 15px;
+  right: 15px;
+  background: black;
+  color: white;
+  text-decoration: none;
+  border-radius: 15px;
+  font-size: large;
+  font-family: monospace;
+  padding: 10px;
+  z-index: 100000000000;
+}
+.djsuperadmin-editor {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 35rem;
+  height: 20rem;
+}
+
+.djsuperadmin-errorbanner {
+  display: flex;
+  justify-content: center;
+  background-color: red;
+  color: white;
+}
+
+.djsuperadmin-btnscontainer {
+    display: flex;
+    justify-content: center;
+}
+
+.djsuperadmin-btn {
+  background: #CCD857;
+  color: white;
+  font-family: monospace;
+  padding: 0.5rem;
+  border: 1px solid;
+  border-radius: 50%;
+  transform: translateX(-50%);
+  margin-top: 1rem;
+  margin-left: 1rem;
+  margin-right: 1rem;
+  cursor: pointer;
+}
+
+
+.raw-editor {
+  background: white;
+  width: 100%;
+  min-height: 15rem;
+  font-size: 1.5rem;
+  display: block;
+  border-radius: .5rem;
+}
+.ql-container {
+  background: white;
+}
+.ql-toolbar {
+  background: white;
+}
+
+span.djsuperadmin{
+  border: 2px #ff5050 dotted;
+  border-radius: 6px;
+  //padding: 0.2rem .5rem;
+  z-index: 1000000;
+  display: block;
+  width: 100%;
+  height: 100%;
+  cursor: pointer;
+}
