@@ -1,0 +1,12 @@
+pyjs/__init__.py,sha256=agq_k-MLJCAUJQ3zfMJjIf0AiBn8XmBf1p6vT8DpEvI,1596
+pyjs/decorator.py,sha256=s3ChwDw7CGAdotnj1bR-zyyCM6JX4C-klqwCEunMb0o,1687
+pyjs/jsbuilder.py,sha256=mMxqwKWoWhljCn5S4p-TDfUN1ftoLkjaDoNzdZHDmgE,1949
+pyjs/pillar.py,sha256=-rt4AcuQYnWkVzHhkzAuAcb2u6d6NoRipYfd0dlWong,752
+pyjs/registry.py,sha256=L7uJELPRC-Y-_un89xkabn16MRt1jLyGWOylZNZ2f18,1652
+pyjs/transport/__init__.py,sha256=1gr6qlykK6Dl3HtE9TLPhdgpeIu-jXU6bND_qPy1ogM,24
+pyjs/transport/websocket.py,sha256=_oPX3BIM4VzQF0YKD5vdZG0Whno_Ayz9RYtHxmr3MoY,1799
+pyjs_bridge-0.0.1.dist-info/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+pyjs_bridge-0.0.1.dist-info/METADATA,sha256=AugXh4jzsKWLZpUCIfUnvNhmPcewxSOWFf4U06sT_r4,1100
+pyjs_bridge-0.0.1.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+pyjs_bridge-0.0.1.dist-info/top_level.txt,sha256=bnm4zy8_qUry1IukB2XJljHT3owxnm0gFWY3mWoki1g,5
+pyjs_bridge-0.0.1.dist-info/RECORD,,
