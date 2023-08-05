@@ -1,0 +1,8 @@
+LICENSE
+README.md
+setup.py
+pystringmini/__init__.py
+pystringmini.egg-info/PKG-INFO
+pystringmini.egg-info/SOURCES.txt
+pystringmini.egg-info/dependency_links.txt
+pystringmini.egg-info/top_level.txt
