@@ -1,0 +1,9 @@
+README.md
+pyproject.toml
+setup.cfg
+src/woofDB/__init__.py
+src/woofDB/woofDB.py
+src/woofDB.egg-info/PKG-INFO
+src/woofDB.egg-info/SOURCES.txt
+src/woofDB.egg-info/dependency_links.txt
+src/woofDB.egg-info/top_level.txt
