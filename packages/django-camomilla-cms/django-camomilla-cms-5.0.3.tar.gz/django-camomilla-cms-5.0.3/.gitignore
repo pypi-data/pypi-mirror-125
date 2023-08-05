@@ -1,0 +1,37 @@
+# System
+venv
+*.mo
+*.pyc
+*.zip
+.DS_Store
+*.sqlite3
+*.rdb
+.coverage
+.cache
+coverage
+.vscode
+
+# Settings
+local_settings.py
+deploy_settings.py
+deploy_settings.sh
+
+# Static, media and libs
+libs/
+node_modules
+media/
+
+# Camomilla plugins (remove this line in your project)
+plugin_*
+
+# Logs
+error_logs.log
+
+# Sockets
+*.socket
+
+
+# Package builds
+dist/
+build/
+*.egg-info
