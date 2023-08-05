@@ -1,0 +1,11 @@
+.python-version
+*.egg-info
+.coverage
+.env
+.idea
+.vscode
+__pycache__
+build/
+dist/
+
+/docker-compose.override.yml

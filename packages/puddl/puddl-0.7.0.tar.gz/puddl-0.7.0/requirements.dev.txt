@@ -1,0 +1,7 @@
+autopep8
+bumpversion
+coverage
+flake8
+ipython
+pur
+twine
