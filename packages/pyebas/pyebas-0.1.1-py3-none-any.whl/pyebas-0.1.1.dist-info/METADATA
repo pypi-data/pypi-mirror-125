@@ -1,0 +1,31 @@
+Metadata-Version: 2.1
+Name: pyebas
+Version: 0.1.1
+Summary: Easy download and export EBAS data
+Home-page: UNKNOWN
+Author: Chuanlong Zhou
+Author-email: <zhouchuanlong1988@gmail.com>
+License: UNKNOWN
+Keywords: python,ebas,air pollution,ftp
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Science/Research
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: Unix
+Classifier: Operating System :: MacOS :: MacOS X
+Classifier: Operating System :: Microsoft :: Windows
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: numpy
+Requires-Dist: pandas
+Requires-Dist: xarray
+Requires-Dist: pycountry
+Requires-Dist: bs4
+Requires-Dist: wget
+Requires-Dist: tqdm
+
+
+# pyebas
+  python package for an easy-access to open-source air pollutant data from EBAS database via FTP links.
+
+
