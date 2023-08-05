@@ -1,0 +1,12 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+crispy_winner.egg-info/PKG-INFO
+crispy_winner.egg-info/SOURCES.txt
+crispy_winner.egg-info/dependency_links.txt
+crispy_winner.egg-info/entry_points.txt
+crispy_winner.egg-info/requires.txt
+crispy_winner.egg-info/top_level.txt
+crispywinner/__init__.py
+crispywinner/webhooks.py
