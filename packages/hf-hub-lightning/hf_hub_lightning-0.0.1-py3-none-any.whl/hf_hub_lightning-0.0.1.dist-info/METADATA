@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: hf-hub-lightning
+Version: 0.0.1
+Summary: Callback for pushing to Hugging Face Hub from PyTorch Lightning
+Home-page: https://github.com/nateraw/hf-hub-lightning
+Author: Nathan Raw
+Author-email: naterawdata@gmail.com
+License: MIT
+Platform: UNKNOWN
+License-File: LICENSE
+Requires-Dist: pytorch-lightning
+Requires-Dist: huggingface-hub
+
+UNKNOWN
+
