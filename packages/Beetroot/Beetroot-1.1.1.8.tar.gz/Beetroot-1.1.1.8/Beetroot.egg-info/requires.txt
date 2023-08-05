@@ -1,0 +1,16 @@
+
+[all]
+pyttsx3>=2.90
+pillow>=8.4.0
+pyautogui>=0.9.53
+psutil>=5.8.0
+
+[img]
+pillow>=8.4.0
+pyautogui>=0.9.53
+
+[ram]
+psutil>=5.8.0
+
+[tts]
+pyttsx3>=2.90
