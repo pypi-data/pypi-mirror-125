@@ -1,0 +1,7 @@
+README.md
+setup.py
+blender_stubs.egg-info/PKG-INFO
+blender_stubs.egg-info/SOURCES.txt
+blender_stubs.egg-info/dependency_links.txt
+blender_stubs.egg-info/not-zip-safe
+blender_stubs.egg-info/top_level.txt
