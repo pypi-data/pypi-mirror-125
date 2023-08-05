@@ -1,0 +1,13 @@
+TTS
+nltk
+psutil
+pydub
+tqdm
+ocrmypdf
+transformers
+pyspellchecker
+torch
+opencv-python
+pdf2image
+numpy
+scipy
