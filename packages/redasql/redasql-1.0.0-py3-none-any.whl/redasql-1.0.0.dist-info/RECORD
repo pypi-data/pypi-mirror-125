@@ -1,0 +1,15 @@
+LICENSE,sha256=ArLBgEMOx2bSOSkq-7JdDhnMBJVJHq7up7I1wk0roG4,1063
+redasql/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+redasql/api_client.py,sha256=21KjAKszmRFes9AeeodqiDzodAu3ty4hlvaem5DQPwU,4183
+redasql/command.py,sha256=7E1S4qjStmuGqWzQHblyOKLbfOZaa6g6ridNFHXiQ_U,7308
+redasql/constants.py,sha256=4qZ9KfDs9fLT4op9j7YKCRTxCdpRfqpb4CRnaIfoaEU,10491
+redasql/dto.py,sha256=XFbIzxIzPDo1HRvBb-QRWK5ZmcuGkR8d1rWlvEsk-BM,6004
+redasql/exceptions.py,sha256=1eDxoeCYM6l9sch6MFV0X40pVXBAr05ChdDhTb2trcI,637
+redasql/metacommand_executor.py,sha256=GGIj5uGVjVVRSc1ZEogiG1aRDT2KWdDzg_WRlaVObqo,8273
+redasql/result_formatter.py,sha256=CJr0a-spqC8PUMngvQ88SutveKAdqaif7cbtG5SZn-s,3869
+redasql/utils.py,sha256=WFslV2XXLdyWGUqiiCeURCCcmFmqGSYbzgVQoDL-hYE,233
+redasql-1.0.0.dist-info/entry_points.txt,sha256=NcyfXxR4qrOGPwXdfsOeqEjpERHoO5fPLIVtG8JPhDg,48
+redasql-1.0.0.dist-info/LICENSE,sha256=ArLBgEMOx2bSOSkq-7JdDhnMBJVJHq7up7I1wk0roG4,1063
+redasql-1.0.0.dist-info/WHEEL,sha256=N0LZrBtofpkS5mJXgVHTCEy52Sam4D6PHQWC8HnMeTs,83
+redasql-1.0.0.dist-info/METADATA,sha256=aWQC86KUxC1mbivkm5ZfeoTTOcFfe6_JEKjsLyYczOo,7109
+redasql-1.0.0.dist-info/RECORD,,
