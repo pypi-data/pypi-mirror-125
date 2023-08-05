@@ -1,0 +1,58 @@
+Metadata-Version: 2.1
+Name: iwut
+Version: 0.0.1
+Summary: Friendlier tracebacks, collapsing frames with library code,inline variable values, and adding context
+Home-page: https://pypi.python.org/pypi/wut
+Author: Alvin Wan
+Author-email: hi@alvinwan.com
+License: MIT
+Keywords: ipython traceback error exception
+Platform: UNKNOWN
+Classifier: Topic :: Utilities
+Classifier: Intended Audience :: Developers
+Classifier: Development Status :: 3 - Alpha
+Classifier: Environment :: Console
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Description-Content-Type: text/markdown
+Requires-Dist: ipython (>=1.0)
+
+# Wut
+
+Friendlier tracebacks, collapsing frames with library code, inline variable values, and adding context.
+
+![wut-vars-ctx-prettier](https://user-images.githubusercontent.com/2068077/138010088-d17eef95-0965-49b0-9570-b21c832cbe99.gif)
+
+
+## Installation
+
+```
+pip install wut
+```
+
+## Notebook
+
+```
+%load_ext wut
+```
+
+Once you hit an error. For example, you may have the following
+
+```
+1/0
+```
+
+In the next cell, simply use the line magic
+
+```
+%wut
+```
+
+This will pretty print a friendlier traceback. You can alternatively, use the cell magic on a faulty cell, like this:
+
+```
+%%wut
+1 / 0
+```
+
+
