@@ -1,0 +1,8 @@
+microndla/__init__.py,sha256=GyZlK_SyMpeQNi0rKv4o095HaDgb_fZX5MWH2klzT4k,25
+microndla/microndla.py,sha256=hKB-CCaH-rlHJ13aMszjmL9n5jIkU0iQA8HrHj4lj4A,24893
+microndla/onnx_util.py,sha256=P6zxEaSCZB1AS45q1pV57Xy5i9nNbpWVodDXaUPEntE,2326
+microndla-2021.2.dist-info/LICENSE.md,sha256=s7bprtMIX2JZ2ETE8aNlyD-62TQOk-vsRzX4syLzl3Y,524
+microndla-2021.2.dist-info/METADATA,sha256=TK98IL3EUzG2fb8zPJZL85IKenuEWA6uS1CSE3M51tg,47923
+microndla-2021.2.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+microndla-2021.2.dist-info/top_level.txt,sha256=tHDTCvJUX39m6pAp-Ti_GJ-PMQ9rUwuMHnuMAZcUF6E,10
+microndla-2021.2.dist-info/RECORD,,
