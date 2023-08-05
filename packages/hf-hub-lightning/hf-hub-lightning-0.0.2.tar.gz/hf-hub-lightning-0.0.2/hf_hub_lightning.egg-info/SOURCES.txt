@@ -1,0 +1,10 @@
+LICENSE
+README.md
+setup.py
+hf_hub_lightning/__init__.py
+hf_hub_lightning/callback.py
+hf_hub_lightning.egg-info/PKG-INFO
+hf_hub_lightning.egg-info/SOURCES.txt
+hf_hub_lightning.egg-info/dependency_links.txt
+hf_hub_lightning.egg-info/requires.txt
+hf_hub_lightning.egg-info/top_level.txt
