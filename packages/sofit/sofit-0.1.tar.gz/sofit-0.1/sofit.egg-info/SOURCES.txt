@@ -1,0 +1,8 @@
+LICENSE
+README.md
+setup.py
+sofit.egg-info/PKG-INFO
+sofit.egg-info/SOURCES.txt
+sofit.egg-info/dependency_links.txt
+sofit.egg-info/entry_points.txt
+sofit.egg-info/top_level.txt
