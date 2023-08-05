@@ -1,0 +1,5 @@
+biolink_model_pydantic/__init__.py,sha256=jP-SJ-LzLUyjJ7u3CRlvFjQmP8kwa0Q7yaxu9F-MQ8s,71
+biolink_model_pydantic/model.py,sha256=eRDoHoaEguK4U5lwNJ0Dxv4_BW_stmtqbnv1OPeByEQ,193884
+biolink_model_pydantic-0.1.2.dist-info/WHEEL,sha256=pVNS5wRGlMB8qzi0M1coslDk7i694hS7VxZqRXRntY4,81
+biolink_model_pydantic-0.1.2.dist-info/METADATA,sha256=LUXs4QCodGGf0VcbM5JzMPg1Qz6MG8FfEolpQ2ve88k,1608
+biolink_model_pydantic-0.1.2.dist-info/RECORD,,
