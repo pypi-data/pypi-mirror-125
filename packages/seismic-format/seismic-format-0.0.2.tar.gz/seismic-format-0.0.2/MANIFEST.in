@@ -1,0 +1,22 @@
+include AUTHORS.rst
+include CONTRIBUTING.rst
+include HISTORY.rst
+include LICENSE
+include README.rst
+
+recursive-include tests *
+recursive-exclude * __pycache__
+recursive-exclude * *.py[co]
+
+recursive-include docs *.rst conf.py Makefile make.bat
+
+#include versioneer.py
+#include seismic_format/_version.py
+
+# data_package - seems to add formats/ into bdist_wheel but NOT sdist
+# This seems to add it into sdist:
+#graft formats
+include seismic_format/formats/*
+#exclude test_data/*
+# If you want to undo this, rm the -egg dir before next python setup.py sdist:
+include test_data/*

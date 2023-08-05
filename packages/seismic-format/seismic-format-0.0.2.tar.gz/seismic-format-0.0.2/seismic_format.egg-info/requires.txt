@@ -1,0 +1,11 @@
+click
+obspy
+
+[cli]
+click
+
+[develop]
+tox
+pytest
+pytest-runner
+click

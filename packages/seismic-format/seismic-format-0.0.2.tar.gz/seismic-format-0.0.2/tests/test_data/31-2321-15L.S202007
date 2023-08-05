@@ -1,0 +1,17 @@
+ 2020 0731 2321 15.1 LQ 36.012-111.989 10.4  AZ   5 0.1 0.0CAZ  0.0CAZ         1
+ GAP=217      0.00       0.0     0.0  0.0  0.0000e+00  0.0000e+00    0.0000e+00E
+ ACTION:NEW 20-07-31 23:40 OP:EW   STATUS:               ID:20200731232115     I
+ 2020-07-31-2320-44S.AE____113                                                 6
+ BINDERID: 11595                                                               3
+ VERSIONID: 2                                                                  3
+ CHANNELID: CCAZ.EHZ.AR.01                                                     3
+ CHANNELID: BARN.HHZ.AE.--                                                     3
+ CHANNELID: X16A.HHZ.AE.--                                                     3
+ CHANNELID: W13A.HHZ.AE.--                                                     3
+ CHANNELID: ICU.EHZ.UU.01                                                      3
+ STAT SP IPHASW D HRMM SECON CODA AMPLIT PERI AZIMU VELO AIN AR TRES W  DIS CAZ7
+ CCAZ EZ IP   1AD 2321 23.47                                    0.1      49 216
+ BARN HZ IP   1AD 2321 29.01                                   -0.1      85 164
+ X16A HZ IP   1A  2321 44.80                                    0.1     184 164
+ W13A HZ IP   1A  2321 46.61                                   -0.1     200 241
+ ICU  EZ IP   1AC 2321 48.51                                    0.0     214 307
