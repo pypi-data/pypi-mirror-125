@@ -1,0 +1,8 @@
+MANIFEST.in
+setup.py
+demo/__init__.py
+demo2/__init__.py
+mb_tools.egg-info/PKG-INFO
+mb_tools.egg-info/SOURCES.txt
+mb_tools.egg-info/dependency_links.txt
+mb_tools.egg-info/top_level.txt
