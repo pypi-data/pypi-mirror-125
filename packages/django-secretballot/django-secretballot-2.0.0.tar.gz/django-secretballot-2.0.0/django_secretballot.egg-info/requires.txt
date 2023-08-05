@@ -1,0 +1,12 @@
+django-etc>=1.2.0
+
+[develop]
+tox
+django
+pytest-django
+pytest
+
+[test]
+pytest-django
+pytest-cov
+pytest
