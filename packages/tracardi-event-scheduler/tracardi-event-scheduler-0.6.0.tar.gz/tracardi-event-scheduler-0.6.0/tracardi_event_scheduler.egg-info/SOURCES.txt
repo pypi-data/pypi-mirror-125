@@ -1,0 +1,17 @@
+MANIFEST.in
+README.md
+build.sh
+build_setup.sh
+requirements.txt
+setup.py
+tracardi_event_scheduler/plugin.py
+tracardi_event_scheduler.egg-info/PKG-INFO
+tracardi_event_scheduler.egg-info/SOURCES.txt
+tracardi_event_scheduler.egg-info/dependency_links.txt
+tracardi_event_scheduler.egg-info/requires.txt
+tracardi_event_scheduler.egg-info/top_level.txt
+tracardi_event_scheduler/model/config.py
+tracardi_event_scheduler/model/__pycache__/config.cpython-38.pyc
+tracardi_event_scheduler/service/network.py
+tracardi_event_scheduler/service/__pycache__/network.cpython-38.pyc
+tracardi_event_scheduler/test/test_plugin.py
