@@ -1,0 +1,49 @@
+Metadata-Version: 2.1
+Name: ezpickle
+Version: 1.0.0
+Summary: Helper functions to simplify pickling and unpickling objects to/from files
+Home-page: https://github.com/joshburnett/ezpickle
+Author: ezpickle
+Author-email: github@burnettsonline.org
+License: Public Domain
+Keywords: pickle unpickle
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Topic :: Utilities
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+ezpickle
+========================
+
+Helper functions to simplify pickling and unpickling objects to/from files.
+- ***pickle_data**(data, filepath: Path | str, overwrite: bool = False)* : Pickle an object (such as a dictionary) and write it to a file
+- ***unpickle_data**(filepath: Path | str, dict_keys: str | Iterable | None = None)* : Load a pickled object from a file
+
+
+Releases
+--------
+
+1.0, 2021-10-26
+* Initial release
+
+
+License
+-------
+
+This is free and unencumbered software released into the public domain.
+
+Anyone is free to copy, modify, publish, use, compile, sell, or
+distribute this software, either in source code form or as a compiled
+binary, for any purpose, commercial or non-commercial, and by any
+means.
+
+

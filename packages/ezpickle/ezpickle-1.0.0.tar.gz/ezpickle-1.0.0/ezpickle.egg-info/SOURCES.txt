@@ -1,0 +1,9 @@
+LICENSE
+MANIFEST.in
+README.md
+ezpickle.py
+setup.py
+ezpickle.egg-info/PKG-INFO
+ezpickle.egg-info/SOURCES.txt
+ezpickle.egg-info/dependency_links.txt
+ezpickle.egg-info/top_level.txt
