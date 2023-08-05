@@ -1,0 +1,10 @@
+*.pyc
+.vscode
+__pycache__
+*.egg-info
+node_modules/*
+
+.coverage
+
+build/
+dist/
