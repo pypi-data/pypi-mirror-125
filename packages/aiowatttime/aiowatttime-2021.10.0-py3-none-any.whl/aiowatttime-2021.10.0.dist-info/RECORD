@@ -1,0 +1,10 @@
+aiowatttime/__init__.py,sha256=i1xgdA-djiUJrYRRPO4FUOuAEtWwcWdzVzMvLgqvfBw,73
+aiowatttime/client.py,sha256=Q8u3U8Gr-ZIadS8Q_4k5qeSSdGxDZlGHyKDz4sYwGJk,6665
+aiowatttime/const.py,sha256=9SVwtsu3UAaxyJxcKtIN2GGXsQdgXaSLZdOQMreVk3A,88
+aiowatttime/emissions.py,sha256=R3NzcADueNiS6iryxLQJckHQiXmWGGfynVzsc2LE3Uo,3901
+aiowatttime/errors.py,sha256=qjjRae_tbETnoZ1rsiBhdaIsCIb4bDOOi3h-khkiupo,1453
+aiowatttime/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+aiowatttime-2021.10.0.dist-info/LICENSE,sha256=scz6gEaGZXJPFxvuQ2FiKekDHrpn4ri_vbec1ZXqQp8,1067
+aiowatttime-2021.10.0.dist-info/WHEEL,sha256=y3eDiaFVSNTPbgzfNn0nYn5tEn1cX6WrdetDlQM4xWw,83
+aiowatttime-2021.10.0.dist-info/METADATA,sha256=dedNuW7JtkxKusfDJ1ZnvmSX8U1yJ74L4pCrGV_9L9g,7600
+aiowatttime-2021.10.0.dist-info/RECORD,,
