@@ -1,0 +1,57 @@
+* {
+  box-sizing: border-box;
+  color: #AAA;
+}
+html, body {
+   height: 100%;
+}
+body {
+  margin: 0;
+  font-family: sans-serif;
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  height: 100%;
+}
+#mapid {
+  height: 80%;
+}
+#timeline {
+  width: 100%;
+  height: 20%;
+  background-color: #111;
+}
+#images {
+  height: auto;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(120px, 1fr));
+  grid-template-rows: repeat(8, 5vw);
+  padding-left: 10px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  grid-gap: 5px;
+  grid-auto-flow: dense;
+  align-items: start;
+  background-color: black;
+  overflow-y: scroll;
+}
+#images > .imwrap {
+  width: 100%;
+}
+.imwrap img {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+}
+.imwrap > p {
+  margin: 0;
+  font-size: 10px;
+}
+
+.js-plotly-plot,
+.plot-container {
+  height: 100%;
+}
+
+img.leaflet-marker-icon {
+  border-radius: 18%;
+}

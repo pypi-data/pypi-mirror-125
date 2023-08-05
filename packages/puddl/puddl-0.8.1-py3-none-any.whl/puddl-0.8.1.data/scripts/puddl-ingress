@@ -1,0 +1,17 @@
+#!/bin/bash
+set -euo pipefail
+
+name=${1:-default}
+
+dt=$(puddl date)
+# options parsing! \o/
+# https://click.palletsprojects.com/en/7.x/
+
+dir=~/.puddl/ingress/$(puddl-device-id)/${name}
+mkdir -p $dir
+target=$dir/$(puddl date)
+
+# if verbose:
+echo "new stuff in $dir" >&2
+
+cp /dev/stdin $target
