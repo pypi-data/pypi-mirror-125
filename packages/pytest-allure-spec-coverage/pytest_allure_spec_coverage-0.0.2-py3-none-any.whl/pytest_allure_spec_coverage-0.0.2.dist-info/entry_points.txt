@@ -1,0 +1,3 @@
+[pytest11]
+pytest_allure_spec_coverage = pytest_allure_spec_coverage.plugin
+
