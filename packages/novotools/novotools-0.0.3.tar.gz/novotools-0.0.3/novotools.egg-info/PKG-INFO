@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: novotools
+Version: 0.0.3
+Summary: a common tools to facilitate your coding
+Home-page: https://github.com/pypa/novotools
+Author: chenming
+Author-email: chenming@novogene.com
+License: MIT
+Description: UNKNOWN
+Platform: UNKNOWN
+Classifier: Development Status :: 2 - Pre-Alpha
+Classifier: Programming Language :: Python :: 3.8
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
