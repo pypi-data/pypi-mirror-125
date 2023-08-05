@@ -1,0 +1,22 @@
+Metadata-Version: 2.1
+Name: pi3dpf_ns_pi3dpf_common
+Version: 0.1.34
+Summary: module containing base functions and media used by pi3d based pictureframe
+Home-page: https://github.com/satnerd/pi3dpf-pictureframe
+Author: Beat Hess
+Author-email: ht8@gmx.net
+Maintainer: Beat Hess
+Maintainer-email: ht8@gmx.net
+License: GPLv3
+Project-URL: Documentation, https://github.com/satnerd/pi3dpf-pictureframe
+Description: to be completed
+Keywords: pi3d,owm weather,alexa
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: End Users/Desktop
+Classifier: Topic :: Multimedia :: Graphics :: Presentation
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3.7
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
