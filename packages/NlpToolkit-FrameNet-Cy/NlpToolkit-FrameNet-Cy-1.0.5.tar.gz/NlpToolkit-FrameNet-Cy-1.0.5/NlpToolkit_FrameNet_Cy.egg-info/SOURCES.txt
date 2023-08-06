@@ -1,0 +1,16 @@
+README.md
+setup.py
+FrameNet/Frame.c
+FrameNet/Frame.pxd
+FrameNet/Frame.pyx
+FrameNet/FrameElement.c
+FrameNet/FrameElement.pxd
+FrameNet/FrameElement.pyx
+FrameNet/FrameNet.c
+FrameNet/FrameNet.pxd
+FrameNet/FrameNet.pyx
+FrameNet/__init__.py
+NlpToolkit_FrameNet_Cy.egg-info/PKG-INFO
+NlpToolkit_FrameNet_Cy.egg-info/SOURCES.txt
+NlpToolkit_FrameNet_Cy.egg-info/dependency_links.txt
+NlpToolkit_FrameNet_Cy.egg-info/top_level.txt
