@@ -1,0 +1,9 @@
+bda/__init__.py,sha256=gZXYiXeTNI4FN8UBw7M7SOQvK2jhvLxKcgV0Jzp_XoQ,324
+bda/bda_tools.py,sha256=ozvNaPfaW-AZX8ma9e2s362ZCCgseaPf2h_1i13i2Tw,16804
+bda/decorr_calc.py,sha256=6cEyzw3hCXprLZdGNymhZP4wrwvlKbPQXBcD3nWOGWU,12907
+bda-0.1.1.data/scripts/apply_bda.py,sha256=PDeh_BRzoNGhqHjMYIx2OzqxM2QDlz0quTeY9d7OEIQ,2660
+bda-0.1.1.dist-info/LICENSE,sha256=JPhgL_sW2mGdPXN9JzA3-QCZj0xpWPSw27sj9koiJNc,1319
+bda-0.1.1.dist-info/METADATA,sha256=bP4RHGi5pcXiY00hPgQal1y8SMoUyGBd0h8cW-OtF10,3431
+bda-0.1.1.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+bda-0.1.1.dist-info/top_level.txt,sha256=o6j_AbxsjEUSGRtUTlySIks6bshK_mUiiyXK6CIhgSM,4
+bda-0.1.1.dist-info/RECORD,,
