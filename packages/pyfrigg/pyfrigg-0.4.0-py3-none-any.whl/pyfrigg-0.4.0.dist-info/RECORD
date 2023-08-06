@@ -1,0 +1,9 @@
+pyfrigg/__init__.py,sha256=XNIhnLrtfcNPNEOtXz_UbEy_lG2SvLpuzh2xdqq5K-I,167
+pyfrigg/elasticsearch.py,sha256=FSOddd5D-hLG5ax8G7oTfVYVk_oLCynKGG2LmCeL70c,6382
+pyfrigg/mysql.py,sha256=V372BbqBJ1ajSvS7IuNbFF8ldTREGkuaLGKfNMbv6jc,1065
+pyfrigg/requests.py,sha256=bJdeb_cDyJJVMAcNn8AUFqQSzVAGoKwrdtinenB0LyM,6301
+pyfrigg-0.4.0.dist-info/LICENSE.txt,sha256=g_RbnB6nyqgjsNc9Xg8LC12pN4f7NI4nB-uREjqQ2Qo,1066
+pyfrigg-0.4.0.dist-info/METADATA,sha256=jyzFbGx0mwvEJr9kOiofKPWpIhdHIT8ZLEd1Hyg8nHw,1369
+pyfrigg-0.4.0.dist-info/WHEEL,sha256=EVRjI69F5qVjm_YgqcTXPnTAv3BfSUr0WVAHuSP3Xoo,92
+pyfrigg-0.4.0.dist-info/top_level.txt,sha256=8zsINDz6Owvbql9KXhVRl7RWGwAeP9zxrE8KIi4qJrQ,8
+pyfrigg-0.4.0.dist-info/RECORD,,
