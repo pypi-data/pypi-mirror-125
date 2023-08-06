@@ -1,0 +1,9 @@
+README.md
+setup.py
+aoku/__init__.py
+aoku/aoku.py
+aoku.egg-info/PKG-INFO
+aoku.egg-info/SOURCES.txt
+aoku.egg-info/dependency_links.txt
+aoku.egg-info/requires.txt
+aoku.egg-info/top_level.txt

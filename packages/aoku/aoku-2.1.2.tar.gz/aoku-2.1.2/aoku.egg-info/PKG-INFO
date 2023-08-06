@@ -1,0 +1,44 @@
+Metadata-Version: 2.1
+Name: aoku
+Version: 2.1.2
+Summary: The package for writing your own discord bot
+Home-page: https://aokuapi.herokuapp.com/
+Author: AineD3V
+Author-email: priskozena@gmail.com
+License: UNKNOWN
+Description: # About
+        The Aoku.py library is a module with simplified functions through which anyone can create their own Discord bot.
+        
+        Aoku.py Easy to learn and also does not have any complex functions
+        
+        # Example
+        
+        ```py
+        from aoku import aokuBot
+        
+        bot = aokuBot(
+        	intents = True,
+        	selfbot = False
+        )
+        
+        bot.onReady("Bot is ready to use!")
+        bot.onMessage()
+        
+        bot.newCommand(
+        	name = "!ping",
+        	code = "Pong! $pingms"
+        )
+        
+        bot.newCommand(
+        	name = "!uptime",
+        	code = "Uptime: $uptime"
+        )
+        
+        bot.start("BOT_TOKEN", selfbot = False)
+        ```
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3.8
+Classifier: License :: OSI Approved :: GNU General Public License (GPL)
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
