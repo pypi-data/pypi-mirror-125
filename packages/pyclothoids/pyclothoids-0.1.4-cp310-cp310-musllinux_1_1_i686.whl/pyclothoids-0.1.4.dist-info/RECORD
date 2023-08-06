@@ -1,0 +1,10 @@
+pyclothoids-0.1.4.dist-info/WHEEL,sha256=pN7jTLJrWhNX2c0EL4xkp0PuLPZI6t3Tzd6IIOvLCXM,111
+pyclothoids-0.1.4.dist-info/top_level.txt,sha256=m_EDDG1qECjvvljc2U_Dkt089CnWFnjpqxf9lJ64AQs,12
+pyclothoids-0.1.4.dist-info/METADATA,sha256=wahK0Yjez5iaWRPl5KXjVWoSaQWrXC6P9MOVUQtPhmE,2357
+pyclothoids-0.1.4.dist-info/LICENSE,sha256=4Q6GH1g6hJ76bp_Olp359L-HoNfGx8fxPg0NiTIzIiA,1068
+pyclothoids-0.1.4.dist-info/RECORD,,
+pyclothoids/clothoid.py,sha256=PA8JtSVECo0HNc6Y6IGCEEbajwcts1u5rNBGKYaPC64,7622
+pyclothoids/__init__.py,sha256=8CpYJl-JMywGJ24u-hoHk1HJ-5ChycY3nV9qYOYuv5U,39
+pyclothoids/_clothoids_cpp.cpython-310-i386-linux-gnu.so,sha256=nSvb_PVuPU0YIrKijAruDHLd17vFU1NEagcyY3r0t1c,9570168
+pyclothoids.libs/libstdc++-8baf04f9.so.6.0.28,sha256=7dHa2sV5CgWXjdC4QqxbCNsm-pN9kkmNNqxtn5AaAvs,2428960
+pyclothoids.libs/libgcc_s-8b50eaaa.so.1,sha256=aEf1qbEV-lDljbUGr6ql8FAfnxyJlKTeEsHNdrBlAHM,101648
