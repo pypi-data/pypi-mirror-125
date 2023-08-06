@@ -1,0 +1,5 @@
+[console_scripts]
+hostha-api = hostha.api.main:main
+hostha-db-manage = hostha.db.migration.cli:main
+hostha-hostha = hostha.hostha.main:main
+

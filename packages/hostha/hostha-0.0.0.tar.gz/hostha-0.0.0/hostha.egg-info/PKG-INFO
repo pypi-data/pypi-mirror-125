@@ -1,0 +1,20 @@
+Metadata-Version: 1.1
+Name: hostha
+Version: 0.0.0
+Summary: hostha project
+Home-page: UNKNOWN
+Author: chenjixing
+Author-email: chenjixing@huayun.com
+License: Apache Software License
+Description: 
+        
+        
+Platform: UNKNOWN
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 2
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Environment :: OpenStack
+Classifier: Intended Audience :: Information Technology
+Classifier: Intended Audience :: System Administrators
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Operating System :: POSIX :: Linux
