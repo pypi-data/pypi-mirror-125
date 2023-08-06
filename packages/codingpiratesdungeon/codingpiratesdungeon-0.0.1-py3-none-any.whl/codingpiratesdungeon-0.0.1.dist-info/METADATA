@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: codingpiratesdungeon
+Version: 0.0.1
+Summary: CodingPirates Dungeon Generator
+Home-page: UNKNOWN
+Author: Kristoffer Sørensen
+Author-email: <ego@kristoffermads.dk>
+License: UNKNOWN
+Keywords: python,dungeon,crawler
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Education
+Classifier: Programming Language :: Python :: 2
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: MacOS :: MacOS X
+Classifier: Operating System :: Microsoft :: Windows
+
+A Dungeon Generator for Coding Pirates (Denmark)
+
