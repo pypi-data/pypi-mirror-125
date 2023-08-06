@@ -1,0 +1,59 @@
+[build-system]
+requires = ["setuptools>=45", "wheel", "setuptools_scm>=6.2"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools_scm]
+
+[tool.cibuildwheel]
+test-command = "pytest {package}/tests"
+test-requires = "pytest"
+
+[tool.cibuildwheel.macos]
+archs = ["x86_64", "universal2", "arm64"]
+
+[tool.cibuildwheel.linux]
+archs = ["auto", "aarch64"]
+
+[tool.black]
+line-length = 79
+target-version = ["py36"]
+
+[tool.mypy]
+check_untyped_defs = true
+ignore_missing_imports = true
+no_implicit_optional = true
+pretty = true
+show_column_numbers = true
+warn_unused_configs = true
+
+[tool.tox]
+legacy_tox_ini = """
+[tox]
+envlist = py{36,37,38,39},black,flake8,mypy
+
+[gh-actions]
+python =
+    3.6: py36
+    3.7: py37
+    3.8: py38
+    3.9: py39, black, flake8, mypy
+
+[testenv:black]
+deps = black
+commands = black --check src tests setup.py
+
+[testenv:flake8]
+deps = flake8
+commands = flake8 src tests setup.py
+
+[testenv:mypy]
+deps = mypy
+commands = mypy src
+
+[testenv]
+setenv =
+    PIP_CONSTRAINT = requirements.txt
+passenv = PYTEST_ADDOPTS CFLAGS
+deps = pytest
+commands = pytest {posargs}
+"""
