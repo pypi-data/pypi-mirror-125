@@ -1,0 +1,13 @@
+xmacro/__init__.py,sha256=wX9aq-SNfJNAggXcXtkRAKXckhGSFto3vDsf3zcTOcc,131
+xmacro/common.sdf.xmacro,sha256=upxnfE1_rMfUVKUQdtRuSrdbYGa5z6Xg9pdrNRhKGmk,2801
+xmacro/common.urdf.xmacro,sha256=MB213HG9UyhBVnGng03WO9EJxOSNOQbZbROZWXImDHs,1646
+xmacro/xmacro.py,sha256=uuDse0Gko_8xPz1TXpbIyiIny_Pjh2xKBPF4rCpdD2w,9938
+xmacro/xmacro4sdf.py,sha256=IRgTZoWAhDVOrRafhQVXWsd4gqlgrpR52N_2wNN7QMg,1804
+xmacro/xmacro4urdf.py,sha256=6YJFETjO8zVIGnmI6bWJuZkaknogkn6T82zECImEqjc,1456
+xmacro/xml_format.py,sha256=ryQi2s5v_2wLVuAhIjKYpEw85C5k7HSseXH9erL0Hmg,1683
+xmacro-1.2.0.dist-info/LICENSE,sha256=uu6P9EooN2N4cnSMrIOYzzvLAvV2YzME-a-OE4VZrPM,1061
+xmacro-1.2.0.dist-info/METADATA,sha256=s1O_u7D5rG1UjfcQ2-TeRteK6V4QliWvXojSGKKCumI,7141
+xmacro-1.2.0.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+xmacro-1.2.0.dist-info/entry_points.txt,sha256=QSTczqEYEahexcsCoFZnP0L4phLhRwXo9j9u7MvmUA8,121
+xmacro-1.2.0.dist-info/top_level.txt,sha256=QDc1_oH0Mc2IcKMs17rJR1iAoxBZurBiSaqwDxnb77g,7
+xmacro-1.2.0.dist-info/RECORD,,
