@@ -1,0 +1,14 @@
+csvio/__init__.py,sha256=rdYIlwf8u6Wslj99reocgNLXvIyDQ6byZIMcOC_jDPk,1304
+csvio/csvbase.py,sha256=t6K5wBZ0d2Py4u5ZzwO1_y4Pi28Ul-heJ3RrgEmKtWw,6730
+csvio/csvreader.py,sha256=ZnWc59JtslN_hY7Lq0xAdrxmMdcp_i7pqLyUaQN1Xxs,4931
+csvio/csvwriter.py,sha256=fvaaNxV95_j_SQgPAej52OWfgTuI5p-1SEYOscc2UIs,7960
+csvio/filebase.py,sha256=CnCbb3VXYCBrKBa533k40P2uz8DFwQId5sej0W5VzDE,3866
+csvio/processors/__init__.py,sha256=8_S9qZT-vteGMO7ZXA6vRq9RUZ3nfjk4IlCyP9U2mD4,77
+csvio/processors/field_processor.py,sha256=G7ooV5MQe7mn8Xtvie-mN2A-7NXrrHX0r9aI4dubfi8,276
+csvio/processors/processor_base.py,sha256=zT5yWXFSocDlFH-Ytyxi88WDmqy60HakQT4veXktbrA,3890
+csvio/utils/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+csvio/utils/types.py,sha256=8BVZHe0es4ZNgTOrRN7h9S02n7RiXT905VbHUluRCCk,146
+csvio-0.3.0.dist-info/LICENSE,sha256=VLtmFXUoVEIvbKz9fUkP7JMV_hp2sGcPr8-_kQZPWkA,1113
+csvio-0.3.0.dist-info/WHEEL,sha256=DRf8A_Psd1SF2kVqTQOOFU1Xzl3-A2qljAxBMTOusUs,83
+csvio-0.3.0.dist-info/METADATA,sha256=etetVYCUY5EIZhXvoVVYxzRjGBt_GoXVxvromjISgU4,4192
+csvio-0.3.0.dist-info/RECORD,,
