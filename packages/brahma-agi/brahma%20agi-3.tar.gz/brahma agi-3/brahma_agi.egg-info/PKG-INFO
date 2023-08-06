@@ -1,0 +1,25 @@
+Metadata-Version: 1.1
+Name: brahma-agi
+Version: 3
+Summary: A library for Artificial General Intelligence
+Home-page: UNKNOWN
+Author: DR.A.SANJAY
+Author-email: dr.sanjayanbu@gmail.com
+License: MIT
+Description: THIS IS A LIBRARY FOR ARTIFICIAL GENERAL INTELLIGENCE REUSABLE CODE .IT IS USED FOR BUILDING APPS WITH COGNITION CAPABILITIES AND SELF TRAINING NEURAL NETWORKS
+        
+        
+        Change Log
+        ==========
+        
+        3 (1/11/2021)
+        -------------------
+        - First Release
+        
+Keywords: AGI
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Education
+Classifier: Operating System :: Microsoft :: Windows :: Windows 10
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
