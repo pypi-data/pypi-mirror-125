@@ -1,0 +1,16 @@
+klunsimplemodule/__init__.py,sha256=GG57AwKi6qHRbaLX0W3ASBaZX-2yRbyM9RnArtZoCUc,47
+klunsimplemodule/add.py,sha256=LsYLaASEOpaXoICb0K7frfuttniYO86yNqllw4Vo3BA,43
+klunsimplemodule/substract.py,sha256=Lj-WsJk8dmNx44BPzJwQ2h2ml37T9Kfj7_hL0sf-gVA,49
+klunsimplemodule/extras/__init__.py,sha256=881tWUu7p3l2VBoVgO-vwGVQCjNp-uuJFxWRs7Nqi6w,57
+klunsimplemodule/extras/divide.py,sha256=Nf3IgnDx8N71UNjZo3MuXThCH_irimyC3oLw27p5Aks,33
+klunsimplemodule/extras/multiply.py,sha256=WxQPALDK9PVDQuUHM1kr8MV0EY8ptewkgVxps13UtMU,35
+simple_module/__init__.py,sha256=4b_apZtMVLDpgz5f5HuJmF194P-a-ogzUPxP_Ahyzus,49
+simple_module/add.py,sha256=Trd0_w5G5ZWPckzkuRdg7LuVaG5GgmSrntXdknt6bg8,30
+simple_module/substract.py,sha256=g_Dzo9thVYxdMzTRJM5inqiO3TQ4sVYNvwoWS4qx0HA,35
+simple_module/extras/__init__.py,sha256=PZSD5KBz18yWugN74-vhWwmkZBi_4rBaSBilLxZKDuA,55
+simple_module/extras/divide.py,sha256=Nf3IgnDx8N71UNjZo3MuXThCH_irimyC3oLw27p5Aks,33
+simple_module/extras/multiply.py,sha256=WxQPALDK9PVDQuUHM1kr8MV0EY8ptewkgVxps13UtMU,35
+klunsimplemodule-0.0.4.dist-info/METADATA,sha256=HFVw8tlbbQeBGUqUEVkeewAVbDbL7B4ZDkMsG4OU55s,578
+klunsimplemodule-0.0.4.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+klunsimplemodule-0.0.4.dist-info/top_level.txt,sha256=IhhDtc4DG-FVCYNRum9HqFTRhimYhpZToc7RGlCrGw0,17
+klunsimplemodule-0.0.4.dist-info/RECORD,,
