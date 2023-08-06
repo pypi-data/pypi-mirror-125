@@ -1,0 +1,4 @@
+trytond_account_dunning<6.3,>=6.2
+trytond_account_dunning_letter<6.3,>=6.2
+trytond_party<6.3,>=6.2
+trytond<6.3,>=6.2
