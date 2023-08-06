@@ -1,0 +1,8 @@
+setup.py
+Sudoko_package_GKG/SudokoSolver.py
+Sudoko_package_GKG/__init__.py
+Sudoko_package_GKG.egg-info/PKG-INFO
+Sudoko_package_GKG.egg-info/SOURCES.txt
+Sudoko_package_GKG.egg-info/dependency_links.txt
+Sudoko_package_GKG.egg-info/not-zip-safe
+Sudoko_package_GKG.egg-info/top_level.txt
