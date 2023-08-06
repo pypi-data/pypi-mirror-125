@@ -1,0 +1,3 @@
+[console_scripts]
+awesomewhoami = myawesomecli2cli.myawesomecli2cli:main
+
