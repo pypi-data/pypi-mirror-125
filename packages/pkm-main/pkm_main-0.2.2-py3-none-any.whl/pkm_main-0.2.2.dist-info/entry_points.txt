@@ -1,0 +1,3 @@
+[console_scripts]
+rp=pkm_main.console.application:main
+
