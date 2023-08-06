@@ -1,0 +1,3 @@
+[console_scripts]
+grades_check = grades_check.cli:main
+
