@@ -1,0 +1,27 @@
+CHANGES
+=======
+
+* release 0.0.10
+
+0.0.10
+------
+
+* chore: setup package \_\_init\_\_ file
+
+0.0.8
+-----
+
+* chore: restructure for publishing
+* chore: add license
+* feature: add AUTHORS and ChangeLog:
+
+0.0.2
+-----
+
+* feature: add setup.cfg and setup.py
+* chore: rename package to environment\_variables
+* feature: add unit tests
+* feature: add code
+* chore: add README
+* chore: add Pipfiles
+* feature: initial commit
