@@ -1,0 +1,24 @@
+Metadata-Version: 1.1
+Name: BraveWryCubase
+Version: v0.0.1
+Summary: A fast chess library for chess engines development including an interface to play games with easy, efficient and short controls and a simple piece-value evaluation
+Home-page: https://github.com/Holger-Velisky/BraveWryCubase
+Author: Albert Mateu Carrasco
+Author-email: albertmateucarrasco@gmail.com
+License: cc-by-sa-4.0
+Download-URL: https://github.com/Holger-Velisky/BraveWryCubase/archive/refs/tags/v0.0.1.tar.gz
+Description: UNKNOWN
+Keywords: CHESS,PYTHON,BOARD,GAMES,IA,ENGINE,MATEU,LICHESS,SOCKFISH,ML
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Natural Language :: English
+Classifier: License :: Free for non-commercial use
+Classifier: Operating System :: POSIX
+Classifier: Operating System :: Microsoft
+Classifier: Operating System :: MacOS
+Classifier: Operating System :: OS Independent
+Classifier: Topic :: Utilities
+Classifier: Topic :: Games/Entertainment :: Board Games
+Classifier: Topic :: Games/Entertainment :: Real Time Strategy
+Classifier: Topic :: Games/Entertainment :: Turn Based Strategy
+Classifier: Topic :: Scientific/Engineering :: Artificial Intelligence
