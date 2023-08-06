@@ -1,0 +1,58 @@
+before_script:
+  - export MAKEFLAGS="-j2"
+
+test:dev: &test
+  image: sagemath/sagemath-dev:develop
+  script:
+    - sudo apt update
+    # https://github.com/moby/moby/issues/27988
+    - echo 'debconf debconf/frontend select Noninteractive' | sudo debconf-set-selections
+    - sudo apt-get install -qy
+    #- DEBIAN_FRONTEND="noninteractive" TZ="Europe/Paris" 
+    - sudo apt install -qy texlive texlive-latex-extra texlive-luatex texlive-fonts-extra graphviz imagemagick pdf2svg
+    - sudo sed -i '/PDF/s/none/read|write/' /etc/ImageMagick-6/policy.xml
+    - sage -i dot2tex glucose
+    - sage -pip install pytimeparse roman
+    - sage -pip install .
+    - sage -c 'import sage.env; print(sage.env.SAGE_VERSION)'
+    - sage -python -V
+    - dot -V
+    - lualatex --version
+    - pdflatex --version
+    - convert --version
+    - sage -c 'import slabbe'
+    - export DIRECTORY=`pwd`
+    - cd
+    - sage -t --force-lib --long --memlimit=4000 ${DIRECTORY}
+    - cd ${DIRECTORY}/docs && sage -sh -c "make html"
+
+#- sage -i cryptominisat latte_int   # cryptominisat is heavy on dependencies (cmake etc.)
+#- make doc
+#- make doc-pdf
+#
+
+# les images qui sont sur https://hub.docker.com/r/sagemath/sagemath-dev/
+test:9.3.beta8:
+  << : *test
+  image: sagemath/sagemath-dev:9.3.beta8
+
+test:9.3.beta3:
+  << : *test
+  image: sagemath/sagemath-dev:9.3.beta3
+
+test:9.2.beta3:
+  << : *test
+  image: sagemath/sagemath-dev:9.2.beta3
+
+test:9.1.rc5-py3:
+  << : *test
+  image: sagemath/sagemath-dev:9.1.rc5-py3
+
+test:9.1.rc5:
+  << : *test
+  image: sagemath/sagemath-dev:9.1.rc5
+
+test:9.0:
+  << : *test
+  image: sagemath/sagemath-dev:9.0
+
