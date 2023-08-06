@@ -1,0 +1,12 @@
+Metadata-Version: 2.1
+Name: xscanner
+Version: 0.1.0
+Summary: 
+Author: kin9-0rz
+Author-email: kin9-0rz@outlook.com
+Requires-Python: >=3.10,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Requires-Dist: antlr4-python3-runtime (>=4.9.2,<5.0.0)
+Requires-Dist: click (>=8.0.3,<9.0.0)
+Requires-Dist: pyftype (>=1.2.2,<2.0.0)
