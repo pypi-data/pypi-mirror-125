@@ -1,0 +1,13 @@
+gsdl/__init__.py,sha256=PZ0RlY4aaZwkVRKIxSoEshA-6YE8Wc25vX2_p3RQLUg,186
+gsdl/__main__.py,sha256=WJAypx_4z30LZhKFoLnVJQ5QiLiReiiPoz51kYCJXfM,2045
+gsdl/fps_clock.py,sha256=JZwCfri8WeQFxAuXFUidipKLErWYNF5__zqmgsiOgXw,1423
+gsdl/frame.py,sha256=8_u-VvSh-o2qkLiYBjBFvykUfjr0MY2TXmUBD43nRVA,5458
+gsdl/hellomsg.py,sha256=TDTX720zZiMjJWgtl_-GnH-JUUqTp069PPEb38zuPcc,639
+gsdl/image.py,sha256=8pFX1jc968I6-ZX_Lb4kUrZmKyk8c2YO_nd1HQXjPsg,3159
+gsdl/label.py,sha256=A2FylJGjKax6OwIe2yv0-SFtdwJyDj-0JyXFAo6764s,3311
+gsdl/utils.py,sha256=H1K5tkU1VRS1c6hVX99TqS1DXNtr9FKHvP6ycXDgfV4,2274
+gsdl-0.0.6.dist-info/LICENSE,sha256=WxdzP3p8vQnV4uQfBlnuGTPctyTmgvpBSkuPe44pJf8,1087
+gsdl-0.0.6.dist-info/METADATA,sha256=lmT09z2_RxfGoA85v0WCvUmPrGCoYancTjZ4mwKNFkk,1099
+gsdl-0.0.6.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+gsdl-0.0.6.dist-info/top_level.txt,sha256=mkN8obc9CRAv89pZZlwhclu8Z8KdqpF2Ga269lCaos0,5
+gsdl-0.0.6.dist-info/RECORD,,
