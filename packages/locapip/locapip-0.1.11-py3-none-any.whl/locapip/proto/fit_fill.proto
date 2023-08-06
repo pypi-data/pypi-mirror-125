@@ -1,0 +1,59 @@
+//
+// Created by epw on 2021/10/14.
+//
+
+syntax = "proto3";
+
+option optimize_for = SPEED;
+option java_multiple_files = true;
+option java_package = "com.locaproto.fit_fill";
+option java_outer_classname = "FitFillProto";
+
+package fit_fill;
+
+service FitFill {
+  rpc upload_mesh(stream Mesh) returns (MeshInfo);
+  rpc simulate(Simulate) returns (SimulateResult);
+  rpc simulate_result(SimulateResult) returns (SimulateResult);
+}
+
+message Vector {
+  repeated double values = 1;
+}
+
+message Matrix {
+  repeated Vector vectors = 1;
+}
+
+message Indices {
+  repeated int32 values = 1;
+}
+
+message Points {
+  repeated Vector points = 1;
+}
+
+message Faces {
+  repeated Indices faces = 1;
+}
+
+message Mesh {
+  oneof type {
+    string name = 1;
+    Points points = 2;
+    Faces faces = 3;
+  }
+}
+
+message MeshInfo {
+  int32 point_num = 1;
+  int32 face_num = 2;
+}
+
+message Simulate {
+  string capture_file_name = 1;
+}
+
+message SimulateResult {
+  Matrix matrix = 1;
+}

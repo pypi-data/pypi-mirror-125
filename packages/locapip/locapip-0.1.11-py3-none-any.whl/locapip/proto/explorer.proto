@@ -1,0 +1,113 @@
+//
+// Created by epw on 2021/10/14.
+//
+
+syntax = "proto3";
+
+option optimize_for = SPEED;
+option java_multiple_files = true;
+option java_package = "com.locaproto.explorer";
+option java_outer_classname = "ExplorerProto";
+
+package explorer;
+
+service Explorer {
+  // 查询路径信息
+  rpc stat(StatRequest) returns (StatResponse);
+
+  // 查询目录包含的子路径信息
+  rpc listdir(StatRequest) returns (stream StatResponse);
+
+  // 移除
+  rpc remove(Remove) returns (Remove);
+
+  // 重命名
+  rpc rename(Rename) returns (Rename);
+
+  // 创建目录
+  rpc makedir(Makedir) returns (Makedir);
+
+  // 上传初始化
+  rpc upload_init(stream CopyInit) returns (stream CopyInit);
+
+  // 上传文件块
+  rpc upload_file(stream CopyChunk) returns (stream CopyChunkInfo);
+
+  // 下载初始化
+  rpc download_init(CopyDir) returns (stream CopyInit);
+
+  // 下载文件块
+  rpc download_file(stream CopyFile) returns (stream CopyChunk);
+}
+
+message StatRequest {
+  string path = 1;
+  bool enable_sha1 = 2;
+}
+
+message StatResponse {
+  string path = 1;
+  bool exists = 2;
+  bool is_dir = 3;
+  bool is_file = 4;
+  double modified_timestamp = 5;
+  double created_timestamp = 6;
+  int32 size = 7;
+  string sha1 = 8;
+}
+
+message Remove {
+  string path = 1;
+  bool not_found = 3;
+}
+
+message Rename {
+  string path = 1;
+  string new_path = 2;
+  bool not_found = 3;
+  bool conflict = 4;
+}
+
+message Makedir {
+  string path = 1;
+  bool override = 2;
+  bool conflict = 3;
+}
+
+message MatchFile {
+  string path = 1;
+  string sha1 = 2;
+  bool matched = 3;
+}
+
+message CopyDir {
+  string client_path = 1;
+  string server_path = 2;
+}
+
+message CopyFile {
+  string client_path = 1;
+  string server_path = 2;
+  int32 size = 3;
+  string sha1 = 4;
+  bool matched = 5;
+}
+
+message CopyInit {
+  oneof type {
+    CopyDir copy_dir = 1;
+    CopyFile copy_file = 2;
+  }
+}
+
+message CopyChunkInfo {
+  string client_path = 1;
+  string server_path = 2;
+  int32 offset = 3;
+  int32 size = 4;
+}
+
+message CopyChunk {
+  CopyChunkInfo info = 1;
+  bytes content = 2;
+}
