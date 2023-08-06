@@ -1,0 +1,10 @@
+README.md
+pyproject.toml
+setup.cfg
+src/grass/__init__.py
+src/grass/function.py
+src/grass/functor.py
+src/grass_python.egg-info/PKG-INFO
+src/grass_python.egg-info/SOURCES.txt
+src/grass_python.egg-info/dependency_links.txt
+src/grass_python.egg-info/top_level.txt
