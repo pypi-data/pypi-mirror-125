@@ -1,0 +1,15 @@
+gsdl/__init__.py,sha256=GSl2XmgzNjgxhYaoeWUiRp8nFDx4LUKVPjYaqMcr1Yo,238
+gsdl/__main__.py,sha256=WJAypx_4z30LZhKFoLnVJQ5QiLiReiiPoz51kYCJXfM,2045
+gsdl/fps_clock.py,sha256=JZwCfri8WeQFxAuXFUidipKLErWYNF5__zqmgsiOgXw,1423
+gsdl/frame.py,sha256=XUq9hdjS6afm_S6aJdPrGgbXf4OzLcWXwmUfpCafG0g,8293
+gsdl/hellomsg.py,sha256=TDTX720zZiMjJWgtl_-GnH-JUUqTp069PPEb38zuPcc,639
+gsdl/image.py,sha256=7-q4stjQI94ykPbRSELxD_Uaglf6dbgzhH_4I0f4Zw8,3445
+gsdl/label.py,sha256=KuvsFP3rb65299lnnj2lBrXnuUJpZNkg4XM0EwOcytk,3769
+gsdl/rect.py,sha256=TOzeZPFEhUN_IZe1_4Qmci24EKd70cu2e4ojmiRdfNw,2080
+gsdl/simple_button.py,sha256=TKavSfUGrUXDzRKhfG8QVizOz9ZnA3YVTFNC3E4kg_w,4234
+gsdl/utils.py,sha256=H1K5tkU1VRS1c6hVX99TqS1DXNtr9FKHvP6ycXDgfV4,2274
+gsdl-0.0.7.dist-info/LICENSE,sha256=WxdzP3p8vQnV4uQfBlnuGTPctyTmgvpBSkuPe44pJf8,1087
+gsdl-0.0.7.dist-info/METADATA,sha256=wjjUrx4AIIcCAXB0PiZABlq3QZyKorkOKRk_30Hy7qI,1099
+gsdl-0.0.7.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+gsdl-0.0.7.dist-info/top_level.txt,sha256=mkN8obc9CRAv89pZZlwhclu8Z8KdqpF2Ga269lCaos0,5
+gsdl-0.0.7.dist-info/RECORD,,
