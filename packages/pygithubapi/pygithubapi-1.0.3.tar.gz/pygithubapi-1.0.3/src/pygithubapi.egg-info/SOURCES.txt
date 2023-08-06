@@ -1,0 +1,13 @@
+LICENSE.txt
+MANIFEST.in
+README.md
+pyproject.toml
+setup.cfg
+setup.py
+src/pygithubapi/__init__.py
+src/pygithubapi/pygithubapi.py
+src/pygithubapi.egg-info/PKG-INFO
+src/pygithubapi.egg-info/SOURCES.txt
+src/pygithubapi.egg-info/dependency_links.txt
+src/pygithubapi.egg-info/requires.txt
+src/pygithubapi.egg-info/top_level.txt
