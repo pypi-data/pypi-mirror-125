@@ -1,0 +1,13 @@
+dummit/__init__.py,sha256=MYVEz3Qpmbokck6PTxZnrYh23EkB1X2E7EUANLAiR5k,67
+dummit/df_tests.py,sha256=_0I-G1awpuXVRcwLcckwpNsZqMvVRCBv3a2U3EFwiyo,1938
+dummit/dummit.py,sha256=3lGcmApdt7kR61FxYMfXkbgw-ZWDjjXZV943kxaiAI4,5234
+dummit/factories.py,sha256=-CAihphMMJnNHSqV18M-kL15Zb1ET7CElZKdeYAwxRU,2709
+dummit/inputs.py,sha256=JY9DiWDsD9926V82fC5Q-z06PC6qMqYbTzxhd3XHOUk,10439
+dummit/locations.py,sha256=CZAm30IzDclq5BOE5iHHPu8nfgIGvnBn2qIHlaUZyN4,4778
+dummit/secrets.py,sha256=N6LBo6RS4-tWe2zlExgENyrDadjB5FO7xlSVRFNa79s,2296
+dummit/tests.py,sha256=xaKBA_d-QMewGTshrNn_4SfNXaDEdLKBK0APqB5Gews,3285
+dummit-0.0.5.dev1.dist-info/LICENSE,sha256=ThdnGbSiWAMKHq6Mdn4rSkG2ZRF6DSdCb7NVsTfyhN8,1050
+dummit-0.0.5.dev1.dist-info/METADATA,sha256=OHfovJpeUdYKVbmvE-JQQ5n5Cn_-VL_X-8w3HCBx-Ds,657
+dummit-0.0.5.dev1.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+dummit-0.0.5.dev1.dist-info/top_level.txt,sha256=Zy27cmEwgOxGyu8p0r5c2UV6nANB4GSeWR16x2Y7lak,7
+dummit-0.0.5.dev1.dist-info/RECORD,,
