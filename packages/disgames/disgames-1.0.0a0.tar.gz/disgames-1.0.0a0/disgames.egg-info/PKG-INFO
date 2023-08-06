@@ -1,0 +1,20 @@
+Metadata-Version: 1.2
+Name: disgames
+Version: 1.0.0a0
+Summary: A games module that can be used to instantly add games to your discord bot
+Home-page: https://github.com/andrewthederp/Disgames
+Author: andrew
+Maintainer: Marcus
+License: Apache
+Description: UNKNOWN
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Build Tools
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Requires-Python: >=3.6

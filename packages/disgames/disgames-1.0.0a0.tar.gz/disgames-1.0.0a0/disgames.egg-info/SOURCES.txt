@@ -1,0 +1,15 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+disgames/Board.py
+disgames/__init__.py
+disgames/hangman.py
+disgames/madlib.py
+disgames/ttt.py
+disgames/utils.py
+disgames.egg-info/PKG-INFO
+disgames.egg-info/SOURCES.txt
+disgames.egg-info/dependency_links.txt
+disgames.egg-info/requires.txt
+disgames.egg-info/top_level.txt
