@@ -1,0 +1,8 @@
+README
+author_number.py
+auto_AUTHNumber.py
+setup.py
+autoauthnumber.egg-info/PKG-INFO
+autoauthnumber.egg-info/SOURCES.txt
+autoauthnumber.egg-info/dependency_links.txt
+autoauthnumber.egg-info/top_level.txt
