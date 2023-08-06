@@ -1,0 +1,9 @@
+cravision/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+cravision/datasets/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+cravision/datasets/mnist.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+cravision/datasets/vision.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+cravision-0.0.1.dist-info/LICENSE,sha256=93M39bpuuxWRm_22BDO5hImUvT4_uQ1jyt_yuB5P0sE,1101
+cravision-0.0.1.dist-info/METADATA,sha256=Y0HHV3KLZgfoICmF973nFhKS40eNZLvL7rBMbJrdjxM,607
+cravision-0.0.1.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+cravision-0.0.1.dist-info/top_level.txt,sha256=VyHMwe8hct_kj7ebx3aI-EZzDqpLJHoStJcucdiObw0,10
+cravision-0.0.1.dist-info/RECORD,,
