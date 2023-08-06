@@ -1,0 +1,16 @@
+.gitignore
+.pypirc
+README.md
+__init__.py
+__main__.py
+prueba.py
+setup.py
+MorataDePrueba.egg-info/PKG-INFO
+MorataDePrueba.egg-info/SOURCES.txt
+MorataDePrueba.egg-info/dependency_links.txt
+MorataDePrueba.egg-info/requires.txt
+MorataDePrueba.egg-info/top_level.txt
+__pycache__/__init__.cpython-39.pyc
+__pycache__/__main__.cpython-39.pyc
+__pycache__/main.cpython-39.pyc
+main/main.py
