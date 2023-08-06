@@ -1,0 +1,8 @@
+setup.py
+some_da2021_package/__init__.py
+some_da2021_package/module_1.py
+some_da2021_package.egg-info/PKG-INFO
+some_da2021_package.egg-info/SOURCES.txt
+some_da2021_package.egg-info/dependency_links.txt
+some_da2021_package.egg-info/requires.txt
+some_da2021_package.egg-info/top_level.txt
