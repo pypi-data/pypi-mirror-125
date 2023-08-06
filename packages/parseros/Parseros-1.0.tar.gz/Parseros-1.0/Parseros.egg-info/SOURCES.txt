@@ -1,0 +1,9 @@
+LICENSE.txt
+README.md
+setup.cfg
+setup.py
+Parseros.egg-info/PKG-INFO
+Parseros.egg-info/SOURCES.txt
+Parseros.egg-info/dependency_links.txt
+Parseros.egg-info/requires.txt
+Parseros.egg-info/top_level.txt
