@@ -1,0 +1,15 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+setup.py
+tests/__init__.py
+tests/test_zarr_jpeg2k.py
+zarr_jpeg2k/__init__.py
+zarr_jpeg2k/version.py
+zarr_jpeg2k/zarr_jpeg2k.py
+zarr_jpeg2k.egg-info/PKG-INFO
+zarr_jpeg2k.egg-info/SOURCES.txt
+zarr_jpeg2k.egg-info/dependency_links.txt
+zarr_jpeg2k.egg-info/requires.txt
+zarr_jpeg2k.egg-info/top_level.txt
