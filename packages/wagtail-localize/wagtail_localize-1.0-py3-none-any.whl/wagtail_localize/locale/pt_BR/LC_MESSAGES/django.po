@@ -1,0 +1,68 @@
+#
+# Translators:
+# Ed Wurch <ewurch@gmail.com>, 2021
+# Claudemiro Alves Feitosa Neto <dimiro1@gmail.com>, 2021
+# Éder Brito <britoederr@gmail.com>, 2021
+#
+msgid ""
+msgstr ""
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-06-01 14:17+0000\n"
+"Last-Translator: Éder Brito <britoederr@gmail.com>, 2021\n"
+"Language-Team: Portuguese (Brazil) (https://www.transifex.com/torchbox/"
+"teams/8009/pt_BR/)\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language: pt_BR\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+
+msgid "Submit"
+msgstr "Enviar"
+
+msgid "Content type"
+msgstr "Tipo de conteúdo"
+
+msgid "Status"
+msgstr "Status"
+
+msgid "Content"
+msgstr "Conteúdo"
+
+msgid "Source title"
+msgstr "Título fonte"
+
+msgid "Select all"
+msgstr "Selecionar todos"
+
+msgid "Locales"
+msgstr "Localidades"
+
+msgid "All child pages will be created."
+msgstr "Todas páginas filho serão criadas"
+
+msgid "Translate"
+msgstr "Traduzir"
+
+msgid "{} locales"
+msgstr "{} localidades"
+
+msgid "Translate page"
+msgstr "Traduzir página"
+
+#, python-brace-format
+msgid ""
+"The page '{page_title}' was successfully submitted for translation into "
+"{locales}"
+msgstr ""
+"A página '{page_title}' foi submetida com sucesso para tradução em {locales}"
+
+#, python-brace-format
+msgid "Translate {model_name}"
+msgstr "Traduzir {model_name}"
+
+#, python-format
+msgid "Translate '%(title)s'"
+msgstr "Traduzir %(title)s"
+
+#, python-format
+msgid "Sync translations of '%(title)s'"
+msgstr "Sincronizar traduções de '%(title)s'"
