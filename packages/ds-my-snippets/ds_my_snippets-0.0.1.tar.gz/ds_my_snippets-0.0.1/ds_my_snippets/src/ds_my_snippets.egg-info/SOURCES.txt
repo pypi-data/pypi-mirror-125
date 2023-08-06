@@ -1,0 +1,8 @@
+README.md
+setup.py
+ds_my_snippets/src/ds_my_snippets.py
+ds_my_snippets/src/ds_my_snippets.egg-info/PKG-INFO
+ds_my_snippets/src/ds_my_snippets.egg-info/SOURCES.txt
+ds_my_snippets/src/ds_my_snippets.egg-info/dependency_links.txt
+ds_my_snippets/src/ds_my_snippets.egg-info/requires.txt
+ds_my_snippets/src/ds_my_snippets.egg-info/top_level.txt
