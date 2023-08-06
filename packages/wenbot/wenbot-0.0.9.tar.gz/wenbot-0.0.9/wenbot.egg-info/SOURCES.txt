@@ -1,0 +1,9 @@
+LICENSE
+README.md
+setup.py
+wenbot.py
+wenbot.egg-info/PKG-INFO
+wenbot.egg-info/SOURCES.txt
+wenbot.egg-info/dependency_links.txt
+wenbot.egg-info/requires.txt
+wenbot.egg-info/top_level.txt
