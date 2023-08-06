@@ -1,0 +1,3 @@
+[console_scripts]
+gh-secrets = github_secrets.cli:cli
+

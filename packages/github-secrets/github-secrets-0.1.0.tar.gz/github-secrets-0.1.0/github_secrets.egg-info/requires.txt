@@ -1,0 +1,5 @@
+pygithub>=1.55
+py-app-conf>=0.3.3
+rich
+typer
+typing_extensions
