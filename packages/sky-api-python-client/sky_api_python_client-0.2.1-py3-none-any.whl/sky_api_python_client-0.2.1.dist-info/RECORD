@@ -1,0 +1,9 @@
+sky/__init__.py,sha256=SUaeRtc1MdNrrtJBf2qFLbHwvXvnKs5EbGiA6GCXi1o,199
+sky/auth.py,sha256=2pzczdzJeSlPg663SIgB6CD_5129778jDAYopJdfsJ0,6678
+sky/sky.py,sha256=poI6H03_WPBrBsDz7mC3x0z8O8aiRKW7FcQunVmTfhQ,8222
+sky/exceptions/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+sky_api_python_client-0.2.1.dist-info/LICENSE,sha256=OXLcl0T2SZ8Pmy2_dmlvKuetivmyPd5m1q-Gyd-zaYY,35149
+sky_api_python_client-0.2.1.dist-info/METADATA,sha256=B5WixFh1Hx6nWbEBhHw2WmSlSfUnctJcN1jkJ-_kUMc,582
+sky_api_python_client-0.2.1.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+sky_api_python_client-0.2.1.dist-info/top_level.txt,sha256=qA8QuiNNb6Y1OF-pCUtPEr6sLEwy2xJX06Bd_CrtrHY,4
+sky_api_python_client-0.2.1.dist-info/RECORD,,
