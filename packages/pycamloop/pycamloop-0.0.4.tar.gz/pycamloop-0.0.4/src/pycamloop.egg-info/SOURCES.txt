@@ -1,0 +1,11 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+src/camloop/__init__.py
+src/camloop/camloop.py
+src/pycamloop.egg-info/PKG-INFO
+src/pycamloop.egg-info/SOURCES.txt
+src/pycamloop.egg-info/dependency_links.txt
+src/pycamloop.egg-info/requires.txt
+src/pycamloop.egg-info/top_level.txt
