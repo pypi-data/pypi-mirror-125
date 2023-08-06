@@ -1,0 +1,9 @@
+[console_scripts]
+iqrTrainClassifier=smqtk_iqr.utils.iqrTrainClassifier:main
+iqr_app_model_generation=smqtk_iqr.utils.iqr_app_model_generation:main
+runApplication=smqtk_iqr.utils.runApplication:main
+
+[smqtk_plugins]
+smqtk_iqr.web.iqr_service.iqr_server=smqtk_iqr.web.iqr_service.iqr_server
+smqtk_iqr.web.search_app=smqtk_iqr.web.search_app.__init__
+
