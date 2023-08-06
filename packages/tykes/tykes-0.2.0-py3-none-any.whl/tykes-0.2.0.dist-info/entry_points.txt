@@ -1,0 +1,3 @@
+[console_scripts]
+tykes=tykes.cli:app
+
