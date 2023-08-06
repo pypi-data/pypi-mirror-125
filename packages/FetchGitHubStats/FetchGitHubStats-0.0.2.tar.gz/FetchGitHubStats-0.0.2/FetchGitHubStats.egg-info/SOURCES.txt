@@ -1,0 +1,8 @@
+README.md
+setup.py
+FetchGitHubStats.egg-info/PKG-INFO
+FetchGitHubStats.egg-info/SOURCES.txt
+FetchGitHubStats.egg-info/dependency_links.txt
+FetchGitHubStats.egg-info/requires.txt
+FetchGitHubStats.egg-info/top_level.txt
+GitHubRepoMetadata/__init__.py
