@@ -1,0 +1,11 @@
+autotk/AutoCore.pyd,sha256=WODDuQFhuVcbbau6S9tFoAxA23cyP5t9em8BGs7x5rM,594432
+autotk/AutoCoreLite.pyd,sha256=0YyD4ifcczxKN3sGM4Iw9mkFlEconquIwpQMMLrdhY8,99328
+autotk/AutoDB.py,sha256=zIs-IkkElc5_iz3TdExsH6aq_brMRa8arPARONJi4vQ,8231
+autotk/AutoLang.py,sha256=_jbkVWw-P2iqGCAhhLBtfn-gbrXJQYmxVkQyUZ7xjCI,5562
+autotk/AutoMES.py,sha256=nH9JXhA9oHhJd5-u612l6avjooXm9Dp6ArWO4pvrJHU,15479
+autotk/AutoUI.py,sha256=yskwsL-nM-toR032I71AHRc67B6zVeUkCK23RzGSuDQ,110287
+autotk/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+automaster-0.2.8.dist-info/METADATA,sha256=BVRAINuu6NXTstCEHoOJZ0xlA1Wylq6-bkLjExLI8_4,497
+automaster-0.2.8.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+automaster-0.2.8.dist-info/top_level.txt,sha256=8VNttXGy4bSg3j2-HyT5veNPQ0nAn41fyXV0fdxIR7s,7
+automaster-0.2.8.dist-info/RECORD,,
