@@ -1,0 +1,21 @@
+Metadata-Version: 2.1
+Name: xplug
+Version: 0.0.2
+Summary: This Package make your life easy
+Home-page: UNKNOWN
+Author: plugin
+Author-email: yazanemails@gmail.com
+License: UNKNOWN
+Keywords: headers
+Platform: UNKNOWN
+Classifier: Development Status :: 1 - Planning
+Classifier: Intended Audience :: Developers
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: Unix
+Classifier: Operating System :: MacOS :: MacOS X
+Classifier: Operating System :: Microsoft :: Windows
+Description-Content-Type: text/markdown
+
+
+This Package make your life easy! enjoy.
+
