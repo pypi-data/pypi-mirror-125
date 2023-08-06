@@ -1,0 +1,2 @@
+jsonpickle==1.5.1
+cachetools==4.2.1
