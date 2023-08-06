@@ -1,0 +1,21 @@
+Metadata-Version: 2.1
+Name: edw-catapult
+Version: 0.0.1
+Summary: A POC for EDW Catapult
+Home-page: https://github.com/MassStreetAnalytics/edw_catapult
+Author: Bob Wakefield
+Author-email: bob@MassStreet.net
+License: UNKNOWN
+Project-URL: Bug Tracker, https://github.com/MassStreetAnalytics/edw_catapult/issues
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: Microsoft :: Windows :: Windows 10
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# EDW Catapult
+EDW Catapult is a CLI tool to automate the deployment of the <a href="http://www.datawarehouseetlframework.com/">Mass Street Analytics Data Warehouse ETL Framework</a>.
+
+
