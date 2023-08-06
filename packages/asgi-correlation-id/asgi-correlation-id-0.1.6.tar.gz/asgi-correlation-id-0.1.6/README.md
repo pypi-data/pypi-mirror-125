@@ -1,0 +1,313 @@
+[![pypi](https://img.shields.io/pypi/v/asgi-correlation-id)](https://pypi.org/project/asgi-correlation-id/)
+[![test](https://github.com/snok/asgi-correlation-id/actions/workflows/test.yml/badge.svg)](https://github.com/snok/asgi-correlation-id/actions/workflows/test.yml)
+[![codecov](https://codecov.io/gh/snok/asgi-correlation-id/branch/main/graph/badge.svg?token=1aXlWPm2gb)](https://codecov.io/gh/snok/asgi-correlation-id)
+
+# ASGI Correlation ID middleware
+
+Middleware for loading or generating correlation IDs, making it simple to correlate logs from a single HTTP request.
+
+Correlation IDs are loaded when the middleware detects a correlation ID HTTP header in an incoming request. When no
+header is found, a correlation ID is generated for the request instead.
+
+The header key name is customizable. Platforms like Heroku use `X-Request-ID` as their
+standard ([source](https://devcenter.heroku.com/articles/http-request-id)), but `X-Correlation-ID` is also commonly
+used.
+
+Once a correlation ID has been set or generated, it's added to your project logs with a log filter.
+
+# Table of contents
+
+- [Installation](#installation)
+- [Configuring the middleware](#configuring-the-middleware)
+    - [1/3 Setting up the middleware](#setting-up-the-middleware)
+    - [2/3 Settings](#settings)
+    - [3/3 Configuring logging](#configuring-logging)
+- [Extensions](#extensions)
+    - [Sentry](#sentry)
+    - [Celery](#celery)
+        - [Taking it one step further - Adding Celery tracing IDs](#taking-it-one-step-further---adding-celery-tracing-ids)
+
+# Installation
+
+```
+pip install asgi-correlation-id
+```
+
+# Configuring the middleware
+
+To set up the package, you need to add the middleware and configure logging.
+
+## 1/3 Setting up the middleware
+
+The middleware can be added like this
+
+```python
+from fastapi import FastAPI
+from starlette.middleware import Middleware
+
+from asgi_correlation_id import CorrelationIdMiddleware
+
+
+app = FastAPI(middleware=[Middleware(CorrelationIdMiddleware)])
+```
+
+or like this
+
+```python
+from fastapi import FastAPI
+
+from asgi_correlation_id import CorrelationIdMiddleware
+
+
+app = FastAPI()
+app.add_middleware(CorrelationIdMiddleware)
+```
+
+or any other way your framework allows.
+
+For [Starlette](https://github.com/encode/starlette) apps, just substitute `FastAPI` with `Starlette` in the example
+above.
+
+## 2/3 Settings
+
+The middleware has a few settings. These are the defaults:
+
+```python
+class CorrelationIdMiddleware(
+    header_name='X-Request-ID',
+    validate_header_as_uuid=True,
+): ...
+```
+
+### header_name
+
+The HTTP header key to read IDs from.
+
+In addition to the default, another popular choice for header name is `X-Correlation-ID`, but the header name can be any
+string.
+
+Defaults to `X-Request-ID`.
+
+### validate_header_as_uuid
+
+By default, the middleware validates correlation IDs as valid UUIDs. If turned off, any string will be accepted.
+The benefit of enforcing UUID usage has to do with limiting the chance of correlation ID collisions.
+
+
+When a header value is detected but found to be invalid, the value is discarded, and a fresh UUID is generated in its
+place. The package logs a warning in these cases.
+
+
+Defaults to `True`.
+
+## 3/3 Configuring logging
+
+To set up logging of the correlation ID, you simply have to implement the log-filter supplied by the package.
+
+If your logging config looks something like this:
+
+```python
+LOGGING = {
+    'version': 1,
+    'disable_existing_loggers': False,
+    'formatters': {
+        'web': {
+            'class': 'logging.Formatter',
+            'datefmt': '%H:%M:%S',
+            'format': '%(levelname)s ... %(name)s %(message)s',
+        },
+    },
+    'handlers': {
+        'web': {
+            'class': 'logging.StreamHandler',
+            'formatter': 'web',
+        },
+    },
+    'loggers': {
+        'my_project': {
+            'handlers': ['web'],
+            'level': 'DEBUG',
+            'propagate': True,
+        },
+    },
+}
+```
+
+You simply have to add a log filter, like this
+
+```diff
++ from asgi_correlation_id.log_filters import correlation_id_filter
+
+LOGGING = {
+    'version': 1,
+    'disable_existing_loggers': False,
++   'filters': {
++       'correlation_id': {'()': correlation_id_filter(uuid_length=32)},
++   },
+    'formatters': {
+        'web': {
+            'class': 'logging.Formatter',
+            'datefmt': '%H:%M:%S',
++           'format': '%(levelname)s ... [%(correlation_id)s] %(name)s %(message)s',
+        },
+    },
+    'handlers': {
+        'web': {
+            'class': 'logging.StreamHandler',
++           'filters': ['correlation_id'],
+            'formatter': 'web',
+        },
+    },
+    'loggers': {
+        'my_project': {
+            'handlers': ['web'],
+            'level': 'DEBUG',
+            'propagate': True,
+        },
+    },
+}
+```
+
+And your log output will go from this
+
+```
+INFO ... project.views This is a DRF view log, and should have a GUID.
+WARNING ... project.services.file Some warning in a function
+INFO ... project.views This is a DRF view log, and should have a GUID.
+INFO ... project.views This is a DRF view log, and should have a GUID.
+WARNING ... project.services.file Some warning in a function
+WARNING ... project.services.file Some warning in a function
+```
+
+to this
+
+```docker
+INFO ... [773fa6885e03493498077a273d1b7f2d] project.views This is a DRF view log, and should have a GUID.
+WARNING ... [773fa6885e03493498077a273d1b7f2d] project.services.file Some warning in a function
+INFO ... [0d1c3919e46e4cd2b2f4ac9a187a8ea1] project.views This is a DRF view log, and should have a GUID.
+INFO ... [99d44111e9174c5a9494275aa7f28858] project.views This is a DRF view log, and should have a GUID.
+WARNING ... [0d1c3919e46e4cd2b2f4ac9a187a8ea1] project.services.file Some warning in a function
+WARNING ... [99d44111e9174c5a9494275aa7f28858] project.services.file Some warning in a function
+```
+
+If you're using a json log-formatter, just add `correlation-id: %(correlation_id)s` to your list of properties.
+
+# Extensions
+
+We've added a couple of (we think) nice extensions to extend the scope of correlation IDs.
+
+## Sentry
+
+If your project has [sentry-sdk](https://pypi.org/project/sentry-sdk/)
+installed, correlation IDs will automatically be added to Sentry events as a `transaction_id`.
+
+See
+this [blogpost](https://blog.sentry.io/2019/04/04/trace-errors-through-stack-using-unique-identifiers-in-sentry#1-generate-a-unique-identifier-and-set-as-a-sentry-tag-on-issuing-service)
+for a little bit of detail.
+
+## Celery
+
+There's one issue with Celery: when calling `task.delay()` from the web server, the worker process does not have access
+to the `correlation_id` context var, so it will not include the request correlation id by default.
+
+To make sure correlation IDs are transferred to worker processes we use Celery signal hooks that transfer and receive
+correlation IDs, like this:
+
+```python
+@before_task_publish.connect()
+def transfer_correlation_id(headers) -> None:
+    headers['REQUEST_ID'] = correlation_id.get()
+
+
+@task_prerun.connect()
+def load_correlation_id(task) -> None:
+    id_value = task.request.get('REQUEST_ID')
+    correlation_id.set(id_value)
+```
+
+To make the setup as simple as possible, we've put all the required code into a single setup function, so to enable
+correlation IDs for Celery, just add this code to your `celery.py`:
+
+```python
+from asgi_correlation_id.extensions.celery import load_correlation_ids
+
+load_correlation_ids()
+```
+
+### Taking it one step further - Adding Celery tracing IDs
+
+In addition to transferring request IDs to Celery workers, we've added one more log filter for improving tracing in
+celery processes. This is completely separate from the middleware, but is something we use personally, so maintain here
+regardless.
+
+The log filter adds an ID, `celery_current_id` for each worker process, and an ID, `celery_parent_id` for the process
+that spawned it.
+
+Here's a quick summary of outputs from different scenarios:
+
+| Scenario                                           | Correlation ID     | Celery Current ID | Celery Parent ID |
+|------------------------------------------          |--------------------|-------------------|------------------|
+| Request                                            | ✅                |                   |                  |
+| Request -> Worker                                  | ✅                | ✅               |                  |
+| Request -> Worker -> Another worker                | ✅                | ✅               | ✅              |
+| Beat -> Worker     | ✅*               | ✅                |                   |                  |
+| Beat -> Worker -> Worker     | ✅*     | ✅                | ✅               | ✅              |
+
+*When we're in a process spawned separately from an HTTP request, a correlation ID is still spawned for the first
+process in the chain, and passed down. You can think of the correlation ID as an origin ID, while the combination of
+current and parent-ids as a way of linking the chain.
+
+To add the current and parent IDs, just alter your `celery.py` to this:
+
+```diff
++ from asgi_correlation_id.extensions.celery import load_correlation_ids, load_celery_current_and_parent_ids
+
+load_correlation_ids()
++ load_celery_current_and_parent_ids()
+```
+
+To set up the additional log filters, update your log config like this:
+
+```diff
++ from asgi_correlation_id.log_filters import celery_tracing_id_filter, correlation_id_filter
+
+LOGGING = {
+    'version': 1,
+    'disable_existing_loggers': False,
+    'filters': {
+        'correlation_id': {'()': correlation_id_filter(uuid_length=32)},
++       'celery_tracing': {'()': celery_tracing_id_filter(uuid_length=32)},
+    },
+    'formatters': {
+        'web': {
+            'class': 'logging.Formatter',
+            'datefmt': '%H:%M:%S',
+            'format': '%(levelname)s ... [%(correlation_id)s] %(name)s %(message)s',
+        },
++       'celery': {
++           'class': 'logging.Formatter',
++           'datefmt': '%H:%M:%S',
++           'format': '%(levelname)s ... [%(correlation_id)s] [%(celery_parent_id)s-%(celery_current_id)s] %(name)s %(message)s',
++       },
+    },
+    'handlers': {
+        'web': {
+            'class': 'logging.StreamHandler',
+            'filters': ['correlation_id'],
+            'formatter': 'web',
+        },
++       'celery': {
++           'class': 'logging.StreamHandler',
++           'filters': ['correlation_id', 'celery_tracing'],
++           'formatter': 'celery',
++       },
+    },
+    'loggers': {
+        'my_project': {
++           'handlers': ['celery' if any('celery' in i for i in sys.argv) else 'web'],
+            'level': 'DEBUG',
+            'propagate': True,
+        },
+    },
+}
+```
