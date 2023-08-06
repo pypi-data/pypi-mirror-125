@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: pyupdater-http
+Version: 0.4.0
+Summary: Plugin: HTTP upload support
+Author: Kirill Pinchuk
+Author-email: cybergrind@gmail.com
+Requires-Python: >=3.6,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Requires-Dist: httpx (>=0.20.0,<0.21.0)
