@@ -1,0 +1,1362 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <title>Coverage report</title>
+    <link rel="icon" sizes="32x32" href="favicon_32.png">
+    <link rel="stylesheet" href="style.css" type="text/css">
+    <script type="text/javascript" src="jquery.min.js"></script>
+    <script type="text/javascript" src="jquery.ba-throttle-debounce.min.js"></script>
+    <script type="text/javascript" src="jquery.tablesorter.min.js"></script>
+    <script type="text/javascript" src="jquery.hotkeys.js"></script>
+    <script type="text/javascript" src="coverage_html.js"></script>
+    <script type="text/javascript">
+        jQuery(document).ready(coverage.index_ready);
+    </script>
+</head>
+<body class="indexfile">
+<div id="header">
+    <div class="content">
+        <h1>Coverage report:
+            <span class="pc_cov">61%</span>
+        </h1>
+        <img id="keyboard_icon" src="keybd_closed.png" alt="Show keyboard shortcuts" />
+        <form id="filter_container">
+            <input id="filter" type="text" value="" placeholder="filter..." />
+        </form>
+    </div>
+</div>
+<div class="help_panel">
+    <img id="panel_icon" src="keybd_open.png" alt="Hide keyboard shortcuts" />
+    <p class="legend">Hot-keys on this page</p>
+    <div>
+    <p class="keyhelp">
+        <span class="key">n</span>
+        <span class="key">s</span>
+        <span class="key">m</span>
+        <span class="key">x</span>
+        <span class="key">b</span>
+        <span class="key">p</span>
+        <span class="key">c</span> &nbsp; change column sorting
+    </p>
+    </div>
+</div>
+<div id="index">
+    <table class="index">
+        <thead>
+            <tr class="tablehead" title="Click to sort">
+                <th class="name left headerSortDown shortkey_n">Module</th>
+                <th class="shortkey_s">statements</th>
+                <th class="shortkey_m">missing</th>
+                <th class="shortkey_x">excluded</th>
+                <th class="shortkey_b">branches</th>
+                <th class="shortkey_p">partial</th>
+                <th class="right shortkey_c">coverage</th>
+            </tr>
+        </thead>
+        <tfoot>
+            <tr class="total">
+                <td class="name left">Total</td>
+                <td>55992</td>
+                <td>18924</td>
+                <td>0</td>
+                <td>10037</td>
+                <td>1116</td>
+                <td class="right" data-ratio="40362 66029">61%</td>
+            </tr>
+        </tfoot>
+        <tbody>
+            <tr class="file">
+                <td class="name left"><a href="d_9e3b265e89e70295_Dot11Crypto_py.html">/root/GitHubProjects/impacket/impacket/Dot11Crypto.py</a></td>
+                <td>19</td>
+                <td>0</td>
+                <td>0</td>
+                <td>4</td>
+                <td>0</td>
+                <td class="right" data-ratio="23 23">100%</td>
+            </tr>
+            <tr class="file">
+                <td class="name left"><a href="d_9e3b265e89e70295_Dot11KeyManager_py.html">/root/GitHubProjects/impacket/impacket/Dot11KeyManager.py</a></td>
+                <td>31</td>
+                <td>13</td>
+                <td>0</td>
+                <td>10</td>
+                <td>3</td>
+                <td class="right" data-ratio="21 41">51%</td>
+            </tr>
+            <tr class="file">
+                <td class="name left"><a href="d_9e3b265e89e70295_ICMP6_py.html">/root/GitHubProjects/impacket/impacket/ICMP6.py</a></td>
+                <td>312</td>
+                <td>126</td>
+                <td>0</td>
+                <td>34</td>
+                <td>3</td>
+                <td class="right" data-ratio="191 346">55%</td>
+            </tr>
+            <tr class="file">
+                <td class="name left"><a href="d_9e3b265e89e70295_IP6_py.html">/root/GitHubProjects/impacket/impacket/IP6.py</a></td>
+                <td>129</td>
+                <td>33</td>
+                <td>0</td>
+                <td>8</td>
+                <td>2</td>
+                <td class="right" data-ratio="102 137">74%</td>
+            </tr>
+            <tr class="file">
+                <td class="name left"><a href="d_9e3b265e89e70295_IP6_Address_py.html">/root/GitHubProjects/impacket/impacket/IP6_Address.py</a></td>
+                <td>152</td>
+                <td>24</td>
+                <td>0</td>
+                <td>62</td>
+                <td>2</td>
+                <td class="right" data-ratio="178 214">83%</td>
+            </tr>
+            <tr class="file">
+                <td class="name left"><a href="d_9e3b265e89e70295_IP6_Extension_Headers_py.html">/root/GitHubProjects/impacket/impacket/IP6_Extension_Headers.py</a></td>
+                <td>221</td>
+                <td>40</td>
+                <td>0</td>
+                <td>36</td>
+                <td>5</td>
+                <td class="right" data-ratio="208 257">81%</td>
+            </tr>
+            <tr class="file">
+                <td class="name left"><a href="d_9e3b265e89e70295_ImpactDecoder_py.html">/root/GitHubProjects/impacket/impacket/ImpactDecoder.py</a></td>
+                <td>725</td>
+                <td>250</td>
+                <td>0</td>
+                <td>144</td>
+                <td>26</td>
+                <td class="right" data-ratio="537 869">62%</td>
+            </tr>
+            <tr class="file">
+                <td class="name left"><a href="d_9e3b265e89e70295_ImpactPacket_py.html">/root/GitHubProjects/impacket/impacket/ImpactPacket.py</a></td>
+                <td>1455</td>
+                <td>576</td>
+                <td>0</td>
+                <td>388</td>
+                <td>51</td>
+                <td class="right" data-ratio="1014 1843">55%</td>
+            </tr>
+            <tr class="file">
+                <td class="name left"><a href="d_9e3b265e89e70295_NDP_py.html">/root/GitHubProjects/impacket/impacket/NDP.py</a></td>
+                <td>105</td>
+                <td>62</td>
+                <td>0</td>
+                <td>14</td>
+                <td>0</td>
+                <td class="right" data-ratio="43 119">36%</td>
+            </tr>
+            <tr class="file">
+                <td class="name left"><a href="d_9e3b265e89e70295___init___py.html">/root/GitHubProjects/impacket/impacket/__init__.py</a></td>
+                <td>9</td>
+                <td>4</td>
+                <td>0</td>
+                <td>0</td>
+                <td>0</td>
+                <td class="right" data-ratio="5 9">56%</td>
+            </tr>
+            <tr class="file">
+                <td class="name left"><a href="d_9e3b265e89e70295_cdp_py.html">/root/GitHubProjects/impacket/impacket/cdp.py</a></td>
+                <td>317</td>
+                <td>156</td>
+                <td>0</td>
+                <td>24</td>
+                <td>0</td>
+                <td class="right" data-ratio="161 341">47%</td>
+            </tr>
+            <tr class="file">
+                <td class="name left"><a href="d_9e3b265e89e70295_crypto_py.html">/root/GitHubProjects/impacket/impacket/crypto.py</a></td>
+                <td>156</td>
+                <td>47</td>
+                <td>0</td>
+                <td>34</td>
+                <td>2</td>
+                <td class="right" data-ratio="131 190">69%</td>
+            </tr>
+            <tr class="file">
+                <td class="name left"><a href="d_62108250a100fb23___init___py.html">/root/GitHubProjects/impacket/impacket/dcerpc/__init__.py</a></td>
+                <td>1</td>
+                <td>0</td>
+                <td>0</td>
+                <td>0</td>
+                <td>0</td>
+                <td class="right" data-ratio="1 1">100%</td>
+            </tr>
+            <tr class="file">
+                <td class="name left"><a href="d_7838a8b6fca0060b___init___py.html">/root/GitHubProjects/impacket/impacket/dcerpc/v5/__init__.py</a></td>
+                <td>1</td>
+                <td>0</td>
+                <td>0</td>
+                <td>0</td>
+                <td>0</td>
+                <td class="right" data-ratio="1 1">100%</td>
+            </tr>
+            <tr class="file">
+                <td class="name left"><a href="d_7838a8b6fca0060b_atsvc_py.html">/root/GitHubProjects/impacket/impacket/dcerpc/v5/atsvc.py</a></td>
+                <td>89</td>
+                <td>15</td>
+                <td>0</td>
+                <td>2</td>
+                <td>0</td>
+                <td class="right" data-ratio="74 91">81%</td>
+            </tr>
+            <tr class="file">
+                <td class="name left"><a href="d_7838a8b6fca0060b_bkrp_py.html">/root/GitHubProjects/impacket/impacket/dcerpc/v5/bkrp.py</a></td>
+                <td>46</td>
+                <td>7</td>
+                <td>0</td>
+                <td>4</td>
+                <td>0</td>
+                <td class="right" data-ratio="41 50">82%</td>
+            </tr>
+            <tr class="file">
+                <td class="name left"><a href="d_ae5efe76dbabd741___init___py.html">/root/GitHubProjects/impacket/impacket/dcerpc/v5/dcom/__init__.py</a></td>
+                <td>1</td>
+                <td>0</td>
+                <td>0</td>
+                <td>0</td>
+                <td>0</td>
+                <td class="right" data-ratio="1 1">100%</td>
+            </tr>
+            <tr class="file">
+                <td class="name left"><a href="d_ae5efe76dbabd741_comev_py.html">/root/GitHubProjects/impacket/impacket/dcerpc/v5/dcom/comev.py</a></td>
+                <td>1052</td>
+                <td>421</td>
+                <td>0</td>
+                <td>4</td>
+                <td>0</td>
+                <td class="right" data-ratio="631 1056">60%</td>
+            </tr>
+            <tr class="file">
+                <td class="name left"><a href="d_ae5efe76dbabd741_oaut_py.html">/root/GitHubProjects/impacket/impacket/dcerpc/v5/dcom/oaut.py</a></td>
+                <td>477</td>
+                <td>114</td>
+                <td>0</td>
+                <td>32</td>
+                <td>0</td>
+                <td class="right" data-ratio="367 509">72%</td>
+            </tr>
+            <tr class="file">
+                <td class="name left"><a href="d_ae5efe76dbabd741_scmp_py.html">/root/GitHubProjects/impacket/impacket/dcerpc/v5/dcom/scmp.py</a></td>
+                <td>184</td>
+                <td>74</td>
+                <td>0</td>
+                <td>2</td>
+                <td>0</td>
+                <td class="right" data-ratio="110 186">59%</td>
+            </tr>
+            <tr class="file">
+                <td class="name left"><a href="d_ae5efe76dbabd741_vds_py.html">/root/GitHubProjects/impacket/impacket/dcerpc/v5/dcom/vds.py</a></td>
+                <td>141</td>
+                <td>57</td>
+                <td>0</td>
+                <td>6</td>
+                <td>0</td>
+                <td class="right" data-ratio="84 147">57%</td>
+            </tr>
+            <tr class="file">
+                <td class="name left"><a href="d_ae5efe76dbabd741_wmi_py.html">/root/GitHubProjects/impacket/impacket/dcerpc/v5/dcom/wmi.py</a></td>
+                <td>1774</td>
+                <td>546</td>
+                <td>0</td>
+                <td>310</td>
+                <td>38</td>
+                <td class="right" data-ratio="1368 2084">66%</td>
+            </tr>
+            <tr class="file">
+                <td class="name left"><a href="d_7838a8b6fca0060b_dcomrt_py.html">/root/GitHubProjects/impacket/impacket/dcerpc/v5/dcomrt.py</a></td>
+                <td>1036</td>
+                <td>141</td>
+                <td>0</td>
+                <td>194</td>
+                <td>32</td>
+                <td class="right" data-ratio="1009 1230">82%</td>
+            </tr>
+            <tr class="file">
+                <td class="name left"><a href="d_7838a8b6fca0060b_dhcpm_py.html">/root/GitHubProjects/impacket/impacket/dcerpc/v5/dhcpm.py</a></td>
+                <td>482</td>
+                <td>157</td>
+                <td>0</td>
+                <td>82</td>
+                <td>6</td>
+                <td class="right" data-ratio="337 564">60%</td>
+            </tr>
+            <tr class="file">
+                <td class="name left"><a href="d_7838a8b6fca0060b_drsuapi_py.html">/root/GitHubProjects/impacket/impacket/dcerpc/v5/drsuapi.py</a></td>
+                <td>646</td>
+                <td>53</td>
+                <td>0</td>
+                <td>46</td>
+                <td>15</td>
+                <td class="right" data-ratio="624 692">90%</td>
+            </tr>
+            <tr class="file">
+                <td class="name left"><a href="d_7838a8b6fca0060b_dtypes_py.html">/root/GitHubProjects/impacket/impacket/dcerpc/v5/dtypes.py</a></td>
+                <td>264</td>
+                <td>26</td>
+                <td>0</td>
+                <td>36</td>
+                <td>8</td>
+                <td class="right" data-ratio="262 300">87%</td>
+            </tr>
+            <tr class="file">
+                <td class="name left"><a href="d_7838a8b6fca0060b_enum_py.html">/root/GitHubProjects/impacket/impacket/dcerpc/v5/enum.py</a></td>
+                <td>383</td>
+                <td>159</td>
+                <td>0</td>
+                <td>190</td>
+                <td>27</td>
+                <td class="right" data-ratio="303 573">53%</td>
+            </tr>
+            <tr class="file">
+                <td class="name left"><a href="d_7838a8b6fca0060b_epm_py.html">/root/GitHubProjects/impacket/impacket/dcerpc/v5/epm.py</a></td>
+                <td>263</td>
+                <td>61</td>
+                <td>0</td>
+                <td>60</td>
+                <td>7</td>
+                <td class="right" data-ratio="219 323">68%</td>
+            </tr>
+            <tr class="file">
+                <td class="name left"><a href="d_7838a8b6fca0060b_even_py.html">/root/GitHubProjects/impacket/impacket/dcerpc/v5/even.py</a></td>
+                <td>166</td>
+                <td>66</td>
+                <td>0</td>
+                <td>10</td>
+                <td>0</td>
+                <td class="right" data-ratio="100 176">57%</td>
+            </tr>
+            <tr class="file">
+                <td class="name left"><a href="d_7838a8b6fca0060b_even6_py.html">/root/GitHubProjects/impacket/impacket/dcerpc/v5/even6.py</a></td>
+                <td>140</td>
+                <td>39</td>
+                <td>0</td>
+                <td>8</td>
+                <td>0</td>
+                <td class="right" data-ratio="101 148">68%</td>
+            </tr>
+            <tr class="file">
+                <td class="name left"><a href="d_7838a8b6fca0060b_iphlp_py.html">/root/GitHubProjects/impacket/impacket/dcerpc/v5/iphlp.py</a></td>
+                <td>77</td>
+                <td>29</td>
+                <td>0</td>
+                <td>6</td>
+                <td>0</td>
+                <td class="right" data-ratio="48 83">58%</td>
+            </tr>
+            <tr class="file">
+                <td class="name left"><a href="d_7838a8b6fca0060b_lsad_py.html">/root/GitHubProjects/impacket/impacket/dcerpc/v5/lsad.py</a></td>
+                <td>721</td>
+                <td>35</td>
+                <td>0</td>
+                <td>24</td>
+                <td>1</td>
+                <td class="right" data-ratio="695 745">93%</td>
+            </tr>
+            <tr class="file">
+                <td class="name left"><a href="d_7838a8b6fca0060b_lsat_py.html">/root/GitHubProjects/impacket/impacket/dcerpc/v5/lsat.py</a></td>
+                <td>203</td>
+                <td>1</td>
+                <td>0</td>
+                <td>14</td>
+                <td>1</td>
+                <td class="right" data-ratio="215 217">99%</td>
+            </tr>
+            <tr class="file">
+                <td class="name left"><a href="d_7838a8b6fca0060b_mgmt_py.html">/root/GitHubProjects/impacket/impacket/dcerpc/v5/mgmt.py</a></td>
+                <td>69</td>
+                <td>9</td>
+                <td>0</td>
+                <td>2</td>
+                <td>0</td>
+                <td class="right" data-ratio="60 71">85%</td>
+            </tr>
+            <tr class="file">
+                <td class="name left"><a href="d_7838a8b6fca0060b_mimilib_py.html">/root/GitHubProjects/impacket/impacket/dcerpc/v5/mimilib.py</a></td>
+                <td>120</td>
+                <td>58</td>
+                <td>0</td>
+                <td>10</td>
+                <td>1</td>
+                <td class="right" data-ratio="63 130">48%</td>
+            </tr>
+            <tr class="file">
+                <td class="name left"><a href="d_7838a8b6fca0060b_ndr_py.html">/root/GitHubProjects/impacket/impacket/dcerpc/v5/ndr.py</a></td>
+                <td>1050</td>
+                <td>151</td>
+                <td>0</td>
+                <td>496</td>
+                <td>62</td>
+                <td class="right" data-ratio="1295 1546">84%</td>
+            </tr>
+            <tr class="file">
+                <td class="name left"><a href="d_7838a8b6fca0060b_nrpc_py.html">/root/GitHubProjects/impacket/impacket/dcerpc/v5/nrpc.py</a></td>
+                <td>1046</td>
+                <td>155</td>
+                <td>0</td>
+                <td>44</td>
+                <td>5</td>
+                <td class="right" data-ratio="902 1090">83%</td>
+            </tr>
+            <tr class="file">
+                <td class="name left"><a href="d_7838a8b6fca0060b_nspi_py.html">/root/GitHubProjects/impacket/impacket/dcerpc/v5/nspi.py</a></td>
+                <td>590</td>
+                <td>268</td>
+                <td>0</td>
+                <td>104</td>
+                <td>0</td>
+                <td class="right" data-ratio="322 694">46%</td>
+            </tr>
+            <tr class="file">
+                <td class="name left"><a href="d_7838a8b6fca0060b_oxabref_py.html">/root/GitHubProjects/impacket/impacket/dcerpc/v5/oxabref.py</a></td>
+                <td>60</td>
+                <td>33</td>
+                <td>0</td>
+                <td>10</td>
+                <td>0</td>
+                <td class="right" data-ratio="27 70">39%</td>
+            </tr>
+            <tr class="file">
+                <td class="name left"><a href="d_7838a8b6fca0060b_par_py.html">/root/GitHubProjects/impacket/impacket/dcerpc/v5/par.py</a></td>
+                <td>256</td>
+                <td>72</td>
+                <td>0</td>
+                <td>16</td>
+                <td>0</td>
+                <td class="right" data-ratio="184 272">68%</td>
+            </tr>
+            <tr class="file">
+                <td class="name left"><a href="d_7838a8b6fca0060b_rpch_py.html">/root/GitHubProjects/impacket/impacket/dcerpc/v5/rpch.py</a></td>
+                <td>360</td>
+                <td>207</td>
+                <td>0</td>
+                <td>58</td>
+                <td>0</td>
+                <td class="right" data-ratio="153 418">37%</td>
+            </tr>
+            <tr class="file">
+                <td class="name left"><a href="d_7838a8b6fca0060b_rpcrt_py.html">/root/GitHubProjects/impacket/impacket/dcerpc/v5/rpcrt.py</a></td>
+                <td>784</td>
+                <td>243</td>
+                <td>0</td>
+                <td>232</td>
+                <td>39</td>
+                <td class="right" data-ratio="670 1016">66%</td>
+            </tr>
+            <tr class="file">
+                <td class="name left"><a href="d_7838a8b6fca0060b_rprn_py.html">/root/GitHubProjects/impacket/impacket/dcerpc/v5/rprn.py</a></td>
+                <td>285</td>
+                <td>32</td>
+                <td>0</td>
+                <td>20</td>
+                <td>8</td>
+                <td class="right" data-ratio="263 305">86%</td>
+            </tr>
+            <tr class="file">
+                <td class="name left"><a href="d_7838a8b6fca0060b_rrp_py.html">/root/GitHubProjects/impacket/impacket/dcerpc/v5/rrp.py</a></td>
+                <td>487</td>
+                <td>48</td>
+                <td>0</td>
+                <td>48</td>
+                <td>17</td>
+                <td class="right" data-ratio="466 535">87%</td>
+            </tr>
+            <tr class="file">
+                <td class="name left"><a href="d_7838a8b6fca0060b_samr_py.html">/root/GitHubProjects/impacket/impacket/dcerpc/v5/samr.py</a></td>
+                <td>1352</td>
+                <td>80</td>
+                <td>0</td>
+                <td>22</td>
+                <td>7</td>
+                <td class="right" data-ratio="1285 1374">94%</td>
+            </tr>
+            <tr class="file">
+                <td class="name left"><a href="d_7838a8b6fca0060b_sasec_py.html">/root/GitHubProjects/impacket/impacket/dcerpc/v5/sasec.py</a></td>
+                <td>78</td>
+                <td>8</td>
+                <td>0</td>
+                <td>10</td>
+                <td>2</td>
+                <td class="right" data-ratio="76 88">86%</td>
+            </tr>
+            <tr class="file">
+                <td class="name left"><a href="d_7838a8b6fca0060b_scmr_py.html">/root/GitHubProjects/impacket/impacket/dcerpc/v5/scmr.py</a></td>
+                <td>642</td>
+                <td>66</td>
+                <td>0</td>
+                <td>28</td>
+                <td>4</td>
+                <td class="right" data-ratio="590 670">88%</td>
+            </tr>
+            <tr class="file">
+                <td class="name left"><a href="d_7838a8b6fca0060b_srvs_py.html">/root/GitHubProjects/impacket/impacket/dcerpc/v5/srvs.py</a></td>
+                <td>1301</td>
+                <td>24</td>
+                <td>0</td>
+                <td>10</td>
+                <td>3</td>
+                <td class="right" data-ratio="1282 1311">98%</td>
+            </tr>
+            <tr class="file">
+                <td class="name left"><a href="d_7838a8b6fca0060b_transport_py.html">/root/GitHubProjects/impacket/impacket/dcerpc/v5/transport.py</a></td>
+                <td>410</td>
+                <td>110</td>
+                <td>0</td>
+                <td>86</td>
+                <td>15</td>
+                <td class="right" data-ratio="351 496">71%</td>
+            </tr>
+            <tr class="file">
+                <td class="name left"><a href="d_7838a8b6fca0060b_tsch_py.html">/root/GitHubProjects/impacket/impacket/dcerpc/v5/tsch.py</a></td>
+                <td>371</td>
+                <td>56</td>
+                <td>0</td>
+                <td>16</td>
+                <td>3</td>
+                <td class="right" data-ratio="320 387">83%</td>
+            </tr>
+            <tr class="file">
+                <td class="name left"><a href="d_7838a8b6fca0060b_wkst_py.html">/root/GitHubProjects/impacket/impacket/dcerpc/v5/wkst.py</a></td>
+                <td>470</td>
+                <td>10</td>
+                <td>0</td>
+                <td>22</td>
+                <td>8</td>
+                <td class="right" data-ratio="474 492">96%</td>
+            </tr>
+            <tr class="file">
+                <td class="name left"><a href="d_9e3b265e89e70295_dhcp_py.html">/root/GitHubProjects/impacket/impacket/dhcp.py</a></td>
+                <td>58</td>
+                <td>32</td>
+                <td>0</td>
+                <td>22</td>
+                <td>0</td>
+                <td class="right" data-ratio="26 80">32%</td>
+            </tr>
+            <tr class="file">
+                <td class="name left"><a href="d_9e3b265e89e70295_dns_py.html">/root/GitHubProjects/impacket/impacket/dns.py</a></td>
+                <td>405</td>
+                <td>97</td>
+                <td>0</td>
+                <td>68</td>
+                <td>10</td>
+                <td class="right" data-ratio="350 473">74%</td>
+            </tr>
+            <tr class="file">
+                <td class="name left"><a href="d_9e3b265e89e70295_dot11_py.html">/root/GitHubProjects/impacket/impacket/dot11.py</a></td>
+                <td>1765</td>
+                <td>150</td>
+                <td>0</td>
+                <td>266</td>
+                <td>57</td>
+                <td class="right" data-ratio="1794 2031">88%</td>
+            </tr>
+            <tr class="file">
+                <td class="name left"><a href="d_9e3b265e89e70295_dpapi_py.html">/root/GitHubProjects/impacket/impacket/dpapi.py</a></td>
+                <td>530</td>
+                <td>65</td>
+                <td>0</td>
+                <td>80</td>
+                <td>17</td>
+                <td class="right" data-ratio="522 610">86%</td>
+            </tr>
+            <tr class="file">
+                <td class="name left"><a href="d_9e3b265e89e70295_eap_py.html">/root/GitHubProjects/impacket/impacket/eap.py</a></td>
+                <td>37</td>
+                <td>0</td>
+                <td>0</td>
+                <td>0</td>
+                <td>0</td>
+                <td class="right" data-ratio="37 37">100%</td>
+            </tr>
+            <tr class="file">
+                <td class="name left"><a href="d_9e3b265e89e70295_ese_py.html">/root/GitHubProjects/impacket/impacket/ese.py</a></td>
+                <td>505</td>
+                <td>144</td>
+                <td>0</td>
+                <td>174</td>
+                <td>31</td>
+                <td class="right" data-ratio="454 679">67%</td>
+            </tr>
+            <tr class="file">
+                <td class="name left"><a href="d_139ee63911cadbde___init___py.html">/root/GitHubProjects/impacket/impacket/examples/__init__.py</a></td>
+                <td>1</td>
+                <td>0</td>
+                <td>0</td>
+                <td>0</td>
+                <td>0</td>
+                <td class="right" data-ratio="1 1">100%</td>
+            </tr>
+            <tr class="file">
+                <td class="name left"><a href="d_139ee63911cadbde_ldap_shell_py.html">/root/GitHubProjects/impacket/impacket/examples/ldap_shell.py</a></td>
+                <td>394</td>
+                <td>351</td>
+                <td>0</td>
+                <td>144</td>
+                <td>0</td>
+                <td class="right" data-ratio="43 538">8%</td>
+            </tr>
+            <tr class="file">
+                <td class="name left"><a href="d_139ee63911cadbde_logger_py.html">/root/GitHubProjects/impacket/impacket/examples/logger.py</a></td>
+                <td>26</td>
+                <td>17</td>
+                <td>0</td>
+                <td>8</td>
+                <td>0</td>
+                <td class="right" data-ratio="9 34">26%</td>
+            </tr>
+            <tr class="file">
+                <td class="name left"><a href="d_37ba37e97a98a98b___init___py.html">/root/GitHubProjects/impacket/impacket/examples/ntlmrelayx/__init__.py</a></td>
+                <td>1</td>
+                <td>0</td>
+                <td>0</td>
+                <td>0</td>
+                <td>0</td>
+                <td class="right" data-ratio="1 1">100%</td>
+            </tr>
+            <tr class="file">
+                <td class="name left"><a href="d_8abdacf45cea234d___init___py.html">/root/GitHubProjects/impacket/impacket/examples/ntlmrelayx/attacks/__init__.py</a></td>
+                <td>40</td>
+                <td>15</td>
+                <td>0</td>
+                <td>12</td>
+                <td>1</td>
+                <td class="right" data-ratio="34 52">65%</td>
+            </tr>
+            <tr class="file">
+                <td class="name left"><a href="d_8abdacf45cea234d_dcsyncattack_py.html">/root/GitHubProjects/impacket/impacket/examples/ntlmrelayx/attacks/dcsyncattack.py</a></td>
+                <td>7</td>
+                <td>1</td>
+                <td>0</td>
+                <td>0</td>
+                <td>0</td>
+                <td class="right" data-ratio="6 7">86%</td>
+            </tr>
+            <tr class="file">
+                <td class="name left"><a href="d_8abdacf45cea234d_httpattack_py.html">/root/GitHubProjects/impacket/impacket/examples/ntlmrelayx/attacks/httpattack.py</a></td>
+                <td>13</td>
+                <td>7</td>
+                <td>0</td>
+                <td>2</td>
+                <td>0</td>
+                <td class="right" data-ratio="6 15">40%</td>
+            </tr>
+            <tr class="file">
+                <td class="name left"><a href="d_ec33439caa1f2a1a___init___py.html">/root/GitHubProjects/impacket/impacket/examples/ntlmrelayx/attacks/httpattacks/__init__.py</a></td>
+                <td>0</td>
+                <td>0</td>
+                <td>0</td>
+                <td>0</td>
+                <td>0</td>
+                <td class="right" data-ratio="0 0">100%</td>
+            </tr>
+            <tr class="file">
+                <td class="name left"><a href="d_ec33439caa1f2a1a_adcsattack_py.html">/root/GitHubProjects/impacket/impacket/examples/ntlmrelayx/attacks/httpattacks/adcsattack.py</a></td>
+                <td>49</td>
+                <td>40</td>
+                <td>0</td>
+                <td>6</td>
+                <td>0</td>
+                <td class="right" data-ratio="9 55">16%</td>
+            </tr>
+            <tr class="file">
+                <td class="name left"><a href="d_8abdacf45cea234d_imapattack_py.html">/root/GitHubProjects/impacket/impacket/examples/ntlmrelayx/attacks/imapattack.py</a></td>
+                <td>46</td>
+                <td>38</td>
+                <td>0</td>
+                <td>18</td>
+                <td>0</td>
+                <td class="right" data-ratio="8 64">12%</td>
+            </tr>
+            <tr class="file">
+                <td class="name left"><a href="d_8abdacf45cea234d_ldapattack_py.html">/root/GitHubProjects/impacket/impacket/examples/ntlmrelayx/attacks/ldapattack.py</a></td>
+                <td>500</td>
+                <td>443</td>
+                <td>0</td>
+                <td>178</td>
+                <td>0</td>
+                <td class="right" data-ratio="57 678">8%</td>
+            </tr>
+            <tr class="file">
+                <td class="name left"><a href="d_8abdacf45cea234d_mssqlattack_py.html">/root/GitHubProjects/impacket/impacket/examples/ntlmrelayx/attacks/mssqlattack.py</a></td>
+                <td>13</td>
+                <td>7</td>
+                <td>0</td>
+                <td>4</td>
+                <td>0</td>
+                <td class="right" data-ratio="6 17">35%</td>
+            </tr>
+            <tr class="file">
+                <td class="name left"><a href="d_8abdacf45cea234d_rpcattack_py.html">/root/GitHubProjects/impacket/impacket/examples/ntlmrelayx/attacks/rpcattack.py</a></td>
+                <td>43</td>
+                <td>28</td>
+                <td>0</td>
+                <td>10</td>
+                <td>0</td>
+                <td class="right" data-ratio="15 53">28%</td>
+            </tr>
+            <tr class="file">
+                <td class="name left"><a href="d_8abdacf45cea234d_smbattack_py.html">/root/GitHubProjects/impacket/impacket/examples/ntlmrelayx/attacks/smbattack.py</a></td>
+                <td>81</td>
+                <td>67</td>
+                <td>0</td>
+                <td>26</td>
+                <td>0</td>
+                <td class="right" data-ratio="14 107">13%</td>
+            </tr>
+            <tr class="file">
+                <td class="name left"><a href="d_aa763a01f7b5cd6a___init___py.html">/root/GitHubProjects/impacket/impacket/examples/ntlmrelayx/clients/__init__.py</a></td>
+                <td>59</td>
+                <td>26</td>
+                <td>0</td>
+                <td>12</td>
+                <td>0</td>
+                <td class="right" data-ratio="43 71">61%</td>
+            </tr>
+            <tr class="file">
+                <td class="name left"><a href="d_aa763a01f7b5cd6a_dcsyncclient_py.html">/root/GitHubProjects/impacket/impacket/examples/ntlmrelayx/clients/dcsyncclient.py</a></td>
+                <td>279</td>
+                <td>245</td>
+                <td>0</td>
+                <td>55</td>
+                <td>0</td>
+                <td class="right" data-ratio="34 334">10%</td>
+            </tr>
+            <tr class="file">
+                <td class="name left"><a href="d_aa763a01f7b5cd6a_httprelayclient_py.html">/root/GitHubProjects/impacket/impacket/examples/ntlmrelayx/clients/httprelayclient.py</a></td>
+                <td>99</td>
+                <td>75</td>
+                <td>0</td>
+                <td>20</td>
+                <td>0</td>
+                <td class="right" data-ratio="24 119">20%</td>
+            </tr>
+            <tr class="file">
+                <td class="name left"><a href="d_aa763a01f7b5cd6a_imaprelayclient_py.html">/root/GitHubProjects/impacket/impacket/examples/ntlmrelayx/clients/imaprelayclient.py</a></td>
+                <td>69</td>
+                <td>48</td>
+                <td>0</td>
+                <td>12</td>
+                <td>0</td>
+                <td class="right" data-ratio="21 81">26%</td>
+            </tr>
+            <tr class="file">
+                <td class="name left"><a href="d_aa763a01f7b5cd6a_ldaprelayclient_py.html">/root/GitHubProjects/impacket/impacket/examples/ntlmrelayx/clients/ldaprelayclient.py</a></td>
+                <td>115</td>
+                <td>85</td>
+                <td>0</td>
+                <td>32</td>
+                <td>0</td>
+                <td class="right" data-ratio="30 147">20%</td>
+            </tr>
+            <tr class="file">
+                <td class="name left"><a href="d_aa763a01f7b5cd6a_mssqlrelayclient_py.html">/root/GitHubProjects/impacket/impacket/examples/ntlmrelayx/clients/mssqlrelayclient.py</a></td>
+                <td>97</td>
+                <td>71</td>
+                <td>0</td>
+                <td>14</td>
+                <td>0</td>
+                <td class="right" data-ratio="26 111">23%</td>
+            </tr>
+            <tr class="file">
+                <td class="name left"><a href="d_aa763a01f7b5cd6a_rpcrelayclient_py.html">/root/GitHubProjects/impacket/impacket/examples/ntlmrelayx/clients/rpcrelayclient.py</a></td>
+                <td>132</td>
+                <td>105</td>
+                <td>0</td>
+                <td>34</td>
+                <td>0</td>
+                <td class="right" data-ratio="27 166">16%</td>
+            </tr>
+            <tr class="file">
+                <td class="name left"><a href="d_aa763a01f7b5cd6a_smbrelayclient_py.html">/root/GitHubProjects/impacket/impacket/examples/ntlmrelayx/clients/smbrelayclient.py</a></td>
+                <td>406</td>
+                <td>361</td>
+                <td>0</td>
+                <td>92</td>
+                <td>0</td>
+                <td class="right" data-ratio="45 498">9%</td>
+            </tr>
+            <tr class="file">
+                <td class="name left"><a href="d_aa763a01f7b5cd6a_smtprelayclient_py.html">/root/GitHubProjects/impacket/impacket/examples/ntlmrelayx/clients/smtprelayclient.py</a></td>
+                <td>56</td>
+                <td>39</td>
+                <td>0</td>
+                <td>10</td>
+                <td>0</td>
+                <td class="right" data-ratio="17 66">26%</td>
+            </tr>
+            <tr class="file">
+                <td class="name left"><a href="d_e5d71e661c656597___init___py.html">/root/GitHubProjects/impacket/impacket/examples/ntlmrelayx/servers/__init__.py</a></td>
+                <td>3</td>
+                <td>0</td>
+                <td>0</td>
+                <td>0</td>
+                <td>0</td>
+                <td class="right" data-ratio="3 3">100%</td>
+            </tr>
+            <tr class="file">
+                <td class="name left"><a href="d_e5d71e661c656597_httprelayserver_py.html">/root/GitHubProjects/impacket/impacket/examples/ntlmrelayx/servers/httprelayserver.py</a></td>
+                <td>295</td>
+                <td>256</td>
+                <td>0</td>
+                <td>92</td>
+                <td>0</td>
+                <td class="right" data-ratio="39 387">10%</td>
+            </tr>
+            <tr class="file">
+                <td class="name left"><a href="d_e5d71e661c656597_smbrelayserver_py.html">/root/GitHubProjects/impacket/impacket/examples/ntlmrelayx/servers/smbrelayserver.py</a></td>
+                <td>462</td>
+                <td>423</td>
+                <td>0</td>
+                <td>102</td>
+                <td>0</td>
+                <td class="right" data-ratio="39 564">7%</td>
+            </tr>
+            <tr class="file">
+                <td class="name left"><a href="d_251b01fe5c17b5cd___init___py.html">/root/GitHubProjects/impacket/impacket/examples/ntlmrelayx/servers/socksplugins/__init__.py</a></td>
+                <td>15</td>
+                <td>2</td>
+                <td>0</td>
+                <td>4</td>
+                <td>0</td>
+                <td class="right" data-ratio="17 19">89%</td>
+            </tr>
+            <tr class="file">
+                <td class="name left"><a href="d_251b01fe5c17b5cd_http_py.html">/root/GitHubProjects/impacket/impacket/examples/ntlmrelayx/servers/socksplugins/http.py</a></td>
+                <td>123</td>
+                <td>105</td>
+                <td>0</td>
+                <td>32</td>
+                <td>0</td>
+                <td class="right" data-ratio="18 155">12%</td>
+            </tr>
+            <tr class="file">
+                <td class="name left"><a href="d_251b01fe5c17b5cd_https_py.html">/root/GitHubProjects/impacket/impacket/examples/ntlmrelayx/servers/socksplugins/https.py</a></td>
+                <td>29</td>
+                <td>15</td>
+                <td>0</td>
+                <td>2</td>
+                <td>0</td>
+                <td class="right" data-ratio="14 31">45%</td>
+            </tr>
+            <tr class="file">
+                <td class="name left"><a href="d_251b01fe5c17b5cd_imap_py.html">/root/GitHubProjects/impacket/impacket/examples/ntlmrelayx/servers/socksplugins/imap.py</a></td>
+                <td>147</td>
+                <td>130</td>
+                <td>0</td>
+                <td>56</td>
+                <td>0</td>
+                <td class="right" data-ratio="17 203">8%</td>
+            </tr>
+            <tr class="file">
+                <td class="name left"><a href="d_251b01fe5c17b5cd_imaps_py.html">/root/GitHubProjects/impacket/impacket/examples/ntlmrelayx/servers/socksplugins/imaps.py</a></td>
+                <td>47</td>
+                <td>33</td>
+                <td>0</td>
+                <td>10</td>
+                <td>0</td>
+                <td class="right" data-ratio="14 57">25%</td>
+            </tr>
+            <tr class="file">
+                <td class="name left"><a href="d_251b01fe5c17b5cd_mssql_py.html">/root/GitHubProjects/impacket/impacket/examples/ntlmrelayx/servers/socksplugins/mssql.py</a></td>
+                <td>158</td>
+                <td>136</td>
+                <td>0</td>
+                <td>36</td>
+                <td>0</td>
+                <td class="right" data-ratio="22 194">11%</td>
+            </tr>
+            <tr class="file">
+                <td class="name left"><a href="d_251b01fe5c17b5cd_smb_py.html">/root/GitHubProjects/impacket/impacket/examples/ntlmrelayx/servers/socksplugins/smb.py</a></td>
+                <td>395</td>
+                <td>363</td>
+                <td>0</td>
+                <td>74</td>
+                <td>0</td>
+                <td class="right" data-ratio="32 469">7%</td>
+            </tr>
+            <tr class="file">
+                <td class="name left"><a href="d_251b01fe5c17b5cd_smtp_py.html">/root/GitHubProjects/impacket/impacket/examples/ntlmrelayx/servers/socksplugins/smtp.py</a></td>
+                <td>93</td>
+                <td>77</td>
+                <td>0</td>
+                <td>34</td>
+                <td>0</td>
+                <td class="right" data-ratio="16 127">13%</td>
+            </tr>
+            <tr class="file">
+                <td class="name left"><a href="d_e5d71e661c656597_socksserver_py.html">/root/GitHubProjects/impacket/impacket/examples/ntlmrelayx/servers/socksserver.py</a></td>
+                <td>309</td>
+                <td>239</td>
+                <td>0</td>
+                <td>78</td>
+                <td>1</td>
+                <td class="right" data-ratio="71 387">18%</td>
+            </tr>
+            <tr class="file">
+                <td class="name left"><a href="d_e5d71e661c656597_wcfrelayserver_py.html">/root/GitHubProjects/impacket/impacket/examples/ntlmrelayx/servers/wcfrelayserver.py</a></td>
+                <td>219</td>
+                <td>195</td>
+                <td>0</td>
+                <td>78</td>
+                <td>0</td>
+                <td class="right" data-ratio="24 297">8%</td>
+            </tr>
+            <tr class="file">
+                <td class="name left"><a href="d_e30efeb6dbe68b87___init___py.html">/root/GitHubProjects/impacket/impacket/examples/ntlmrelayx/utils/__init__.py</a></td>
+                <td>1</td>
+                <td>0</td>
+                <td>0</td>
+                <td>0</td>
+                <td>0</td>
+                <td class="right" data-ratio="1 1">100%</td>
+            </tr>
+            <tr class="file">
+                <td class="name left"><a href="d_e30efeb6dbe68b87_config_py.html">/root/GitHubProjects/impacket/impacket/examples/ntlmrelayx/utils/config.py</a></td>
+                <td>139</td>
+                <td>107</td>
+                <td>0</td>
+                <td>8</td>
+                <td>0</td>
+                <td class="right" data-ratio="32 147">22%</td>
+            </tr>
+            <tr class="file">
+                <td class="name left"><a href="d_e30efeb6dbe68b87_enum_py.html">/root/GitHubProjects/impacket/impacket/examples/ntlmrelayx/utils/enum.py</a></td>
+                <td>43</td>
+                <td>35</td>
+                <td>0</td>
+                <td>4</td>
+                <td>0</td>
+                <td class="right" data-ratio="8 47">17%</td>
+            </tr>
+            <tr class="file">
+                <td class="name left"><a href="d_e30efeb6dbe68b87_ssl_py.html">/root/GitHubProjects/impacket/impacket/examples/ntlmrelayx/utils/ssl.py</a></td>
+                <td>30</td>
+                <td>25</td>
+                <td>0</td>
+                <td>0</td>
+                <td>0</td>
+                <td class="right" data-ratio="5 30">17%</td>
+            </tr>
+            <tr class="file">
+                <td class="name left"><a href="d_e30efeb6dbe68b87_targetsutils_py.html">/root/GitHubProjects/impacket/impacket/examples/ntlmrelayx/utils/targetsutils.py</a></td>
+                <td>98</td>
+                <td>81</td>
+                <td>0</td>
+                <td>64</td>
+                <td>0</td>
+                <td class="right" data-ratio="17 162">10%</td>
+            </tr>
+            <tr class="file">
+                <td class="name left"><a href="d_e30efeb6dbe68b87_tcpshell_py.html">/root/GitHubProjects/impacket/impacket/examples/ntlmrelayx/utils/tcpshell.py</a></td>
+                <td>17</td>
+                <td>11</td>
+                <td>0</td>
+                <td>0</td>
+                <td>0</td>
+                <td class="right" data-ratio="6 17">35%</td>
+            </tr>
+            <tr class="file">
+                <td class="name left"><a href="d_139ee63911cadbde_os_ident_py.html">/root/GitHubProjects/impacket/impacket/examples/os_ident.py</a></td>
+                <td>1238</td>
+                <td>1234</td>
+                <td>0</td>
+                <td>446</td>
+                <td>0</td>
+                <td class="right" data-ratio="4 1684">1%</td>
+            </tr>
+            <tr class="file">
+                <td class="name left"><a href="d_139ee63911cadbde_rpcdatabase_py.html">/root/GitHubProjects/impacket/impacket/examples/rpcdatabase.py</a></td>
+                <td>12</td>
+                <td>0</td>
+                <td>0</td>
+                <td>6</td>
+                <td>0</td>
+                <td class="right" data-ratio="18 18">100%</td>
+            </tr>
+            <tr class="file">
+                <td class="name left"><a href="d_139ee63911cadbde_secretsdump_py.html">/root/GitHubProjects/impacket/impacket/examples/secretsdump.py</a></td>
+                <td>1695</td>
+                <td>614</td>
+                <td>0</td>
+                <td>592</td>
+                <td>133</td>
+                <td class="right" data-ratio="1397 2287">61%</td>
+            </tr>
+            <tr class="file">
+                <td class="name left"><a href="d_139ee63911cadbde_serviceinstall_py.html">/root/GitHubProjects/impacket/impacket/examples/serviceinstall.py</a></td>
+                <td>183</td>
+                <td>167</td>
+                <td>0</td>
+                <td>45</td>
+                <td>0</td>
+                <td class="right" data-ratio="16 228">7%</td>
+            </tr>
+            <tr class="file">
+                <td class="name left"><a href="d_139ee63911cadbde_smbclient_py.html">/root/GitHubProjects/impacket/impacket/examples/smbclient.py</a></td>
+                <td>416</td>
+                <td>361</td>
+                <td>0</td>
+                <td>138</td>
+                <td>0</td>
+                <td class="right" data-ratio="55 554">10%</td>
+            </tr>
+            <tr class="file">
+                <td class="name left"><a href="d_139ee63911cadbde_utils_py.html">/root/GitHubProjects/impacket/impacket/examples/utils.py</a></td>
+                <td>12</td>
+                <td>0</td>
+                <td>0</td>
+                <td>2</td>
+                <td>0</td>
+                <td class="right" data-ratio="14 14">100%</td>
+            </tr>
+            <tr class="file">
+                <td class="name left"><a href="d_9e3b265e89e70295_helper_py.html">/root/GitHubProjects/impacket/impacket/helper.py</a></td>
+                <td>96</td>
+                <td>3</td>
+                <td>0</td>
+                <td>14</td>
+                <td>2</td>
+                <td class="right" data-ratio="103 110">94%</td>
+            </tr>
+            <tr class="file">
+                <td class="name left"><a href="d_9e3b265e89e70295_hresult_errors_py.html">/root/GitHubProjects/impacket/impacket/hresult_errors.py</a></td>
+                <td>2928</td>
+                <td>0</td>
+                <td>0</td>
+                <td>0</td>
+                <td>0</td>
+                <td class="right" data-ratio="2928 2928">100%</td>
+            </tr>
+            <tr class="file">
+                <td class="name left"><a href="d_9e3b265e89e70295_http_py.html">/root/GitHubProjects/impacket/impacket/http.py</a></td>
+                <td>128</td>
+                <td>91</td>
+                <td>0</td>
+                <td>42</td>
+                <td>0</td>
+                <td class="right" data-ratio="37 170">22%</td>
+            </tr>
+            <tr class="file">
+                <td class="name left"><a href="d_8ffc8402f4672ac3___init___py.html">/root/GitHubProjects/impacket/impacket/krb5/__init__.py</a></td>
+                <td>1</td>
+                <td>0</td>
+                <td>0</td>
+                <td>0</td>
+                <td>0</td>
+                <td class="right" data-ratio="1 1">100%</td>
+            </tr>
+            <tr class="file">
+                <td class="name left"><a href="d_8ffc8402f4672ac3_asn1_py.html">/root/GitHubProjects/impacket/impacket/krb5/asn1.py</a></td>
+                <td>173</td>
+                <td>11</td>
+                <td>0</td>
+                <td>12</td>
+                <td>0</td>
+                <td class="right" data-ratio="168 185">91%</td>
+            </tr>
+            <tr class="file">
+                <td class="name left"><a href="d_8ffc8402f4672ac3_ccache_py.html">/root/GitHubProjects/impacket/impacket/krb5/ccache.py</a></td>
+                <td>461</td>
+                <td>384</td>
+                <td>0</td>
+                <td>74</td>
+                <td>1</td>
+                <td class="right" data-ratio="78 535">15%</td>
+            </tr>
+            <tr class="file">
+                <td class="name left"><a href="d_8ffc8402f4672ac3_constants_py.html">/root/GitHubProjects/impacket/impacket/krb5/constants.py</a></td>
+                <td>294</td>
+                <td>0</td>
+                <td>0</td>
+                <td>4</td>
+                <td>0</td>
+                <td class="right" data-ratio="298 298">100%</td>
+            </tr>
+            <tr class="file">
+                <td class="name left"><a href="d_8ffc8402f4672ac3_crypto_py.html">/root/GitHubProjects/impacket/impacket/krb5/crypto.py</a></td>
+                <td>422</td>
+                <td>51</td>
+                <td>0</td>
+                <td>113</td>
+                <td>21</td>
+                <td class="right" data-ratio="455 535">85%</td>
+            </tr>
+            <tr class="file">
+                <td class="name left"><a href="d_8ffc8402f4672ac3_gssapi_py.html">/root/GitHubProjects/impacket/impacket/krb5/gssapi.py</a></td>
+                <td>163</td>
+                <td>48</td>
+                <td>0</td>
+                <td>18</td>
+                <td>6</td>
+                <td class="right" data-ratio="127 181">70%</td>
+            </tr>
+            <tr class="file">
+                <td class="name left"><a href="d_8ffc8402f4672ac3_kerberosv5_py.html">/root/GitHubProjects/impacket/impacket/krb5/kerberosv5.py</a></td>
+                <td>462</td>
+                <td>133</td>
+                <td>0</td>
+                <td>106</td>
+                <td>17</td>
+                <td class="right" data-ratio="380 568">67%</td>
+            </tr>
+            <tr class="file">
+                <td class="name left"><a href="d_8ffc8402f4672ac3_keytab_py.html">/root/GitHubProjects/impacket/impacket/krb5/keytab.py</a></td>
+                <td>181</td>
+                <td>127</td>
+                <td>0</td>
+                <td>56</td>
+                <td>1</td>
+                <td class="right" data-ratio="55 237">23%</td>
+            </tr>
+            <tr class="file">
+                <td class="name left"><a href="d_8ffc8402f4672ac3_pac_py.html">/root/GitHubProjects/impacket/impacket/krb5/pac.py</a></td>
+                <td>60</td>
+                <td>0</td>
+                <td>0</td>
+                <td>0</td>
+                <td>0</td>
+                <td class="right" data-ratio="60 60">100%</td>
+            </tr>
+            <tr class="file">
+                <td class="name left"><a href="d_8ffc8402f4672ac3_types_py.html">/root/GitHubProjects/impacket/impacket/krb5/types.py</a></td>
+                <td>176</td>
+                <td>70</td>
+                <td>0</td>
+                <td>58</td>
+                <td>12</td>
+                <td class="right" data-ratio="124 234">53%</td>
+            </tr>
+            <tr class="file">
+                <td class="name left"><a href="d_d13b8d54ff85ca46___init___py.html">/root/GitHubProjects/impacket/impacket/ldap/__init__.py</a></td>
+                <td>1</td>
+                <td>0</td>
+                <td>0</td>
+                <td>0</td>
+                <td>0</td>
+                <td class="right" data-ratio="1 1">100%</td>
+            </tr>
+            <tr class="file">
+                <td class="name left"><a href="d_d13b8d54ff85ca46_ldap_py.html">/root/GitHubProjects/impacket/impacket/ldap/ldap.py</a></td>
+                <td>428</td>
+                <td>175</td>
+                <td>0</td>
+                <td>164</td>
+                <td>36</td>
+                <td class="right" data-ratio="309 592">52%</td>
+            </tr>
+            <tr class="file">
+                <td class="name left"><a href="d_d13b8d54ff85ca46_ldapasn1_py.html">/root/GitHubProjects/impacket/impacket/ldap/ldapasn1.py</a></td>
+                <td>217</td>
+                <td>55</td>
+                <td>0</td>
+                <td>16</td>
+                <td>2</td>
+                <td class="right" data-ratio="166 233">71%</td>
+            </tr>
+            <tr class="file">
+                <td class="name left"><a href="d_d13b8d54ff85ca46_ldaptypes_py.html">/root/GitHubProjects/impacket/impacket/ldap/ldaptypes.py</a></td>
+                <td>183</td>
+                <td>86</td>
+                <td>0</td>
+                <td>42</td>
+                <td>0</td>
+                <td class="right" data-ratio="99 225">44%</td>
+            </tr>
+            <tr class="file">
+                <td class="name left"><a href="d_9e3b265e89e70295_mapi_constants_py.html">/root/GitHubProjects/impacket/impacket/mapi_constants.py</a></td>
+                <td>127</td>
+                <td>0</td>
+                <td>0</td>
+                <td>0</td>
+                <td>0</td>
+                <td class="right" data-ratio="127 127">100%</td>
+            </tr>
+            <tr class="file">
+                <td class="name left"><a href="d_9e3b265e89e70295_mqtt_py.html">/root/GitHubProjects/impacket/impacket/mqtt.py</a></td>
+                <td>243</td>
+                <td>167</td>
+                <td>0</td>
+                <td>48</td>
+                <td>1</td>
+                <td class="right" data-ratio="77 291">26%</td>
+            </tr>
+            <tr class="file">
+                <td class="name left"><a href="d_9e3b265e89e70295_nmb_py.html">/root/GitHubProjects/impacket/impacket/nmb.py</a></td>
+                <td>583</td>
+                <td>152</td>
+                <td>0</td>
+                <td>116</td>
+                <td>25</td>
+                <td class="right" data-ratio="488 699">70%</td>
+            </tr>
+            <tr class="file">
+                <td class="name left"><a href="d_9e3b265e89e70295_nt_errors_py.html">/root/GitHubProjects/impacket/impacket/nt_errors.py</a></td>
+                <td>1794</td>
+                <td>0</td>
+                <td>0</td>
+                <td>0</td>
+                <td>0</td>
+                <td class="right" data-ratio="1794 1794">100%</td>
+            </tr>
+            <tr class="file">
+                <td class="name left"><a href="d_9e3b265e89e70295_ntlm_py.html">/root/GitHubProjects/impacket/impacket/ntlm.py</a></td>
+                <td>536</td>
+                <td>141</td>
+                <td>0</td>
+                <td>140</td>
+                <td>36</td>
+                <td class="right" data-ratio="467 676">69%</td>
+            </tr>
+            <tr class="file">
+                <td class="name left"><a href="d_9e3b265e89e70295_pcap_linktypes_py.html">/root/GitHubProjects/impacket/impacket/pcap_linktypes.py</a></td>
+                <td>164</td>
+                <td>0</td>
+                <td>0</td>
+                <td>0</td>
+                <td>0</td>
+                <td class="right" data-ratio="164 164">100%</td>
+            </tr>
+            <tr class="file">
+                <td class="name left"><a href="d_9e3b265e89e70295_pcapfile_py.html">/root/GitHubProjects/impacket/impacket/pcapfile.py</a></td>
+                <td>73</td>
+                <td>42</td>
+                <td>0</td>
+                <td>10</td>
+                <td>0</td>
+                <td class="right" data-ratio="31 83">37%</td>
+            </tr>
+            <tr class="file">
+                <td class="name left"><a href="d_9e3b265e89e70295_smb_py.html">/root/GitHubProjects/impacket/impacket/smb.py</a></td>
+                <td>2186</td>
+                <td>587</td>
+                <td>0</td>
+                <td>374</td>
+                <td>86</td>
+                <td class="right" data-ratio="1743 2560">68%</td>
+            </tr>
+            <tr class="file">
+                <td class="name left"><a href="d_9e3b265e89e70295_smb3_py.html">/root/GitHubProjects/impacket/impacket/smb3.py</a></td>
+                <td>1238</td>
+                <td>328</td>
+                <td>0</td>
+                <td>398</td>
+                <td>112</td>
+                <td class="right" data-ratio="1130 1636">69%</td>
+            </tr>
+            <tr class="file">
+                <td class="name left"><a href="d_9e3b265e89e70295_smb3structs_py.html">/root/GitHubProjects/impacket/impacket/smb3structs.py</a></td>
+                <td>579</td>
+                <td>4</td>
+                <td>0</td>
+                <td>22</td>
+                <td>8</td>
+                <td class="right" data-ratio="587 601">98%</td>
+            </tr>
+            <tr class="file">
+                <td class="name left"><a href="d_9e3b265e89e70295_smbconnection_py.html">/root/GitHubProjects/impacket/impacket/smbconnection.py</a></td>
+                <td>475</td>
+                <td>177</td>
+                <td>0</td>
+                <td>112</td>
+                <td>20</td>
+                <td class="right" data-ratio="358 587">61%</td>
+            </tr>
+            <tr class="file">
+                <td class="name left"><a href="d_9e3b265e89e70295_smbserver_py.html">/root/GitHubProjects/impacket/impacket/smbserver.py</a></td>
+                <td>3124</td>
+                <td>2885</td>
+                <td>0</td>
+                <td>992</td>
+                <td>0</td>
+                <td class="right" data-ratio="239 4116">6%</td>
+            </tr>
+            <tr class="file">
+                <td class="name left"><a href="d_9e3b265e89e70295_spnego_py.html">/root/GitHubProjects/impacket/impacket/spnego.py</a></td>
+                <td>232</td>
+                <td>96</td>
+                <td>0</td>
+                <td>82</td>
+                <td>19</td>
+                <td class="right" data-ratio="165 314">53%</td>
+            </tr>
+            <tr class="file">
+                <td class="name left"><a href="d_9e3b265e89e70295_structure_py.html">/root/GitHubProjects/impacket/impacket/structure.py</a></td>
+                <td>415</td>
+                <td>67</td>
+                <td>0</td>
+                <td>274</td>
+                <td>30</td>
+                <td class="right" data-ratio="564 689">82%</td>
+            </tr>
+            <tr class="file">
+                <td class="name left"><a href="d_9e3b265e89e70295_system_errors_py.html">/root/GitHubProjects/impacket/impacket/system_errors.py</a></td>
+                <td>2752</td>
+                <td>0</td>
+                <td>0</td>
+                <td>0</td>
+                <td>0</td>
+                <td class="right" data-ratio="2752 2752">100%</td>
+            </tr>
+            <tr class="file">
+                <td class="name left"><a href="d_9e3b265e89e70295_tds_py.html">/root/GitHubProjects/impacket/impacket/tds.py</a></td>
+                <td>974</td>
+                <td>790</td>
+                <td>0</td>
+                <td>370</td>
+                <td>0</td>
+                <td class="right" data-ratio="184 1344">14%</td>
+            </tr>
+            <tr class="file">
+                <td class="name left"><a href="d_9e3b265e89e70295_uuid_py.html">/root/GitHubProjects/impacket/impacket/uuid.py</a></td>
+                <td>43</td>
+                <td>5</td>
+                <td>0</td>
+                <td>8</td>
+                <td>3</td>
+                <td class="right" data-ratio="43 51">84%</td>
+            </tr>
+            <tr class="file">
+                <td class="name left"><a href="d_9e3b265e89e70295_version_py.html">/root/GitHubProjects/impacket/impacket/version.py</a></td>
+                <td>10</td>
+                <td>4</td>
+                <td>0</td>
+                <td>0</td>
+                <td>0</td>
+                <td class="right" data-ratio="6 10">60%</td>
+            </tr>
+            <tr class="file">
+                <td class="name left"><a href="d_9e3b265e89e70295_winregistry_py.html">/root/GitHubProjects/impacket/impacket/winregistry.py</a></td>
+                <td>284</td>
+                <td>106</td>
+                <td>0</td>
+                <td>128</td>
+                <td>23</td>
+                <td class="right" data-ratio="233 412">57%</td>
+            </tr>
+            <tr class="file">
+                <td class="name left"><a href="d_9e3b265e89e70295_wps_py.html">/root/GitHubProjects/impacket/impacket/wps.py</a></td>
+                <td>272</td>
+                <td>11</td>
+                <td>0</td>
+                <td>20</td>
+                <td>2</td>
+                <td class="right" data-ratio="275 292">94%</td>
+            </tr>
+        </tbody>
+    </table>
+    <p id="no_rows">
+        No items found using the specified filter.
+    </p>
+</div>
+<div id="footer">
+    <div class="content">
+        <p>
+            <a class="nav" href="https://coverage.readthedocs.io">coverage.py v6.0.2</a>,
+            created at 2021-10-26 16:18 -0300
+        </p>
+    </div>
+</div>
+</body>
+</html>
