@@ -1,0 +1,17 @@
+sc_config/__init__.py,sha256=JtXSptcm6-yAeeiOp73LJxeXg_DWAk2MrNXz62uWbTs,1327
+sc_config/config.py,sha256=axe0GtR9nIpbBz7jTrErqEGCuVSQ0Yjd-MNXkH6dh3I,4870
+sc_config/default.py,sha256=ULDcYcxLj90ZinHIgSmIEtzrTHX6aD-mlV5EbReW918,1241
+sc_config/utils.py,sha256=nvJSAQJ1leXDGbFoYiGQCls_8-cg_ypF6KJiTe9zksE,2649
+sc_config/tests/__init__.py,sha256=geiVmsc9iPhOzHUHdCPrdVcoT42GBjMoafy2eT_JloI,1133
+sc_config/tests/production.yml,sha256=qr7kcDYLkI6_XIT-_FrRokW28wPbflNRLk16sPr5ppE,79
+sc_config/tests/test_config.py,sha256=WBiCkY0RfW7q92urenV5gER9j46AF-n4ZTOFOTXFMA0,1880
+sc_config/tests/sample_config/__init__.py,sha256=geiVmsc9iPhOzHUHdCPrdVcoT42GBjMoafy2eT_JloI,1133
+sc_config/tests/sample_config/default.py,sha256=1NAL4kFEmmqem7zN7fkn31tg3_hXDjwpIC2SFL2oJ-k,125
+sc_config/tests/sample_config/default.yml,sha256=P6lI8dO3Bupryg0yAt8AL_2NTUHhtIDQBuiNo42iQKM,78
+sc_config/tests/sample_config/development.yml,sha256=N6dsN_MDQrzWxV5ImfwpCP3w_wk2pCNJvgfT7KtlfYI,77
+sc_config/tests/sample_config/production.yml,sha256=P6lI8dO3Bupryg0yAt8AL_2NTUHhtIDQBuiNo42iQKM,78
+sc_config-0.0.9.dist-info/LICENSE,sha256=qE1ONTqO-JURigwx0cciswGHX9-E7RkwoDtJCqnqBT4,1076
+sc_config-0.0.9.dist-info/METADATA,sha256=bBpkNwZI7Kf7fpE4fYq0U8lqJjp4e476K2pSk5FavIE,1932
+sc_config-0.0.9.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+sc_config-0.0.9.dist-info/top_level.txt,sha256=1yvTEq85gq3psLUPhMkxJe6IYnWRdQdpFswW1SEv-nE,10
+sc_config-0.0.9.dist-info/RECORD,,
