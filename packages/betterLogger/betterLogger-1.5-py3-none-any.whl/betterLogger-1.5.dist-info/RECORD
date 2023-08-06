@@ -1,0 +1,13 @@
+betterLogger/__init__.py,sha256=MVMwhUTr6WUWcv_CdhehEgcPJG78v7_zSPDRx_2UTCM,4229
+betterLogger/classWithLogger.py,sha256=5Q3OeNZFRnsvav_K-F6NX4YlWJwvsSBkqKf-GmRlniI,3419
+betterLogger/colors.py,sha256=O_AYXMNK8r4Xq4xQ1AubIrEPjttQ-M_rMVu5uVwh8MQ,701
+betterLogger/config.py,sha256=ivBBVTM-3kIwlcmV9uOx6W_lWsBpRjEfw91hzlj0IxY,1088
+betterLogger/consoleHandler.py,sha256=aHug5zSwouXILEAZuqSmX_HYam9chJUiB15HA6pSjcc,132
+betterLogger/fileHandler.py,sha256=LB7dURvoI7dekZUg2ItQBNjHVlYjo4JcBMGCKbWgF2I,1232
+betterLogger/format_funcs.py,sha256=Ytv8iFoWRGLlF23opt23sNW4nLGh40hMF_r_bBgkwjE,1580
+betterLogger/formatter.py,sha256=E1uQtcsNQ28OpWIg7oja2mNczhA4dVbrj1-OrEIfiO8,1125
+betterLogger-1.5.dist-info/METADATA,sha256=WRwURZMtr-AAOLXVRJ7vXM9Ut6iFChnZhOaKbwjGdh0,1851
+betterLogger-1.5.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+betterLogger-1.5.dist-info/entry_points.txt,sha256=FFxeW-QeaYs9hWq01mVwmMOmumtvsfrXp5TTy7JIDWM,61
+betterLogger-1.5.dist-info/top_level.txt,sha256=HA_M2fGanR5kU8hilqFw7mDVL01BsGhsAwTzjaBor28,13
+betterLogger-1.5.dist-info/RECORD,,
