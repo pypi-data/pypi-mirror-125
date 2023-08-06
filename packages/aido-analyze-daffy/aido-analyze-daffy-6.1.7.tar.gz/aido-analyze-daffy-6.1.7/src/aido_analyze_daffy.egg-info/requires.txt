@@ -1,0 +1,10 @@
+aido-protocols-daffy
+zuper-ipce-z6
+zuper-commons-z6
+progressbar2
+procgraph-z6
+duckietown-world-daffy
+PyGeometry-z6
+PyYAML
+numpy
+cbor2
