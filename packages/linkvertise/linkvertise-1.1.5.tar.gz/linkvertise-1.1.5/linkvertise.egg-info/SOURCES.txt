@@ -1,0 +1,8 @@
+README.md
+setup.py
+linkvertise/__init__.py
+linkvertise/client.py
+linkvertise.egg-info/PKG-INFO
+linkvertise.egg-info/SOURCES.txt
+linkvertise.egg-info/dependency_links.txt
+linkvertise.egg-info/top_level.txt
