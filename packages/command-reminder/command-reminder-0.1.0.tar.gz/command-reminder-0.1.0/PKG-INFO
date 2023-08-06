@@ -1,0 +1,49 @@
+Metadata-Version: 2.1
+Name: command-reminder
+Version: 0.1.0
+Summary: Tool for saving/sharing your mostly used commands for fish shell
+Home-page: https://github.com/faderskd/command-reminder
+Author: faderskd
+Author-email: daniel.faderski@gmail.com
+License: MIT
+Description: # command-reminder
+        Tool for saving/sharing your mostly used commands for fish shell
+        
+        # Installation
+        pip install command-reminder
+        
+        # Usage
+        
+        #### Create new repository
+        
+        > cr init
+        > cr init --repo "git@github.com:faderskd/command-reminder.git"
+        
+        #### Record useful commands
+        
+        > cr record "mongo dburl/dbname --username abc --password pass"
+        >
+        > cr record --tags "#sed #macosx" "sed -i '' -e 's/source/target/g'" file.txt
+        
+        #### Show commands
+        > cr show --tags #sed
+        
+        #### Show tags
+        > cr tags
+        
+        ### Save changes to remote
+        > cr push
+        
+        #### Add external repository
+        > cr repo add git@github.com:faderskd/command-reminder-network.git
+        
+        # Configuration
+        ```editorconfig
+        [REPOSITORY]
+        ConfigDir = ~/.command-reminder
+        ``` 
+Platform: UNKNOWN
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.9
+Description-Content-Type: text/markdown
