@@ -1,0 +1,6 @@
+README.md
+setup.py
+pyaem3.egg-info/PKG-INFO
+pyaem3.egg-info/SOURCES.txt
+pyaem3.egg-info/dependency_links.txt
+pyaem3.egg-info/top_level.txt
