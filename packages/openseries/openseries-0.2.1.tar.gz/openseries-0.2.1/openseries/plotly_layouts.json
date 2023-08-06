@@ -1,0 +1,79 @@
+{
+  "config": {
+    "responsive": true,
+    "displaylogo": false,
+    "modeBarButtonsToRemove": [
+      "zoom2d",
+      "pan2d",
+      "toggleSpikelines",
+      "hoverClosestCartesian",
+      "hoverCompareCartesian",
+      "lasso2d",
+      "zoomIn2d",
+      "zoomOut2d",
+      "hoverClosestPie"
+    ],
+    "toImageButtonOptions": {
+      "format": "svg",
+      "filename": "captor_plot_image",
+      "height": 480,
+      "width": 848,
+      "scale": 1
+    }
+  },
+  "layout": {
+    "autosize": true,
+    "title": {
+      "y": 0.97,
+      "x": 0.5,
+      "xanchor": "center",
+      "yanchor": "top"
+    },
+    "titlefont": {
+      "size": 24
+    },
+    "font": {
+      "size": 14,
+      "color": "#01579B",
+      "family": "Montserrat, sans-serif"
+    },
+    "xaxis": {
+      "tickangle": -45,
+      "gridcolor": "#EEEEEE",
+      "zeroline": false
+    },
+    "yaxis": {
+      "gridcolor": "#EEEEEE",
+      "zeroline": false
+    },
+    "colorway": [
+      "#2186c5",
+      "#43a04c",
+      "#f44336",
+      "#f8a031",
+      "#ba46b8",
+      "#009688",
+      "#ff5722",
+      "#ec407a",
+      "#c0ca33",
+      "#795548",
+      "#e5878a",
+      "#9e9e9e"
+    ],
+    "showlegend": true,
+    "legend": {
+      "bgcolor": "rgba(0, 0, 0, 0)",
+      "x": 0.02,
+      "xanchor": "auto",
+      "y": 0.02,
+      "yanchor": "auto"
+    },
+    "margin": {
+      "l": 50,
+      "r": 25,
+      "t": 25,
+      "b": 60,
+      "pad": 5
+    }
+  }
+}
