@@ -1,0 +1,4 @@
+include *.txt *.md *.toml
+include LICENCE
+include src/MOMIA/configurations/*.pk
+include src/MOMIA/configurations/*.ini
