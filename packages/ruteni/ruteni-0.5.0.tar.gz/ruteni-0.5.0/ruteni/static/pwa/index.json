@@ -1,0 +1,1 @@
+{"resources":{},"name":"pwa","version":"0.1.0","module":{"url":"index.js","revision":"3cf73fa8197603ce64324e35645ba058","size":6692,"type":"script"},"select":[],"dependencies":["logging"],"base":"/static/pwa"}
