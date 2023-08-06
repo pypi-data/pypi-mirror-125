@@ -1,0 +1,12 @@
+deche/__init__.py,sha256=jyv2_EhFtYNdf8HYAfae7WxSvhRUQQsouMldd-H32ww,121
+deche/core.py,sha256=zFGPq0mBE58AWGp5_jXsxyHhsltPvEYW3rsM1K2S5P0,13632
+deche/enums.py,sha256=7p1akN5mYq85lsh2cXGLyejv7rGYbeGJ-Vt9h9Vkyao,98
+deche/inspection.py,sha256=mid05ZbyzeaXAxwasoVFdDMtuIccClJDGWWJhbxYRbA,704
+deche/serialization.py,sha256=pQ5bdXtLHxVnC-2FMp7iU-0PsJqMmaOZZPq852hg10w,38
+deche/test_utils/__init__.py,sha256=bY0PQ1Qv_-97asu-Nu2x9qq3cW_9EOXxF41caSYLuY0,1053
+deche/types.py,sha256=ILRAFS3MYcZM_ElwSM3-O-AK9tR9OGbhL8gZxbDTx7M,572
+deche/util.py,sha256=_kIhjmcVIqbejySrQnjE0TTgNB16xMsr3vVTDScgRts,1751
+deche/validators.py,sha256=5St6X2JGhJEQtqjozrOzwIhKqemlHtQ3U_XrWd9D9aw,660
+deche-0.3.2.dist-info/WHEEL,sha256=y3eDiaFVSNTPbgzfNn0nYn5tEn1cX6WrdetDlQM4xWw,83
+deche-0.3.2.dist-info/METADATA,sha256=og4bEkpW9tS8r1cg10ZHkdhTreOVui5ZKsxjqZZp0eg,735
+deche-0.3.2.dist-info/RECORD,,
