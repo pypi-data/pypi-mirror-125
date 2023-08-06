@@ -1,0 +1,98 @@
+Metadata-Version: 2.1
+Name: think-sql
+Version: 0.1.0
+Summary: ThinkSQL like think-orm(ThinkPHP)
+Home-page: https://github.com/hbh112233abc/think-sql
+License: MIT
+Keywords: sql,thinkphp,think-orm
+Author: hbh112233abc
+Author-email: hbh112233abc@163.com
+Requires-Python: >=3.6,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Requires-Dist: PyMySQL (>=1.0.2,<2.0.0)
+Requires-Dist: cacheout (>=0.13.1,<0.14.0)
+Requires-Dist: dill (>=0.3.4,<0.4.0)
+Requires-Dist: jsonpath (>=0.82,<0.83)
+Requires-Dist: loguru (>=0.5.3,<0.6.0)
+Requires-Dist: pretty-errors (>=1.2.24,<2.0.0)
+Requires-Dist: redis (>=3.5.3,<4.0.0)
+Project-URL: Documentation, https://github.com/hbh112233abc/think-sql
+Project-URL: Repository, https://github.com/hbh112233abc/think-sql
+Description-Content-Type: text/markdown
+
+# ThinkSQL 类似ThinkPHP的数据库引擎
+
+## 安装
+```
+pip install think-sql
+```
+
+## 使用
+
+### 1. simple demo
+
+> Database: `test` Table: `user`
+
+```
+from think-sql.database import DB
+
+config = {
+    'database': 'test',
+    'host': '127.0.0.1',
+    'port': 3306,
+    'username': 'root',
+    'password': 'root',
+}
+
+with DB(**config) as db:
+    data = db.table('user').where('id',1).find()
+    print(data)
+```
+result
+```
+{
+    "id":1,
+    "username":"hbh112233abc",
+    "age":"36",
+    "address":"FUJIAN.XIAMEN"
+}
+```
+
+## 开发
+
+- `poetry` [Python包管理之poetry的使用](https://blog.csdn.net/zhoubihui0000/article/details/104937285)
+
+```
+# 配置虚拟环境在项目目录下
+poetry config virtualenvs.path true
+# 安装依赖
+poetry install
+# 进入虚拟环境
+poetry shell
+```
+### poetry命令
+
+|名称| 功能|
+|-|-|
+|new|创建一个项目脚手架，包含基本结构、pyproject.toml 文件|
+|init|基于已有的项目代码创建 pyproject.toml 文件，支持交互式填写|
+|install|安装依赖库|
+|update|更新依赖库|
+|add|添加依赖库|
+|remove|移除依赖库|
+|show|查看具体依赖库信息，支持显示树形依赖链|
+|build|构建 tar.gz 或 wheel 包|
+|publish|发布到 PyPI|
+|run|运行脚本和代码|
+
+## 单元测试
+```
+pytest --cov --cov-report=html
+```
+
