@@ -1,0 +1,520 @@
+.color { color: #204361; }
+.color { color: #2e6b9a; }
+.color { color: #5a5f63; }
+.color { color: #7aa7ce; }
+.color { color: #bad3e9; }
+.color { color: #ffde63; }
+.color { color: #1f2933; }
+.color { color: #e7e8ea; }
+.color { color: #5f686d; }
+.color { color: #f8f4f5; }
+
+@font-face {
+    font-family: "Monserrat";
+    src: url('../fonts/Montserrat-Regular.ttf');
+}
+
+* {
+    font-family: "Monserrat", sans-serif;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    background: linear-gradient(#204361 , #2e6b9a);
+    padding: 15px 0 35px 0;
+    padding-bottom: 60px;
+}
+
+header .intro{
+    margin-bottom: 20px;
+}
+
+header .intro h2 {
+    color: white;
+    font-size: 2rem;
+    margin: 18px 0 10px 10px;
+}
+
+header .intro p {
+    color: white;
+    font-size: 0.8rem;
+    margin: 15px 0 20px 90px;
+}
+
+.logo { 
+    display: flex;
+    align-items: top;
+}
+
+.logo img {
+    height: 70px;
+}
+
+nav {
+    border-radius: 10px;
+    background: #3775a8;
+    box-shadow: rgba(0, 0, 0, 0.2) 1px 1px 5px 3px;
+}
+
+nav ul {
+    margin: 0;
+}
+
+nav ul li {
+    list-style: none;
+    display: inline-block;
+    font-size: 1rem;
+    border-right: 1px solid #80808069;
+}
+
+nav ul li:hover{
+    background-color: #2e6b9a;
+}
+
+nav a {
+    padding: 15px;
+    display: inline-block;
+    margin: auto;
+    text-decoration: none;
+    color: white;
+}
+
+.container {
+    width: 85%;
+    margin: auto;
+}
+
+
+
+.terminal {
+    width: 95%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-weight: lighter;
+}
+
+.console { 
+    background-color: #1f2933;
+    padding: 12px;
+    width: 80%;
+}
+
+.console .path{
+    color: green;
+    font-size: 1rem;
+    margin: 5px 0 8px 12px;    
+}
+
+.console .comand {
+    color: white;
+    margin: 0 0 8px 36px;
+    font-size: 0.9rem;
+}
+
+.explanation {
+    background-color: #204361;
+    padding: 12px;
+    display: inline;
+    width: 80%;
+}
+
+.explanation h3{
+    color: #ffde63;
+    margin-left: 20px;
+    font-weight: normal;
+    font-size: 1rem;
+}
+
+.explanation p{
+    color: white;
+    margin-left: 20px;
+    width: 90%;
+    line-height: 1.3rem;
+    font-size: 0.9rem;
+}
+
+.characteristics {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 80px;
+}
+
+.characteristic {
+    width: 20%;
+    margin: 0 10px;
+    border-top: #7aa7ce 4px solid;
+    display: flex;
+    flex-direction: column;
+}
+
+.characteristic .title{
+    font-size: 1.2rem;
+    font-weight: lighter;
+    margin: 15px;
+}
+
+.characteristic .desccription{
+    margin: 0 15px;
+    font-weight: 500;
+    color: #5f686d;
+    font-size: 0.9rem;
+}
+
+.guide {
+    margin-top: 60px;
+    border-top: #7aa7ce 4px solid;
+}
+
+.guide-title {
+    color: #5f686d;
+    font-size: 1.8rem;
+    font-weight: bold;
+}
+
+.guide-subtitle {
+    color: #3775a8;   
+    font-size: 1.2rem;
+}
+
+.guide p {
+    color: #5f686d;
+    line-height: 1.6rem;
+}
+
+.guide #steps {
+    color: #5f686d;
+}
+
+.guide #steps li{
+    margin-top: 8px;
+    line-height: 1.5rem;
+}
+
+.code {
+    background-color: #f8f4f5;
+    padding: 2px 5px;
+    border-radius: 3px;
+}
+
+.config {
+    margin-top: 30px;
+    background-color: #1f2933;
+    padding: 12px 18px;
+    font-size: 0.9rem;
+}
+
+.config .scope {
+    margin: 0;
+    color: #ffde63;
+}
+
+.config .conf {
+    margin: 0;
+    color: #f8f4f5;
+}
+
+.section {
+    margin-left: 40px;
+    padding: 20px;
+}
+
+.section .section_title{
+    color: #3775a8;
+    font-weight: lighter;
+}
+
+.section a {
+    text-decoration: none;
+    color: #5f686d;
+    padding: 10px;
+    display: block;
+}
+
+.section a:hover {
+    background-color: #f8f4f5;
+}
+
+.copyrigth{
+    background: linear-gradient(#204361 , #2e6b9a);
+    padding: 20px;
+    color: white;
+    display: flex;
+    justify-content: center;
+}
+
+table {
+    border-collapse: collapse;
+    font-size: 0.9rem;
+}
+
+table.table-centered {
+    margin: 20px auto;
+    width: 90%;
+}
+
+th {
+    background-color: #eee;
+    padding: 0.3em 0.5em;
+    border: 1px solid #ddd;
+    border-radius: 3px;
+}
+
+td {
+    background-color: white;
+    padding: 0.6rem 1rem;
+    border: 1px solid #ddd;
+    border-radius: 3px;
+    text-align: left;
+}
+
+div.message {
+    background-color: #ffde63;
+    border-radius: 1rem;
+    padding: 0.6rem;
+    width: 90%;
+    box-sizing: border-box;
+    margin: 20px auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+div.message-y {
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+div.message .stats {
+    display: flex;
+}
+
+div.message .stats p{
+    margin-left: 30px;
+}
+
+.pagination {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 0.9rem;
+}
+
+.pagination a {
+    padding: 10px 15px;
+    text-decoration: none;
+    border: 1px solid #ddd;
+    color: black;
+    margin: 10px;
+}
+.view_all{
+    display: flex;
+    justify-content: center;
+}
+
+.view_all a {
+    font-size: 0.9rem;
+}
+
+.btn {
+    border-radius: 0.3rem;
+    background: linear-gradient(#d9d9d9 10%, #cccccc 90%);
+    height: 30px;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background: #e7e8ea;
+}
+
+.btn:focus {
+    outline: none;
+}
+
+.btn-outline-yellow:active {
+    background: linear-gradient(#d9d9d9 10%, #cccccc 90%);
+}
+
+.btn-outline-yellow{
+    border: 1px solid #dca900;
+}
+
+.btn-red {
+    background: #dc3545;
+    color: white;
+    border: none;
+}
+
+.btn-red:hover {
+    background: #c82333;
+}
+
+.btn-blue {
+    background: #3775a8;
+    outline: none;
+    border: none;
+    color: white;
+}
+.btn-blue:hover{
+    background: #2e6b9a;
+}
+
+.conf-blocks {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 60px;
+}
+
+.block {
+    width: 220px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 1px solid #ddd;
+    background-color: #eee;
+    padding: 10px;
+    height: 230px;
+    cursor: pointer;
+}
+
+.active {
+    background-color: #ffde63 !important;
+    border: 1px solid #f7d351 !important;
+}
+
+.block .block-title {
+    color: #5f686d;
+}
+
+.block .conf-description{
+    width: 95%;
+    color: #5f686d;
+    font-size: 0.9rem;
+    line-height: 1.5rem
+}
+
+.block:hover {
+    background-color: #ffde63;
+    border: 1px solid #f7d351;
+}
+
+.edit-config {
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    margin: 30px auto;
+}
+
+.edit-config .select{
+    text-align: center;
+    background-color: #eee;
+    border: 1px solid #ddd;
+    height: 45px;
+    overflow: hidden;
+    transition: height 0.3s ease-out;
+}
+
+.edit-config .select.expand{
+    height: 200px;
+}
+
+.edit-config .select:hover{
+    background-color: #ffde63;
+    border: 1px solid #f7d351;
+    cursor: pointer;
+}
+
+.edit-config .select textarea {
+    padding: 5px;
+    border: 1px solid #eee !important;
+    min-width: 100%;
+    border: none;
+    outline: none;
+    resize: none;
+    font-size: 0.9rem;
+    color: #5f686d;
+    line-height: 1.5rem;
+}
+.edit-config .select textarea::first-line {
+    font-weight: bold;
+}
+
+.conf-actions {
+    display: flex;
+    justify-content: center;
+}
+
+.conf-actions button{
+    margin: 0 10px;
+}
+
+.backdrop{
+    position: fixed;
+    display: none;
+    top: 0;
+    left: 0;
+    z-index: 100;
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.5);
+    transition: opacity 0.5s;
+    opacity: 0;
+}
+
+.open{
+    opacity: 1 !important;
+}
+
+.prop{
+    opacity: 0;
+    transition: opacity 0.5s;
+    display: none;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 30%;
+    z-index: 200;
+    padding: 21px;
+    text-align: center;
+    background-color: rgba(238, 238, 238, 0.952);
+}
+
+.prop.show{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.prop .prop-title {
+    width: 100%;
+}
+.prop .prop-title h3{
+    padding: 12px;
+    margin: 0;
+    color: #5f686d;
+}
+
+.prop-message {
+    color: #5f686d;
+}
+
+.footer-links{
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    background-color: #e7e8ea;
+}
+
+footer {
+    font-size: 0.9rem;
+}
