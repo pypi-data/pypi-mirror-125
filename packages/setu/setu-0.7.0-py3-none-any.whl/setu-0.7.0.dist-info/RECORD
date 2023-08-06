@@ -1,0 +1,9 @@
+setu/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+setu/auth.py,sha256=8FQGN61cmgau2D_d19-sXUhvGitM6JG6eFdJGZNLc4M,1344
+setu/deeplink.py,sha256=XRLjiXk6tofXcgOvroZycbN7LgJAzOqnBJ1YxoDWG2M,4566
+setu/errors.py,sha256=kuDxW6YT5YBMZcG_h6HeyYLkKDQR4vx7q-urgbcs_Z8,252
+setu-0.7.0.dist-info/LICENSE,sha256=pvxAyDMKIGMnwCO2NXiu7OPDK6dsCqwXZqQoZLXdBYQ,1091
+setu-0.7.0.dist-info/METADATA,sha256=lIuaVUxFw_Iywl-elC8-c5XQWeltFjNkhULn_Y75zJo,1858
+setu-0.7.0.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+setu-0.7.0.dist-info/top_level.txt,sha256=UiQ_m9s1mtjcnuU1sFD40ikQP_L-EWctWOoImHmTIfI,5
+setu-0.7.0.dist-info/RECORD,,
