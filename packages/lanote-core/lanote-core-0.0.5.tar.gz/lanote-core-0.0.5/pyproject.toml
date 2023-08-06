@@ -1,0 +1,30 @@
+[tool.poetry]
+name = "lanote-core"
+version = "0.0.5"
+description = ""
+authors = ["Viet Ho <4677759+VietHo@users.noreply.github.com>"]
+license = "proprietary"
+
+[tool.poetry.dependencies]
+python = "^3.8"
+Flask-SQLAlchemy = "^2.5.1"
+Flask-Migrate = "^3.1.0"
+python-dotenv = "^0.19.1"
+psycopg2-binary = "^2.9.1"
+
+[tool.poetry.dev-dependencies]
+build = "^0.7.0"
+pytest = "^6.2.5"
+black = "^21.9b0"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
+
+[[tool.poetry.source]]
+name = "jfrog"
+url = "https://lanote.jfrog.io/artifactory/api/pypi/default-pypi/simple"
+secondary = true
+
+[tool.black]
+line-length = 120
