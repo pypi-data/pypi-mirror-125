@@ -1,0 +1,22 @@
+Metadata-Version: 2.1
+Name: telebotify
+Version: 0.1.4
+Summary: A Python library for developing Telegram bots
+Home-page: UNKNOWN
+Author: Alejandro de Felipe
+License: MIT
+Platform: UNKNOWN
+Description-Content-Type: text/markdown
+
+# Tele-botify
+Tele-botify is a Python library for developing Telegram bots
+
+## Installation
+Install using pip
+```shell
+pip install telebotify
+```
+
+## Usage
+Make an instance of Bot providing the bot API key. Optionally, provide a webhook url, a commands dictionary and a certificate path too.
+
