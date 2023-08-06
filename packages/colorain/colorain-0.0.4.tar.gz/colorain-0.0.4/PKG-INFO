@@ -1,0 +1,15 @@
+Metadata-Version: 1.1
+Name: colorain
+Version: 0.0.4
+Summary: A simple colouring package for making console programmes great again.
+Home-page: UNKNOWN
+Author: Susmit Islam
+Author-email: susmitislam31@gmail.com
+License: UNKNOWN
+Description: UNKNOWN
+Keywords: terminal,color,colour,console
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: MacOS :: MacOS X
+Classifier: Operating System :: Microsoft :: Windows
