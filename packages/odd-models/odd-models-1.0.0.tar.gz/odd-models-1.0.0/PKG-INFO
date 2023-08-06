@@ -1,0 +1,22 @@
+Metadata-Version: 2.1
+Name: odd-models
+Version: 1.0.0
+Summary: Open Data Discovery Models
+Home-page: https://github.com/opendatadiscovery/odd-contract-package
+Author: Open Data Discovery
+Author-email: pypi@opendatadiscovery.org
+License: Apache License 2.0
+Description: # ODD models package
+        
+        ```
+        docker build . -t odd-models-dev:build 
+            --build-arg ODD_MODELS_VERSION=<VERSION>
+            --build-arg TWINE_USERNAME=<TWINE_USERNAME>
+            --build-arg TWINE_PASSWORD=<TWINE_PASSWORD>
+        ```
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
