@@ -1,0 +1,13 @@
+alfabet/__init__.py,sha256=HOrtjzAY-bc5XnMaWFIahN9fuGP2pAChK6Tfm9myxYk,247
+alfabet/_version.py,sha256=SwUtq7YSGdj6tHgW1TBYk6ux1hEwOQ-zVpfQec_zUUo,497
+alfabet/drawing.py,sha256=eiHNPQIBKmScs1WUszibZiRO_DvttaSV7ew9DmiXWds,2765
+alfabet/fragment.py,sha256=H0dkqFqnqyGz3XRlb9IOHp3GD_p70m4wTSfKDd7LwPU,4628
+alfabet/model.py,sha256=O5OL_2MUKq7wNTiYSlWlqf9L1lNOxSeTQNVUUZjg7mg,1667
+alfabet/neighbors.py,sha256=isoAB2NlmXmly6dW8cqbG2vdu_Eke_0eCKuINWxQzy8,1296
+alfabet/prediction.py,sha256=k0364DEgmHgWehhS-fRmRlJTIqsk6m07tfDL0U6QvdE,2574
+alfabet/preprocessor.py,sha256=FDYGAO1FMK3To9grTt-ju7SGkdZj8T2vYeX5AV4kPG4,1426
+alfabet-0.2.1.dist-info/LICENSE,sha256=99Qq8ZgyyUHg7rEA-nXEyqhfDsUWpBUFV6drvPZDaGA,1733
+alfabet-0.2.1.dist-info/METADATA,sha256=a6yi6sOt_oV73muQSAjje8fINFYtuBLMYi_1jmb1rqc,3533
+alfabet-0.2.1.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+alfabet-0.2.1.dist-info/top_level.txt,sha256=fBWsikTA7Qv4VxGzNIhcYweGlYR-WNaYAQa3IMtzw5A,8
+alfabet-0.2.1.dist-info/RECORD,,
