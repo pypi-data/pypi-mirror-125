@@ -1,0 +1,8 @@
+flytekitplugins_snowflake-0.24.0b0-py3.10-nspkg.pth,sha256=lkJ-eVJsxHcpr3YkJBzWrgSFWPWyG3DLhUSGmTcjxhg,584
+flytekitplugins/snowflake/__init__.py,sha256=ZHAuH018S47RMhWFIR3-iPdG93Qie4OLuxLiXtSBX9E,49
+flytekitplugins/snowflake/task.py,sha256=bNBUmCJX_oMCsM4Gl0nitbzDXqeMOIP4ptNgiaYRM8A,3106
+flytekitplugins_snowflake-0.24.0b0.dist-info/METADATA,sha256=LSnRz-l0UOAn3lEALQjI867PkrwLbB7lgC9akXEmt3Y,856
+flytekitplugins_snowflake-0.24.0b0.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+flytekitplugins_snowflake-0.24.0b0.dist-info/namespace_packages.txt,sha256=b2gTzXFHuV5afchaJ28HueRhYzj-8x5Ytr8n2twnAik,16
+flytekitplugins_snowflake-0.24.0b0.dist-info/top_level.txt,sha256=b2gTzXFHuV5afchaJ28HueRhYzj-8x5Ytr8n2twnAik,16
+flytekitplugins_snowflake-0.24.0b0.dist-info/RECORD,,
