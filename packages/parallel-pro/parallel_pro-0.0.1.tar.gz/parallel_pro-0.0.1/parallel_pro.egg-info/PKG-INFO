@@ -1,0 +1,46 @@
+Metadata-Version: 2.1
+Name: parallel-pro
+Version: 0.0.1
+Summary: parallel_pro is a simple package for parallel processing
+Home-page: https://github.com/scionoftech/parallel_pro
+Author: Sai Kumar Yava
+License: MIT
+Description: # parallel_pro
+        parallel_pro is a simple package for parallel processing.
+        
+        # Installation
+        ```bash
+        pip install parallel_pro
+        ```
+        
+        # How to use
+        ```python
+        from parallel_pro import run_parallel
+        from datetime import datetime
+        
+        
+        def test(data):
+            ss = list()
+            for i in data:
+                ss.append(i * 2)
+            return ss
+        
+        
+        def main():
+            start = datetime.now()
+            data = run_parallel(list_of_data=list(range(100)), process_fun=test,workers=4,
+                                verbose=False)
+            end = datetime.now()
+            # print(data)
+            diff = end - start
+            print(diff.total_seconds() / 60)
+        ```
+Keywords: parallel,multi processing
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: License :: OSI Approved :: MIT License
+Description-Content-Type: text/markdown
