@@ -1,0 +1,3 @@
+[console_scripts]
+reading4listeners = reading4listeners.bin.cli:main
+
