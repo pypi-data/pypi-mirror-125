@@ -1,0 +1,8 @@
+LICENSE
+README.rst
+setup.py
+polyloxpgen.egg-info/PKG-INFO
+polyloxpgen.egg-info/SOURCES.txt
+polyloxpgen.egg-info/dependency_links.txt
+polyloxpgen.egg-info/requires.txt
+polyloxpgen.egg-info/top_level.txt
