@@ -1,0 +1,14 @@
+LICENSE
+README.md
+dekogen_cmd.py
+setup.py
+dekogen/base_codegen.py
+dekogen/file_writer.py
+dekogen/spec_codegen.py
+dekogen/spec_reader.py
+dekogen.egg-info/PKG-INFO
+dekogen.egg-info/SOURCES.txt
+dekogen.egg-info/dependency_links.txt
+dekogen.egg-info/entry_points.txt
+dekogen.egg-info/requires.txt
+dekogen.egg-info/top_level.txt
