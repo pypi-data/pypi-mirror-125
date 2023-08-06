@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.py
+secmail/__init__.py
+secmail/client.py
+secmail/objects.py
+secmail.egg-info/PKG-INFO
+secmail.egg-info/SOURCES.txt
+secmail.egg-info/dependency_links.txt
+secmail.egg-info/requires.txt
+secmail.egg-info/top_level.txt

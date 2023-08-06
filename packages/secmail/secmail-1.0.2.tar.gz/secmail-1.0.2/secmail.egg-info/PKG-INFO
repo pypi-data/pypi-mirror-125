@@ -1,0 +1,27 @@
+Metadata-Version: 2.1
+Name: secmail
+Version: 1.0.2
+Summary: A Libarry to generate emails!
+Home-page: https://github.com/SirLez/secmail
+Author: SirLez
+Author-email: SirLezDV@gmail.com
+License: MIT
+Download-URL: https://github.com/SirLez/secmail/archive/refs/heads/main.zip
+Description: This is a Python client library for generating emails and getting email box messages based on using [1secmail](https://www.1secmail.com/api/) API.
+        ### Installation
+        use pip:
+        
+        ``pip install secmail``
+        ### Usage
+        ```py
+        import secmail
+        
+        sec = secmail.SecMail()
+        email = sec.generate_email(count=1)
+        print(email)
+        ```
+        If you set the count the more than 1 it will return a list of email
+        
+Keywords: SirLez,sirlez,api,python,python3,python3.x,official,secmail,1secmail,mail,email-generator-python,email-generator,email-python
+Platform: UNKNOWN
+Description-Content-Type: text/markdown
