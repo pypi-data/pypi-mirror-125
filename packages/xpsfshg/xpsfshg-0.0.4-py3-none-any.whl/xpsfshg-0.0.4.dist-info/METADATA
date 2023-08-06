@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: xpsfshg
+Version: 0.0.4
+Summary: This library or package will extract various insights from whatsapp chat and convert that insights into beautiful interactive visual's in just 2-3 lines of code.
+Home-page: UNKNOWN
+License: UNKNOWN
+Requires-Dist: plotly
+Requires-Dist: nltk
+Requires-Dist: numpy
+Requires-Dist: emoji
+Requires-Dist: wordcloud
+Requires-Dist: matplotlib
+Requires-Dist: pandas
+
+WhatsApp-Analyzer Package
+
+
