@@ -1,0 +1,12 @@
+sweetrpg_client/__init__.py,sha256=CQWFG4FMHbkRSFwG1ZR1ZmTVRc71JAh05NB-tEiOzlw,409
+sweetrpg_client/client.py,sha256=ro7lXe79mMknbBsWK4c8axUUriqGLSlIuqRT5rYAJZQ,4619
+sweetrpg_client/constants.py,sha256=LRV33pB4tjBb6vm6H-iZSIDlgEEbBzoQOqD0q33lDwU,360
+sweetrpg_client/exceptions.py,sha256=a-vSnNtsNVzUT9vXE7vyenmEkZ81Qb2hpZOMJpOtmQI,223
+sweetrpg_client/types/__init__.py,sha256=QVF2a4xQIBPv7XjY3UGU_RR1P0PHL6yQEbVGbhGChxU,202
+sweetrpg_client/types/registry.py,sha256=AnR-ACSnxVDKWYDLwLbj5NrB856FIclb2lBJCD6b6-Q,326
+sweetrpg_client-0.0.3.dist-info/LICENSE,sha256=l9scQGsqoUwsODCDicrQeU-CHjRnoRzEw_Fe2hO5kW8,1065
+sweetrpg_client-0.0.3.dist-info/METADATA,sha256=-xIVcgR-P0PzlDVRSFkkY24Eq8PEe5EctRmRczcn9YE,2056
+sweetrpg_client-0.0.3.dist-info/WHEEL,sha256=WzZ8cwjh8l0jtULNjYq1Hpr-WCqCRgPr--TX4P5I1Wo,110
+sweetrpg_client-0.0.3.dist-info/entry_points.txt,sha256=7MItJ3GTNvW-qF5DK0fcslWRQOeHNDeukhxW9QPj9Uk,62
+sweetrpg_client-0.0.3.dist-info/top_level.txt,sha256=VKOUFCRZIoshw_JweUq1-etjWfV3FSxePiSoct7dOiE,16
+sweetrpg_client-0.0.3.dist-info/RECORD,,
