@@ -1,0 +1,4 @@
+include requirements.txt
+include requirements.testing.txt
+include README*
+include src/api_client/config/*.json
