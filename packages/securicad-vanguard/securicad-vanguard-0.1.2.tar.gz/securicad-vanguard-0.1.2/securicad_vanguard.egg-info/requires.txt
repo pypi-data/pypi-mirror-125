@@ -1,0 +1,17 @@
+beautifulsoup4
+boto3
+botocore
+pycognito
+requests
+securicad-model<0.1.0
+
+[dev]
+black
+boto3-stubs
+build
+isort
+mypy
+pylint
+twine
+types-beautifulsoup4
+types-requests
