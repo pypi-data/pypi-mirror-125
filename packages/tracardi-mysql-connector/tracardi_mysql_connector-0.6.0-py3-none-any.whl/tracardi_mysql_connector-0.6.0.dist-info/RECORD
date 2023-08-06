@@ -1,0 +1,12 @@
+tracardi_mysql_connector/plugin.py,sha256=3OFZzR2FEKkVxVo0mxeZOMw8o0d4CNrp_4MsmRVmhdk,7589
+tracardi_mysql_connector/model/configuration.py,sha256=7ts3NffQyfz7D-onQbR_ugMgNS-0gONxfxribXD3Kc8,706
+tracardi_mysql_connector/model/connection.py,sha256=ukW-4RZmtq6ER3NqVvSeFj1J8I1eFc0EtWFbd9nNiYE,563
+tracardi_mysql_connector/model/__pycache__/configuration.cpython-37.pyc,sha256=ifv6AWA00PrCiVpMc2Xezi183U2b5eCu82_HcTKn8Is,521
+tracardi_mysql_connector/model/__pycache__/configuration.cpython-38.pyc,sha256=-KTFB6KcM1CRlxb49WXmlfXsRh3q2_VgFFPjQ5aJMTw,1215
+tracardi_mysql_connector/model/__pycache__/connection.cpython-37.pyc,sha256=ogD6GSYowcZPZwTT03gApdCLGWwoCH_POBwbUHOYSYo,820
+tracardi_mysql_connector/model/__pycache__/connection.cpython-38.pyc,sha256=K3nD84V10I76ciUIfsuFF1Ur7cX-jhL2UGfzHnd9t7w,873
+tracardi_mysql_connector-0.6.0.dist-info/LICENSE.md,sha256=3KXpxu6bKQz21BrZQe7UF9nc5QflB2-S9-azNjo5YZE,1069
+tracardi_mysql_connector-0.6.0.dist-info/METADATA,sha256=D-OORX-KWiYZ_iVyGkS4eQV3yzTvXaIa67tpTwJNQbE,2347
+tracardi_mysql_connector-0.6.0.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+tracardi_mysql_connector-0.6.0.dist-info/top_level.txt,sha256=SG6-gqF0OkOX34_J5TTCcXwsmGaEGfsUwGYtbD836EQ,25
+tracardi_mysql_connector-0.6.0.dist-info/RECORD,,
