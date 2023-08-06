@@ -1,0 +1,20 @@
+Metadata-Version: 2.1
+Name: flame-data
+Version: 1.7.4
+Summary: Field data for FLAME
+Home-page: https://github.com/frib-high-level-controls/FLAME
+Author: Tong Zhang
+Author-email: zhangt@frib.msu.edu
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+
+# flame-data
+
+This repo manages the cavity data for [FLAME](https://stash.frib.msu.edu/projects/PHYAPP/repos/flame/browse).
+
+
+
