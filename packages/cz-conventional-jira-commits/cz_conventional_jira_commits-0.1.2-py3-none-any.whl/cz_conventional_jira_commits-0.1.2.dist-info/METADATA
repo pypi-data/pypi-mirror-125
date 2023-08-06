@@ -1,0 +1,11 @@
+Metadata-Version: 2.1
+Name: cz-conventional-jira-commits
+Version: 0.1.2
+Summary: UNKNOWN
+Home-page: UNKNOWN
+License: MIT
+Platform: UNKNOWN
+Requires-Dist: commitizen
+
+Extensão para o commitizen que ajunta o modelo convetional_commits com o modelo do jira
+
