@@ -1,0 +1,13 @@
+lemmy/__init__.py,sha256=qpleuqvmZhtwlODe9_9JYb6x1DJkPtXslH6niZmnfvI,346
+lemmy/cli/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+lemmy/cli/__main__.py,sha256=W2b4oPTW8NZ6Mn39EeI9mNAWSdjMa-7aEA3ogT0vBDs,2670
+lemmy/lemmatizer.py,sha256=MBKfDuoqXt-b-EO6ozlINI-eaDBUK7-fO96WXR6NKQE,14689
+lemmy/pipe/__init__.py,sha256=wMNPAg9UzHSwmVGm_jlOSaihBT92L5WdJZfzYPADAxU,84
+lemmy/pipe/component.py,sha256=mI8GioxJRYlHQnuDNfNnIhK8GLmJVJA652n3738SCmE,986
+lemmy/serialization.py,sha256=CQFiKF5Nfh312M_7kU3F1xrgBBroz4PYfFSBsZoTj9k,1457
+lemmy/version.py,sha256=imzdNvJvD-Ur87JUloLNxyJmBw0n6lkzKEemPMohMg4,70
+lemmy3-3.2.0a0.dist-info/entry_points.txt,sha256=4ApQu9wrnE3knUK559La2si5ufO32UFx4wz8zylY4x0,48
+lemmy3-3.2.0a0.dist-info/LICENSE,sha256=gkJSBQwePFlSauI7S3pF0hNXnlYE9wblYNqUCVQheGk,1079
+lemmy3-3.2.0a0.dist-info/WHEEL,sha256=xSvaL1DM8LOHfdyo0cCcwjZu1tC6CnCsRGWUgazvlbM,83
+lemmy3-3.2.0a0.dist-info/METADATA,sha256=H6b0kLFhWYfORtcvb4Gjs2DrA8oh7c9cNgQyY3u11jE,1306
+lemmy3-3.2.0a0.dist-info/RECORD,,
