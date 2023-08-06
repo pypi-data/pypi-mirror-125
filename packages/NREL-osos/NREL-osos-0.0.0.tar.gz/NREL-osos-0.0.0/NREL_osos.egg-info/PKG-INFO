@@ -1,0 +1,26 @@
+Metadata-Version: 2.1
+Name: NREL-osos
+Version: 0.0.0
+Summary: Open Source Ops and Statistics
+Home-page: https://nrel.github.io/osos/
+Author: Grant Buster
+Author-email: grant.buster@nrel.gov
+License: BSD 3-Clause
+Description: ******************************
+        Open Source Ops and Statistics
+        ******************************
+        
+        This package helps track usage and contribution data for open source software.
+        
+Keywords: osos
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Science/Research
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Natural Language :: English
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Requires-Python: >=3.7
+Provides-Extra: test
+Provides-Extra: dev
