@@ -1,0 +1,9 @@
+pysegmenters_rules/__init__.py,sha256=A9r6Cba6V0OkmlGadBfyK2TJtTK0R9RyxqE4w5gdmhk,50
+pysegmenters_rules/pysbd_sentencizer.py,sha256=DE84m1U31GC33f9YHXLm4SKq4mmyRrjVm4FHTRF0Eq0,1255
+pysegmenters_rules/rule_sentencizer.py,sha256=wjqO3In_PfY3lXqaihmvHvL72AqnYEyswZLsJfmwXR0,3270
+pysegmenters_rules/rules.py,sha256=LJxb8XsJsHndq_5-qlXyULqch4jA18-kofsIoO0PGPs,10523
+pysegmenters_rules-0.5.65.dist-info/entry_points.txt,sha256=QNR1eeRbjXMXlunVLcos3x5Mwwg8EwX4myConiM2W5o,70
+pysegmenters_rules-0.5.65.dist-info/LICENSE,sha256=QPypQEap7i1K1jF4X_JOx3MvFyVupJe4-rr6h2DuXME,1082
+pysegmenters_rules-0.5.65.dist-info/WHEEL,sha256=pVNS5wRGlMB8qzi0M1coslDk7i694hS7VxZqRXRntY4,81
+pysegmenters_rules-0.5.65.dist-info/METADATA,sha256=7j62cOcKKnTqSG-_7_p0nDhvDIyXp693t6YZREDdWPU,3197
+pysegmenters_rules-0.5.65.dist-info/RECORD,,
