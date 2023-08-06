@@ -1,0 +1,12 @@
+Metadata-Version: 2.1
+Name: vintool
+Version: 1.0.19
+Summary: tools
+Home-page: https://github.com/fengmm521/pipProject
+Author: vincent
+Author-email: long_ty@163.com
+License: MIT Licence
+Description: http,env,oss,mq
+Keywords: tools
+Platform: any
+Requires-Python: >=3.6
