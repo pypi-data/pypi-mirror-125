@@ -1,0 +1,83 @@
+Metadata-Version: 2.1
+Name: staticbackend
+Version: 0.1.1
+Summary: StaticBackend Python client
+Home-page: https://staticbackend.com/
+License: MIT
+Author: ipfans
+Author-email: 363344+ipfans@users.noreply.github.com
+Requires-Python: >=3.6.2,<4.0.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Requires-Dist: asgiref (>=3.4.1,<4.0.0)
+Requires-Dist: email-validator (>=1.1.3,<2.0.0)
+Requires-Dist: httpx (>=0.19.0,<0.20.0)
+Requires-Dist: mkdocs-material (>=7.3.6,<8.0.0)
+Requires-Dist: pydantic (>=1.8.2,<2.0.0)
+Project-URL: Repository, https://github.com/staticbackendhq/backend-python
+Description-Content-Type: text/markdown
+
+# backend-python
+
+[StaticBackend](https://staticbackend.com/) Python 3 client.
+
+## Requirements
+
+CPython 3.6.2+
+
+## Installatin
+
+```
+pip install staticbackend
+```
+
+## Usage
+
+```python
+from staticbackend import Config, StaticBackend
+
+config = Config(
+    api_token=os.environ["PUBLICKEY"],
+    root_token=os.environ["ROOTKEY"],
+    endpoint=os.environ["ENDPOINT"],
+)
+backend = StaticBackend(config)
+state = backend.user.login("foo@bar.com", "zot")
+docs = state.database.list_documents(db)
+print(docs)
+```
+
+## Features
+
+- [x] User Management
+    - [x] Register
+    - [x] Login
+    - [x] Reset Password
+- [x] Database
+    - [x] Create a document
+    - [x] List documents
+    - [x] Get a document
+    - [x] Query for documents
+    - [x] Update a document
+    - [x] Delete documents
+- [x] Storage
+    - [x] Upload files
+- [ ] Forms
+    - [ ] Submit HTML forms
+- [ ] Websocket
+
+## License
+
+MIT
+
+## Contributing
+
+TBD.
+
+## CHANGELOG
+
+See [CHANGELOG.md](https://github.com/staticbackendhq/backend-python/blob/main/CHANGELOG.md)
+

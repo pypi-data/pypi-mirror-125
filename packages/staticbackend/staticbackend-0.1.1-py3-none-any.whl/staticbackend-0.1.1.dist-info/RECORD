@@ -1,0 +1,14 @@
+staticbackend/__init__.py,sha256=UshgV8KfnQj-CeHtmt1AqpQ_GRcB3DxyJRGvb3J3MD0,387
+staticbackend/base.py,sha256=6PNhWGOyIxtJg4jcDwYvnngosvd56CUj9hWWxcxp9Cc,1612
+staticbackend/config.py,sha256=yfhFknXgrDH1DBCUXzjtqFWSio85gC9q3noavunqvcM,822
+staticbackend/database.py,sha256=yhECV9FkKMPYdZNa4ncDGiuJ1ut_2Dn4F3ihdkkcusk,1996
+staticbackend/errors.py,sha256=2u8UJrjaEARoS_msJ9Nrm6DOqYpkQkYrC1RjF5xgvZ0,961
+staticbackend/forms.py,sha256=3aOoMdW2yQgrIDFP9QkCg0lJFJwQpX_8QhI6FijEDiE,444
+staticbackend/staticbackend.py,sha256=bLxg_NWgyikRgbYat6bwrrWrQkUacOhj3dl0JlBmJPc,1457
+staticbackend/storage.py,sha256=GlYDe0p-qhYwkdA5Cmxrk5zLUCbEVBMfCPB2qGxtC7A,760
+staticbackend/user.py,sha256=GTkPO1l_KGL541DhWoJQvg1ykcRnWL6YNVZCnylPVDE,3048
+staticbackend/version.py,sha256=9Xii9vgvJSeCiNcOp6S6fcnuhzm3U_jIHtp44v1ZSAc,31
+staticbackend-0.1.1.dist-info/LICENSE,sha256=erWg-AblaAh0kvABI_fo_T4P6y5BL8Y0hR79BRcs8a0,1070
+staticbackend-0.1.1.dist-info/WHEEL,sha256=N0LZrBtofpkS5mJXgVHTCEy52Sam4D6PHQWC8HnMeTs,83
+staticbackend-0.1.1.dist-info/METADATA,sha256=fJxLc4j-OmURZT5UleFIVGnNMpTCqvWt5vGAmGAsIVM,1847
+staticbackend-0.1.1.dist-info/RECORD,,
