@@ -1,0 +1,12 @@
+LICENSE
+README.md
+setup.py
+pyhdls/__init__.py
+pyhdls/import_hook.py
+pyhdls.egg-info/PKG-INFO
+pyhdls.egg-info/SOURCES.txt
+pyhdls.egg-info/dependency_links.txt
+pyhdls.egg-info/top_level.txt
+pyhdls/hd/__init__.py
+pyhdls/hd/hardware.py
+pyhdls/hd/utils.py
