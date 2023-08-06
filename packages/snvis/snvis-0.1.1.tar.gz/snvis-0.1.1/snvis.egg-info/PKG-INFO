@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: snvis
+Version: 0.1.1
+Summary: Social network visualising tool
+Home-page: https://github.com/Callum-Irving/snvis
+Author: Callum Irving
+Author-email: callum.irving04@gmail.com
+License: MIT
+Platform: UNKNOWN
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3.9
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# Social Network Visualiser (snvis)
+
+This is a tool to visualise social networks from a spreadsheet of connections.
+
+
