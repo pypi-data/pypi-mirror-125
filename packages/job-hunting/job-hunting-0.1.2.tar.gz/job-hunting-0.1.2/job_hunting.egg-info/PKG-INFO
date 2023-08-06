@@ -1,0 +1,48 @@
+Metadata-Version: 2.1
+Name: job-hunting
+Version: 0.1.2
+Summary: Package that automate selection and subscription of jobs
+Home-page: https://job-hunting.readthedocs.io/
+Author: Jeferson Morais
+Author-email: mx.jeferson.10@hotmail.com
+License: UNKNOWN
+Description: # job-hunting
+        
+        A automated job finder that find and subscribe in job
+        
+        ## instalation
+        
+        Installed via pip:
+        
+        ```python
+        pip install job-hunting
+        ```
+        
+        or from source:
+        
+        ```python
+        python setup.py
+        ```
+        
+        
+        ## Usage 
+        
+        ```Python
+        from jobhunting.controllers.infojobsController import searchInfojob
+        
+        # call the infojobs subscription (Your infojobs user and password required)
+        searchInfojob("python", "your user", "your password")
+        
+        ```
+        
+Platform: UNKNOWN
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
