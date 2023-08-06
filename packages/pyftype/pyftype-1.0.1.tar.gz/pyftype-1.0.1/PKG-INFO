@@ -1,0 +1,47 @@
+Metadata-Version: 2.1
+Name: pyftype
+Version: 1.0.1
+Summary: 类型检测
+Home-page: https://gitee.com/kin9-0rz/pyftype
+License: MIT
+Author: kin9-0rz
+Author-email: kin9-0rz@outlook.com
+Requires-Python: >=3.10,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Project-URL: Repository, https://gitee.com/kin9-0rz/pyftype
+Description-Content-Type: text/x-rst
+
+
+pyftype
+=======
+
+一个类型检测库。
+
+特性
+~~~~
+
+
+#. 类型检测完全模块化，需要检测新的类型，直接参考modules中的检测，编写即可。
+#. 主要面向逆向工程方向的类型检测，也支持一般类型检测。
+
+安装
+~~~~
+
+.. code-block::
+
+   pip install pyftype
+
+用法
+~~~~
+
+具体参考examples目录
+
+参考
+~~~~
+
+
+* https://github.com/h2non/filetype.py
+* https://github.com/kin9-0rz/cigam
+

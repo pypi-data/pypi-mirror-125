@@ -1,0 +1,24 @@
+[tool.poetry]
+name = "pyftype"
+version = "1.0.1"
+description = "类型检测"
+authors = ["kin9-0rz <kin9-0rz@outlook.com>"]
+license = "MIT"
+readme = "README.rst"
+repository = "https://gitee.com/kin9-0rz/pyftype"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+
+[tool.poetry.dev-dependencies]
+pytest = "^6.2.5"
+flake8 = "^4.0.1"
+black = "^21.9b0"
+pytest-benchmark = "^3.4.1"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.poetry.scripts]
+ftype = "pyftype.cli:main"
