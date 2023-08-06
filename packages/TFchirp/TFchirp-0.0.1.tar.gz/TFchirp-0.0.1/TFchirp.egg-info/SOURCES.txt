@@ -1,0 +1,7 @@
+README.md
+setup.py
+TFchirp/__init__.py
+TFchirp.egg-info/PKG-INFO
+TFchirp.egg-info/SOURCES.txt
+TFchirp.egg-info/dependency_links.txt
+TFchirp.egg-info/top_level.txt
