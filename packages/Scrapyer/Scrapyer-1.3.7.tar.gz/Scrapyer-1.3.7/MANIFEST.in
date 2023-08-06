@@ -1,0 +1,6 @@
+include scrapy/VERSION
+include scrapy/mime.types
+
+recursive-include scrapy/templates *
+
+
