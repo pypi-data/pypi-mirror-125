@@ -1,0 +1,20 @@
+Metadata-Version: 1.1
+Name: lingfeat
+Version: 1.0.0b10
+Summary: Comprehensive Linguistic Features Extraction for Readability Assessment
+Home-page: https://github.com/brucewlee
+Author: Bruce W. Lee
+Author-email: phys.w.s.lee@gmail.com
+License: cc-by-sa-4.0
+Description: UNKNOWN
+Keywords: NLP,LINGUISTIC FEATURE,READABILITY
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Build Tools
+Classifier: Intended Audience :: Education
+Classifier: Intended Audience :: Science/Research
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
