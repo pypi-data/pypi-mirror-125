@@ -1,0 +1,10 @@
+skimage
+tensorflow
+numpy
+monai
+
+[docs]
+sphinx
+sphinx-rtd-theme
+sphinx-autodoc-typehints
+sphinx-click
