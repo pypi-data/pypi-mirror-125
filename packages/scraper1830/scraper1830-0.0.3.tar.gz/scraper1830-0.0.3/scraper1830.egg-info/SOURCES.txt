@@ -1,0 +1,15 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+setup.py
+scraper1830/__init__.py
+scraper1830/scraper1830.py
+scraper1830/scraper_cli.py
+scraper1830.egg-info/PKG-INFO
+scraper1830.egg-info/SOURCES.txt
+scraper1830.egg-info/dependency_links.txt
+scraper1830.egg-info/entry_points.txt
+scraper1830.egg-info/not-zip-safe
+scraper1830.egg-info/requires.txt
+scraper1830.egg-info/top_level.txt

@@ -1,0 +1,8 @@
+requests
+selenium
+bs4
+pandas
+matplotlib
+seaborn
+click
+lxml
