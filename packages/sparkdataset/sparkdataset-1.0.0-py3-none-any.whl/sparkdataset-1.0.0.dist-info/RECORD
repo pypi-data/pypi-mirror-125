@@ -1,0 +1,13 @@
+sparkdataset/__init__.py,sha256=mzfaoMFD6fGWMxSzpxsfSwYHxXf1Od9uc7YggmoLtXc,1079
+sparkdataset/datasets_handler.py,sha256=SG76IzYv0SGzYStShkfi5LFljzqVO9YJOcimW1CjvMM,1856
+sparkdataset/dump_data.py,sha256=CWRIUTvOJNgInf_Y-RY4kI8w8KRBAaIeSg12N7NX9XY,1489
+sparkdataset/locate_datasets.py,sha256=EhubzuPFzusDjOK82Geh1d4sjpH2H_JgAaMcr2Zfv4I,1724
+sparkdataset/resources.tar.gz,sha256=qzCm-zIkkcP-5P4QQMN8gHxA8XMtyTGMdXOVMZvne9E,15959690
+sparkdataset/support.py,sha256=V9jdwurI-srf1DWszdMKG3-1MrVRDUpmkA3j8Mjk_q8,1423
+sparkdataset/utils/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+sparkdataset/utils/html2text.py,sha256=fOyOwDn4k1w3D1pON1cbxVAyitZ_cgEOmuJ9Naq5nV8,33741
+sparkdataset-1.0.0.dist-info/LICENSE,sha256=7-0N3262P1HCIafuLlDa7ZWCrjGXkCkvtE64pepUgic,1101
+sparkdataset-1.0.0.dist-info/METADATA,sha256=wPDfu9sYF2pX88VY-FyCGucQt8cZspHpuZaq4-jvz90,3059
+sparkdataset-1.0.0.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+sparkdataset-1.0.0.dist-info/top_level.txt,sha256=UWhq3gQt7lt-dOhm306kt0M3zYWPiAUCktFjUojbbZM,13
+sparkdataset-1.0.0.dist-info/RECORD,,
