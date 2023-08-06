@@ -1,0 +1,4 @@
+[console_scripts]
+just = justautomate.cli:justautomate_cli
+justautomate = justautomate.cli:justautomate_cli
+

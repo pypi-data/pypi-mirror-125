@@ -1,0 +1,11 @@
+justautomate/__init__.py,sha256=ZPWPVTECV4eoWXFyvFw4XcVeY0g7jFnG18wshtyIINg,23
+justautomate/_nbdev.py,sha256=AzMuRCeIoQ_u3f-LlQpOjiT9dZh9JaDvd9uvDjka364,450
+justautomate/cli.py,sha256=js1VHVYo0Ju6WZ-HdMq63I8B4YTIZHpfVsBtORj1_Ko,398
+justautomate/tools/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+justautomate/tools/security.py,sha256=d_RKe30o4nVBhlT-SkRs6ihBD0VG6JnDmcksDGlJ1ug,335
+justautomate-0.0.1.dist-info/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+justautomate-0.0.1.dist-info/METADATA,sha256=WK19kkRuse9t159z944vy9PgUVg8L9H5EGj1VamXe5Y,1836
+justautomate-0.0.1.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+justautomate-0.0.1.dist-info/entry_points.txt,sha256=XKwj44NSc3UW0nsLkgyk7WRgq-xAJ66rsep2ZqcCnRc,109
+justautomate-0.0.1.dist-info/top_level.txt,sha256=o3YfZdM7KJyklCCmsYMz1DAlpqvaVyR2Mu5Mid4m1Lk,13
+justautomate-0.0.1.dist-info/RECORD,,
