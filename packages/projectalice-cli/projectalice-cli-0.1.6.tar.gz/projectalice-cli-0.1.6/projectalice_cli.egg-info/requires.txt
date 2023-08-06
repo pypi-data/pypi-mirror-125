@@ -1,0 +1,9 @@
+Click
+paramiko
+PyInquirer
+networkscan
+pyyaml
+requests
+psutil
+beautifulsoup4
+tqdm
