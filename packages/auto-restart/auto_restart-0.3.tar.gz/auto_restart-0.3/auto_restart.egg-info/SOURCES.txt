@@ -1,0 +1,13 @@
+README.md
+setup.py
+auto_restart/__init__.py
+auto_restart/auto_restart_when_git_changed.py
+auto_restart.egg-info/PKG-INFO
+auto_restart.egg-info/SOURCES.txt
+auto_restart.egg-info/dependency_links.txt
+auto_restart.egg-info/entry_points.txt
+auto_restart.egg-info/top_level.txt
+tests/__init__.py
+tests/test_git_change.py
+tests/pac1/__init__.py
+tests/pac1/m1.py
