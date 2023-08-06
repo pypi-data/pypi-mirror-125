@@ -1,0 +1,10 @@
+LICENSE
+README.md
+setup.py
+src/seq_uuid/__init__.py
+src/seq_uuid/seq_uuid.py
+src/seq_uuid.egg-info/PKG-INFO
+src/seq_uuid.egg-info/SOURCES.txt
+src/seq_uuid.egg-info/dependency_links.txt
+src/seq_uuid.egg-info/requires.txt
+src/seq_uuid.egg-info/top_level.txt
