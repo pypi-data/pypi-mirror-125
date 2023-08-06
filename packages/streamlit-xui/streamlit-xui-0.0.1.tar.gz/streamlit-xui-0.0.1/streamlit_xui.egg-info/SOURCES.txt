@@ -1,0 +1,16 @@
+MANIFEST.in
+README.md
+setup.py
+placeholder/__init__.py
+placeholder/frontend/dist/index.html
+placeholder/frontend/dist/assets/index.d8e9905b.js
+placeholder/frontend/dist/assets/vendor.919a7b4c.js
+sidemenu/__init__.py
+sidemenu/frontend/dist/index.html
+sidemenu/frontend/dist/assets/index.b6b9f3be.js
+sidemenu/frontend/dist/assets/vendor.919a7b4c.js
+streamlit_xui.egg-info/PKG-INFO
+streamlit_xui.egg-info/SOURCES.txt
+streamlit_xui.egg-info/dependency_links.txt
+streamlit_xui.egg-info/requires.txt
+streamlit_xui.egg-info/top_level.txt
