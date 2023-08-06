@@ -1,0 +1,9 @@
+wgus/__init__.py,sha256=erDqFqmIh_JyzYNWW12R2vE8aOcmLpkcsXFPm_JosmE,177
+wgus/constants.py,sha256=BHkGrEG-SBFknnTbD4Cfkn4upBYtolDDyhMLvaicv8Q,95
+wgus/metadata.py,sha256=xwxg4oybKBbHioPmf9nm8dnnDEVaqHEhxRBeiiuuGPA,2892
+wgus/patches_chains.py,sha256=rUQxztQ1Y3boCFdbg0xt9rXuQIu2dKOwjsvenyK1QCE,3940
+wgus/requests.py,sha256=SWheaSUffPo_9cy_AoEulq7cm1Hdc10-TMVZhUZxudQ,453
+wgus-0.0.3.dist-info/LICENSE,sha256=SCYysfruSHd80WU5QAIHIzrISnvcu3OD6ii1kLy1XPU,1120
+wgus-0.0.3.dist-info/WHEEL,sha256=pVNS5wRGlMB8qzi0M1coslDk7i694hS7VxZqRXRntY4,81
+wgus-0.0.3.dist-info/METADATA,sha256=5jn23C7K4JXnTcTofekdasLeJi3cj5FuogGqra0vCKE,1455
+wgus-0.0.3.dist-info/RECORD,,
