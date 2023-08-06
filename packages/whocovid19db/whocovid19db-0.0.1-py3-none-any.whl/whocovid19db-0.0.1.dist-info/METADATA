@@ -1,0 +1,31 @@
+Metadata-Version: 2.1
+Name: whocovid19db
+Version: 0.0.1
+Summary: 
+License: GPL-3.0-or-later
+Author: Lucas Lopes
+Author-email: lucaslopesf2@gmail.com
+Requires-Python: >=3.10,<4.0
+Classifier: License :: OSI Approved :: GNU General Public License v3 or later (GPLv3+)
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Requires-Dist: pandas (>=1.3.4,<2.0.0)
+Requires-Dist: requests-html (>=0.10.0,<0.11.0)
+Description-Content-Type: text/markdown
+
+# WHO Covid-19 Database
+Export the [WHO Covid-19 Database](https://search.bvsalud.org/global-literature-on-novel-coronavirus-2019-ncov/) to a Pandas DataFrame.
+
+## Installation
+```$ pip install whocovid19db```
+
+## Usage
+```# Import the Exporter class:
+from whocovid19db import Exporter
+
+# Create a new instance:
+exp = Exporter()
+
+# Export 5 documents from 2021/Oct/29 to 2021/Oct/30:
+df = exp.get_df(date_interval=(20211029, 20211030), count=5)
+```
