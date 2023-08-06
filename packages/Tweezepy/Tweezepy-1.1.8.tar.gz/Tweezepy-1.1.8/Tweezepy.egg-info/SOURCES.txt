@@ -1,0 +1,10 @@
+LICENSE
+MANIFEST.in
+README.md
+pyproject.toml
+setup.py
+Tweezepy.egg-info/PKG-INFO
+Tweezepy.egg-info/SOURCES.txt
+Tweezepy.egg-info/dependency_links.txt
+Tweezepy.egg-info/requires.txt
+Tweezepy.egg-info/top_level.txt
