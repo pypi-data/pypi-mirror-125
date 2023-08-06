@@ -1,0 +1,9 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+src/photon_lang/__init__.py
+src/photon_lang.egg-info/PKG-INFO
+src/photon_lang.egg-info/SOURCES.txt
+src/photon_lang.egg-info/dependency_links.txt
+src/photon_lang.egg-info/top_level.txt
