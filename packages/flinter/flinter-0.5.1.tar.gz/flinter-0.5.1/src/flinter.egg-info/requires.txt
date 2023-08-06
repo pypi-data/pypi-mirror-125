@@ -1,0 +1,12 @@
+click
+lizard
+pyaml
+nobvisual>=0.3.0
+
+[docs]
+myst-parser
+sphinx_rtd_theme
+
+[tests]
+pytest
+click
