@@ -1,0 +1,6 @@
+README.txt
+setup.py
+MathRecreation.egg-info/PKG-INFO
+MathRecreation.egg-info/SOURCES.txt
+MathRecreation.egg-info/dependency_links.txt
+MathRecreation.egg-info/top_level.txt
