@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: dist_matrix
+Version: 1.0.2
+Summary: Predict materials properties using only the composition information.
+Author-email: "Sterling G. Baird" <sterling.baird@utah.edu>
+Requires-Python: >=3.7,<3.10
+Description-Content-Type: text/markdown
+Classifier: License :: OSI Approved :: MIT License
+Requires-Dist: numpy
+Requires-Dist: scipy
+Requires-Dist: numba>=0.53.1
+Project-URL: Home, https://github.com/sparks-baird/dist-matrix
+
+# wasserstein-distance
+Fast Numba-enabled CPU and GPU computations of Earth Mover's (scipy.stats.wasserstein_distance) and Euclidean distances.
+
