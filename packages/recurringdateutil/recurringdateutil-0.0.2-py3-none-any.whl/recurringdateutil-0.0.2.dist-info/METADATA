@@ -1,0 +1,39 @@
+Metadata-Version: 2.1
+Name: recurringdateutil
+Version: 0.0.2
+Summary: Custom Package for recurring date utility
+Home-page: UNKNOWN
+Author: Samar Chowdhury
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+## recurringdateutil
+
+A sample python package deployment utility for calculating monthly or annual recurring date based on the date format. Any date format passed as input and expect any date format in output.
+
+
+## Usage
+
+import recurringdateutil
+
+from datetime import datetime, timedelta 
+
+input_date_format = '%Y-%m-%d'
+
+output_date_format = '%Y-%m-%d'
+
+# Calculate next monthly recurring date
+next_monthly_recurring_date = get_next_monthly_recurring_date(input_date_format, output_date_format)
+
+# Calculate next annual recurring date
+enrollmentdate = datetime.today().strftime(input_date_format)
+
+next_annual_recurring_date = get_next_annual_recurring_date(enrollmentdate, input_date_format, output_date_format)
+
+
