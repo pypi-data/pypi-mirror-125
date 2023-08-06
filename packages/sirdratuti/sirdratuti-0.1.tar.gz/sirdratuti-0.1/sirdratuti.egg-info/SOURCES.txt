@@ -1,0 +1,8 @@
+setup.py
+sirdratuti/__init__.py
+sirdratuti/dratuti.py
+sirdratuti.egg-info/PKG-INFO
+sirdratuti.egg-info/SOURCES.txt
+sirdratuti.egg-info/dependency_links.txt
+sirdratuti.egg-info/requires.txt
+sirdratuti.egg-info/top_level.txt
