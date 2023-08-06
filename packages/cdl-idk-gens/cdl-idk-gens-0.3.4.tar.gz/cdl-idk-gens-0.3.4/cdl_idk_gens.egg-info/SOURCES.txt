@@ -1,0 +1,11 @@
+README.md
+setup.py
+cdl_idk_gens.egg-info/PKG-INFO
+cdl_idk_gens.egg-info/SOURCES.txt
+cdl_idk_gens.egg-info/dependency_links.txt
+cdl_idk_gens.egg-info/requires.txt
+cdl_idk_gens.egg-info/top_level.txt
+idkgens/__init__.py
+idkgens/_version.py
+idkgens/insight.py
+idkgens/io.py

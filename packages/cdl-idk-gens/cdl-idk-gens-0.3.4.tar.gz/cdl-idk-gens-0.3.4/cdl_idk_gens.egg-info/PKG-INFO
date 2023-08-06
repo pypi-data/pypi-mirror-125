@@ -1,0 +1,11 @@
+Metadata-Version: 2.1
+Name: cdl-idk-gens
+Version: 0.3.4
+Summary: Tools for building insight generators
+Home-page: UNKNOWN
+Author: eden.trainor@compassdigital.io
+License: UNKNOWN
+Description: This is going to be dev tools for building insights.
+Platform: UNKNOWN
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
