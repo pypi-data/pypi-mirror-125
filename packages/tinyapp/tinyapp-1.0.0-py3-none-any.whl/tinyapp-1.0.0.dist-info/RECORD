@@ -1,0 +1,9 @@
+tinyapp/__init__.py,sha256=wavSPoimBth3xKyewasw6iuDIcthr-CjOkptE2qiTHo,274
+tinyapp/_bootstrap.py,sha256=8vbbaavmWo58WN9a7i-EIw-JyvKiXITRiJxhY4EDm5o,546
+tinyapp/_config.py,sha256=p6PemrEEXZ9ad8UX5E-wKyE4FPDIJb7R8FVzINX3rx8,797
+tinyapp/_database.py,sha256=swbx3RJOJF55MVtMnLLgklFxkczQf-cMFvdJgkEJ50w,1871
+tinyapp/_logger.py,sha256=XFJnpt_cmaNstmmudC_DoyE3saGHHsRLVf1Agwm9w5o,1217
+tinyapp-1.0.0.dist-info/METADATA,sha256=YOQ7XM3HLEg78GB6YjkQoHpripNnJKxspiNBKYD0aBY,294
+tinyapp-1.0.0.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+tinyapp-1.0.0.dist-info/top_level.txt,sha256=ntidGqpekZlNaQteUITQwV8Do5TJuBuI2-iS4mCTfCg,8
+tinyapp-1.0.0.dist-info/RECORD,,

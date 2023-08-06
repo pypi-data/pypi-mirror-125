@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: tinyapp
+Version: 1.0.0
+Summary: Tiny Python Application Framwork
+Home-page: UNKNOWN
+Author: lison
+Author-email: imlison@foxmail.com
+License: MIT
+Platform: UNKNOWN
+Requires-Python: >=3.6
+Requires-Dist: sqlalchemy
+Requires-Dist: json5
+Requires-Dist: pymysql
+
+UNKNOWN
+
