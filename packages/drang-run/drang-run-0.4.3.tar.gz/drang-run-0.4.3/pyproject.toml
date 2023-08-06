@@ -1,0 +1,67 @@
+[tool.poetry]
+name = "drang-run"
+version = "0.4.3"
+description = "Generate a run of integers or characters. Similar to jot and seq."
+authors = ["J. Neugebauer <github@neugebauer.cc>"]
+license = "MIT"
+readme = "README.rst"
+homepage = "http://github.com/jneug/drang-run"
+repository = "http://github.com/jneug/drang-run"
+classifiers = [
+		"Programming Language :: Python :: 3"
+	]
+
+[tool.poetry.dependencies]
+python = "^3.6.2"
+click = "^8.0.3"
+
+[tool.poetry.dev-dependencies]
+pytest = "^6.2.5"
+isort = "^5.9.3"
+black = "^21.9b0"
+flake8 = "^4.0.1"
+tbump = "^6.5.0"
+
+[tool.poetry.scripts]
+run = "drang_run:run"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.isort]
+profile = "black"
+
+[tool.tbump]
+# Uncomment this if your project is hosted on GitHub:
+github_url = "https://github.com/jneug/drang-run/"
+
+[tool.tbump.version]
+current = "0.4.3"
+regex = '''
+  (?P<major>\d+)
+  \.
+  (?P<minor>\d+)
+  \.
+  (?P<patch>\d+)
+  '''
+
+[tool.tbump.git]
+message_template = "Bump to {new_version}"
+tag_template = "v{new_version}"
+
+[[tool.tbump.file]]
+src = "drang_run/__init__.py"
+search = '__version__ = "{current_version}"'
+
+[[tool.tbump.file]]
+src = "tests/test_drang_run.py"
+search = 'assert __version__ == "{current_version}"'
+
+[[tool.tbump.file]]
+src = "pyproject.toml"
+search = 'version = "{current_version}"'
+
+[[tool.tbump.file]]
+src = "README.rst"
+search = 'run, version {current_version}'
