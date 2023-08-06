@@ -1,0 +1,6 @@
+noisereduce
+xarray
+
+[plotting]
+seaborn
+seaborn
