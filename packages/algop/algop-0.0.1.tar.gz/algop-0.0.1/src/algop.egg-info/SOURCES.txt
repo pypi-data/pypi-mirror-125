@@ -1,0 +1,10 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+src/algop/__init__.py
+src/algop/main.py
+src/algop.egg-info/PKG-INFO
+src/algop.egg-info/SOURCES.txt
+src/algop.egg-info/dependency_links.txt
+src/algop.egg-info/top_level.txt
