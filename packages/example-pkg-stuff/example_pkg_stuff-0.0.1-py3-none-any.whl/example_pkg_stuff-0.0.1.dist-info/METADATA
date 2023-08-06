@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: example-pkg-stuff
+Version: 0.0.1
+Summary: Creates .py and .txt test files
+Home-page: https://github.com/Yakser/Stuff
+Author: Sergey Yaksanov
+Author-email: sergeyyaksanov@yandex.ru
+License: UNKNOWN
+Project-URL: Bug Tracker, https://github.com/Yakser/Stuff/issues
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+UNKNOWN
+

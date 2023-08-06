@@ -1,0 +1,7 @@
+stuff_package/__init__.py,sha256=YSQKJ8KqfL2gHTxNWESNAY6MTjnW_vgDcGBPeVsywNs,114
+stuff_package/stuff.py,sha256=K2qh73bJSHtKGUTuQtLEm7AMKQ0OfkPbz0vbHlSzElU,1583
+example_pkg_stuff-0.0.1.dist-info/LICENSE,sha256=6kbiFSfobTZ7beWiKnHpN902HgBx-Jzgcme0SvKqhKY,1091
+example_pkg_stuff-0.0.1.dist-info/METADATA,sha256=IuKj3UsoWyhc_rrokMDpzUnH7ix7xVBzC2-MnniMRLk,549
+example_pkg_stuff-0.0.1.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+example_pkg_stuff-0.0.1.dist-info/top_level.txt,sha256=lfeyQeQv7QKKMBTDQrdrOw-cSYm9JYCOAtyzPhNgUcA,14
+example_pkg_stuff-0.0.1.dist-info/RECORD,,
