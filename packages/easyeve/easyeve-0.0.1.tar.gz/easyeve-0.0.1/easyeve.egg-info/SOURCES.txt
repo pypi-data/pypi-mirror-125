@@ -1,0 +1,10 @@
+setup.py
+easyeve/__init__.py
+easyeve/main.py
+easyeve.egg-info/PKG-INFO
+easyeve.egg-info/SOURCES.txt
+easyeve.egg-info/dependency_links.txt
+easyeve.egg-info/entry_points.txt
+easyeve.egg-info/requires.txt
+easyeve.egg-info/top_level.txt
+easyeve.egg-info/zip-safe
