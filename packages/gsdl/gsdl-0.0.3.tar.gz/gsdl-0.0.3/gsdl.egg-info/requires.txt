@@ -1,0 +1,4 @@
+pygame
+Pillow
+buildozer
+pywin32
