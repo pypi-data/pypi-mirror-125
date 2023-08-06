@@ -1,0 +1,28 @@
+Metadata-Version: 2.1
+Name: tnk
+Version: 0.0.1
+Summary: tensor-numpy-keras
+Home-page: https://github.com/inagen/tnk
+Author: Timur Bairamokov
+Author-email: inagen57@gmail.com
+License: BSD 2-clause
+Platform: UNKNOWN
+Classifier: Development Status :: 1 - Planning
+Classifier: Intended Audience :: Science/Research
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Operating System :: POSIX :: Linux
+Classifier: Programming Language :: Python :: 3
+Requires-Dist: keras
+Requires-Dist: numpy
+Requires-Dist: tensorflow (==2.6.0)
+Requires-Dist: scipy
+Requires-Dist: scikit-learn
+Requires-Dist: pillow
+Requires-Dist: h5py
+Requires-Dist: tensorboard (~=2.4)
+Requires-Dist: tensorflow-estimator (~=2.6)
+Requires-Dist: tensorflow-gpu (==2.6.0)
+
+UNKNOWN
+
+
