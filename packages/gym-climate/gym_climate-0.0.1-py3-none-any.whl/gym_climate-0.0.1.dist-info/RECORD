@@ -1,0 +1,17 @@
+gym_climate/__init__.py,sha256=yoQNeGWk7gOiMkZHfV1PAypYVi9AXFr8h_BGUG_CQ6Y,206
+gym_climate/envs/__init__.py,sha256=daEdpEyAJIa8b2VkCqSKcw8PaExcB6Qro80XNes_sHA,2
+gym_climate/envs/AYS/__init__.py,sha256=4c5SYtSe5fiBUHmWS-GQQcDbZXRHGbfPb52_L1Q-qs8,64
+gym_climate/envs/AYS/ays_environment.py,sha256=lsuwPS38fn4Mj6WaYCuLMsIwEUTwgCGopR49O0Z6grY,7751
+gym_climate/envs/AYS/ays_model.py,sha256=KIjndrBnLffEPynBmBRJzzSfXjbJVXUbsLR0q647QmQ,898
+gym_climate/envs/AYS/trash.py,sha256=pZGYx-uShJKyX6U73PVlQGtSPDM6sjFe3sdmv9XAbYI,211
+gym_climate/envs/DICE/__init__.py,sha256=ZC5tEOJQViSXH54b7-Zvg8QaPGh3obcx0XHY45WVgcg,51
+gym_climate/envs/DICE/env_dice.py,sha256=-IWFP4OFlIb3qFOyEf9FQDbJIVVHp7XwoUyK1hYYzYg,1138
+gym_climate/envs/DICE/model/DICEfunctions.py,sha256=MsOlHT_Az_taJUL0pF5nK0X-5y9MPF-vPdER355TphA,8779
+gym_climate/envs/DICE/model/DICEparams.py,sha256=9WFqp11aVW4vZFbfH6lntWcYW15NQA8sZEsllMZpA5U,7563
+gym_climate/envs/DICE/model/DICErun.py,sha256=0W9UVZgP5WiSD7Py4RaIUGgp8348ye5YS_41A8JWmTQ,2848
+gym_climate/envs/DICE/model/__init__.py,sha256=daEdpEyAJIa8b2VkCqSKcw8PaExcB6Qro80XNes_sHA,2
+gym_climate-0.0.1.dist-info/LICENSE,sha256=g5uQFZpAo6DOLOYZym0WkNBr3MIvwatdPf9sPmweyVk,1534
+gym_climate-0.0.1.dist-info/METADATA,sha256=ofJG6T7_upCUPXH-N1hQbZjTJlgwJbmDjZKlIVd2yzc,1620
+gym_climate-0.0.1.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+gym_climate-0.0.1.dist-info/top_level.txt,sha256=xdo6ka-V7qJrXMCKprm44j3CIEvJkaHA_fq2GORFJzw,12
+gym_climate-0.0.1.dist-info/RECORD,,
