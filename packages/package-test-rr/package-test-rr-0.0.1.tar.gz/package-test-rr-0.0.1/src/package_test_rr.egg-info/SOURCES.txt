@@ -1,0 +1,7 @@
+README.md
+setup.py
+src/package_test_rr.egg-info/PKG-INFO
+src/package_test_rr.egg-info/SOURCES.txt
+src/package_test_rr.egg-info/dependency_links.txt
+src/package_test_rr.egg-info/requires.txt
+src/package_test_rr.egg-info/top_level.txt
