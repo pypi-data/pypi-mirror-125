@@ -1,0 +1,15 @@
+LICENSE
+README.md
+setup.py
+requirements/docs.txt
+requirements/prod.txt
+src/kawadi/__init__.py
+src/kawadi/_repo_version.py
+src/kawadi/cli.py
+src/kawadi/text_search.py
+src/kawadi.egg-info/PKG-INFO
+src/kawadi.egg-info/SOURCES.txt
+src/kawadi.egg-info/dependency_links.txt
+src/kawadi.egg-info/entry_points.txt
+src/kawadi.egg-info/requires.txt
+src/kawadi.egg-info/top_level.txt
