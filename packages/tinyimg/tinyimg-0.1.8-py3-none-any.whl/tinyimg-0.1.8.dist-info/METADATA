@@ -1,0 +1,20 @@
+Metadata-Version: 2.1
+Name: tinyimg
+Version: 0.1.8
+Summary: resize images in static folder
+Home-page: https://github.com/TeamSparta-Inc/sparta_awesome
+Author: teamsparta
+Author-email: dev@teamsparta.co
+License: UNKNOWN
+Download-URL: https://raw.githubusercontent.com/TeamSparta-Inc/sparta_awesome/main/tinyimg/tinyimg.zip
+Keywords: img resize
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Requires-Python: >=3.6
+
+UNKNOWN
+
+
