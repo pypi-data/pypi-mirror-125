@@ -1,0 +1,12 @@
+PogoOCR/__init__.py,sha256=d6JS_mr_YTfOJjCixX3-3kmCGNM0j65gM4pX624FouQ,462
+PogoOCR/cloudvision.py,sha256=3wdhiuOPQ98ls6YGKIdwSdFdCrtoDqtBpFg1uXpo9do,1103
+PogoOCR/exceptions.py,sha256=pj9N6qUBm3RAoaGZxy1f2cjgs9nt1WxneWRbNb8FudU,95
+PogoOCR/numbers.py,sha256=lnGnkYO8DRcRdz-QJL4Dib6yEQeyssGqw2_E5ci65js,3122
+PogoOCR/pattern_lookups.json,sha256=Fv84GB2OGczByYz8wuj9i3s-jR9gGmkkODJjdG6IbVY,2363
+PogoOCR/types.py,sha256=VTfMVVrG2GaQHF6oLVmz3v_A363Eyfo7iDFI6CboO5M,8794
+PogoOCR-0.3.7.data/data/PogoOCR/pattern_lookups.json,sha256=Fv84GB2OGczByYz8wuj9i3s-jR9gGmkkODJjdG6IbVY,2363
+PogoOCR-0.3.7.dist-info/LICENSE,sha256=VXapH-nuSz68DG5ScURElxHkl1lKk4MOK9cgZCSRDXs,34502
+PogoOCR-0.3.7.dist-info/METADATA,sha256=jDw2NzaKQ0YC_3p9DBH9gFchDMGujTM1oWc6kec9vzc,1091
+PogoOCR-0.3.7.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+PogoOCR-0.3.7.dist-info/top_level.txt,sha256=NJMSGU356INa5WN3NyT3o2LEivpcQCb8oaGqQpPvdoE,8
+PogoOCR-0.3.7.dist-info/RECORD,,
