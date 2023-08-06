@@ -1,0 +1,5 @@
+elasticsearch==7.13.3
+elasticsearch_dsl>7<8
+pytest
+requests
+texta-tools==1.*
