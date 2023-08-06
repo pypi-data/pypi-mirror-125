@@ -1,0 +1,12 @@
+LICENSE
+MANIFEST.in
+README.md
+setup.py
+deb/__init__.py
+debi.egg-info/PKG-INFO
+debi.egg-info/SOURCES.txt
+debi.egg-info/dependency_links.txt
+debi.egg-info/entry_points.txt
+debi.egg-info/not-zip-safe
+debi.egg-info/requires.txt
+debi.egg-info/top_level.txt
