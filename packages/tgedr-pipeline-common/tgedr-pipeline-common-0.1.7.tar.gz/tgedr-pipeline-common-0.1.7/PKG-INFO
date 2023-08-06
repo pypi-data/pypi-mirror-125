@@ -1,0 +1,43 @@
+Metadata-Version: 2.1
+Name: tgedr-pipeline-common
+Version: 0.1.7
+Summary: This package provides interfaces to the pipeline set of packages
+Home-page: https://github.com/tgedr/pipeline-common
+Author: joao tiago viegas
+Author-email: jtviegas.js@gmail.com
+License: Unlicense
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# Introduction 
+common library to define pipeline interfaces
+
+# Getting Started
+
+## installation
+you can install the package from [pypi](https://pypi.org/project/tgedr-pipeline-common/):
+
+`pip install tgedr-pipeline-common`
+
+## usage
+
+TODO
+
+## rationale
+
+TODO
+
+
+# Build
+- check the `helper.sh` script
+
+# Test
+- check the `helper.sh` script
+
+# Contribute
+- just submit a PR to our [repository](https://github.com/tgedr/pipeline-common) when you want, we'll look at it
+
+
