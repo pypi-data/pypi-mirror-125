@@ -1,0 +1,9 @@
+LICENSE
+setup.py
+FaceC/FaceC.py
+FaceC/__init__.py
+FaceC.egg-info/PKG-INFO
+FaceC.egg-info/SOURCES.txt
+FaceC.egg-info/dependency_links.txt
+FaceC.egg-info/requires.txt
+FaceC.egg-info/top_level.txt
