@@ -1,0 +1,36 @@
+[tool.poetry]
+name = "progo"
+version = "0.1.4"
+description = "Upside-Down and Backwards™ GoPro - Control your Hero10."
+authors = ["Jakthom <jake@bostata.com>"]
+keywords = ["gopro", "camera", "control"]
+readme = "README.md"
+license = "MIT"
+homepage = "https://github.com/jakthom/progo"
+repository = "https://github.com/jakthom/progo"
+include = [
+    "LICENSE"
+]
+packages = [
+    {include = "progo"}
+]
+
+[tool.poetry.dependencies]
+python = "^3.9, <3.11"
+bleak = "^0.12.1"
+wireless = "^0.3.3"
+construct = "^2.10.67"
+requests = "^2.26.0"
+numpy = "^1.21.2"
+opencv-python = "^4.5.3"
+loguru = "^0.5.3"
+attrs = "^21.2.0"
+
+[tool.poetry.dev-dependencies]
+pytest = "^5.2"
+ipython = "^7.28.0"
+black = "^21.9b0"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
