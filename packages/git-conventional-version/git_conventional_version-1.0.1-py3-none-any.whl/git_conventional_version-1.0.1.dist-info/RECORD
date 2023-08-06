@@ -1,0 +1,15 @@
+git_conventional_version/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+git_conventional_version/api.py,sha256=YfKFcwL7AnuLoTBBRh9rN4q72zlB0AWloOAYlQgbPuQ,1842
+git_conventional_version/cli.py,sha256=t3iYOAhE1U_GotYnrg6XuPun0tZqaLjkN1BJETwC6U0,1391
+git_conventional_version/changelog/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+git_conventional_version/changelog/changelog.py,sha256=QDX9_OlUvvxW8hHub_kjBKplBbN8_TFIrq3CLeGHBcw,2001
+git_conventional_version/versioning/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+git_conventional_version/versioning/conventional.py,sha256=qidBwmhhukv93DSo_3ojA-YmhhOIWkvpu9FdeaEKQok,2412
+git_conventional_version/versioning/releases.py,sha256=j_-d1W-bvxw5Of4NPG8GVqMxKIhtUHzZr9ck-yBBJC4,3343
+git_conventional_version/versioning/versions.py,sha256=n9E4AJT9zflq5gRaznap1sfMPkoqlATqtpGC4izBWks,2322
+git_conventional_version-1.0.1.dist-info/LICENSE,sha256=knX2MYKtA53OQpJN1sfTOA_isxPqeGqtlgghK9QRu84,1065
+git_conventional_version-1.0.1.dist-info/METADATA,sha256=FefYK8cOggFZxL164bQmEY46QUG5Lk5VO_X7-6fXysM,3424
+git_conventional_version-1.0.1.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+git_conventional_version-1.0.1.dist-info/entry_points.txt,sha256=TdHJc68ghbIra0ayRE5UmZKz1ruQUxIvX7q1Z-rURRY,107
+git_conventional_version-1.0.1.dist-info/top_level.txt,sha256=qlis1xxPJzF9-ppx7IgWeXjDgG7cY6jDlP9UACmRrxQ,25
+git_conventional_version-1.0.1.dist-info/RECORD,,
