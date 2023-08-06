@@ -1,0 +1,22 @@
+Metadata-Version: 2.1
+Name: JMBG Validator
+Version: 1.0.1
+Summary: Validira i ispisuje osnovne podatke o JMBGu. EN: Validates and displays basic UMCN data.
+Home-page: https://github.com/ivica-k/jmbg-validator
+Author: Ivica Kolenkaš
+Author-email: ivica.kolenkas@gmail.com
+License: MPL2.0
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Build Tools
+Classifier: License :: OSI Approved :: Mozilla Public License 2.0 (MPL 2.0)
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Requires-Python: >=3.7
+License-File: LICENSE.md
+
+UNKNOWN
+
