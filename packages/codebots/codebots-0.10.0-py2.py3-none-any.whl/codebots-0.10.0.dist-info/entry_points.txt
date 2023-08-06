@@ -1,0 +1,10 @@
+[console_scripts]
+codebots = codebots.cli:main
+deploybot = codebots.cli:deploybot
+drivebot = codebots.cli:drivebot
+emailbot = codebots.cli:emailbot
+latexbot = codebots.cli:latexbot
+slackbot = codebots.cli:slackbot
+sshbot = codebots.cli:sshbot
+telebot = codebots.cli:telebot
+
