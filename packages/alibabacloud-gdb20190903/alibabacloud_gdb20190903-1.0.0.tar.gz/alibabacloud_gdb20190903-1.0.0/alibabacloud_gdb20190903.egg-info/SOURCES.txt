@@ -1,0 +1,14 @@
+LICENSE
+MANIFEST.in
+README-CN.md
+README.md
+setup.cfg
+setup.py
+alibabacloud_gdb20190903/__init__.py
+alibabacloud_gdb20190903/client.py
+alibabacloud_gdb20190903/models.py
+alibabacloud_gdb20190903.egg-info/PKG-INFO
+alibabacloud_gdb20190903.egg-info/SOURCES.txt
+alibabacloud_gdb20190903.egg-info/dependency_links.txt
+alibabacloud_gdb20190903.egg-info/requires.txt
+alibabacloud_gdb20190903.egg-info/top_level.txt
