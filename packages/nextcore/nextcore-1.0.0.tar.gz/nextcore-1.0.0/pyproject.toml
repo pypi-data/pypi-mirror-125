@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "nextcore"
+version = "1.0.0"
+description = "Common components for Nextcord core libraries"
+authors = ["vcokltfre <vcokltfre@gmail.com>"]
+license = "MIT"
+repository = "https://github.com/nextcord/nextcore"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.8"
+
+[tool.poetry.dev-dependencies]
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
