@@ -1,0 +1,17 @@
+CHANGELOG.md,sha256=4GXq6_HZSV60WxlbUCwf8N8nTJdceQ5o-QOU9nMHowg,615
+floc/SortingLshClusters,sha256=yCMrYSjcR1nbcyRb0RBYm6LZENsg-2Nnr7bm2eTB9Us,33872
+floc/__init__.py,sha256=8qHOkhlG-gawpLujTgPj-w9TrUPFyDqYMSm897dAbkE,147
+floc/floc_go/__init__.py,sha256=YLAuIh1weYhrYcBD0touOvGaGt_rPf7U8CCGQ3HwteU,1149
+floc/floc_go/floc_go-darwin.h,sha256=yTqvAexaFAYzcVZGRtzIYdi7SMvLNOUUq4dHY4xI45c,2457
+floc/floc_go/floc_go-darwin.so,sha256=hj6AD__bKyDSPBs-K93pZba6ZfCeMbfRxwIObLQ_8Zs,3924736
+floc/floc_go/floc_go-linux.h,sha256=yTqvAexaFAYzcVZGRtzIYdi7SMvLNOUUq4dHY4xI45c,2457
+floc/floc_go/floc_go-linux.so,sha256=hZ8CZtg5_JJPaKg9lHXzIoJsCXBlULo4E59HS3mU3g8,4168584
+floc/go_types.py,sha256=JgvZC2yrGPIJ2GhPO_Bo_txCCg2T22SgUe_z6108LBc,1892
+floc/hashes.py,sha256=TSSDB7cftFNctwgTWgHK8blUn7qr2rfj06R86E3Y388,1137
+floc/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+floc/simulate.py,sha256=3r0x4LqluWzZLrfUvXpUYJ8XQrafi6sRgJDVAlNjvKs,875
+floc/sorting.py,sha256=FStuw3yVMi3mL4rmYw--Kk7R_7k66hXeXlfhQzrSBnQ,654
+floc-0.3.1.dist-info/LICENSE,sha256=BoMW1yOHFp1iI3bxyRQE4QMXv8CV58yDFQRILkWVVnM,1079
+floc-0.3.1.dist-info/WHEEL,sha256=V7iVckP-GYreevsTDnv1eAinQt_aArwnAxmnP0gygBY,83
+floc-0.3.1.dist-info/METADATA,sha256=h5P21jXjct9EFSRlLPfyOyyacdB-bt9HAZJYyEi5h4o,3293
+floc-0.3.1.dist-info/RECORD,,
