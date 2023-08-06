@@ -1,0 +1,16 @@
+piso/__init__.py,sha256=Flhsp7JUo0CVu524HC3BdfDMLCSsLO5DOzUv6oqCz7I,1595
+piso/_decorators.py,sha256=9vxMiRfVg8ryM2aYmBgLxHGJeABh-MYy28qDA04DD5k,1680
+piso/_exceptions.py,sha256=CWLXtn0KRljnB6GRPh8YNpnwM9r1oGRr7s4w9gtzVPk,863
+piso/accessor.py,sha256=ni3M4ILOYEKCXwXeF-NZgIdrh6R7nqKedP507aDU0xQ,5511
+piso/docstrings/accessor.py,sha256=DuVXZBbonhdHyOa6KHdxVlFeECy61fXO7m_-mWWvQb0,21507
+piso/docstrings/interval.py,sha256=plxdnlymQPzf1pSEqncrZ9KByAw_w99zTw2emiYxdFs,5798
+piso/docstrings/intervalarray.py,sha256=gwtLBST_OA0ZuVdDfyu42a8OhbqJRB5_Gz9CM-g7_sg,21721
+piso/docstrings/ndframe.py,sha256=zkpWGdEs1SCN92ByYVt0RNRtg-TfyiPuZ1BpM78Fxq4,4328
+piso/interval.py,sha256=SaXNcUySRTx9gmVFNjN2og_52Pr3jVQ-zV2_mnwpSwU,4884
+piso/intervalarray.py,sha256=OoQbEzZNeQ0nioIm8H5j6mUHiNcwRSQ2YD21aBpE5ck,8083
+piso/ndframe.py,sha256=CJANswLn_ZmPDLW36ImizgRVPLs0Qeb1OTlMLI1VZ_Q,4532
+piso/util.py,sha256=uQ_qeQsfwcrm6ZTGRNcz0jP8cm6PhwtCnECTq6qCYbs,920
+piso-0.5.0.dist-info/LICENSE,sha256=ZxJpZWYN4xFpm4CPITnzwAgWjFkqckPIYFnqwoJg8JQ,1069
+piso-0.5.0.dist-info/WHEEL,sha256=y3eDiaFVSNTPbgzfNn0nYn5tEn1cX6WrdetDlQM4xWw,83
+piso-0.5.0.dist-info/METADATA,sha256=H7NES4r4jEI6ayq7LJgiBAVaVhmJqGwZmm3mavkvn4s,4875
+piso-0.5.0.dist-info/RECORD,,
