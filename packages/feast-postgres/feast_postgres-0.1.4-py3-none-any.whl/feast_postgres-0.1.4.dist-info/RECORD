@@ -1,0 +1,14 @@
+feast_postgres/__init__.py,sha256=UzTyZ-PBZ_-rsnEa2jgepNkmze59b7jESd_WSXfQBxE,522
+feast_postgres/postgres_config.py,sha256=foKMGc7G5Uaw_t26WzeS4ypfvFw95vY3Wnq29_6Ec5U,311
+feast_postgres/type_map.py,sha256=ehFrsh95ZOSbtOZ3IM-d7SVWb3EyLOVO4kk29NWQwdg,5498
+feast_postgres/utils.py,sha256=modLYFVqHZhvPd3WsTphfsCPfglCc9nyMC3jbnklUIk,2031
+feast_postgres/offline_stores/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+feast_postgres/offline_stores/postgres.py,sha256=OFdxP1Mf3idt0XY5Le3-xt_UOOmIjNoHPtxgUvqVzF8,16537
+feast_postgres/offline_stores/postgres_source.py,sha256=2JFkMflQq1pKu0H4jJhESDUsuzCcwy_-tDqkXslD3Lg,3918
+feast_postgres/online_stores/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+feast_postgres/online_stores/postgres.py,sha256=3s6k8nNWWWzsvnacQHLEhuSxewqxWCz8wPB9eQu91UA,8999
+feast_postgres-0.1.4.dist-info/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+feast_postgres-0.1.4.dist-info/METADATA,sha256=SmJpWd0mHFLFRykEd21RORJpK701Grl8eIRWeqDh9dY,4857
+feast_postgres-0.1.4.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+feast_postgres-0.1.4.dist-info/top_level.txt,sha256=PHiF6yKQCsCHYJjWbrPlG-lyTFnk6e9yz8JGFn8RGC4,15
+feast_postgres-0.1.4.dist-info/RECORD,,
