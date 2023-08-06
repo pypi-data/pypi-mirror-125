@@ -1,0 +1,15 @@
+mat_discover/.gitignore,sha256=nNSNczIT1v2HI-QJ05Kheq5deDfVmzAVTqOxcR6RCck,87
+mat_discover/__init__.py,sha256=99ht06qljXvSgKr82FaMZfH59OLNg8kpKguPPLYKWAc,83
+mat_discover/mat_discover_.py,sha256=WlZLnoIEJiXM5-5719annCLC3gQAKiTXrN6o0ii6EFw,38663
+mat_discover/meta.yaml,sha256=Em00oJE9UVeTlqWUpU4TjRzuJ2IeQT7eXldCjKG2MmY,1130
+mat_discover/test_mat_discover-gcv.ipynb,sha256=tAiui_OZlKbOIUTNs31C6brmrAPuGFYpqBXVJdEtRl8,19216
+mat_discover/test_mat_discover.py,sha256=oWNooIJ2a3wIBKGFNRYqodmHEjy2ch9q9Gkw_IuJwaQ,3096
+mat_discover/utils/Timer.py,sha256=PViA_7UDSzdvrgnJDppI8D3vYNerg-715bMYQZuI-DQ,802
+mat_discover/utils/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+mat_discover/utils/nearest_neigh.py,sha256=xEufKemH8cHyBl4v80izXRsiW2vo1Gz4af55EUZ21zw,1869
+mat_discover/utils/pareto.py,sha256=3w2yHxLk0_yM35TLpa7s0YKd5HDsKWaGTDp8N2x6_Yk,7403
+mat_discover/utils/plotting.py,sha256=eVQ6puyE2emg81B7jTq72Q5XVSRWJ5zxjYEEgVmy4zw,4135
+mat_discover-1.3.10.dist-info/LICENSE,sha256=ixuiBLtpoK3iv89l7ylKkg9rs2GzF9ukPH7ynZYzK5s,35148
+mat_discover-1.3.10.dist-info/WHEEL,sha256=3tm2ZG-oRLlcavA1Wig9g4cIO0hV_ajg2xEhQivkwx4,99
+mat_discover-1.3.10.dist-info/METADATA,sha256=_o9pRlcztR7C9FRr_NnL6iSiSn8zW5UFaTjrwXMPhx4,13170
+mat_discover-1.3.10.dist-info/RECORD,,
