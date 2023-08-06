@@ -1,0 +1,10 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+src/cTTS.egg-info/PKG-INFO
+src/cTTS.egg-info/SOURCES.txt
+src/cTTS.egg-info/dependency_links.txt
+src/cTTS.egg-info/top_level.txt
+src/ctts/__init__.py
+src/ctts/cTTS.py
