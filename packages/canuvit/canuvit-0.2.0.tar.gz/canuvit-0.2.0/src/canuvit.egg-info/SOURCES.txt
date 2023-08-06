@@ -1,0 +1,12 @@
+LICENSE
+MANIFEST.in
+README.md
+pyproject.toml
+setup.cfg
+src/canuvit/__init__.py
+src/canuvit/canuvit.py
+src/canuvit/td1_catalogue.fits
+src/canuvit.egg-info/PKG-INFO
+src/canuvit.egg-info/SOURCES.txt
+src/canuvit.egg-info/dependency_links.txt
+src/canuvit.egg-info/top_level.txt
