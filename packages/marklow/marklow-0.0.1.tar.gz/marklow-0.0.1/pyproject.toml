@@ -1,0 +1,14 @@
+[build-system]
+requires = ["flit_core >=2,<4"]
+build-backend = "flit_core.buildapi"
+
+[tool.flit.metadata]
+module = "marklow"
+author = "Vyacheslav Rusov"
+author-email = "odryfox@gmail.com"
+home-page = "https://github.com/odryfox/marklow"
+classifiers = [
+    "Programming Language :: Python :: 3",
+]
+description-file = "README.md"
+requires-python = ">=3.6"
