@@ -1,0 +1,16 @@
+Metadata-Version: 1.2
+Name: openvpn3_handler
+Version: 0.0.2
+Summary: Tool develop to easily handle connections with OpenVPN3 in Linux.
+Home-page: https://github.com/jsbarbosa/openvpn3_handler
+Author: Juan Barbosa
+Author-email: js.barbosa10@uniandes.edu.co
+Maintainer: Juan Barbosa
+Maintainer-email: js.barbosa10@uniandes.edu.co
+License: GPL
+Description: UNKNOWN
+Keywords: example documentation tutorial
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Topic :: Utilities
+Classifier: License :: OSI Approved :: GNU General Public License (GPL)
