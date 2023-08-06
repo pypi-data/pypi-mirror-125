@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: torrent-organizer
+Version: 0.1.2
+Summary: 
+Home-page: https://github.com/j0lv3r4/torrent-organizer
+Author: Juan Olvera
+Author-email: juan@jolvera.dev
+Requires-Python: >=3.9,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.9
+Requires-Dist: click (>=8.0.3,<9.0.0)
+Requires-Dist: parse-torrent-title (>=2.3,<3.0)
+Requires-Dist: pydantic (>=1.8.2,<2.0.0)
+Project-URL: Repository, https://github.com/j0lv3r4/torrent-organizer
