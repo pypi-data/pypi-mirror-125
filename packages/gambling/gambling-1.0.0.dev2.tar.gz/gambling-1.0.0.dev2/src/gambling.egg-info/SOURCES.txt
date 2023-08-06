@@ -1,0 +1,12 @@
+LICENSE.txt
+README.md
+pyproject.toml
+setup.cfg
+src/gambling/__init__.py
+src/gambling/cards.py
+src/gambling/dice.py
+src/gambling/player.py
+src/gambling.egg-info/PKG-INFO
+src/gambling.egg-info/SOURCES.txt
+src/gambling.egg-info/dependency_links.txt
+src/gambling.egg-info/top_level.txt
