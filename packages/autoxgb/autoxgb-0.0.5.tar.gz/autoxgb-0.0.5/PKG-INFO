@@ -1,0 +1,20 @@
+Metadata-Version: 2.1
+Name: autoxgb
+Version: 0.0.5
+Summary: autoxgb: tuning xgboost with optuna
+Home-page: https://github.com/abhishekkrthakur/autoxgb
+Author: Abhishek Thakur
+Author-email: abhishek4@gmail.com
+License: Apache 2.0
+Platform: linux
+Platform: unix
+Requires-Python: >3.5.2
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# AutoXGB
+
+XGBoost + Optuna:  no brainer
+
+More details coming soon
+
