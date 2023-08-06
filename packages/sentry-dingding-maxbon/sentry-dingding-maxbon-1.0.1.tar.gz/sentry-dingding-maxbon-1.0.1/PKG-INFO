@@ -1,0 +1,34 @@
+Metadata-Version: 2.1
+Name: sentry-dingding-maxbon
+Version: 1.0.1
+Summary: A Sentry extension which send errors stats to DingDing
+Home-page: https://github.com/jacksnowfuck/sentry-dingding-maxbon
+Author: season
+Author-email: zhudetaluo@gmail.com
+License: MIT
+Keywords: sentry dingding
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 2.7
+Classifier: License :: OSI Approved :: MIT License
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# Sentry-DingDing
+
+Fork `https://github.com/cench/sentry-10-dingding`
+
+## 添加
+告警内容添加版本和tag环境信息
+
+## 安装
+
+```
+# requirement.txt
+
+sentry-dingding-maxbon
+```
+
+docker-compose 安装的直接改成这个插件包就好了，如果帮你解决了问题，麻烦给个小星星.
+
+
+
