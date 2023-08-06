@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.py
+ddbapi/__init__.py
+ddbapi/ddbapi.py
+ddbapi.egg-info/PKG-INFO
+ddbapi.egg-info/SOURCES.txt
+ddbapi.egg-info/dependency_links.txt
+ddbapi.egg-info/requires.txt
+ddbapi.egg-info/top_level.txt
+test/test-ddbapi.py
