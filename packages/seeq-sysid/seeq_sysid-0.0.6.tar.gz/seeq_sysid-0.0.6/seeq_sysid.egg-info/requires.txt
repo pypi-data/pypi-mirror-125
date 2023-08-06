@@ -1,0 +1,9 @@
+ipyvuetify
+pandas
+plotly
+ipywidgets
+numpy
+gekko<=1.0.1
+statsmodels<=0.12.2
+setuptools<=49.2.1
+seeq
