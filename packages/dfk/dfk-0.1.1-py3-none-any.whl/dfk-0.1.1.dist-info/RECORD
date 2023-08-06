@@ -1,0 +1,16 @@
+dfk/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+dfk/cli.py,sha256=0q2TjI0z41Gfh3O4digXQEcmh4R490Scd3Ik8DcIkIs,968
+dfk/config.py,sha256=pZw9adWQ_CTUhJlJEf51lEPTL9e5J7mRDszc5pQ7Rqw,2196
+dfk/commands/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+dfk/commands/cmd_campaign.py,sha256=Rbyz8yWCwrXp_VbkPURjRRjq5XJyy_YK18ImB2_XYrc,880
+dfk/commands/cmd_easter-egg.py,sha256=TNNMIeDKgbQuejKfGDJVPLVPtNsHes-cIQ_CIH2Dx-I,271
+dfk/commands/cmd_ijk.py,sha256=MNcKOxU1Eh8QqQnsHVGdt4GcMi3aBMCMRIMsWEDBoe8,490
+dfk/commands/cmd_login.py,sha256=cwqSzOeoVJgTp-7N1nX8bOJU9fEyCqmWXM0ZPDbSaMQ,199
+dfk/commands/cmd_plan.py,sha256=Ump1QacO4lo3T4knJd2RXay5fClAac7pGYZJScXF7T8,3085
+dfk/commands/cmd_slave.py,sha256=9uR380nfV4qg4BZ1mhUR5xCS8hrWz3Lq8GFOOyzMBTQ,2236
+dfk/commands/cmd_sysconfig.py,sha256=QpVjTHxODJcU-BNmD1OZcxZKlsQXRvVYd3GsdKHUhLg,518
+dfk-0.1.1.dist-info/METADATA,sha256=JzdkhrdEWcZYjFnYSXFkrLQcDdyWK4qvlfLOLKIek9E,672
+dfk-0.1.1.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+dfk-0.1.1.dist-info/entry_points.txt,sha256=WhNDyYGBS7NWGQUjh4CPHxNmFbBl4lQXJRi-p8l25lk,55
+dfk-0.1.1.dist-info/top_level.txt,sha256=Z_6UC4w81dXJGK12Gavq95rt0a7OK86PAwQMOKbqNYk,4
+dfk-0.1.1.dist-info/RECORD,,
