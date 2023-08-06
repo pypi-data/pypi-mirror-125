@@ -1,0 +1,10 @@
+README.md
+setup.py
+lanfacesdk/facemodel.py
+lanfacesdk/model_1.py
+lanfacesdk/model_2.py
+lanfacesdk.egg-info/PKG-INFO
+lanfacesdk.egg-info/SOURCES.txt
+lanfacesdk.egg-info/dependency_links.txt
+lanfacesdk.egg-info/top_level.txt
+lanfacesdk.egg-info/zip-safe
