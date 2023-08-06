@@ -1,0 +1,30 @@
+{
+  "common": {
+    "azure": {
+      "tokens": {
+        "storage": {
+          "test": "gonna-get-it-from-env"
+        }
+      }
+    },
+    "tgedr": {
+      "pipeline": {
+        "sink": {
+          "test_azure_storage_queue": {
+            "class": "AzureStorageQueue",
+            "module": "tgedr.pipeline.sink.azure_storage_queue",
+            "config": {
+              "queue": {
+                "value": "unittest0queue"
+              },
+              "connection_string": {
+                "key": "azure.tokens.storage.test"
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
+

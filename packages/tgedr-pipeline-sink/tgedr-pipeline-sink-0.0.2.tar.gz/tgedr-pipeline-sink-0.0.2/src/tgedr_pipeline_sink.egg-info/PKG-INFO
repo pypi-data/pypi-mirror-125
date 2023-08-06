@@ -1,0 +1,22 @@
+Metadata-Version: 2.1
+Name: tgedr-pipeline-sink
+Version: 0.0.2
+Summary: this package provides pipeline sink implementations
+Home-page: https://github.com/tgedr/pipeline-sink
+Author: joao tiago viegas
+Author-email: jtviegas.js@gmail.com
+License: Unlicense
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# pipeline-sink
+this package provides pipeline sink implementations
+
+## azure storage queue
+pipeline sink that dumps messages in an azure storage account queue, see the tests for details on how to use
+
+
+

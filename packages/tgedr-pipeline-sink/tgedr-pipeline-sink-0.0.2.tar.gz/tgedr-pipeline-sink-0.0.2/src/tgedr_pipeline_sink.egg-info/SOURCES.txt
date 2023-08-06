@@ -1,0 +1,14 @@
+LICENSE
+MANIFEST.in
+README.md
+pyproject.toml
+setup.cfg
+src/tgedr/pipeline/sink/__init__.py
+src/tgedr/pipeline/sink/azure_storage_queue.py
+src/tgedr_pipeline_sink.egg-info/PKG-INFO
+src/tgedr_pipeline_sink.egg-info/SOURCES.txt
+src/tgedr_pipeline_sink.egg-info/dependency_links.txt
+src/tgedr_pipeline_sink.egg-info/requires.txt
+src/tgedr_pipeline_sink.egg-info/top_level.txt
+test/test_azure_storage_queue.py
+test/resources/configlookup.json
