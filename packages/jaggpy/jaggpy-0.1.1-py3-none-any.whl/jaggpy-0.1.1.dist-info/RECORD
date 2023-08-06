@@ -1,0 +1,14 @@
+jaggpy/__init__.py,sha256=XTc5p7f8kThoPYnCRz3Y90ob7xVUxCYySikVVYetA30,131
+jaggpy/asp_solver.py,sha256=mH_jqYnwW1J5z48NoRKHBaY9BSOCxqb4OuO_nRZLwHI,9828
+jaggpy/bf_solver.py,sha256=7Bny-3Pj2fdFPwz3PJSkbhHgAHK3f4lkp_cTe6RiKLE,11423
+jaggpy/classes.py,sha256=e7OZgriCC-XuiZjvKw8hK17ogHTXY_P-s63-m9vbodk,9858
+jaggpy/parser.py,sha256=J5fm-LbobIQzlzhB32yMYnOEV-kL0V3B1CxvsURNgVw,10440
+jaggpy/tests/__init__.py,sha256=TDf6mfHh7wBTSPlKTfke324_49Lxf_mwMhlXgnnjyRA,88
+jaggpy/tests/test_asp.py,sha256=ljQi0OCCBTc64QTUE6dgbSznnUMKcoSSpSoSWTJ6xDo,1892
+jaggpy/tests/test_bf.py,sha256=FwiUVNtYUZxarYyj77Y8Lif4P3hNvbKeHuNi3Mo0vjM,1604
+jaggpy/tests/files/scenario1.jagg,sha256=PI3otmP30bp2yVUYxZVqQQDYqt9ZuNDEt5c-4l9R4vQ,867
+jaggpy-0.1.1.dist-info/LICENSE,sha256=4KkLelqjvYNO_A6MrOTE-pV-sivKIBbbz7c1U1tlfLc,1071
+jaggpy-0.1.1.dist-info/METADATA,sha256=wE8Czz217-nFVWGr27yKLK0EE_kY5q-Y5dLGtd8MWgs,11104
+jaggpy-0.1.1.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+jaggpy-0.1.1.dist-info/top_level.txt,sha256=OGGsM1cCaRypNGl8DkNSLmobsd0dmPTdybO2ZtNZVok,7
+jaggpy-0.1.1.dist-info/RECORD,,
