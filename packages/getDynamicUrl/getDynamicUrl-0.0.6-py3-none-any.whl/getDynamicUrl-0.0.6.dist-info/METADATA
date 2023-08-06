@@ -1,0 +1,47 @@
+Metadata-Version: 2.1
+Name: getDynamicUrl
+Version: 0.0.6
+Summary: Get dyanmic Url
+Home-page: UNKNOWN
+Author: Jhone Mendez
+Author-email: jhone0901@gmail.com
+License: MIT
+Keywords: dynamicUrl
+Platform: UNKNOWN
+Classifier: Intended Audience :: Developers
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+Requires-Dist: google-cloud-bigquery
+Requires-Dist: pyarrow
+
+# Get Dynamic Url
+A small library to get the dynamic cloud run url.
+
+### Installation
+```
+pip install getDynamicUrl
+```
+
+### Get started
+How to get the dynamic url based in the url in Bigquery
+
+```Python
+from getDynamicUrl import Url
+
+# Instantiate a URL object
+url_obj = Url()
+
+# Call the get_url method with the headers and bigquery client
+# TODO
+# db = bigquery client
+url_validate = url_obj.get_url(request.headers, db)
+```
+
