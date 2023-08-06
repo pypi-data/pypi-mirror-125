@@ -1,0 +1,10 @@
+LICENSE
+README.md
+setup.py
+Commands/__init__.py
+Commands/core.py
+Commands/errors.py
+python_commandmaker.egg-info/PKG-INFO
+python_commandmaker.egg-info/SOURCES.txt
+python_commandmaker.egg-info/dependency_links.txt
+python_commandmaker.egg-info/top_level.txt
