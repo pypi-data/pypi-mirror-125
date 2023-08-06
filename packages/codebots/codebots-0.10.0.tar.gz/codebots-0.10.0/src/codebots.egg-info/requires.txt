@@ -1,0 +1,6 @@
+Click>=7.0
+slack_sdk
+yagmail
+gitpython
+paramiko
+pydrive
