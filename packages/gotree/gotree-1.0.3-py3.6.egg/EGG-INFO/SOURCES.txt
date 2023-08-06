@@ -1,0 +1,10 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+gotree/__init__.py
+gotree/gotree.py
+gotree.egg-info/PKG-INFO
+gotree.egg-info/SOURCES.txt
+gotree.egg-info/dependency_links.txt
+gotree.egg-info/top_level.txt
