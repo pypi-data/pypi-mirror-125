@@ -1,0 +1,3 @@
+geomet
+trytond<6.3,>=6.2
+psycopg2>=2.0.14
