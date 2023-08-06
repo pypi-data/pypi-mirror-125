@@ -1,0 +1,8 @@
+README.md
+setup.py
+isadult/__init__.py
+isadult/adult.py
+isadult.egg-info/PKG-INFO
+isadult.egg-info/SOURCES.txt
+isadult.egg-info/dependency_links.txt
+isadult.egg-info/top_level.txt
