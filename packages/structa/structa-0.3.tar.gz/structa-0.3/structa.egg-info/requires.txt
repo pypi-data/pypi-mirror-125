@@ -1,0 +1,17 @@
+setuptools
+lxml
+chardet
+blessings
+tqdm
+python-dateutil
+
+[doc]
+sphinx
+sphinx-rtd-theme
+
+[test]
+pytest
+pytest-cov
+
+[yaml]
+ruamel.yaml
