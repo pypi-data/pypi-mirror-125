@@ -1,0 +1,67 @@
+module "internal_all_sg" {
+  source      = "./security_group"
+  name        = "internal_all_sg"
+  vpc_id      = module.vpc.vpc_id
+  from_port   = "-1"
+  to_port     = "-1"
+  protocol    = "-1"
+  cidr_blocks = [var.vpc_cidr_block]
+}
+
+module "global_all_sg" {
+  source      = "./security_group"
+  name        = "global_all_sg"
+  vpc_id      = module.vpc.vpc_id
+  from_port   = 0
+  to_port     = 65535
+  protocol    = "tcp"
+  cidr_blocks = ["0.0.0.0/0"]
+}
+
+module "global_ssh_sg" {
+  source      = "./security_group"
+  name        = "global_ssh_sg"
+  vpc_id      = module.vpc.vpc_id
+  from_port   = 22
+  to_port     = 22
+  protocol    = "tcp"
+  cidr_blocks = ["0.0.0.0/0"]
+}
+
+module "global_kubeapi_sg" {
+  source      = "./security_group"
+  name        = "global_kubeapi_sg"
+  vpc_id      = module.vpc.vpc_id
+  from_port   = 6443
+  to_port     = 6443
+  protocol    = "tcp"
+  cidr_blocks = ["0.0.0.0/0"]
+}
+
+{%- if -1 not in open_ports %}
+{% for port in open_ports %}
+module "global_{{ port }}_sg" {
+  source      = "./security_group"
+  name        = "global_{{ port }}_sg"
+  vpc_id      = module.vpc.vpc_id
+  from_port   = {{ port }}
+  to_port     = {{ port }}
+  protocol    = "tcp"
+  cidr_blocks = ["0.0.0.0/0"]
+}
+{% endfor %}
+{% endif %}
+
+locals {
+  worker_node_security_group_ids = [
+    module.internal_all_sg.security_group_id,
+    {%- if -1 in open_ports %}
+    module.global_all_sg.security_group_id,
+    {% else %}
+    module.global_ssh_sg.security_group_id,
+    {%- for port in open_ports %}
+    module.global_{{ port }}_sg.security_group_id,
+    {%- endfor -%}
+    {% endif %}
+  ]
+}

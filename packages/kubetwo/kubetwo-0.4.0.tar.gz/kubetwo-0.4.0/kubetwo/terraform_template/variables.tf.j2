@@ -1,0 +1,43 @@
+variable "cluster_name" {
+  default = "{{ cluster_name }}"
+}
+
+variable "ami" {
+  default = "{{ ami }}"
+}
+
+variable "instance_type" {
+  default = "{{ instance_type }}"
+}
+
+variable "vpc_cidr_block" {
+  default = "10.0.0.0/16"
+}
+
+variable "cluster_cidr_blocks" {
+  default = ["10.0.64.0/24", "10.0.65.0/24"]
+}
+
+variable "control_plane_count" {
+  default = {{ control_plane_count }}
+}
+
+variable "worker_node_count" {
+  default = {{ worker_node_count }}
+}
+
+variable "ssh_public_key_name" {
+  default = "{{ ssh_public_key_name }}"
+}
+
+variable "ssh_public_key" {
+  default = "{{ ssh_public_key }}"
+}
+
+variable "availability_zone" {
+  default = "{{ availability_zone }}"
+}
+
+variable "ports" {
+  default = {{ open_ports }}
+}
