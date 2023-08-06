@@ -1,0 +1,8 @@
+README.md
+setup.cfg
+setup.py
+pyteledantic.egg-info/PKG-INFO
+pyteledantic.egg-info/SOURCES.txt
+pyteledantic.egg-info/dependency_links.txt
+pyteledantic.egg-info/requires.txt
+pyteledantic.egg-info/top_level.txt
