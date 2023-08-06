@@ -1,0 +1,13 @@
+License
+README.md
+pyproject.toml
+setup.cfg
+man/what.1.gz
+src/pnu_what.egg-info/PKG-INFO
+src/pnu_what.egg-info/SOURCES.txt
+src/pnu_what.egg-info/dependency_links.txt
+src/pnu_what.egg-info/entry_points.txt
+src/pnu_what.egg-info/requires.txt
+src/pnu_what.egg-info/top_level.txt
+src/what/__init__.py
+src/what/main.py
