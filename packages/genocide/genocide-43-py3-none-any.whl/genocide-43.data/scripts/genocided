@@ -1,0 +1,66 @@
+#!python
+# This file is placed in the Public Domain.
+
+import os
+import readline
+import sys
+import termios
+import threading
+import time
+
+from gcd.irc import Cfg as IRC
+from gcd.obj import Cfg
+from gcd.ofn import fmt
+from gcd.run import Runtime
+from gcd.run import Cfg as RunCfg
+from gcd.tbl import Table
+from gcd.tms import elapsed
+from gcd.utl import spl
+from gcd.ver import __version__
+
+Cfg.wd = "/var/lib/genocide/"
+
+
+IRC.channel = "#genocide"
+IRC.nick = "genocide"
+IRC.username = "genocide"
+IRC.realname = "genocide"
+IRC.users = False
+
+
+class Kernel(Runtime):
+
+    @staticmethod
+    def error(txt):
+        Kernel.log(txt)
+
+    @staticmethod
+    def log(txt):
+        if not txt:
+            return
+        print(txt)
+        sys.stdout.flush()
+
+
+k = Kernel()
+
+
+import gcd.all
+import genocide.all
+
+
+def main(): 
+    RunCfg.name = "genocide"
+    RunCfg.version = __version__
+    t = time.time()
+    k.log("GENOCIDE %s started at %s" % (__version__, time.ctime(time.time())))
+    k.log(fmt(RunCfg))
+    k.privileges()
+    RunCfg.mods += "gcd.irc,gcd.rss,genocide.sui"
+    k.start()
+    k.init(RunCfg.mods)
+    k.log("genocide ready (%s)" % elapsed(time.time()-t))
+    k.wait()
+
+
+main()
