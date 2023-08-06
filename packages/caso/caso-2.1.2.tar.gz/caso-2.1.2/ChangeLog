@@ -1,0 +1,7 @@
+CHANGES
+=======
+
+2.1.2
+-----
+
+* Log error if we cannot retrieve users
