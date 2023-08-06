@@ -1,0 +1,21 @@
+Metadata-Version: 2.1
+Name: pixii
+Version: 0.1.0
+Summary: 
+Home-page: https://github.com/k2bd/pixii
+License: MIT
+Author: Kevin Duff
+Author-email: kevinkelduff@gmail.com
+Requires-Python: >=3.7,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Requires-Dist: boto3 (>=1.19.6,<2.0.0)
+Requires-Dist: pydantic (>=1.8.2,<2.0.0)
+Project-URL: Repository, https://github.com/k2bd/pixii
+Description-Content-Type: text/markdown
+
+
