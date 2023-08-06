@@ -1,0 +1,26 @@
+Metadata-Version: 2.1
+Name: MGSurvE
+Version: 0.0.1
+Summary: MGSurvE
+Home-page: https://github.com/Chipdelmal/MGSurvE
+Author: Hector M. Sanchez C.
+Author-email: sanchez.hmsc@berkeley.edu
+License: MIT
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+License-File: LICENSE
+License-File: LICENSE.txt
+Requires-Dist: numpy
+Requires-Dist: matplotlib
+Requires-Dist: ipython
+Requires-Dist: jupyter
+Requires-Dist: pandas
+Requires-Dist: compress-pickle
+Requires-Dist: deap
+Requires-Dist: scikit-learn
+
+# MGSurvE
+
+
