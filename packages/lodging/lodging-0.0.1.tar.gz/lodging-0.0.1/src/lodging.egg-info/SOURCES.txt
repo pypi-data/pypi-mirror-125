@@ -1,0 +1,7 @@
+LICENSE
+README.md
+setup.py
+src/lodging.egg-info/PKG-INFO
+src/lodging.egg-info/SOURCES.txt
+src/lodging.egg-info/dependency_links.txt
+src/lodging.egg-info/top_level.txt
