@@ -1,0 +1,47 @@
+Metadata-Version: 2.1
+Name: anything-conversion
+Version: 0.0.4
+Summary: A Conversion package of Weights and Area
+Home-page: UNKNOWN
+Author: sairamdgr8
+Author-email: <sairamdgr8@gmail.com>
+License: UNKNOWN
+Keywords: python,convertor,conversion,anything,Weight,Area,Area conversion,Weights conversion
+Platform: UNKNOWN
+Classifier: Development Status :: 1 - Planning
+Classifier: Intended Audience :: Developers
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: Unix
+Classifier: Operating System :: MacOS :: MacOS X
+Classifier: Operating System :: Microsoft :: Windows
+Description-Content-Type: text/markdown
+
+# anything-conversion
+
+Under construction! Not ready for use yet! next version is comming soon!
+
+Developed by sairamdgr8 (c) 2021
+
+## Examples of How To Use (anything-conversion)
+
+Installing anything-convertor package
+
+```
+pip install anything-conversion
+
+```
+
+```python
+
+from anything_conversion.converter import WeightConverter,AreaConverter
+x=WeightConverter.kilogram_gram(120)
+print(x)
+
+```
+```
+output: 120000
+
+```
+
+
+
