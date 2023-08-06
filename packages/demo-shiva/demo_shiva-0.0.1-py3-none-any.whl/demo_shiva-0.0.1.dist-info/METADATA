@@ -1,0 +1,20 @@
+Metadata-Version: 2.1
+Name: demo-shiva
+Version: 0.0.1
+Summary: A demo prj for python packages
+Home-page: https://github.com/manneshivakumar/python_package_demo
+Author: shiva
+Author-email: shiva.manne@gmail.com
+License: UNKNOWN
+Project-URL: Bug Tracker, https://github.com/manneshivakumar/python_package_demo/issues
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: pandas
+
+# python_package_demo
+
