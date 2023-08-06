@@ -1,0 +1,13 @@
+{
+  "description": "Kotlin framework for structured data processing",
+  "properties": {
+    "v": "0.8.0-dev-409-0.10.3.23"
+  },
+  "repositories": [
+    "https://oss.sonatype.org/service/local/repo_groups/public/content"
+  ],
+  "link": "https://github.com/Kotlin/dataframe",
+  "dependencies": [
+    "org.jetbrains.kotlinx:dataframe:$v"
+  ]
+}
