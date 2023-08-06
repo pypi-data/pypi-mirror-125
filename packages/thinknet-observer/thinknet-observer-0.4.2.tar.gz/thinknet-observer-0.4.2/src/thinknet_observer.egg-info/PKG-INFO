@@ -1,0 +1,40 @@
+Metadata-Version: 2.1
+Name: thinknet-observer
+Version: 0.4.2
+Summary: lib in development
+Home-page: https://gitlab.thinknet.co.th/big-data/thinknet-observer-python
+Author: TN - DS Team
+Author-email: nattawutd@thinknet.co.th
+License: MIT
+Description: # thinknet-observer-python
+        A small demo library for thinknet-observer libraries.
+        
+        ### Installation
+        ```
+        pip install thinknet-observer
+        ```
+        
+        ### Get started
+        How to multiply one number by another with this lib:
+        
+        ```Python
+        from thinknet_observer import PrometheusMiddleware
+        
+        # Instantiate a app framework
+        app = Flask(__name__)
+        
+        # use middleware
+        PrometheusMiddleware(app).register_metrics()
+        ```
+        
+        
+Platform: UNKNOWN
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
