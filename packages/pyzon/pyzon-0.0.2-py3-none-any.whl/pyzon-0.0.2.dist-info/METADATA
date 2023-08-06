@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: pyzon
+Version: 0.0.2
+Summary: Some python utils includes The Zen of Python
+Home-page: https://github.com/nzooherd/pyzon
+Author: nzooherd
+Author-email: nzooherd@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+License-File: LICENSE
+
+UNKNOWN
+
