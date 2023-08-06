@@ -1,0 +1,290 @@
+Request URL: _url: "https://alexa.amazon.de/api/np/queue?deviceSerialNumber=39f4fe60c4f944c49cb3ee9625e673a8&deviceType=A3C9PE6TNYLTCH&size=25&_=1615053590537"
+
+
+queueInfo
+=========
+
+ x['queueInfo']['media'][0]['art']['url']
+'https://e-cdns-images.dzcdn.net/images/cover/6e5e99f0009cabbdb200d58f408f2806/80x80-000000-80-0-0.jpg'
+ x['queueInfo']['media'][0]['infoText']['title']
+'Good Times (Original 12 Mix)'
+x['queueInfo']['media'][0]['infoText']['subText1']
+'Chic'
+x['queueInfo']['media'][0]['infoText']['subText2']
+'Deezer'
+x['queueInfo']['media'][1]['infoText']['subText1'] # 'Deezer'
+x['queueInfo']['media'][1]['infoText']['subText2'] # leer
+x['queueInfo']['media'][1]['infoText']['title']    # 'Ad' (interessting)
+
+{
+    "queueInfo": {
+        "header": {
+            "actions": null,
+            "infoText": null,
+            "primaryAction": null,
+            "queueId": "0e07b478-4670-4356-9f12-706757f068c2"
+        },
+        "media": [
+            {
+                "actions": [],
+                "art": {
+                    "altText": "Album Art",
+                    "artType": "UrlArtSource",
+                    "contentType": "image/*",
+                    "url": "https://e-cdns-images.dzcdn.net/images/cover/6e5e99f0009cabbdb200d58f408f2806/80x80-000000-80-0-0.jpg"
+                },
+                "artOverlay": null,
+                "index": 220,
+                "infoText": {
+                    "header": null,
+                    "headerSubtext1": null,
+                    "multiLineMode": false,
+                    "subText1": "Chic",
+                    "subText2": "Deezer",
+                    "title": "Good Times (Original 12 Mix)"
+                },
+                "mediaId": "0e07b478-4670-4356-9f12-706757f068c2:220",
+                "primaryAction": null
+            },
+            {
+                "actions": [],
+                "art": {
+                    "altText": "Album Art",
+                    "artType": "UrlArtSource",
+                    "contentType": "image/*",
+                    "url": "https://cdns-images.dzcdn.net/images/cover/362b626099fff89887b04c8ab35feba7/80x80-000000-80-0-0.jpg"
+                },
+                "artOverlay": null,
+                "index": 221,
+                "infoText": {
+                    "header": null,
+                    "headerSubtext1": null,
+                    "multiLineMode": false,
+                    "subText1": "Erykah Badu",
+                    "subText2": "Deezer",
+                    "title": "My Life"
+                },
+                "mediaId": "0e07b478-4670-4356-9f12-706757f068c2:221",
+                "primaryAction": null
+            },
+            {
+                "actions": [],
+                "art": {
+                    "altText": "Album Art",
+                    "artType": "UrlArtSource",
+                    "contentType": "image/*",
+                    "url": "https://e-cdns-images.dzcdn.net/images/cover/dcaa0cc479b6508e128762f2ccdd4190/80x80-000000-80-0-0.jpg"
+                },
+                "artOverlay": null,
+                "index": 222,
+                "infoText": {
+                    "header": null,
+                    "headerSubtext1": null,
+                    "multiLineMode": false,
+                    "subText1": "Jackson 5",
+                    "subText2": "Deezer",
+                    "title": "I Found That Girl"
+                },
+                "mediaId": "0e07b478-4670-4356-9f12-706757f068c2:222",
+                "primaryAction": null
+            },
+            {
+                "actions": [],
+                "art": {
+                    "altText": "Album Art",
+                    "artType": "UrlArtSource",
+                    "contentType": "image/*",
+                    "url": "https://cdns-images.dzcdn.net/images/cover/4b8d16a323126ee4dac58046b9534c1c/80x80-000000-80-0-0.jpg"
+                },
+                "artOverlay": null,
+                "index": 223,
+                "infoText": {
+                    "header": null,
+                    "headerSubtext1": null,
+                    "multiLineMode": false,
+                    "subText1": "Chrisette Michele",
+                    "subText2": "Deezer",
+                    "title": "A Couple Of Forevers"
+                },
+                "mediaId": "0e07b478-4670-4356-9f12-706757f068c2:223",
+                "primaryAction": null
+            },
+            {
+                "actions": [],
+                "art": {
+                    "altText": "Album Art",
+                    "artType": "UrlArtSource",
+                    "contentType": "image/*",
+                    "url": "https://e-cdns-images.dzcdn.net/images/cover/1903d43213c601525c2ddf31ada859cf/80x80-000000-80-0-0.jpg"
+                },
+                "artOverlay": null,
+                "index": 224,
+                "infoText": {
+                    "header": null,
+                    "headerSubtext1": null,
+                    "multiLineMode": false,
+                    "subText1": "Jill Scott",
+                    "subText2": "Deezer",
+                    "title": "A Long Walk"
+                },
+                "mediaId": "0e07b478-4670-4356-9f12-706757f068c2:224",
+                "primaryAction": null
+            },
+            {
+                "actions": [],
+                "art": {
+                    "altText": "Album Art",
+                    "artType": "UrlArtSource",
+                    "contentType": "image/*",
+                    "url": "https://cdns-images.dzcdn.net/images/cover/4c9b75abed5fed9bcdfdad1f1e3ae2c6/80x80-000000-80-0-0.jpg"
+                },
+                "artOverlay": null,
+                "index": 225,
+                "infoText": {
+                    "header": null,
+                    "headerSubtext1": null,
+                    "multiLineMode": false,
+                    "subText1": "Keyshia Cole",
+                    "subText2": "Deezer",
+                    "title": "You Complete Me"
+                },
+                "mediaId": "0e07b478-4670-4356-9f12-706757f068c2:225",
+                "primaryAction": null
+            },
+            {
+                "actions": [],
+                "art": {
+                    "altText": "Album Art",
+                    "artType": "UrlArtSource",
+                    "contentType": "image/*",
+                    "url": "https://cdns-images.dzcdn.net/images/cover/6bacead2169c9db652f4acfb9a937796/80x80-000000-80-0-0.jpg"
+                },
+                "artOverlay": null,
+                "index": 226,
+                "infoText": {
+                    "header": null,
+                    "headerSubtext1": null,
+                    "multiLineMode": false,
+                    "subText1": "Gil Scott-Heron",
+                    "subText2": "Deezer",
+                    "title": "Running"
+                },
+                "mediaId": "0e07b478-4670-4356-9f12-706757f068c2:226",
+                "primaryAction": null
+            },
+            {
+                "actions": [],
+                "art": {
+                    "altText": "Album Art",
+                    "artType": "UrlArtSource",
+                    "contentType": "image/*",
+                    "url": "https://cdns-images.dzcdn.net/images/cover/a08bc2d3e6e082261d96947d3515a31b/80x80-000000-80-0-0.jpg"
+                },
+                "artOverlay": null,
+                "index": 227,
+                "infoText": {
+                    "header": null,
+                    "headerSubtext1": null,
+                    "multiLineMode": false,
+                    "subText1": "Rodney Atkins",
+                    "subText2": "Deezer",
+                    "title": "15 Minutes"
+                },
+                "mediaId": "0e07b478-4670-4356-9f12-706757f068c2:227",
+                "primaryAction": null
+            },
+            {
+                "actions": [],
+                "art": {
+                    "altText": "Album Art",
+                    "artType": "UrlArtSource",
+                    "contentType": "image/*",
+                    "url": "https://e-cdns-images.dzcdn.net/images/cover/459acff62441a607f6503bab75fd0f76/80x80-000000-80-0-0.jpg"
+                },
+                "artOverlay": null,
+                "index": 228,
+                "infoText": {
+                    "header": null,
+                    "headerSubtext1": null,
+                    "multiLineMode": false,
+                    "subText1": "nathan carter",
+                    "subText2": "Deezer",
+                    "title": "Good Time Girls"
+                },
+                "mediaId": "0e07b478-4670-4356-9f12-706757f068c2:228",
+                "primaryAction": null
+            },
+            {
+                "actions": [],
+                "art": {
+                    "altText": "Album Art",
+                    "artType": "UrlArtSource",
+                    "contentType": "image/*",
+                    "url": "https://cdns-images.dzcdn.net/images/cover/d24263975a0035e3ac0d3ed93d73da8a/80x80-000000-80-0-0.jpg"
+                },
+                "artOverlay": null,
+                "index": 229,
+                "infoText": {
+                    "header": null,
+                    "headerSubtext1": null,
+                    "multiLineMode": false,
+                    "subText1": "Donell Jones",
+                    "subText2": "Deezer",
+                    "title": "Baby Its You (Main Version)"
+                },
+                "mediaId": "0e07b478-4670-4356-9f12-706757f068c2:229",
+                "primaryAction": null
+            },
+            {
+                "actions": [],
+                "art": {
+                    "altText": "Album Art",
+                    "artType": "UrlArtSource",
+                    "contentType": "image/*",
+                    "url": "https://cdns-images.dzcdn.net/images/cover/175a1dcc4e3924dd75975edbe56107ef/80x80-000000-80-0-0.jpg"
+                },
+                "artOverlay": null,
+                "index": 230,
+                "infoText": {
+                    "header": null,
+                    "headerSubtext1": null,
+                    "multiLineMode": false,
+                    "subText1": "Roger & Zapp",
+                    "subText2": "Deezer",
+                    "title": "Easy"
+                },
+                "mediaId": "0e07b478-4670-4356-9f12-706757f068c2:230",
+                "primaryAction": null
+            },
+            {
+                "actions": [],
+                "art": {
+                    "altText": "Album Art",
+                    "artType": "UrlArtSource",
+                    "contentType": "image/*",
+                    "url": "https://cdns-images.dzcdn.net/images/cover/9cdea85dfcf631a2885e8784ac82208b/80x80-000000-80-0-0.jpg"
+                },
+                "artOverlay": null,
+                "index": 231,
+                "infoText": {
+                    "header": null,
+                    "headerSubtext1": null,
+                    "multiLineMode": false,
+                    "subText1": "Smokey Robinson",
+                    "subText2": "Deezer",
+                    "title": "Ooh Baby Baby"
+                },
+                "mediaId": "0e07b478-4670-4356-9f12-706757f068c2:231",
+                "primaryAction": null
+            }
+        ],
+        "nextPageToken": null,
+        "previousPageToken": {
+            "index": 219,
+            "queueSize": 231,
+            "direction": "PREVIOUS"
+        },
+        "queueType": "SINGLETON_QUEUE"
+    }
+}
+

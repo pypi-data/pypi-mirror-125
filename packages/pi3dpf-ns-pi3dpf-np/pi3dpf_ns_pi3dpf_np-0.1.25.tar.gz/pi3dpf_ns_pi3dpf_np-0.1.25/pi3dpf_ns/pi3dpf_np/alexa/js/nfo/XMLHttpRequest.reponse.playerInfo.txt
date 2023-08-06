@@ -1,0 +1,121 @@
+Request URL: "https://alexa.amazon.de/api/np/player?deviceSerialNumber=G091AA0704660XVC&deviceType=A2U21SRK4QGSE1&screenWidth=1920&lemurId=39f4fe60c4f944c49cb3ee9625e673a8&lemurDeviceType=A3C9PE6TNYLTCH&_=1615053590530"
+
+
+playerInfo
+==========
+
+    x['playerInfo']['playingInLemurId']
+    '39f4fe60c4f944c49cb3ee9625e673a8'  # group active
+    x['playerInfo']['lemurVolume']['memberVolume']
+    {'G091AA0704660XVC': {'muted': False, 'volume': 20}, 'G2A0XL0701330EE4': {'muted': False, 'volume': 30}}
+    x['playerInfo']['infoText']
+    {'header': None, 'headerSubtext1': None, 'multiLineMode': False, 'subText1': 'The Roots', 'subText2': 'Deezer', 'title': 'Tomorrow'}
+    x['playerInfo']['mainArt']['url']
+    'https://cdns-images.dzcdn.net/images/cover/f2fb56a7e2d7ff82fdbf1a400bd18d9a/500x500-000000-80-0-0.jpg'
+    x['playerInfo']['state']
+    'PLAYING'
+
+    {
+        "playerInfo": {
+            "hint": null,
+            "infoText": {
+                "header": null,
+                "headerSubtext1": null,
+                "multiLineMode": false,
+                "subText1": "The Roots",
+                "subText2": "Deezer",
+                "title": "Tomorrow"
+            },
+            "isPlayingInLemur": true,
+            "lemurVolume": {
+                "compositeVolume": {
+                    "muted": false,
+                    "volume": 25
+                },
+                "memberVolume": {
+                    "G091AA0704660XVC": {
+                        "muted": false,
+                        "volume": 20
+                    },
+                    "G2A0XL0701330EE4": {
+                        "muted": false,
+                        "volume": 30
+                    }
+                }
+            },
+            "lyrics": null,
+            "mainArt": {
+                "altText": "Album Art",
+                "artType": "UrlArtSource",
+                "contentType": "image/jpeg",
+                "url": "https://cdns-images.dzcdn.net/images/cover/f2fb56a7e2d7ff82fdbf1a400bd18d9a/500x500-000000-80-0-0.jpg"
+            },
+            "mediaId": "0e07b478-4670-4356-9f12-706757f068c2:214",
+            "miniArt": {
+                "altText": "Deezer",
+                "artType": "UrlArtSource",
+                "contentType": "image/png",
+                "url": "https://s3.amazonaws.com/CAPS-SSE/alexa_music_skills/3771/ask.skill.wordmark.9dd14253f3a64d42b1e835a611652d80/APP_WORDMARK_LARGE?versionId=LRpXL_BImbwGUWgIae0vHxo9jmRHQpGS&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20210124T125108Z&X-Amz-SignedHeaders=host&X-Amz-Expires=7199&X-Amz-Credential=AKIAWBV6LQ4QKQTYKJJO%2F20210124%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Signature=4b1af98b7b96cca2f14c1720fa513f8de9cd1831c9fe76b92b5f70e348d55ae9"
+            },
+            "miniInfoText": {
+                "header": null,
+                "headerSubtext1": null,
+                "multiLineMode": false,
+                "subText1": "The Roots",
+                "subText2": "Deezer",
+                "title": "Tomorrow"
+            },
+            "playbackSource": null,
+            "playingInLemurId": "39f4fe60c4f944c49cb3ee9625e673a8",
+            "progress": {
+                "allowScrubbing": false,
+                "locationInfo": null,
+                "mediaLength": 306,
+                "mediaProgress": 0,
+                "showTiming": false,
+                "visible": true
+            },
+            "provider": {
+                "artOverlay": null,
+                "fallbackMainArt": {
+                    "altText": null,
+                    "artType": "IconArtSource",
+                    "iconId": "music-no-art",
+                    "iconStyles": null
+                },
+                "providerDisplayName": null,
+                "providerLogo": {
+                    "altText": "Deezer",
+                    "artType": "UrlArtSource",
+                    "contentType": "image/png",
+                    "url": "https://s3.amazonaws.com/CAPS-SSE/alexa_music_skills/3771/ask.skill.wordmark.9dd14253f3a64d42b1e835a611652d80/APP_WORDMARK_LARGE?versionId=LRpXL_BImbwGUWgIae0vHxo9jmRHQpGS&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20210124T125108Z&X-Amz-SignedHeaders=host&X-Amz-Expires=7199&X-Amz-Credential=AKIAWBV6LQ4QKQTYKJJO%2F20210124%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Signature=4b1af98b7b96cca2f14c1720fa513f8de9cd1831c9fe76b92b5f70e348d55ae9"
+                },
+                "providerName": "Deezer"
+            },
+            "quality": null,
+            "queueId": "0e07b478-4670-4356-9f12-706757f068c2",
+            "state": "PLAYING",
+            "template": null,
+            "transport": {
+                "closedCaptions": null,
+                "layoutType": "MusicStationTransportLayout",
+                "lyrics": "HIDDEN",
+                "next": "ENABLED",
+                "playPause": "ENABLED",
+                "previous": "DISABLED",
+                "rateContentAction": {
+                    "mediaOwnerCustomerId": "A1V39U0JZHHL8O",
+                    "rating": null,
+                    "type": "RateContentAction"
+                },
+                "thumbsDown": "ENABLED",
+                "thumbsUp": "ENABLED"
+            },
+            "upNextItems": null,
+            "volume": {
+                "muted": false,
+                "volume": 50
+            }
+        }
+    }
+
