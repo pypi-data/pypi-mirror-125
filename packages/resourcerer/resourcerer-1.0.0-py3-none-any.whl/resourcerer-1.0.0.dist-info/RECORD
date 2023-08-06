@@ -1,0 +1,17 @@
+resourcerer/__init__.py,sha256=cXbHBUn4gA6J-VTQvCaMQcGp_Blfjj-seA4mBTO_zwA,128
+resourcerer/delete_from_onedrive.py,sha256=nO5OWWvz-UEwKo02gTrF8qUL2jwI68Dnyv_b_kbRJP4,552
+resourcerer/get_from_onedrive.py,sha256=vwhzpm7kAYxTdEFTWBBwH-v8JIdhgCjj0WaLcEDNs6Q,5496
+resourcerer/get_resources.py,sha256=F1WwCwkzmM9higOC0h-q_9R7-tMu4eZ59ABTe2hU-o8,977
+resourcerer/parse_yaml.py,sha256=bFiW3G9WBWpepyU3nDSze88ecWXeSSrAjYD9wjVug0k,264
+resourcerer/send_resources.py,sha256=RRVskfeajvFSKfOJhKbHmCak1NdN1FLfx91g83JrKFc,1082
+resourcerer/send_to_onedrive.py,sha256=0o2VUQQ2i79OnOdWBw79oeYrbAEwcECfwrGdx3Yvo0g,1389
+resourcerer/shared.py,sha256=8mNCpZGyxRt1cj7G0yGs0-PKVEHQkosODCKrBTj7ODQ,4102
+test/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+test/onedrive/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+test/onedrive/test_download.py,sha256=6-coVCaI_eYdLkh3iheHZ7e1ORRNL0Tb_HUcxv2EI8s,702
+test/onedrive/test_upload.py,sha256=7SQ42rpYFn4uWJPmxr_g-GA92XP1atD52--CQUpq5lQ,1424
+resourcerer-1.0.0.dist-info/METADATA,sha256=yiK-mrdY-72sft45Pb3nQwWROLVfiM_Vxhs6czdnp98,4240
+resourcerer-1.0.0.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+resourcerer-1.0.0.dist-info/entry_points.txt,sha256=ZLSSs41o-_pURBJhHNxXvp6wrLhQMowhWyuly72Fdfs,115
+resourcerer-1.0.0.dist-info/top_level.txt,sha256=HE8UubHGoFtenmQYtMfP-la66WgYOcPuba5K4Fl8bSM,17
+resourcerer-1.0.0.dist-info/RECORD,,

@@ -1,0 +1,4 @@
+[console_scripts]
+get_resources = resourcerer.get_resources:main
+send_resources = resourcerer.send_resources:main
+
