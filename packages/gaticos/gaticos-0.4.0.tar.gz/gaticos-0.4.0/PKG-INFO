@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: gaticos
+Version: 0.4.0
+Summary: Librería de ejemplo
+Author: avara1986
+Author-email: a.vara.1986@gmail.com
+Requires-Python: >=3.8,<4.0
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: Natural Language :: English
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Requires-Dist: click (>=8.0.3,<9.0.0)
+Requires-Dist: requests (>=2.26.0,<3.0.0)

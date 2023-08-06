@@ -1,0 +1,72 @@
+[tool.poetry]
+name = "gaticos"
+version = "0.4.0"
+description = "Librería de ejemplo"
+authors = ["avara1986 <a.vara.1986@gmail.com>"]
+classifiers = [
+    "Development Status :: 4 - Beta",
+    "Intended Audience :: Developers",
+    "Natural Language :: English",
+    "Programming Language :: Python :: 3.6",
+    "Programming Language :: Python :: 3.7",
+    "Programming Language :: Python :: 3.8",
+    "Programming Language :: Python :: 3.9",
+]
+[tool.poetry.scripts]
+gaticos = 'gaticos.main:cli'
+
+[tool.poetry.dependencies]
+python = "^3.8"
+requests = "^2.26.0"
+click = "^8.0.3"
+
+[tool.poetry.dev-dependencies]
+pytest = "^6.2.5"
+pylint = "^2.11.1"
+build = "^0.7.0"
+mypy = "^0.910"
+pytest-cov = "^3.0.0"
+black = "^21.9b0"
+isort = "^5.9.3"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.flake8]
+max-line-length = 99
+extend-ignore = "E203,"
+max-complexity = 10
+exclude= '.git,__pycache__,docs/,build,dist,hdiv_agent/packages,hdiv_agent/commons/bytecode/tests/fixtures/tzfile.py'
+
+[tool.black]
+line-length = 99
+skip-string-normalization = true
+target-version = ["py27"]
+exclude = '''
+^/(
+  (
+      \.git
+    | \.mypy_cache
+    | \.nox
+    | \.venv
+  )/
+  | .*/migrations/.*
+  | hdiv_agent/packages
+  | hdiv_agent/manualpackages
+  | hdiv_agent/core/analyzers/tests/fixtures/my_pkg/__init__.py
+)
+'''
+
+[tool.isort]
+profile = "black"
+line_length = 99
+skip = [
+    "hdiv_agent/packages",
+    "hdiv_agent/manualpackages",
+    "hdiv_agent/core/analyzers/tests/fixtures/my_pkg/__init__.py",
+]
+
+[tool.mypy]
+ignore_missing_imports = false
+follow_imports = "silent"
