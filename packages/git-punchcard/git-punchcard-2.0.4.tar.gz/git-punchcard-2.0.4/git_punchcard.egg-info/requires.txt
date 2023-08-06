@@ -1,0 +1,6 @@
+numpy
+matplotlib
+pytz
+
+[gui]
+pyqt5
