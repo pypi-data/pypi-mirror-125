@@ -1,0 +1,10 @@
+badfiles/__init__.py,sha256=38B5YqmTNmkTMaXPe4OxZGeY4qxObUYuRafYqs-ugYs,133
+badfiles/badfiles.py,sha256=vQn-OuNHlOyJ7oqF46TmY8FzivYE8LPfjXUsqH7KY2g,6961
+badfiles/cli.py,sha256=9N4uQTaZo1zXHU4vATYPDIKx0HFD5MRJCYkv1Cs1AcM,3184
+badfiles/process_tar.py,sha256=-hTE2oj4OWSZEecwBBfeZ_UcmV5mmCW3HniS9jklFdY,934
+badfiles/utils.py,sha256=MhBip0ZFNhKf5v8rGS7ERt6RFzu2x_40XR-Xiplc6Q8,2181
+badfiles-0.2.1.dist-info/entry_points.txt,sha256=S5KPVMGqOuegVSKesaZarWEc-MDsbbD6Eix1JDHsxqw,46
+badfiles-0.2.1.dist-info/LICENSE,sha256=iqcBNgbRrUxciwP-o7Hl_h_yIMESE864g46Ur90Ujf8,586
+badfiles-0.2.1.dist-info/WHEEL,sha256=y3eDiaFVSNTPbgzfNn0nYn5tEn1cX6WrdetDlQM4xWw,83
+badfiles-0.2.1.dist-info/METADATA,sha256=mGn4QhQNjw5IKrxvXaAs0ctiGV7b-e-f7S_pSIuJiEo,3156
+badfiles-0.2.1.dist-info/RECORD,,
