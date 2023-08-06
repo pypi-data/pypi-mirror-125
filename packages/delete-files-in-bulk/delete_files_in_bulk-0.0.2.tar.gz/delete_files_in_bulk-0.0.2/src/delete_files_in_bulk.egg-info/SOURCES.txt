@@ -1,0 +1,10 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+src/delete_files_in_bulk/__init__.py
+src/delete_files_in_bulk/delete_files.py
+src/delete_files_in_bulk.egg-info/PKG-INFO
+src/delete_files_in_bulk.egg-info/SOURCES.txt
+src/delete_files_in_bulk.egg-info/dependency_links.txt
+src/delete_files_in_bulk.egg-info/top_level.txt

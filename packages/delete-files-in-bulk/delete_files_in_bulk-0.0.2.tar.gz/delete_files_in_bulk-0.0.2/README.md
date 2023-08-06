@@ -1,0 +1,1 @@
+A script for deleting files and/or directories in bulk.
