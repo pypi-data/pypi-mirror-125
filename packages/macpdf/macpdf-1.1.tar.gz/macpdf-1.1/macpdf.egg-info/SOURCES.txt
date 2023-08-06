@@ -1,0 +1,10 @@
+LICENSE
+README.md
+setup.py
+macpdf/__init__.py
+macpdf/pdf2image.py
+macpdf/pdf2text.py
+macpdf.egg-info/PKG-INFO
+macpdf.egg-info/SOURCES.txt
+macpdf.egg-info/dependency_links.txt
+macpdf.egg-info/top_level.txt
