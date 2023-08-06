@@ -1,0 +1,24 @@
+Metadata-Version: 2.1
+Name: Perper
+Version: 0.7.0
+Summary: UNKNOWN
+Home-page: https://github.com/obecto/perper
+Author: Obecto EOOD
+License: MIT License
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Programming Language :: Python
+Classifier: Operating System :: OS Independent
+Classifier: License :: OSI Approved :: MIT License
+Description-Content-Type: text/markdown
+Requires-Dist: pyignite (>=0.3.4)
+Requires-Dist: grpcio (>=1.33.2)
+Requires-Dist: protobuf (>=3.17.3)
+
+# Perper
+
+Stream-based, horizontally scalable framework for asynchronous data
+processing, built on top of [Apache Ignite](https://ignite.apache.org/)
+and [Azure Functions Host](https://github.com/Azure/azure-functions-host).
+
+
