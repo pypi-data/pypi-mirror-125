@@ -1,0 +1,10 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+src/example_package/__init__.py
+src/example_package/example.py
+src/signalbot.egg-info/PKG-INFO
+src/signalbot.egg-info/SOURCES.txt
+src/signalbot.egg-info/dependency_links.txt
+src/signalbot.egg-info/top_level.txt
