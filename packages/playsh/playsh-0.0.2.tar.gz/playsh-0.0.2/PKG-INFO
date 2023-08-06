@@ -1,0 +1,95 @@
+Metadata-Version: 2.1
+Name: playsh
+Version: 0.0.2
+Summary: A playground for OpenGL fragment shader
+Home-page: https://github.com/panmar/playsh
+Author: Marcin Panasiuk
+Author-email: panasiuk.marcin@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+Provides-Extra: dev
+License-File: LICENSE
+
+# playsh
+
+A GLSL fragment shader playground, inspired by [Shadertoy](https://www.shadertoy.com/).
+
+
+
+
+
+## Builtin shader uniforms
+
+* uniform vec3 __iResolution__
+
+* uniform float __iTime__
+
+* iuniform float __TimeDelta__
+
+* uniform int __iFrame__
+
+* uniform vec4 __iMouse__
+
+* uniform Texture2D __iChannel0__
+
+* uniform Texture2D __iChannel1__
+
+* uniform Texture2D __iChannel2__
+
+* uniform Texture2D __iChannel3__
+
+* uniform vec3 __iChannelResolution__[4]
+
+
+
+## Dependencies
+
+* glfw
+
+* PyOpenGL
+
+* PyGLM
+
+* numpy
+
+* pillow
+
+* injector
+
+
+
+
+
+## Example
+
+```Python
+
+from playsh import PlaySh, TextureDesc, Filter, Wrap
+
+
+
+app = PlaySh(
+
+    width=1920,
+
+    height=1200,
+
+    fragment_shader_path="examples/example.fs",
+
+    channel0=TextureDesc(
+
+        path="examples/noise.png", filter=Filter.LINEAR, wrap=Wrap.REPEAT
+
+    ),
+
+)
+
+app.run()
+
+```
+
+
