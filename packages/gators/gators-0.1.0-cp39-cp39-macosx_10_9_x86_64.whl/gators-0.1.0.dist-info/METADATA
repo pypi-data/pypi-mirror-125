@@ -1,0 +1,50 @@
+Metadata-Version: 2.1
+Name: gators
+Version: 0.1.0
+Summary: Model building and Model deployment library
+Home-page: UNKNOWN
+Author: Simility Data Team
+Author-email: cpoli@paypal.com
+License: Apache-2.0 Software License
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Requires-Dist: setuptools (>=41.0.0)
+Requires-Dist: numpy (==1.19.5)
+Requires-Dist: requests (>=2.23.0)
+Requires-Dist: tqdm (>=4.43.0)
+Requires-Dist: scipy (>=1.5.2)
+Requires-Dist: Cython (>=0.29.21)
+Requires-Dist: dill (>=0.3.1.1)
+Requires-Dist: scikit-learn (==0.23.1)
+Requires-Dist: seaborn (>=0.11.0)
+Requires-Dist: pandas (>=0.25.3<1.2)
+Requires-Dist: treelite (>=0.93)
+Requires-Dist: treelite-runtime (>=0.93)
+Requires-Dist: pyDOE (>=0.3.8)
+Requires-Dist: scikit-optimize (>=0.8.1)
+Requires-Dist: emcee (>=3.0.2)
+Requires-Dist: pyspark (>=2.4.3)
+Requires-Dist: koalas
+Requires-Dist: hyperopt (>=0.2.5)
+Requires-Dist: xgboost (>=0.90)
+Requires-Dist: Lightgbm
+Requires-Dist: pytest (>=5.0.0)
+Requires-Dist: pytest-cov (>=2.6.0)
+Provides-Extra: dev
+Requires-Dist: pylama (>=7.6.5) ; extra == 'dev'
+Requires-Dist: ipykernel ; extra == 'dev'
+Requires-Dist: jupyter ; extra == 'dev'
+Requires-Dist: numpydoc ; extra == 'dev'
+Requires-Dist: sphinx (>=3.3.0) ; extra == 'dev'
+Requires-Dist: nbsphinx (>=0.8.0) ; extra == 'dev'
+Requires-Dist: pydata-sphinx-theme ; extra == 'dev'
+Requires-Dist: pandoc ; extra == 'dev'
+Requires-Dist: tox ; extra == 'dev'
+Requires-Dist: tox-wheel ; extra == 'dev'
+
+UNKNOWN
+
+
