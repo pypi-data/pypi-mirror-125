@@ -1,0 +1,29 @@
+Metadata-Version: 2.1
+Name: django-imagedeck
+Version: 0.3.3
+Summary: A package to seamlessly group different sorts of images into groups.
+Home-page: https://gitlab.unimelb.edu.au/rturnbull/django-imagedeck
+License: Apache-2.0
+Author: Robert Turnbull
+Author-email: robert.turnbull@unimelb.edu.au
+Requires-Python: >=3.8,<4.0
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Requires-Dist: Django (>=3.2.6,<4.0.0)
+Requires-Dist: django-filer (>=2.0.2,<3.0.0)
+Requires-Dist: django-imagekit (>=4.0.2,<5.0.0)
+Requires-Dist: django-polymorphic (>=3.0.0,<4.0.0)
+Requires-Dist: easy-thumbnails (>=2.7.1,<3.0.0)
+Requires-Dist: iiif-prezi (>=0.3.0,<0.4.0)
+Requires-Dist: requests (>=2.26.0,<3.0.0)
+Project-URL: Repository, https://gitlab.unimelb.edu.au/rturnbull/django-imagedeck
+Description-Content-Type: text/markdown
+
+# django-imagedeck
+
+A package to seamlessly group different sorts of images into groups.
+
+
