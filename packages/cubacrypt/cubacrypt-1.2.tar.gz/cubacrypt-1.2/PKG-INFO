@@ -1,0 +1,29 @@
+Metadata-Version: 2.1
+Name: cubacrypt
+Version: 1.2
+Summary: An custom encryption method made by encrypting with many types Number systems and characters.
+Home-page: https://github.com/Senarc-Studios/CubaCrypt
+Author: BenitzCoding
+Author-email: benitzcoding@senarc.org
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Topic :: Security :: Cryptography
+Classifier: Topic :: Security
+Classifier: Topic :: Database
+Classifier: Environment :: Web Environment
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Classifier: Intended Audience :: Developers
+Classifier: Natural Language :: English
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Topic :: Internet
+Classifier: Topic :: Software Development :: Libraries
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Classifier: Topic :: Utilities
+License-File: LICENSE
+
+UNKNOWN
+

@@ -1,0 +1,14 @@
+LICENSE
+README.md
+cubacrypt
+pyproject.toml
+setup.py
+cubacrypt/__init__.py
+cubacrypt/cuba_cypher.py
+cubacrypt/cubacrypt.py
+cubacrypt/key_gen.py
+cubacrypt.egg-info/PKG-INFO
+cubacrypt.egg-info/SOURCES.txt
+cubacrypt.egg-info/dependency_links.txt
+cubacrypt.egg-info/requires.txt
+cubacrypt.egg-info/top_level.txt
