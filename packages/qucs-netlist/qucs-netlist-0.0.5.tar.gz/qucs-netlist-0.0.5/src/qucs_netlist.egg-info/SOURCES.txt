@@ -1,0 +1,13 @@
+LICENSE
+MANIFEST.in
+README.md
+pyproject.toml
+setup.cfg
+src/PopoutApps/__init__.py
+src/PopoutApps/qucs-netlist.dat
+src/PopoutApps/qucs-netlist.hlp
+src/PopoutApps/qucs-netlist.py
+src/qucs_netlist.egg-info/PKG-INFO
+src/qucs_netlist.egg-info/SOURCES.txt
+src/qucs_netlist.egg-info/dependency_links.txt
+src/qucs_netlist.egg-info/top_level.txt
