@@ -1,0 +1,5 @@
+pyyaml
+azure-keyvault-secrets
+azure-identity
+pandas
+azure-storage-blob

@@ -1,0 +1,17 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+src/dummit/__init__.py
+src/dummit/df_tests.py
+src/dummit/dummit.py
+src/dummit/factories.py
+src/dummit/inputs.py
+src/dummit/locations.py
+src/dummit/secrets.py
+src/dummit/tests.py
+src/dummit.egg-info/PKG-INFO
+src/dummit.egg-info/SOURCES.txt
+src/dummit.egg-info/dependency_links.txt
+src/dummit.egg-info/requires.txt
+src/dummit.egg-info/top_level.txt
