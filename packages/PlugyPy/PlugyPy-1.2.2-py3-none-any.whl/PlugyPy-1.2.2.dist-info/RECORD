@@ -1,0 +1,11 @@
+plugypy/__init__.py,sha256=dvunMBUaQVj9L2kh6EuIDVFYgYhHC_h2THXNe2ME2bA,308
+plugypy/configuration.py,sha256=8xPi-i-xc18jby_UYYd2HqrpukFSrCA6dKMYybWE3Bo,796
+plugypy/configuration_deserializer.py,sha256=6XUpNoXqyPJN3srS3bxCHjrDcn2ya7j7ilAYcRQG7ig,1009
+plugypy/plugin.py,sha256=CBaBx9JneljEo4yOrimXvXDFo-LKYNa_8hxnOEqPlZw,317
+plugypy/plugin_manager.py,sha256=k7S20orZ-ZH7uNXiOI6uiHY2yvKERunMwOd5bS49_ZQ,3042
+plugypy/plugypy_errors.py,sha256=7DylF6uO93G7mCyPttppKLbzK-mGv-mbF4CSLm5cuFw,314
+PlugyPy-1.2.2.dist-info/LICENSE,sha256=N0P3pKtRMvfb64jmgJdlerg3TnS0a2QC776AzPsbZIg,35128
+PlugyPy-1.2.2.dist-info/METADATA,sha256=5SsVDpIDIB8OlyCJidaOJzZrijDEB61x6mBJu7T5nPQ,4656
+PlugyPy-1.2.2.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+PlugyPy-1.2.2.dist-info/top_level.txt,sha256=tADuIIZrXD6E4RokT8FOXRq9Qb2qQAPyW8ktvBNs-b4,8
+PlugyPy-1.2.2.dist-info/RECORD,,
