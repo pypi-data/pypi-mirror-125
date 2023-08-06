@@ -1,0 +1,9 @@
+LICENSE
+README.md
+setup.py
+genyewatow/__init__.py
+genyewatow/owo.py
+genyewatow.egg-info/PKG-INFO
+genyewatow.egg-info/SOURCES.txt
+genyewatow.egg-info/dependency_links.txt
+genyewatow.egg-info/top_level.txt
