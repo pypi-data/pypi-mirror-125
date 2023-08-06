@@ -1,0 +1,7 @@
+README.md
+setup.py
+sharepointsimple.egg-info/PKG-INFO
+sharepointsimple.egg-info/SOURCES.txt
+sharepointsimple.egg-info/dependency_links.txt
+sharepointsimple.egg-info/requires.txt
+sharepointsimple.egg-info/top_level.txt
