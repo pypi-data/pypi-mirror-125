@@ -1,0 +1,7 @@
+_maix
+_maix_display
+_maix_nn
+_maix_opencv
+_maix_vivo
+maix
+pylibi2c
