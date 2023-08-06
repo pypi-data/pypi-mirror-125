@@ -1,0 +1,9 @@
+README.md
+setup.py
+ko_ww_stopwords/__init__.py
+ko_ww_stopwords/stop_words.py
+ko_ww_stopwords/tools.py
+ko_ww_stopwords.egg-info/PKG-INFO
+ko_ww_stopwords.egg-info/SOURCES.txt
+ko_ww_stopwords.egg-info/dependency_links.txt
+ko_ww_stopwords.egg-info/top_level.txt
