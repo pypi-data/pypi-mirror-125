@@ -1,0 +1,6 @@
+pytest
+jupyter
+graphviz
+gridx-prescient
+nrel-pysam
+idaes-pse>=1.11.0
