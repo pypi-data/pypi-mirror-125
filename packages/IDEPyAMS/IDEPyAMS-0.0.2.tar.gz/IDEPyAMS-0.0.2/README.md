@@ -1,0 +1,74 @@
+
+# PyAMS
+PyAMS: Python for Analog and Mixed Signals
+
+<h1 align="center">
+    <a href="https://www.pyams.org"><img src="https://pyams.org/logo.png" width="175px" alt="PyAMS"></a>
+</h1>
+
+---
+
+<p align="center">
+ 
+ <a href="#News">
+    <img src="https://img.shields.io/badge/Version-0.0.1-blue" alt="V 0.0.1">
+ </a>
+  <a href="#Installation">
+      <img src="https://img.shields.io/badge/Python->=3-blue" alt="Python 3+">
+  </a>
+    
+  <a href="https://github.com/d-fathi/PyAMS/blob/main/LICENSE">
+      <img src="https://img.shields.io/badge/License-Free-blue" alt="Free">
+  </a>
+</p>
+
+
+**************
+What is PyAMS?
+**************
+
+PyAMS is a software used to simplify modeling analog elements and simulate electronic circuit using Python
+The objectives of PyAMS is:
+
+*	Drawing circuit by schematic (CAD approach: IDEPyAMS.py);
+*	Creating new PyAMS models of electrical elements by using Python language;
+*	Creating new symbols for models;
+*	Simulating the circuit in the selected mode of operation (future);
+*	Presenting simulation results in a dedicated waveform editor (future) and probe;
+*   Simulating the circuit by AppPyAMS commands (future);
+*   PyAMS used Python3+ and works on  Linux, Windows, and OSX.
+*   **Licensed under:** PyAMS is free to use. No license is necessary .
+
+
+## News
+
+What’s changed in versions
+
+V0.0.2
+--------
+30-10-2021	Released PyAMS 0.0.2 !
+
+* Polarity (positive-negative-mixed)
+* Add new shapes: rectangle, ellipse
+* Add text for description in IDEPyAMS.py
+* New analog elements:
+* DC Current (Source library).
+  * Current-Controlled Current Source (Basic library).
+  * Current-Controlled Voltage Source (Basic library).
+  * Voltage-Controlled Current Source (Basic library).
+  * Voltage-Controlled Voltage Source (Basic library).
+
+## Note of installation
+
+*   Add packages: PyQt5 and PyQtWebEngine by pip.
+*   install IDEPyAMS using pip:** pip install IDEPyAMS.
+*   And type that command in the python shell or in source code:
+.. code-block:: py3
+
+    # for PyAMS IDE
+    import IDEPyAMS;
+    IDEPyAMS.exec();
+
+    # for symbol editor
+    import SymbolEditor;
+    SymbolEditor.exec();
