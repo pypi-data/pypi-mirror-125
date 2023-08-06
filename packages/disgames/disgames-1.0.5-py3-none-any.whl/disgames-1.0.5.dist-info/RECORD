@@ -1,0 +1,11 @@
+disgames/__init__.py,sha256=vHnhOEPoiR1YUtxmDfmoZSkrgX327XmPTiXiisod1_Q,324
+disgames/board.py,sha256=ORudO1wJrOBcSJ5BgR8pzZm9ndpDTKLNu-q6FEaMyQg,1257
+disgames/hangman.py,sha256=YVeFw57K7dLYX3B1ARqq04PrFU--Ik0SQqJDsjcOraM,4003
+disgames/madlib.py,sha256=eWibCqpzwcktOq6St7kwhOrq4YpYAP4pQyPLrzCkqJs,909
+disgames/ttt.py,sha256=dIhFT6cEIrcAXwNw4wAWGtbS5hH1tcOzeFXPJ-MZhrY,3752
+disgames/utils.py,sha256=lmFqnXNtMYG9cBMw7soKBDxU_AtzVxQbGWiWAvbJspI,894
+disgames-1.0.5.dist-info/LICENSE,sha256=GxZ5FF48hvI9Yl4yniCxC2LSRbK3QYCBWvc9r-uiC8M,11358
+disgames-1.0.5.dist-info/METADATA,sha256=LfehMODQ2X00UCDagrj9FSPuFe-uNVkCCQMVU6hhZO0,785
+disgames-1.0.5.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+disgames-1.0.5.dist-info/top_level.txt,sha256=3-raDTd_Ac1s-TumNAQ7rzRRVlQnZ3ZvR9BDTIyeQCM,9
+disgames-1.0.5.dist-info/RECORD,,
