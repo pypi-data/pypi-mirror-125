@@ -1,0 +1,38 @@
+Metadata-Version: 2.1
+Name: jupylint
+Version: 1.0.0
+Summary: A tool to run pylint on Jupyter notebooks
+Home-page: https://github.com/EdmundGoodman/Jupyter_Pylinter
+Author: Edmund Goodman
+Author-email: egoodman3141@gmail.com
+License: MIT
+Download-URL: https://github.com/EdmundGoodman/Jupyter_Pylinter/archive/refs/tags/v1.0.0.tar.gz
+Description: ![Build status](https://github.com/EdmundGoodman/Jupyter_Pylinter/actions/workflows/python-app.yml/badge.svg)
+        
+        # Jupyter Pylinter
+        
+        A simple tool to extract python code from a Jupyter notebook, and then run
+        pylint on it for static analysis.
+        
+        The final production code for the project can be found here:
+        
+        - [As a standalone python file](https://raw.githubusercontent.com/EdmundGoodman/Jupyter_Pylinter/main/jupylint/jupylint.py)
+        - [As a package on PyPI](https://pypi.org/project/jupylint/)
+        
+        
+        ## Contributions and errata
+        
+        If you find a bug in the code, feel free to submit a pull request or an issue
+        through GitHub, and I will endeavour to fix it!
+        
+Keywords: Jupyter,Pylint,linter
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Build Tools
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Description-Content-Type: text/markdown
