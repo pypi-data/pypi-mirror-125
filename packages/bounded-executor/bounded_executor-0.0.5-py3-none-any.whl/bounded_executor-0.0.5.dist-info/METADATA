@@ -1,0 +1,56 @@
+Metadata-Version: 2.1
+Name: bounded-executor
+Version: 0.0.5
+Summary: Bounded ThreadPoolExecutor and ProcessPoolExecutor
+Home-page: https://github.com/yabqiu/bounded-pool-executor
+Author: Yanbin
+Author-email: yabqiu@gmail.com
+License: BSD License
+Platform: all
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Classifier: Programming Language :: Python :: Implementation :: PyPy
+Requires-Python: >=3.2
+Description-Content-Type: text/x-rst
+
+==================================================
+Bounded ThreadPoolExecutor and ProcessPoolExecutor
+==================================================
+
+If we use concurrent.futures' ThreadPoolExecutor, ProcessPoolExecutor, easy to run into OOM issue since
+their waiting task queue size is not bounded. There is no limit how many tasked submitted.
+
+BoundedThreadPoolExecutor
+
+.. code-block:: python
+
+    from bounded_executor import BoundedThreadPoolExecutor
+
+    def job(i):
+        print(i)
+
+
+    with BoundedThreadPoolExecutor(max_workers=10, max_waiting_tasks=50) as pool:
+        for i in range(1000):
+            pool.submit(job, i)
+
+
+BoundedProcessPoolExecutor
+
+.. code-block:: python
+
+    from bounded_executor import BoundedProcessPoolExecutor
+
+    def job(i):
+        print(i)
+
+
+    with BoundedProcessPoolExecutor(max_workers=10, max_waiting_tasks=50) as pool:
+        for i in range(1000):
+            pool.submit(job, i)
+
