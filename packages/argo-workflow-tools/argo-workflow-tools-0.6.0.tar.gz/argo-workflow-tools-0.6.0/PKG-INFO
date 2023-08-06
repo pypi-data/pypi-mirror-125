@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: argo-workflow-tools
+Version: 0.6.0
+Summary: A suite of tools to ease ML pipeline development with Argo Workflows
+Home-page: https://github.com/DiagnosticRobotics/argo-workflow-tools
+License: Apache 2.0
+Author: Diagnostic Robotics
+Requires-Python: >=3.7,<4.0
+Classifier: License :: Other/Proprietary License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Requires-Dist: certifi (>=2021.10.8,<2022.0.0)
+Requires-Dist: requests (>=2.26.0,<3.0.0)
+Requires-Dist: urllib3 (>=1.26.7,<2.0.0)
+Project-URL: Repository, https://github.com/DiagnosticRobotics/argo-workflow-tools
