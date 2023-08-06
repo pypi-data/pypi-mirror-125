@@ -1,0 +1,9 @@
+cloudcamp/aws_runtime/__init__.py,sha256=gNCobts0JBgLqkfcXihcAXUixGHnvW9E6o1tjQcjJXc,102384
+cloudcamp/aws_runtime/py.typed,sha256=AbpHGcgLb-kRsJGnwFEktk7uzpZOCcBY74-YBdrKVGs,1
+cloudcamp/aws_runtime/_jsii/__init__.py,sha256=T1Q_yhruuItLXlJfF47aOQmFRMq42hatGimPNLWfmaA,1125
+cloudcamp/aws_runtime/_jsii/aws-runtime@0.0.1-alpha.7.jsii.tgz,sha256=UdG5VpCWxZFeyCJ-fEICd5Yqaup84zrzyixvZXa7KQI,60443
+cloudcamp.aws_runtime-0.0.1a7.dist-info/LICENSE,sha256=g0z08W8AHw1Jfr25iSkIOQoiiDdwpqMVkivPI1kbHwU,1052
+cloudcamp.aws_runtime-0.0.1a7.dist-info/METADATA,sha256=uj5bbJ0jKzcpLWv3ZXd1F2RVo5VZ6uiNzu12uovwk2I,2200
+cloudcamp.aws_runtime-0.0.1a7.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+cloudcamp.aws_runtime-0.0.1a7.dist-info/top_level.txt,sha256=kJJPEKx-yr-mgp20NsQd9kFldFNq8e69hghNV9hvFSQ,10
+cloudcamp.aws_runtime-0.0.1a7.dist-info/RECORD,,
