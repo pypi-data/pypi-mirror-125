@@ -1,0 +1,7 @@
+README.md
+setup.py
+Perper.egg-info/PKG-INFO
+Perper.egg-info/SOURCES.txt
+Perper.egg-info/dependency_links.txt
+Perper.egg-info/requires.txt
+Perper.egg-info/top_level.txt
