@@ -1,0 +1,3 @@
+[console_scripts]
+jsctl = jaseci.jsctl.jsctl:main
+
