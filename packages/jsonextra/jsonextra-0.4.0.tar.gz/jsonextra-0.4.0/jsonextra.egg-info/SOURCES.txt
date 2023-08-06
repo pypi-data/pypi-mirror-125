@@ -1,0 +1,14 @@
+LICENSE
+MANIFEST.in
+README.md
+requirements.txt
+setup.cfg
+setup.py
+jsonextra/__init__.py
+jsonextra/json_extra.py
+jsonextra.egg-info/PKG-INFO
+jsonextra.egg-info/SOURCES.txt
+jsonextra.egg-info/dependency_links.txt
+jsonextra.egg-info/requires.txt
+jsonextra.egg-info/top_level.txt
+jsonextra.egg-info/zip-safe
