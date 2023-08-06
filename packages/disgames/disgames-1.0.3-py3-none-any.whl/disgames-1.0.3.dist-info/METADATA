@@ -1,0 +1,49 @@
+Metadata-Version: 2.1
+Name: disgames
+Version: 1.0.3
+Summary: A games module that can be used to instantly add games to your discord bot
+Home-page: https://github.com/andrewthederp/Disgames
+Author: andrew
+Maintainer: Marcus
+License: Apache
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Build Tools
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Requires-Python: >=3.6
+Requires-Dist: discord.py
+Requires-Dist: aiohttp
+
+# Disgames
+
+A python module made to make creating games easier and adds a bunch of game commands to your discord python bot
+
+## Contents
+
+- [Disgames](#disgames)
+  - [Contents](#contents)
+  - [Installation](#installation)
+
+## Installation
+
+To install this module, which is currently **NOT** released on [pypi](https://pypi.org) yet, you need
+[`git`](https://git-scm.com/downloads) installed and added to PATH.
+
+If you do have git installed, follow this to install the module
+
+```shell
+git clone https://github.com/andrewthederp/Disgames.git
+cd Disgames
+python setup.py install
+```
+
+Note that this works with the now discontinued module [discord.py](https://pypi.org/project/discord) and we
+will make it compatible with other modules as soon as possible
+
+
