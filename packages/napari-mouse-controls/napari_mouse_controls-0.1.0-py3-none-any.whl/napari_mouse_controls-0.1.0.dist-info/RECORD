@@ -1,0 +1,14 @@
+napari_mouse_controls/__init__.py,sha256=aPUE52gMsyYDP7M0Bj2xuFKY4lEWuIZAJBIjp2xNeS0,102
+napari_mouse_controls/_dock_widget.py,sha256=dzndcemZNPj76Xj9jlv7TQIh6gF6W31t0XH0cA_OFEc,8691
+napari_mouse_controls/_tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+napari_mouse_controls/_tests/test_dock_widget.py,sha256=7WSmCv_IMRPLwz_IGj6LIKlxo22Gz8bm36KFuJyGzZo,737
+napari_mouse_controls/icons/Default.png,sha256=T4oW8H3u5C7hPjDIHR08sNqdD6PLQRdT7cUaaC7nyAk,3055
+napari_mouse_controls/icons/Slicing.png,sha256=8K5zSAjdYyWgRdRGzYQrY5YtPblxkwVYBDHz82axbRk,10338
+napari_mouse_controls/icons/Windowing.png,sha256=iKMJIF8ud5tL7zpptUnUV7K3VgpfNjYL4OWv3O-7Rv0,2897
+napari_mouse_controls/icons/Zoom.png,sha256=WVXQXoSRkjSFJ95-9Trdo5zHULad2xV5aJi5wYXdxpg,3982
+napari_mouse_controls-0.1.0.dist-info/LICENSE,sha256=0Fd6agjRmdzDOWWr7t78QFmd8CQpssMGC4tuBPw4kDU,1519
+napari_mouse_controls-0.1.0.dist-info/METADATA,sha256=-tYoZxvGVUfrIk5IY1PDnMHnc595U4WMhtATVajV_F0,5189
+napari_mouse_controls-0.1.0.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+napari_mouse_controls-0.1.0.dist-info/entry_points.txt,sha256=Mhz87_pTIYMwTViqHfqJnzkYQYkolfi3_KXLJiM6uho,63
+napari_mouse_controls-0.1.0.dist-info/top_level.txt,sha256=lwzzYbQyJB5k6F1oY_7RtaAWqW3OUYYl6eb91IubZjQ,22
+napari_mouse_controls-0.1.0.dist-info/RECORD,,
