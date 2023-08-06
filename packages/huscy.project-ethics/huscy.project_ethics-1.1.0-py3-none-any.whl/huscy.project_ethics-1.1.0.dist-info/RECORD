@@ -1,0 +1,16 @@
+huscy/project_ethics/__init__.py,sha256=HEUO0w3waCHqTAGYFJnzofIOX1jA2V9qPqlrAtf2olk,154
+huscy/project_ethics/admin.py,sha256=KEZ-0SvReGeT8vpNUfP6lL_c05RqKqIdKiC_mksJG_8,1311
+huscy/project_ethics/models.py,sha256=oPUoJPcUwwBkA3ngT9g7PeFXEQf1O0R5RwAydGdr1iU,2304
+huscy/project_ethics/permissions.py,sha256=J_IcutZYpKE4r9ubq1lstPDPHOrsB5hbBP1JIpfzcMo,1314
+huscy/project_ethics/serializer.py,sha256=Yg8DWmDe7gMQRiegUCbET2a5zD19ADitsDFX6bHmz8w,1941
+huscy/project_ethics/services.py,sha256=S8FD1Xn6HSRoPxncGG0cuOiIDV7oqGvKWgyOXUVa04g,1259
+huscy/project_ethics/urls.py,sha256=dbodB-8YzgypgVL2wjY0xcEwp_mEL02NT7jBk2Sk7lQ,752
+huscy/project_ethics/views.py,sha256=mDXymtwGOfHzux0HrHXvAvrQrGajH2Vbny8biFZzM4E,3736
+huscy/project_ethics/migrations/0001_initial.py,sha256=rfYOHl7bhx1OBln2Y-ycJKv03T0OTs3O3zY7TdSiFKs,3136
+huscy/project_ethics/migrations/0002_auto_20211101_0600.py,sha256=rw18MrLULIA7vjdi_Y4V1ewUpvwK0ioOnJilkhgt7us,1451
+huscy/project_ethics/migrations/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+huscy.project_ethics-1.1.0.dist-info/LICENSE,sha256=DZak_2itbUtvHzD3E7GNUYSRK6jdOJ-GqncQ2weavLA,34523
+huscy.project_ethics-1.1.0.dist-info/METADATA,sha256=S4L_WCTtIy1RjEX3pjwS5K85JOEZgvsQOHOFhYnlLs0,2874
+huscy.project_ethics-1.1.0.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+huscy.project_ethics-1.1.0.dist-info/top_level.txt,sha256=yP1xCBOAxbmweO3NrSrdrgzzsSyrcuj2pA4XvOekNAM,6
+huscy.project_ethics-1.1.0.dist-info/RECORD,,
