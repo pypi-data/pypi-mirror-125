@@ -1,0 +1,69 @@
+Metadata-Version: 2.1
+Name: backupdb
+Version: 0.0.3
+Summary: A simple CLI utility for backing up PostgreSQL databases.
+Home-page: https://github.com/sharhan-alhassan/backupdb
+Author: Sharhan Alhassan
+Author-email: sharhanalhassan@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3.9
+Classifier: License :: OSI Approved :: MIT License
+Requires-Python: >=3.9
+Description-Content-Type: text/markdown
+Requires-Dist: boto3 (==1.19.7)
+Requires-Dist: botocore (==1.22.7)
+Requires-Dist: jmespath (==0.10.0)
+Requires-Dist: python-dateutil (==2.8.2)
+Requires-Dist: s3transfer (==0.5.0)
+Requires-Dist: six (==1.16.0)
+Requires-Dist: urllib3 (==1.26.7)
+
+backupdb
+=========
+
+An open-source CLI tool for backing up RDS Locally or to Amazon S3 bucket
+
+## Usage 
+You will pass in the following on the command line:
+- The CLI command `backup`
+- The `database URL` you need to connect to 
+- The `storage driver (S3 or Local)`
+- The `destination (S3 bucket or local path)`
+
+## Installation
+```bash
+$ pip install -i https://test.pypi.org/simple/ backupdb
+```
+
+## Syntax
+
+```bash
+$ backupdb postgres://[USERNAME]:[PASSWORD]@[SERVER_IP:80/<db_name> --driver <driver_type> <destination>
+```
+
+## Example usage for S3 backup
+```bash
+$ backupdb postgres://[USERNAME]:[PASSWORD]@[SERVER_IP:80/<db_name> --driver s3 mybucket01
+```
+
+## Example usage for Local backup
+```bash
+$ backupdb postgres://[USERNAME]:[PASSWORD]@[SERVER_IP:80/<db_name> --driver local /var/local/db/backups
+```
+
+## Installation From Source
+To install the package after you've cloned the repository, you'll
+want to run the following command from within the project directory:
+```
+$ pip install --user -e .
+```
+
+## Preparing for Development
+Follow these steps to start developing with this project:
+1. Ensure `pip` and `pipenv` are installed
+2. Clone repository: `git clone git@github.com:sharhan-alhassan/backupdb`
+3. `cd` into the repository
+4. Activate virtualenv `source /venv/bin/activate`
+5. Install dependencies: `pip install -e .` or `pip install -r requirements` 
+
