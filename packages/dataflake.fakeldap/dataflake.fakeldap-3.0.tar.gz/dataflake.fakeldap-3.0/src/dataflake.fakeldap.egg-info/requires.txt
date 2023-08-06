@@ -1,0 +1,7 @@
+setuptools
+python-ldap>=3.3
+
+[docs]
+Sphinx
+repoze.sphinx.autointerface
+sphinx_rtd_theme
