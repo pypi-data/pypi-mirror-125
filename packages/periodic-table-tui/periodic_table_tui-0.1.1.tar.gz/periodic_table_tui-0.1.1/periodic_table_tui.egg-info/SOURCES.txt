@@ -1,0 +1,14 @@
+LICENSE
+MANIFEST.in
+README.md
+setup.py
+periodic_table_tui/__init__.py
+periodic_table_tui/__main__.py
+periodic_table_tui/elements.json
+periodic_table_tui/periodic_table.py
+periodic_table_tui.egg-info/PKG-INFO
+periodic_table_tui.egg-info/SOURCES.txt
+periodic_table_tui.egg-info/dependency_links.txt
+periodic_table_tui.egg-info/entry_points.txt
+periodic_table_tui.egg-info/not-zip-safe
+periodic_table_tui.egg-info/top_level.txt
