@@ -1,0 +1,39 @@
+Metadata-Version: 2.1
+Name: redondear-dsalinas
+Version: 0.0.3
+Summary: A simple package to round numbers and convert them to cents
+Home-page: https://github.com/darwinsalinas/redondear
+Author: Darwin Salinas
+Author-email: salinash2000@gmail.com
+License: UNKNOWN
+Project-URL: Bug Tracker, https://github.com/darwinsalinas/redondear/issues
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENCE
+License-File: LICENSE
+
+# Round and convert decimal number to cents
+
+
+## Install package
+```bash
+pip install redondear-dsalinas
+```
+
+## Package usage
+```python
+from redondear import redondear
+
+number = redondear.round_number("2.5456756") # 2.55 
+cents = redondear.to_cents(number) # 255
+decimals = redondear.to_decimals(cents) # 2.55
+
+print(number, cents, decimals) # 2.55 255 2.55
+```
+ 
+
+
