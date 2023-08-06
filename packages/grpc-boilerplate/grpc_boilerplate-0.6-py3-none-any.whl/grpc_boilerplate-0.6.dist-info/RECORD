@@ -1,0 +1,15 @@
+grpc_boilerplate/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+grpc_boilerplate/connectionstring.py,sha256=kIQ9l6ukkCXfUyGoXGNuRgyTpSIR6Qrb3REbL06CxLw,1949
+grpc_boilerplate/constants.py,sha256=VHEmyUEKBzZT55G_hvUCjAp0upzYHzvWhjamHaqAfXA,70
+grpc_boilerplate/grpcio_aio_tools/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+grpc_boilerplate/grpcio_aio_tools/client.py,sha256=Zz_Kycn4VJbguWe95MKED3E4PoqAHmQKyabGgARdayM,2118
+grpc_boilerplate/grpcio_tools/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+grpc_boilerplate/grpcio_tools/client.py,sha256=OM3zfvsbqJhdA80WoN_qRjtasbKOybqUmkCG2LTuHyE,2088
+grpc_boilerplate/grpclib_tools/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+grpc_boilerplate/grpclib_tools/client.py,sha256=KvqJXrbX7LBH-NEq1tM0VXqkrmdLfWBAWiyPVf5FZ0E,1187
+grpc_boilerplate/grpclib_tools/server.py,sha256=3BcO4mFsAcieBlqVZIfIyBgi4uKSpaANu4MgNlaIfZc,1577
+grpc_boilerplate/grpclib_tools/server_middlewares.py,sha256=rj5VGjL0aGTuypaxM-DdEJBgFhnm_AUyQCT59VLG3kw,2211
+grpc_boilerplate/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+grpc_boilerplate-0.6.dist-info/WHEEL,sha256=SrtnPGVTMeYWttls9xnWA01eUhCZ3ufFdJUYb1J3r-U,83
+grpc_boilerplate-0.6.dist-info/METADATA,sha256=SDE5ujPoc7pDM5Jbm3PYVkTlpdKT06SsCYICNjNnTAs,362
+grpc_boilerplate-0.6.dist-info/RECORD,,
