@@ -1,0 +1,37 @@
+[build-system]
+requires = [
+    "scikit-build",
+    "setuptools",
+    "wheel",
+]
+
+[tool.black]
+line-length = 79
+target-version = [
+    "py36",
+    "py37",
+    "py38",
+    "py39",
+]
+include = '\.pyi?$'
+exclude = '''
+/(
+    .*\.egg-info
+    | .*build
+    | \.eggs
+    | \.git
+    | \.pytest_cache
+    | \.tox
+    | \.venv
+    | \.vscode
+    | dist
+)/
+'''
+
+[tool.isort]
+profile = "black"
+src_paths = [
+    "src",
+    "tests",
+]
+line_length = 79

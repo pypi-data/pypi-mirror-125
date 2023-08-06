@@ -1,0 +1,7 @@
+awkward0
+matplotlib
+numpy
+pandas
+progress
+uproot3
+xmltodict

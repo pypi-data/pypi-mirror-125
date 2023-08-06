@@ -1,0 +1,9 @@
+# Output files
+*.dat
+*.pkl
+*.png
+*.root
+*.xml
+
+# Ignore
+!particle_list.xml

@@ -1,0 +1,35 @@
+MANIFEST
+
+# Output files
+*.png
+*.root
+*.xml
+
+# Build files
+*.egg-info/
+*.so
+*build/
+.eggs/
+.fuse_*
+dist/
+version.py
+
+# Temporary files
+*.pyc
+*condaenv.*
+.coverage
+.coverage.*
+.ipynb_checkpoints/
+.mypy*/
+.pytest_cache/
+__pycache__/
+htmlcov/
+prof/
+
+# Python virtual environments
+.tox/
+*venv/
+
+# Visual Studio Code
+/.vscode/c_cpp_properties.json
+**.code-workspace
