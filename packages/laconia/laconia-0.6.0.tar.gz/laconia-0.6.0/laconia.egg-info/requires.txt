@@ -1,0 +1,6 @@
+rdflib
+
+[test]
+pytest
+pytest-pikachu
+pytest-mypy

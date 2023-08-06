@@ -1,0 +1,9 @@
+*.pyc
+/venv
+*~
+/.idea
+/.coverage
+/MANIFEST
+/dist
+/htmlcov
+_version.py

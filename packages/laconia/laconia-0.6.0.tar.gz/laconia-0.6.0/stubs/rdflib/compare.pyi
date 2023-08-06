@@ -1,0 +1,3 @@
+from rdflib import Graph
+
+def to_isomorphic(graph: Graph) -> Graph: ...

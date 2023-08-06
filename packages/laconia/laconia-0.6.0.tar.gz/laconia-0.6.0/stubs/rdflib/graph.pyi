@@ -1,0 +1,3 @@
+from rdflib.term import Node
+
+class Graph(Node): ...
