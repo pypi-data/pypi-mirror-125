@@ -1,0 +1,6 @@
+README.md
+setup.py
+humeai.egg-info/PKG-INFO
+humeai.egg-info/SOURCES.txt
+humeai.egg-info/dependency_links.txt
+humeai.egg-info/top_level.txt
