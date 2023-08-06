@@ -1,0 +1,10 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+src/PACKAGE/__init__.py
+src/PACKAGE/get.py
+src/converttonumber.egg-info/PKG-INFO
+src/converttonumber.egg-info/SOURCES.txt
+src/converttonumber.egg-info/dependency_links.txt
+src/converttonumber.egg-info/top_level.txt
