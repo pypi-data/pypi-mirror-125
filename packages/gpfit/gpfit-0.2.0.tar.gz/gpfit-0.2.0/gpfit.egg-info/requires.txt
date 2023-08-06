@@ -1,0 +1,6 @@
+numpy
+scipy
+gpkit
+matplotlib>=3.3.2
+pytest>=6.2.5
+pytest-mpl>=0.13
