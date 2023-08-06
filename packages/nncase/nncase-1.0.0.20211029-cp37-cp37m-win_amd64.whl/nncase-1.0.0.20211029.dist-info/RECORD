@@ -1,0 +1,15 @@
+_nncase.cp37-win_amd64.pyd,sha256=qVArPjKSig9BdHI2vyge4CkC7Yisdup6JdfJLGpbXT8,200192
+nncase.dll,sha256=HV3k92rIXLZURfARIx93m-SNZg-Q1eAiyC4MVe4k8Cw,8772608
+nncase.modules.k210.dll,sha256=6z-BNw5cvJF0Rxbs9fHr-l4KqFdsRfmTDenw1SPnZqU,186880
+nncase.modules.vulkan.dll,sha256=_LrzzaqHwD7xgb3mO1iIYCY4hqkF2rX1zI44Uh66A5w,4570624
+nncase.targets.cpu.dll,sha256=G_KkQOzBCt3U_ujY5tRbTnHLFbdIkTJLmUelF_2iUJE,15872
+nncase.targets.k210.dll,sha256=peaJtOwrcQCx5EZ6Hz6E9TZs6Hdb2ywWjXx-vZjH9gk,48128
+nncase.targets.vulkan.dll,sha256=ou3QquHEoVMw4GKsKcMBpHiBOLq6K3jEqp4-otTTSYY,29184
+nncase/__init__.py,sha256=U1xp4mK9o0FZ9-x3zcpcKoztygNkH9WVoCBREpie0mE,1971
+nncase/base.py,sha256=dxuEdZmNuvtQ4QD90_w4nQ73PmG71FIUTvOoEBHWbnA,86
+nncase/simulator.py,sha256=y5MH41luo4vsXX53mJvI1Ai9aUNYxNdwuDFR-N8vRsk,524
+nncase-1.0.0.20211029.dist-info/LICENSE,sha256=Q4XthD3UklmywdlZeOrOfnTFQOKqmwmrjaHydPY3JAc,11544
+nncase-1.0.0.20211029.dist-info/METADATA,sha256=ryJRBuxkp7tWE14Hm8D5MIuXz078ocmP0dpkOBfd7Zo,3003
+nncase-1.0.0.20211029.dist-info/WHEEL,sha256=OmDKD3JmZjhMu_YdpkiJDfFL1rf8n9nexhWCGhSBGVE,101
+nncase-1.0.0.20211029.dist-info/top_level.txt,sha256=S_6nEOnooSRclRzthgIC297bTDVxSghNxQyc_7oNxq4,15
+nncase-1.0.0.20211029.dist-info/RECORD,,
