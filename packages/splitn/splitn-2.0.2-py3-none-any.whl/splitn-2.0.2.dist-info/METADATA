@@ -1,0 +1,41 @@
+Metadata-Version: 2.1
+Name: splitn
+Version: 2.0.2
+Summary: 
+Author: Michał Warzocha
+Author-email: warzocha.michal@icloud.com
+Requires-Python: >=3.9,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.9
+Requires-Dist: loguru (>=0.5.3,<0.6.0)
+Requires-Dist: rstr (>=3.0.0,<4.0.0)
+Requires-Dist: sequences
+Requires-Dist: split
+Requires-Dist: typer[all] (>=0.3.2,<0.4.0)
+Description-Content-Type: text/markdown
+
+`splitn` is a CLI app that generates combinations of chars being a result of splitting strings provided *explicite* or randomly generated from regex patterns. It is made mainly for testing NLU applications, e.g. voicebots, chatbots or tools for extracting structural data from text like [duckling](https://github.com/facebook/duckling).
+
+# Installation
+```
+pipx install splitn
+```
+
+or
+
+```
+pip install splitn
+```
+
+# Examples
+## Basic usage
+```bash
+splitn 486
+
+# result
+486
+48 6
+4 86
+4 8 6
+```
+
