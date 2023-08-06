@@ -1,0 +1,9 @@
+twitch_highlights/__init__.py,sha256=nXbnW9msF3kbrIkCKtz-zQ9GU7tGpg-OLJanBLd15U4,2386
+twitch_highlights/acr_cloud.py,sha256=k7ml9ez7swp_52VS6MBiFtf5z6ddWfyx7XKw_NiLwv8,2876
+twitch_highlights/clip_edit.py,sha256=VuSIdg25hsgcRYxO-VE9G_Vitni2WPvLmscBfn0RYMc,5994
+twitch_highlights/twitch_api.py,sha256=JD4lm14gj9pNoL0Btqg1uCJAPfEFXjyBthlKxyiaP1A,3561
+twitch_highlights-1.1.1.dist-info/LICENSE,sha256=7_6G2vtTYIySx-zdfAxwMAWpxbbr0NLo5x5bD1H1nmQ,11399
+twitch_highlights-1.1.1.dist-info/METADATA,sha256=TJ9rNt1SQEYdlACJMaPW5JGW3L1PWMhZ6JYGlWdN4GM,8017
+twitch_highlights-1.1.1.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+twitch_highlights-1.1.1.dist-info/top_level.txt,sha256=yLFw_5julEhN90EIoOKaLpai6vOwehFe38_fAjhY4Qo,18
+twitch_highlights-1.1.1.dist-info/RECORD,,
