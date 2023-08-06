@@ -1,0 +1,4 @@
+pydantic
+requests
+pandas
+flat-table
