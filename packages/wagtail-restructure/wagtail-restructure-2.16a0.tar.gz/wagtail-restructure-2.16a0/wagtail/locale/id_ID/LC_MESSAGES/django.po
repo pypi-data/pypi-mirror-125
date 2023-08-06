@@ -1,0 +1,1959 @@
+# #-#-#-#-#  django.po (Wagtail)  #-#-#-#-#
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+#
+# Translators:
+# geek pantura <geekpantura@gmail.com>, 2016
+# M. Febrian Ramadhana <febrian@ramadhana.me>, 2018
+# Ronggo Radityo <radityo3000@yahoo.com>, 2017
+# #-#-#-#-#  django.po (PACKAGE VERSION)  #-#-#-#-#
+# #-#-#-#-#  django.po (PACKAGE VERSION)  #-#-#-#-#
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+# Translators:
+# M. Febrian Ramadhana <febrian@ramadhana.me>, 2021
+#
+# #-#-#-#-#  django.po (Wagtail)  #-#-#-#-#
+# #-#-#-#-#  django.po (Wagtail)  #-#-#-#-#
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+#
+# Translators:
+# M. Febrian Ramadhana <febrian@ramadhana.me>, 2018
+# atmosuwiryo <suwiryo.atmo@gmail.com>, 2019
+# #-#-#-#-#  django.po (Wagtail)  #-#-#-#-#
+# #-#-#-#-#  django.po (Wagtail)  #-#-#-#-#
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+#
+# Translators:
+# Andry Widya Putra UN <andrywidyaputra@gmail.com>, 2020
+# Matt Westcott <matthew@torchbox.com>, 2018
+# M. Febrian Ramadhana <febrian@ramadhana.me>, 2018
+# Reshi Mahendra <reshimahendra@gmail.com>, 2020
+# Ronggo Radityo <radityo3000@yahoo.com>, 2017
+# Sutrisno Efendi <kangfend@gmail.com>, 2015,2017
+# atmosuwiryo <suwiryo.atmo@gmail.com>, 2019
+# #-#-#-#-#  django.po (Wagtail)  #-#-#-#-#
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+#
+# Translators:
+# Andry Widya Putra UN <andrywidyaputra@gmail.com>, 2020
+# M. Febrian Ramadhana <febrian@ramadhana.me>, 2018
+# Ronggo Radityo <radityo3000@yahoo.com>, 2017
+#, fuzzy
+msgid ""
+msgstr ""
+"#-#-#-#-#  django.po (Wagtail)  #-#-#-#-#\n"
+"Project-Id-Version: Wagtail\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-10-15 17:42+0100\n"
+"PO-Revision-Date: 2021-10-15 16:43+0000\n"
+"Last-Translator: Matt Westcott <matthew@torchbox.com>\n"
+"Language-Team: Indonesian (Indonesia) (http://www.transifex.com/torchbox/"
+"wagtail/language/id_ID/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: id_ID\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"#-#-#-#-#  django.po (PACKAGE VERSION)  #-#-#-#-#\n"
+"#-#-#-#-#  django.po (PACKAGE VERSION)  #-#-#-#-#\n"
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-10-15 17:42+0100\n"
+"PO-Revision-Date: 2020-10-23 10:41+0000\n"
+"Last-Translator: M. Febrian Ramadhana <febrian@ramadhana.me>, 2021\n"
+"Language-Team: Indonesian (Indonesia) (https://www.transifex.com/torchbox/"
+"teams/8009/id_ID/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: id_ID\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"#-#-#-#-#  django.po (Wagtail)  #-#-#-#-#\n"
+"#-#-#-#-#  django.po (Wagtail)  #-#-#-#-#\n"
+"Project-Id-Version: Wagtail\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-10-15 17:42+0100\n"
+"PO-Revision-Date: 2021-10-15 16:43+0000\n"
+"Last-Translator: Matt Westcott <matthew@torchbox.com>\n"
+"Language-Team: Indonesian (Indonesia) (http://www.transifex.com/torchbox/"
+"wagtail/language/id_ID/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: id_ID\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"#-#-#-#-#  django.po (Wagtail)  #-#-#-#-#\n"
+"#-#-#-#-#  django.po (Wagtail)  #-#-#-#-#\n"
+"Project-Id-Version: Wagtail\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-10-15 17:42+0100\n"
+"PO-Revision-Date: 2021-10-15 16:43+0000\n"
+"Last-Translator: M. Febrian Ramadhana <febrian@ramadhana.me>\n"
+"Language-Team: Indonesian (Indonesia) (http://www.transifex.com/torchbox/"
+"wagtail/language/id_ID/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: id_ID\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"#-#-#-#-#  django.po (Wagtail)  #-#-#-#-#\n"
+"Project-Id-Version: Wagtail\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-10-15 17:42+0100\n"
+"PO-Revision-Date: 2021-10-15 16:43+0000\n"
+"Last-Translator: Matt Westcott <matthew@torchbox.com>\n"
+"Language-Team: Indonesian (Indonesia) (http://www.transifex.com/torchbox/"
+"wagtail/language/id_ID/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: id_ID\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+msgid "Wagtail sites"
+msgstr "Wagtail situs"
+
+msgid "Choose a root page"
+msgstr "Pilih halaman utama"
+
+msgid "Choose a different root page"
+msgstr "Pilih halaman utama lain"
+
+msgid "Sites"
+msgstr "Daftar Situs"
+
+msgid "Add a site"
+msgstr "Menambahkan situs"
+
+msgid "Site"
+msgstr "Situs"
+
+msgid "Default?"
+msgstr "Default?"
+
+#, fuzzy
+msgid "Default"
+msgstr ""
+"#-#-#-#-#  django.po (Wagtail)  #-#-#-#-#\n"
+"Default\n"
+"#-#-#-#-#  django.po (PACKAGE VERSION)  #-#-#-#-#\n"
+"Utama"
+
+msgid "Add site"
+msgstr "Menambahkan daftar situs"
+
+msgid "Site '{0}' created."
+msgstr "Situs '{0}' berhasil dibuat "
+
+msgid "Site '{0}' updated."
+msgstr "Situs '{0}' berhasil diperbaharui"
+
+msgid "The site could not be saved due to errors."
+msgstr "Situs tidak dapat disimpan karena suatu kesalahan"
+
+msgid "Delete site"
+msgstr "Menghapus Situs"
+
+msgid "Site '{0}' deleted."
+msgstr "Situs '{0}' berhasil dihapus"
+
+msgid "Are you sure you want to delete this site?"
+msgstr "Apakah anda yakin untuk menghapus situs ini?"
+
+msgid "Yes, delete"
+msgstr "Ya, hapus"
+
+msgid "Usage"
+msgstr "Penggunaan"
+
+msgid "Wagtail users"
+msgstr "Wagtail pengguna"
+
+msgid "Required. 30 characters or fewer. Letters, digits and @/./+/-/_ only."
+msgstr ""
+"Wajib. 30 karakter atau kurang. Hanya karakter huruf, angka dan @/./+/-/_ "
+"saja."
+
+msgid "This value may contain only letters, numbers and @/./+/-/_ characters."
+msgstr "Hanya dapat berisi karakter huruf, angka dan @/./+/-/_ saja."
+
+msgid "A user with that username already exists."
+msgstr "Pengguna dengan username tersebut sudah ada."
+
+msgid "The two password fields didn't match."
+msgstr "Kedua isian kata sandi tidak cocok."
+
+msgid "Email"
+msgstr "Email/Surel"
+
+msgid "First Name"
+msgstr "Nama Depan"
+
+msgid "Last Name"
+msgstr "Nama Belakang"
+
+msgid "Password"
+msgstr "Kata Kunci"
+
+msgid "Leave blank if not changing."
+msgstr "Kosongkan jika tidak berubah."
+
+msgid "Password confirmation"
+msgstr "Konfirmasi kata kunci"
+
+msgid "Enter the same password as above, for verification."
+msgstr "Masukkan kata kunci yang sama dengan diatas untuk verifikasi."
+
+msgid "Administrator"
+msgstr "Administrator"
+
+msgid "Administrators have full access to manage any object or setting."
+msgstr ""
+"Administrator memiliki akses penuh untuk mengelola objek atau pengaturan apa "
+"saja."
+
+msgid "A group with that name already exists."
+msgstr "Grup dengan nama tersebut sudah ada."
+
+msgid "You cannot have multiple permission records for the same page."
+msgstr ""
+"Anda tidak dapat memiliki beberapa catatan izin untuk halaman yang sama."
+
+msgid "submitted notifications"
+msgstr "notifikasi terkirim"
+
+msgid "Receive notification when a page is submitted for moderation"
+msgstr "Terima notifikasi ketika halaman dikirim untuk moderasi"
+
+msgid "approved notifications"
+msgstr "notifikasi diterima"
+
+msgid "Receive notification when your page edit is approved"
+msgstr "Terima notifikasi ketika halaman yang Anda ubah telah diterima"
+
+msgid "rejected notifications"
+msgstr "notifikasi ditolak"
+
+msgid "Receive notification when your page edit is rejected"
+msgstr "Terima notifikasi ketika halaman yang Anda ubah ditolak"
+
+msgid "preferred language"
+msgstr "bahasa pilihan"
+
+msgid "Select language for the admin"
+msgstr "Pilih bahasa untuk admin"
+
+msgid "current time zone"
+msgstr "zona waktu saat ini"
+
+msgid "Select your current time zone"
+msgstr "Pilih zona waktu saat ini"
+
+msgid "profile picture"
+msgstr "gambar profil"
+
+msgid "user profile"
+msgstr "profil pengguna"
+
+msgid "Delete"
+msgstr "Hapus"
+
+msgid "Delete group"
+msgstr "Hapus grup"
+
+#, python-format
+msgid ""
+"\n"
+"                The group '%(group_name)s' has <strong>%(group_user_count)s</"
+"strong> member.\n"
+"            "
+msgid_plural ""
+"\n"
+"                The group '%(group_name)s' has <strong>%(group_user_count)s</"
+"strong> members.\n"
+"            "
+msgstr[0] ""
+"\n"
+"Grup '%(group_name)s' memiliki <strong>%(group_user_count)s</strong> member."
+
+msgid ""
+"Deleting this group will revoke this group's permissions from all member "
+"users."
+msgstr ""
+"Menghapus grup ini akan mencabut izin grup untuk semua member pengguna."
+
+msgid "Are you sure you want to delete this group?"
+msgstr "Apakah Anda yakin ingin menghapus grup ini?"
+
+msgid "Add group"
+msgstr "Tambah grup"
+
+msgid "Editing"
+msgstr "Mengubah"
+
+msgid "Save"
+msgstr "Simpan"
+
+msgid "Object permissions"
+msgstr "Izin objek"
+
+msgid "Name"
+msgstr "Nama"
+
+msgid "Add"
+msgstr "Tambah"
+
+msgid "Change"
+msgstr "Ubah"
+
+msgid "Other permissions"
+msgstr "Izin lain-lain"
+
+msgid "Page permissions"
+msgstr "Izin halaman"
+
+msgid "Page"
+msgstr "Halaman"
+
+msgid "Add a page permission"
+msgstr "Tambah izin halaman"
+
+msgid "groups"
+msgstr "grup"
+
+msgid "Add a group"
+msgstr "Tambah grup"
+
+#, python-format
+msgid "Sorry, no groups match \"%(query)s\""
+msgstr "Maaf, tidak ada grup yang sesuai dengan \"%(query)s\""
+
+#, python-format
+msgid ""
+"There are no groups configured. Why not <a href="
+"\"%(wagtailusers_create_group_url)s\">add some</a>?"
+msgstr ""
+"Tidak ada grup yang terkonfigurasi. Mengapa <a href="
+"\"%(wagtailusers_create_group_url)s\">tidak menambahnya</a>?"
+
+msgid "Delete user"
+msgstr "Hapus pengguna"
+
+msgid "Are you sure you want to delete this user?"
+msgstr "Apakah anda yakin untuk menghapus pengguna ini?"
+
+msgid "Add user"
+msgstr "Tambah pengguna"
+
+msgid "Account"
+msgstr "Akun"
+
+msgid "Roles"
+msgstr "Role"
+
+msgid "Users"
+msgstr "Pengguna"
+
+msgid "Add a user"
+msgstr "Tambah pengguna"
+
+msgid "Username"
+msgstr "Username"
+
+msgid "Level"
+msgstr "Level"
+
+msgid "Status"
+msgstr "Status"
+
+msgid "Admin"
+msgstr "Admin"
+
+msgid "Active"
+msgstr "Aktif"
+
+msgid "Inactive"
+msgstr "Tidak Aktif"
+
+#, python-format
+msgid "%(time_period)s ago"
+msgstr "%(time_period)s yang lalu"
+
+#, python-format
+msgid ""
+"\n"
+"            There is %(counter)s match\n"
+"        "
+msgid_plural ""
+"\n"
+"            There are %(counter)s matches\n"
+"        "
+msgstr[0] ""
+"\n"
+"Ada %(counter)s yang sesuai"
+
+#, python-format
+msgid "Sorry, no users match \"<em>%(query_string)s</em>\""
+msgstr ""
+"Maaf, tidak ada pengguna yang sesuai dengan \"<em>%(query_string)s</em>\""
+
+msgid "Groups"
+msgstr "Grup"
+
+msgid "Search groups"
+msgstr "Pencarian Grup"
+
+msgid "Group '{0}' created."
+msgstr "Grup '{0}' dibuat."
+
+msgid "Group '{0}' updated."
+msgstr "Grup '{0}' diperbarui."
+
+msgid "The group could not be saved due to errors."
+msgstr "Grup tidak dapat disimpan karena suatu kesalahan."
+
+msgid "Group '{0}' deleted."
+msgstr "Grup '{0}' dihapus."
+
+msgid "Search users"
+msgstr "Pencarian pengguna"
+
+msgid "User '{0}' created."
+msgstr "Pengguna '{0}' dibuat."
+
+msgid "Edit"
+msgstr "Ubah"
+
+msgid "The user could not be created due to errors."
+msgstr "Pengguna tidak dapat dibuat karena suatu kesalahan."
+
+msgid "User '{0}' updated."
+msgstr "Pengguna '{0}' berhasil diperbaharui."
+
+msgid "The user could not be saved due to errors."
+msgstr "Pengguna tidak dapat disimpan karena suatu kesalahan."
+
+msgid "User '{0}' deleted."
+msgstr "Pengguna '{0}' dihapus."
+
+msgid "Edit this user"
+msgstr "Ubah pengguna ini"
+
+msgid "Delete this user"
+msgstr "Hapus pengguna ini"
+
+#, fuzzy
+msgid "Publish"
+msgstr ""
+"#-#-#-#-#  django.po (Wagtail)  #-#-#-#-#\n"
+"Publikasikan\n"
+"#-#-#-#-#  django.po (Wagtail)  #-#-#-#-#\n"
+"Publikasi"
+
+msgid "Submit for moderation"
+msgstr "Kirim untuk dimoderasi"
+
+msgid "Resubmit to {}"
+msgstr "Pengajuan ulang ke {}"
+
+msgid "Submit to {}"
+msgstr "Pengajuan ke {}"
+
+msgid "Restart workflow "
+msgstr "Restart alur kerja"
+
+msgid "Cancel workflow "
+msgstr "Batalkan alur kerja"
+
+#, fuzzy
+msgid "Unpublish"
+msgstr ""
+"#-#-#-#-#  django.po (Wagtail)  #-#-#-#-#\n"
+"Tarik publikasi\n"
+"#-#-#-#-#  django.po (Wagtail)  #-#-#-#-#\n"
+"Batal Publikasi"
+
+msgid "Lock"
+msgstr "Kunci"
+
+msgid "Apply editor lock"
+msgstr "Terapkan kunci editor"
+
+msgid "Unlock"
+msgstr "Buka kunci"
+
+msgid "Save Draft"
+msgstr "Simpan konsep"
+
+msgid "Page locked"
+msgstr "Halaman dikunci"
+
+#, python-format
+msgid "%(label)s and Publish"
+msgstr "%(label)s dan Publikasikan"
+
+msgid "Wagtail admin"
+msgstr "Wagtail admin"
+
+msgid "Sorry, you do not have permission to access this area."
+msgstr "Maaf, Anda tidak memiliki izin untuk mengakses area ini"
+
+msgid "You do not have permission to access the admin"
+msgstr "Anda tidak memiliki izin untuk mengakses pengelolaan"
+
+msgid "None"
+msgstr "Tidak ada"
+
+msgid "Scheduled publishing"
+msgstr "Penerbitan terjadwal"
+
+msgid "Privacy"
+msgstr "Privasi"
+
+msgid "Content"
+msgstr "Konten"
+
+msgid "Promote"
+msgstr "Promosikan"
+
+msgid "Settings"
+msgstr "Pengaturan"
+
+msgid "Date from"
+msgstr "Tanggal awal"
+
+msgid "Date to"
+msgstr "Tanggal akhir"
+
+msgid "All"
+msgstr "Semua"
+
+msgid "Preferred language"
+msgstr "Bahasa pilihan"
+
+msgid "Current time zone"
+msgstr "Zona waktu saat ini"
+
+msgid "Upload a profile picture"
+msgstr "Unggah gambar profil"
+
+msgid "Enter password"
+msgstr "Masukkan kata sandi"
+
+#, python-format
+msgid "Enter your %s"
+msgstr "Masukkan %s anda"
+
+msgid "Enter your email address to reset your password"
+msgstr "Masukkan alamat surel untuk atur ulang kata sandi anda"
+
+msgid "URL"
+msgstr "URL"
+
+msgid "Parent"
+msgstr "Induk"
+
+msgid "You cannot have multiple permission records for the same collection."
+msgstr ""
+"Anda tidak boleh memiliki lebih dari satu izin untuk koleksi yang sama."
+
+msgid "Collection"
+msgstr "Koleksi"
+
+msgid "New title"
+msgstr "Judul baru"
+
+msgid "New slug"
+msgstr "Slug baru"
+
+msgid "New parent page"
+msgstr "Halaman induk baru"
+
+msgid "This copy will be a child of this given parent page."
+msgstr "Salinan ini akan menjadi turunan dari halaman induk ini."
+
+msgid "Copy subpages"
+msgstr "Salin sub-halaman"
+
+#, python-format
+msgid "This will copy %(count)s subpage."
+msgid_plural "This will copy %(count)s subpages."
+msgstr[0] "Akan menyalin %(count)s sub-halaman."
+
+msgid "Publish copied page"
+msgstr "Terbitkan halaman yang telah disalin"
+
+msgid "This page is live. Would you like to publish its copy as well?"
+msgstr ""
+"Halaman ini terpublikasi. Apakah anda ingin mempublikasi salinnya juga?"
+
+msgid "Publish copies"
+msgstr "Salinan terpublikasi"
+
+#, python-format
+msgid ""
+"%(count)s of the pages being copied is live. Would you like to publish its "
+"copy?"
+msgid_plural ""
+"%(count)s of the pages being copied are live. Would you like to publish "
+"their copies?"
+msgstr[0] ""
+"Sejumlah %(count)s halaman yang disalin telah terpublikasi. Apakah anda akan "
+"mempublikasi salinannya juga?"
+
+msgid "Alias"
+msgstr "Alias"
+
+#, python-format
+msgid "You do not have permission to copy to page \"%(page_title)s\""
+msgstr "Anda tidak memiliki izin untuk menyalin ke halaman \"%(page_title)s\""
+
+#, python-format
+msgid ""
+"This slug is already in use within the context of its parent page \"%s\""
+msgstr "Slug ini telah digunakan dalam konteks halaman induk \"%s\""
+
+msgid "You cannot copy a page into itself when copying subpages"
+msgstr ""
+"Ketika melakukan penyalinan sub-halaman, anda tidak dapat menyalin sebuah "
+"halaman ke dirinya sendiri "
+
+#, fuzzy
+msgid "This slug is already in use"
+msgstr ""
+"#-#-#-#-#  django.po (Wagtail)  #-#-#-#-#\n"
+"Slug ini telah digunakan\n"
+"#-#-#-#-#  django.po (Wagtail)  #-#-#-#-#\n"
+"Slug ini telah dipakai"
+
+msgid "Go live date/time must be before expiry date/time"
+msgstr "Waktu publikasi harus diatur sebelum waktu kadaluarsa"
+
+msgid "Expiry date/time must be in the future"
+msgstr "Waktu kadaluarsa harus di masa depan"
+
+msgid "Search"
+msgstr "Pencarian"
+
+msgid "Search term"
+msgstr "Kata kunci pencarian"
+
+msgid "Visibility"
+msgstr "Visibilitas"
+
+#, fuzzy
+msgid "This field is required."
+msgstr ""
+"#-#-#-#-#  django.po (Wagtail)  #-#-#-#-#\n"
+"Kolom ini  harus diisi.\n"
+"#-#-#-#-#  django.po (Wagtail)  #-#-#-#-#\n"
+"Kolom ini harus diisi."
+
+msgid "Please select at least one group."
+msgstr "Harap memilih minimal satu grup."
+
+msgid "All types"
+msgstr "Semua tipe"
+
+msgid "Pages"
+msgstr "Halaman"
+
+msgid "Loading…"
+msgstr "Memuat..."
+
+msgid "No results"
+msgstr "Tidak ada hasil"
+
+msgid "Server Error"
+msgstr "Galat pada Server"
+
+msgid "See all"
+msgstr "Lihat semua"
+
+msgid "Close explorer"
+msgstr "Tutup penjelajah"
+
+msgid "Alt text"
+msgstr "Teks alt"
+
+msgid "Write here…"
+msgstr "Tulis disini..."
+
+msgid "Horizontal line"
+msgstr "Garis horizontal"
+
+msgid "Line break"
+msgstr "Akhir baris"
+
+msgid "Undo"
+msgstr "Urungkan"
+
+msgid "Redo"
+msgstr "Ulangi"
+
+msgid "Reload the page"
+msgstr "Muat ulang halaman"
+
+msgid "Reload saved content"
+msgstr "Muat ulang konten tersimpan"
+
+msgid "Show latest content"
+msgstr "Tampilkan konten terbaru"
+
+msgid "Show error"
+msgstr "Tampilkan error"
+
+msgid ""
+"The editor just crashed. Content has been reset to the last saved version."
+msgstr ""
+"Editor telah gagal. Konten telah dipasang ulang dengan versi terakhir yang "
+"disimpan."
+
+msgid "Close"
+msgstr "Tutup"
+
+msgid "Edit '{title}'"
+msgstr "Ubah '{title}'"
+
+msgid "Page explorer"
+msgstr "Perambah halaman"
+
+msgid "Saving..."
+msgstr "Menyimpan..."
+
+msgid "Comment"
+msgstr "Komentar"
+
+msgid "Dashboard"
+msgstr "Dasbor"
+
+msgid "Edit your account"
+msgstr "Ubah akun Anda"
+
+msgid "Error 404: Page not found"
+msgstr "Galat 404: Halaman tidak ditemukan"
+
+msgid "Error 404"
+msgstr "Galat 404"
+
+msgid "The requested page could not be found."
+msgstr "Tidak dapat menemukan halaman yang diminta."
+
+msgid "Go to Wagtail admin"
+msgstr "Pergi ke pengelolaan Wagtail"
+
+msgid "Change password"
+msgstr "Ganti kata sandi"
+
+msgid ""
+"Your password can't be changed here. Please contact a site administrator."
+msgstr ""
+"Kata sandi Anda tidak dapat diubah di sini. Harap hubungi pengelola situs."
+
+msgid "Reset password"
+msgstr "Atur ulang kata sandi"
+
+msgid "Password change successful"
+msgstr "Kata sandi berhasil diubah"
+
+msgid "Login"
+msgstr "Masuk"
+
+msgid "Set your new password"
+msgstr "Atur kata sandi baru Anda"
+
+msgid "Invalid password reset link"
+msgstr "Tautan atur ulang kata sandi tidak valid"
+
+msgid ""
+"The password reset link was invalid, possibly because it has already been "
+"used."
+msgstr ""
+"Tautan pengaturan ulang kata sandi tidak valid, mungkin karena sudah "
+"digunakan."
+
+msgid "Request a new password reset"
+msgstr "Buat permohonan atur ulang kata sandi baru"
+
+msgid "Check your email"
+msgstr "Periksa surel Anda"
+
+msgid ""
+"A link to reset your password has been emailed to you if an account exists "
+"for this address."
+msgstr ""
+"Tautan untuk mengatur ulang kata sandi Anda telah dikirim melalui surel "
+"kepada Anda jika ada akun untuk alamat ini."
+
+msgid "Please follow the link below to reset your password:"
+msgstr "Harap ikuti tautan di bawah ini untuk mengatur ulang kata sandi anda:"
+
+msgid "Your username (in case you've forgotten):"
+msgstr "Nama akun anda (jaga-jaga bila anda lupa):"
+
+msgid "Password reset"
+msgstr "Pengaturan ulang kata sandi"
+
+msgid "Reset your password"
+msgstr "Atur ulang kata sandi Anda"
+
+msgid "Menu"
+msgstr "Menu"
+
+msgid "Explorer"
+msgstr "Penjelajah"
+
+msgid "Internal link"
+msgstr "Tautan dalam"
+
+msgid "External link"
+msgstr "Tautan luar"
+
+msgid "Email link"
+msgstr "Tautan surel"
+
+#, python-format
+msgid ""
+"\n"
+"        There is %(counter)s match\n"
+"    "
+msgid_plural ""
+"\n"
+"        There are %(counter)s matches\n"
+"    "
+msgstr[0] ""
+"\n"
+"Ada %(counter)s yang sesuai"
+
+msgid "Choose"
+msgstr "Pilih"
+
+msgid "Choose a page"
+msgstr "Pilih halaman"
+
+#, python-format
+msgid ""
+"\n"
+"                Only pages of type \"%(type)s\" may be chosen for this "
+"field. Search results will exclude pages of other types.\n"
+"                "
+msgid_plural ""
+"\n"
+"                Only the following page types may be chosen for this field: "
+"%(type)s. Search results will exclude pages of other types.\n"
+"            "
+msgstr[0] ""
+"\n"
+"                Hanya jenis halaman berikut yang dapat dipilih untuk kolom "
+"ini: %(type)s. Halaman dengan tipe lain tidak akan ditampilkan dalam hasil "
+"pencarian.\n"
+"            "
+
+msgid "Add an email link"
+msgstr "Tambahkan tautan surel"
+
+msgid "Insert link"
+msgstr "Sisipkan tautan"
+
+msgid "Add an external link"
+msgstr "Tambahkan tautan luar"
+
+msgid "Collection privacy"
+msgstr "Privasi koleksi"
+
+msgid "This collection has been made private by a parent collection."
+msgstr "Koleksi ini diubah menjadi bersifat pribadi oleh halaman induknya."
+
+msgid "You can edit the privacy settings on:"
+msgstr "Anda dapat mengubah konfigurasi privasi pada:"
+
+msgid ""
+"Privacy settings determine who is able to view documents in this collection."
+msgstr ""
+"Konfigurasi privasi menentukan siapa yang dapat melihat isi dokumen dalam "
+"koleksi ini."
+
+msgid "Public"
+msgstr "Publik"
+
+msgid "Private"
+msgstr "Bersifat Pribadi"
+
+msgid ""
+"This collection cannot be deleted, because it is not empty. It contains:"
+msgstr ""
+"Koleksi ini tidak kosong sehingga tidak dapat dihapus. Koleksi ini berisi:"
+
+#, python-format
+msgid ""
+"No collections have been created. Why not <a href=\"%(add_collection_url)s"
+"\">add one</a>?"
+msgstr ""
+"Belum ada koleksi. Bagaimana kalau <a href=\"%(add_collection_url)s"
+"\">membuat sebuah koleksi</a>?"
+
+#, python-format
+msgid "Add %(label)s"
+msgstr "Tambah %(label)s"
+
+msgid "Move up"
+msgstr "Geser ke atas"
+
+msgid "Move down"
+msgstr "Geser ke bawah"
+
+msgid "Update"
+msgstr "Perbarui"
+
+#, python-format
+msgid "Welcome to the %(site_name)s Wagtail CMS"
+msgstr "Selamat datang di %(site_name)s Wagtail CMS"
+
+msgid ""
+"This is your dashboard on which helpful information about content you've "
+"created will be displayed."
+msgstr ""
+"Ini adalah dasbor Anda. Di sini akan ditampilkan informasi yang berguna "
+"mengenai konten yang Anda buat,"
+
+msgid "Title"
+msgstr "Judul"
+
+msgid "Edit this page"
+msgstr "Ubah halaman ini"
+
+msgid "Draft"
+msgstr "Konsep"
+
+msgid "Live"
+msgstr "Terpublikasi"
+
+msgid "Pages awaiting moderation"
+msgstr "Halaman yang sedang menunggu moderasi"
+
+msgid "Type"
+msgstr "Tipe"
+
+msgid "Edited"
+msgstr "Telah diubah"
+
+msgid "Preview this page"
+msgstr "Pratinjau halaman ini"
+
+msgid "Approve"
+msgstr "Menyetujui"
+
+msgid "Reject"
+msgstr "Tolak"
+
+msgid "Preview"
+msgstr "Pratinjau"
+
+msgid "Your most recent edits"
+msgstr "Perubahan terakhir yang anda lakukan"
+
+msgid "Date"
+msgstr "Tanggal"
+
+msgid "Site summary"
+msgstr "Ringkasan situs"
+
+msgid "Awaiting"
+msgstr "Menunggu"
+
+msgid "Awaiting your review"
+msgstr "Menunggu tinjauan anda"
+
+msgid "Sign in"
+msgstr "Masuk"
+
+#, python-format
+msgid "Your %(username_field)s and password didn't match. Please try again."
+msgstr ""
+"%(username_field)s dan kata sandi anda tidak cocok. Silakan coba kembali."
+
+msgid "Sign in to Wagtail"
+msgstr "Masuk ke Wagtail"
+
+msgid "Signing in…"
+msgstr "Melakukan Sign In..."
+
+#, python-format
+msgid "The page \"%(title)s\" has been approved."
+msgstr "Halaman \"%(title)s\" telah disetujui."
+
+msgid "You can view the page here:"
+msgstr "Anda dapat melihat halaman tersebut disini:"
+
+#, python-format
+msgid "The page \"%(title)s\" has been approved"
+msgstr "Halaman \"%(title)s\" telah disetujui"
+
+#, python-format
+msgid "Hello %(username)s,"
+msgstr "Apa kabar %(username)s,"
+
+msgid "Edit your notification preferences here:"
+msgstr "Atur preferensi notifikasi anda disini:"
+
+#, python-format
+msgid "The page \"%(title)s\" has been rejected."
+msgstr "Halaman \"%(title)s\" ditolak."
+
+msgid "You can edit the page here:"
+msgstr "Anda dapat mengubah halaman tersebut disini:"
+
+#, python-format
+msgid "The page \"%(title)s\" has been rejected"
+msgstr "Halaman \"%(title)s\" ditolak"
+
+#, python-format
+msgid "The page \"%(page)s\" has been submitted for moderation by %(editor)s."
+msgstr "Halaman \"%(page)s\" telah dikirim oleh %(editor)s untuk dimoderasi."
+
+msgid "You can preview the page here:"
+msgstr "Anda dapat meninjau halaman tersebut disini:"
+
+#, python-format
+msgid "The page \"%(page)s\" has been submitted for moderation"
+msgstr "Halaman \"%(page)s\" telah dikirim untuk dimoderasi"
+
+msgid "Page privacy"
+msgstr "Privasi halaman"
+
+msgid "This page has been made private by a parent page."
+msgstr ""
+"Halaman ini telah dibuat menjadi bersifat pribadi oleh halaman induknya."
+
+msgid "Privacy changes apply to all children of this page too."
+msgstr ""
+"Perubahan privasi juga berlaku untuk semua keturunan dari halaman induk ini."
+
+msgid "Publishing…"
+msgstr "Mempublikasikan..."
+
+msgid "Saving…"
+msgstr "Menyimpan..."
+
+msgid "Replace current draft"
+msgstr "Gantikan konsep saat ini"
+
+msgid "Save draft"
+msgstr "Simpan konsep"
+
+#, python-format
+msgid "Create a page in %(title)s"
+msgstr "Buat halaman dalam %(title)s"
+
+msgid "Create a page in"
+msgstr "Buat halaman dalam"
+
+msgid "Choose which type of page you'd like to create."
+msgstr "Pilih jenis halaman yang akan anda buat."
+
+#, python-format
+msgid "Pages using %(page_type)s"
+msgstr "Halaman yang menggunakan %(page_type)s"
+
+msgid "Move"
+msgstr "Pindahkan"
+
+msgid "No, don't unpublish"
+msgstr "Tidak, jangan tarik publikasi"
+
+#, python-format
+msgid "Delete %(title)s"
+msgstr "Hapus %(title)s"
+
+msgid "Are you sure you want to delete this page?"
+msgstr "Apakah Anda yakin ingin menghapus halaman ini?"
+
+#, python-format
+msgid ""
+"\n"
+"                    This will also delete one more subpage.\n"
+"                "
+msgid_plural ""
+"\n"
+"                    This will also delete %(descendant_count)s more "
+"subpages.\n"
+"                "
+msgstr[0] ""
+"\n"
+"Aksi ini juga akan menghapus %(descendant_count)s sub-halaman."
+
+msgid "Yes, delete it"
+msgstr "Ya, hapuslah"
+
+msgid "No, don't delete it"
+msgstr "Tidak, jangan dihapus"
+
+#, python-format
+msgid ""
+"Alternatively you can <a href=\"%(unpublish_url)s\">unpublish the page</a>. "
+"This removes the page from public view and you can edit or publish it again "
+"later."
+msgstr ""
+"Sebagai alternatif anda dapat <a href=\"%(unpublish_url)s\">menarik "
+"publikasi halaman tersebut</a>. Hal ini akan menghilangkan halaman tersebut "
+"dari tampilan publik dan anda dapat mengubah atau mempublikasikan ulang di "
+"kemudian hari."
+
+#, python-format
+msgid "Move %(title)s"
+msgstr "Pindahkan %(title)s"
+
+#, python-format
+msgid "Are you sure you want to move this page into '%(title)s'?"
+msgstr "Apakah anda yakin ingin memindahkan halaman ini ke dalam '%(title)s'?"
+
+#, python-format
+msgid ""
+"Are you sure you want to move this page and all of its children into "
+"'%(title)s'?"
+msgstr ""
+"Apakah anda yakin untuk memindahkan halaman ini dan keturunannya ke dalam "
+"'%(title)s'?"
+
+msgid "Yes, move this page"
+msgstr "Ya, pindahkan halaman ini"
+
+#, python-format
+msgid "Unpublish %(title)s"
+msgstr "Tarik publikasi %(title)s"
+
+msgid "Are you sure you want to unpublish this page?"
+msgstr "Apakan anda yakin akan menarik publikasi halaman ini?"
+
+#, python-format
+msgid ""
+"\n"
+"                    This page has one subpage. Unpublish this too\n"
+"                "
+msgid_plural ""
+"\n"
+"                    This page has %(live_descendant_count)s subpages. "
+"Unpublish these too\n"
+"                "
+msgstr[0] ""
+"\n"
+"                    Halaman ini memiliki %(live_descendant_count)s sub-"
+"halaman. Tarik publikasi mereka juga\n"
+"                "
+
+msgid "Yes, unpublish it"
+msgstr "Ya, tarik publikasi"
+
+#, python-format
+msgid "Pages using %(page_class_verbose_name)s"
+msgstr "Halaman yang menggunakan %(page_class_verbose_name)s"
+
+msgid "Pages using"
+msgstr "Halaman yang menggunakan"
+
+#, python-format
+msgid "Copy %(title)s"
+msgstr "Salin %(title)s"
+
+msgid "Copy"
+msgstr "Salin"
+
+msgid "Copy this page"
+msgstr "Salin halaman ini"
+
+#, python-format
+msgid "New %(page_type)s"
+msgstr "%(page_type)s baru"
+
+msgid "New"
+msgstr "Baru"
+
+msgid "This page has unsaved changes."
+msgstr "Terdapat perubahan yang belum disimpan dalam halaman ini."
+
+#, python-format
+msgid "Editing %(page_type)s: %(title)s"
+msgstr "Mengubah %(page_type)s: %(title)s"
+
+msgid "Live version"
+msgstr "Versi aktif"
+
+msgid "Current draft"
+msgstr "Konsep saat ini"
+
+#, python-format
+msgid "Exploring %(title)s"
+msgstr "Menjelajah %(title)s"
+
+msgid "Drag"
+msgstr "Seret"
+
+msgid "Updated"
+msgstr "Telah diubah"
+
+msgid ""
+"\n"
+"                            The root level is where you can add new sites to "
+"your Wagtail installation. Pages created here will not be accessible at any "
+"URL until they are associated with a site.\n"
+"                        "
+msgstr ""
+"\n"
+"                            Tingkat dasar merupakan tempat dimana anda dapat "
+"menambahkan situs baru pada instalasi Wagtail anda. Halaman yang dibuat di "
+"sini tidak dapat diakses melalui URL apapun sampai mereka diasosiasikan "
+"dengan suatu situs.\n"
+"                        "
+
+msgid "Configure a site now."
+msgstr "Atur sebuah situs sekarang."
+
+msgid ""
+"\n"
+"                            If you just want to add pages to an existing "
+"site, create them as children of the homepage instead.\n"
+"                        "
+msgstr ""
+"\n"
+"                            Kalau anda hanya ingin menambahkan halaman baru "
+"ke dalam situs yang telah ada, buatlah halaman baru tersebut sebagai turunan "
+"dari laman utama.\n"
+"                        "
+
+msgid ""
+"\n"
+"                        Pages created here will not be accessible at any "
+"URL. To add pages to an existing site, create them as children of the "
+"homepage.\n"
+"                    "
+msgstr ""
+"\n"
+"                        Halaman yang dibuat di sini tidak dapat diakses dari "
+"URL manapun. Untuk menambah halaman ke situs yang sudah ada, buatlah halaman "
+"tersebut sebagai turunan dari laman utama..\n"
+"                    "
+
+msgid ""
+"\n"
+"                        There is no site set up for this location. Pages "
+"created here will not be accessible at any URL until a site is associated "
+"with this location.\n"
+"                    "
+msgstr ""
+"\n"
+"                        Tidak ada situs yang diatur di lokasi ini. Halaman "
+"yang dibuat di sini tidak akan dapat diakses dari URL manapun sampai ada "
+"sebuah situs yang diasosiasikan dengan lokasi ini\n"
+"                    "
+
+msgid ""
+"\n"
+"                        There is no site record for this location. Pages "
+"created here will not be accessible at any URL.\n"
+"                    "
+msgstr ""
+"\n"
+"                        Lokasi ini tidak memiliki catatan situs. Halaman "
+"yang dibuat di sisni tidak dapat diakses dari URL manapun.\n"
+"                    "
+
+msgid "No pages have been created at this location."
+msgstr "Tidak ada halaman  yang dibuat di lokasi ini."
+
+#, python-format
+msgid "Why not <a href=\"%(add_page_url)s\">create one</a>?"
+msgstr "Bagaimana kalau <a href=\"%(add_page_url)s\">buat sebuah</a>?"
+
+msgid "This page is locked to further editing"
+msgstr "Halaman ini dikunci sehingga tidak dapat diubah"
+
+#, python-format
+msgid "Explore subpages of '%(title)s'"
+msgstr "Menjelajah sub-halaman dari '%(title)s'"
+
+msgid "Explore"
+msgstr "Jelajahi"
+
+#, python-format
+msgid "Explore child pages of '%(title)s'"
+msgstr "Jelajahi halaman turunan dari '%(title)s'"
+
+#, python-format
+msgid "Add a child page to '%(title)s'"
+msgstr "Tambahkan halaman turunan ke '%(title)s'"
+
+msgid "Add child page"
+msgstr "Tambahkan halaman turunan"
+
+msgid "Sites menu"
+msgstr "Menu situs"
+
+#, python-format
+msgid ""
+"\n"
+"        Page %(page_number)s of %(num_pages)s.\n"
+"    "
+msgstr ""
+"\n"
+"        Halaman %(page_number)s dari %(num_pages)s.\n"
+"    "
+
+msgid "Previous"
+msgstr "Sebelumnya"
+
+msgid "Next"
+msgstr "Berikutnya"
+
+msgid "This page is protected from public view"
+msgstr "Halaman ini tidak tampak oleh publik"
+
+msgid "Disable ordering of child pages"
+msgstr "Nonaktifkan pengurutan halaman turunan "
+
+msgid "Enable ordering of child pages"
+msgstr "Aktifkan pengurutan halaman turunan"
+
+#, python-format
+msgid "Select a new parent page for %(title)s"
+msgstr "Pilih halaman induk baru untuk %(title)s"
+
+#, python-format
+msgid "Select a new parent page for <span>%(title)s</span>"
+msgstr "Pilih halaman induk baru untuk <span>%(title)s</span>"
+
+msgid "Preview error"
+msgstr "Galat pratinjau"
+
+msgid ""
+"\n"
+"                Impossible to preview this page, some errors are remaining.\n"
+"                Please close this tab, edit the page to fix these errors,\n"
+"                then use preview again.\n"
+"            "
+msgstr ""
+"\n"
+"                Tidak dapat menampilkan pratinjau halaman ini, masih ada "
+"galat tersisa.\n"
+"                Harap tutup tab ini, ubah halaman tersebut untuk memperbaiki "
+"galat yang ada,\n"
+"                setelah itu tampilkan pratinjau lagi.\n"
+"            "
+
+msgid "Cancel scheduled publish"
+msgstr "Batalkan publikasi terjadwal"
+
+#, python-format
+msgid "Comparing %(title)s"
+msgstr "Membandingkan %(title)s"
+
+msgid "Comparing"
+msgstr "Membandingkan"
+
+msgid "Fields"
+msgstr "Kolom-kolom"
+
+msgid "Changes"
+msgstr "Perubahan"
+
+#, python-format
+msgid ""
+"\n"
+"                                                            Moved down 1 "
+"place.\n"
+"                                                        "
+msgid_plural ""
+"\n"
+"                                                            Moved down "
+"%(counter)s places.\n"
+"                                                        "
+msgstr[0] ""
+"\n"
+"                                                            Geser ke bawah "
+"%(counter)s kali.\n"
+"                                                        "
+
+#, python-format
+msgid ""
+"\n"
+"                                                            Moved up 1 "
+"place.\n"
+"                                                        "
+msgid_plural ""
+"\n"
+"                                                            Moved up "
+"%(counter)s places.\n"
+"                                                        "
+msgstr[0] ""
+"\n"
+"                                                            Geser ke atas "
+"%(counter)s kali.\n"
+"                                                        "
+
+#, python-format
+msgid "Unschedule Revision %(revision.id)s for %(title)s"
+msgstr "Hapus Jadwal Revisi %(revision.id)s untuk %(title)s"
+
+msgid "Unschedule"
+msgstr "Hapus Jadwal"
+
+msgid "Are you sure you want to unschedule this revision?"
+msgstr "Apakah Anda yakin untuk menghapus jadwal pada revisi ini?"
+
+msgid "Yes, unschedule"
+msgstr "Ya, hapus jadwal"
+
+msgid "No, don't unschedule"
+msgstr "Tidak, jangan hapus jadwal"
+
+#, python-format
+msgid "Revisions of %(title)s"
+msgstr "Revisi dari %(title)s"
+
+msgid "Revisions of"
+msgstr "Revisi dari"
+
+msgid "Revision date"
+msgstr "Tanggal revisi"
+
+msgctxt "points to a user who created a revision"
+msgid "by"
+msgstr "oleh"
+
+msgid "Scheduled for"
+msgstr "Dijadwalkan untuk"
+
+msgid "No revisions of this page exist"
+msgstr "Halaman ini tidak memiliki revisi"
+
+msgid "No revision of this page exist"
+msgstr "Halaman ini tidak memiliki revisi"
+
+#, python-format
+msgid ""
+"\n"
+"                There is one matching page\n"
+"            "
+msgid_plural ""
+"\n"
+"                There are %(counter)s matching pages\n"
+"            "
+msgstr[0] ""
+"\n"
+"                Ada %(counter)s halaman yang sesuai\n"
+"            "
+
+msgid "Page types"
+msgstr "Jenis Halaman"
+
+msgid "Enter a search term above"
+msgstr "Masukkan kata kunci pencarian di atas"
+
+msgid "No pages use"
+msgstr "Tidak ada halaman yang menggunakan"
+
+msgid "Started at"
+msgstr "Dimulai pada"
+
+msgid "Download CSV"
+msgstr "Unduh CSV"
+
+msgid "Filter"
+msgstr "Saring"
+
+msgid "Locked"
+msgstr "Terkunci"
+
+msgid "Edit this item"
+msgstr "Ubah ini"
+
+msgid "Workflow"
+msgstr "Alur Kerja"
+
+msgid "Completed at"
+msgstr "Diselesaikan pada"
+
+#, python-format
+msgid "Page %(page_num)s of %(total_pages)s."
+msgstr "Halaman %(page_num)s dari %(total_pages)s."
+
+msgid "Root"
+msgstr "Dasar"
+
+msgid "Home"
+msgstr "Beranda"
+
+msgid "All collections"
+msgstr "Semua koleksi"
+
+msgid "Account settings"
+msgstr "Pengaturan Akun"
+
+msgid "Log out"
+msgstr "Keluar"
+
+msgid "Other searches"
+msgstr "Pencarian yang lain"
+
+msgid "Add a child page"
+msgstr "Tambah turunan halaman"
+
+msgid "Show in Explorer"
+msgstr "Tampilkan di Penjelajah"
+
+#, python-format
+msgid "by %(modified_by)s"
+msgstr "oleh %(modified_by)s"
+
+msgid "Compare with live version"
+msgstr "Bandingkan dengan versi aktif"
+
+msgid "More"
+msgstr "Lainnya"
+
+msgid "live"
+msgstr "aktif"
+
+msgid "draft"
+msgstr "konsep"
+
+msgid "live + draft"
+msgstr "aktif + konsep"
+
+msgid "Test"
+msgstr "Uji"
+
+msgid "You have been successfully logged out."
+msgstr "Anda berhasil keluar."
+
+msgid "Collections"
+msgstr "Koleksi-koleksi"
+
+msgid "Add a collection"
+msgstr "Tambah sebuah koleksi"
+
+msgid "Add collection"
+msgstr "Tambah koleksi"
+
+msgid "Collection '{0}' created."
+msgstr "Koleksi '{0}' telah dibuat."
+
+msgid "Collection '{0}' updated."
+msgstr "Koleksi '{0}' diperbarui."
+
+msgid "The collection could not be saved due to errors."
+msgstr "Koleksi tidak dapat disimpan karena suatu galat."
+
+msgid "Delete collection"
+msgstr "Hapus koleksi"
+
+msgid "Collection '{0}' deleted."
+msgstr "Koleksi '{0}' telah dihapus."
+
+msgid "Are you sure you want to delete this collection?"
+msgstr "Apakah anda yakin akan menghapus koleksi ini?"
+
+msgid "Page '{0}' and {1} subpages copied."
+msgstr "Telah menyalin halaman '{0}' dan {1} sub-halaman."
+
+msgid "Page '{0}' copied."
+msgstr "Halaman '{0}' telah disalin."
+
+msgid "View draft"
+msgstr "Tampilkan konsep"
+
+msgid "View live"
+msgstr "Tampilkan yang aktif"
+
+msgid "Page '{0}' created."
+msgstr "Halaman '{0}' telah dibuat."
+
+msgid "Page '{0}' created and scheduled for publishing."
+msgstr "Halaman '{0}' telah dibuat dan dijadwalkan untuk dipublikasi."
+
+msgid "Page '{0}' created and published."
+msgstr "Halaman '{0}' telah dibuat dan dipublikasi."
+
+msgid "Page '{0}' created and submitted for moderation."
+msgstr "Halaman '{0}' telah dibuat dan dikirim untuk dimoderasi."
+
+msgid "The page could not be created due to validation errors"
+msgstr "Halaman tersebut tidak dapat dibuat karena tidak lolos validasi."
+
+msgid "Page '{0}' deleted."
+msgstr "Halaman '{0}' dihapus."
+
+msgid "This page is currently awaiting moderation"
+msgstr "Halaman ini menunggu proses moderasi"
+
+msgid "Page '{0}' has been updated."
+msgstr "Halaman '{0}' telah diperbarui."
+
+msgid "Page '{0}' has been scheduled for publishing."
+msgstr "Halaman '{0}' telah dijadwalkan untuk publikasi."
+
+msgid "Page '{0}' has been published."
+msgstr "Halaman '{0}' telah dipublikasi."
+
+msgid "Page '{0}' has been submitted for moderation."
+msgstr "Halaman '{0}' telah dikirim untuk moderasi."
+
+msgid "The page could not be saved as it is locked"
+msgstr "Halaman ini tidak dapat disimpan karena terkunci"
+
+msgid "The page could not be saved due to validation errors"
+msgstr "Halaman ini tidak dapat disimpan karena tidak lolos validasi"
+
+msgid "Page '{0}' is now unlocked."
+msgstr "Halaman '{0}' sekarang tidak dikunci."
+
+msgid "The page '{0}' is not currently awaiting moderation."
+msgstr "Halaman '{0}' tidak dalam proses moderasi."
+
+msgid "Page '{0}' published."
+msgstr "Halaman '{0}' telah dipublikasi."
+
+msgid "Failed to send approval notifications"
+msgstr "Gagal mengirim notifikasi persetujuan"
+
+msgid "Page '{0}' rejected for publication."
+msgstr "Publikasi halaman '{0}' ditolak."
+
+msgid "Failed to send rejection notifications"
+msgstr "Gagal mengirim notifikasi penolakan"
+
+msgid "Page '{0}' moved."
+msgstr "Halaman '{0}' telah dipindah."
+
+msgid "Earliest"
+msgstr "Paling awal"
+
+msgid "Latest"
+msgstr "Paling akhir"
+
+msgid "revision {0} of \"{1}\""
+msgstr "revisi {0} dari \"{1}\""
+
+msgid "Page '{0}' unpublished."
+msgstr "Halaman '{0}' ditarik dari publikasi."
+
+msgid "Show"
+msgstr "Tampilkan"
+
+msgid "Awaiting my review"
+msgstr "Menunggu ulasan saya"
+
+msgid "Report this error to your webmaster with the following information:"
+msgstr "Laporkan kesalahan ini ke webmaster anda dengan informasi berikut:"
+
+msgid "Bulleted list"
+msgstr "Daftar Bullet"
+
+msgid "Numbered list"
+msgstr "Daftar Bernomor"
+
+msgid "Bold"
+msgstr "Bold"
+
+msgid "Italic"
+msgstr "Italic"
+
+msgid "Link"
+msgstr "Tautan"
+
+msgid "Choose an item"
+msgstr "Pilih salah satu"
+
+msgid "Choose another item"
+msgstr "Pilih yang lain"
+
+msgid "Clear choice"
+msgstr "Kosongkan pilihan"
+
+msgid "Choose another page"
+msgstr "Pilih halaman lain"
+
+msgid "Wagtail core"
+msgstr "Wagtail inti"
+
+#, python-format
+msgid "The minimum number of items is %d"
+msgstr "Jumlah isi minimum adalah %d"
+
+#, python-format
+msgid "The maximum number of items is %d"
+msgstr "Jumlah isi maksimum adalah %d"
+
+msgid "This block has no options."
+msgstr "Tidak ada pilihan untuk blok ini."
+
+msgid "The password you have entered is not correct. Please try again."
+msgstr "Kata sandi yang dimasukkan salah. Harap coba lagi."
+
+msgid "title"
+msgstr "judul"
+
+msgid "The page title as you'd like it to be seen by the public"
+msgstr "Judul halaman yang ingin Anda tampilkan ke publik."
+
+msgid "slug"
+msgstr "slug"
+
+msgid ""
+"The name of the page as it will appear in URLs e.g http://domain.com/blog/"
+"[my-slug]/"
+msgstr ""
+"Nama halaman ini yang akan tampil dalam URL, contoh http://namasitus.com/"
+"blog/[judul-slug]/"
+
+msgid "content type"
+msgstr "tipe konten"
+
+msgid "has unpublished changes"
+msgstr "memiliki perubahan yang belum dipublikasi"
+
+msgid "URL path"
+msgstr "jalur URL"
+
+msgid "owner"
+msgstr "pemilik"
+
+msgid "show in menus"
+msgstr "tampilkan dalam menu"
+
+msgid ""
+"Whether a link to this page will appear in automatically generated menus"
+msgstr ""
+"Apakah tautan ke halaman ini akan tampil dalam menu yang dibuat secara "
+"otomatis"
+
+msgid "go live date/time"
+msgstr "tanggal/jam aktif"
+
+msgid "expiry date/time"
+msgstr "tanggal/jam kadaluarsa"
+
+msgid "expired"
+msgstr "kadaluarsa"
+
+msgid "locked"
+msgstr "terkunci"
+
+msgid "locked at"
+msgstr "Terkunci pada"
+
+msgid "locked by"
+msgstr "Dikunci oleh"
+
+msgid "first published at"
+msgstr "pertama kali dipublikasi"
+
+msgid "last published at"
+msgstr "terakhir kali dipublikasi"
+
+msgid "latest revision created at"
+msgstr "revisi terakhir dibuat pada"
+
+msgid "scheduled"
+msgstr "terjadwalkan"
+
+msgid "in moderation"
+msgstr "dalam moderasi"
+
+msgid "live + scheduled"
+msgstr "akitf + terjadwal"
+
+msgid "page"
+msgstr "halaman"
+
+msgid "pages"
+msgstr "halaman-halaman"
+
+msgid "submitted for moderation"
+msgstr "telah dikirim untuk moderasi"
+
+msgid "created at"
+msgstr "dibuat pada"
+
+msgid "user"
+msgstr "pemakai"
+
+msgid "content JSON"
+msgstr "JSON konten"
+
+msgid "approved go live at"
+msgstr "disetujui untuk tampil aktif pada"
+
+msgid "page revision"
+msgstr "revisi halaman"
+
+msgid "page revisions"
+msgstr "daftar revisi halaman"
+
+msgid "Add/edit pages you own"
+msgstr "Tambah/ubah halaman anda sendiri"
+
+msgid "Edit any page"
+msgstr "Ubah halaman apapun"
+
+msgid "Publish any page"
+msgstr "Publikasi halaman manapun"
+
+msgid "Bulk delete"
+msgstr "Hapus dalam jumlah besar"
+
+msgid "Delete pages with children"
+msgstr "Hapus halaman dan turunannya"
+
+msgid "group"
+msgstr "grup"
+
+msgid "permission type"
+msgstr "jenis izin"
+
+msgid "group page permission"
+msgstr "izin grup halaman"
+
+msgid "group page permissions"
+msgstr "izin-izin grup halaman"
+
+msgid "page view restriction"
+msgstr "batasan penampilan halaman"
+
+msgid "page view restrictions"
+msgstr "semua batasan penampilan halaman"
+
+msgid "name"
+msgstr "nama"
+
+msgid "collection"
+msgstr "koleksi"
+
+msgid "collection view restriction"
+msgstr "batasan penampilan koleksi"
+
+msgid "collection view restrictions"
+msgstr "semua batasan penampilan koleksi"
+
+msgid "collections"
+msgstr "koleksi-koleksi"
+
+msgid "permission"
+msgstr "izin"
+
+msgid "group collection permission"
+msgstr "izin grup koleksi"
+
+msgid "hostname"
+msgstr "hostname"
+
+msgid "port"
+msgstr "port"
+
+msgid ""
+"Set this to something other than 80 if you need a specific port number to "
+"appear in URLs (e.g. development on port 8000). Does not affect request "
+"handling (so port forwarding still works)."
+msgstr ""
+"Aturlah ke selain 80 bila Anda perlu menampilkan nomor port dalam URL "
+"(contoh: pengembangan menggunakan port 8000). Hal ini tidak mempengaruhi "
+"penanganan permintaan (sehingga port forwarding tetap berfungsi)."
+
+msgid "site name"
+msgstr "Nama Situs"
+
+msgid "Human-readable name for the site."
+msgstr "Nama situs yang mudah dibaca manusia."
+
+msgid "root page"
+msgstr "halaman akar"
+
+msgid "is default site"
+msgstr "adalah situs utama"
+
+msgid ""
+"If true, this site will handle requests for all other hostnames that do not "
+"have a site entry of their own"
+msgstr ""
+"Bila dipilih, situs ini akan menangani semua permintaan untuk hostname lain "
+"yang tidak memiliki pintu masuk sendiri."
+
+msgid "site"
+msgstr "situs"
+
+msgid "sites"
+msgstr "situs-situs"
+
+msgid "default"
+msgstr "default"
+
+#, python-format
+msgid ""
+"%(hostname)s is already configured as the default site. You must unset that "
+"before you can save this site as default."
+msgstr ""
+"%(hostname)s telah diatur sebagai situs utama. Anda harus menghilangkan "
+"pengaturan tersebut sebelum Anda dapat menyimpan situs ini sebagai yang "
+"utama."
+
+msgid "Private, accessible to logged-in users"
+msgstr "Pribadi, dapat diakses oleh pengguna yang telah masuk"
+
+msgid "Private, accessible with the following password"
+msgstr "Pribadi, dapat diakses menggunakan kata sandi berikut"
+
+msgid "Private, accessible to users in specific groups"
+msgstr "Pribadi, dapat diakses oleh pengguna dalam grup tertentu"
+
+msgid "password"
+msgstr "kata sandi"
+
+msgid "view restriction"
+msgstr "tampilkan batasan"
+
+msgid "view restrictions"
+msgstr "tampilkan semua batasan"
+
+msgid "Log in"
+msgstr "Masuk"
+
+msgid "Your username and password didn't match. Please try again."
+msgstr "Nama pengguna dan kata sandi tidak cocok. Silahkan coba lagi."
+
+msgid ""
+"Your account doesn't have access to this page. To proceed, please log in "
+"with an account that has access."
+msgstr ""
+"Akun anda tidak dapat mengakses halaman ini. Untuk melanjutkan, harap masuk "
+"dengan akun lain yang memiliki hak akses."
+
+msgid "Password required"
+msgstr "Perlu kata sandi"
+
+msgid "You need a password to access this page."
+msgstr "Anda perlu kata sandi untuk mengakses halaman ini."
+
+msgid "Continue"
+msgstr "Lanjut"
+
+msgid "English"
+msgstr "Inggris"
+
+msgid "French"
+msgstr "Perancis"
+
+msgid "German"
+msgstr "Jerman"
+
+msgid "Unlocked"
+msgstr "Kunci terbuka"

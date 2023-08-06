@@ -1,0 +1,1657 @@
+# #-#-#-#-#  django.po (Wagtail)  #-#-#-#-#
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+#
+# Translators:
+# Nick Mavrakis <mavrakis.n@gmail.com>, 2017
+# Wasilis Mandratzis-Walz, 2015
+# 79353a696ad19dc202b261b3067b7640_bec941e, 2015
+# Yiannis Inglessis <negtheone@gmail.com>, 2016
+# #-#-#-#-#  django.po (PACKAGE VERSION)  #-#-#-#-#
+# #-#-#-#-#  django.po (PACKAGE VERSION)  #-#-#-#-#
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+# Translators:
+# George Giannoulopoulos <vdotoree@yahoo.gr>, 2021
+#
+# #-#-#-#-#  django.po (Wagtail)  #-#-#-#-#
+# #-#-#-#-#  django.po (Wagtail)  #-#-#-#-#
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+#
+# Translators:
+# George Giannoulopoulos <vdotoree@yahoo.gr>, 2015
+# 1259f43d2c72e728d4123828a064d8b1_a0361b9 <bfb4ec0fd0f356e078a4985d0184dff2_285455>, 2015
+# Nick Mavrakis <mavrakis.n@gmail.com>, 2017
+# serafeim <serafeim@torchbox.com>, 2014
+# serafeim <serafeim@torchbox.com>, 2014
+# George Giannoulopoulos <vdotoree@yahoo.gr>, 2015
+# Wasilis Mandratzis-Walz, 2015
+# 79353a696ad19dc202b261b3067b7640_bec941e, 2015
+# 1259f43d2c72e728d4123828a064d8b1_a0361b9 <bfb4ec0fd0f356e078a4985d0184dff2_285455>, 2015
+# Yiannis Inglessis <negtheone@gmail.com>, 2016
+# #-#-#-#-#  django.po (Wagtail)  #-#-#-#-#
+# #-#-#-#-#  django.po (Wagtail)  #-#-#-#-#
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+#
+# Translators:
+# jim dal <dimitrisdal@gmail.com>, 2014
+# Nick Mavrakis <mavrakis.n@gmail.com>, 2017
+# serafeim <serafeim@torchbox.com>, 2014
+# serafeim <serafeim@torchbox.com>, 2014,2016
+# 79353a696ad19dc202b261b3067b7640_bec941e, 2015
+# Yiannis Inglessis <negtheone@gmail.com>, 2016
+# #-#-#-#-#  django.po (Wagtail)  #-#-#-#-#
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+#
+# Translators:
+# George Giannoulopoulos <vdotoree@yahoo.gr>, 2015
+# jim dal <dimitrisdal@gmail.com>, 2014
+# Nick Mavrakis <mavrakis.n@gmail.com>, 2017
+# serafeim <serafeim@torchbox.com>, 2014,2016
+# serafeim <serafeim@torchbox.com>, 2014,2016
+# George Giannoulopoulos <vdotoree@yahoo.gr>, 2015
+# Wasilis Mandratzis-Walz, 2015
+# 79353a696ad19dc202b261b3067b7640_bec941e, 2015
+#, fuzzy
+msgid ""
+msgstr ""
+"#-#-#-#-#  django.po (Wagtail)  #-#-#-#-#\n"
+"Project-Id-Version: Wagtail\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-10-15 17:42+0100\n"
+"PO-Revision-Date: 2021-10-15 16:43+0000\n"
+"Last-Translator: Matt Westcott <matthew@torchbox.com>\n"
+"Language-Team: Greek (http://www.transifex.com/torchbox/wagtail/language/"
+"el/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: el\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"#-#-#-#-#  django.po (PACKAGE VERSION)  #-#-#-#-#\n"
+"#-#-#-#-#  django.po (PACKAGE VERSION)  #-#-#-#-#\n"
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-10-15 17:42+0100\n"
+"PO-Revision-Date: 2020-10-23 10:41+0000\n"
+"Last-Translator: George Giannoulopoulos <vdotoree@yahoo.gr>, 2021\n"
+"Language-Team: Greek (https://www.transifex.com/torchbox/teams/8009/el/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: el\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"#-#-#-#-#  django.po (Wagtail)  #-#-#-#-#\n"
+"#-#-#-#-#  django.po (Wagtail)  #-#-#-#-#\n"
+"Project-Id-Version: Wagtail\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-10-15 17:42+0100\n"
+"PO-Revision-Date: 2021-10-15 16:43+0000\n"
+"Last-Translator: Matt Westcott <matthew@torchbox.com>\n"
+"Language-Team: Greek (http://www.transifex.com/torchbox/wagtail/language/"
+"el/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: el\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"#-#-#-#-#  django.po (Wagtail)  #-#-#-#-#\n"
+"#-#-#-#-#  django.po (Wagtail)  #-#-#-#-#\n"
+"Project-Id-Version: Wagtail\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-10-15 17:42+0100\n"
+"PO-Revision-Date: 2021-10-15 16:43+0000\n"
+"Last-Translator: serafeim <serafeim@torchbox.com>\n"
+"Language-Team: Greek (http://www.transifex.com/torchbox/wagtail/language/"
+"el/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: el\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"#-#-#-#-#  django.po (Wagtail)  #-#-#-#-#\n"
+"Project-Id-Version: Wagtail\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-10-15 17:42+0100\n"
+"PO-Revision-Date: 2021-10-15 16:43+0000\n"
+"Last-Translator: Matt Westcott <matthew@torchbox.com>\n"
+"Language-Team: Greek (http://www.transifex.com/torchbox/wagtail/language/"
+"el/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: el\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+msgid "Choose a root page"
+msgstr "Επιλέξτε μια κεντρική σελίδα"
+
+msgid "Choose a different root page"
+msgstr "Επιλέξτε μια διαφορετική κεντρική σελίδα"
+
+msgid "Sites"
+msgstr "Σελιδες"
+
+msgid "Add a site"
+msgstr "Προσθήκη δικτυακού τόπου"
+
+msgid "Site"
+msgstr "Σελιδα"
+
+msgid "Default?"
+msgstr "Προεπιλογή;"
+
+msgid "Default"
+msgstr "Προεπιλογή"
+
+msgid "Add site"
+msgstr "Προσθήκη δικτυακού τόπου"
+
+msgid "Site '{0}' created."
+msgstr "Δημιουργήθηκε ο δικτυακός τόπος '{0}'."
+
+msgid "Site '{0}' updated."
+msgstr "Ενημέρωση του δικτυακού τόπου '{0}'."
+
+msgid "The site could not be saved due to errors."
+msgstr "Το site δεν αποθηκεύτηκε λόγω σφαλμάτων"
+
+msgid "Delete site"
+msgstr "Διαγραφή site"
+
+msgid "Site '{0}' deleted."
+msgstr "Το site '{0}' διαγράφηκε"
+
+msgid "Are you sure you want to delete this site?"
+msgstr "Είστε σίγουροι ότι θέλετε να διαγράψετε αυτό το site;"
+
+#, fuzzy
+msgid "Yes, delete"
+msgstr ""
+"#-#-#-#-#  django.po (PACKAGE VERSION)  #-#-#-#-#\n"
+"Ναι, να γίνει διαγραφή\n"
+"#-#-#-#-#  django.po (Wagtail)  #-#-#-#-#\n"
+"Ναι, να διαγραφεί"
+
+msgid "Required. 30 characters or fewer. Letters, digits and @/./+/-/_ only."
+msgstr ""
+"Απαραίτητο. Λιγότερο από 30 χαρακτήρες. Επιτρέπονται μόνο γράμματα, αριθμοί "
+"και οι χαρακτήρες @/./+/-/_."
+
+msgid "This value may contain only letters, numbers and @/./+/-/_ characters."
+msgstr ""
+"Η τιμή επιτρέπεται να έχει μόνο γράμματα, αριθμούς και τους χαρακτήρες @/./"
+"+/-/_."
+
+msgid "A user with that username already exists."
+msgstr "Υπάρχει ήδη χρήστης με το συγκεκριμένο όνομα χρήστη."
+
+msgid "The two password fields didn't match."
+msgstr "Τα δύο πεδία κωδικών δεν είναι ίδια."
+
+msgid "Email"
+msgstr "Email"
+
+msgid "First Name"
+msgstr "Όνομα"
+
+msgid "Last Name"
+msgstr "Επίθετο"
+
+msgid "Password"
+msgstr "Κωδικός"
+
+msgid "Leave blank if not changing."
+msgstr "Αφήστε κενό αν δεν το αλλάζετε."
+
+msgid "Password confirmation"
+msgstr "Επιβεβαίωση κωδικού."
+
+msgid "Enter the same password as above, for verification."
+msgstr "Εισάγετε τον ίδιο κωδικό για επιβεβαίωση"
+
+msgid "Administrator"
+msgstr "Διαχειριστής"
+
+msgid "Administrators have full access to manage any object or setting."
+msgstr ""
+"Οι διαχειριστές έχουν πλήρη πρόσβαση στην  διαχείριση κάθε αντικειμένου ή "
+"ρύθμισης. "
+
+msgid "A group with that name already exists."
+msgstr "Υπάρχει ήδη ομάδα με το συγκεκριμένο όνομα ομάδας."
+
+msgid "You cannot have multiple permission records for the same page."
+msgstr "Δε μπορείτε να έχετε πολλαπλά δικαιώματα για την ίδια σελίδα."
+
+msgid "submitted notifications"
+msgstr "υποβληθείσες ειδοποιήσεις"
+
+msgid "Receive notification when a page is submitted for moderation"
+msgstr ""
+"Λήψη ειδοποίησης όταν υποβάλλεται μια σελίδα για επίδειξη μετριοπάθειας"
+
+msgid "approved notifications"
+msgstr "εγκεκριμένες ειδοποιήσεις"
+
+msgid "Receive notification when your page edit is approved"
+msgstr "Λήψη ειδοποίησης όταν σελίδα επεξεργασίας σας έχει εγκριθεί"
+
+msgid "rejected notifications"
+msgstr "απορριφθείσες ειδοποιήσεις"
+
+msgid "Receive notification when your page edit is rejected"
+msgstr "Λήψη ειδοποίησης όταν σελίδα επεξεργασίας σας απορρίπτεται"
+
+msgid "user profile"
+msgstr "προφίλ χρήστη"
+
+msgid "Delete"
+msgstr "Διαγραφή"
+
+msgid "Delete group"
+msgstr "Διαγραφή ομάδας"
+
+#, python-format
+msgid ""
+"\n"
+"                The group '%(group_name)s' has <strong>%(group_user_count)s</"
+"strong> member.\n"
+"            "
+msgid_plural ""
+"\n"
+"                The group '%(group_name)s' has <strong>%(group_user_count)s</"
+"strong> members.\n"
+"            "
+msgstr[0] ""
+"\n"
+"                Η ομάδα '%(group_name)s' έχει <strong>%(group_user_count)s</"
+"strong> μέλη.\n"
+"            "
+msgstr[1] ""
+"\n"
+"                Η ομάδα '%(group_name)s' έχει <strong>%(group_user_count)s</"
+"strong> μέλη.\n"
+"            "
+
+msgid ""
+"Deleting this group will revoke this group's permissions from all member "
+"users."
+msgstr ""
+"Η διαγραφή αυτής της ομάδας θα καταργήσει τα δικαιώματα αυτής της ομάδας από "
+"όλους τους χρήστες "
+
+msgid "Are you sure you want to delete this group?"
+msgstr "Είστε σίγουροι ότι θέλετε να διαγράψετε αυτή την ομάδα;"
+
+msgid "Add group"
+msgstr "Προσθήκη ομαδας"
+
+msgid "Editing"
+msgstr "Διόρθωση"
+
+#, fuzzy
+msgid "Save"
+msgstr ""
+"#-#-#-#-#  django.po (Wagtail)  #-#-#-#-#\n"
+"Αποθήκευση\n"
+"#-#-#-#-#  django.po (Wagtail)  #-#-#-#-#\n"
+"Αποθηκευση"
+
+msgid "Object permissions"
+msgstr " Δικαιώματα αντικειμένου"
+
+msgid "Name"
+msgstr "Όνομα"
+
+msgid "Add"
+msgstr "Προσθήκη"
+
+msgid "Change"
+msgstr "Αλλαγή"
+
+msgid "Other permissions"
+msgstr "Άλλα δικαιώματα"
+
+msgid "Page permissions"
+msgstr "Δικαιώματα στην σελίδα "
+
+msgid "Page"
+msgstr "Σελίδα"
+
+msgid "Add a page permission"
+msgstr "Προσθήκη άδειας σελίδας"
+
+msgid "groups"
+msgstr "ομάδες"
+
+msgid "Add a group"
+msgstr "Προσθήκη ομαδας"
+
+#, python-format
+msgid ""
+"There are no groups configured. Why not <a href="
+"\"%(wagtailusers_create_group_url)s\">add some</a>?"
+msgstr ""
+"There are no groups configured. Why not <a href="
+"\"%(wagtailusers_create_group_url)s\">add some</a>?"
+
+msgid "Delete user"
+msgstr "Διαγραφή χρήστη."
+
+msgid "Are you sure you want to delete this user?"
+msgstr "Είστε σίγουροι ότι θέλετε να διαγράψετε αυτόν τον χρήστη;"
+
+msgid "Add user"
+msgstr "Προσθήκη χρήστη"
+
+msgid "Account"
+msgstr "Λογαριασμός"
+
+msgid "Roles"
+msgstr "Ρόλοι"
+
+msgid "Users"
+msgstr "Χρήστες"
+
+msgid "Add a user"
+msgstr "Προσθήκη χρήστη"
+
+msgid "Username"
+msgstr "Όνομα χρήστη"
+
+msgid "Level"
+msgstr "Επίπεδο"
+
+msgid "Status"
+msgstr "Κατάσταση"
+
+msgid "Admin"
+msgstr "Διαχειριστής"
+
+msgid "Active"
+msgstr "Ενεργός"
+
+msgid "Inactive"
+msgstr "Μη ενεργός"
+
+#, python-format
+msgid "%(time_period)s ago"
+msgstr "πριν από %(time_period)s"
+
+#, python-format
+msgid "Sorry, no users match \"<em>%(query_string)s</em>\""
+msgstr "Λυπούμαστε, δε ταιριάζουν χρήστες με το \"<em>%(query_string)s</em>\""
+
+msgid "Groups"
+msgstr "Ομάδες"
+
+msgid "Search groups"
+msgstr "Αναζήτηση ομαδων"
+
+msgid "Group '{0}' created."
+msgstr "Η ομαδα '{0}' δημιουργήθηκε."
+
+msgid "Group '{0}' updated."
+msgstr "Η ομαδα '{0}' ενημερώθηκε."
+
+msgid "The group could not be saved due to errors."
+msgstr "Δεν ήταν δυνατή η ενημέρωση των στοιχείων της ομαδας"
+
+msgid "Group '{0}' deleted."
+msgstr "Η ομαδα '{0}' διαγράφηκε."
+
+msgid "Search users"
+msgstr "Αναζήτηση χρηστών"
+
+msgid "User '{0}' created."
+msgstr "Ο χρήστης '{0}' δημιουργήθηκε."
+
+msgid "Edit"
+msgstr "Επεξεργασία"
+
+msgid "The user could not be created due to errors."
+msgstr "Δεν ήταν δυνατή η δημιουργία του χρήστη."
+
+msgid "User '{0}' updated."
+msgstr "Τα στοιχεία του χρήστη '{0}' ενημερώθηκαν."
+
+msgid "The user could not be saved due to errors."
+msgstr "Δεν ήταν δυνατή η ενημέρωση των στοιχείων του χρήστη."
+
+msgid "User '{0}' deleted."
+msgstr "Ο χρήστης '{0}' διαγράφηκε."
+
+msgid "Edit this user"
+msgstr "Επεξεργασία αυτού του χρήστη"
+
+msgid "Delete this user"
+msgstr "Διαγραφή αυτού του χρήστη"
+
+#, fuzzy
+msgid "Publish"
+msgstr ""
+"#-#-#-#-#  django.po (Wagtail)  #-#-#-#-#\n"
+"Έκδοση\n"
+"#-#-#-#-#  django.po (Wagtail)  #-#-#-#-#\n"
+"Δημοσίευση"
+
+msgid "Submit for moderation"
+msgstr "Υποβολή για έλεγχο"
+
+#, fuzzy
+msgid "Unpublish"
+msgstr ""
+"#-#-#-#-#  django.po (Wagtail)  #-#-#-#-#\n"
+"Αποέκδοση\n"
+"#-#-#-#-#  django.po (Wagtail)  #-#-#-#-#\n"
+"Κατάργηση δημοσίευσης"
+
+msgid "Lock"
+msgstr "Κλείδωμα"
+
+msgid "Page locked"
+msgstr "Σελίδα κλειδωμένη"
+
+msgid "Sorry, you do not have permission to access this area."
+msgstr "Δεν έχετε πρόσβαση στην περιοχή."
+
+msgid "You do not have permission to access the admin"
+msgstr "Δεν έχετε πρόσβαση στη διαχείριση."
+
+msgid "None"
+msgstr "None"
+
+msgid "Scheduled publishing"
+msgstr "Προγραμματισμενη δημοσιευση"
+
+msgid "Privacy"
+msgstr "Ιδιωτικότητα"
+
+msgid "Content"
+msgstr "Περιεχομενο"
+
+msgid "Promote"
+msgstr "Προωθηση"
+
+msgid "Settings"
+msgstr "Ρυθμισεις"
+
+msgid "Enter password"
+msgstr "Εισάγετε τον κωδικό σας"
+
+#, python-format
+msgid "Enter your %s"
+msgstr "Εισάγετε το %s"
+
+msgid "Enter your email address to reset your password"
+msgstr "Εισάγετε τη διεύθυνση email σας για να ανανεώσετε τον κωδικό σας"
+
+msgid "URL"
+msgstr "URL"
+
+msgid "Parent"
+msgstr "Πατρική"
+
+msgid "You cannot have multiple permission records for the same collection."
+msgstr "Δε μπορείτε να έχετε πολλαπλά δικαιώματα για την ίδια συλλογή"
+
+msgid "Collection"
+msgstr "Συλλογή"
+
+msgid "New title"
+msgstr "Νέος τίτλος"
+
+msgid "New slug"
+msgstr "Νέο slug"
+
+msgid "New parent page"
+msgstr "Νέα κύρια σελίδα"
+
+msgid "This copy will be a child of this given parent page."
+msgstr "Το αντίγραφο αυτό θα είναι μια υποσελίδα αυτής της κύριας σελίδας."
+
+msgid "Copy subpages"
+msgstr "Αντιγραφή υποσελίδων"
+
+#, python-format
+msgid "This will copy %(count)s subpage."
+msgid_plural "This will copy %(count)s subpages."
+msgstr[0] "Αντιγραφή %(count)s υποσελίδας."
+msgstr[1] "Αυτό θα αντιγράψει %(count)s υποσελίδες."
+
+msgid "Publish copied page"
+msgstr "Δημοσίευση αντιγραμμένης σελίδας"
+
+msgid "This page is live. Would you like to publish its copy as well?"
+msgstr "Αυτή η σελίδα είναι live. Θα θέλατε να δημοσιεύθει και αντίγραφο της;"
+
+msgid "Publish copies"
+msgstr "Δημοσίευση αντιγράφων"
+
+#, python-format
+msgid ""
+"%(count)s of the pages being copied is live. Would you like to publish its "
+"copy?"
+msgid_plural ""
+"%(count)s of the pages being copied are live. Would you like to publish "
+"their copies?"
+msgstr[0] ""
+"%(count)s των σελίδων που αντιγράφεται είναι ζωντανο. Θέλετε να δημοσιεύει "
+"το αντίγραφο τους;"
+msgstr[1] ""
+"%(count)s από τις σελίδες που αντιγράφονται είναι live. Θέλετε να "
+"δημοσιεύουν τα αντίγραφα τους;"
+
+#, python-format
+msgid ""
+"This slug is already in use within the context of its parent page \"%s\""
+msgstr "Αυτό το slug χρησιμοποιείται ήδη στην κύρια σελίδα \"%s\""
+
+#, fuzzy
+msgid "This slug is already in use"
+msgstr ""
+"#-#-#-#-#  django.po (Wagtail)  #-#-#-#-#\n"
+"Το slug χρησιμοποιείται\n"
+"#-#-#-#-#  django.po (Wagtail)  #-#-#-#-#\n"
+"Το slug χρησιμοποιείται ήδη"
+
+msgid "Go live date/time must be before expiry date/time"
+msgstr ""
+"Η live ημερομηνία/ώρα πρέπει να είναι πριν από την ημερομηνία/ώρα λήξης"
+
+msgid "Expiry date/time must be in the future"
+msgstr "Η ημερομηνία/ώρα λήξης πρέπει να είναι μελλοντική"
+
+msgid "Search"
+msgstr "Αναζήτηση"
+
+msgid "Search term"
+msgstr "Όρος αναζήτησης"
+
+msgid "Visibility"
+msgstr "Ορατότητα"
+
+msgid "This field is required."
+msgstr "Το πεδίο αυτό είναι απαραίτητο"
+
+msgid "Please select at least one group."
+msgstr "Παρακαλούμε επιλέξτε τουλάχιστον μια ομάδα."
+
+msgid "Pages"
+msgstr "Σελίδες"
+
+msgid "Server Error"
+msgstr "Σφάλμα"
+
+msgid "Edit '{title}'"
+msgstr "Επεξεργασία '{title}'"
+
+msgid "Saving..."
+msgstr "Αποθήκευση..."
+
+msgid "Dashboard"
+msgstr "Πίνακας ελέγχου"
+
+msgid "Edit your account"
+msgstr "Επεξεργαστείτε το λογαριασμό σας"
+
+msgid "Go to Wagtail admin"
+msgstr "Πηγαίνετε στη διαχείριση του Wagtail"
+
+msgid "Change password"
+msgstr "Αλλαγή κωδικού"
+
+msgid ""
+"Your password can't be changed here. Please contact a site administrator."
+msgstr ""
+"Ο κωδικός σας δε μπορεί να αλλαχτεί εδώ. Παρακαλώ ενημερώστε το διαχειριστή."
+
+msgid "Reset password"
+msgstr "Ανανέωση κωδικού"
+
+msgid "Password change successful"
+msgstr "Επιτυχής αλλαγή κωδικού"
+
+msgid "Login"
+msgstr "Σύνδεση"
+
+msgid "Set your new password"
+msgstr "Δημιουργήστε το νέο σας κωδικό"
+
+msgid "Check your email"
+msgstr "Ελέγξατε το email σας"
+
+msgid "Please follow the link below to reset your password:"
+msgstr ""
+"Παρακαλούμε κλικάρετε στο link παρακάτω για να επαναφέρετε τον κωδικό σας:"
+
+msgid "Your username (in case you've forgotten):"
+msgstr "Το όνομα χρήστη σας (σε περίπτωση που το ξεχάσατε):"
+
+msgid "Password reset"
+msgstr "Ανανέωση κωδικού"
+
+msgid "Reset your password"
+msgstr "Ανανεώστε τον κωδικό σας"
+
+msgid "Menu"
+msgstr "Μενού"
+
+msgid "Explorer"
+msgstr "Εξερευνητής"
+
+msgid "Internal link"
+msgstr "Εσωτερική σύνδεση"
+
+msgid "External link"
+msgstr "Εξωτερική σύνδεση"
+
+msgid "Email link"
+msgstr "Σύνδεση με email"
+
+msgid "Choose"
+msgstr "Επιλογή"
+
+msgid "Choose a page"
+msgstr "Επιλογή σελίδας"
+
+#, python-format
+msgid ""
+"\n"
+"                Only pages of type \"%(type)s\" may be chosen for this "
+"field. Search results will exclude pages of other types.\n"
+"                "
+msgid_plural ""
+"\n"
+"                Only the following page types may be chosen for this field: "
+"%(type)s. Search results will exclude pages of other types.\n"
+"            "
+msgstr[0] ""
+"\n"
+"Μόνο σελίδες με τύπο \"%(type)s\" μπορούν να επιλεγούν. Τα αποτελέσματα δε "
+"θα εμφανίσουν σελίδες άλλων τύπων.\n"
+"                "
+msgstr[1] ""
+"\n"
+"Μόνο σελίδες με κάποιον από τους τύπους \"%(type)s\" μπορούν να επιλεγούν. "
+"Τα αποτελέσματα δε θα εμφανίσουν σελίδες άλλων τύπων.\n"
+"                "
+
+msgid "Add an email link"
+msgstr "Προσθήκη σύνδεσης σε email"
+
+msgid "Insert link"
+msgstr "Εισαγωγή σύνδεσης"
+
+msgid "Add an external link"
+msgstr "Προσθήκη εξωτερικής σύνδεσης"
+
+msgid "You can edit the privacy settings on:"
+msgstr "Μπορείτε να επεξεργαστείτε τις ρυθμίσεις απορρήτου στο:"
+
+#, fuzzy
+msgid "Public"
+msgstr ""
+"#-#-#-#-#  django.po (Wagtail)  #-#-#-#-#\n"
+"Δημοσιο\n"
+"#-#-#-#-#  django.po (Wagtail)  #-#-#-#-#\n"
+"Δημόσια"
+
+msgid "Private"
+msgstr "Ιδιωτικό"
+
+msgid ""
+"This collection cannot be deleted, because it is not empty. It contains:"
+msgstr ""
+"Δεν είναι δυνατή η διαγραφή της συλλογής επειδή δεν είναι άδεια και περιέχει "
+"τα εξής:"
+
+#, python-format
+msgid ""
+"No collections have been created. Why not <a href=\"%(add_collection_url)s"
+"\">add one</a>?"
+msgstr ""
+"Δεν υπάρχουν συλλογές. Θέλετε να <a href=\"%(add_collection_url)s"
+"\">προσθέσετε μία</a>;"
+
+#, fuzzy
+msgid "Move up"
+msgstr ""
+"#-#-#-#-#  django.po (Wagtail)  #-#-#-#-#\n"
+"Μετακίνηση πάνω\n"
+"#-#-#-#-#  django.po (Wagtail)  #-#-#-#-#\n"
+"Πάνω"
+
+#, fuzzy
+msgid "Move down"
+msgstr ""
+"#-#-#-#-#  django.po (Wagtail)  #-#-#-#-#\n"
+"Μετακίνηση κάτω\n"
+"#-#-#-#-#  django.po (Wagtail)  #-#-#-#-#\n"
+"Κάτω"
+
+msgid "Update"
+msgstr "Ενημέρωση"
+
+#, python-format
+msgid "Welcome to the %(site_name)s Wagtail CMS"
+msgstr "Καλώς ήρθατε στο %(site_name)s Wagtail CMS"
+
+msgid ""
+"This is your dashboard on which helpful information about content you've "
+"created will be displayed."
+msgstr ""
+"Αυτός είναι ο πίνακας ελέγχου στον οποίο εμφανίζονται πληροφορίες σχετικές "
+"με το περιεχόμενου που έχετε δημιουργήσει."
+
+msgid "Title"
+msgstr "Τίτλος"
+
+msgid "Edit this page"
+msgstr "Διόρθωση της σελίδας"
+
+msgid "Draft"
+msgstr "Draft"
+
+msgid "Live"
+msgstr "Live"
+
+msgid "Pages awaiting moderation"
+msgstr "Σελίδες προς έλεγχο"
+
+msgid "Type"
+msgstr "Τύπος"
+
+msgid "Edited"
+msgstr "Διορθωμένη"
+
+msgid "Approve"
+msgstr "Έγκριση"
+
+msgid "Reject"
+msgstr "Απόρριψη"
+
+msgid "Preview"
+msgstr "Προεπισκόπηση"
+
+msgid "Your most recent edits"
+msgstr "Οι πιο πρόσφατες διορθώσεις σας"
+
+msgid "Date"
+msgstr "Ημερομηνία"
+
+msgid "Site summary"
+msgstr "Κατάσταση site"
+
+msgid "Sign in"
+msgstr "Είσοδος"
+
+#, python-format
+msgid "Your %(username_field)s and password didn't match. Please try again."
+msgstr ""
+"Το %(username_field)s και ο κωδικός δεν ταιριάζουν. Παρακαλούμε δοκιμάστε "
+"ξανά."
+
+msgid "Sign in to Wagtail"
+msgstr "Είσοδος στο Wagtail"
+
+#, python-format
+msgid "The page \"%(title)s\" has been approved."
+msgstr "Η σελίδα \"%(title)s\" εγκρίθηκε."
+
+msgid "You can view the page here:"
+msgstr "Μπορείτε να δείτε τη σελίδα εδώ:"
+
+#, python-format
+msgid "The page \"%(title)s\" has been approved"
+msgstr "Η σελίδα \"%(title)s\" εγκρίθηκε"
+
+#, python-format
+msgid "Hello %(username)s,"
+msgstr "Γεια σας %(username)s,"
+
+msgid "Edit your notification preferences here:"
+msgstr "Επεξεργαστείτε τις προτιμήσεις ειδοποίησης εδώ:"
+
+#, python-format
+msgid "The page \"%(title)s\" has been rejected."
+msgstr "Η σελίδα \"%(title)s\" απορρίφθηκε."
+
+msgid "You can edit the page here:"
+msgstr "Μπορείτε να διορθώστε τη σελίδα εδώ:"
+
+#, python-format
+msgid "The page \"%(title)s\" has been rejected"
+msgstr "Η σελίδα \"%(title)s\" απορρίφθηκε"
+
+#, python-format
+msgid "The page \"%(page)s\" has been submitted for moderation by %(editor)s."
+msgstr ""
+"Η σελίδα \"%(page)s\" έχει υποβληθεί για έλεγχο από τον/την %(editor)s."
+
+msgid "You can preview the page here:"
+msgstr "Μπορείτε να τη δείτε εδώ:"
+
+#, python-format
+msgid "The page \"%(page)s\" has been submitted for moderation"
+msgstr "Η σελίδα \"%(page)s\" στάλθηκε για έλεγχο"
+
+msgid "Page privacy"
+msgstr "Ιδιωτικοτητα σελιδας"
+
+msgid "This page has been made private by a parent page."
+msgstr "Αυτή η σελίδα έχει γίνει ιδιωτική από μια κύρια σελίδα."
+
+msgid "Privacy changes apply to all children of this page too."
+msgstr ""
+"Τυχόν αλλαγές Προστασίας Προσωπικών Δεδομένων θα ισχύουν για όλες τις "
+"υποσελίδες αυτής της σελίδας."
+
+msgid "Saving…"
+msgstr "Γίνεται αποθήκευση…"
+
+msgid "Replace current draft"
+msgstr "Αντικατάσταση του τρέχοντος draft"
+
+msgid "Save draft"
+msgstr "Αποθήκευση σχεδίου"
+
+#, python-format
+msgid "Create a page in %(title)s"
+msgstr "Δημιουργία σελίδας στο %(title)s"
+
+msgid "Create a page in"
+msgstr "Δημιουργία σελίδας στο"
+
+msgid "Choose which type of page you'd like to create."
+msgstr "Επιλέξατε ποιο τύπο σελίδας θέλετε να δημιουργήσετε."
+
+#, python-format
+msgid "Pages using %(page_type)s"
+msgstr "Σελίδες που χρησιμοποιούν το %(page_type)s"
+
+msgid "Move"
+msgstr "Μετακίνηση"
+
+msgid "No, don't unpublish"
+msgstr "Όχι, να μην γίνει κατάργηση της δημοσίευσης  "
+
+#, python-format
+msgid "Delete %(title)s"
+msgstr "Διαγραφή %(title)s"
+
+msgid "Are you sure you want to delete this page?"
+msgstr "Θέλετε να διαγράψετε τη σελίδα;"
+
+#, python-format
+msgid ""
+"\n"
+"                    This will also delete one more subpage.\n"
+"                "
+msgid_plural ""
+"\n"
+"                    This will also delete %(descendant_count)s more "
+"subpages.\n"
+"                "
+msgstr[0] ""
+"\n"
+"                    Επίσης θα διαγραφεί και μια ακόμα σελίδα.\n"
+"                "
+msgstr[1] ""
+"\n"
+"                    Επίσης θα διαγραφούν και %(descendant_count)s ακόμα "
+"σελίδες.\n"
+"                "
+
+msgid "Yes, delete it"
+msgstr "Ναι, να διαγραφεί"
+
+msgid "No, don't delete it"
+msgstr "Όχι, να μην διαγραφεί"
+
+#, python-format
+msgid ""
+"Alternatively you can <a href=\"%(unpublish_url)s\">unpublish the page</a>. "
+"This removes the page from public view and you can edit or publish it again "
+"later."
+msgstr ""
+"Εναλλακτικά μπορείτε να κάνετε <a href=\"%(unpublish_url)s\">κατάργηση "
+"δημοσίευσης της σελίδας</a>. Αυτό θα αφαιρέσει την σελίδα από την ιστοσελίδα "
+"σας, αλλά θα μπορείτε να την επεξεργαστείτε και να την δημοσιεύσετε αργότερα."
+
+#, python-format
+msgid "Move %(title)s"
+msgstr "Μετακίνηση της %(title)s"
+
+#, python-format
+msgid "Are you sure you want to move this page into '%(title)s'?"
+msgstr "Είστε σίγουρος ότι θέλετε να μετακινήσετε τη σελίδα στο  '%(title)s';"
+
+#, python-format
+msgid ""
+"Are you sure you want to move this page and all of its children into "
+"'%(title)s'?"
+msgstr ""
+"Είστε σίγουρος ότι θέλετε να μετακινήσετε τη σελίδα και όλα τα παιδιά της "
+"στο  '%(title)s';"
+
+msgid "Yes, move this page"
+msgstr "Ναι, να μετακινηθεί"
+
+#, python-format
+msgid "Unpublish %(title)s"
+msgstr "Απόεκδοστε τη σελίδα %(title)s"
+
+msgid "Are you sure you want to unpublish this page?"
+msgstr "Είστε σίγουρος ότι θέλετε να αποεκδόσετε αυτή τη σελίδα;"
+
+#, python-format
+msgid ""
+"\n"
+"                    This page has one subpage. Unpublish this too\n"
+"                "
+msgid_plural ""
+"\n"
+"                    This page has %(live_descendant_count)s subpages. "
+"Unpublish these too\n"
+"                "
+msgstr[0] ""
+"\n"
+"                    Αυτή η σελίδα έχει μία υποσελίδα. Κατάργηση δημοσίευσης "
+"και αυτής\n"
+"                "
+msgstr[1] ""
+"\n"
+"                    Αυτή η σελίδα έχει %(live_descendant_count)s υποσελίδες. "
+"Κατάργηση δημοσίευσης και αυτών\n"
+"                "
+
+msgid "Yes, unpublish it"
+msgstr "Ναι, να αποεκδοθεί"
+
+msgid "Pages using"
+msgstr "Οι σελίδες που το χρησιμοποιούν"
+
+#, python-format
+msgid "Copy %(title)s"
+msgstr "Αντιγραφή %(title)s"
+
+msgid "Copy"
+msgstr "Αντιγραφή"
+
+msgid "Copy this page"
+msgstr "Αντιγραφή αυτής της σελίδας"
+
+#, python-format
+msgid "New %(page_type)s"
+msgstr "Νέα %(page_type)s"
+
+msgid "New"
+msgstr "Νέο"
+
+msgid "Actions"
+msgstr "Ενέργειες"
+
+msgid "This page has unsaved changes."
+msgstr "Η σελίδα έχει μη αποθηκευμένες αλλαγές."
+
+#, python-format
+msgid "Editing %(page_type)s: %(title)s"
+msgstr "Επεξεργασία %(page_type)s: %(title)s"
+
+msgid "User"
+msgstr "Χρήστης"
+
+msgid "Current draft"
+msgstr "Τρέχον σχέδιο"
+
+#, python-format
+msgid "Exploring %(title)s"
+msgstr "Εξερεύνηση %(title)s"
+
+msgid "Drag"
+msgstr "Τραβήξτε"
+
+msgid "Updated"
+msgstr "Ενημερωθηκε"
+
+msgid ""
+"\n"
+"                            The root level is where you can add new sites to "
+"your Wagtail installation. Pages created here will not be accessible at any "
+"URL until they are associated with a site.\n"
+"                        "
+msgstr ""
+"\n"
+"Μπορείτε να προσθέσετε νέα site στην εγκατάσταση Wagtail σας μέσω του "
+"ριζικού επιπέδου. Οι σελίδες που προστίθενται εδώ δε θα είναι προσβάσιμες "
+"μέσω κάποιου URL μέχρι να συσχετιστούν με κάποιο site."
+
+msgid "Configure a site now."
+msgstr "Διαμόρφωση site."
+
+msgid ""
+"\n"
+"                            If you just want to add pages to an existing "
+"site, create them as children of the homepage instead.\n"
+"                        "
+msgstr ""
+"\n"
+"Αν θέλετε απλώς να προσθέσετε σελίδες σε ένα υπάρχον site θα πρέπει απλώς να "
+"τις δημιουργήσετε ως υποσελίδες της αρχικής σελίδας."
+
+msgid ""
+"\n"
+"                        Pages created here will not be accessible at any "
+"URL. To add pages to an existing site, create them as children of the "
+"homepage.\n"
+"                    "
+msgstr ""
+"\n"
+"Οι σελίδες που προστίθενται εδώ δε θα είναι προσβάσιμες μέσω κάποιου URL. "
+"Για να προσθέσετε σελίδες σε ένα υπάρχον site δημιουργήστε τις ως υποσελίδες "
+"της αρχικής σελίδας."
+
+msgid ""
+"\n"
+"                        There is no site set up for this location. Pages "
+"created here will not be accessible at any URL until a site is associated "
+"with this location.\n"
+"                    "
+msgstr ""
+"\n"
+"\n"
+"Δεν υπάρχει site για την τοποθεσία. Οι σελίδες που προστίθενται εδώ δε θα "
+"είναι προσβάσιμες μέσω κάποιου URL μέχρι να συσχετιστεί κάποιο site με την "
+"τοποθεσία."
+
+msgid ""
+"\n"
+"                        There is no site record for this location. Pages "
+"created here will not be accessible at any URL.\n"
+"                    "
+msgstr ""
+"\n"
+"Δεν υπάρχει site για την τοποθεσία. Οι σελίδες που προστίθενται εδώ δε θα "
+"είναι προσβάσιμες μέσω κάποιου URL."
+
+msgid "No pages have been created at this location."
+msgstr "Δεν έχουν δημιουργηθεί σελίδες εδώ."
+
+#, python-format
+msgid "Why not <a href=\"%(add_page_url)s\">create one</a>?"
+msgstr "Θέλετε να <a href=\"%(add_page_url)s\">δημιουργήσετε μία</a>;"
+
+msgid "This page is locked to further editing"
+msgstr "Αυτή η σελίδα έχει κλειδωθεί για περαιτέρω επεξεργασία"
+
+#, python-format
+msgid "Explore subpages of '%(title)s'"
+msgstr "Εξερεύνηση υποσελίδων του '%(title)s'"
+
+msgid "Explore"
+msgstr "Εξερεύνηση"
+
+#, python-format
+msgid "Explore child pages of '%(title)s'"
+msgstr "Εξερεύνηση των σελίδων - παιδιών του '%(title)s'"
+
+#, python-format
+msgid "Add a child page to '%(title)s'"
+msgstr "Προσθήκη σελίδας - παιδί στην '%(title)s'"
+
+msgid "Add child page"
+msgstr "Προσθήκη σελίδας-παιδί"
+
+#, python-format
+msgid ""
+"\n"
+"        Page %(page_number)s of %(num_pages)s.\n"
+"    "
+msgstr ""
+"\n"
+"Σελίδα %(page_number)s από %(num_pages)s."
+
+msgid "Previous"
+msgstr "Προηγούμενο"
+
+msgid "Next"
+msgstr "Επόμενο"
+
+msgid "This page is protected from public view"
+msgstr "Αυτή η σελίδα προστατεύεται από τη δημοσιότητα"
+
+msgid "Disable ordering of child pages"
+msgstr "Απενεργοποίηση ταξινόμησης σελίδων - παιδιά"
+
+msgid "Enable ordering of child pages"
+msgstr "Ενεργοποίηση ταξινόμησης σελίδων - παιδιά"
+
+#, python-format
+msgid "Select a new parent page for %(title)s"
+msgstr "Επιλογή πατρικής σελίδας για την %(title)s"
+
+#, python-format
+msgid "Select a new parent page for <span>%(title)s</span>"
+msgstr "Επιλογή νέας πατρικής σελίδας για την <span>%(title)s</span>"
+
+#, python-format
+msgid "Comparing %(title)s"
+msgstr "Σύγκριση %(title)s"
+
+msgid "Comparing"
+msgstr "Σύγκριση"
+
+msgid "Fields"
+msgstr "Πεδία"
+
+msgid "Changes"
+msgstr "Αλλαγές"
+
+#, python-format
+msgid ""
+"\n"
+"                                                            Moved down 1 "
+"place.\n"
+"                                                        "
+msgid_plural ""
+"\n"
+"                                                            Moved down "
+"%(counter)s places.\n"
+"                                                        "
+msgstr[0] ""
+"\n"
+"                                                            Μετακινήθηκε "
+"κάτω κατά 1.\n"
+"                                                        "
+msgstr[1] ""
+"\n"
+"                                                            Μετακινήθηκε "
+"κάτω κατά %(counter)s.\n"
+"                                                        "
+
+#, python-format
+msgid ""
+"\n"
+"                                                            Moved up 1 "
+"place.\n"
+"                                                        "
+msgid_plural ""
+"\n"
+"                                                            Moved up "
+"%(counter)s places.\n"
+"                                                        "
+msgstr[0] ""
+"\n"
+"                                                            Μετακινήθηκε "
+"πάνω κατά 1.\n"
+"                                                        "
+msgstr[1] ""
+"\n"
+"                                                            Μετακινήθηκε "
+"πάνω κατά %(counter)s.\n"
+"                                                        "
+
+#, python-format
+msgid "Revisions of %(title)s"
+msgstr "Αναθεωρήσεις του %(title)s"
+
+msgid "Revisions of"
+msgstr "Αναθεωρήσεις του"
+
+msgid "Revision date"
+msgstr "Ημερομηνία αναθεώρησης"
+
+msgctxt "points to a user who created a revision"
+msgid "by"
+msgstr "από"
+
+msgid "No revisions of this page exist"
+msgstr "Δεν υπάρχουν αναθεωρήσεις της σελίδας"
+
+msgid "No revision of this page exist"
+msgstr "Δεν υπάρχει αναθεωρήσεις της σελίδας"
+
+#, python-format
+msgid ""
+"\n"
+"                There is one matching page\n"
+"            "
+msgid_plural ""
+"\n"
+"                There are %(counter)s matching pages\n"
+"            "
+msgstr[0] ""
+"\n"
+"Υπάρχει μια σελίδα που ταιριάζει"
+msgstr[1] ""
+"\n"
+"Υπάρχουν %(counter)s σελίδες που ταιριάζουν"
+
+msgid "Enter a search term above"
+msgstr "Εισάγετε όρο αναζήτησης"
+
+msgid "No pages use"
+msgstr "Δεν υπάρχουν σελίδες που χρησιμοποιείτε"
+
+msgid "Download CSV"
+msgstr "Ληψη CSV"
+
+msgid "Filter"
+msgstr "Φίλτρο"
+
+msgid "Locked"
+msgstr "Κλειδωμένο"
+
+msgid "Edit this item"
+msgstr "Επεξεργασία αυτού του στοιχείου"
+
+#, python-format
+msgid "Page %(page_num)s of %(total_pages)s."
+msgstr "Σελίδα %(page_num)s από %(total_pages)s."
+
+msgid "Home"
+msgstr "Αρχή"
+
+msgid "All collections"
+msgstr "Όλες οι συλλογές"
+
+msgid "Account settings"
+msgstr "Ρυθμίσεις λογαριασμού"
+
+msgid "Log out"
+msgstr "Αποσύνδεση"
+
+msgid "Other searches"
+msgstr "Άλλες αναζητήσεις"
+
+msgid "Add a child page"
+msgstr "Προσθέστε μια υποσελίδα"
+
+msgid "Show in Explorer"
+msgstr "Εμφάνιση στον εξερευνητή"
+
+#, python-format
+msgid "by %(modified_by)s"
+msgstr "από %(modified_by)s"
+
+msgid "Compare with live version"
+msgstr "Σύγκριση με την live έκδοση"
+
+msgid "More"
+msgstr "Περισσοτερα"
+
+msgid "live"
+msgstr "live"
+
+msgid "draft"
+msgstr "draft"
+
+msgid "live + draft"
+msgstr "live + draft "
+
+msgid "Test"
+msgstr "Δοκιμή"
+
+msgid "You have been successfully logged out."
+msgstr "Έχετε αποσυνδεθεί."
+
+msgid "Collections"
+msgstr "Συλλογές"
+
+msgid "Add a collection"
+msgstr "Προσθήκη συλλογής"
+
+msgid "Add collection"
+msgstr "Προσθήκη συλλογής"
+
+msgid "Collection '{0}' created."
+msgstr "Η συλλογή '{0}' δημιουργήθηκε."
+
+msgid "Collection '{0}' updated."
+msgstr "Η συλλογή '{0}' ενημερώθηκε."
+
+msgid "The collection could not be saved due to errors."
+msgstr "Δεν ήταν δυνατή η αποθήκευση της συλλογής."
+
+msgid "Delete collection"
+msgstr "Διαγραφή συλλογής."
+
+msgid "Collection '{0}' deleted."
+msgstr "Η συλλογή '{0}' διαγράφηκε."
+
+msgid "Are you sure you want to delete this collection?"
+msgstr "Θέλετε να διαγράψετε τη συλλογή;"
+
+msgid "Page '{0}' and {1} subpages copied."
+msgstr "Η σελίδα '{0}' και {1} υποσελίδες αντιγράφηκαν."
+
+msgid "Page '{0}' copied."
+msgstr "Η σελίδα '{0}' αντιγράφηκε."
+
+msgid "View draft"
+msgstr "Εμφάνιση προσχεδίου"
+
+msgid "View live"
+msgstr "Εμφανιση στο site"
+
+msgid "Page '{0}' created."
+msgstr "Η σελίδα '{0}' δημιουργήθηκε."
+
+msgid "Page '{0}' created and scheduled for publishing."
+msgstr "Η σελίδα '{0}' δημιουργήθηκε και προγραμματίστηκε για δημοσίευση."
+
+msgid "Page '{0}' created and published."
+msgstr "Η σελίδα '{0}' δημιουργήθηκε και δημοσιεύθηκε."
+
+msgid "Page '{0}' created and submitted for moderation."
+msgstr "Η σελίδα '{0}' δημιουργήθηκε και στάλθηκε προς έλεγχο."
+
+msgid "The page could not be created due to validation errors"
+msgstr "Η σελίδα δεν δημιοιυργήθηκε λόγω σφαλμάτων"
+
+msgid "Page '{0}' deleted."
+msgstr "Έγινε διαγραφή της σελίδας '{0}'."
+
+msgid "This page is currently awaiting moderation"
+msgstr "Η σελίδα είναι προς έλεγχο"
+
+msgid "Page '{0}' has been updated."
+msgstr "Η σελίδα '{0}' ενημερώθηκε."
+
+msgid "Page '{0}' has been scheduled for publishing."
+msgstr "Η σελίδα '{0}' προγραμματίστηκε για δημοσίευση."
+
+msgid "Page '{0}' has been published."
+msgstr "Η σελίδα '{0}' εκδόθηκε."
+
+msgid "Page '{0}' has been submitted for moderation."
+msgstr "Η σελίδα '{0}' υποβλήθηκε για έλεγχο."
+
+msgid "The page could not be saved as it is locked"
+msgstr "Η σελίδα δεν μπορεί να αποθηκευτεί καθώς είναι κλειδωμένη"
+
+msgid "The page could not be saved due to validation errors"
+msgstr "Δε ήταν δυνατή η αποθήκευση της σελίδας λόγω σφαλμάτων ελέγχου"
+
+msgid "Page '{0}' is now unlocked."
+msgstr "Η σελίδα '{0}' είναι τώρα ξεκλειδωμένη."
+
+msgid "The page '{0}' is not currently awaiting moderation."
+msgstr "Η σελίδα '{0}' δεν είναι για έλεγχο."
+
+msgid "Page '{0}' published."
+msgstr "Η σελίδα '{0}' δημοσιεύθηκε."
+
+msgid "Failed to send approval notifications"
+msgstr "Δεν ήταν δυνατή η αποστολή των ειδοποιήσεων"
+
+msgid "Page '{0}' rejected for publication."
+msgstr "Η δημοσίευση της σελίδας '{0}' απορρίφθηκε."
+
+msgid "Failed to send rejection notifications"
+msgstr "Δεν ήταν δυνατή η αποστολή των ειδοποιήσεων"
+
+msgid "Page '{0}' moved."
+msgstr "Έγινε η μετακίνηση της σελίδας '{0}'."
+
+msgid "Earliest"
+msgstr "Πιο πρόσφατες"
+
+msgid "Latest"
+msgstr "Τελευταίες"
+
+msgid "Page '{0}' unpublished."
+msgstr "Έγινε αποδημοσίευση της '{0}'."
+
+msgid "Report this error to your webmaster with the following information:"
+msgstr "Αναφέρατε το σφάλμα στο διαχειριστή με τις εξής πληροφορίες:"
+
+msgid "Choose an item"
+msgstr "Επιλέξατε αντικείμενο"
+
+msgid "Choose another item"
+msgstr "Επιλογή διαφορετικού αντικειμένου"
+
+msgid "Clear choice"
+msgstr "Διαγραφή επιλογής"
+
+msgid "Choose another page"
+msgstr "Επιλογή διαφορετικής σελίδας"
+
+msgid "This block has no options."
+msgstr "Αυτό το block δεν έχει επιλογές."
+
+msgid "The password you have entered is not correct. Please try again."
+msgstr "Ο κωδικός που εισαγάγατε δεν είναι σωστός. Προσπαθήστε ξανα."
+
+msgid "title"
+msgstr "τίτλος"
+
+msgid "The page title as you'd like it to be seen by the public"
+msgstr "Ο τίτλος της σελίδας έτσι όπως θα εμφανίζεται στο κοινό"
+
+msgid "slug"
+msgstr "slug"
+
+msgid ""
+"The name of the page as it will appear in URLs e.g http://domain.com/blog/"
+"[my-slug]/"
+msgstr ""
+"Το όνομα της σελίδας έτσι όπως θα εμφανίζεται στις διευθύνσεις, π.χ http://"
+"domain.com/blog/[my-slug]/"
+
+msgid "content type"
+msgstr "Τύπος περιεχομένου"
+
+msgid "has unpublished changes"
+msgstr "έχει αδημοσίευτες αλλαγές"
+
+msgid "URL path"
+msgstr "Διεύθυνση URL"
+
+msgid "owner"
+msgstr "ιδιοκτήτης"
+
+msgid "show in menus"
+msgstr "εμφάνιση στα μενού"
+
+msgid ""
+"Whether a link to this page will appear in automatically generated menus"
+msgstr ""
+"Επιλέξτε αν μια σύνδεση σε αυτή τη σελίδα θα εμφανιστεί στα μενού που "
+"δημιουργούνται αυτόματα"
+
+msgid "go live date/time"
+msgstr "ημερομηνία/ώρα δημοσίευσης"
+
+msgid "expiry date/time"
+msgstr "ημερομηνία/ώρα λήξης"
+
+msgid "expired"
+msgstr "έχει λήξει"
+
+msgid "locked"
+msgstr "κλειδωμένο"
+
+msgid "first published at"
+msgstr "πρώτη δημοσίευση στις"
+
+msgid "latest revision created at"
+msgstr "τελευταία αναθεώρηση δημιουργήθηκε στις"
+
+msgid "scheduled"
+msgstr "έχει προγραμματιστεί"
+
+msgid "page"
+msgstr "σελίδα"
+
+msgid "pages"
+msgstr "σελίδες"
+
+msgid "submitted for moderation"
+msgstr "υποβλήθηκαν για έλεγχο"
+
+msgid "created at"
+msgstr "δημιουργία στις"
+
+msgid "user"
+msgstr "χρήστης"
+
+msgid "content JSON"
+msgstr "περιεχόμενο JSON"
+
+msgid "approved go live at"
+msgstr "εγκρίθηκε να δημοσιευθεί στις"
+
+msgid "page revision"
+msgstr "αναθεώρηση σελίδας"
+
+msgid "page revisions"
+msgstr "αναθεωρήσεις σελίδων"
+
+msgid "Add/edit pages you own"
+msgstr "Προσθέστε/επεξεργαστείτε σελίδες που σας ανήκουν"
+
+msgid "Edit any page"
+msgstr "Επεξεργασία όλων των σελίδων"
+
+msgid "Publish any page"
+msgstr "Δημοσίευση καθε σελίδας"
+
+msgid "Bulk delete"
+msgstr "Μαζική διαγραφή"
+
+msgid "Delete pages with children"
+msgstr "Διαγραφή σελιδών με υποσελίδες"
+
+msgid "group"
+msgstr "ομάδα"
+
+msgid "permission type"
+msgstr "είδος άδειας"
+
+msgid "group page permission"
+msgstr "άδεια ομάδας σελίδων"
+
+msgid "group page permissions"
+msgstr "άδειες ομάδας σελίδων"
+
+msgid "page view restriction"
+msgstr "περιορισμός προβολής σελίδων"
+
+msgid "page view restrictions"
+msgstr "περιορισμός προβολών σελίδων"
+
+msgid "name"
+msgstr "όνομα"
+
+msgid "collection"
+msgstr "συλλογή"
+
+msgid "collections"
+msgstr "συλλογές"
+
+msgid "permission"
+msgstr "άδεια"
+
+msgid "group collection permission"
+msgstr "άδεια ομάδας συλλογών"
+
+msgid "hostname"
+msgstr "Όνομα κεντρικού υπολογιστή"
+
+msgid "port"
+msgstr "θύρα"
+
+msgid ""
+"Set this to something other than 80 if you need a specific port number to "
+"appear in URLs (e.g. development on port 8000). Does not affect request "
+"handling (so port forwarding still works)."
+msgstr ""
+"Μπορείτε να χρησιμοποιήσετε κάτι διαφορετικό από το 80 αν θέλετε να "
+"εμφανίζεται στις διευθύνσεις μια συγκεκριμένη θύρα (π.χ. ανάπτυξη στη θύρα "
+"8000). Δεν επηρεάζει τον τρόπο που χειρίζονται τις αιτήσεις (οπότε η "
+"προώθηση θύρας δουλεύει ακόμα)"
+
+msgid "site name"
+msgstr "ονομα site"
+
+msgid "Human-readable name for the site."
+msgstr "Φιλικό όνομα για το site."
+
+msgid "root page"
+msgstr "κεντρική σελίδα"
+
+msgid "is default site"
+msgstr "είναι το προεπιλεγμένο site"
+
+msgid ""
+"If true, this site will handle requests for all other hostnames that do not "
+"have a site entry of their own"
+msgstr ""
+"Αν είναι αληθές, το εν λόγω site θα χειρίζεται και τις αιτήσεις για όλα τα "
+"άλλα ονόματα που δεν έχουν δική τους εγγραφή"
+
+msgid "site"
+msgstr "site"
+
+msgid "sites"
+msgstr "sites"
+
+#, python-format
+msgid ""
+"%(hostname)s is already configured as the default site. You must unset that "
+"before you can save this site as default."
+msgstr ""
+"%(hostname)s έχει ήδη ρυθμιστεί ως η προεπιλεγμένη τοποθεσία. Θα πρέπει να "
+"το απενεργοποιήσετε προτού αποθηκεύσετε αυτή την τοποθεσία ως προεπιλογή."
+
+msgid "Private, accessible to logged-in users"
+msgstr "Ιδιωτικό, προσβάσιμο μόνο σε εγγεγραμμένους χρήστες"
+
+msgid "Private, accessible with the following password"
+msgstr "Ιδιωτικό, προσβάσιμο με τον ακόλουθο κωδικό"
+
+msgid "Private, accessible to users in specific groups"
+msgstr ""
+"Ιδιωτικό, προσβάσιμο μόνο σε χρήστες που ανήκουν σε συγκεκριμένες ομάδες"
+
+msgid "password"
+msgstr "κωδικός"
+
+msgid "Log in"
+msgstr "Είσοδος"
+
+msgid "Your username and password didn't match. Please try again."
+msgstr "Το όνομα χρήστη και ο κωδικός δεν ταιριάζουν. Παρακαλώ δοκιμάστε ξανά."
+
+msgid ""
+"Your account doesn't have access to this page. To proceed, please log in "
+"with an account that has access."
+msgstr ""
+"Ο λογαριασμός σας δεν έχει πρόσβαση σε αυτή τη σελίδα. Για να προχωρήσετε, "
+"παρακαλούμε συνδεθείτε με έναν λογαριασμό που να έχει πρόσβαση."
+
+msgid "Password required"
+msgstr "Απαιτείται κωδικός"
+
+msgid "You need a password to access this page."
+msgstr "Θα χρειαστείτε κωδικό για να δείτε αυτή τη σελίδα"
+
+msgid "Continue"
+msgstr "Συνέχεια"
+
+msgid "Unlocked"
+msgstr "Ξεκλειδωμενο"
