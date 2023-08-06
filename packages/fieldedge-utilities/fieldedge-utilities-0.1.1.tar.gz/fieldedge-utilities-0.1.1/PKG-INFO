@@ -1,0 +1,27 @@
+Metadata-Version: 2.1
+Name: fieldedge-utilities
+Version: 0.1.1
+Summary: Utilities package for the FieldEdge project.
+Home-page: https://github.com/inmarsat-enterprise/fieldedge-utilities
+License: Apache2.0
+Keywords: Inmarsat,FieldEdge
+Author: geoffbrucepayne
+Author-email: geoff.bruce-payne@inmarsat.com
+Requires-Python: >=3.7,<4.0
+Classifier: License :: Other/Proprietary License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Requires-Dist: paho-mqtt (>=1.6.1,<2.0.0)
+Requires-Dist: python-dotenv (>=0.19.1,<0.20.0)
+Project-URL: Repository, https://github.com/inmarsat-enterprise/fieldedge-utilities
+Description-Content-Type: text/markdown
+
+# Inmarsat FieldEdge Utilities
+
+Provides a common logging format and facility,
+and a common MQTT client that automatically connects.
+
+[Docmentation](https://inmarsat-enterprise.github.io/fieldedge-utilities/)
+
