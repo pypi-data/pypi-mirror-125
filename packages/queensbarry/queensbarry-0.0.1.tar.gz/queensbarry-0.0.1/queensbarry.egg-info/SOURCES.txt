@@ -1,0 +1,10 @@
+setup.py
+qb/__init__.py
+qb/statistics/__init__.py
+qb/statistics/error_analysis.py
+qb/statistics/tool.py
+queensbarry.egg-info/PKG-INFO
+queensbarry.egg-info/SOURCES.txt
+queensbarry.egg-info/dependency_links.txt
+queensbarry.egg-info/requires.txt
+queensbarry.egg-info/top_level.txt
