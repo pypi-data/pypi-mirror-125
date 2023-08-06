@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: SSTool
+Version: 0.0.2
+Summary: State Space Tool
+Home-page: UNKNOWN
+Author: Josep Fanals
+Author-email: josep.fanals@upc.edu
+License: UNKNOWN
+Keywords: python,first package
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: Unix
+
+State space obtention and stability analysis. Developed by CITCEA and distributed under the MIT License.
+
