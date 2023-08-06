@@ -1,0 +1,20 @@
+Metadata-Version: 1.1
+Name: phannh_hello_world_package
+Version: 0.1
+Summary: phannh_hello_world_package
+Home-page: https://git.insea.io/phannh/phannh_hello_world_package
+Author: Phan Nghiem Hai
+Author-email: phannh@sea.com
+License: MIT
+Download-URL: https://git.insea.io/phannh/phannh_hello_world_package/archive/v_01.tar.gz
+Description: UNKNOWN
+Keywords: phannh,hello_world
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Build Tools
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
