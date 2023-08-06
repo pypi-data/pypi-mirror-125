@@ -1,0 +1,12 @@
+README.md
+setup.cfg
+setup.py
+src/TFTrainer.egg-info/PKG-INFO
+src/TFTrainer.egg-info/SOURCES.txt
+src/TFTrainer.egg-info/dependency_links.txt
+src/TFTrainer.egg-info/requires.txt
+src/TFTrainer.egg-info/top_level.txt
+src/tftrainer/__init__.py
+src/tftrainer/optimizer.py
+src/tftrainer/trainarguments.py
+src/tftrainer/trainer.py

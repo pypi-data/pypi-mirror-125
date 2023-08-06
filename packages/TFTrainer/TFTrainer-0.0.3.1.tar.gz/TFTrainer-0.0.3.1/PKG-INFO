@@ -1,0 +1,14 @@
+Metadata-Version: 1.2
+Name: TFTrainer
+Version: 0.0.3.1
+Summary: tensorflow utility trainer.
+Home-page: https://github.com/Nam-SW
+Author: Nam-SW
+Author-email: nsw0311@gmail.com
+License: Apache
+Description: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3.6
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6.8
