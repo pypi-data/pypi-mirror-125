@@ -1,0 +1,10 @@
+taug/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+taug/datasets.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+taug/utils.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+taug/augmenters/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+taug/augmenters/vae.py,sha256=PdvTjoZPP1G_EDjko4x8QaSMaxb2krCK6tTMVjeDJlc,5765
+taug-0.1.0.dist-info/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+taug-0.1.0.dist-info/METADATA,sha256=ipPPMxu7Z2MjPitvRh-rEkbw0enq4mJYWzXp6vd7FBw,2313
+taug-0.1.0.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+taug-0.1.0.dist-info/top_level.txt,sha256=MWxr_0Y59DDzLqyt_BXE4t9YKiwxpbGvSqpMoWTg01Y,5
+taug-0.1.0.dist-info/RECORD,,

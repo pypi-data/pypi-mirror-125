@@ -1,0 +1,67 @@
+Metadata-Version: 2.1
+Name: taug
+Version: 0.1.0
+Summary: Time Series Forecasting and Data Augmentation using Deep Generative Models 
+Home-page: https://github.com/amirabbasasadi/taug
+Author: Amirabbas Asadi
+Author-email: amir137825@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Description-Content-Type: text/markdown
+Requires-Dist: tensorflow (>=2.0.0)
+Requires-Dist: keras
+Requires-Dist: tensorflow-addons
+Requires-Dist: sktime (>=0.7.0)
+
+# TAug :: Time Series Data Augmentation using Deep Generative Models
+**Note!!!** The package is under development so be careful for using in production!
+## Features
+- Time Series Data Augmentation using Deep Generative Models
+- Visualizing the Latent Space of Generative Models
+- Time Series Forecasting using Deep Neural Networks
+
+## Installation
+You can install the last stable version using pip
+```
+pip install taug
+```
+## How to Use
+### Augmentation Guide
+#### Create an augmenter
+```python
+from taug.augmenters.vae import LSTMVAE
+from taug.augmenters.vae import VAEAugmenter
+
+# create a variational autoencoder
+vae = LSTMVAE(series_len=100)
+# use the created vae as an augmenter
+augmenter = VAEAugmenter(vae)
+```
+The above code uses the default settings for the LSTM-VAE model. You can customize its architecture or use your own model for encoder and decoder. Note currently we only support Keras models.  
+#### Train the augmenter
+```python
+augmenter.fit(data, epochs=64)
+```
+#### Generate new time series!
+A few strategy for sampling have been implemented.
+##### Sampling from whol
+```python
+augmenter.sample(n=1000)
+```
+### Forecasting Guide
+[todo] Forecasting guide will be here!
+
+## Supported Augmenters
+Supported models for augmentation currently are as follows:
+|  Model  |           Type          |   Supported Time Series  |                                Description                                |
+|:-------:|:-----------------------:|:------------------------:|:-------------------------------------------------------------------------:|
+| LSTMVAE | Variational Autoencoder | Univariate, fixed length | A Variational Autoencoder with stacked LSTM layers for encoder and decoder |
+
+## Supported Forecasters
+Supported models for time series forecasting are as follows:
+
+## Contributors
+The list of the current contributors:
+- Sasan Barak
+- Amirabbas Asadi
+
