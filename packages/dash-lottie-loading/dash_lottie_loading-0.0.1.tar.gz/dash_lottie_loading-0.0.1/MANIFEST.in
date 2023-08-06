@@ -1,0 +1,11 @@
+include dash_lottie_loading/dash_lottie_loading.min.js
+include dash_lottie_loading/dash_lottie_loading.min.js.map
+include dash_lottie_loading/async-*.js
+include dash_lottie_loading/async-*.js.map
+include dash_lottie_loading/*-shared.js
+include dash_lottie_loading/*-shared.js.map
+include dash_lottie_loading/metadata.json
+include dash_lottie_loading/package-info.json
+include README.md
+include LICENSE
+include package.json
