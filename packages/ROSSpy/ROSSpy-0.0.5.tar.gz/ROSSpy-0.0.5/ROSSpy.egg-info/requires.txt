@@ -1,0 +1,9 @@
+matplotlib
+chemicals
+chempy
+to_precision
+scipy
+pubchempy
+pandas
+phreeqpy
+sigfig
