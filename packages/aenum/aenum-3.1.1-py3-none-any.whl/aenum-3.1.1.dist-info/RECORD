@@ -1,0 +1,12 @@
+aenum/CHANGES,sha256=I9dV-x-yaGs4ByycL9RniRv1eAvol2xqLH35O0C5EbA,8413
+aenum/LICENSE,sha256=Dbg344ACAXs1JmbIPI0yFu5bmyIpN16yz0SH-MJOH4w,1525
+aenum/README,sha256=YFKcf2OSv3Wj7pyf3QVtG5YCGINMbcTM0J7TtGJj5j0,6321
+aenum/__init__.py,sha256=7EU2BmOcZCTpPU84IizOGOqJNAneQ6NsbLTzY29jZA4,147744
+aenum/test.py,sha256=B_OJ6_E4V53OaPG8SgZF487ssI2A12W02W3EnflF3Xo,254020
+aenum/test_v3.py,sha256=lbwIPj4NcLI0b7SU6jrF2-WsQA_l8O0uotUahf3lElA,75268
+aenum/doc/aenum.pdf,sha256=lkgMltAFeXR15kf18trvyMRWMIfS2-ridFQA8LLOgjQ,136820
+aenum/doc/aenum.rst,sha256=-Y6kpKp-sZlliFd4tyNPH5Kj7k0TZhLdzYrgdQjpsY8,46751
+aenum-3.1.1.dist-info/METADATA,sha256=fe_yeJdoqNJGY5ky5Dj_SHRp8YVm8O7hECZkEW1sR14,3671
+aenum-3.1.1.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+aenum-3.1.1.dist-info/top_level.txt,sha256=poFphxnbuMG5laOCfCp0KRc2LM3z1cEnaO60_b6T_SM,6
+aenum-3.1.1.dist-info/RECORD,,
