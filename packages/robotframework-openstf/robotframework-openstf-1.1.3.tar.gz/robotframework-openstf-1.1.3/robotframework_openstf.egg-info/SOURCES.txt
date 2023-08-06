@@ -1,0 +1,9 @@
+OpenStf.py
+README.md
+setup.py
+robotframework_openstf.egg-info/PKG-INFO
+robotframework_openstf.egg-info/SOURCES.txt
+robotframework_openstf.egg-info/dependency_links.txt
+robotframework_openstf.egg-info/not-zip-safe
+robotframework_openstf.egg-info/requires.txt
+robotframework_openstf.egg-info/top_level.txt
