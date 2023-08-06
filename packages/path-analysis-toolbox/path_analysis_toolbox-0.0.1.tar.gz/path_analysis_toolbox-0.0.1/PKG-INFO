@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: path_analysis_toolbox
+Version: 0.0.1
+Summary: Toolbox for various path analysis and creating directories.
+Home-page: https://github.com/ksproska/path_analyser
+Author: Kamila Sproska
+Author-email: kamila.sproska@gmail.com
+License: UNKNOWN
+Keywords: path,directory,filename,extension,create
+Platform: UNKNOWN
+Description-Content-Type: text/markdown
+
+# path_analysis_toolbox
+
+
