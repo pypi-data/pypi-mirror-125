@@ -1,0 +1,3 @@
+[console_scripts]
+gitgeo = gitgeo.main:main
+
