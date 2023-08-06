@@ -1,0 +1,16 @@
+README.md
+pyproject.toml
+setup.py
+oncourse_api/__init__.py
+oncourse_api/errors.py
+oncourse_api/oncourse.py
+oncourse_api.egg-info/PKG-INFO
+oncourse_api.egg-info/SOURCES.txt
+oncourse_api.egg-info/dependency_links.txt
+oncourse_api.egg-info/requires.txt
+oncourse_api.egg-info/top_level.txt
+oncourse_api/models/__init__.py
+oncourse_api/models/active_profile.py
+oncourse_api/models/assignment.py
+oncourse_api/models/group.py
+oncourse_api/models/student.py
