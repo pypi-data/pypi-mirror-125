@@ -1,0 +1,50 @@
+[tool.poetry]
+name = "DeepFilterNet"
+version = "0.1.2"
+description = "Noise supression using deep filtering"
+authors = ["Hendrik Schröter"]
+repository = "https://github.com/Rikorose/DeepFilterNet"
+keywords = ["noise reduction", "neural network"]
+classifiers = [
+  "Topic :: Multimedia :: Sound/Audio :: Speech",
+  "Topic :: Software Development :: Libraries :: Python Modules",
+  "Topic :: Software Development :: Libraries :: Application Frameworks",
+  "Topic :: Utilities",
+  "Programming Language :: Rust",
+  "Programming Language :: Python"
+]
+license = "MIT"
+packages = [{ include = "df" }]
+include = [
+  { path = "pretrained_models/DeepFilterNet/config.ini", format="wheel" },
+  { path = "pretrained_models/DeepFilterNet/checkpoints/", format="wheel" },
+]
+
+[tool.poetry.dependencies]
+python = "^3.6"
+DeepFilterLib = { version = "^0.1" }
+numpy = "^1.20"
+loguru = "^0.5"
+DeepFilterDataLoader = { version = "^0.1", optional = true }
+icecream = { version = "^2", optional = true }
+
+[tool.poetry.extras]
+train = ["DeepFilterDataLoader"]
+
+[tool.poetry.scripts]
+deepFilter = "df.enhance:main"
+
+[build-system]
+requires = ["poetry>=1.0"]
+build-backend = "poetry.masonry.api"
+
+[tool.black]
+line-length = 100
+target-version = ["py36", "py37", "py38", "py39"]
+include = '\.pyi?$'
+
+[tool.isort]
+profile = "black"
+line_length = 100
+skip_gitignore = true
+known_first_party = ["df", "libdf", "libdfdata"]
