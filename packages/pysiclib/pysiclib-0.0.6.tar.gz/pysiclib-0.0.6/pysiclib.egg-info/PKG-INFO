@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: pysiclib
+Version: 0.0.6
+Summary: A General Scientific Computation Library
+Home-page: https://ShameekConyers.com/siclib
+Author: Shameek Conyers
+Author-email: sic@usf.edu
+License: UNKNOWN
+Platform: UNKNOWN
+Provides-Extra: test
+License-File: LICENSE
+
+UNKNOWN
+
