@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: toroidal
+Version: 0.0.1
+Summary: Toroidal - Lightweight Transformers for PyTorch
+Home-page: https://github.com/mathinf/toroidal/
+Author: Orobix Srl and MathInf GmbH
+License: UNKNOWN
+Platform: UNKNOWN
+Description-Content-Type: text/markdown
+Requires-Dist: torch
+
+UNKNOWN
+
+
