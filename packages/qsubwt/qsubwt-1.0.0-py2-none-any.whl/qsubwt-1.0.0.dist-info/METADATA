@@ -1,0 +1,35 @@
+Metadata-Version: 2.1
+Name: qsubwt
+Version: 1.0.0
+Summary: UNKNOWN
+Home-page: https://github.com/yodeng/qsubwt.git
+Author: Deng Yong
+Author-email: yodeng@tju.edu.cn
+License: BSD
+Platform: UNKNOWN
+Description-Content-Type: text/markdown
+
+### Simple wrapper for qsub which provides the functionality of the '-sync' option
+
+
+
+##### 安装
+
+```
+git clone https://github.com/yodeng/qsubwt.git
+pip install ./qsubwt
+
+or:
+pip install qsubwt
+```
+
+
+
+##### 使用
+
+```
+Usage: qsubwt [qsub options] <script.sh>
+```
+
+
+
