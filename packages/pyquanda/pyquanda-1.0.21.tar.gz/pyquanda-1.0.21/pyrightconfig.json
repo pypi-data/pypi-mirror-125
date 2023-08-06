@@ -1,0 +1,8 @@
+{
+   "extraPaths" : [
+      "src",
+      "../freeplane_tools/src"
+   ],
+   "venv" : "pyquanda_3_8_9",
+   "venvPath" : "/home/shollingsworth/.pyenv/versions"
+}
