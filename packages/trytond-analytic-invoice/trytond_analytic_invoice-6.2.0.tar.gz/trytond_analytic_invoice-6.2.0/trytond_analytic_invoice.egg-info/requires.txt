@@ -1,0 +1,3 @@
+trytond_account_invoice<6.3,>=6.2
+trytond_analytic_account<6.3,>=6.2
+trytond<6.3,>=6.2
