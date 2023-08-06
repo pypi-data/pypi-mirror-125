@@ -1,0 +1,11 @@
+Metadata-Version: 1.1
+Name: asynctelegram
+Version: 0.0.1
+Summary: A simple library to create telegram bot
+Home-page: https://github.com/5IGI0/asynctelegram
+Author: 5IGI0
+Author-email: 5IGI0@protonmail.com
+License: LGPL-3
+Description: UNKNOWN
+Platform: UNKNOWN
+Classifier: Development Status :: 1 - Planning
