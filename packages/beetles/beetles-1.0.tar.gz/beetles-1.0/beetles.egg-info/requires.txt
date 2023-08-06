@@ -1,0 +1,11 @@
+torch
+numpy
+torchaudio
+pytorch_lightning
+matplotlib<3.5
+tqdm
+pandas
+requests
+torchmetrics
+scikit_learn
+pomegranate
