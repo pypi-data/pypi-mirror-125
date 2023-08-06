@@ -1,0 +1,3 @@
+[console_scripts]
+git-phoenix = src.git_phoenix:main
+
