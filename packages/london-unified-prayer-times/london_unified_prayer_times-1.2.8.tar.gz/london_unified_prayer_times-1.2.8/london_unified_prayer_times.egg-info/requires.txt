@@ -1,0 +1,9 @@
+Click
+click-default-group
+jsonschema
+jsonpickle
+python-dateutil
+appdirs
+tzlocal
+humanize
+beautifulsoup4
