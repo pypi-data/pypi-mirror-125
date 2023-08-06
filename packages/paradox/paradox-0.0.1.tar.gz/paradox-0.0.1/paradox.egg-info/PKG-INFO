@@ -1,0 +1,11 @@
+Metadata-Version: 2.1
+Name: paradox
+Version: 0.0.1
+Summary: A nondeterministic package
+Home-page: https://dustingram.com/articles/2018/03/05/why-pypi-doesnt-know-dependencies/
+License: UNKNOWN
+Platform: UNKNOWN
+Description-Content-Type: text/markdown
+
+<https://dustingram.com/articles/2018/03/05/why-pypi-doesnt-know-dependencies/>
+
