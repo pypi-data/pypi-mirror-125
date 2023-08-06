@@ -1,0 +1,8 @@
+README.rst
+setup.py
+src/CV2_Threaded_Video_Capture.egg-info/PKG-INFO
+src/CV2_Threaded_Video_Capture.egg-info/SOURCES.txt
+src/CV2_Threaded_Video_Capture.egg-info/dependency_links.txt
+src/CV2_Threaded_Video_Capture.egg-info/not-zip-safe
+src/CV2_Threaded_Video_Capture.egg-info/requires.txt
+src/CV2_Threaded_Video_Capture.egg-info/top_level.txt
