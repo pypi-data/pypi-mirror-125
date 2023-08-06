@@ -1,0 +1,11 @@
+gabriel_puc_csv_converter/__init__.py,sha256=AuCNyVj-o7JxmFV8BUjd3V1Pqi8Degvka5L6D4379JY,151
+gabriel_puc_csv_converter/_tests/conftest.py,sha256=qZQrVl8lQrM0y-1q8j6ZElyPtOIeaKEEN6RErB65lmM,2443
+gabriel_puc_csv_converter/_tests/test_unit_converter.py,sha256=6uQ5h-COZEP3_O88dHBM4HJUo_pR286FynEPgjOJ6QQ,2843
+gabriel_puc_csv_converter/_tests/test_unit_main.py,sha256=xts6psBfRJXK_-HKXg-2I2SQBbo91cXaXzP7DstefOs,2113
+gabriel_puc_csv_converter/converter.py,sha256=2OPbpmCrMe1TOe5PUprYBqkk0hdpINAU-krI0bFzGfI,3238
+gabriel_puc_csv_converter/main.py,sha256=4AWnEbVyPfsy36a8vpI9RGbNlB2I3X8PGr7f_P7ab0Y,1986
+gabriel_puc_csv_converter-0.2.0.dist-info/entry_points.txt,sha256=vzGpqSpt1li7B6oclz_RWQGKjTXgu6uH2EOgw_IA6ms,70
+gabriel_puc_csv_converter-0.2.0.dist-info/LICENSE,sha256=uBWSpvC-yjKN9tJMI1--Y65V4wVu29gJJVhx2XlyW1I,1070
+gabriel_puc_csv_converter-0.2.0.dist-info/WHEEL,sha256=y3eDiaFVSNTPbgzfNn0nYn5tEn1cX6WrdetDlQM4xWw,83
+gabriel_puc_csv_converter-0.2.0.dist-info/METADATA,sha256=N44t1i9hB47paB1yyiY-glcfxR-kvxsf8kRdtwxkUfg,1769
+gabriel_puc_csv_converter-0.2.0.dist-info/RECORD,,
