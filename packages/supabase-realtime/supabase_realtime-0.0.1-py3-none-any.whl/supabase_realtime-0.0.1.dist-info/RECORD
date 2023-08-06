@@ -1,0 +1,10 @@
+realtime/__init__.py,sha256=9o6fGNqzGq9842wHvGJvVRI0owaKhYuRpwvPDAR7U4g,75
+realtime/channel.py,sha256=f239Mu_Py4h5fTNLWyl6V3xHy-AFl1490L--KTS9BwQ,2260
+realtime/connection.py,sha256=a2agRRZC4XpQqRnbOAJ9lNnUEZAdYu6eHTKvnKw8BqQ,4332
+realtime/exceptions.py,sha256=oSBgp34rIFGxM5nosDPEnr0kExk5lC0mp8ilcU2tbEE,604
+realtime/message.py,sha256=WNzqMnwC_RkG8oklr-M6ZAqWtiafMKSqhRic056yzkU,890
+realtime/transformers.py,sha256=lVGzC0_e0uyzdRKuW17FVi5h0PuEGY1LOF136wXLvp4,5899
+supabase_realtime-0.0.1.dist-info/LICENSE,sha256=aY0aZxpunWIhq7CBYKBI4J5SCg8RUA1Rx_IzlvJKWW0,1078
+supabase_realtime-0.0.1.dist-info/WHEEL,sha256=N0LZrBtofpkS5mJXgVHTCEy52Sam4D6PHQWC8HnMeTs,83
+supabase_realtime-0.0.1.dist-info/METADATA,sha256=SEgHyDSitV5NIUgzY89CR2ncVFj8Wnp5stQieegeD0I,2648
+supabase_realtime-0.0.1.dist-info/RECORD,,
