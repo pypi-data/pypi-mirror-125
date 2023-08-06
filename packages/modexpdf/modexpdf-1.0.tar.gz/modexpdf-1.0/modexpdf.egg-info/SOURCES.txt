@@ -1,0 +1,10 @@
+LICENCE
+README.md
+setup.py
+modexpdf/__init__.py
+modexpdf/pdf2image.py
+modexpdf/pdf2text.py
+modexpdf.egg-info/PKG-INFO
+modexpdf.egg-info/SOURCES.txt
+modexpdf.egg-info/dependency_links.txt
+modexpdf.egg-info/top_level.txt
