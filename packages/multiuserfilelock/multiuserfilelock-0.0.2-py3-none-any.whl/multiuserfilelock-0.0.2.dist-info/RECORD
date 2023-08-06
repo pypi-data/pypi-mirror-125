@@ -1,0 +1,9 @@
+multiuserfilelock/__init__.py,sha256=MWKKsW449p8GqQ7fNqqZjeCou1tmBaw0NeiwKjftRL8,3251
+multiuserfilelock/_version.py,sha256=uufG0rukjJgtEwheBh8Q2df8JBq4sExyToKZDH0p8bo,497
+multiuserfilelock/tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+multiuserfilelock/tests/test_acquire.py,sha256=QMEr26n5BlO2Oly25pTTkrTFBsGcBWFFRXVidK-puvg,640
+multiuserfilelock-0.0.2.dist-info/LICENSE,sha256=Fjf-oWC6-wfPyxfQKGUH7TpvplRHtXtywduShGJiKYE,1521
+multiuserfilelock-0.0.2.dist-info/METADATA,sha256=xIAF0_ohgl_LIpvIUPQFmDrrAkphRSIf9w89hazwmbE,313
+multiuserfilelock-0.0.2.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+multiuserfilelock-0.0.2.dist-info/top_level.txt,sha256=ji2gp4Hj0mMgf2NWtnnww4_D1RSCd5ZtU5xHnPIeG2s,18
+multiuserfilelock-0.0.2.dist-info/RECORD,,
