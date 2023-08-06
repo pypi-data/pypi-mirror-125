@@ -1,0 +1,9 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+diskord_invites.egg-info/PKG-INFO
+diskord_invites.egg-info/SOURCES.txt
+diskord_invites.egg-info/dependency_links.txt
+diskord_invites.egg-info/requires.txt
+diskord_invites.egg-info/top_level.txt
