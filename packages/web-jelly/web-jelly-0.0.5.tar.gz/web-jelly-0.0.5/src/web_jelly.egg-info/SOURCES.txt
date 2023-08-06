@@ -1,0 +1,8 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+src/web_jelly.egg-info/PKG-INFO
+src/web_jelly.egg-info/SOURCES.txt
+src/web_jelly.egg-info/dependency_links.txt
+src/web_jelly.egg-info/top_level.txt
