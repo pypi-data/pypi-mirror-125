@@ -1,0 +1,8 @@
+[console_scripts]
+cookiecutter=opendiamond.console.scope_generate:generate
+diamond-newscope=opendiamond.console.scope_import:import_
+opendiamond-scope=opendiamond.console.scope:cli
+
+[opendiamond.cli_plugins]
+scope=opendiamond.console.scope:cli
+
