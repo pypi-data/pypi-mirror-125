@@ -1,0 +1,14 @@
+arxiv_post/__init__.py,sha256=OcVUkg3Up1PgWM0PWcht9QOyMrdhGGpaQXwaSvXWoTc,245
+arxiv_post/apps/__init__.py,sha256=D38X59MQdPpQIYC4gpsL0rBQ8o8aJgEbXF7bpw0X53s,65
+arxiv_post/apps/slack.py,sha256=znDJMIW1WjDa8uInaViaeOyBcxxpasglOBBTyCnkcPM,1907
+arxiv_post/article.py,sha256=le2kql6-JdV-gr79ybtIhVaIWpwG3zRcQnIvpEKxoeA,1420
+arxiv_post/cli.py,sha256=avkWTmpy08lUbvucygg7UtZAMVUh2utxzbHDoojfQDM,2584
+arxiv_post/constants.py,sha256=sBMbhT6rM1CkkJwyRr1bpR4tzPMiaKNVBDsIxZTp_Ew,1554
+arxiv_post/detex.py,sha256=B_Ew2BAI8ya7V2V1E3PkbdDzP0CkmYwvMIrYC8KaQSw,969
+arxiv_post/search.py,sha256=QTRrgY6opKqTc9VpsHUXjwrhzOhHQGjbl9g8BTI57lo,1524
+arxiv_post/translate.py,sha256=MjKWiNAz0pJKZOY02ek1ymem7XVyQxa1hNWpKIryFjk,3905
+arxiv_post-0.4.0.dist-info/entry_points.txt,sha256=ASqxYTn4IybiE8iwUngygNdb3BT0ZNSZhRWI61aQW7g,49
+arxiv_post-0.4.0.dist-info/LICENSE,sha256=8Alyau-bhkhaSPVnyfr6yBRLYtz6fBwFStGLSfdaCSA,1071
+arxiv_post-0.4.0.dist-info/WHEEL,sha256=V7iVckP-GYreevsTDnv1eAinQt_aArwnAxmnP0gygBY,83
+arxiv_post-0.4.0.dist-info/METADATA,sha256=4q4ozCduSYZWKXSO8b0nekE7hf8BM_LDnCCYFrriXUA,3113
+arxiv_post-0.4.0.dist-info/RECORD,,
