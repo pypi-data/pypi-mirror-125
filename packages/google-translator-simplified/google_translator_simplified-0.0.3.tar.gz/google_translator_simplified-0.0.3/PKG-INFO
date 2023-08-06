@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: google_translator_simplified
+Version: 0.0.3
+Summary: Class for translating texts and detecting language (based on Google Translator).
+Home-page: https://github.com/ksproska/google_translator_simplified
+Author: Kamila Sproska
+Author-email: kamila.sproska@gmail.com
+License: UNKNOWN
+Keywords: python,google,translator,simple,google translator
+Platform: UNKNOWN
+
+# google_translator_simplified
+Class for translating texts and detecting language (based on Google Translator).
+
+
