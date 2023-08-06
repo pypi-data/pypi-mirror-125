@@ -1,0 +1,20 @@
+Metadata-Version: 1.1
+Name: disnake_paginator
+Version: 0.1
+Summary: This is a module that contains paginators for disnake
+Home-page: https://github.com/ErrorNoInternet/disnake-paginator
+Author: Ryan Huang
+Author-email: ryan.error403@myself.com
+License: MIT
+Download-URL: https://github.com/ErrorNoInternet/disnake-paginator/archive/refs/tags/0.1.tar.gz
+Description: # disnake-paginator
+        A module containing paginators for disnake
+        
+Keywords: discord,disnake,paginator
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
