@@ -1,0 +1,1 @@
+# testimport osfrom pyrateshield.logger import Loggerfrom pyrateshield.observable import Observable__pkg_root__ = os.path.split(__file__)[0]

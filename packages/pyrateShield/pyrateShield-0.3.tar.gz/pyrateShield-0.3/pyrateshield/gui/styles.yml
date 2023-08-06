@@ -1,0 +1,139 @@
+# under default are style items that are not changed during selection / deselection
+
+# pick radius must match marker size other wise part of the marker is not pickable
+
+Origin [cm]:
+  default: 
+    marker: +
+    color: red 
+    markersize: 18
+    markersize: 10
+
+  
+Pixel size [cm]:
+  default:
+   linewidth: 2 
+   color: red 
+   marker: + 
+   markersize: 18 
+   markerfacecolor: black
+   markeredgecolor: black
+
+   
+Shielding:
+  None:
+    color: k
+    linewidth: 1
+  
+  default:
+    color: k 
+    linewidth: 3
+   
+Walls:
+  normal: {}
+  default:
+    color: k 
+    linewidth: 3
+    linestyle: '-'
+    pickradius: 10
+  selected:
+    marker: s
+    markersize: 10
+    pickradius: 15
+   
+
+Sources NM:
+  default:
+    marker: o
+    
+  normal:
+    markersize: 10
+    markeredgewidth: 0
+    markerfacecolor: blue
+    markeredgecolor: red
+    pickradius: 10
+  selected: 
+    markerfacecolor: blue
+    markeredgecolor: red
+    markersize: 25
+    markeredgewidth: 5
+    pickradius: 25
+  disabled:
+    markersize: 10
+    markeredgewidth: 0
+    markerfacecolor: gray
+    markeredgecolor: gray
+    
+Sources CT:
+  default:
+    marker: d
+    
+  normal:
+    markersize: 10
+    markeredgewidth: 0
+    markerfacecolor: blue
+    markeredgecolor: red
+    pickradius: 10
+  selected: 
+    markersize: 25
+    markeredgewidth: 5
+    markerfacecolor: blue
+    markeredgecolor: red
+    pickradius: 25
+  disabled:
+    markersize: 10
+    markeredgewidth: 0
+    markerfacecolor: gray
+    markeredgecolor: gray
+    pickradius: 10
+    
+Sources Xray:
+  default:
+    marker: '*'
+    
+  normal:
+    markersize: 10
+    markeredgewidth: 0
+    markerfacecolor: blue
+    markeredgecolor: red
+    pickradius: 10
+  selected: 
+    markersize: 25
+    markeredgewidth: 5
+    markerfacecolor: blue
+    markeredgecolor: red
+    pickradius: 25
+  disabled:
+    markersize: 10
+    markeredgewidth: 0
+    markerfacecolor: gray
+    markeredgecolor: gray
+    pickradius: 10
+    
+Critical points:
+  default:
+    marker: X
+    
+  normal:
+    markersize: 10
+    markeredgewidth: 0
+    markerfacecolor: blue
+    markeredgecolor: red
+    pickradius: 10
+  selected: 
+    markersize: 25
+    markeredgewidth: 5 
+    markerfacecolor: blue
+    markeredgecolor: red
+    pickradius: 25
+  disabled:
+    markersize: 10
+    markeredgewidth: 0
+    markerfacecolor: gray
+    markeredgecolor: gray
+    pickradius: 10
+    
+    
+
+ 
+    

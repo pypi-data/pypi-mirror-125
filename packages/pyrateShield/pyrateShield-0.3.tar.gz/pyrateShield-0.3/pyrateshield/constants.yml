@@ -1,0 +1,103 @@
+Self shielding options:
+  - 'None'
+  - 'Patient'
+  
+Body part options:
+  - Body
+  - Head
+
+Materials:
+- Name: Water
+  Density: 0.998
+- Name: Lead
+  Density: 11.35
+- Name: Concrete
+  Density: 2.30
+- Name: Concrete-Barite
+  Density: 3.35
+- Name: 'None'
+  Density: 0
+
+Isotopes:
+- Name: F-18
+  Half life: 1.8295 
+  Self shielding options:
+    - Body
+    - None
+    
+- Name: Ga-68
+  Half life: 1.128  
+  Self shielding options:
+    - Body
+    - None
+
+- Name: Tc-99m
+  Half life: 6.0067 # hours
+  Self shielding options:
+    - Body
+    - None
+
+- Name: I-123
+  Half life: 13.22 # hours
+  Self shielding options:
+    - Body
+    - None
+
+- Name: I-131
+  Half life: 192.4728 #  8.0197 * 24 days to hours
+  Self shielding options:
+    - Body
+    - None
+
+- Name: Ho-166
+  Half life: 26.83 # hours
+  Self shielding options:
+    - Body
+    - None
+
+- Name: Lu-177
+  Half life: 159.43 # 6.643 * 24 days to hours
+  Self shielding options:
+    - Body
+    - None
+
+
+CT parameters: # Dose Conversion Coefficients in [uSv/m^2 per mGycm]
+- kVp: 120
+  Archer:
+    Lead: [24.79, 86.8, 0.569] #Platten et al
+    Concrete: [0.383, 0.142, 0.658] #NCRP147
+  DCC: 5.184e-1
+- kVp: 140
+  Archer:
+    Lead: [24.17, 74.1, 0.598]
+    Concrete: [0.336, 0.122, 0.519]
+  DCC: 5.184e-1 #WARNING# Check these values
+
+
+Xray parameters: # Dose Conversion Coefficients in [uSv/m^2 per Gycm2]
+- kVp: 50
+  Archer:
+    Lead: [8.801E+01, 2.728E+02, 2.957E-01]
+    Concrete: [9.030E-0, 1.712E-00, 2.324E-01]
+  DCC: 4.35
+- kVp: 70
+  Archer:
+    Lead: [5.369E+01, 2.349E+02, 5.883E-01]
+    Concrete: [5.090E-01, 1.697E-00, 3.849E-01]
+  DCC: 4.35
+- kVp: 100
+  Archer:
+    Lead: [2.507E+01, 1.533E+02, 9.124E-01]
+    Concrete: [3.950E-01, 8.440E-01, 5.191E-01]
+  DCC: 4.35
+- kVp: 125
+  Archer:
+    Lead: [2.233E+01, 7.888E+01, 7.295E-01]
+    Concrete: [3.510E-01, 6.600E-01, 7.832E-01]
+  DCC: 4.35
+- kVp: 150
+  Archer:
+    Lead: [1.791E+01, 5.478E+01, 5.678E-01]
+    Concrete: [3.240E-01, 7.750E-01, 1.566E+00]
+  DCC: 4.35
