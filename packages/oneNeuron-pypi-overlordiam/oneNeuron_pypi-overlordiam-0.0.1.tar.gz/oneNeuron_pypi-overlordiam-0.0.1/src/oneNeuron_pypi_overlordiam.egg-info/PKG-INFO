@@ -1,0 +1,21 @@
+Metadata-Version: 2.1
+Name: oneNeuron-pypi-overlordiam
+Version: 0.0.1
+Summary: An implementation of Perceptron
+Home-page: https://github.com/overlordiam/oneNeuron_pypi
+Author: overlordiam
+Author-email: suhaaagummalam2000@gmail.com
+License: UNKNOWN
+Project-URL: Bug Tracker, https://github.com/overlordiam/oneNeuron_pypi/issues
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# 1neuron_pypi
+1neuron_pypi
+
+
