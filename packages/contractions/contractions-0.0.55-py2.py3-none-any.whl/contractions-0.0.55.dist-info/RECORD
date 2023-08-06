@@ -1,0 +1,15 @@
+contractions/__init__.py,sha256=ZsecWNhSx5Zty2uvxVW_f_sgLFzbVCrL2vKaV7z7mQc,3853
+contractions/test___init__.py,sha256=PMAFhzt9nZ-Lff5oPH88EvTKzkjDnhG72Quyn5WsZbo,1119
+contractions/data/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+contractions/data/contractions_dict.json,sha256=gGxnG8NifzYjdpvZneXuW_VoZdJ9jOqsd5TdxY2SUtY,4552
+contractions/data/leftovers_dict.json,sha256=t__xK9SNMsGv4L9ObO88EX0xiy7ZKMRBaAmh7-yC_PI,357
+contractions/data/slang_dict.json,sha256=P8whY9bWrcEMeWZDUIq90Cx4KBaRdPXwSaxZ7Ewejk8,224
+data/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+data/contractions_dict.json,sha256=kGo-WLYiHI2dMCd3vf5EazJ-5L6M8XsYS3RQLZYcYHA,3350
+data/leftovers_dict.json,sha256=t__xK9SNMsGv4L9ObO88EX0xiy7ZKMRBaAmh7-yC_PI,357
+data/slang_dict.json,sha256=P8whY9bWrcEMeWZDUIq90Cx4KBaRdPXwSaxZ7Ewejk8,224
+contractions-0.0.55.dist-info/LICENSE,sha256=Tuacphgwv16oliBpNnuHtuAaCIsPTnqc7eTpMaGA2BA,1074
+contractions-0.0.55.dist-info/METADATA,sha256=P6xSQs8jzJLw3csxXjH1rixXNcQGeYYeq6wNmsOZ3R4,1236
+contractions-0.0.55.dist-info/WHEEL,sha256=Z-nyYpwrcSqxfdux5Mbn_DQ525iP7J2DG3JgGvOYyTQ,110
+contractions-0.0.55.dist-info/top_level.txt,sha256=UHNKRm-q83rg6_A_lG6eGcDafFy3fCWW5-zZg-NnGqw,13
+contractions-0.0.55.dist-info/RECORD,,
