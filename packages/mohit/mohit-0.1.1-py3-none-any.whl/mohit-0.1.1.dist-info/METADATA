@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: mohit
+Version: 0.1.1
+Summary: Imports the mohit
+Home-page: http://pypi.python.org/pypi/mohit/
+Author: jpts
+Author-email: jpts@pypi.org
+License: UNKNOWN
+Platform: UNKNOWN
+Requires-Dist: kubernetes (>=19.13.0)
+Requires-Dist: awscli (>=1.21.5)
+Requires-Dist: google-api-python-client (>=2.24.0)
+Requires-Dist: docker
+Requires-Dist: alive-progress
+
+UNKNOWN
+
+
