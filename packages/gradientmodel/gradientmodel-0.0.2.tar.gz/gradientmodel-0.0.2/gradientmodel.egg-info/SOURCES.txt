@@ -1,0 +1,9 @@
+LICENSE.md
+README.md
+gradientmodel.py
+setup.py
+gradientmodel.egg-info/PKG-INFO
+gradientmodel.egg-info/SOURCES.txt
+gradientmodel.egg-info/dependency_links.txt
+gradientmodel.egg-info/requires.txt
+gradientmodel.egg-info/top_level.txt

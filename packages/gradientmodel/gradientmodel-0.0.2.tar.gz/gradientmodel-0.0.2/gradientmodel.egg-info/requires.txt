@@ -1,0 +1,6 @@
+numpy
+scipy
+mpmath
+
+[examples]
+matplotlib
