@@ -1,0 +1,9 @@
+README.md
+setup.cfg
+setup.py
+pysrpm.egg-info/PKG-INFO
+pysrpm.egg-info/SOURCES.txt
+pysrpm.egg-info/dependency_links.txt
+pysrpm.egg-info/entry_points.txt
+pysrpm.egg-info/requires.txt
+pysrpm.egg-info/top_level.txt
