@@ -1,0 +1,8 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+src/colorain.egg-info/PKG-INFO
+src/colorain.egg-info/SOURCES.txt
+src/colorain.egg-info/dependency_links.txt
+src/colorain.egg-info/top_level.txt
