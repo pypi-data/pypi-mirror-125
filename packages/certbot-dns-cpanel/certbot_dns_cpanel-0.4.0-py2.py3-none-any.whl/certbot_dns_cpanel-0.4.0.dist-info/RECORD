@@ -1,0 +1,8 @@
+certbot_dns_cpanel/__init__.py,sha256=4UvCO5VTwv_dth48_IqnP9xtroaKNLp9E3kM2wq3Ykc,41
+certbot_dns_cpanel/dns_cpanel.py,sha256=3F5TCLIOr414VuWDXEOocgSEOB5OW4xN8LTrU9XD9FE,12452
+certbot_dns_cpanel-0.4.0.dist-info/LICENSE,sha256=Zez--cih2fCwkTvmqOWBgNAx6NhsOV49VTf-PHKkN9A,9737
+certbot_dns_cpanel-0.4.0.dist-info/METADATA,sha256=SZ3NLOQgjbKoAxWQ_8ZFRfeWQfCIoO8B1subN9YhTOE,3821
+certbot_dns_cpanel-0.4.0.dist-info/WHEEL,sha256=WzZ8cwjh8l0jtULNjYq1Hpr-WCqCRgPr--TX4P5I1Wo,110
+certbot_dns_cpanel-0.4.0.dist-info/entry_points.txt,sha256=L98MtbTwXCTAOn0nLGq5jB3-0N-KdPCD9wOX3i47s5w,77
+certbot_dns_cpanel-0.4.0.dist-info/top_level.txt,sha256=boW3tZjsWdrcRrl48K8DkR6AzYJfaHGDK9237JhyQ18,19
+certbot_dns_cpanel-0.4.0.dist-info/RECORD,,
