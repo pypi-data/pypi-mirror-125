@@ -1,0 +1,9 @@
+gambling/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+gambling/cards.py,sha256=8znJbaFPGR2YHRe_8AG_YxrQV6vwr5_tEu_3pWaZIZk,1700
+gambling/dice.py,sha256=Ls44oLgKuZGTwfOEyOENPAStEthQgkYVUA1yi-FU68E,394
+gambling/player.py,sha256=Pebm1Gt0IJI75e4M07yymxCd1B0iyD1nTttveLG2nX0,263
+gambling-1.0.0.dev2.dist-info/LICENSE.txt,sha256=ePs3tgrSHEReqS-B0kK3OOJAcEpDJWRRBJtislRCsPY,1084
+gambling-1.0.0.dev2.dist-info/METADATA,sha256=UFPi944n96TuxlTuQvEXjzaQBYV3F5-TLcJI2Xii8Ag,2845
+gambling-1.0.0.dev2.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+gambling-1.0.0.dev2.dist-info/top_level.txt,sha256=t07G1lrPfAv3PWehJt3qGW0bGeIaCYosCd1W2qC8wEY,9
+gambling-1.0.0.dev2.dist-info/RECORD,,
