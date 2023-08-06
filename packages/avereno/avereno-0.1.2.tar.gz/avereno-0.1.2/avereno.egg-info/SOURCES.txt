@@ -1,0 +1,10 @@
+LICENSE
+README.md
+setup.py
+avereno/__init__.py
+avereno/core.py
+avereno/version.py
+avereno.egg-info/PKG-INFO
+avereno.egg-info/SOURCES.txt
+avereno.egg-info/dependency_links.txt
+avereno.egg-info/top_level.txt
