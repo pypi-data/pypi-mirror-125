@@ -1,0 +1,50 @@
+Metadata-Version: 2.1
+Name: concept
+Version: 0.0.1
+Summary: Topic Model Images
+Home-page: UNKNOWN
+Author: Maarten P. Grootendorst
+Author-email: maartengrootendorst@gmail.com
+License: UNKNOWN
+Keywords: image nlp topic modeling embeddings
+Platform: UNKNOWN
+Classifier: Programming Language :: Python
+Classifier: Intended Audience :: Science/Research
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Scientific/Engineering :: Artificial Intelligence
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Topic :: Scientific/Engineering
+Classifier: Operating System :: Microsoft :: Windows
+Classifier: Operating System :: POSIX
+Classifier: Operating System :: Unix
+Classifier: Operating System :: MacOS
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.8
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+Requires-Dist: numpy (>=1.20.0)
+Requires-Dist: hdbscan (>=0.8.27)
+Requires-Dist: umap-learn (>=0.5.0)
+Requires-Dist: pandas (>=1.1.5)
+Requires-Dist: scikit-learn (>=0.22.2.post1)
+Requires-Dist: tqdm (>=4.41.1)
+Requires-Dist: sentence-transformers (==1.2.0)
+Requires-Dist: pillow (>=7.1.2)
+Provides-Extra: dev
+Requires-Dist: mkdocs (>=1.1) ; extra == 'dev'
+Requires-Dist: mkdocs-material (>=4.6.3) ; extra == 'dev'
+Requires-Dist: mkdocstrings (>=0.8.0) ; extra == 'dev'
+Requires-Dist: pytest (>=5.4.3) ; extra == 'dev'
+Requires-Dist: pytest-cov (>=2.6.1) ; extra == 'dev'
+Provides-Extra: docs
+Requires-Dist: mkdocs (>=1.1) ; extra == 'docs'
+Requires-Dist: mkdocs-material (>=4.6.3) ; extra == 'docs'
+Requires-Dist: mkdocstrings (>=0.8.0) ; extra == 'docs'
+Provides-Extra: test
+Requires-Dist: pytest (>=5.4.3) ; extra == 'test'
+Requires-Dist: pytest-cov (>=2.6.1) ; extra == 'test'
+
+# Concept
+
+
