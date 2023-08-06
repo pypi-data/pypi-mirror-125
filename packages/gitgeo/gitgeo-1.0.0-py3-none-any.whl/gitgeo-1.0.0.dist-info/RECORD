@@ -1,0 +1,17 @@
+gitgeo/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+gitgeo/custom_csv.py,sha256=MZ9PQwHUx-P0-QrJJZFD183WoLa1D-s0gDxCS3FfmCY,2147
+gitgeo/geographies_list.py,sha256=QSn_CBYtZ6pDR5Bkuu3zX6NZrAJJRR6lFX9BbwEDDxE,10359
+gitgeo/geolocation.py,sha256=O4qVE6kDlGztJ8ltwUE2lOZoCBtZ5Md8ZXxYg46uQko,7338
+gitgeo/github.py,sha256=eXPPiLs68HLC1L4PIZUdIICCzOSIHcza_dVxskXjFoM,4452
+gitgeo/main.py,sha256=N6YrpofdpQjaQcrPlGh2Tm_DkXBfQaBd2lxg80f0o1c,3961
+gitgeo/mapping.py,sha256=kmowOQlweicVUil45teU7aB_Nq_qnrwozfSKtXI9Msc,7207
+gitgeo/multi_repo_scan.py,sha256=vBsINZz-5Xnsf6fBkkPoZQ-0lJtK1n4C4NPup5bd7Ss,1812
+gitgeo/printers.py,sha256=pBL1UOtwMiYLfcj8Rm0kQE4APv5rFLO54JOqfV0GeS4,2507
+gitgeo/pypi.py,sha256=gMgLhxX4HRvwNU61j_4pOAD92P7be3xWvymSkuelbsc,3798
+gitgeo/world_cities.csv,sha256=FVZkUpFnJg1awSw_it3v2jtGyL2yRO7S0hvjcpqfgqs,885262
+gitgeo-1.0.0.dist-info/LICENSE,sha256=37DPYfBXRYu6kIOb5HJuA-_-rY4RUllCdEGbCwSVsZ8,11338
+gitgeo-1.0.0.dist-info/METADATA,sha256=gNftURpd44CcisvqJe7BmZOQfiDf9Iejrva2b-KdOtw,8634
+gitgeo-1.0.0.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+gitgeo-1.0.0.dist-info/entry_points.txt,sha256=6Ab89XjCNtmIAsmcHHKttZ6MgTqVWaRDaHRpOGyHReM,45
+gitgeo-1.0.0.dist-info/top_level.txt,sha256=6l713Vq4kvT4KnOV_XKlHdK6eB6eEY5N-_A62hbtieo,7
+gitgeo-1.0.0.dist-info/RECORD,,
