@@ -1,0 +1,69 @@
+Metadata-Version: 2.1
+Name: aiotgbotapi
+Version: 0.1.1
+Summary: Asynchronous Telegram BOT API Client
+Home-page: https://github.com/pylakey/aiotgbotapi
+License: MIT
+Author: Pylakey
+Author-email: pylakey@protonmail.com
+Requires-Python: >=3.9,<4.0
+Classifier: Framework :: AsyncIO
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Classifier: Typing :: Typed
+Requires-Dist: fastapi (>=0.70.0,<0.71.0)
+Requires-Dist: httpx[http2] (>=0.20.0,<0.21.0)
+Requires-Dist: pydantic (>=1.8.2,<2.0.0)
+Requires-Dist: ujson (>=4.2.0,<5.0.0)
+Project-URL: Repository, https://github.com/pylakey/aiotgbotapi
+Description-Content-Type: text/markdown
+
+# aiotgbotapi - Asynchronous Telegram BOT API Client
+
+[![PyPI version shields.io](https://img.shields.io/pypi/v/aiotgbotapi.svg)](https://pypi.python.org/pypi/aiotgbotapi/)
+[![PyPI pyversions](https://img.shields.io/pypi/pyversions/aiotgbotapi.svg)](https://pypi.python.org/pypi/aiotgbotapi/)
+[![PyPI license](https://img.shields.io/pypi/l/aiotgbotapi.svg)](https://pypi.python.org/pypi/aiotgbotapi/)
+
+## Installation
+
+### PyPI
+
+```shell
+pip install aiotgbotapi
+```
+
+or if you use [Poetry](https://python-poetry.org)
+
+```shell
+poetry add aiotgbotapi
+```
+
+## Examples
+
+### Basic example
+
+```python
+import asyncio
+import logging
+
+from aiotgbotapi import Bot
+from aiotgbotapi.filters import Filters
+from aiotgbotapi.types import Message
+
+bot = Bot("BOT TOKEN HERE")
+
+
+@bot.on_message(filters=Filters.command('start'))
+async def on_start_command(_bot: Bot, message: Message):
+    await message.reply(f"Hello, {message.from_.mention}")
+
+
+if __name__ == '__main__':
+    logging.basicConfig(level=logging.INFO)
+    asyncio.run(bot.run())
+
+```
