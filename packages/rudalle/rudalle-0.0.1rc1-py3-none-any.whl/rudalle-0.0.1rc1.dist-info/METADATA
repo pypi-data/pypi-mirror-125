@@ -1,0 +1,21 @@
+Metadata-Version: 2.1
+Name: rudalle
+Version: 0.0.1rc1
+Summary: UNKNOWN
+Home-page: UNKNOWN
+Author: Sber AI, SberDevices
+Author-email: shonenkov@phystech.edu
+License: UNKNOWN
+Platform: UNKNOWN
+Description-Content-Type: text/markdown
+Requires-Dist: taming-transformers (==0.0.1)
+Requires-Dist: more-itertools (~=8.10.0)
+Requires-Dist: transformers (~=4.10.2)
+Requires-Dist: youtokentome (~=1.0.6)
+Requires-Dist: einops (==0.3.2)
+Requires-Dist: torch
+Requires-Dist: torchvision
+Requires-Dist: matplotlib
+
+UNKNOWN
+
