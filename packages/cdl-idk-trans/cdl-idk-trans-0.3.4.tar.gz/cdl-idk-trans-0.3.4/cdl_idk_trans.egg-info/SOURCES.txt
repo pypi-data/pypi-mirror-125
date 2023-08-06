@@ -1,0 +1,9 @@
+README.md
+setup.py
+cdl_idk_trans.egg-info/PKG-INFO
+cdl_idk_trans.egg-info/SOURCES.txt
+cdl_idk_trans.egg-info/dependency_links.txt
+cdl_idk_trans.egg-info/top_level.txt
+idktrans/__init__.py
+idktrans/_version.py
+idktrans/io.py
