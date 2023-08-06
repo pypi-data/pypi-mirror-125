@@ -1,0 +1,17 @@
+Metadata-Version: 1.1
+Name: nectar_python_sdk
+Version: v0.9.5-alpha
+Summary: Nectar API helper SDK. Generate STS compliant prepaid tokens
+Home-page: https://github.com/Reagan/nectar-python-sdk
+Author: Reagan Mbitiru
+Author-email: reagan@nectar.software
+License: MIT
+Download-URL: https://github.com/Reagan/nectar-python-sdk/archive/refs/tags/v0.9.4-alpha.tar.gz
+Description: UNKNOWN
+Keywords: sts,prepaid,tokens,nectar api
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Build Tools
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3.6
