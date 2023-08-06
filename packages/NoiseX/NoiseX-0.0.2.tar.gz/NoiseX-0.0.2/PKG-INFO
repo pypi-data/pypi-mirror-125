@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: NoiseX
+Version: 0.0.2
+Summary: A python package for perlin noise, simplex noise and perlin worms.
+Home-page: https://github.com/somePythonProgrammer/NoiseX
+Author: somePythonProgrammer
+Author-email: leenagajbhiye1003@gmail.com
+License: MIT
+Download-URL: https://pypi.org/project/NoiseX/
+Keywords: Noise,Perlin,Worms,Simplex
+Platform: UNKNOWN
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# PyNoise
+A perlin, simplex noise and perlin worms library for python
+
+
