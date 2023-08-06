@@ -1,0 +1,14 @@
+LICENSE
+README.md
+setup.py
+src/yadocgen/__init__.py
+src/yadocgen/example.py
+src/yadocgen/generator.py
+src/yadocgen/rendering.py
+src/yadocgen.egg-info/PKG-INFO
+src/yadocgen.egg-info/SOURCES.txt
+src/yadocgen.egg-info/dependency_links.txt
+src/yadocgen.egg-info/entry_points.txt
+src/yadocgen.egg-info/requires.txt
+src/yadocgen.egg-info/top_level.txt
+src/yadocgen/templates/__init__.py
