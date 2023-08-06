@@ -1,0 +1,8 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+src/similaritychecker.egg-info/PKG-INFO
+src/similaritychecker.egg-info/SOURCES.txt
+src/similaritychecker.egg-info/dependency_links.txt
+src/similaritychecker.egg-info/top_level.txt
