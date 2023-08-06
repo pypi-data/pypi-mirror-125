@@ -1,0 +1,15 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+dobbi/__init__.py
+dobbi/job.py
+dobbi.egg-info/PKG-INFO
+dobbi.egg-info/SOURCES.txt
+dobbi.egg-info/dependency_links.txt
+dobbi.egg-info/top_level.txt
+dobbi/collections/__init__.py
+dobbi/collections/chat_shortages.py
+dobbi/collections/contractions.py
+dobbi/collections/emoji.py
+dobbi/collections/emoticons.py
