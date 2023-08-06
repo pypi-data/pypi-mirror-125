@@ -1,0 +1,79 @@
+Metadata-Version: 2.1
+Name: py-pbkdf2
+Version: 1.0.0
+Summary: PBKDF2 implementation for Python
+Home-page: https://github.com/x-compat/py-pbkdf2
+Author: wuriyanto
+Author-email: wuriyanto48@yahoo.co.id
+License: UNKNOWN
+Project-URL: Bug Reports, https://github.com/x-compat/py-pbkdf2/issues
+Project-URL: Source, https://github.com/x-compat/py-pbkdf2/
+Keywords: password hashing,hash,crypto,security
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Environment :: Console
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Topic :: Software Development
+Classifier: Topic :: Utilities
+Requires-Python: >=3.5
+Description-Content-Type: text/markdown
+License-File: LICENSE.md
+
+## PBKDF2 implementation for Python [work in progress]
+
+PBKDF2 (Password-Based Key Derivation Function 2) https://en.wikipedia.org/wiki/PBKDF2
+
+[![pypbkdf2 CI](https://github.com/x-compat/pypbkdf2/actions/workflows/ci.yml/badge.svg)](https://github.com/x-compat/pypbkdf2/actions/workflows/ci.yml)
+
+# USAGE
+
+## Install
+
+TODO
+```
+pip install ****
+```
+
+
+- **Hash a Password**
+```python
+import pypbkdf2
+
+p = pypbkdf2.PyPBKDF2(salt_size=20)
+res = p.hash_password('12345')
+cipher_text = res[0]
+salt = res[1]
+
+# save this two into your Database
+print(cipher_text)
+print(salt)
+```
+
+- **Verify a Password**
+```python
+import pypbkdf2
+
+p = pypbkdf2.PyPBKDF2(salt_size=20)
+res = p.hash_password('12345')
+cipher_text = res[0]
+salt = res[1]
+
+valid = p.verify_password('12345', cipher_text, salt)
+
+print(valid) # True
+```
+
+# Doc
+ TODO
+	
+	
+## x-compat 2021
+
+

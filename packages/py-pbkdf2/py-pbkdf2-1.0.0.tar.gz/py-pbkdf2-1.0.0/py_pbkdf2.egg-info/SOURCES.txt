@@ -1,0 +1,9 @@
+LICENSE.md
+README.md
+setup.cfg
+setup.py
+py_pbkdf2.egg-info/PKG-INFO
+py_pbkdf2.egg-info/SOURCES.txt
+py_pbkdf2.egg-info/dependency_links.txt
+py_pbkdf2.egg-info/top_level.txt
+pypbkdf2/__init__.py
