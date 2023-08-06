@@ -1,0 +1,27 @@
+Metadata-Version: 2.1
+Name: dubiousdiscord
+Version: 0.0.3
+Summary: A python wrapper for the Discord API that takes advantage of Discord Interactions.
+Home-page: https://github.com/lapraas/dubiousdiscord
+Author: lapras
+Author-email: carl.likes.lua@gmail.com
+License: UNKNOWN
+Project-URL: Bug Tracker, https://github.com/lapraas/dubiousdiscord/issues
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3.10
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Natural Language :: English
+Classifier: Operating System :: OS Independent
+Classifier: Topic :: Internet :: WWW/HTTP
+Requires-Python: >=3.10
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: requests
+Requires-Dist: aiohttp[speedups]
+Requires-Dist: websockets
+
+
+# dubiousdiscord
+
+This package is another Python wrapper for the Discord API that aims to do most of the things that Discord.py did with Application Commands and Interactions.
+
