@@ -1,0 +1,40 @@
+[tool.poetry]
+name = "genuml"
+version = "0.5.1"
+description = ""
+authors = ["Simon Muller <samullers@gmail.com>"]
+readme = "README.md"
+homepage = "https://github.com/samuller/genuml"
+repository = "https://github.com/samuller/genuml"
+keywords = ["plantuml", "uml", "java"]
+classifiers = [
+    "Development Status :: 5 - Production/Stable",
+    "Environment :: Console",
+    "Intended Audience :: Developers",
+    "Programming Language :: Python :: 3 :: Only",
+    "Topic :: Software Development :: Documentation",
+    "Topic :: Multimedia :: Graphics :: Editors",
+]
+
+
+[tool.poetry.scripts]
+genuml = "genuml.genuml:app"
+
+[tool.poetry.dependencies]
+python = "^3.8"
+typer = "~0.4.0"
+
+[tool.poetry.dev-dependencies]
+pytest = "^6.2.5"
+pytest-cov = "^3.0.0"
+flake8 = "^4.0.1"
+mypy = "^0.910"
+
+[tool.pytest.ini_options]
+testpaths = [
+    "tests"
+]
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
