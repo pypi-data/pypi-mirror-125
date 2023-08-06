@@ -1,0 +1,11 @@
+napari
+scikit-image
+tqdm
+pymmcore-plus>=0.1.5
+useq-schema>=0.1.0
+magicgui>=0.3.0
+
+[testing]
+pytest
+pytest-qt
+pyqt5
