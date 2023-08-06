@@ -1,0 +1,40 @@
+Metadata-Version: 2.1
+Name: disnake-paginator
+Version: 0.2
+Summary: This is a module that contains paginators for disnake
+Home-page: https://github.com/ErrorNoInternet/disnake-paginator
+Author: Ryan Huang
+Author-email: ryan.error403@myself.com
+License: MIT
+Download-URL: https://github.com/ErrorNoInternet/disnake-paginator/archive/refs/tags/0.1.tar.gz
+Keywords: discord,disnake,paginator
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# disnake-paginator
+A module containing paginators for disnake
+
+## Examples
+```py
+async def ping_command(inter):
+	paginator = disnake_paginator.ButtonPaginator(title="Pong", segments=["Hello", "World"], color=0x00ff00)
+	await paginator.start(inter)
+
+```
+
+```py
+async def on_message(message):
+	if message.content == "!ping":
+		paginator = disnake_paginator.ButtonPaginator(title="Pong", segments=["This is", "a message"])
+		await paginator.start(disnake_paginator.wrappers.MessageInteractionWrapper(message))
+```
+
+
+
