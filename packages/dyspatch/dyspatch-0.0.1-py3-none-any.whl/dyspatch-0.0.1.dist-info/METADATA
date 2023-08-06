@@ -1,0 +1,58 @@
+Metadata-Version: 2.1
+Name: dyspatch
+Version: 0.0.1
+Summary: A simple events handler package.
+Home-page: https://github.com/nerdguyahmad/dyspatch
+Author: NerdGuyAhmad
+License: MIT
+Project-URL: Issue tracker, https://github.com/nerdguyahmad/dyspatch/issues
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Intended Audience :: Developers
+Classifier: Natural Language :: English
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Topic :: Internet
+Classifier: Topic :: Software Development :: Libraries
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Classifier: Topic :: Utilities
+Classifier: Typing :: Typed
+Requires-Python: >=3.8.0
+Description-Content-Type: text/markdown
+
+# Dyspatch
+A simple package that implements basic events handling in Python.
+
+## Installation
+```
+pip install dyspatch
+```
+
+## Usage
+A basic example is as follows:
+```py
+import dyspatch
+
+users = []
+
+def on_room_join(user):
+    print(f'{user} joined the room.')
+    users.append(user)
+    print(f'We now have {len(users)} users')
+
+events = dyspatch.Events()
+events.add_listener('room_join', on_room_join)
+events.dispatch('room_join', args=['Alex'])
+events.dispatch('room_join', args=['Bob'])
+```
+The output is like this:
+```
+Alex joined the room.
+We now have 1 users
+Bob joined the room.
+We now have 2 users
+```
+
+
