@@ -1,0 +1,9 @@
+LICENSE
+README.rst
+setup.py
+tinyfunction/__init__.py
+tinyfunction.egg-info/PKG-INFO
+tinyfunction.egg-info/SOURCES.txt
+tinyfunction.egg-info/dependency_links.txt
+tinyfunction.egg-info/requires.txt
+tinyfunction.egg-info/top_level.txt
