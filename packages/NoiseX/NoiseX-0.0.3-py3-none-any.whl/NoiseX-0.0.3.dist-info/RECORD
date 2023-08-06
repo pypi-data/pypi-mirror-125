@@ -1,0 +1,9 @@
+NoiseX/__init__.py,sha256=pZgk6hnyuNuIAiSCmpfnr6Dvs56OTC6WeTGVAUP1g5k,164
+NoiseX/perlin_noise.py,sha256=22goOs5b4iIuygU3WvsKNb-hBua0bTs0Bf7d_kJM5VI,266
+NoiseX/perlin_worms.py,sha256=RpvuMlegZCVr9tqeavfohlyoEy8lHvh2285FR65qX-0,675
+NoiseX/simplex_noise.py,sha256=RiVJwpwNRpTFEaj_qSE_eVWwHndfwYM2pavWgGMf6f4,332
+NoiseX-0.0.3.dist-info/LICENSE,sha256=9sylPqk14uDWjfnAdQ_TMmPIEMb_tHsaXmHcHmbaWDc,1098
+NoiseX-0.0.3.dist-info/METADATA,sha256=T05AMhxKiRbfpmRX1jUwDfrOFQJxkDaBQB2_7-NnmW0,554
+NoiseX-0.0.3.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+NoiseX-0.0.3.dist-info/top_level.txt,sha256=pRa-zfpilEGuBX8HuGpVNIxa6TQ8H8t2Jlooj1w9vbQ,7
+NoiseX-0.0.3.dist-info/RECORD,,
