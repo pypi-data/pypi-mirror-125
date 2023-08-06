@@ -1,0 +1,11 @@
+classutilities/__init__.py,sha256=VGy_tIbMPdFGwk2TSfkkITep4AWGbxs3RFcCdy9YGQk,172
+classutilities/classproperty.py,sha256=Q4vQ68-jwKX6RY0lCLves2um17hVY1h4JtwuXXP7TKk,2785
+classutilities/configclass.py,sha256=4lYD8ZuVjztpL1VMm7KP7Dpgq1YS0sJG-mIJF_olVZY,2229
+classutilities/tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+classutilities/tests/test_classproperty.py,sha256=YqAci_o_POMFiomGp-5KyG3MFO9Qke5JSovB_k84Jvs,1627
+classutilities/tests/test_configclass.py,sha256=vvuYuoDA3tqm-T4mioRNo_BL-qleCJEjCgLrh5pcve0,1060
+classutilities-0.2.1.dist-info/LICENSE,sha256=0_6NkCGMp_z0yLMib9xdcaWd1PkGwBcg2UmTxMBmTOw,1067
+classutilities-0.2.1.dist-info/METADATA,sha256=5x2W2h4zcROLnDoAbK6ExTEaroXGknzoTkm3aeS703U,3427
+classutilities-0.2.1.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+classutilities-0.2.1.dist-info/top_level.txt,sha256=EvQSfZfFe6KcYzS_oxl4BvBq-zragAHfEovuegGYBPc,15
+classutilities-0.2.1.dist-info/RECORD,,
