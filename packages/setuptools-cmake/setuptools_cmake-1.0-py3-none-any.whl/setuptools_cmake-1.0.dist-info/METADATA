@@ -1,0 +1,40 @@
+Metadata-Version: 2.1
+Name: setuptools-cmake
+Version: 1.0
+Summary: A setuptools intrgration for CMake built extension modules
+Home-page: UNKNOWN
+Author: TheClockTwister
+License: UNKNOWN
+Platform: UNKNOWN
+Requires-Dist: pybind11[global]
+Requires-Dist: click
+Requires-Dist: colorama
+
+# Cmake meets setuptools
+
+
+## Try the example
+
+The example module `foo` contains the methods `add` and `inverse`.
+The `inverse` method is part of an external C/C++ library against
+which is linked after module compilation.
+
+### Build the example module
+```bash
+cd example
+```
+
+```bash
+python3 setup.py bdist_wheel # build as wheel
+python3 setup.py build_ext -i # build in-place
+```
+
+### Test the example module
+```bash
+python3 -c "import foo; print(foo.inverse(0.5))"
+```
+
+This should compile the static library `deadbeef`,
+compile the `foo.bar` submodule and print `2.0` upon execution.
+
+
