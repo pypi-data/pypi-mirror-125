@@ -1,0 +1,7 @@
+datasette
+jupyterlite
+importlib-resources
+
+[test]
+pytest
+pytest-asyncio

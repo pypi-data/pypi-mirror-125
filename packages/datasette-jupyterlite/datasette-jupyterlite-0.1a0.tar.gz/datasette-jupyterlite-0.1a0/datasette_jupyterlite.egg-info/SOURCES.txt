@@ -1,0 +1,9 @@
+README.md
+setup.py
+datasette_jupyterlite/__init__.py
+datasette_jupyterlite.egg-info/PKG-INFO
+datasette_jupyterlite.egg-info/SOURCES.txt
+datasette_jupyterlite.egg-info/dependency_links.txt
+datasette_jupyterlite.egg-info/entry_points.txt
+datasette_jupyterlite.egg-info/requires.txt
+datasette_jupyterlite.egg-info/top_level.txt
