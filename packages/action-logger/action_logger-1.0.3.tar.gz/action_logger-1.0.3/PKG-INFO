@@ -1,0 +1,55 @@
+Metadata-Version: 2.1
+Name: action_logger
+Version: 1.0.3
+Summary: Action logger for digital transformer
+Home-page: UNKNOWN
+Author: TimeAshore
+Author-email: timeashore@163.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+### Project description
+
+## Action logger
+
+Action-logger is a simple, yet elegant, behavior tracking library.
+
+
+#### Install
+
+```python
+pip install action_logger==1.0.2
+```
+
+Usage
+```python
+from action_logger.client import action_post
+
+
+@action_post
+def func(*args, **kwargs):
+    """
+    Need to record behavior func
+    """
+    pass
+```
+
+**Action logger records details about the client**
+- IP address
+- Hostname
+- Action timestamp
+- Function name
+- Function parameters
+- Function document
+- Function model
+- Function source code
+- Etc.
+
+
+
