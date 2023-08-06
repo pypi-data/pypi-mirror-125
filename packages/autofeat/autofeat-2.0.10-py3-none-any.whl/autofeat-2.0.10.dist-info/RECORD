@@ -1,0 +1,11 @@
+autofeat/__init__.py,sha256=NlF3bW1IJXWUlZ10DupkrhxRdBn57kbQNVE_VRy9waA,307
+autofeat/autofeat.py,sha256=k6duWERJrrMZ1XmYK-rwipW0LrE3u6xVTR9fuxYXMPE,26363
+autofeat/autofeatlight.py,sha256=QFx0_KsgCfd_eYAqzfB_WHlsfXLV_O-h-_zsgMe0xcI,12484
+autofeat/feateng.py,sha256=D3ZkR1pn6IcVLvy3SjdwZrnhmSb_iCl-AAppjVp_HAI,19494
+autofeat/featsel.py,sha256=iZBWTcrnYqOcJDwYDa8iqDncjuNyp1BT9W4HgWINViE,17337
+autofeat/nb_utils.py,sha256=b5eB_qje7pgjQtELsMN1A48epYn-HrON8QLdF04n1yo,855
+autofeat-2.0.10.dist-info/LICENSE,sha256=pEbyGaq-NmeFBES71fEbfpMYibTV2_O8B0_gDyXxEkw,1057
+autofeat-2.0.10.dist-info/METADATA,sha256=OI_rMwZy0WEHN0ItxBJcCNgp8-QM6WtIP01z4_XIlOU,6173
+autofeat-2.0.10.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+autofeat-2.0.10.dist-info/top_level.txt,sha256=gu2hO--cXHgCtgZa-w02lBdAm8RH-CMEnuK4cd-ykeU,9
+autofeat-2.0.10.dist-info/RECORD,,
