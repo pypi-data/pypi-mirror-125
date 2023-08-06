@@ -1,0 +1,63 @@
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <title> NEWS </title>
+        <style>
+            @font-face {
+                font-family: DejaVuSans;
+                src: url({{fonts_path+'\DejaVuSans.ttf'}});
+            }
+            body {
+            -pdf-word-wrap: CJK;
+            font-family: DejaVuSans;
+            }
+            .gap-10 {
+				width:100%;
+				height:10px;
+			}
+			.gap-20 {
+				width:100%;
+				height:20px;
+			}
+			header {
+			    padding: 2rem;
+		    }
+            .feed {
+			    padding: 1rem;
+            }
+            .feed_item {
+                padding-bottom: 1rem;
+            }
+        </style>
+    </head>
+    <body>
+        <header>
+            <h1 class="rss_title">News list by grebarss!</h1>
+            <div class="gap-20"></div>
+        </header>
+        <main>
+            <section class="feed">
+                {% if url %}
+                    <h2 href="url_source">Source: {{ url }}</h2>
+                    <div class="gap-10"></div>
+                {% endif %}
+                {% for item in feed['item'] %}
+                    <article class="feed_item">
+                        <h3 class="item_title">Title: {{ item.get('title') }}</h3>
+                        <h4 class="publish_date">Date: {{ item.get('pubDate') }}</h4>
+                        <h4 href="item_link">Link: {{ item.get('link')}}</h4>
+                        {% if item.get('image') %}
+                            <img src={{ item.get('image')}}>
+                            <h4 href="image_link">Image: {{ item.get('image')}}</h4>
+                        {% endif %}
+                        {% if item.get('source') %}
+                            <h4 href="source_url">Source: {{ item.get('source')}}</h4>
+                        {% endif %}
+                        <div class="gap-10"></div>
+                    </article>
+                {% endfor %}
+            </section>
+        </main>
+    </body>
+</html>

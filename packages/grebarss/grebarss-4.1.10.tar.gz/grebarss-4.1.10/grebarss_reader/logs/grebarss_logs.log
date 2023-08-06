@@ -1,0 +1,26 @@
+2021-10-29 16:07:03,478 - app.rss_parser:75 - INFO - Module rss_parser is starting.
+2021-10-29 16:07:03,480 - app.rss_parser:78 - DEBUG - Argparse sent these arguments - {'json': False, 'verbose': False, 'limit': None, 'source': None, 'date': None, 'to_html': None, 'to_pdf': None}
+2021-10-29 16:07:03,480 - app.getter:24 - INFO - Make request to URL - None
+2021-10-29 16:07:03,482 - app.rss_reader:23 - ERROR - Rss reader crashed from Invalid URL 'None': No schema supplied. Perhaps you meant http://None?
+Traceback (most recent call last):
+  File "C:\Users\user\PycharmProjects\Homework\AlexanderHreben\grebarss_reader\rss_reader.py", line 21, in main
+    rss_parser.start()
+  File "C:\Users\user\PycharmProjects\Homework\AlexanderHreben\grebarss_reader\grebarss_parser.py", line 97, in start
+    feed: dict = parser._parse_xml(parser._get_raw_feed(args.source))
+  File "C:\Users\user\PycharmProjects\Homework\AlexanderHreben\grebarss_reader\grebarss_parser.py", line 43, in _get_raw_feed
+    raw_feed = xmltodict.parse(GetterXml().get_response(source).text, encoding='utf-8')
+  File "C:\Users\user\PycharmProjects\Homework\AlexanderHreben\grebarss_reader\getter.py", line 27, in get_response
+    self.response = requests.get(self.url)
+  File "C:\Users\user\AppData\Local\Programs\Python\Python39\lib\site-packages\requests\api.py", line 75, in get
+    return request('get', url, params=params, **kwargs)
+  File "C:\Users\user\AppData\Local\Programs\Python\Python39\lib\site-packages\requests\api.py", line 61, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "C:\Users\user\AppData\Local\Programs\Python\Python39\lib\site-packages\requests\sessions.py", line 528, in request
+    prep = self.prepare_request(req)
+  File "C:\Users\user\AppData\Local\Programs\Python\Python39\lib\site-packages\requests\sessions.py", line 456, in prepare_request
+    p.prepare(
+  File "C:\Users\user\AppData\Local\Programs\Python\Python39\lib\site-packages\requests\models.py", line 316, in prepare
+    self.prepare_url(url, params)
+  File "C:\Users\user\AppData\Local\Programs\Python\Python39\lib\site-packages\requests\models.py", line 390, in prepare_url
+    raise MissingSchema(error)
+requests.exceptions.MissingSchema: Invalid URL 'None': No schema supplied. Perhaps you meant http://None?

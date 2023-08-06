@@ -1,0 +1,5 @@
+include *.txt
+include grebarss_reader/templates/html_template.jinja2
+include grebarss_reader/fonts/*.ttf
+include grebarss_reader/database/*.json
+include grebarss_reader/logs/*.log
