@@ -1,0 +1,15 @@
+opendiamond/__init__.py,sha256=TRFOWqOEQ8Gg9OvqtKQ2q0XCv2Nwwv8Y1oR-LjqK634,161
+opendiamond/console/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+opendiamond/console/scope.py,sha256=5FDMFEftoU1VWPgqaSZj91wl7wbSPEI112RUFAnxJg4,916
+opendiamond/console/scope_generate.py,sha256=FUtxgqQGTDj2IsFRFMI3s6PJWlBjLETLcY9dz9NtWnI,2562
+opendiamond/console/scope_import.py,sha256=XTp8xWK2kRe6wYCc1q3tfKRT42xt9ZWQqhR5rnhNBl0,4565
+opendiamond/console/scope_options.py,sha256=1ECu7VlEHnjXcOuIWf5WW5R_MW2YtkMytyMiBKqggAs,895
+opendiamond/console/scope_verify.py,sha256=1XUUjdlsCaB8sL5RlpaYNMYwbzcb0KBjHQG0tio0xa0,1676
+opendiamond/scope.py,sha256=t_tk024bksk_FhbhXmkp1NfZ7G0Xp3IApc0BcTCK-Ik,12234
+opendiamond_scope-10.1.3.dist-info/entry_points.txt,sha256=c-YBxVYq0ip2nycuQ40dtur10hrZxYX7wsIswglshhU,245
+opendiamond_scope-10.1.3.dist-info/LICENSES/CC0-1.0.txt,sha256=ogEPNDSH0_dhiv_lT3ifVIdgIzHAqNA_SemnxUfPBJk,7048
+opendiamond_scope-10.1.3.dist-info/LICENSES/EPL-1.0.txt,sha256=89jcSUvi5-qc0xrC-5AuNdzn_4GBubMNBYYbR8M5yyU,11345
+opendiamond_scope-10.1.3.dist-info/LICENSES/MIT.txt,sha256=uF3NPkU9BZglUsUrX8ngvdbSPG-OhEuYSoivMlcLDMA,1078
+opendiamond_scope-10.1.3.dist-info/WHEEL,sha256=y3eDiaFVSNTPbgzfNn0nYn5tEn1cX6WrdetDlQM4xWw,83
+opendiamond_scope-10.1.3.dist-info/METADATA,sha256=vL3lHfeJhxsr7bcShMyXkNisjQ9Hc1CGWK9EtSLsg4c,1065
+opendiamond_scope-10.1.3.dist-info/RECORD,,
