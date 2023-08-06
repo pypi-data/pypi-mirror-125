@@ -1,0 +1,27 @@
+Metadata-Version: 2.1
+Name: dopa
+Version: 0.0.1
+Summary: A deep learning project
+Home-page: https://dopa.ai/
+Author: Peter G Mikhael
+Author-email: pgmikhael@gmail.com
+License: UNKNOWN
+Project-URL: Documentation, https://dopa.ai/docs
+Project-URL: Source, https://github.com/pgmikhael/dopa/
+Project-URL: Tracker, https://github.com/pgmikhael/dopa/issues
+Platform: any
+Classifier: Programming Language :: Python
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown; charset=UTF-8; variant=GFM
+License-File: LICENSE.txt
+Requires-Dist: importlib-metadata ; python_version < "3.8"
+Provides-Extra: testing
+Requires-Dist: setuptools ; extra == 'testing'
+Requires-Dist: pytest ; extra == 'testing'
+Requires-Dist: pytest-cov ; extra == 'testing'
+Requires-Dist: flake8 ; extra == 'testing'
+Requires-Dist: mypy ; extra == 'testing'
+Requires-Dist: black ; extra == 'testing'
+
+# dopa
+
