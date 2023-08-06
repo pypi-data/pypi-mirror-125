@@ -1,0 +1,37 @@
+Metadata-Version: 2.1
+Name: auto_restart
+Version: 1.3
+Summary: auto_restart
+Home-page: UNKNOWN
+Author: bfzs
+Author-email: ydf0509@sohu.com
+Maintainer: ydf
+Maintainer-email: ydf0509@sohu.com
+License: BSD License
+Description: # 安装 pip install auto_restart
+        
+        
+        
+        当检测到git内容发生变化后，自动重启部署，是冷部不是热部署。
+        
+        建议在开发环境开发好后，代码推到测试分支。
+        
+        安装screen, apt-get install screen，(也可以不安装这个screen，使用nohup启动脚本了那就需要)
+        
+        在screen会话里面 运行以下命令:
+        
+        auto_restart_tool -d "/home/ydf/pycodes/auto_restart"  -s  "python3  tests/test_git_change.py"  -n  test_git_change.py
+        
+        
+        
+Keywords: auto_restart,auto_restart
+Platform: all
+Classifier: Development Status :: 4 - Beta
+Classifier: Operating System :: OS Independent
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: Implementation
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Topic :: Software Development :: Libraries
+Description-Content-Type: text/markdown
