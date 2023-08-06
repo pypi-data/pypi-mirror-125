@@ -1,0 +1,3 @@
+[console_scripts]
+yomifreq = yomifreq.yomifreq:main
+

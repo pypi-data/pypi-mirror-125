@@ -1,0 +1,23 @@
+Metadata-Version: 2.1
+Name: yomifreq
+Version: 0.1.1b0
+Summary: Generate yomichan frequency dictionary
+Home-page: UNKNOWN
+License: UNKNOWN
+Platform: UNKNOWN
+Requires-Python: >=3.6, <4
+Description-Content-Type: text/markdown
+Requires-Dist: beautifulsoup4
+Requires-Dist: ebooklib
+Requires-Dist: regex
+Requires-Dist: sudachipy
+Requires-Dist: sudachidict-full
+Requires-Dist: tqdm
+Provides-Extra: dev
+Requires-Dist: check-manifest ; extra == 'dev'
+Provides-Extra: test
+Requires-Dist: coverage ; extra == 'test'
+
+# yomifreq
+Generate a Yomichan frequency list from one or more .epub files
+
