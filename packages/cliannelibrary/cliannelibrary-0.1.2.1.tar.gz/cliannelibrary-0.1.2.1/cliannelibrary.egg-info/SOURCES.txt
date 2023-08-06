@@ -1,0 +1,12 @@
+README.md
+setup.cfg
+setup.py
+cliannelibrary/__init__.py
+cliannelibrary/exceptions.py
+cliannelibrary/filelibrary.py
+cliannelibrary/parselibrary.py
+cliannelibrary.egg-info/PKG-INFO
+cliannelibrary.egg-info/SOURCES.txt
+cliannelibrary.egg-info/dependency_links.txt
+cliannelibrary.egg-info/requires.txt
+cliannelibrary.egg-info/top_level.txt
