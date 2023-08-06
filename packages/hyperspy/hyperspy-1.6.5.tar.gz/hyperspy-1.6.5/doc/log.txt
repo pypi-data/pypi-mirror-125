@@ -1,0 +1,17 @@
+[91m/home/eric/Dev/hyperspy/doc/api/hyperspy.io_plugins.rst:7: WARNING: duplicated entry found in toctree: api/hyperspy.io_plugins.unbcf_fast[39;49;00m
+[91m/home/eric/Dev/hyperspy/doc/api/hyperspy.io_plugins.rst:7: WARNING: duplicated entry found in toctree: api/hyperspy.io_plugins.unbcf_fast[39;49;00m
+[91m/home/eric/Dev/hyperspy/doc/api/hyperspy.io_plugins.rst:7: WARNING: duplicated entry found in toctree: api/hyperspy.io_plugins.unbcf_fast[39;49;00m
+[91m/home/eric/Dev/hyperspy/doc/api/hyperspy.io_plugins.rst:7: WARNING: duplicated entry found in toctree: api/hyperspy.io_plugins.unbcf_fast[39;49;00m
+[91mWARNING: autodoc: failed to import module 'mrcz' from module 'hyperspy.io_plugins'; the following exception was raised:
+No module named 'mrcz'[39;49;00m
+[91mWARNING: autodoc: failed to import module 'usid_hdf5' from module 'hyperspy.io_plugins'; the following exception was raised:
+No module named 'pyUSID'[39;49;00m
+[31m/home/eric/Dev/hyperspy/hyperspy/misc/utils.py:docstring of hyperspy.misc.utils.guess_output_signal_size:7: WARNING: Unexpected indentation.[39;49;00m
+[91m/home/eric/Dev/hyperspy/hyperspy/misc/utils.py:docstring of hyperspy.misc.utils.guess_output_signal_size:9: WARNING: Block quote ends without a blank line; unexpected unindent.[39;49;00m
+[91m/home/eric/Dev/hyperspy/hyperspy/misc/utils.py:docstring of hyperspy.misc.utils.guess_output_signal_size:14: WARNING: Inline strong start-string without end-string.[39;49;00m
+/home/eric/Dev/hyperspy/hyperspy/misc/utils.py:docstring of hyperspy.misc.utils.process_function_blockwise:6: WARNING: Unexpected section title.
+
+Parameters:
+------------
+[91m/home/eric/Dev/hyperspy/hyperspy/misc/utils.py:docstring of hyperspy.misc.utils.process_function_blockwise:10: WARNING: Inline emphasis start-string without end-string.[39;49;00m
+[91m/home/eric/Dev/hyperspy/hyperspy/misc/utils.py:docstring of hyperspy.misc.utils.process_function_blockwise:25: WARNING: Inline strong start-string without end-string.[39;49;00m
