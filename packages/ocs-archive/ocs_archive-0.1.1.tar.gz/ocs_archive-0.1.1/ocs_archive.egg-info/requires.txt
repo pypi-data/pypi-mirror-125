@@ -1,0 +1,6 @@
+astropy
+boto3
+python-dateutil
+
+[tests]
+pytest
