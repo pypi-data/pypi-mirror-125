@@ -1,0 +1,47 @@
+Metadata-Version: 2.1
+Name: prejudice-bias-hotel-reviews
+Version: 0.0.1
+Summary: MSE VM01: Prejudice and Bias in Hotel Reviews
+Home-page: https://github.com/FabianGroeger96/
+Author: Fabian Groeger
+Author-email: fabian.groeger@bluewin.ch
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Development Status :: 1 - Planning
+Classifier: Intended Audience :: Science/Research
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Operating System :: POSIX :: Linux
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Description-Content-Type: text/markdown
+
+# Prejudice and Bias in Hotel Reviews
+
+## Clone Project
+```bash
+git clone https://github.com/vm01-prejudice-bias-hotel-reviews/prejudice-bias-hotel-reviews.git
+cd prejudice-bias-hotel-reviews
+make init
+```
+
+## Run tests
+```bash
+make clean
+```
+
+## Annotate Nationality Dataset
+```bash
+make dataset_nationality
+```
+
+## Annotate Sentiment Dataset
+```bash
+make dataset_sentiment
+```
+
+## Run Sweep for Nationality
+```bash
+make sweep_nationality
+```
+
+
