@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: hwpfc
+Version: 0.0.1
+Summary: Hello word from pfc
+Home-page: UNKNOWN
+Author: UNKNOWN
+Author-email: UNKNOWN
+License: UNKNOWN
+Platform: UNKNOWN
+Requires-Dist: feedparser
+Requires-Dist: html2text
+
+UNKNOWN
+
+
