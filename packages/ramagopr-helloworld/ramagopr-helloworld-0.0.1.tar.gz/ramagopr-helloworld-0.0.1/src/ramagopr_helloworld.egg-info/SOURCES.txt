@@ -1,0 +1,8 @@
+README.md
+setup.py
+src/helloworld.py
+src/ramagopr_helloworld.egg-info/PKG-INFO
+src/ramagopr_helloworld.egg-info/SOURCES.txt
+src/ramagopr_helloworld.egg-info/dependency_links.txt
+src/ramagopr_helloworld.egg-info/requires.txt
+src/ramagopr_helloworld.egg-info/top_level.txt
