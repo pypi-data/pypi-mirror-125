@@ -1,0 +1,7 @@
+setup.cfg
+setup.py
+pyshem/__init__.py
+pyshem.egg-info/PKG-INFO
+pyshem.egg-info/SOURCES.txt
+pyshem.egg-info/dependency_links.txt
+pyshem.egg-info/top_level.txt
