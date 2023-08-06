@@ -1,0 +1,17 @@
+LICENSE.txt
+MANIFEST.in
+README.rst
+setup.py
+./deeponnxcustom/__init__.py
+./deeponnxcustom/__main__.py
+./deeponnxcustom/onnxtorch/__init__.py
+./deeponnxcustom/onnxtorch/tchrun.py
+./deeponnxcustom/onnxtorch/torchort.py
+./deeponnxcustom/tools/__init__.py
+./deeponnxcustom/tools/math_helper.py
+./deeponnxcustom/tools/onnx_helper.py
+deeponnxcustom.egg-info/PKG-INFO
+deeponnxcustom.egg-info/SOURCES.txt
+deeponnxcustom.egg-info/dependency_links.txt
+deeponnxcustom.egg-info/requires.txt
+deeponnxcustom.egg-info/top_level.txt
