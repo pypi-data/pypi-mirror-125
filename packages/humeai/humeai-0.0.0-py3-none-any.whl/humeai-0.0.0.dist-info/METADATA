@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: humeai
+Version: 0.0.0
+Summary: HumeAI SDK
+Home-page: UNKNOWN
+Author: Hume AI
+Author-email: dev@hume.ai
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: Science/Research
+Description-Content-Type: text/markdown
+
+# Hume AI SDK
+
+This package is currently under development.
+
+
