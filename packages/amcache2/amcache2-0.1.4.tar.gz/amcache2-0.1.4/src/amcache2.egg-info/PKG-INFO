@@ -1,0 +1,50 @@
+Metadata-Version: 2.1
+Name: amcache2
+Version: 0.1.4
+Summary: creates a bodyfile from AmCache.hve
+Home-page: https://github.com/janstarke/amcache2
+Author: Jan Starke
+Author-email: jan.starke@t-systems.com
+License: UNKNOWN
+Project-URL: Bug Tracker, https://github.com/janstarke/amcache2/issues
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+![PyPI](https://img.shields.io/pypi/v/amcache2)
+![PyPI - License](https://img.shields.io/pypi/l/amcache2)
+![PyPI - Python Version](https://img.shields.io/pypi/pyversions/amcache2)
+
+# amcache2.py
+creates a bodyfile from AmCache.hve
+
+## Installation
+
+I recommend to use *pipenv* instead of *venv*, because using *venv* I had problems with https://github.com/construct/construct/pull/930
+
+```shell
+pipenv install amcache2
+```
+
+## Usage
+```shell
+usage: amcache2.py [-h] registry_hive
+
+Parse program execution entries from the Amcache.hve Registry hive
+
+positional arguments:
+  registry_hive  Path to the Amcache.hve hive to process
+
+options:
+  -h, --help     show this help message and exit
+```
+
+## Example
+```shell
+pipenv run amcache2.py Amcache.hve | mactime -d -b -
+```
+
