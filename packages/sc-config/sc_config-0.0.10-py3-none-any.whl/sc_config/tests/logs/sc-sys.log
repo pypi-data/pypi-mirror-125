@@ -1,0 +1,141 @@
+2021-11-01 11:49:39,770 [INFO][sc_config.config]: did not specify environment, using production
+2021-11-01 11:49:39,771 [INFO][sc_config.config]: loading current directory configurations from /Users/scott/develop/scott/sc-config/sc_config/tests/production.yml
+2021-11-01 11:49:48,292 [INFO][sc_config.config]: did not specify environment, using production
+2021-11-01 11:49:48,293 [INFO][sc_config.config]: loading current directory configurations from /Users/scott/develop/scott/sc-config/sc_config/tests/production.yml
+2021-11-01 11:52:05,692 [INFO][sc_config.config]: did not specify environment, using production
+2021-11-01 11:52:05,693 [INFO][sc_config.config]: loading current directory configurations from /Users/scott/develop/scott/sc-config/sc_config/tests/production.yml
+2021-11-01 11:52:40,260 [INFO][sc_config.config]: did not specify environment, using production
+2021-11-01 11:52:40,261 [INFO][sc_config.config]: loading current directory configurations from /Users/scott/develop/scott/sc-config/sc_config/tests/production.yml
+2021-11-01 11:53:08,665 [INFO][sc_config.config]: did not specify environment, using production
+2021-11-01 11:53:08,667 [INFO][sc_config.config]: loading current directory configurations from /Users/scott/develop/scott/sc-config/sc_config/tests/production.yml
+2021-11-01 11:54:08,279 [INFO][sc_config.config]: did not specify environment, using production
+2021-11-01 11:54:08,281 [INFO][sc_config.config]: loading current directory configurations from /Users/scott/develop/scott/sc-config/sc_config/tests/production.yml
+2021-11-01 14:12:41,964 [INFO][sc_config.config]: did not specify environment, using production
+2021-11-01 14:12:41,965 [INFO][sc_config.config]: loading current directory configurations from /Users/scott/develop/scott/sc-config/sc_config/tests/production.yml
+2021-11-01 14:13:19,593 [INFO][sc_config.config]: did not specify environment, using production
+2021-11-01 14:13:59,558 [INFO][sc_config.config]: loading current directory configurations from /Users/scott/develop/scott/sc-config/sc_config/tests/production.yml
+2021-11-01 14:45:30,486 [INFO][sc_config.config]: did not specify environment, using production
+2021-11-01 14:45:30,488 [INFO][sc_config.config]: loading current directory configurations from /Users/scott/develop/scott/sc-config/sc_config/tests/production.yml
+2021-11-01 14:50:39,204 [INFO][sc_config.config]: did not specify environment, using production
+2021-11-01 14:50:39,205 [INFO][sc_config.config]: loading current directory configurations from /Users/scott/develop/scott/sc-config/sc_config/tests/production.yml
+2021-11-01 14:51:57,516 [INFO][sc_config.config]: did not specify environment, using production
+2021-11-01 14:51:57,518 [INFO][sc_config.config]: loading current directory configurations from /Users/scott/develop/scott/sc-config/sc_config/tests/production.yml
+2021-11-01 14:54:03,157 [INFO][sc_config.config]: did not specify environment, using production
+2021-11-01 14:54:03,160 [INFO][sc_config.config]: loading current directory configurations from /Users/scott/develop/scott/sc-config/sc_config/tests/production.yml
+2021-11-01 14:55:51,976 [INFO][sc_config.config]: did not specify environment, using production
+2021-11-01 14:55:51,978 [INFO][sc_config.config]: loading current directory configurations from /Users/scott/develop/scott/sc-config/sc_config/tests/production.yml
+2021-11-01 14:55:52,702 [INFO][__main__]: handler: <config42.handlers.memory.Memory object at 0x7f7980aadac0>
+2021-11-01 14:59:11,985 [INFO][sc_config.config]: did not specify environment, using production
+2021-11-01 14:59:11,987 [INFO][sc_config.config]: loading current directory configurations from /Users/scott/develop/scott/sc-config/sc_config/tests/production.yml
+2021-11-01 14:59:18,344 [INFO][__main__]: handler: <config42.handlers.memory.Memory object at 0x7fab44d70a00>
+2021-11-01 15:01:03,619 [ERROR][sc_config.utils]: failed to read sc-config configuration
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/sc_config-0.0.9-py3.8.egg/sc_config/utils.py", line 66, in load_configurations
+    config = Config.create(project_name=project_name)
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/sc_config-0.0.9-py3.8.egg/sc_config/config.py", line 79, in create
+    if config is not None:
+UnboundLocalError: local variable 'config' referenced before assignment
+2021-11-01 15:06:56,973 [INFO][sc_config.config]: did not specify environment, using production
+2021-11-01 15:06:56,975 [INFO][sc_config.config]: loading current directory configurations from /Users/scott/develop/scott/sc-config/sc_config/tests/production.yml
+2021-11-01 15:06:56,975 [INFO][sc_config.config]: found_config_file: False
+2021-11-01 15:06:59,923 [INFO][__main__]: handler: <config42.handlers.files.yaml.YamlHandler object at 0x7fa37e2bab80>
+2021-11-01 15:07:46,606 [INFO][sc_config.config]: did not specify environment, using production
+2021-11-01 15:07:46,608 [INFO][sc_config.config]: loading current directory configurations from /Users/scott/develop/scott/sc-config/sc_config/tests/production.yml
+2021-11-01 15:07:46,608 [INFO][sc_config.config]: found_config_file: False
+2021-11-01 15:07:48,320 [INFO][__main__]: handler: <config42.handlers.files.yaml.YamlHandler object at 0x7fa18f3e4f10>
+2021-11-01 15:09:19,554 [INFO][sc_config.config]: did not specify environment, using production
+2021-11-01 15:09:19,555 [INFO][sc_config.config]: loading current directory configurations from /Users/scott/develop/scott/sc-config/sc_config/tests/production.yml
+2021-11-01 15:09:19,556 [INFO][sc_config.config]: found_config_file: False
+2021-11-01 15:10:53,389 [INFO][__main__]: handler: <config42.handlers.files.yaml.YamlHandler object at 0x7fdee42bab80>
+2021-11-01 15:16:09,678 [INFO][sc_config.config]: did not specify environment, using production
+2021-11-01 15:16:09,680 [INFO][sc_config.config]: loading current directory configurations from /Users/scott/develop/scott/sc-config/sc_config/tests/production.yml
+2021-11-01 15:16:09,680 [INFO][sc_config.config]: found_config_file: False
+2021-11-01 15:16:09,747 [INFO][__main__]: handler: <config42.handlers.files.yaml.YamlHandler object at 0x7f9b89830ee0>
+2021-11-01 15:18:03,721 [INFO][sc_config.config]: did not specify environment, using production
+2021-11-01 15:18:03,723 [INFO][sc_config.config]: loading current directory configurations from /Users/scott/develop/scott/sc-config/sc_config/tests/production.yml
+2021-11-01 15:18:03,723 [INFO][sc_config.config]: found_config_file: False
+2021-11-01 15:18:03,783 [ERROR][sc_config.utils]: failed to read sc-config configuration
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/sc_config-0.0.9-py3.8.egg/sc_config/utils.py", line 66, in load_configurations
+    config = Config.create(project_name=project_name)
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/sc_config-0.0.9-py3.8.egg/sc_config/config.py", line 125, in create
+    config.set(key_env, environment)
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/config42-0.4.6-py3.8.egg/config42/config_manager.py", line 135, in set
+    self.commit()
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/config42-0.4.6-py3.8.egg/config42/config_manager.py", line 202, in commit
+    return self.handler.dump()
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/config42-0.4.6-py3.8.egg/config42/handlers/files/yaml.py", line 18, in dump
+    yaml.dump(self.config, f, Dumper=yaml.RoundTripDumper, allow_unicode=True)
+AttributeError: module 'yaml' has no attribute 'RoundTripDumper'
+2021-11-01 15:20:05,196 [INFO][sc_config.config]: did not specify environment, using production
+2021-11-01 15:20:05,198 [INFO][sc_config.config]: loading current directory configurations from /Users/scott/develop/scott/sc-config/sc_config/tests/production.yml
+2021-11-01 15:20:05,198 [INFO][sc_config.config]: found_config_file: False
+2021-11-01 15:20:05,253 [INFO][__main__]: handler: <config42.handlers.files.yaml.YamlHandler object at 0x7f88322a3fa0>
+2021-11-01 15:21:03,302 [INFO][sc_config.config]: did not specify environment, using production
+2021-11-01 15:21:03,305 [INFO][sc_config.config]: loading current directory configurations from /Users/scott/develop/scott/sc-config/sc_config/tests/production.yml
+2021-11-01 15:21:03,305 [INFO][sc_config.config]: found_config_file: False
+2021-11-01 15:21:03,365 [INFO][__main__]: handler: <config42.handlers.files.yaml.YamlHandler object at 0x7fb6c9aa5fa0>
+2021-11-01 15:21:31,733 [INFO][sc_config.config]: did not specify environment, using production
+2021-11-01 15:21:31,735 [INFO][sc_config.config]: loading current directory configurations from /Users/scott/develop/scott/sc-config/sc_config/tests/production.yml
+2021-11-01 15:21:31,735 [INFO][sc_config.config]: found_config_file: False
+2021-11-01 15:21:31,804 [INFO][__main__]: handler: <config42.handlers.files.yaml.YamlHandler object at 0x7fc8532a6fa0>
+2021-11-01 15:46:20,296 [INFO][sc_config.config]: did not specify environment, using production
+2021-11-01 15:46:20,299 [INFO][sc_config.config]: loading current directory configurations from /Users/scott/develop/scott/sc-config/sc_config/tests/production.yml
+2021-11-01 15:46:20,300 [INFO][sc_config.config]: found_config_file: False
+2021-11-01 15:46:20,697 [ERROR][sc_config.utils]: failed to read sc-config configuration
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/sc_config-0.0.9-py3.8.egg/sc_config/utils.py", line 66, in load_configurations
+    config = Config.create(project_name=project_name)
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/sc_config-0.0.9-py3.8.egg/sc_config/config.py", line 125, in create
+    config.set(key_env, environment)
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/config42-0.4.6-py3.8.egg/config42/config_manager.py", line 135, in set
+    self.commit()
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/config42-0.4.6-py3.8.egg/config42/config_manager.py", line 202, in commit
+    return self.handler.dump()
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/config42-0.4.6-py3.8.egg/config42/handlers/files/yaml.py", line 18, in dump
+    YAML().dump(self.config, f, allow_unicode=True)
+TypeError: dump() got an unexpected keyword argument 'allow_unicode'
+2021-11-01 15:46:59,735 [INFO][sc_config.config]: did not specify environment, using production
+2021-11-01 15:46:59,736 [INFO][sc_config.config]: loading current directory configurations from /Users/scott/develop/scott/sc-config/sc_config/tests/production.yml
+2021-11-01 15:46:59,737 [INFO][sc_config.config]: found_config_file: False
+2021-11-01 15:46:59,773 [INFO][__main__]: handler: <config42.handlers.files.yaml.YamlHandler object at 0x7fc069aa5220>
+2021-11-01 15:47:10,666 [INFO][sc_config.config]: did not specify environment, using production
+2021-11-01 15:47:10,668 [INFO][sc_config.config]: loading current directory configurations from /Users/scott/develop/scott/sc-config/sc_config/tests/production.yml
+2021-11-01 15:47:10,668 [INFO][sc_config.config]: found_config_file: False
+2021-11-01 15:47:10,714 [INFO][__main__]: handler: <config42.handlers.files.yaml.YamlHandler object at 0x7fc7062b3220>
+2021-11-01 15:47:29,591 [INFO][sc_config.config]: did not specify environment, using production
+2021-11-01 15:47:29,593 [INFO][sc_config.config]: loading current directory configurations from /Users/scott/develop/scott/sc-config/sc_config/tests/production.yml
+2021-11-01 15:47:29,593 [INFO][sc_config.config]: found_config_file: False
+2021-11-01 15:47:29,663 [INFO][__main__]: handler: <config42.handlers.files.yaml.YamlHandler object at 0x7f9b132a6220>
+2021-11-01 15:47:50,084 [INFO][sc_config.config]: did not specify environment, using production
+2021-11-01 15:47:50,085 [INFO][sc_config.config]: loading current directory configurations from /Users/scott/develop/scott/sc-config/sc_config/tests/production.yml
+2021-11-01 15:47:50,086 [INFO][sc_config.config]: found_config_file: False
+2021-11-01 15:47:50,164 [INFO][__main__]: handler: <config42.handlers.files.yaml.YamlHandler object at 0x7fb07a02c490>
+2021-11-01 15:58:43,308 [INFO][sc_config.config]: did not specify environment, using production
+2021-11-01 15:58:43,311 [INFO][sc_config.config]: loading current directory configurations from /Users/scott/develop/scott/sc-config/sc_config/tests/production.yml
+2021-11-01 15:58:43,311 [INFO][sc_config.config]: found_config_file: False
+2021-11-01 15:58:43,384 [INFO][__main__]: handler: <config42.handlers.files.yaml.YamlHandler object at 0x7f9bd92a0970>
+2021-11-01 15:59:02,711 [INFO][sc_config.config]: did not specify environment, using production
+2021-11-01 15:59:02,712 [INFO][sc_config.config]: loading current directory configurations from /Users/scott/develop/scott/sc-config/sc_config/tests/production.yml
+2021-11-01 15:59:02,712 [INFO][sc_config.config]: found_config_file: False
+2021-11-01 15:59:02,779 [INFO][__main__]: handler: <config42.handlers.files.yaml.YamlHandler object at 0x7fc95c2a1970>
+2021-11-01 16:03:56,962 [INFO][sc_config.config]: did not specify environment, using production
+2021-11-01 16:03:56,965 [INFO][sc_config.config]: loading current directory configurations from /Users/scott/develop/scott/sc-config/sc_config/tests/production.yml
+2021-11-01 16:03:56,965 [INFO][sc_config.config]: found_config_file: False
+2021-11-01 16:03:57,041 [INFO][__main__]: handler: <config42.handlers.files.yaml.YamlHandler object at 0x7fe5612a0970>
+2021-11-01 16:05:06,219 [INFO][sc_config.config]: did not specify environment, using production
+2021-11-01 16:05:06,221 [INFO][sc_config.config]: loading current directory configurations from /Users/scott/develop/scott/sc-config/sc_config/tests/production.yml
+2021-11-01 16:05:06,221 [INFO][sc_config.config]: found_config_file: False
+2021-11-01 16:05:06,288 [INFO][__main__]: handler: <config42.handlers.files.yaml.YamlHandler object at 0x7fbecf572040>
+2021-11-01 16:07:14,160 [INFO][sc_config.config]: did not specify environment, using production
+2021-11-01 16:07:14,162 [INFO][sc_config.config]: loading current directory configurations from /Users/scott/develop/scott/sc-config/sc_config/tests/production.yml
+2021-11-01 16:07:14,162 [INFO][sc_config.config]: found_config_file: False
+2021-11-01 16:07:14,230 [INFO][__main__]: handler: <config42.handlers.files.yaml.YamlHandler object at 0x7fe1bd583040>
+2021-11-01 16:07:42,136 [INFO][sc_config.config]: did not specify environment, using production
+2021-11-01 16:07:42,138 [INFO][sc_config.config]: loading current directory configurations from /Users/scott/develop/scott/sc-config/sc_config/tests/production.yml
+2021-11-01 16:07:42,139 [INFO][sc_config.config]: found_config_file: False
+2021-11-01 16:07:42,213 [INFO][__main__]: handler: <config42.handlers.files.yaml.YamlHandler object at 0x7fcc572a39a0>
+2021-11-01 16:07:53,222 [INFO][sc_config.config]: did not specify environment, using production
+2021-11-01 16:07:53,223 [INFO][sc_config.config]: loading current directory configurations from /Users/scott/develop/scott/sc-config/sc_config/tests/production.yml
+2021-11-01 16:07:53,224 [INFO][sc_config.config]: found_config_file: False
+2021-11-01 16:07:53,286 [INFO][__main__]: handler: <config42.handlers.files.yaml.YamlHandler object at 0x7faa0cab29a0>
