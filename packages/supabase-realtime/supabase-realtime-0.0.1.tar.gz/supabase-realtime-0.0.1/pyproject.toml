@@ -1,0 +1,27 @@
+[tool.poetry]
+name = "supabase-realtime"
+version = "0.0.1"
+description = "Listen to changes on your supabase postgres database."
+authors = ["Anand Krishna <anandkrishna2312@gmail.com>"]
+license = "MIT"
+readme = "README.md"
+homepage = "https://github.com/anand2312/supabase-realtime-client"
+repository = "https://github.com/anand2312/supabase-realtime-client"
+documentation = "https://anand2312.github.io/supabase-realtime-client"
+packages = [
+    {include = "realtime"}
+]
+
+[tool.poetry.dependencies]
+python = "^3.8"
+websockets = "^9.1"
+python-dateutil = "^2.8.1"
+
+[tool.poetry.dev-dependencies]
+pre-commit = "^2.15.0"
+mkdocs-material = "^7.3.5"
+mkdocstrings = "^0.16.2"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
