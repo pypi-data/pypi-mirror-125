@@ -1,0 +1,12 @@
+stubgenj/__init__.py,sha256=1VmzHOYpxsyMJdMF0Yk5xsjWocn8k_afeDCq3QQ74DU,88
+stubgenj/__main__.py,sha256=q7XCsSJM3GCeBCQBc1mSHE0F_BPL0eF75XinW0hlVBw,2411
+stubgenj/_stubgenj.py,sha256=SjMd04RWrnPC4nd86HxnJx-ERxgDRpCg8bmJxW62brI,47996
+stubgenj/_version.py,sha256=JU2gqKpe1CubryV9KnxyC_0P6_FvkhH3RwRoYdn4008,147
+stubgenj/conftest.py,sha256=iZQQlquhiUcUu13IsqmdPQt86KzZNcfjmto7q_WgPaA,540
+stubgenj/tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+stubgenj/tests/test_stubtest.py,sha256=BvAElLJIBesJbtcZWc4wT0OOJXe1MsnWzJodkhhcLuY,1471
+stubgenj-0.2.3.dist-info/LICENSE.txt,sha256=7rwmwiulERSFgqBE64j4HIvbgnLBKnr1Vsy4m1tK9M0,1174
+stubgenj-0.2.3.dist-info/METADATA,sha256=CkYJzc1HqmpbFIV4FV506Ha34eRLlF44cdwY8oedy70,3672
+stubgenj-0.2.3.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+stubgenj-0.2.3.dist-info/top_level.txt,sha256=Gh3FULrKaJ8QFUVd2d3RltnCgYuAUQjRzQ5xGaYxAZk,9
+stubgenj-0.2.3.dist-info/RECORD,,
