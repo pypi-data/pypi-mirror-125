@@ -1,0 +1,8 @@
+pyyaml
+
+[dev]
+alfred-cli
+build
+pylint
+coverage
+twine
