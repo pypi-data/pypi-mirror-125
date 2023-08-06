@@ -1,0 +1,8 @@
+setup.py
+demand_sigmoid/__init__.py
+demand_sigmoid/demand_sigmoid.py
+demand_sigmoid.egg-info/PKG-INFO
+demand_sigmoid.egg-info/SOURCES.txt
+demand_sigmoid.egg-info/dependency_links.txt
+demand_sigmoid.egg-info/requires.txt
+demand_sigmoid.egg-info/top_level.txt
