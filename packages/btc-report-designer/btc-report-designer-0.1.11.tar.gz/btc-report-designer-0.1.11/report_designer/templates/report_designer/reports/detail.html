@@ -1,0 +1,59 @@
+{% extends 'report_designer/base.html' %}
+
+
+{% load report_designer.templates %}
+{% load report_designer.fields %}
+{% load report_designer.ajax_content %}
+
+
+{% block header_actions_groups %}
+    {{ dropdown_action_group }}
+{% endblock header_actions_groups %}
+
+
+{% block content %}
+    <div id="report-designer">
+        {% panelheader %}
+            <div class="col-md-4 col-xs-12 padding-top-12">
+                <ul class="list">
+                    {% list_field_wrapper 'Наименование' report.name %}
+                    {% list_field_wrapper 'Основная таблица' report.root %}
+                    {% list_field_wrapper 'Отображение в перечне отчетов' report.is_visible_in_reports %}
+                </ul>
+            </div>
+            <div class="col-md-4 col-xs-12 padding-top-12">
+                <ul class="list">
+                    {% list_field_wrapper 'Автор' report.author %}
+                    {% list_field_wrapper 'Дата и время обновления' report.updated %}
+                </ul>
+            </div>
+            <div class="col-md-4 col-xs-12 padding-top-12">
+                <ul class="list">
+                    {% list_field_wrapper 'Группы' report.get_groups_names %}
+                </ul>
+            </div>
+        {% endpanelheader %}
+        <div class="wrapper">
+            {% panel title='Таблицы отчета' %}
+                <div class="col-md-12">
+                    {% include 'report_designer/reports/blocks/tables.html' %}
+                </div>
+            {% endpanel %}
+            {% panel title='Связи таблиц отчета' action_group=report_table_relation_action_group %}
+                <div class="col-md-12">
+                    {% url 'report_designer:reports:report-table-relations-list' pk=report.pk type='base' as report_table_relations_list_url %}
+                    {% dynamic_content name='report_table_relations' url=report_table_relations_list_url %}
+                </div>
+            {% endpanel %}
+            {% panel title='Поля отчета' %}
+                <div class="col-md-12">
+                    {% url 'report_designer:reports:report-fields-list' pk=report.pk type='base' as report_fields_list_url %}
+                    {% dynamic_content name='report_fields' url=report_fields_list_url %}
+                </div>
+            {% endpanel %}
+        </div>
+        <div class="wrapper padding-top-20">
+            <a class="btn btn-default" href="{{ back_url }}">Назад</a>
+        </div>
+    </div>
+{% endblock content %}

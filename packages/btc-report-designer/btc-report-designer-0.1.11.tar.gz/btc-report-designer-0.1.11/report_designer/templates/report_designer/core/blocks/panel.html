@@ -1,0 +1,19 @@
+{% if panel_title %}
+    <h5>{{ panel_title }}</h5>
+{% endif %}
+<div class="panel panel-default no-margin-bottom">
+    <div class="panel-body">
+        <div class="clearfix">
+            {{ content }}
+        </div>
+    </div>
+    {% if panel_action_group %}
+        <div class="panel-footer">
+            <div class="clearfix">
+                <div class="col-md-12">
+                    {{ panel_action_group }}
+                </div>
+            </div>
+        </div>
+    {% endif %}
+</div>

@@ -1,0 +1,4 @@
+Django>=2.2.11
+django-filter>=2.2.0
+django-mptt>=0.11.0
+django_select2>=7.1.2

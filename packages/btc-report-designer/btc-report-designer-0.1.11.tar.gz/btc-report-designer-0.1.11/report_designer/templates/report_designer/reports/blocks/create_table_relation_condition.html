@@ -1,0 +1,23 @@
+{% load report_designer.fields %}
+
+
+<div class="clearfix js-rd-form{% if form.DELETE.value %} hidden{% endif %}">
+    {% for hidden in form.hidden_fields %}
+        {{ hidden }}
+    {% endfor %}
+    <div class="clearfix">
+        <div class="condition">
+            {% field_wrapper form.from_field %}
+            <div class="condition-relation"></div>
+            {% field_wrapper form.to_field %}
+            <div class="condition-delete js-rd-delete_container">
+                <a href="#" class="delete_icon js-rd-delete-btn pull-right">
+                    <i class="glyphicon glyphicon-trash"></i>
+                </a>
+                <div class="hidden">
+                    {{ form.DELETE }}
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

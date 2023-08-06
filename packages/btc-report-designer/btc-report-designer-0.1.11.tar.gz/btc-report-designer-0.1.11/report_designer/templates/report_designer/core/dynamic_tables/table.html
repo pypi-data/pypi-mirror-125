@@ -1,0 +1,10 @@
+{% load report_designer.paginator %}
+
+{% if table.is_data_exists %}
+    {{ table }}
+    {% if is_paginate %}
+        {% paginator page_obj additional_paginator_classes='js-rd-dynamic-content-pagination'%}
+    {% endif %}
+{% else %}
+    <p class="alert alert-warning" style="margin: -15px 0 0 0">{{ table.empty_message|default:'Данные отсутствуют' }}</p>
+{% endif %}

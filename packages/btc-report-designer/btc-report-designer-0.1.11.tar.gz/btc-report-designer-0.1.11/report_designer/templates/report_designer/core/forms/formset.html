@@ -1,0 +1,30 @@
+{% if formset.title %}
+    <h4{% if css_header %} class="{{ css_header }}"{% endif %}>{{ formset.title }}</h4>
+{% endif %}
+{% for error in formset.non_form_errors %}
+    <p class="alert alert-danger">{{ error }}</p>
+{% endfor %}
+<div class="{{ formset_classes }}">
+    <div class="js-rd-formset {{ formset.name }}{% if css_formset_container %} {{ css_formset_container }}{% endif %}"
+         data-name="{{ formset.name }}"
+         data-prefix="{{ formset.prefix }}">
+        <div class='js-rd-management' data-formset-name="{{ formset.name }}">
+            {{ formset.management_form }}
+        </div>
+        <div class="forms js-rd-forms{% if css_forms_container %} {{ css_forms_container }}{% endif %}{% if formset.is_empty %} is_empty{% endif %}" data-formset-name="{{ formset.name }}">
+            {% for form in formset %}
+                {{ form }}
+            {% endfor %}
+        </div>
+        <div class="empty_form js-rd-empty-form hidden" data-formset-name="{{ formset.name }}">
+            {{ formset.empty_form }}
+        </div>
+        {% if formset.can_add_item %}
+            <div class="{{ btn_add_classes }}">
+                <a href="#" class="btn btn-default js-rd-add-btn" data-formset-name="{{ formset.name }}">
+                    {{ formset.btn_add_title }}
+                </a>
+            </div>
+        {% endif %}
+    </div>
+</div>
