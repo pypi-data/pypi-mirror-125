@@ -1,0 +1,3 @@
+[console_scripts]
+hwpfc = hwpfc.__main__:main
+
