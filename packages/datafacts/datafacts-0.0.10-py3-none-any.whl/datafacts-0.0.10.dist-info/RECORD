@@ -1,0 +1,12 @@
+datafacts/.DS_Store,sha256=iCyGbyEqy6bIYNUIIZuvtkIFdJVmM4DJOP0yjGrqEHs,6148
+datafacts/__init__.py,sha256=YvLWSF3JyAVnwV0Mc6Es3vJKKcZ2D76EMYLRaG7VpNg,48
+datafacts/generate_img.py,sha256=pG9DPmRqVzIq1dBA6rEL-P8c66ABre50GT3GaWaMtfY,4909
+datafacts/fonts/OpenSans-Bold.ttf,sha256=bIMk8ijFys5OC8By8kdU7gwL_wcTqFZBGQ8GKk21O2s,129752
+datafacts/fonts/OpenSans-Light.ttf,sha256=EmM_vgIHAdxNx16OlrhOROWtPXPYVA5c3D3xQsMvBZE,129724
+datafacts/fonts/OpenSans-Medium.ttf,sha256=A7NhrKXqCzYbb4D76Nao9vIIa53Bh98Anx2ftLMTgFw,129916
+datafacts/templates/data_facts.html,sha256=tucPU4QfCAGw5lnh6tecX8bRgL2eBDZmzKFus1DqQUo,133
+datafacts-0.0.10.dist-info/LICENSE,sha256=CsXBgYwmSUY5tW1hYqooQumK5gre5SJrTx0nMzwRSlU,1068
+datafacts-0.0.10.dist-info/METADATA,sha256=1iTOGU1b_jl_bu2F-Zl1unnUxz7sBiInqmhgdt9uVSE,1806
+datafacts-0.0.10.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+datafacts-0.0.10.dist-info/top_level.txt,sha256=pf0DvysIXWMiDPk2-Y6j0gaVHTUnAmLzHsd84ov3yYM,10
+datafacts-0.0.10.dist-info/RECORD,,
