@@ -1,0 +1,14 @@
+LICENSE
+MANIFEST.in
+README.md
+setup.py
+src/backupdb/__init__.py
+src/backupdb/cli.py
+src/backupdb/pgdump.py
+src/backupdb/storage.py
+src/backupdb.egg-info/PKG-INFO
+src/backupdb.egg-info/SOURCES.txt
+src/backupdb.egg-info/dependency_links.txt
+src/backupdb.egg-info/entry_points.txt
+src/backupdb.egg-info/requires.txt
+src/backupdb.egg-info/top_level.txt
