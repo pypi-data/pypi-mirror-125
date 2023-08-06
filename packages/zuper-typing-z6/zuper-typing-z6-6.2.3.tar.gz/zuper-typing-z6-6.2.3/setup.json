@@ -1,0 +1,35 @@
+{
+  "install_requires": [
+    "PyYAML",
+    "base58<2.0,>=1.0.2",
+    "coverage>=1.4.33",
+    "frozendict",
+    "jsonschema",
+    "mypy_extensions",
+    "nose",
+    "numpy",
+    "numpy",
+    "oyaml",
+    "pybase64",
+    "pytz",
+    "termcolor",
+    "typing_extensions",
+    "validate_email",
+    "zuper-commons-z6>=6.1.4"
+  ],
+  "tests_require": [],
+  "srcdir": "src",
+  "package_name": "zuper-typing-z6",
+  "entry_points": {
+    "console_scripts": []
+  },
+  "zip_safe": true,
+  "include_package_data": true,
+  "modules": [
+    "zuper_typing"
+  ],
+  "version": "6.2.1",
+  "author": "",
+  "author_email": "",
+  "url": ""
+}
