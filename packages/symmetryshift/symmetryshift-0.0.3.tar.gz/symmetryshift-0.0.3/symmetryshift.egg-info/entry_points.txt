@@ -1,0 +1,3 @@
+[console_scripts]
+symmetry = symmetryshift.create_biological_structure_unit:main
+
