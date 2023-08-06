@@ -1,0 +1,13 @@
+avcv/__init__.py,sha256=-nNlMKS9nph3FR78_ZG9RGKrbxseeNp2K6nMr0pVGaU,23
+avcv/_nbdev.py,sha256=-ZObhDAH6yd8kHRJ1ScdaQJxl6DfX_olMl0TUahb3w4,1397
+avcv/coco.py,sha256=UTwaXSr0In0wGDSkRcDU8PoY6Ch4SpD29z8UGsOwTvE,8890
+avcv/debug.py,sha256=4yg0k1g5PdjbjZ-yG9ylsV_8fh56aFlaxczet9P4m8I,2902
+avcv/process.py,sha256=zYdZp0ztL0-3Vad0oLXlu6J9uT1M_TTLPGxRqoik7x8,989
+avcv/utils.py,sha256=-FCcQXwSBy43oNH8y97WidH6C0UnNKYrgd6WjP-WbVU,8840
+avcv/visualize.py,sha256=bnsCC1JwKJ9sbs_f20OCtaBGASKZN1YXwRsqG0dj1BA,2968
+avcv-0.0.10.dist-info/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+avcv-0.0.10.dist-info/METADATA,sha256=VHItcyyfTiOJXvtPOOWRCbJxbf8_pP5-_D-xMGxDJT4,1114
+avcv-0.0.10.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+avcv-0.0.10.dist-info/entry_points.txt,sha256=Em9rVdK5I_LajbCwqbFDHMunkUCN6D6w1jdvwVPyJK8,265
+avcv-0.0.10.dist-info/top_level.txt,sha256=fmcgE05QEq80tDNMeR8NDNnLK5S_F0chbzAM80wQaHU,5
+avcv-0.0.10.dist-info/RECORD,,
