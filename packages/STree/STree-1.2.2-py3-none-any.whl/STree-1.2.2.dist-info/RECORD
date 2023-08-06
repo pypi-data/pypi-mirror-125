@@ -1,0 +1,13 @@
+stree/Splitter.py,sha256=2vrOApAalQ4E1sdWNs65HiIfFXMGCTxwmNPlNlzH-Zw,24143
+stree/Strees.py,sha256=8OwTMLYrGUot3gAgM3f4Cr752mijgG1TIB9XT0KUgc8,18193
+stree/__init__.py,sha256=Nr5u3mpfABVgHb9Ra25Qd39Yv7tRpzYXzlUWaYmwV-I,280
+stree/tests/Snode_test.py,sha256=3EbLK3AMIryF3fsnphnr78MQJPSK2rpfLZxeoTkTLIU,4630
+stree/tests/Splitter_test.py,sha256=IztFJ9XKfpCnU7v-smnIUbtcJfK5KelMhsKNez9of60,12012
+stree/tests/Stree_test.py,sha256=jj2owBMkB-X-A0NxvDbMGiAJT4uEE3KFxR7WNGGc-ug,24932
+stree/tests/__init__.py,sha256=2zNaOUUlQJqgAC0uU1wTOxUy5H1UpIUKHAfa8H4Tf6w,168
+stree/tests/utils.py,sha256=utM0JOFQzjRb3mnVICoacFHUOLpFdpb5aUQS3WRoAxs,797
+STree-1.2.2.dist-info/LICENSE,sha256=Esr3gCRv_whWZXpvKQqWPnOGicjNfRBL-iVvO8UgMjU,1088
+STree-1.2.2.dist-info/METADATA,sha256=OH6DLLpCO6aPoaWaRx_tRvg6PHNXCwlKp_bmnk7TgTs,17088
+STree-1.2.2.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+STree-1.2.2.dist-info/top_level.txt,sha256=ieWZwPmTYNyA_ZzoOKnUC8qQL_LoaeCGj6MhtGYt1Wk,6
+STree-1.2.2.dist-info/RECORD,,
