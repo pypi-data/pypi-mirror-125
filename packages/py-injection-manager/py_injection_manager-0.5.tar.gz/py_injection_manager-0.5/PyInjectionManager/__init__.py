@@ -1,0 +1,1 @@
+from PyInjectionManager.manager import inject, register, manager
