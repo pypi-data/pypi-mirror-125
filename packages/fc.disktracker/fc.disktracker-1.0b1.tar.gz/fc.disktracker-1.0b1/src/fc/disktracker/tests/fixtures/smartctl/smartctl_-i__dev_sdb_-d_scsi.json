@@ -1,0 +1,49 @@
+{
+  "json_format_version": [
+    1,
+    0
+  ],
+  "smartctl": {
+    "version": [
+      7,
+      2
+    ],
+    "svn_revision": "5155",
+    "platform_info": "x86_64-linux-5.10.57",
+    "build_info": "(local build)",
+    "argv": [
+      "smartctl",
+      "-j",
+      "-i",
+      "/dev/sdb",
+      "-d",
+      "scsi"
+    ],
+    "exit_status": 0
+  },
+  "device": {
+    "name": "/dev/sdb",
+    "info_name": "/dev/sdb",
+    "type": "scsi",
+    "protocol": "SCSI"
+  },
+  "vendor": "DELL",
+  "product": "PERC H700",
+  "model_name": "DELL PERC H700",
+  "revision": "2.10",
+  "scsi_version": "SPC-3",
+  "user_capacity": {
+    "blocks": 19529728000,
+    "bytes": 9999220736000
+  },
+  "logical_block_size": 512,
+  "serial_number": "00fd4747d486639a2400f6a11ab0b242",
+  "device_type": {
+    "scsi_value": 0,
+    "name": "disk"
+  },
+  "local_time": {
+    "time_t": 1631781550,
+    "asctime": "Thu Sep 16 10:39:10 2021 CEST"
+  }
+}

@@ -1,0 +1,7 @@
+requests
+
+[test]
+pytest
+pyfakefs
+pytest-coverage
+pytest-timeout

@@ -1,0 +1,11 @@
+bin
+lib
+include
+__pycache__
+pyvenv.cfg
+*.egg-info
+.DS_Store
+*.sublime*
+htmlcov
+.coverage
+dist

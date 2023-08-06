@@ -1,0 +1,284 @@
+{
+    "total": 14,
+    "rows": [
+        {
+            "id": 37,
+            "name": "SSDSC2BB480G4",
+            "manufacturer": {
+                "id": 7,
+                "name": "INTEL"
+            },
+            "image": null,
+            "model_number": "",
+            "depreciation": null,
+            "assets_count": 1,
+            "category": {
+                "id": 2,
+                "name": "Disks"
+            },
+            "fieldset": null,
+            "eol": "null",
+            "requestable": false,
+            "notes": "",
+            "created_at": {
+                "datetime": "2021-06-24 10:18:49",
+                "formatted": "2021-06-24 10:18 AM"
+            },
+            "updated_at": {
+                "datetime": "2021-06-24 10:18:49",
+                "formatted": "2021-06-24 10:18 AM"
+            },
+            "deleted_at": null,
+            "available_actions": {
+                "update": true,
+                "delete": false,
+                "clone": true,
+                "restore": false
+            }
+        },
+        {
+            "id": 30,
+            "name": "SSD 870 QVO 1TB",
+            "manufacturer": {
+                "id": 1,
+                "name": "Samsung"
+            },
+            "image": null,
+            "model_number": "",
+            "depreciation": null,
+            "assets_count": 0,
+            "category": {
+                "id": 2,
+                "name": "Disks"
+            },
+            "fieldset": null,
+            "eol": "null",
+            "requestable": false,
+            "notes": "",
+            "created_at": {
+                "datetime": "2021-06-14 11:22:43",
+                "formatted": "2021-06-14 11:22 AM"
+            },
+            "updated_at": {
+                "datetime": "2021-06-14 11:22:43",
+                "formatted": "2021-06-14 11:22 AM"
+            },
+            "deleted_at": null,
+            "available_actions": {
+                "update": true,
+                "delete": true,
+                "clone": true,
+                "restore": false
+            }
+        },
+        {
+            "id": 31,
+            "name": "SSD 860 PRO 512GB",
+            "manufacturer": {
+                "id": 1,
+                "name": "Samsung"
+            },
+            "image": null,
+            "model_number": "",
+            "depreciation": null,
+            "assets_count": 0,
+            "category": {
+                "id": 2,
+                "name": "Disks"
+            },
+            "fieldset": null,
+            "eol": "null",
+            "requestable": false,
+            "notes": "",
+            "created_at": {
+                "datetime": "2021-06-14 11:22:43",
+                "formatted": "2021-06-14 11:22 AM"
+            },
+            "updated_at": {
+                "datetime": "2021-06-14 11:22:43",
+                "formatted": "2021-06-14 11:22 AM"
+            },
+            "deleted_at": null,
+            "available_actions": {
+                "update": true,
+                "delete": true,
+                "clone": true,
+                "restore": false
+            }
+        },
+        {
+            "id": 32,
+            "name": "SSD 860 PRO 256GB",
+            "manufacturer": {
+                "id": 1,
+                "name": "Samsung"
+            },
+            "image": null,
+            "model_number": "",
+            "depreciation": null,
+            "assets_count": 0,
+            "category": {
+                "id": 2,
+                "name": "Disks"
+            },
+            "fieldset": null,
+            "eol": "null",
+            "requestable": false,
+            "notes": "",
+            "created_at": {
+                "datetime": "2021-06-14 11:22:43",
+                "formatted": "2021-06-14 11:22 AM"
+            },
+            "updated_at": {
+                "datetime": "2021-06-14 11:22:43",
+                "formatted": "2021-06-14 11:22 AM"
+            },
+            "deleted_at": null,
+            "available_actions": {
+                "update": true,
+                "delete": true,
+                "clone": true,
+                "restore": false
+            }
+        },
+        {
+            "id": 29,
+            "name": "HUS156060VLS600",
+            "manufacturer": {
+                "id": 5,
+                "name": "HITACHI"
+            },
+            "image": null,
+            "model_number": "",
+            "depreciation": null,
+            "assets_count": 0,
+            "category": {
+                "id": 2,
+                "name": "Disks"
+            },
+            "fieldset": null,
+            "eol": "null",
+            "requestable": false,
+            "notes": "",
+            "created_at": {
+                "datetime": "2021-06-14 11:22:42",
+                "formatted": "2021-06-14 11:22 AM"
+            },
+            "updated_at": {
+                "datetime": "2021-06-14 11:22:42",
+                "formatted": "2021-06-14 11:22 AM"
+            },
+            "deleted_at": null,
+            "available_actions": {
+                "update": true,
+                "delete": true,
+                "clone": true,
+                "restore": false
+            }
+        },
+        {
+            "id": 28,
+            "name": "ST3600057SS",
+            "manufacturer": {
+                "id": 4,
+                "name": "SEAGATE"
+            },
+            "image": null,
+            "model_number": "",
+            "depreciation": null,
+            "assets_count": 0,
+            "category": {
+                "id": 2,
+                "name": "Disks"
+            },
+            "fieldset": null,
+            "eol": "null",
+            "requestable": false,
+            "notes": "",
+            "created_at": {
+                "datetime": "2021-06-14 11:22:41",
+                "formatted": "2021-06-14 11:22 AM"
+            },
+            "updated_at": {
+                "datetime": "2021-06-14 11:22:41",
+                "formatted": "2021-06-14 11:22 AM"
+            },
+            "deleted_at": null,
+            "available_actions": {
+                "update": true,
+                "delete": true,
+                "clone": true,
+                "restore": false
+            }
+        },
+        {
+            "id": 23,
+            "name": "ST3600057SS",
+            "manufacturer": {
+                "id": 4,
+                "name": "SEAGATE"
+            },
+            "image": null,
+            "model_number": "",
+            "depreciation": null,
+            "assets_count": 0,
+            "category": {
+                "id": 2,
+                "name": "Disks"
+            },
+            "fieldset": null,
+            "eol": "null",
+            "requestable": false,
+            "notes": "",
+            "created_at": {
+                "datetime": "2021-05-25 10:56:18",
+                "formatted": "2021-05-25 10:56 AM"
+            },
+            "updated_at": {
+                "datetime": "2021-06-15 09:23:06",
+                "formatted": "2021-06-15 09:23 AM"
+            },
+            "deleted_at": null,
+            "available_actions": {
+                "update": true,
+                "delete": true,
+                "clone": true,
+                "restore": false
+            }
+        },
+        {
+            "id": 12345,
+            "name": "new model",
+            "manufacturer": {
+                "id": 4,
+                "name": "SEAGATE"
+            },
+            "image": null,
+            "model_number": "",
+            "depreciation": null,
+            "assets_count": 0,
+            "category": {
+                "id": 2,
+                "name": "Disks"
+            },
+            "fieldset": null,
+            "eol": "null",
+            "requestable": false,
+            "notes": "",
+            "created_at": {
+                "datetime": "2021-05-25 10:56:18",
+                "formatted": "2021-05-25 10:56 AM"
+            },
+            "updated_at": {
+                "datetime": "2021-06-15 09:23:06",
+                "formatted": "2021-06-15 09:23 AM"
+            },
+            "deleted_at": null,
+            "available_actions": {
+                "update": true,
+                "delete": true,
+                "clone": true,
+                "restore": false
+            }
+        },
+        {"id": 24, "name": "HUS156060VLS600", "manufacturer": {"id": 5, "name": "HITACHI"}, "image": null, "model_number": "", "depreciation": null, "assets_count": 0, "category": {"id": 2, "name": "Disks"}, "fieldset": null, "eol": "null", "requestable": false, "notes": "", "created_at": {"datetime": "2021-05-25 10:56:18", "formatted": "2021-05-25 10:56 AM"}, "updated_at": {"datetime": "2021-06-15 09:23:34", "formatted": "2021-06-15 09:23 AM"}, "deleted_at": null, "available_actions": {"update": true, "delete": true, "clone": true, "restore": false}}, {"id": 22, "name": "ST1000NM0001", "manufacturer": {"id": 2, "name": "Western Digital"}, "image": null, "model_number": "", "depreciation": null, "assets_count": 1, "category": {"id": 2, "name": "Disks"}, "fieldset": null, "eol": "null", "requestable": false, "notes": "", "created_at": {"datetime": "2020-02-12 10:06:21", "formatted": "2020-02-12 10:06 AM"}, "updated_at": {"datetime": "2020-02-12 10:06:21", "formatted": "2020-02-12 10:06 AM"}, "deleted_at": null, "available_actions": {"update": true, "delete": false, "clone": true, "restore": false}}, {"id": 21, "name": "INTEL SSDSC2BB480G4", "manufacturer": {"id": 2, "name": "Western Digital"}, "image": null, "model_number": "", "depreciation": null, "assets_count": 0, "category": {"id": 2, "name": "Disks"}, "fieldset": null, "eol": "null", "requestable": false, "notes": "", "created_at": {"datetime": "2020-02-10 11:29:08", "formatted": "2020-02-10 11:29 AM"}, "updated_at": {"datetime": "2020-02-10 11:29:08", "formatted": "2020-02-10 11:29 AM"}, "deleted_at": null, "available_actions": {"update": true, "delete": true, "clone": true, "restore": false}}, {"id": 13, "name": "PERC H700", "manufacturer": {"id": 3, "name": "New"}, "image": null, "model_number": "", "depreciation": null, "assets_count": 0, "category": {"id": 2, "name": "Disks"}, "fieldset": null, "eol": "null", "requestable": false, "notes": "", "created_at": {"datetime": "2020-01-21 08:33:43", "formatted": "2020-01-21 08:33 AM"}, "updated_at": {"datetime": "2020-01-21 08:33:43", "formatted": "2020-01-21 08:33 AM"}, "deleted_at": null, "available_actions": {"update": true, "delete": true, "clone": true, "restore": false}}, {"id": 11, "name": "HUS724020ALS640", "manufacturer": {"id": 6, "name": "HGST"}, "image": null, "model_number": "", "depreciation": null, "assets_count": 1, "category": {"id": 2, "name": "Disks"}, "fieldset": null, "eol": "null", "requestable": false, "notes": "", "created_at": {"datetime": "2019-12-20 13:56:57", "formatted": "2019-12-20 01:56 PM"}, "updated_at": {"datetime": "2021-06-15 09:22:43", "formatted": "2021-06-15 09:22 AM"}, "deleted_at": null, "available_actions": {"update": true, "delete": false, "clone": true, "restore": false}}, {"id": 10, "name": "HUS726020AL5210", "manufacturer": {"id": 6, "name": "HGST"}, "image": null, "model_number": "", "depreciation": null, "assets_count": 6, "category": {"id": 2, "name": "Disks"}, "fieldset": null, "eol": "null", "requestable": false, "notes": "", "created_at": {"datetime": "2019-12-20 13:51:57", "formatted": "2019-12-20 01:51 PM"}, "updated_at": {"datetime": "2021-06-15 09:22:31", "formatted": "2021-06-15 09:22 AM"}, "deleted_at": null, "available_actions": {"update": true, "delete": false, "clone": true, "restore": false}}, {"id": 3, "name": "Generic Server ", "manufacturer": {"id": 1, "name": "Samsung"}, "image": null, "model_number": "", "depreciation": null, "assets_count": 4, "category": {"id": 4, "name": "Server"}, "fieldset": null, "eol": "null", "requestable": false, "notes": "", "created_at": {"datetime": "2019-11-11 09:44:38", "formatted": "2019-11-11 09:44 AM"}, "updated_at": {"datetime": "2019-11-11 09:44:38", "formatted": "2019-11-11 09:44 AM"}, "deleted_at": null, "available_actions": {"update": true, "delete": false, "clone": true, "restore": false}}]}

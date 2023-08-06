@@ -1,0 +1,20 @@
+Metadata-Version: 2.1
+Name: fc.disktracker
+Version: 1.0b1
+Summary: Manages disks locally found in the SnipeIT asset managments system
+Home-page: https://gitlab.flyingcircus.io/flyingcircus/fc-disktracker
+Author: Flying Circus
+Author-email: support@flyingcircus.io
+License: BSD (2-clause)
+Description: UNKNOWN
+Keywords: SnipeIT
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Natural Language :: English
+Classifier: Development Status :: 4 - Beta
+Classifier: Environment :: Console
+Classifier: Operating System :: POSIX :: Linux
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+Provides-Extra: test

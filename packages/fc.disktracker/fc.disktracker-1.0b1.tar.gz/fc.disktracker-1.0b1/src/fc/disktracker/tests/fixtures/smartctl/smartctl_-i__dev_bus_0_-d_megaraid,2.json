@@ -1,0 +1,55 @@
+{
+  "json_format_version": [
+    1,
+    0
+  ],
+  "smartctl": {
+    "version": [
+      7,
+      2
+    ],
+    "svn_revision": "5155",
+    "platform_info": "x86_64-linux-5.10.57",
+    "build_info": "(local build)",
+    "argv": [
+      "smartctl",
+      "-j",
+      "-i",
+      "/dev/bus/0",
+      "-d",
+      "megaraid,2"
+    ],
+    "exit_status": 0
+  },
+  "device": {
+    "name": "/dev/bus/0",
+    "info_name": "/dev/bus/0 [megaraid_disk_02]",
+    "type": "megaraid,2",
+    "protocol": "SCSI"
+  },
+  "vendor": "HGST",
+  "product": "HUS726020AL5210",
+  "model_name": "HGST HUS726020AL5210",
+  "revision": "A907",
+  "scsi_version": "SPC-4",
+  "user_capacity": {
+    "blocks": 3907029168,
+    "bytes": 2000398934016
+  },
+  "logical_block_size": 512,
+  "physical_block_size": 4096,
+  "rotation_rate": 7200,
+  "form_factor": {
+    "scsi_value": 2,
+    "name": "3.5 inches"
+  },
+  "serial_number": "K5G4U5UA",
+  "device_type": {
+    "scsi_value": 0,
+    "name": "disk"
+  },
+  "local_time": {
+    "time_t": 1631865915,
+    "asctime": "Fri Sep 17 10:05:15 2021 CEST"
+  }
+}

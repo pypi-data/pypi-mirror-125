@@ -1,0 +1,83 @@
+{
+  "json_format_version": [
+    1,
+    0
+  ],
+  "smartctl": {
+    "version": [
+      7,
+      2
+    ],
+    "svn_revision": "5155",
+    "platform_info": "x86_64-linux-5.10.57",
+    "build_info": "(local build)",
+    "argv": [
+      "smartctl",
+      "-j",
+      "-i",
+      "/dev/bus/0",
+      "-d",
+      "megaraid,0"
+    ],
+    "exit_status": 0
+  },
+  "device": {
+    "name": "/dev/bus/0",
+    "info_name": "/dev/bus/0 [megaraid_disk_00] [SAT]",
+    "type": "sat+megaraid,0",
+    "protocol": "ATA"
+  },
+  "model_family": "Intel 730 and DC S35x0/3610/3700 Series SSDs",
+  "model_name": "INTEL SSDSC2BB480G4",
+  "serial_number": "PHWL5361036V480QGN",
+  "wwn": {
+    "naa": 5,
+    "oui": 6083300,
+    "id": 1281275168
+  },
+  "firmware_version": "D2010370",
+  "user_capacity": {
+    "blocks": 937703088,
+    "bytes": 480103981056
+  },
+  "logical_block_size": 512,
+  "physical_block_size": 4096,
+  "rotation_rate": 0,
+  "form_factor": {
+    "ata_value": 3,
+    "name": "2.5 inches"
+  },
+  "trim": {
+    "supported": true,
+    "deterministic": true,
+    "zeroed": true
+  },
+  "in_smartctl_database": true,
+  "ata_version": {
+    "string": "ACS-2 T13/2015-D revision 3",
+    "major_value": 1020,
+    "minor_value": 272
+  },
+  "sata_version": {
+    "string": "SATA 2.6",
+    "value": 31
+  },
+  "interface_speed": {
+    "max": {
+      "sata_value": 14,
+      "string": "6.0 Gb/s",
+      "units_per_second": 60,
+      "bits_per_unit": 100000000
+    },
+    "current": {
+      "sata_value": 2,
+      "string": "3.0 Gb/s",
+      "units_per_second": 30,
+      "bits_per_unit": 100000000
+    }
+  },
+  "local_time": {
+    "time_t": 1631781608,
+    "asctime": "Thu Sep 16 10:40:08 2021 CEST"
+  }
+}
