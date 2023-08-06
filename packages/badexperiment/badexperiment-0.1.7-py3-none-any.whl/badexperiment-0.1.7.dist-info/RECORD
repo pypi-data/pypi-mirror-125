@@ -1,0 +1,10 @@
+badexperiment/__init__.py,sha256=IMjkMO3twhQzluVTo8Z6rE7Eg-9U79_LGKMcsWLKBkY,22
+badexperiment/badexperiment.py,sha256=4yQV1LKI4Vjyn7giaLe32RJrB-Mi1QRcdfGdLNP-xQQ,196
+badexperiment/becli.py,sha256=0INd60OLX6YTUyELnyXKdkao8TjM6Teys9QhrVZ2y84,34
+badexperiment/hello.py,sha256=1frN4wLyCEXRxrcK2sy8ml0XsU7YAJM4hiUF8RNYL-Y,381
+badexperiment/sheet2yaml.py,sha256=i9w_qLV62LpfMnVdD6JFzSz6X91uEne5ZDIJ6bG0x38,5772
+badexperiment/token.json,sha256=EZNPx2PVE7mNf0NGbF9CPmE7OMGJGUfa88iVc67ejV0,595
+badexperiment-0.1.7.dist-info/entry_points.txt,sha256=aHaqThq7OHhBwDR6J5YzxK7tT7Vrgb9e9TXmvrVWlNs,53
+badexperiment-0.1.7.dist-info/WHEEL,sha256=y3eDiaFVSNTPbgzfNn0nYn5tEn1cX6WrdetDlQM4xWw,83
+badexperiment-0.1.7.dist-info/METADATA,sha256=lyjitHexqsWqWm77XGGD_0xgIpv4YG4nDvMUGsJypVM,428
+badexperiment-0.1.7.dist-info/RECORD,,
