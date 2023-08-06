@@ -1,0 +1,3 @@
+[console_scripts]
+outlinepy = outlinepy.__main__:main
+

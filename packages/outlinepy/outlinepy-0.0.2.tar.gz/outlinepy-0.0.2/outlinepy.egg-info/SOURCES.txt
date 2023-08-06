@@ -1,0 +1,15 @@
+README.md
+setup.cfg
+setup.py
+outlinepy/__init__.py
+outlinepy/__main__.py
+outlinepy/data_types.py
+outlinepy/default_styling.py
+outlinepy/html_layouts.py
+outlinepy/text_layouts.py
+outlinepy.egg-info/PKG-INFO
+outlinepy.egg-info/SOURCES.txt
+outlinepy.egg-info/dependency_links.txt
+outlinepy.egg-info/entry_points.txt
+outlinepy.egg-info/requires.txt
+outlinepy.egg-info/top_level.txt
