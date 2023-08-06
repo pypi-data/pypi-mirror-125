@@ -1,0 +1,7 @@
+LICENSE.txt
+README.md
+setup.py
+packageharry.egg-info/PKG-INFO
+packageharry.egg-info/SOURCES.txt
+packageharry.egg-info/dependency_links.txt
+packageharry.egg-info/top_level.txt
