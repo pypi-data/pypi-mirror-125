@@ -1,0 +1,11 @@
+kmer_counter/__init__.py,sha256=dt6nP1Y1aVIB8Djic6st-jPCJEw9oLps_D8-pi3zUFc,221
+kmer_counter/__main__.py,sha256=7-H8qiTwUlSMbZWX3V-kgSo50lIVVaiujj0u_eXbzmY,177
+kmer_counter/cli.py,sha256=UcvpHIG4FsA9UYghhb3GWhl3lu7lkraCTxFzh0RQ1hE,6957
+kmer_counter/counters.py,sha256=DyE9J3Z6mDjvB7pzvQiN-mLjpH0lx5ng_S3WFlVEjkc,4944
+kmer_counter/readers.py,sha256=dIxHSavFfeJHf-37bpayL4lCFQvujuD9x4tTT-9YEbs,1437
+kmer_counter/utils.py,sha256=Jc3JnjUX11hwP2Wc4B7IwjW2t5MOffrTCBHp7qDWDsM,2970
+kmer_counter-0.2.0.dist-info/entry_points.txt,sha256=w-ckZJWVt1zztaNV2QETDRJAuYANhM-cLwL2jZbi230,54
+kmer_counter-0.2.0.dist-info/LICENSE,sha256=A7AjKKcxs-G833QoVaAvLJe0ZuabC8KHMCwLzG1wmRc,1075
+kmer_counter-0.2.0.dist-info/WHEEL,sha256=V7iVckP-GYreevsTDnv1eAinQt_aArwnAxmnP0gygBY,83
+kmer_counter-0.2.0.dist-info/METADATA,sha256=rPaIsuIQvJWnqsYGOGXcQy11UP77_O5JS2xju1_kD24,1944
+kmer_counter-0.2.0.dist-info/RECORD,,
