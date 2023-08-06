@@ -1,0 +1,5 @@
+social-auth-app-django
+pyjwt[crypto]>=2.1.0
+six
+Django
+social-auth-core
