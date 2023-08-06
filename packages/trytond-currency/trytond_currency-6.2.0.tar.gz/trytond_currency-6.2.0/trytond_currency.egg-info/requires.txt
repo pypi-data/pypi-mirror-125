@@ -1,0 +1,11 @@
+python-sql>=0.9
+python-dateutil
+trytond<6.3,>=6.2
+
+[data]
+pycountry
+forex-python
+proteus<6.3,>=6.2
+
+[ecb_rate]
+forex-python
