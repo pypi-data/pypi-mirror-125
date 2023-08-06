@@ -1,0 +1,4 @@
+trytond_product<6.3,>=6.2
+trytond_product_attribute<6.3,>=6.2
+trytond_product_image<6.3,>=6.2
+trytond<6.3,>=6.2
