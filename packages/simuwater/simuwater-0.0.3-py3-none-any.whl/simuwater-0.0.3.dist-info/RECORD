@@ -1,0 +1,15 @@
+simuwater/__init__.py,sha256=B6z3bSNl3pRDavlUPvGjeAkM28rXKCbGrxJWdi92kyA,88
+simuwater/output.py,sha256=iSbq1SyI0Yo9aZSRDvyuks3uQVIscJutPr1M_lYZef8,5326
+simuwater/simulation.py,sha256=a3n0dyphOSJuAKVOgPMWJ_Qg-HrL_kKwgdfg0kqQY50,6734
+simuwater/simuwater.py,sha256=485mNGYv3wmVRSrbDf47tQmWvUN2vdrc43YqLVQY90g,9045
+simuwater/swmmlinks.py,sha256=Oes6P5wEjjRJstnMGeO4cj1sxO3fy8xuh8WgJFzp4Ss,2852
+simuwater/swmmnodes.py,sha256=IMpRbwiMgN33qsPiuGK8jEH3Z_ll68mRq37AwT95guM,3012
+simuwater/lib/__init__.py,sha256=_m9Oly0nHQawCdjqOav9NL8vQ5zm6C5yJULrctQlot8,313
+simuwater/lib/simuwater.dll,sha256=DDVXEcP_cJLPFyZqX8UTv9RVEFenFQ6uKCiy6tqAJ3c,705024
+simuwater/lib/simuwater_output.dll,sha256=FOfngdFFqqC8GpVKjpOcjNeY3Afhoccv6u6xM9r8DRc,364032
+simuwater/lib/swmm5ex.dll,sha256=yCTlydddpBcF9J4Tj4p7OeaFsKjif3kM-ghrC-8vTsM,446976
+simuwater-0.0.3.dist-info/LICENSE,sha256=eTAMrQxkyw6ApSsWH9vJdyVXchbASCr9kEPFfwQzv-c,1091
+simuwater-0.0.3.dist-info/METADATA,sha256=YKbYVKe57lldBCkuQlu1HWjJ64R0SCa34XiU2yddscY,247
+simuwater-0.0.3.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+simuwater-0.0.3.dist-info/top_level.txt,sha256=_65hVoRvSZ6tp6hpPJgtr_QgvTpqpQBS1biymfU52u0,10
+simuwater-0.0.3.dist-info/RECORD,,
