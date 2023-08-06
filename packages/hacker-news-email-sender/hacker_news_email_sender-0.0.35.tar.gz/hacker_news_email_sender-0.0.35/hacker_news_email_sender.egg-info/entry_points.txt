@@ -1,0 +1,3 @@
+[console_scripts]
+hacker_news_email_sender = hacker_news_email_sender.__main__:main
+
