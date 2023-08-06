@@ -1,0 +1,16 @@
+finkl/__init__.py,sha256=sXLh7g3KC4QCFxcZGBTpG2scR7hmmBsMjq6LqRptkRg,22
+finkl/data/__init__.py,sha256=q4g2VP3TEyXhrnXu77ncuFAhT5xc_XYO_3yYRVWpHgE,86
+finkl/data/eq.py,sha256=LVFwi3Ms-t4D8wnQfTYyF8Ije-bkAQ_cdLx0GpKNGDs,1000
+finkl/data/functor.py,sha256=pV9lqJuPLjDSsSz_bP7ZG8cZeQarG4fT-fE1yWSdblM,1591
+finkl/data/monad.py,sha256=GR80CXsKgk8gtCbCAqnc85dbM15AcX6RZTBJlaL46QQ,1724
+finkl/maybe/__init__.py,sha256=m7unwXCjo6UhmYdbuFVcVQ13atdI-Btg1bavID3zD08,40
+finkl/maybe/maybe.py,sha256=756zrFZipifs6o_2oy8yvnktXnjg-jOF56Uyj-J4I5U,2072
+finkl/utils/__init__.py,sha256=xdWNxTHWS1lH2J7f3IL68-6y3CISXcmqhr1Bi0xgHv0,27
+finkl/utils/utils.py,sha256=FdafttQkcwwb2V_JNOcWLxUpyohU-6NGEg59TENu9nc,992
+test/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+test/test_maybe.py,sha256=QEa8SF-LIVWA2KqZLQRtZz3vWPoCXB43W15eFQvlEnw,3368
+finkl-0.0.1.dist-info/LICENSE,sha256=OXLcl0T2SZ8Pmy2_dmlvKuetivmyPd5m1q-Gyd-zaYY,35149
+finkl-0.0.1.dist-info/METADATA,sha256=B0222B4275_xHXOo6C-9aYUfRN7sOksDsDLTsfCAFj8,4556
+finkl-0.0.1.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+finkl-0.0.1.dist-info/top_level.txt,sha256=C5HpS7n5IEc_PEjsJ6ZeiwGJbTs7a8nQkPhVyVzix3w,11
+finkl-0.0.1.dist-info/RECORD,,
