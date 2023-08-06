@@ -1,0 +1,3 @@
+[console_scripts]
+tgen=generator.main:main
+

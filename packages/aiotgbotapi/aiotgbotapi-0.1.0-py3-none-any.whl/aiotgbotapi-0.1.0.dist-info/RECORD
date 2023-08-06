@@ -1,0 +1,12 @@
+README.md,sha256=lAsPbt3I8YZ7wozZjj7SVy0ICHX4l_tBGdQ5zjnbKZc,52
+aiotgbotapi/__init__.py,sha256=JzbeZyRwWdamTJc1tj6-paISEa7mq_YVXwOSuIeQ-oI,128
+aiotgbotapi/bot.py,sha256=zL99WEeiYbH_bZa59036ER5ZM-hbHlfcicmIKo4zxzc,12173
+aiotgbotapi/bot_api_client.py,sha256=F1S7gHrMh1C-20CDHjLnPwEZF7fIA_Xl3xo9_JTglcQ,169202
+aiotgbotapi/errors.py,sha256=I6A_IKjXM4PZ7OJKDRSG0k6NzT7Ff_vc7AtBvRnCe0o,229
+aiotgbotapi/filters.py,sha256=nJq359Zt7b9c_CbcMGnkPUBuEHBvmxqLWk19nC2L0Po,12664
+aiotgbotapi/types.py,sha256=XfERLSluTJcrK8nVrC7DXQTk06aj2Uq9TPKayY7LjS0,172106
+aiotgbotapi/utils.py,sha256=0xJJZLcuVgqK32G5A-swT4cTnwyjysrlQaNpAwJO-aE,63
+aiotgbotapi-0.1.0.dist-info/entry_points.txt,sha256=Y4sYERTCvzGxp-NViJFqQSPRRb9N3TuGbhdRFo_aEbU,44
+aiotgbotapi-0.1.0.dist-info/WHEEL,sha256=y3eDiaFVSNTPbgzfNn0nYn5tEn1cX6WrdetDlQM4xWw,83
+aiotgbotapi-0.1.0.dist-info/METADATA,sha256=Qz8npkdeMVmiXe-22OSTpBLYVShvHknex3St7SA6lm0,1077
+aiotgbotapi-0.1.0.dist-info/RECORD,,
