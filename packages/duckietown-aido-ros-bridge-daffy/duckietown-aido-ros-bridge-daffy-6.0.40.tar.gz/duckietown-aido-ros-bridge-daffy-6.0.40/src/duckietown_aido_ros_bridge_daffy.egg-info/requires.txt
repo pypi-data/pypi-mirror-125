@@ -1,0 +1,4 @@
+aido-protocols-daffy
+numpy
+Pillow
+opencv-python
