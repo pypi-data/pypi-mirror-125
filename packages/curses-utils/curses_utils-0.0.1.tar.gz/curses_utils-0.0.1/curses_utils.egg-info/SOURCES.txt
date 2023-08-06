@@ -1,0 +1,12 @@
+README.md
+pyproject.toml
+setup.cfg
+curses_utils/__init__.py
+curses_utils/menu.py
+curses_utils/number_select.py
+curses_utils/remap_keys.py
+curses_utils/wrapper.py
+curses_utils.egg-info/PKG-INFO
+curses_utils.egg-info/SOURCES.txt
+curses_utils.egg-info/dependency_links.txt
+curses_utils.egg-info/top_level.txt
