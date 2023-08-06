@@ -1,0 +1,3 @@
+[console_scripts]
+ppg = ppg.__main__:_main
+
