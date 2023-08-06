@@ -1,0 +1,8 @@
+LICENSE
+README.md
+setup.py
+checkio_json_serializer/__init__.py
+checkio_json_serializer.egg-info/PKG-INFO
+checkio_json_serializer.egg-info/SOURCES.txt
+checkio_json_serializer.egg-info/dependency_links.txt
+checkio_json_serializer.egg-info/top_level.txt
