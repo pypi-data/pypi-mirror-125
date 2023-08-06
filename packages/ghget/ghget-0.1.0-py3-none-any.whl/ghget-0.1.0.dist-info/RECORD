@@ -1,0 +1,9 @@
+ghget/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+ghget/gh.py,sha256=YJyhOR40hdH_R23nrDknl2FZDIQzp3ZvcZAaeT7PKSc,2733
+ghget/main.py,sha256=rGksqPw_Wf92_cgIryJCEW-4b-TfoZALJ1r4l9hibnE,2070
+ghget-0.1.0.dist-info/LICENSE,sha256=ZNI3UnY-cn8MyorldA7dqf0qjs2Aq_w5WGhPpe0IzT0,1070
+ghget-0.1.0.dist-info/METADATA,sha256=b-hu0gJNqW6e2eVsfQqwsRhBiMt1xpFzz4TuD1IsF6U,4112
+ghget-0.1.0.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+ghget-0.1.0.dist-info/entry_points.txt,sha256=CzHzMMCKlu2Z6akzqcq1ngo0dsEA0DwI_TIWxuJS1-Q,43
+ghget-0.1.0.dist-info/top_level.txt,sha256=X0DEn0QcYqnHGXJxV6DJbYg1-diBgfrM8dq2ITm-f2I,6
+ghget-0.1.0.dist-info/RECORD,,
