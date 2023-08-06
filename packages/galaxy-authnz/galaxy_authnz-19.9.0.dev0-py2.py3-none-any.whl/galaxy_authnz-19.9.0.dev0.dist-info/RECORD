@@ -1,0 +1,12 @@
+galaxy/__init__.py,sha256=jv2YF__bseklT3OWEzlqJ5qE24c4aWd5F4r0TTjOrWQ,65
+galaxy/project_galaxy_authnz.py,sha256=HWwIuCrNhQOXh9qJeBSkET8V9vkvHZka2s5eBYxIgf4,434
+galaxy/authnz/__init__.py,sha256=Xd0KjvcQb7lncl-8lymP0qlOLhBMbjUYMDNj7-zbLVk,2948
+galaxy/authnz/custos_authnz.py,sha256=lvK-dk5PcMFOBq4poYgA4KXt7LNnO9y66aQoHJB0Epk,10418
+galaxy/authnz/managers.py,sha256=P7f6jfOZTRnGqNOzYIsHQrA-TTlLMwKIPiRvnX-ym6k,16934
+galaxy/authnz/psa_authnz.py,sha256=vxmPfuFxhGEz-0lmpRmHDprgZ7CkBpeAMOVg6obw5S4,16774
+galaxy_authnz-19.9.0.dev0.dist-info/LICENSE,sha256=zLn8FACIXExVxpD2F498YO0NSi0fKLUIbA9uuN64_NA,11109
+galaxy_authnz-19.9.0.dev0.dist-info/METADATA,sha256=ktVOmHZo6lnxGycVE2IphKlWHuCV3LYEBVNn9UW7_TM,1626
+galaxy_authnz-19.9.0.dev0.dist-info/WHEEL,sha256=h_aVn5OB2IERUjMbi2pucmR_zzWJtk303YXvhh60NJ8,110
+galaxy_authnz-19.9.0.dev0.dist-info/entry_points.txt,sha256=freNUk7Y6hU6F_gEh7ZY3-WtlaFd4tQ1ViUA0js9sCE,27
+galaxy_authnz-19.9.0.dev0.dist-info/top_level.txt,sha256=9HENT-IEOWP3NQHcVmb3stdSJQyyjYcyt-qaFqZ0lpk,7
+galaxy_authnz-19.9.0.dev0.dist-info/RECORD,,
