@@ -1,0 +1,7 @@
+datetime
+numpy
+pandas==0.24.0
+slacker
+sklearn
+matplotlib
+seaborn
