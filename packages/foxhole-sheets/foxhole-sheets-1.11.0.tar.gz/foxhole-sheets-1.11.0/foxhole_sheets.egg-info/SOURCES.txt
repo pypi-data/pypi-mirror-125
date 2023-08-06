@@ -1,0 +1,280 @@
+LICENSE
+MANIFEST.in
+README.md
+nums.json
+setup.py
+Icons/.44 (Crate).png
+Icons/.44.png
+Icons/00MS Stinger (Crate).png
+Icons/00MS Stinger.png
+Icons/03MM Caster (Crate).png
+Icons/03MM Caster.png
+Icons/12.7mm (Crate).png
+Icons/12.7mm Anti Infantry Flak Gun (Crate).png
+Icons/12.7mm Anti Infantry Flak Gun.png
+Icons/12.7mm.png
+Icons/120-68 Koronides Field Gun (Crate).png
+Icons/120-68 Koronides Field Gun.png
+Icons/120mm (Crate).png
+Icons/120mm.png
+Icons/150mm (Crate).png
+Icons/150mm.png
+Icons/20 Neville Anti-Tank Rifle.png
+Icons/20mm (Crate).png
+Icons/20mm.png
+Icons/250mm (Crate).png
+Icons/250mm.png
+Icons/300mm (Crate).png
+Icons/300mm.png
+Icons/30mm (Crate).png
+Icons/30mm.png
+Icons/40mm (Crate).png
+Icons/40mm.png
+Icons/50-500 Thunderbolt Cannon.png
+Icons/68-45 Smelter Heavy Field Gun (Crate).png
+Icons/68-45 Smelter Heavy Field Gun.png
+Icons/68mm (Crate).png
+Icons/68mm Anti-Tank Cannon (Crate).png
+Icons/68mm Anti-Tank Cannon.png
+Icons/68mm.png
+Icons/7.62mm (Crate).png
+Icons/7.62mm.png
+Icons/7.92mm (Crate).png
+Icons/7.92mm.png
+Icons/8.5mm (Crate).png
+Icons/8.5mm.png
+Icons/85K-a Spatha (Crate).png
+Icons/85K-a Spatha.png
+Icons/85K-b Falchion.png
+Icons/86K-a Bardiche (Crate).png
+Icons/86K-a Bardiche.png
+Icons/9mm SMG (Crate).png
+Icons/9mm SMG.png
+Icons/A.T.R.P.G. Indirect Shell.png
+Icons/A.T.R.P.G. Shell (Crate).png
+Icons/A.T.R.P.G. Shell.png
+Icons/A3 Harpa Fragmentation Grenade.png
+Icons/AA-2 Battering Ram (Crate).png
+Icons/AA-2 Battering Ram.png
+Icons/AB-11 Doru.png
+Icons/AB-8 Acheron.png
+Icons/Aalto Storm Rifle 24.png
+Icons/Abisme AT-99 (Crate).png
+Icons/Abisme AT-99.png
+Icons/Alligator Charge.png
+Icons/Aluminum Alloy.png
+Icons/Aluminum.png
+Icons/Anti-Tank Sticky Bomb (Crate).png
+Icons/Anti-Tank Sticky Bomb.png
+Icons/Argenti r.II Rifle (Crate).png
+Icons/Argenti r.II Rifle.png
+Icons/BF5 White Ash Flask Grenade.png
+Icons/BMS - Aquatipper.png
+Icons/BMS - Ironship (Crate).png
+Icons/BMS - Ironship.png
+Icons/BMS - White Whale.png
+Icons/BMS Class 2 Mobile Auto-Crane (Crate).png
+Icons/BMS Class 2 Mobile Auto-Crane.png
+Icons/BMS Packmule Flatbed (Crate).png
+Icons/BMS Packmule Flatbed.png
+Icons/BMS Scrap Hauler (Crate).png
+Icons/BMS Scrap Hauler.png
+Icons/BMS Universal Assembly Rig (Crate).png
+Icons/BMS Universal Assembly Rig.png
+Icons/Bandages (Crate).png
+Icons/Bandages.png
+Icons/Bane 45 (Crate).png
+Icons/Bane 45.png
+Icons/Barbed Wire Pallet (Crate).png
+Icons/Barbed Wire Pallet.png
+Icons/Barbed Wire.png
+Icons/Basic Materials (Crate).png
+Icons/Basic Materials.png
+Icons/Bayonet (Crate).png
+Icons/Bayonet.png
+Icons/Bicycle.png
+Icons/Binoculars (Crate).png
+Icons/Binoculars.png
+Icons/Blakerow 871.png
+Icons/Blood Plasma (Crate).png
+Icons/Blood Plasma.png
+Icons/Bomastone Grenade (Crate).png
+Icons/Bomastone Grenade.png
+Icons/Bonesaw MK.3.png
+Icons/Brasa Shotgun (Crate).png
+Icons/Brasa Shotgun.png
+Icons/Buckshot (Crate).png
+Icons/Buckshot.png
+Icons/Bunker Supplies (Crate).png
+Icons/Bunker Supplies.png
+Icons/Catara mo.II (Crate).png
+Icons/Catara mo.II.png
+Icons/Clancy Cinder M3.png
+Icons/Colonial Engineer Uniform (Crate).png
+Icons/Colonial Engineer Uniform.png
+Icons/Colonial Grenade Uniform (Crate).png
+Icons/Colonial Grenade Uniform.png
+Icons/Colonial Medic Uniform (Crate).png
+Icons/Colonial Medic Uniform.png
+Icons/Colonial Rain Uniform (Crate).png
+Icons/Colonial Rain Uniform.png
+Icons/Colonial Recon Uniform (Crate).png
+Icons/Colonial Recon Uniform.png
+Icons/Colonial Snow Uniform (Crate).png
+Icons/Colonial Snow Uniform.png
+Icons/Colonial Soldier Uniform.png
+Icons/Colonial Tank Uniform (Crate).png
+Icons/Colonial Tank Uniform.png
+Icons/Cometa T2-9 (Crate).png
+Icons/Cometa T2-9.png
+Icons/Components.png
+Icons/Concrete Materials.png
+Icons/Concrete Mixer (Crate).png
+Icons/Concrete Mixer.png
+Icons/Cremari Mortar (Crate).png
+Icons/Cremari Mortar.png
+Icons/Crude Oil.png
+Icons/Cutler Launcher 4.png
+Icons/Daucus isg.III (Crate).png
+Icons/Daucus isg.III.png
+Icons/Diesel (Crate).png
+Icons/Diesel.png
+Icons/Dunne Fuelrunner 2d.png
+Icons/Dunne Loadlugger 3c.png
+Icons/Dusk ce.III (Crate).png
+Icons/Dusk ce.III.png
+Icons/Explosive Materials (Crate).png
+Icons/Explosive Materials.png
+Icons/Fiddler Submachine Gun Model 868.png
+Icons/First Aid Kit (Crate).png
+Icons/First Aid Kit.png
+Icons/Fuscina pi.I (Crate).png
+Icons/Fuscina pi.I.png
+Icons/G40 Sagittarii.png
+Icons/Garrison Supplies (Crate).png
+Icons/Garrison Supplies.png
+Icons/Gas Mask (Crate).png
+Icons/Gas Mask Filter (Crate).png
+Icons/Gas Mask Filter.png
+Icons/Gas Mask.png
+Icons/Green Ash Grenade (Crate).png
+Icons/Green Ash Grenade.png
+Icons/H-10 Pelekys.png
+Icons/H-8 Kranesca.png
+Icons/H5 Hatchet.png
+Icons/HC-2 Scorpion.png
+Icons/HC-7 Ballista (Crate).png
+Icons/HC-7 Ballista.png
+Icons/HH-a Javelin.png
+Icons/HH-b Hoplite.png
+Icons/HH-d Peltast (Crate).png
+Icons/HH-d Peltast.png
+Icons/Heavy Explosive Materials (Crate).png
+Icons/Heavy Explosive Materials.png
+Icons/Hydra's Whisper (Crate).png
+Icons/Hydra's Whisper.png
+Icons/Ignifist 30 (Crate).png
+Icons/Ignifist 30.png
+Icons/Iron Alloy (Crate).png
+Icons/Iron.png
+Icons/KRN886-127 Gast Machine Gun (Crate).png
+Icons/KRN886-127 Gast Machine Gun.png
+Icons/KRR2-790 Omen (Crate).png
+Icons/KRR2-790 Omen.png
+Icons/KRR3-792 Auger (Crate).png
+Icons/KRR3-792 Auger.png
+Icons/Kivela Power Wheel 80-1.png
+Icons/Lionclaw mc.VIII (Crate).png
+Icons/Lionclaw mc.VIII.png
+Icons/Listening Kit (Crate).png
+Icons/Listening Kit.png
+Icons/Malone MK.2.png
+Icons/Mammon 91-b (Crate).png
+Icons/Mammon 91-b.png
+Icons/Metal Beam Pallet (Crate).png
+Icons/Metal Beam Pallet.png
+Icons/Metal Beam.png
+Icons/Mortar Shell (Flare) (Crate).png
+Icons/Mortar Shell (Flare).png
+Icons/Mortar Shell (HE) (Crate).png
+Icons/Mortar Shell (HE).png
+Icons/Mortar Shell (Shrapnel) (Crate).png
+Icons/Mortar Shell (Shrapnel).png
+Icons/Mounted Bonesaw MK.3.png
+Icons/No.1 The Liar Submachine Gun.png
+Icons/No.2 Loughcaster.png
+Icons/Petrol (Crate).png
+Icons/Petrol.png
+Icons/R-1 Hauler (Crate).png
+Icons/R-1 Hauler.png
+Icons/R-12 - Salus Ambulance (Crate).png
+Icons/R-12 - Salus Ambulance.png
+Icons/R-15 - Chariot (Crate).png
+Icons/R-15 - Chariot.png
+Icons/R-5 Atlas Hauler.png
+Icons/R-5b Sisyphus Hauler (Crate).png
+Icons/R-5b Sisyphus Hauler.png
+Icons/R-9 Speartip Escort.png
+Icons/R.P.G. Shell.png
+Icons/RR-3 Stolon Tanker (Crate).png
+Icons/RR-3 Stolon Tanker.png
+Icons/Radio (Crate).png
+Icons/Radio Backpack (Crate).png
+Icons/Radio Backpack.png
+Icons/Radio.png
+Icons/Refined Materials (Crate).png
+Icons/Refined Materials.png
+Icons/Resource Container (Crate).png
+Icons/Resource Container.png
+Icons/Salvage.png
+Icons/Sampo Auto-Rifle 77.png
+Icons/Sandbag Pallet (Crate).png
+Icons/Sandbag Pallet.png
+Icons/Sandbag.png
+Icons/Shipping Container (Crate).png
+Icons/Shipping Container.png
+Icons/Shovel (Crate).png
+Icons/Shovel.png
+Icons/Sledgehammer (Crate).png
+Icons/Sledgehammer.png
+Icons/Small Shipping Container (Crate).png
+Icons/Small Shipping Container.png
+Icons/Soldier Supplies (Crate).png
+Icons/Soldier Supplies.png
+Icons/Sulfur.png
+Icons/T12 Actaeon Tankette (Crate).png
+Icons/T20 Ixion Tankette.png
+Icons/T3 Xiphos (Crate).png
+Icons/T3 Xiphos.png
+Icons/T5 Percutio (Crate).png
+Icons/T5 Percutio.png
+Icons/The Hangman 757.png
+Icons/The Pitch Gun mc.V (Crate).png
+Icons/The Pitch Gun mc.V.png
+Icons/Trauma Kit (Crate).png
+Icons/Trauma Kit.png
+Icons/Tripod (Crate).png
+Icons/Tripod.png
+Icons/Type C - Charon (Crate).png
+Icons/Type C - Charon.png
+Icons/UV-05a Argonaut.png
+Icons/UV-24 Icarus.png
+Icons/UV-5c Odyssey (Crate).png
+Icons/UV-5c Odyssey.png
+Icons/Volta r.I Repeater (Crate).png
+Icons/Volta r.I Repeater.png
+Icons/Warden Recon Uniform.png
+Icons/Warden Soldier Uniform.png
+Icons/Wreckage.png
+Icons/Wrench (Crate).png
+Icons/Wrench.png
+foxhole_sheets.egg-info/PKG-INFO
+foxhole_sheets.egg-info/SOURCES.txt
+foxhole_sheets.egg-info/dependency_links.txt
+foxhole_sheets.egg-info/requires.txt
+foxhole_sheets.egg-info/top_level.txt
+sheets/__init__.py
+sheets/__main__.py
+sheets/bot.py
+sheets/core.py
+sheets/ident.py
