@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: ctable
+Version: 0.0.0
+Summary: Curses Tables
+Home-page: https://github.com/tslight/ctable
+Author: Toby Slight
+Author-email: tslight@pm.me
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: ISC License (ISCL)
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# CURSES TABLES
+
+
