@@ -1,0 +1,78 @@
+Metadata-Version: 2.1
+Name: nextcord-ext-ipc
+Version: 2.2.1
+Summary: A Nextcord extension for inter-process communication.
+Home-page: https://github.com/nextcord/nextcord-ext-ipc
+Author: Nextcord Developers
+License: Apache Software License
+Project-URL: Documentation, https://nextcord-ext-ipc.readthedocs.io
+Project-URL: Issue Tracker, https://github.com/nextcord/nextcord-ext-ipc/issues
+Project-URL: Source, https://github.com/nextcord/nextcord-ext-ipc
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Framework :: AsyncIO
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Natural Language :: English
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Classifier: Topic :: Communications
+Classifier: Topic :: Documentation
+Classifier: Topic :: Documentation :: Sphinx
+Classifier: Topic :: Internet
+Classifier: Topic :: Software Development
+Classifier: Topic :: Software Development :: Libraries
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Requires-Python: >=3.6.0
+Description-Content-Type: text/markdown
+Provides-Extra: docs
+License-File: LICENSE
+
+# nextcord-ext-ipc
+
+[![Discord server invite](https://discord.com/api/guilds/881118111967883295/embed.png)](https://discord.gg/ZebatWssCB)
+[![PyPI version info](https://img.shields.io/pypi/v/nextcord-ext-ipc.svg)](https://pypi.python.org/pypi/nextcord-ext-ipc)
+[![Analyze Status](https://github.com/nextcord/nextcord-ext-ipc/workflows/Analyze/badge.svg?event=push)](https://github.com/nextcord/nextcord-ext-ipc/actions?query=workflow%3AAnalyze+event%3Apush)
+[![Build Status](https://github.com/nextcord/nextcord-ext-ipc/workflows/Build/badge.svg?event=push)](https://github.com/nextcord/nextcord-ext-ipc/actions?query=workflow%3ABuild+event%3Apush)
+[![Lint Status](https://github.com/nextcord/nextcord-ext-ipc/workflows/Lint/badge.svg?event=push)](https://github.com/Ext-Creators/nextcord-ext-ipc/actions?query=workflow%3ALint+event%3Apush)
+
+## About
+
+A Nextcord extension for inter-process communication.
+
+## Installation
+
+**Python 3.8 or higher is required**
+
+It is necessary to first install [Nextcord](https://github.com/nextcord/nextcord)
+
+Then install the extension by running one of the following commands:
+
+```py 
+# Linux/macOS
+python3 -m pip install -U nextcord-ext-ipc
+
+# Windows
+py -3 -m pip install -U nextcord-ext-ipc
+```
+
+## Links 
+
+- [Documentation](https://nextcord-ext-ipc.readthedocs.io)
+- [Usage Examples](https://github.com/nextcord/nextcord-ext-ipc/tree/master/examples)
+- [Support Discord Server](https://discord.gg/ZebatWssCB)
+
+## License
+
+Copyright (c) 2020 Ext-Creators  
+Copyright (c) 2021 Nextcord Developers
+
+
