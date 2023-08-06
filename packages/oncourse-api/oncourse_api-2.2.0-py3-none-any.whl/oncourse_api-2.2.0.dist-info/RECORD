@@ -1,0 +1,12 @@
+oncourse_api/__init__.py,sha256=HP_3vE2Z6QHLE9zNnBADOmdObcote2Iiw7t9S1yvuwU,55
+oncourse_api/errors.py,sha256=wo52vz58gdK5JQ-7xYK_fB-giPrnYW2dlzzeMddwfz0,622
+oncourse_api/oncourse.py,sha256=5A0hiOC00-XtwqrooCKrUdfqhEoZddh3OsVmh64B4_o,2909
+oncourse_api/models/__init__.py,sha256=Et4TNnrYlnwu57cyS466XmoVRjVgUutt8mNi7tMdoSY,70
+oncourse_api/models/active_profile.py,sha256=NVUSNKucjcN4hgBf8p_sgpUFyrIdgijzc7f1PNw25RM,2363
+oncourse_api/models/assignment.py,sha256=ff6iRaRhCrql5urcbz5rC1_uvT-7mxizu9NB_0bd5kw,2950
+oncourse_api/models/group.py,sha256=aaUR8igYDnItCIgppO09tgmvgwmvFz__Z28mHRPwDsI,1801
+oncourse_api/models/student.py,sha256=nkyAJTmrOyItXO58S7G-DKAzHDZKZYR8SLC2BeMjrd0,3444
+oncourse_api-2.2.0.dist-info/METADATA,sha256=NdBVYX8uwCjMgTRnLC1MpDoIIHFnRIxjza0Pj9J4Wvw,1597
+oncourse_api-2.2.0.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+oncourse_api-2.2.0.dist-info/top_level.txt,sha256=uPTkdjzPZ1_EqJhJUaQzYEnvOx5nrv9zPaumHpL3TjA,13
+oncourse_api-2.2.0.dist-info/RECORD,,
