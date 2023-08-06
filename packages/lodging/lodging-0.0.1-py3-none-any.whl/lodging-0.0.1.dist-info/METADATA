@@ -1,0 +1,25 @@
+Metadata-Version: 2.1
+Name: lodging
+Version: 0.0.1
+Summary: A JSON logging library for Python.
+Home-page: https://github.com/a-poor/lodging
+Author: Austin Poor
+Author-email: a-poor@users.noreply.github.com
+License: UNKNOWN
+Project-URL: Bug Tracker, https://github.com/a-poor/lodging/issues
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3.8
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# lodging
+
+_created by Austin Poor_
+
+A JSON logging library for Python.
+
+
+
