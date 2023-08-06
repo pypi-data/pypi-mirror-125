@@ -1,0 +1,29 @@
+[tool.poetry]
+name = "sample-package-211031"
+version = "0.1.2"
+description = "sample package"
+authors = ["Your Name <you@example.com>"]
+license = "MIT"
+readme = "README.md"
+homepage = ""
+repository = ""
+documentation = ""
+
+[tool.poetry.dependencies]
+python = "^3.8"
+black = "^21.9b0"
+flake8 = "^4.0.1"
+mypy = "^0.910"
+jupyterlab = "^3.2.1"
+nbstripout = "^0.5.0"
+
+[tool.poetry.dev-dependencies]
+pytest = "^5.2"
+
+[tool.poetry-dynamic-versioning]
+enable = false
+style = "pep440"
+
+[build-system]
+requires = ["poetry-core>=1.0.0", "poetry-dynamic-versioning"]
+build-backend = "poetry.core.masonry.api"
