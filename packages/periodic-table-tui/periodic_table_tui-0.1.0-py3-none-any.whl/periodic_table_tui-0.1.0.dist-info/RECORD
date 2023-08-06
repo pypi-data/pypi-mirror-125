@@ -1,0 +1,10 @@
+periodic_table_tui/__init__.py,sha256=IMjkMO3twhQzluVTo8Z6rE7Eg-9U79_LGKMcsWLKBkY,22
+periodic_table_tui/__main__.py,sha256=T_d5EctcJPkhRHtdwAA4JXc6wogYcmoFbsKxz0kWh0c,276
+periodic_table_tui/elements.json,sha256=jh2-5yoKGsNRx9x0z7R8LygcsXoD5b3azE1oidZ6MfQ,69169
+periodic_table_tui/periodic_table.py,sha256=BMO3HaZl8rv4CAGqV3JaP6Qf3ntE4iZkg1bZnSMooiI,12779
+periodic_table_tui-0.1.0.dist-info/LICENSE,sha256=OXLcl0T2SZ8Pmy2_dmlvKuetivmyPd5m1q-Gyd-zaYY,35149
+periodic_table_tui-0.1.0.dist-info/METADATA,sha256=VUy9-t0ZJsY8pUU9NpzU2W0znflM7qBGo1vqNeRvsUc,735
+periodic_table_tui-0.1.0.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+periodic_table_tui-0.1.0.dist-info/entry_points.txt,sha256=icqzwCL5I89mbyBfeb-8g4CLdqyh7DwEZQtE6kK3Imw,72
+periodic_table_tui-0.1.0.dist-info/top_level.txt,sha256=qoKep1azYthxJtSY0P_-i24GvOk59XMFKMBbNKKGee0,19
+periodic_table_tui-0.1.0.dist-info/RECORD,,
