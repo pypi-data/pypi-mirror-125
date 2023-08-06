@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: xinqing
+Version: 0.0.2
+Summary: A class describes a person.
+Home-page: UNKNOWN
+Author: heihei
+Author-email: heihei@hh.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+
+A class describes a person.
+
+
