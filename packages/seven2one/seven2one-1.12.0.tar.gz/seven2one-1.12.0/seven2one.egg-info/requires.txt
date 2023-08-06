@@ -1,0 +1,8 @@
+pandas
+gql
+pytz
+tzlocal
+pyperclip
+loguru
+pika
+base64
