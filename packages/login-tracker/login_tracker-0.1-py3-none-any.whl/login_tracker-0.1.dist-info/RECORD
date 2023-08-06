@@ -1,0 +1,16 @@
+login_tracker/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+login_tracker/admin.py,sha256=Ubg2-XTsjsTsWOJSVgJhVtfECDKwdJATAmNdi8emxUg,752
+login_tracker/apps.py,sha256=MS8LlVPT2AMWvCpYvBt2YbvGX-R1THMzt2NRedXGCIg,163
+login_tracker/models.py,sha256=h8Tpd9N4MbQUoTPlbi73aPw7G8wdNUOzovB82bXny3A,3171
+login_tracker/signals.py,sha256=9gCzRz4qfY2wnCSSSiheGqEfADF0l-P6kPXOPHPlUrM,402
+login_tracker/tests.py,sha256=2uDafv3Ns6f7Vy1ekUtgYxCZEi1KRyesZDTAFhYcX-E,63
+login_tracker/views.py,sha256=u0FhL7RT5byf5IlcnZEMrcH2TOnQkdfRQU2SjtA26m0,66
+login_tracker/migrations/0001_initial.py,sha256=DUlcoAbUSA6R6ScqBbeqZE4XArkuScnfaqyoovO8bcc,1455
+login_tracker/migrations/0002_auto_20211102_1151.py,sha256=ZMVtS25l5155UyyIk15UUnPKJkwMLv5KDoJsviRMddM,602
+login_tracker/migrations/0003_loginhistorytracker_user_agent.py,sha256=xTbsg-gCjUAY5oPFi1KYDe3g0WwomHpGR8fp3EfprvE,438
+login_tracker/migrations/0004_remove_loginhistorytracker_browser.py,sha256=74BLcTnQO15Fo4iA3SxwmkoB0iIW2h3bDCWSzzddjLc,377
+login_tracker/migrations/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+login_tracker-0.1.dist-info/METADATA,sha256=_MoZar-Bqnmqs-B9JPnqCoeIOfLEnyxqNYJ-HAbQcoE,1926
+login_tracker-0.1.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+login_tracker-0.1.dist-info/top_level.txt,sha256=uOlA8kTGDLA877Gi7llX6jbU5uhl9R2Vg3FJbQIgg44,14
+login_tracker-0.1.dist-info/RECORD,,
