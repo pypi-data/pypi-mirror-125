@@ -1,0 +1,37 @@
+#!/bin/bash
+
+OPTIONS=''
+
+while [[ $# -gt 0 ]]; do
+  key="$1"
+  case $key in
+    --key_path)
+      SUBMIT_KEY_PATH="$2"
+      OPTIONS="${OPTIONS} --key_path ${SUBMIT_KEY_PATH}"
+      shift
+      ;;
+    --key)
+      SUBMIT_KEY="$2"
+      OPTIONS="${OPTIONS} --key ${SUBMIT_KEY}"
+      shift
+      ;;
+    -d|--debug)
+      DEBUG="$2"
+      OPTIONS="${OPTIONS} --debug ${DEBUG}"
+      shift
+      ;;
+    --auth-url)
+      AUTH_URL="$2"
+      OPTIONS="${OPTIONS} --auth-url ${AUTH_URL}"
+      shift
+      ;;
+    --submit-url)
+      SUBMIT_URL="$2"
+      OPTIONS="${OPTIONS} --submit-url ${SUBMIT_URL}"
+      shift
+      ;;
+  esac
+  shift
+done
+
+python3 -m aifactory.Executables.leader_board ${OPTIONS}
