@@ -1,0 +1,10 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+src/gee_subset/__init__.py
+src/gee_subset/gee_subset.py
+src/gee_subset.egg-info/PKG-INFO
+src/gee_subset.egg-info/SOURCES.txt
+src/gee_subset.egg-info/dependency_links.txt
+src/gee_subset.egg-info/top_level.txt
