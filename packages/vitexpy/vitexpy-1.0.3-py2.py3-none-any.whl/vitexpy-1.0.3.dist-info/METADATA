@@ -1,0 +1,7 @@
+Metadata-Version: 2.1
+Name: vitexpy
+Version: 1.0.3
+Summary: PYTHON WRAPPER FOR VITEX.NET API v2 (DECENTRALIZED EXCHANGE https://x.vite.net/)
+Author-email: blacktyger <blacktyg3r@gmail.com>
+Classifier: License :: OSI Approved :: MIT License
+Project-URL: Home, https://github.com/blacktyger
