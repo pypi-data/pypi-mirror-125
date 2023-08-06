@@ -1,0 +1,58 @@
+Metadata-Version: 2.1
+Name: Check-URL
+Version: 1.0.1
+Summary: A url checker python module
+Home-page: https://github.com/FayasNoushad/Check-URL
+Author: FayasNoushad
+License: MIT
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: requests
+Requires-Dist: domain-extract
+
+```
+Made with Python3
+(C) @FayasNoushad
+Copyright permission under MIT License
+License -> https://github.com/FayasNoushad/Check-URL/blob/main/LICENSE
+```
+
+---
+
+## Installation
+
+```
+pip install Check-URL
+```
+
+---
+
+## Usage
+
+```py
+import check_url
+
+
+url = "https://fayas.me/"
+
+check = check_url.check(url)
+# => True
+
+check = check_url.check(url, test=True)  # For testing the URL
+# => True
+```
+
+---
+
+## Credits
+
+- [Fayas Noushad](https://github.com/FayasNoushad)
+
+---
+
+
