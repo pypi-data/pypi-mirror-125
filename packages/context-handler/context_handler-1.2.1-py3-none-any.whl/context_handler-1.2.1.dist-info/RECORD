@@ -1,0 +1,14 @@
+context_handler/__init__.py,sha256=1_zYlppQZtaT6ZT-_-EwSFebPwDg4uczTgHM9PtlkeM,714
+context_handler/_datastructures.py,sha256=SJTejUrtsiCyYTzr9QxAD_MJRE5EpIP6VTg-iLyhr_k,10507
+context_handler/adapters/fastapi.py,sha256=qgny_wG-dBi8Wbu8vGTa3yait7uUIT_sYCkf4HIwv7E,3051
+context_handler/adapters/sanic.py,sha256=SBQpAlJFm1ic7UB6iS2BPtvUznMPCe1NMFSRcz6EVqE,2735
+context_handler/context.py,sha256=j74iZSDylGQ9LIlPzec01OVmRaJAiAWRUCajD_309w0,4732
+context_handler/ensure_context.py,sha256=W7Lp0qbnydFubEJMcmLddo5Ff_GJdkvFdCuSCVuZJ6M,6975
+context_handler/exc.py,sha256=3JBtqwX5v8E6_g5UbUWt27_6ZBMmMoZLH8eXybj0Y04,555
+context_handler/factory.py,sha256=eOH7tGvI2D-aFcoT5gdY9NDjB1wrP2omQcviNfDUdOE,2860
+context_handler/generic.py,sha256=JfTdAdiLgkQnxCqmgcv1JNFlYsSi8CEbP32ezySAsNI,2630
+context_handler/getters.py,sha256=tnWPEBV93P8TQ0QH0JSHg9SC63z64x7xStuyfmdtYl8,2722
+context_handler-1.2.1.dist-info/LICENSE,sha256=xVL-2mHA8cnl3QkA7PRfrehApMpuGarTH67X-BWp03I,1071
+context_handler-1.2.1.dist-info/WHEEL,sha256=N0LZrBtofpkS5mJXgVHTCEy52Sam4D6PHQWC8HnMeTs,83
+context_handler-1.2.1.dist-info/METADATA,sha256=DmbXKhSl_FdzYoDqERYaYr5LnegrOwwDqK56OkdnjKs,528
+context_handler-1.2.1.dist-info/RECORD,,
