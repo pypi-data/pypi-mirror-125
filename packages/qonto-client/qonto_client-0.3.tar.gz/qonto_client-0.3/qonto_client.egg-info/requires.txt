@@ -1,0 +1,4 @@
+XlsxWriter
+ofxtools
+requests
+schwifty

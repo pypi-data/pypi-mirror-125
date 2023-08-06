@@ -1,0 +1,8 @@
+README.md
+setup.py
+qonto_client.egg-info/PKG-INFO
+qonto_client.egg-info/SOURCES.txt
+qonto_client.egg-info/dependency_links.txt
+qonto_client.egg-info/not-zip-safe
+qonto_client.egg-info/requires.txt
+qonto_client.egg-info/top_level.txt
