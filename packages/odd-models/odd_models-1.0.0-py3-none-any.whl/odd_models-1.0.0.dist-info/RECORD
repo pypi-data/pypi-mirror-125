@@ -1,0 +1,16 @@
+odd_models/__init__.py,sha256=h4jgHgc6JufeSzNpX1m8EtCqLUl6sWoS_YsJbJmvjyo,701
+odd_models/__main__.py,sha256=F_3ts9ccUN0gwbvziCuu6UvPiGWNTd-GZF-mGMNDtVM,409
+odd_models/encoder.py,sha256=-9Q7oqRtJaOttL8YWG9H0fVNpWeIVdcWD_v4XkmtSOM,604
+odd_models/models.py,sha256=uXXOllwhj0P36aTM-j1HuokYZBjx6pcAZgIAtN3Qa0o,5934
+odd_models/typing_utils.py,sha256=mGDTJkj9V9w7NsFSljw33GKB-gWfqoceAot-iHTViNs,809
+odd_models/util.py,sha256=k0Rgx0Y0H3my4xo8nPVlrWCZAR-Rr1qLDLsr7xVKqfc,3437
+odd_models/controllers/__init__.py,sha256=qJbnQXVSEDv2wBpFojn3bjW9QzQKwWiQSHc0aG8RD2M,134
+odd_models/controllers/open_data_discovery_adapter_controller.py,sha256=7CEhiMD8UKJ1ps-Or802Y6R9J0HVWQIVQXVK7rFzs3E,1755
+odd_models/controllers/security_controller_.py,sha256=KwV-TTpLfYGgeJC60kS-tHxcOfdEP2KaUkYYMh9sJA0,26
+odd_models/openapi/openapi.yaml,sha256=3CH6fdsTCl8zJkXrqbmuHXi6NilaMABV1JFQGKxI4Vc,11261
+odd_models/test/__init__.py,sha256=U6ycplL_RxH8mmkmp3PMkIp3hvsqorhR2zNFAMWY9tg,433
+odd_models/test/test_open_data_discovery_adapter_controller.py,sha256=QjAgKjC3xJ3s3DxnAl3lFsCtM6s19r-o1Jkr2EdI8fg,933
+odd_models-1.0.0.dist-info/METADATA,sha256=voIPnGrK_INZIAbI_hvHsd-tG1IhjY3z48EUC6EfoOE,818
+odd_models-1.0.0.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+odd_models-1.0.0.dist-info/top_level.txt,sha256=RIJcsUD0DQQE_kXRNRL7NQV-yDxCCzUSQKFEsOhChpU,11
+odd_models-1.0.0.dist-info/RECORD,,
