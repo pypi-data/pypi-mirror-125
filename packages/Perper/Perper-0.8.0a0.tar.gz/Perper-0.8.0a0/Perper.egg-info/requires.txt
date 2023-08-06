@@ -1,0 +1,4 @@
+pyignite>=0.3.4
+grpcio>=1.33.2
+protobuf>=3.17.3
+backoff>=1.11.1
