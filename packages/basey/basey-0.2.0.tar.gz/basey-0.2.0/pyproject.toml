@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "basey"
+version = "0.2.0"
+description = "Python package for encoding/decoding base 10"
+authors = ["Dan Scott <dscott304@gmail.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.9"
+
+[tool.poetry.dev-dependencies]
+pytest = "^5.2"
+mypy = "^0.910"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
