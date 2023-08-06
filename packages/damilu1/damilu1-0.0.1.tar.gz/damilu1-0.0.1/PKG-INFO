@@ -1,0 +1,23 @@
+Metadata-Version: 2.1
+Name: damilu1
+Version: 0.0.1
+Summary: A small example package
+Home-page: https://github.com
+Author: damilu
+Author-email: author@example.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# Demo Damilu
+
+This is a simple example package. You can use
+
+[Github-flavored Markdown](https://guides.github.com)
+
+to write your content.
+
