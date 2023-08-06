@@ -1,0 +1,10 @@
+include metacells/*.cpp
+include metacells/*.h
+include metacells/*/py.typed
+include metacells/py.typed
+include pybind11/include/pybind11/*
+include pybind11/include/pybind11/*/*
+include tests/*.py
+include tox.ini
+exclude sphinx/*
+exclude vignettes/*
