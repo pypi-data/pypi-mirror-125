@@ -1,0 +1,14 @@
+aiohttp
+aiofiles
+python-dateutil
+twine
+pyinstaller
+openpyxl
+pytest
+pytest-asyncio
+pyecharts
+ipython
+autopep8
+selenium-wire
+xlrd3
+defusedxml
