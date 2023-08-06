@@ -1,0 +1,12 @@
+spatialtis_core-0.1.1.dist-info/METADATA,sha256=Cop48hmGNgXK2K_9tqD3Ao-ZPLPjc0jTEmqvVWxWVFI,831
+spatialtis_core-0.1.1.dist-info/WHEEL,sha256=lbTzR9ovak2lsiXiZfQ4DBY3WgLohmX4rUGHtWpc4v8,125
+spatialtis_core/spatial_de/__init__.py,sha256=17FFY0ZuiU2EWUedMiACexQLCilGEs6ISNORzeeN_YE,26
+spatialtis_core/spatial_de/som_de.py,sha256=kAOD3TKWUzBnub8sZbj8bSxrmT1ImZeDPo5M6-di6zA,1060
+spatialtis_core/external/__init__.py,sha256=y2kMmIvzDnWURJRK3-Y-OfPfiYuCtyp8pOPyTMCoCis,27
+spatialtis_core/external/somde/util.py,sha256=qoW74gnnpPoOlkHFhjR0IQdX-F15KnnznaNykggs4N0,12539
+spatialtis_core/external/somde/__init__.py,sha256=PBMjmpPmaKkd_2-V0_FM_Fo4WANiIpavF52KyhGzsh4,98
+spatialtis_core/external/somde/som.py,sha256=vNvoHm3I-_ZS0m4nCT34rXYZIbTX5teECu8qS4Vqxqk,3290
+spatialtis_core/__init__.py,sha256=TcwmF6n7ahjPCz7sYGuCsUZAw_g4RiB4jJfI2CzAook,1033
+spatialtis_core/__init__.pyi,sha256=a5kTKzdFeBp4ChlsNsVqEQZgrcQVUOBA4WdDmOUpvaE,12496
+spatialtis_core/spatialtis_core.cpython-37m-x86_64-linux-gnu.so,sha256=aVWfCGMjPMRFKaeuML9verR4tlwdpyEXZdoHBlJ3FYs,5180648
+spatialtis_core-0.1.1.dist-info/RECORD,,
