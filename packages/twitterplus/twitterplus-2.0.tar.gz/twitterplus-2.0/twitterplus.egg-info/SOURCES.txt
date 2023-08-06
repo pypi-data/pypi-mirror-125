@@ -1,0 +1,10 @@
+LICENCE.txt
+README.txt
+setup.py
+twitterplus/__init__.py
+twitterplus.egg-info/PKG-INFO
+twitterplus.egg-info/SOURCES.txt
+twitterplus.egg-info/dependency_links.txt
+twitterplus.egg-info/requires.txt
+twitterplus.egg-info/top_level.txt
+twitterplus/info/__init__.py
