@@ -1,0 +1,10 @@
+LICENSE
+README.rst
+setup.py
+wonder.py
+wonder.egg-info/PKG-INFO
+wonder.egg-info/SOURCES.txt
+wonder.egg-info/dependency_links.txt
+wonder.egg-info/not-zip-safe
+wonder.egg-info/requires.txt
+wonder.egg-info/top_level.txt
