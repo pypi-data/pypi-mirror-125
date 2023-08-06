@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: patchdiff
+Version: 0.1.0
+Summary: MIT
+Home-page: https://github.com/Korijn/patchdiff
+Author: Korijn van Golen
+Author-email: korijn@gmail.com
+Requires-Python: >=3.9,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.9
+Description-Content-Type: text/markdown
+
+
