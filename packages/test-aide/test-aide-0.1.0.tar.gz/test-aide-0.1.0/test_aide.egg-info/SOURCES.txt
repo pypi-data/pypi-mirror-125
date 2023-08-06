@@ -1,0 +1,14 @@
+LICENSE
+README.md
+setup.py
+test_aide/__init__.py
+test_aide/_version.py
+test_aide/classes.py
+test_aide/equality.py
+test_aide/functions.py
+test_aide/pandas.py
+test_aide.egg-info/PKG-INFO
+test_aide.egg-info/SOURCES.txt
+test_aide.egg-info/dependency_links.txt
+test_aide.egg-info/requires.txt
+test_aide.egg-info/top_level.txt
