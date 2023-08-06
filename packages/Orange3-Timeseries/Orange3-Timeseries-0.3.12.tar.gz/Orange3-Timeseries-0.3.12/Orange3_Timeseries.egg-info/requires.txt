@@ -1,0 +1,16 @@
+Orange3
+more-itertools
+numpy
+pandas
+pandas_datareader
+python-dateutil
+scipy>=0.17
+statsmodels<0.13.0,>=0.10.0
+
+[doc]
+recommonmark
+sphinx
+sphinx_rtd_theme
+
+[test]
+coverage
