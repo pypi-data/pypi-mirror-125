@@ -1,0 +1,16 @@
+algol_bayer-1.0.0b1.data/scripts/bayer_capture_histograms.sh,sha256=FnZ9Mu9zHdzcbezjMZmskv1tPJtOQoDwWJPi9SJCAWM,720
+algol_bayer-1.0.0b1.data/scripts/bayer_capture_sequence.sh,sha256=JkcqWuNR-3nSgALHRrwp7FCYOu3CyLDeEKsJIk29ius,835
+algol_bayer-1.0.0b1.data/scripts/reset-camera.sh,sha256=arB2PgrnZKJmWf4S-jo9zLMlbq0vXKY_nBShskLOCJ0,389
+bayer/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+bayer/extraction.py,sha256=HnATQDAkchye3C65rH1cIldm_adf4k1MEjJ0x-swMy4,5687
+bayer/to_rgb.py,sha256=qnpW8S8wU18rtkYW2s5f2JOj2Du4dOvJNBNwwIxhxEM,2892
+bayer/utils.py,sha256=KqhKnUcOHNCSqpQ6pLY1Py3Zb79-FjCfTwWuFLlxD34,148
+bayer/scripts/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+bayer/scripts/display_histogram.py,sha256=TXtyBenqxo-JaV7B3g-B9fbSmkw_NaZynya7ynJdMCg,2650
+bayer/scripts/display_spectrum.py,sha256=EFlUogSxcu_hspOnprkmpkB0l5a7P1drtUBMiSsoEiY,4853
+bayer/scripts/visualize_segmentation.py,sha256=XHbBb58gJlnZ-BP70lt5R9x39HfDfW7pGdRKXtNr0Rs,3400
+algol_bayer-1.0.0b1.dist-info/METADATA,sha256=AUfWZV0_Y-f452aYBU5Jq9ujKR5UoQwb2hlMt7jNAtI,1787
+algol_bayer-1.0.0b1.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+algol_bayer-1.0.0b1.dist-info/entry_points.txt,sha256=tZ43WFtxUOG5X7egPuGHhw8uK2muM8LH_37kKq7iDbg,437
+algol_bayer-1.0.0b1.dist-info/top_level.txt,sha256=3RaHN3h1axBGid9c7JXdeQY2ZdvqHuDUZN3ABupsD6A,6
+algol_bayer-1.0.0b1.dist-info/RECORD,,

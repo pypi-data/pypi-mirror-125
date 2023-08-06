@@ -1,0 +1,8 @@
+[console_scripts]
+bayer_display_histogram = bayer.scripts.display_histogram:main_raw
+bayer_display_spectrum = bayer.scripts.display_spectrum:main_raw
+bayer_visualize_segmentation = bayer.scripts.visualize_segmentation:main_raw
+fits_display_histogram = bayer.scripts.display_histogram:main_fits
+fits_display_spectrum = bayer.scripts.display_spectrum:main_fits
+fits_visualize_segmentation = bayer.scripts.visualize_segmentation:main_fits
+
