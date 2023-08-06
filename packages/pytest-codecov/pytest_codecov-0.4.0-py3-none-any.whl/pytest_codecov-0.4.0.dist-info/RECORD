@@ -1,0 +1,9 @@
+pytest_codecov/__init__.py,sha256=U9ORP7tBRawJy2qlNm2cQOelL5MNvt5cn6wudmneL-A,5426
+pytest_codecov/codecov.py,sha256=HfWmQNrL8KP_nES8thDcw89xA19xJp-0UwV7Pmb_CCo,3250
+pytest_codecov/git.py,sha256=R5PeOei-aDlOMorv54YpyHV6b0XYMYbf9wo6qYvq3KE,1629
+pytest_codecov-0.4.0.dist-info/LICENSE,sha256=Kq0Bd7DrxjiR6tS-5jb6YRPQuXcjAILLlf_EtVGMGUM,1084
+pytest_codecov-0.4.0.dist-info/METADATA,sha256=qgDiecmMDC6cFOw_ffOJvksCfL76ch-dszIwmDNueWo,4005
+pytest_codecov-0.4.0.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+pytest_codecov-0.4.0.dist-info/entry_points.txt,sha256=U9lZ_oAvgO63nE_3expRLMHu3gfHba_SNlcnW2HxkAE,37
+pytest_codecov-0.4.0.dist-info/top_level.txt,sha256=7EzgSuXsxmV9N60QE_k4svE80qRkwEYHTy7F7fIhDhI,15
+pytest_codecov-0.4.0.dist-info/RECORD,,
