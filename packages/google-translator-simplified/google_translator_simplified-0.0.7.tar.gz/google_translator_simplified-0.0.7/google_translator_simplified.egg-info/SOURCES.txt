@@ -1,0 +1,10 @@
+README.md
+setup.py
+google_translator_simplified/__init__.py
+google_translator_simplified/translator_complex.py
+google_translator_simplified/translator_constant.py
+google_translator_simplified/translator_simplified.py
+google_translator_simplified.egg-info/PKG-INFO
+google_translator_simplified.egg-info/SOURCES.txt
+google_translator_simplified.egg-info/dependency_links.txt
+google_translator_simplified.egg-info/top_level.txt
