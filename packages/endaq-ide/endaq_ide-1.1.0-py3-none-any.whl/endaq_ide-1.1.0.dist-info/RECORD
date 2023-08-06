@@ -1,0 +1,11 @@
+endaq/ide/__init__.py,sha256=KUzvWpynuHR97dAm1aab93Nt6CBvbWiNqeSW5QmJQ3Q,68
+endaq/ide/files.py,sha256=PVIvf_8yzTP52jleEBpePA5nQ11RAMjyKzE_YXfC-rU,10134
+endaq/ide/gdrive.py,sha256=P0HnQQqJOomGsmZsl5SopqSFdiCXLamSGEJcVDCpG8g,2591
+endaq/ide/info.py,sha256=8Rx8mMMeEGAuwy1j5yyIwFTyqASc1H3Ctz3ZxQuiODs,12463
+endaq/ide/measurement.py,sha256=kQiIfxvUhTl8hRoG21XmG7mifT5CECaJtRZsQmf54Ec,14500
+endaq/ide/util.py,sha256=k2OxUcGnU3vMz5kigbayjfoPhI5zueWC6MOPfYNOP8k,1716
+endaq_ide-1.1.0.dist-info/LICENSE,sha256=xzpOJiDvIgANcOFPCLcqdgkj4CF2CkDAnovCBQqAU04,1078
+endaq_ide-1.1.0.dist-info/METADATA,sha256=4Lo56x3kPfJZQIfL4ZNxi5bBm09Ju_KWebdfs6AK8wI,36683
+endaq_ide-1.1.0.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+endaq_ide-1.1.0.dist-info/top_level.txt,sha256=eqTVMT9FSjha3gc1ljU4eRn4mXdKGZp2v4WCciER_-w,6
+endaq_ide-1.1.0.dist-info/RECORD,,
