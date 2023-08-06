@@ -1,0 +1,13 @@
+License
+README.md
+pyproject.toml
+setup.cfg
+man/ident.1.gz
+src/ident/__init__.py
+src/ident/main.py
+src/pnu_ident.egg-info/PKG-INFO
+src/pnu_ident.egg-info/SOURCES.txt
+src/pnu_ident.egg-info/dependency_links.txt
+src/pnu_ident.egg-info/entry_points.txt
+src/pnu_ident.egg-info/requires.txt
+src/pnu_ident.egg-info/top_level.txt
