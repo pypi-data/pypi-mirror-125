@@ -1,0 +1,3 @@
+[console_scripts]
+nordvpn_exporter = nordvpn_exporter:main
+
