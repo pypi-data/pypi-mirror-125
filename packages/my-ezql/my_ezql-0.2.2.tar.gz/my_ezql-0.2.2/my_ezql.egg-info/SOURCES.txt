@@ -1,0 +1,11 @@
+README.md
+setup.py
+my_ezql/__init__.py
+my_ezql/myezql.py
+my_ezql.egg-info/PKG-INFO
+my_ezql.egg-info/SOURCES.txt
+my_ezql.egg-info/dependency_links.txt
+my_ezql.egg-info/requires.txt
+my_ezql.egg-info/top_level.txt
+tests/__init__.py
+tests/test_my_ezql.py
