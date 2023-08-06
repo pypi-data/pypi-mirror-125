@@ -1,0 +1,10 @@
+LICENSE
+README.md
+setup.py
+datafacts/__init__.py
+datafacts/generate_img.py
+datafacts.egg-info/PKG-INFO
+datafacts.egg-info/SOURCES.txt
+datafacts.egg-info/dependency_links.txt
+datafacts.egg-info/requires.txt
+datafacts.egg-info/top_level.txt
