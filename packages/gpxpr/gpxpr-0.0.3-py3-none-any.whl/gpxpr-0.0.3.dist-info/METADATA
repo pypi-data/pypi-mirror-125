@@ -1,0 +1,119 @@
+Metadata-Version: 2.1
+Name: gpxpr
+Version: 0.0.3
+Summary: GPX parser and renderer
+Home-page: https://github.com/Kruhlmann/gpxpr
+Maintainer: Andreas Krühlmann
+Maintainer-email: andreas@kruhlmann.dev
+License: UNKNOWN
+Platform: UNKNOWN
+Requires-Python: >=3.9
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: typer (==0.3.2)
+Requires-Dist: gpxpy
+Requires-Dist: matplotlib
+Provides-Extra: all
+Requires-Dist: isort ; extra == 'all'
+Requires-Dist: wemake-python-styleguide ; extra == 'all'
+Requires-Dist: mypy ; extra == 'all'
+Requires-Dist: black ; extra == 'all'
+Requires-Dist: dlint ; extra == 'all'
+Requires-Dist: nitpick ; extra == 'all'
+Requires-Dist: cohesion ; extra == 'all'
+Requires-Dist: pyformat ; extra == 'all'
+Requires-Dist: add-trailing-comma ; extra == 'all'
+Requires-Dist: pre-commit ; extra == 'all'
+Requires-Dist: devtools[pygments] ; extra == 'all'
+Requires-Dist: pytest ; extra == 'all'
+Requires-Dist: pytest-cov ; extra == 'all'
+Requires-Dist: pytest-xdist ; extra == 'all'
+Requires-Dist: pytest-mock ; extra == 'all'
+Requires-Dist: pytest-asyncio ; extra == 'all'
+Provides-Extra: dev
+Requires-Dist: isort ; extra == 'dev'
+Requires-Dist: wemake-python-styleguide ; extra == 'dev'
+Requires-Dist: mypy ; extra == 'dev'
+Requires-Dist: black ; extra == 'dev'
+Requires-Dist: dlint ; extra == 'dev'
+Requires-Dist: nitpick ; extra == 'dev'
+Requires-Dist: cohesion ; extra == 'dev'
+Requires-Dist: pyformat ; extra == 'dev'
+Requires-Dist: add-trailing-comma ; extra == 'dev'
+Requires-Dist: pre-commit ; extra == 'dev'
+Requires-Dist: devtools[pygments] ; extra == 'dev'
+Provides-Extra: tests
+Requires-Dist: pytest ; extra == 'tests'
+Requires-Dist: pytest-cov ; extra == 'tests'
+Requires-Dist: pytest-xdist ; extra == 'tests'
+Requires-Dist: pytest-mock ; extra == 'tests'
+Requires-Dist: pytest-asyncio ; extra == 'tests'
+
+# gpxpr
+![GitHub Workflow Status](https://img.shields.io/github/workflow/status/kruhlmann/gpxpr/gpxpr%20lint?label=linting&style=for-the-badge)
+![GitHub Workflow Status](https://img.shields.io/github/workflow/status/kruhlmann/gpxpr/gpxpr%20tests?label=tests&style=for-the-badge)
+![PyPI](https://img.shields.io/pypi/v/gpxpr?style=for-the-badge)
+![GitHub](https://img.shields.io/github/license/kruhlmann/gpxpr?style=for-the-badge)
+
+GPX file parser and renderer.
+
+## Installation
+
+### From PIP
+
+```sh
+pip install gpxpr
+```
+
+### Manual
+
+```
+git clone https://github.com/Kruhlmann/gpxpr
+cd gpxpr
+make install
+```
+
+## Usage
+
+```
+usage: gpxpr [-h] -r RENDERER -w WALKING -v RUNNING -a {time,distance} [-o DESTINATION] target
+
+positional arguments:
+  target                File to process
+
+optional arguments:
+  -h, --help            show this help message and exit
+  -r RENDERER, --renderer RENDERER
+                        Renderer to use [stdout, matplot]
+  -w WALKING, --min-walking-speed WALKING
+                        Slowest min/km where a runner is considered 'walking'
+  -v RUNNING, --min-running-speed RUNNING
+                        Slowest min/km when a runner is considered 'running'
+  -a {time,distance}, --aggregation-value {time,distance}
+                        Value to base the aggregation on
+  -o DESTINATION, --output DESTINATION
+                        Output location. Default is /dev/stdout
+```
+
+## Developing
+
+### Windows
+
+The recommended way to develop on Windows is the make use of the [Windows Subsystem for Linux](https://docs.microsoft.com/en-us/windows/wsl/install) and then referring to the UNIX-like section.
+
+### UNIX-like
+
+Auto-running tests on code change is achievable with [entr](https://archlinux.org/packages/community/x86_64/entr/)
+
+```sh
+find src tests -name "*.py" | entr make test
+```
+
+Similarly for linting on file change:
+
+
+```sh
+find src tests -name "*.py" | entr make lint
+```
+
+
