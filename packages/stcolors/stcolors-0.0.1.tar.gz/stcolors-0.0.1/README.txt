@@ -1,0 +1,1 @@
+This Python Package is a list of all the rgb color values, this is just for your benefit. For example, WHITE = 255,255,255 (A tuple). The constants are not capitalized due to the fact that it is easier to just type white, rather than WHITE.

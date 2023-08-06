@@ -1,0 +1,27 @@
+Metadata-Version: 2.1
+Name: stcolors
+Version: 0.0.1
+Summary: A RGB Color Library
+Home-page: UNKNOWN
+Author: St
+Author-email: amazingfalcon1@gmail.com
+License: MIT
+Keywords: rgbcolorsvalue
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Education
+Classifier: Operating System :: Microsoft :: Windows :: Windows 10
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+License-File: LICENSE.txt
+
+This Python Package is a list of all the rgb color values, this is just for your benefit. For example, WHITE = 255,255,255 (A tuple). The constants are not capitalized due to the fact that it is easier to just type white, rather than WHITE.
+
+
+Change Log
+==========
+
+0.0.1(10/31/2021)
+-----------------
+- First Release
+

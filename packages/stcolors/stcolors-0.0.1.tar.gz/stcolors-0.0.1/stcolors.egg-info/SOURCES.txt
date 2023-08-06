@@ -1,0 +1,10 @@
+CHANGELOG.txt
+LICENSE.txt
+MANIFEST.in
+README.txt
+setup.py
+stcolors/__init__.py
+stcolors.egg-info/PKG-INFO
+stcolors.egg-info/SOURCES.txt
+stcolors.egg-info/dependency_links.txt
+stcolors.egg-info/top_level.txt
