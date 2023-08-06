@@ -1,0 +1,9 @@
+cython
+dmri-amico
+doit
+meg
+nibabel
+numpy
+scipy
+spire-pipeline>=1.1.1
+sycomore
