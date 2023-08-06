@@ -1,0 +1,6 @@
+include LICENSE
+include README.rst
+recursive-include django_reaktion_banner/static *
+recursive-include django_reaktion_banner/templates *
+recursive-include django_reaktion_banner/management *
+recursive-include django_reaktion_banner/docs *

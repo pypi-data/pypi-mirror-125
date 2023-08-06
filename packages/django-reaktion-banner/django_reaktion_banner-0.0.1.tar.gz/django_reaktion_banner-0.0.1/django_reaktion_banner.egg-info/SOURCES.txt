@@ -1,0 +1,9 @@
+LICENSE
+MANIFEST.in
+README.rst
+setup.cfg
+setup.py
+django_reaktion_banner.egg-info/PKG-INFO
+django_reaktion_banner.egg-info/SOURCES.txt
+django_reaktion_banner.egg-info/dependency_links.txt
+django_reaktion_banner.egg-info/top_level.txt

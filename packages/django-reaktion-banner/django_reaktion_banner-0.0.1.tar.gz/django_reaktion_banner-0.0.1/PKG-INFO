@@ -1,0 +1,29 @@
+Metadata-Version: 1.1
+Name: django_reaktion_banner
+Version: 0.0.1
+Summary: A Django app to manage Reaktion banners.
+Home-page: https://www.reaktion.se
+Author: Lukasz Oleksak
+Author-email: lukasz.oleksak@reaktion.se
+License: BSD-3-Clause
+Description: =====================================
+        Reaktion's banner plugin for Django
+        =====================================
+        
+        It is a simple banner app for Django.
+        
+        Detailed documentation is in the "docs" directory.
+        
+Platform: UNKNOWN
+Classifier: Environment :: Web Environment
+Classifier: Framework :: Django
+Classifier: Framework :: Django :: 3.2
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Topic :: Internet :: WWW/HTTP
+Classifier: Topic :: Internet :: WWW/HTTP :: Dynamic Content
