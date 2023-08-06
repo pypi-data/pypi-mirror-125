@@ -1,0 +1,13 @@
+deeponnxcustom/__init__.py,sha256=DV8OsLJD6DqrkbVcvM1VGuvPESSGCUjSnMxW7jEeYso,448
+deeponnxcustom/__main__.py,sha256=aj8honGGlWoYCJWTm9m1m-LXMAMEiJjblsEjeA1e6g8,635
+deeponnxcustom/onnxtorch/__init__.py,sha256=8_RYJuUzXzj6ow8XscD3S2wt2Azs-LPZD0UtJ4utLuE,136
+deeponnxcustom/onnxtorch/tchrun.py,sha256=ufctOI9MVjthUfETZccU3z7Ni0q6sayQkEIQIBwzcdE,9538
+deeponnxcustom/onnxtorch/torchort.py,sha256=74M6w1aPVci0Zt7v1pWY4tnNAMrny3DjzZ5SDsBoxs4,21111
+deeponnxcustom/tools/__init__.py,sha256=BXXBro83NgUUlI-G6nrulp_Dp8riotyDhOU13whB-Kw,44
+deeponnxcustom/tools/math_helper.py,sha256=evQP0MSqwKCXB6vKBKsY_sBXccC8_K-bCK_nPk90B5I,1672
+deeponnxcustom/tools/onnx_helper.py,sha256=jUVoQ8XOvgdxfWO0XAERZ8A88h3qNDKVn18hwBvFSHI,2613
+deeponnxcustom-0.1.0.dist-info/LICENSE.txt,sha256=AAfVhnCXSXaQ1zQjiXjncaJxgP2BhhboOkmAHOIAqyU,1078
+deeponnxcustom-0.1.0.dist-info/METADATA,sha256=XGinx5UU-ouW3HkTElRLP2sBiZQtY-rdORM1pWSwF90,3820
+deeponnxcustom-0.1.0.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+deeponnxcustom-0.1.0.dist-info/top_level.txt,sha256=ibisfvs0V5yUgi-yZnYEAhNF3VM89ENfqT-NSU54xHc,15
+deeponnxcustom-0.1.0.dist-info/RECORD,,
