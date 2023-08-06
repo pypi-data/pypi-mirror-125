@@ -1,0 +1,7 @@
+LICENSE
+README.md
+setup.py
+src/smoothscript.egg-info/PKG-INFO
+src/smoothscript.egg-info/SOURCES.txt
+src/smoothscript.egg-info/dependency_links.txt
+src/smoothscript.egg-info/top_level.txt
