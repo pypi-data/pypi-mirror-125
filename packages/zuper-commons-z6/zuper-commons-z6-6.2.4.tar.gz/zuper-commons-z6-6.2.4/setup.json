@@ -1,0 +1,30 @@
+{
+  "install_requires": [
+    "pytz",
+    "termcolor",
+    "webcolors",
+    "xtermcolor"
+  ],
+  "tests_require": [],
+  "srcdir": "src",
+  "package_name": "zuper-commons-z6",
+  "entry_points": {
+    "console_scripts": []
+  },
+  "zip_safe": true,
+  "include_package_data": true,
+  "modules": [
+    "zuper_commons",
+    "zuper_commons.fs",
+    "zuper_commons.logs",
+    "zuper_commons.test_utils",
+    "zuper_commons.text",
+    "zuper_commons.timing",
+    "zuper_commons.types",
+    "zuper_commons.ui"
+  ],
+  "version": "6.2.1",
+  "author": "",
+  "author_email": "",
+  "url": ""
+}
