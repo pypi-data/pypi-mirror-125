@@ -1,0 +1,1 @@
+It's basicially a calculator fancy pants

@@ -1,0 +1,10 @@
+CHANGELOG.txt
+LICENCE.txt
+MANIFEST.in
+README.txt
+__int__.py
+setup.py
+rechenschieber.egg-info/PKG-INFO
+rechenschieber.egg-info/SOURCES.txt
+rechenschieber.egg-info/dependency_links.txt
+rechenschieber.egg-info/top_level.txt
