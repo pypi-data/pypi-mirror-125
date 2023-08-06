@@ -1,0 +1,7 @@
+GitPython
+regex
+argparse
+jsonschema==4.0.1
+colorlog
+questionary
+click==8.0.1
