@@ -1,0 +1,22 @@
+Metadata-Version: 2.1
+Name: ga4gh-testbed-lib
+Version: 0.1.0
+Summary: Python library for creating GA4GH testbed reports according to a harmonized, cross-workstream schema
+Home-page: https://github.com/jb-adams/ga4gh-testbed-lib
+Author: Jeremy Adams
+Author-email: jeremy.adams@ga4gh.org
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Operating System :: OS Independent
+Classifier: Natural Language :: English
+Classifier: Topic :: Scientific/Engineering :: Bio-Informatics
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# ga4gh-testbed-lib
+Python library for creating GA4GH testbed reports according to a harmonized, cross-workstream schema
+
+
