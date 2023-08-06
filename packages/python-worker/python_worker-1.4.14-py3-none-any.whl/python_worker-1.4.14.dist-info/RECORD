@@ -1,0 +1,6 @@
+worker/__init__.py,sha256=3Wbb-od5_QTf8WctvuuUyzmUuOO56zrs1LTNo-sMtxg,21
+worker/worker.py,sha256=yZk0mCZgr9EhHODerbM_28p71jEgdP1KvGQr2cF0URk,12620
+python_worker-1.4.14.dist-info/METADATA,sha256=BNJqLINai2tKFN4mQjFwFb3Xu42j_Js7nayc44e-A5I,6097
+python_worker-1.4.14.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+python_worker-1.4.14.dist-info/top_level.txt,sha256=KrP-SOC-I1V0U33nVzMgkHR8wO-reJYASIvWVyLyFIY,7
+python_worker-1.4.14.dist-info/RECORD,,
