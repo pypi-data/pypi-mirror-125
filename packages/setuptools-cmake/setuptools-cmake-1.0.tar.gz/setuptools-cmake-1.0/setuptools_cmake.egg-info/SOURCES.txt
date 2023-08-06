@@ -1,0 +1,10 @@
+README.md
+setup.py
+setuptools_cmake/CMakeLists.txt
+setuptools_cmake/__init__.py
+setuptools_cmake.egg-info/PKG-INFO
+setuptools_cmake.egg-info/SOURCES.txt
+setuptools_cmake.egg-info/dependency_links.txt
+setuptools_cmake.egg-info/entry_points.txt
+setuptools_cmake.egg-info/requires.txt
+setuptools_cmake.egg-info/top_level.txt
