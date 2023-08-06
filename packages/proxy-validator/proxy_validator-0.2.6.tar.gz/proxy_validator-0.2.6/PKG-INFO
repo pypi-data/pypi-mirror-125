@@ -1,0 +1,20 @@
+Metadata-Version: 1.1
+Name: proxy_validator
+Version: 0.2.6
+Summary: Proxy validator checks proxies working or not.
+Home-page: https://bitbucket.fixmost.com/projects/PAYS/repos/proxy-validator/browse
+Author: Aydar Gabdrahmanov
+Author-email: smith@fixmost.com
+License: MIT
+Download-URL: https://bitbucket.fixmost.com/projects/PAYS/repos/proxy-validator/browse?at=refs%2Ftags%2F0.2.6
+Description: UNKNOWN
+Keywords: Proxy,Proxy-validator
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Build Tools
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
