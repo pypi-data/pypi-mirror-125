@@ -1,0 +1,8 @@
+setup.py
+lili/__main__.py
+lili/utils.py
+lili.egg-info/PKG-INFO
+lili.egg-info/SOURCES.txt
+lili.egg-info/dependency_links.txt
+lili.egg-info/not-zip-safe
+lili.egg-info/top_level.txt
