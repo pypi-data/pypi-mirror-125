@@ -1,0 +1,46 @@
+Metadata-Version: 2.1
+Name: koaeda
+Version: 0.0.6
+Summary: Using Korean Language A Easier Data Augmentation
+Home-page: https://github.com/Kangsukmin/KoAEDA
+Author: decyma
+Author-email: soos3121@gmail.com
+License: MIT
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+[한국어 문서](./README_ko.md)
+
+# KoAEDA
+
+Using Korean Language AEDA Easily
+
+# Install
+
+```zsh
+  $ pip install koaeda
+```
+
+# How to use
+
+## Basic use
+
+```python
+  from koaeda import AEDA
+
+  ko_aeda = AEDA()
+
+  text = "이 주변에 맛집이 어디 있나요?"
+
+  result = ko_aeda(text)
+
+  print(result)
+  >> 이 ?  주변에  : 맛집이 ;  어디 있나요?
+```
+
+
