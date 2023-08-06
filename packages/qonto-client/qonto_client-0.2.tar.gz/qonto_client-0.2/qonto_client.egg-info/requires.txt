@@ -1,0 +1,3 @@
+ofxtools
+requests
+schwifty
