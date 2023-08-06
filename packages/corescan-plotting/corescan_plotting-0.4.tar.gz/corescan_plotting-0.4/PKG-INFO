@@ -1,0 +1,29 @@
+Metadata-Version: 2.1
+Name: corescan_plotting
+Version: 0.4
+Summary: Python tools for plotting scanned core data from the USGS Pacific Coastal and Marine Science Center
+Home-page: UNKNOWN
+Author: SeanPaul La Selle
+Author-email: <slaselle@usgs.gov>
+License: UNKNOWN
+Keywords: python,geology,core,ct,xrf,linescan
+Platform: UNKNOWN
+Classifier: Development Status :: 1 - Planning
+Classifier: Intended Audience :: Developers
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: Unix
+Classifier: Operating System :: MacOS :: MacOS X
+Classifier: Operating System :: Microsoft :: Windows
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+
+corescan_plotting
+=======
+
+`corescan_plotting` contains tools for analyzing and plotting outputs from various core scanning instruments located at the USGS Pacific Coastal and Marine Science Center.
+
+Setup
+-----
+
+
