@@ -1,0 +1,15 @@
+LICENSE.txt
+README.md
+pyproject.toml
+setup.cfg
+setup.py
+src/libdrm/__init__.py
+src/libdrm/apis.py
+src/libdrm/elastic.py
+src/libdrm/pipeline.py
+src/libdrm/schemas.py
+src/libdrm.egg-info/PKG-INFO
+src/libdrm.egg-info/SOURCES.txt
+src/libdrm.egg-info/dependency_links.txt
+src/libdrm.egg-info/requires.txt
+src/libdrm.egg-info/top_level.txt
