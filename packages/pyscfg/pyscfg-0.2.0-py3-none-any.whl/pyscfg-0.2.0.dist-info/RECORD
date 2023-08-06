@@ -1,0 +1,9 @@
+pyscfg/__init__.py,sha256=FLYJVE6p4r52vcO9BeqUSmUIgtSH1W3HFWwzoClI0RY,355
+pyscfg/core.py,sha256=ZkWpdlBRx8hS3Bcvuz0bBYIqlVAJCDkBXpkXAGMl9Is,8122
+pyscfg/helpers.py,sha256=BoZsDZjp3Vv_UV6vWnOT_cD6DvteBnAIjEGlTL6EMWo,635
+pyscfg/stores.py,sha256=Fn6slLlsnOhPNAta03DuoZeCezhySbkeKpZmrpHOKMc,3749
+pyscfg-0.2.0.dist-info/LICENSE,sha256=8tKR5Bsflni9X9Fw3KFQx0D7LXKBVD0hV580NFyxW8k,1543
+pyscfg-0.2.0.dist-info/METADATA,sha256=2npMg7cC_9nPjoec7nC8lwFJViS2H6f8cbW4vwKr2rk,4381
+pyscfg-0.2.0.dist-info/WHEEL,sha256=D1Wh14kWDxPnrM-5t_6UCB-UuQNrEODtRa3vF4OsvQY,97
+pyscfg-0.2.0.dist-info/top_level.txt,sha256=ej0BINyOlW5hKMLX8hHNC5YgRklauucHFNPRlykGhEw,7
+pyscfg-0.2.0.dist-info/RECORD,,
