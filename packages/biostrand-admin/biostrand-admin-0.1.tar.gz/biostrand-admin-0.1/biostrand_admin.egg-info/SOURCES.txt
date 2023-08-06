@@ -1,0 +1,7 @@
+setup.py
+biostrand/admin/__init__.py
+biostrand_admin.egg-info/PKG-INFO
+biostrand_admin.egg-info/SOURCES.txt
+biostrand_admin.egg-info/dependency_links.txt
+biostrand_admin.egg-info/not-zip-safe
+biostrand_admin.egg-info/top_level.txt
