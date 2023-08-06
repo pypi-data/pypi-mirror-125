@@ -1,0 +1,11 @@
+python_dataset/__init__.py,sha256=0qb7mJMRLLuqu_6rXE_ESYMyWCXTOZipHCAqo2rh-L0,19
+python_dataset/extractor.py,sha256=evPVAxwXkTUXDDfDPLWErdrxOUoKD7chaL-v3mmoC3A,1834
+python_dataset/property/__init__.py,sha256=zDr350exO14Ii8Pj3TXwPuRxIDrEjrg43CpjYABDqh4,19
+python_dataset/property/main.py,sha256=2rrESZh2MjRZ-HJnrELMJkpSuFiQh4vwhe3SvQ5eFVE,2021
+python_dataset/sample/sample.wav,sha256=iRhsQ2SQVO0K5wL75WcgM8VlTe63HoSQtb3T0_NPiZs,120466
+python_dataset/utils.py,sha256=HuGWgyfRW2nVwk8-6ONECknP9l6kZ4Zriq9GltjCNac,619
+python_dataset/wave/__init__.py,sha256=zDr350exO14Ii8Pj3TXwPuRxIDrEjrg43CpjYABDqh4,19
+python_dataset/wave/main.py,sha256=4EkbSThryP6y9TjHGpnO8QrN1Z12MjxZj-wu6udSqVw,2091
+python_dataset-0.0.4.dist-info/WHEEL,sha256=V7iVckP-GYreevsTDnv1eAinQt_aArwnAxmnP0gygBY,83
+python_dataset-0.0.4.dist-info/METADATA,sha256=XgnJcm3NwedZh3rbH56zkU4OOR8yr40qL0NQbfINHTc,713
+python_dataset-0.0.4.dist-info/RECORD,,
