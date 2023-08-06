@@ -1,0 +1,10 @@
+flounder/__init__.py,sha256=NIFPMLvJM-F-28mBhk4w7qqIud5e1Xxa9inWbZwtom8,891
+flounder/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+flounder/score.py,sha256=TNxmgUKuTzj_vaDp_lVG1uPtFw-07HrKU69HyxUq_gE,6425
+tests/__init__.py,sha256=Oj05koFYXCnZeTvul8yYiVr7MoQm8ONs37U2T8wDaFM,68
+tests/tests.py,sha256=gvhETiCr5Jb7pvR1tlBJfnriYyrbEQ55D33CUf0McSs,7049
+flounder_score-1.2.0.dist-info/LICENSE,sha256=WJ7YI-moTFb-uVrFjnzzhGJrnL9P2iqQe8NuED3hutI,35141
+flounder_score-1.2.0.dist-info/METADATA,sha256=k2smkqe6_RBWTkiBgt6dY4WEpRuQoV-J0KBOd-FSP9E,7455
+flounder_score-1.2.0.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+flounder_score-1.2.0.dist-info/top_level.txt,sha256=bR1JO8ipTfNSouaNEeT4uMbCeDVcl8ocqaHVo2DVRiI,15
+flounder_score-1.2.0.dist-info/RECORD,,
