@@ -1,0 +1,30 @@
+[tool.poetry]
+name = "circuitpython-unicornhathd"
+version = "0.6.1"
+description = "CircuitPython framebuf based driver for Pimoroni's Unicorn HAT HD"
+authors = ["Nathan Young"]
+license = "MIT"
+repository = "https://github.com/NathanY3G/CircuitPython_Unicorn_HAT_HD"
+readme = "README.rst"
+packages = [
+    { include = "unicornhathd" }
+]
+keywords = [
+    "circuitpython",
+    "unicornhathd",
+    "unicorn-hat",
+    "unicorn-hat-hd",
+]
+
+[tool.poetry.dependencies]
+python = "^3.6.2"
+Adafruit-Blinka = "^6.15.0"
+adafruit-circuitpython-framebuf = "^1.4.7"
+
+[tool.poetry.dev-dependencies]
+black = "^21.9b0"
+pylint = "^2.11.1"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
