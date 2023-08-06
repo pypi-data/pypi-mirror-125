@@ -1,0 +1,9 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+setup.py
+src/JTdesigner.egg-info/PKG-INFO
+src/JTdesigner.egg-info/SOURCES.txt
+src/JTdesigner.egg-info/dependency_links.txt
+src/JTdesigner.egg-info/top_level.txt
