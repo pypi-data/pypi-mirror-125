@@ -1,0 +1,10 @@
+README.md
+setup.py
+pycasbin_firebase_adapter/__init__.py
+pycasbin_firebase_adapter/__version__.py
+pycasbin_firebase_adapter/adapter.py
+pycasbin_firebase_adapter.egg-info/PKG-INFO
+pycasbin_firebase_adapter.egg-info/SOURCES.txt
+pycasbin_firebase_adapter.egg-info/dependency_links.txt
+pycasbin_firebase_adapter.egg-info/requires.txt
+pycasbin_firebase_adapter.egg-info/top_level.txt
