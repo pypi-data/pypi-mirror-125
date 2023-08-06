@@ -1,0 +1,73 @@
+{
+  "src/lib/components/DashLottieLoading.react.js": {
+    "description": "ExampleComponent is an example component.\nIt takes a property, `label`, and\ndisplays it.\nIt renders an input with the property `value`\nwhich is editable by the user.",
+    "displayName": "DashLottieLoading",
+    "methods": [],
+    "props": {
+      "id": {
+        "type": {
+          "name": "string"
+        },
+        "required": false,
+        "description": "The ID used to identify this component in Dash callbacks."
+      },
+      "children": {
+        "type": {
+          "name": "union",
+          "value": [
+            {
+              "name": "arrayOf",
+              "value": {
+                "name": "node"
+              }
+            },
+            {
+              "name": "node"
+            }
+          ]
+        },
+        "required": false,
+        "description": "Array that holds components to render"
+      },
+      "className": {
+        "type": {
+          "name": "string"
+        },
+        "required": false,
+        "description": "Additional CSS class for the spinner root DOM node"
+      },
+      "parent_className": {
+        "type": {
+          "name": "string"
+        },
+        "required": false,
+        "description": "Additional CSS class for the outermost dcc.Loading parent div DOM node"
+      },
+      "style": {
+        "type": {
+          "name": "object"
+        },
+        "required": false,
+        "description": "Additional CSS styling for the spinner root DOM node",
+        "defaultValue": {
+          "value": "{ width: \"100%\", height: \"70%\" }",
+          "computed": false
+        }
+      },
+      "parent_style": {
+        "type": {
+          "name": "object"
+        },
+        "required": false,
+        "description": "Additional CSS styling for the outermost dcc.Loading parent div DOM node"
+      },
+      "path": {
+        "type": {
+          "name": "string"
+        },
+        "required": true,
+        "description": "The path of the lottie to show when this component is rendered."
+      }
+    }
+  }
+}
