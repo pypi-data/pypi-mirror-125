@@ -1,0 +1,3 @@
+[console_scripts]
+lady = lady.cli:main
+
