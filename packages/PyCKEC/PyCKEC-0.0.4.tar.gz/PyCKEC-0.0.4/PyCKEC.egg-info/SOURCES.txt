@@ -1,0 +1,6 @@
+README.md
+setup.py
+PyCKEC.egg-info/PKG-INFO
+PyCKEC.egg-info/SOURCES.txt
+PyCKEC.egg-info/dependency_links.txt
+PyCKEC.egg-info/top_level.txt
