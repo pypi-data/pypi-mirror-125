@@ -1,0 +1,68 @@
+Metadata-Version: 2.1
+Name: jst
+Version: 1.10.0
+Classifier: Intended Audience :: Developers
+Classifier: Operating System :: MacOS
+Classifier: Operating System :: Microsoft :: Windows
+Classifier: Operating System :: POSIX :: Linux
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Rust
+Summary: A tool to transpile JSON Schema into schemas for data processing
+Author: kitagawa-hr <kitagawahr@gmail.com>
+Author-email: kitagawa-hr <kitagawahr@gmail.com>
+License: MPL-2.0
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown; charset=UTF-8; variant=GFM
+Project-URL: Source Code, https://github.com/kitagawa-hr/jsonschema-transpiler
+
+# jsonschema-transpiler
+
+A tool for transpiling [JSON Schema](https://json-schema.org/) into schemas for
+[Avro](https://avro.apache.org/docs/current/index.html#schemas) and
+[BigQuery](https://cloud.google.com/bigquery/docs/schemas).
+
+## Installation
+
+```sh
+pip install jst
+```
+
+## Usage
+
+```py
+import json
+import jst
+
+
+json_schema = {
+    "items": {
+        "properties": {
+            "field_1": {"type": "string"},
+            "field_2": {"type": "integer"},
+        },
+        "type": "object",
+    },
+    "type": "array",
+}
+bq_schema = json.loads(jst.convert_bq(json.dumps(json_schema)))
+
+assert bq_schema == [
+    {
+        "fields": [
+            {"mode": "NULLABLE", "name": "field_1", "type": "STRING"},
+            {"mode": "NULLABLE", "name": "field_2", "type": "INT64"},
+        ],
+        "mode": "REPEATED",
+        "name": "root",
+        "type": "RECORD",
+    }
+]
+```
+
