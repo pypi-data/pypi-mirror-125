@@ -1,0 +1,13 @@
+numpy
+scipy
+pandas
+jaxlib
+jax
+scikit-image
+pydantic
+
+[interactive]
+matplotlib
+jupyterlab
+holoviews
+bokeh
