@@ -1,0 +1,16 @@
+click_extra/__init__.py,sha256=EenG47vEu1Meatkbn20vHmJeYqndo5jp6kI6VasE3Bw,1264
+click_extra/colorize.py,sha256=voMSKxJyNpt2cyjplVE3QM2r7NMD6dMoVIWH6o-hYv4,10600
+click_extra/commands.py,sha256=kiVihtWFJLhEq32Wd9butMELXo9IBoz1AvS6YKIV-iA,4464
+click_extra/logging.py,sha256=hunvfvIqsY46VOP0qU8C8RiMPFkNnlaSP90tBEMkNWg,2852
+click_extra/platform.py,sha256=r-8KvC6obISv1l-K9_OfPODOqMXiNUh4BfS-nD6-36w,2428
+click_extra/run.py,sha256=O0ztR0eLvr59lm-yczx1-RcF-gaa6wnDg0x-Rty8RJE,2147
+click_extra/tests/__init__.py,sha256=XHs3pFaVRe1ireAo7hPeaGlpCoZP3dsTVy586-kROSE,793
+click_extra/tests/conftest.py,sha256=G3NpdzhZ3mFiAKrv0wpYYpiS1_9r-RFyUvps83QtyYA,5371
+click_extra/tests/test_colorize.py,sha256=ScYUoOXHsN7HAYqeslMo7ZpREZ8JjMqcIAm72hNwqqU,10790
+click_extra/tests/test_commands.py,sha256=Ua7mpfkTLcIR4q68CVu2wNcGWvtzOB289rCNY6UsGGw,1985
+click_extra/tests/test_logging.py,sha256=TaXcCPDlH7dA791c_oGYzjOzV7Yt2K-7GJYT1nkD0sA,3118
+click_extra/tests/test_platform.py,sha256=E58YeX3fPUnGVhFguduW__wwiFK2nbw1Qd2RHSGjV5Q,3853
+click_extra/tests/test_run.py,sha256=88ba6ISwhj_i7cF8EBuQgqSZCnzHjXEIIWsnr8ljweU,5138
+click_extra-1.0.1.dist-info/WHEEL,sha256=y3eDiaFVSNTPbgzfNn0nYn5tEn1cX6WrdetDlQM4xWw,83
+click_extra-1.0.1.dist-info/METADATA,sha256=vMTpj75o9WS2W8lhXWMe-LSGvs_a3Od75MWD251Cq68,4345
+click_extra-1.0.1.dist-info/RECORD,,
