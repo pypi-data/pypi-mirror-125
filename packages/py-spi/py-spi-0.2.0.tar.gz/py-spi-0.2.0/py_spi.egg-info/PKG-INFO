@@ -1,0 +1,31 @@
+Metadata-Version: 2.1
+Name: py-spi
+Version: 0.2.0
+Summary: A python analysis framework for INTEGRAL-SPI
+Home-page: https://github.com/grburgess/pyspi
+Author: Bear Biltzinger
+Author-email: 
+License: GPL-3+
+Project-URL: Bug Tracker, https://github.com/BjoernBiltzinger/pyspi/issues
+Project-URL: Source Code, https://github.com/BjoernBiltzinger/pyspi
+Description: [![CI tests](https://github.com/BjoernBiltzinger/pyspi/actions/workflows/tests.yml/badge.svg)](https://github.com/BjoernBiltzinger/pyspi/actions/workflows/tests.yml)
+        [![Docs](https://github.com/BjoernBiltzinger/pyspi/actions/workflows/docs.yml/badge.svg)](https://pyspi.readthedocs.io/en/latest/)
+        [![codecov](https://codecov.io/gh/BjoernBiltzinger/pyspi/branch/master/graph/badge.svg)](https://codecov.io/gh/grburgess/pyspi)
+        # pyspi
+        ![alt text](https://raw.githubusercontent.com/BjoernBiltzinger/pyspi/master/docs/media/pypsi_logo2.png)
+        
+        Pure python tools for interfacing with INTEGRAL SPI data.
+        
+        Ideally, this tool will allow for direct reading, and manipulation od SPI point source and extended source data via a lightweight python interface. Additionally, an 3ML plugin is provided allowing for multi-messenger analysis of SPI data using it's full, unbinned energy likelihood. 
+        
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Environment :: Console
+Classifier: Intended Audience :: Science/Research
+Classifier: License :: OSI Approved :: GNU General Public License v3 or later (GPLv3+)
+Classifier: Operating System :: POSIX
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Topic :: Scientific/Engineering :: Physics
+Description-Content-Type: text/markdown
