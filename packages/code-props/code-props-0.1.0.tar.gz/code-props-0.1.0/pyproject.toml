@@ -1,0 +1,37 @@
+[tool.poetry]
+name = "code-props"
+version = "0.1.0"
+description = "Identify basic code properties such as module, method and parameter names from application source"
+authors = ["Prabhu Subramanian <prabhu@ngcloud.io>"]
+license = "Apache-2.0"
+readme = "README.md"
+homepage = "https://rosa.cx"
+repository = "https://git.sr.ht/~prabhu/code-props"
+keywords = ["linter", "code-analysis"]
+classifiers = [
+    "Development Status :: 5 - Production/Stable",
+    "Environment :: Console",
+    "Intended Audience :: Developers",
+    "Intended Audience :: System Administrators",
+    "Topic :: Utilities",
+    "Topic :: Security",
+    "Programming Language :: Python :: 3.8",
+    "Programming Language :: Python :: 3.9",
+    "Programming Language :: Python :: 3.10",
+    "Operating System :: OS Independent",
+    "Topic :: Software Development :: Code Generators",
+]
+
+[tool.poetry.dependencies]
+python = "^3.8"
+tree-sitter = "^0.19.0"
+
+[tool.poetry.dev-dependencies]
+pytest = "^5.2"
+black = "^21.9b0"
+flake8 = "^3.9.2"
+pytest-cov = "^2.12.1"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
