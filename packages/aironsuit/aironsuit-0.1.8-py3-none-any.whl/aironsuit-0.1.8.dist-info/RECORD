@@ -1,0 +1,17 @@
+aironsuit/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+aironsuit/backend.py,sha256=d5mFUm6PF1CqCT06OZTHSHvXra0aqDaYECF9C0ZIvLE,183
+aironsuit/model_designers.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+aironsuit/suit.py,sha256=4advzdtwmj9C1giSqvIiHe_CIBrRnrJV_UwJ93Zt1w4,18599
+aironsuit/callbacks/__init__.py,sha256=oVLjj15jRS0vQ1I2GU1asw6m1zJjNZ6nzj5mhqifNoY,44
+aironsuit/callbacks/callbacks.py,sha256=GctFDpVEDdLO1I7nBb6aEW81ZD73Y09lHZUipXz2vKs,1400
+aironsuit/callbacks/callbacks_tf.py,sha256=Qf36O_3O222XpSq15toprWxqiPawfjIsopZ2WDH3XXA,1763
+aironsuit/callbacks/callbacks_torch.py,sha256=Khr7xV_kSKHY80LvwRZjzyOpi9KtCiaMYvNoWfd5UgI,1102
+aironsuit/trainers/__init__.py,sha256=Z758YHiEF9byn31jzavVUh-1LWyFK-Jyae7guDnXgLw,42
+aironsuit/trainers/trainers.py,sha256=1oBrT_6UNY49k8enGLPLFbmiLWNJwD9wOnKKGZsJwJ8,2242
+aironsuit/trainers/trainers_tf.py,sha256=UIhl6aJxqcflvZAjeeWTNXtmW7HEenWyUp29lKtPC8M,830
+aironsuit/trainers/trainers_torch.py,sha256=VzbTMqltKwv4SiqliQ9U5JagBM546sGHRleWAo70rtQ,1646
+aironsuit-0.1.8.dist-info/LICENSE,sha256=pbNgO8-4dnOOnpu88HUZXmqkA67muI12M2vgUjK625g,1525
+aironsuit-0.1.8.dist-info/METADATA,sha256=zH4riRBS_5YEXdn2m64jh8u7gmNR5EVeRMw3tzrHmtM,4433
+aironsuit-0.1.8.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+aironsuit-0.1.8.dist-info/top_level.txt,sha256=UgZodKxruNsAUsaY6VgVS7jmUSvpkzG8SXN-KXKDETI,10
+aironsuit-0.1.8.dist-info/RECORD,,
