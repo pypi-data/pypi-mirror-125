@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: AgentEnc
+Version: 0.1
+Summary: 飞桨模型加密库
+Home-page: https://github.com/AgentMaker/AgentEncryption
+Author: GT-ZhangAcer
+Author-email: zhangacer@foxmail.com
+License: Apache2
+Platform: UNKNOWN
+Requires-Python: >3.5
+License-File: LICENSE
+Requires-Dist: ppqi
+Requires-Dist: pycryptodome
+
+UNKNOWN
+
