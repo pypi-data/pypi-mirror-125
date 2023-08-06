@@ -1,0 +1,28 @@
+Metadata-Version: 2.1
+Name: ml-stars
+Version: 0.1.0.dev0
+Summary: Machine Learning Stars
+Home-page: https://github.com/sintel-dev/ml-stars
+Author: MIT Data To AI Lab
+Author-email: dailabmit@gmail.com
+License: MIT license
+Description: # ml-stars
+        
+        
+        # History
+        
+Keywords: ml-stars
+Platform: UNKNOWN
+Classifier: Development Status :: 2 - Pre-Alpha
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Natural Language :: English
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+Provides-Extra: test
+Provides-Extra: dev

@@ -1,0 +1,12 @@
+HISTORY.md
+LICENSE
+MANIFEST.in
+README.md
+setup.cfg
+setup.py
+ml_stars.egg-info/PKG-INFO
+ml_stars.egg-info/SOURCES.txt
+ml_stars.egg-info/dependency_links.txt
+ml_stars.egg-info/not-zip-safe
+ml_stars.egg-info/requires.txt
+ml_stars.egg-info/top_level.txt
