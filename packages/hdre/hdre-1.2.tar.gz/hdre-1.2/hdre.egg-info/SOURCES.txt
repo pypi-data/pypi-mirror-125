@@ -1,0 +1,17 @@
+MANIFEST.in
+kernelml-README.md
+kernelml.pyx
+setup.cfg
+setup.py
+hdre/__init__.py
+hdre.egg-info/PKG-INFO
+hdre.egg-info/SOURCES.txt
+hdre.egg-info/dependency_links.txt
+hdre.egg-info/requires.txt
+hdre.egg-info/top_level.txt
+hdre/hdre_bycython/hdr_helpers_bycython/hdr_helpers.c
+hdre/hdre_bycython/__init__.py
+hdre/hdre_bycython/jit_compiled_loss_fcn.py
+hdre/hdre_bycython/region_estimator.py
+hdre/hdre_bycython/hdr_helpers_bycython/__init__.py
+hdre/hdre_bycython/hdr_helpers_bycython/hdr_helpers.c
