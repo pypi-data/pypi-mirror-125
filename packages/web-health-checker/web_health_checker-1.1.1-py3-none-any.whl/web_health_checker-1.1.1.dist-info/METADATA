@@ -1,0 +1,48 @@
+Metadata-Version: 2.1
+Name: web-health-checker
+Version: 1.1.1
+Summary: A health checker for a website with a is-healthy route.
+Home-page: https://github.com/enchant97/web-health-checker
+Author: Leo Spratt
+Author-email: "contact@enchantedcode.co.uk"
+License: MIT
+Keywords: web utility
+Platform: UNKNOWN
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Operating System :: OS Independent
+Classifier: Environment :: Console
+Classifier: Environment :: Web Environment
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Topic :: Utilities
+Requires-Python: >=3.9
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Provides-Extra: fastapi
+Requires-Dist: fastapi ; extra == 'fastapi'
+Provides-Extra: flask
+Requires-Dist: flask ; extra == 'flask'
+Provides-Extra: quart
+Requires-Dist: quart ; extra == 'quart'
+
+# Web Status Checker
+A health checker for a website with a is-healthy route.
+
+> This is mostly intended to be used in my projects.
+
+## Usage
+```
+usage: web_health_checker [-h] [--timeout TIMEOUT] url
+
+Health check website
+
+positional arguments:
+  url                url to query for status
+
+optional arguments:
+  -h, --help         show this help message and exit
+  --timeout TIMEOUT  timeout before connection fail
+```
+
+
