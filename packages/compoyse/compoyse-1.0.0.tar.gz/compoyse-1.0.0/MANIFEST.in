@@ -1,0 +1,3 @@
+include compoyse/tests/test_directory
+include compoyse/tests/test_directory/test_file.wav
+include compoyse/tests/test_directory/test_mp3_file.mp3

@@ -1,0 +1,3 @@
+pyaudio
+pretty_midi
+pydub
