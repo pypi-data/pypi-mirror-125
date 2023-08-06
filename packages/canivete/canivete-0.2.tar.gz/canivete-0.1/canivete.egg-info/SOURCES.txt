@@ -1,0 +1,11 @@
+menu.py
+setup.py
+calculadora/__init__.py
+calculadora/opbasicas.py
+canivete.egg-info/PKG-INFO
+canivete.egg-info/SOURCES.txt
+canivete.egg-info/dependency_links.txt
+canivete.egg-info/not-zip-safe
+canivete.egg-info/top_level.txt
+saudacao/__init__.py
+saudacao/inicial.py
