@@ -1,0 +1,11 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+src/text_cleaner_fdelgados.egg-info/PKG-INFO
+src/text_cleaner_fdelgados.egg-info/SOURCES.txt
+src/text_cleaner_fdelgados.egg-info/dependency_links.txt
+src/text_cleaner_fdelgados.egg-info/requires.txt
+src/text_cleaner_fdelgados.egg-info/top_level.txt
+src/textcleaner/__init__.py
+src/textcleaner/textcleaner.py
