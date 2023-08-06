@@ -1,0 +1,10 @@
+README.rst
+setup.py
+simple_email_sender/__init__.py
+simple_email_sender/sender.py
+simple_email_sender.egg-info/PKG-INFO
+simple_email_sender.egg-info/SOURCES.txt
+simple_email_sender.egg-info/dependency_links.txt
+simple_email_sender.egg-info/not-zip-safe
+simple_email_sender.egg-info/requires.txt
+simple_email_sender.egg-info/top_level.txt

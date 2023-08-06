@@ -1,0 +1,53 @@
+Metadata-Version: 2.1
+Name: simple-email-sender
+Version: 0.0.1
+Summary: This package provides a simple notifier sending emails
+Home-page: https://gitlab.com/hjanssen/simple-email-sender
+Author: Henning Janssen
+Author-email: janssen@eeh.ee.ethz.ch
+License: GNU General Public License v3
+Keywords: simple_email_sender
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: Education
+Classifier: Intended Audience :: Science/Research
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Classifier: Natural Language :: English
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Requires-Python: >=3.7
+Description-Content-Type: text/x-rst
+
+===================
+Simple Email-Sender
+===================
+
+This package provides a simple notifier sending emails.
+
+* Free software: GNU General Public License v3
+* Copyright (c) 2021 Henning Janssen
+
+Installation
+------------
+
+To install the package, simply run within your terminal:
+
+.. code-block:: sh
+
+    $ pip install simple_email_sender
+
+Usage
+-----
+
+You will need only one single line, to trigger a message within your Python code:
+
+.. code-block:: python
+
+    sender.info("Hello World")
+
+For a fully working example go to the example files in the repository.
+
+
