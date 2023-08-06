@@ -1,0 +1,109 @@
+body {
+    background: lightgray;
+	margin:0;
+	padding:0;
+}
+#logo {
+    width: 90%; 
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+.ltr {
+    direction: ltr;    
+}
+
+.rtl {
+    direction: rtl;    
+}
+
+
+/* Show the tooltip text when you mouse over the tooltip container */
+.mshover:hover .msbox {
+    visibility: visible;
+}	
+#msHover{
+	display:none;
+    background-color: black;
+    color: #fff;
+    text-align: center;
+    padding: 5px 0;
+    border-radius: 6px;
+ 
+    /* Position the tooltip text - see examples below! */
+    position: absolute;
+    z-index: 2222;
+    
+    height: 400px;
+    bottom: 20px;
+    left: 200px; 
+    right: 400px; 
+	box-shadow: 0px 0px 5px #ffffff,0px 0px 5px #ffffff,0px 0px 10px #ffffff;
+	box-shadow: 0px 0px 55px #000;
+}
+.popup {
+	display:none;
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    background-color: #eee;
+	font-family: 'Noto Sans', sans-serif;
+	border-radius: 6px;
+    border: 2px solid #007AFF;
+    border: 2px solid red;    
+	padding: 10px;
+	z-index: 2000000;
+    box-shadow:0 2px 4px rgba(0, 0, 0, 0.5);	
+}
+.verseMarker {
+	position: absolute;
+	height: 1px;
+	background-color: green;
+	left: 0px;
+	right: 0px;
+	top: 0px;
+	z-index: 1000;
+	opacity: 0.5;
+}
+.verseMarkerX {
+	position: absolute;
+	width: 1px;
+	height: 30px;
+	background-color: green;
+	left: 0px;
+	top: 0px;
+	z-index: 1000;
+	opacity: 0.5;
+}
+
+#sidebar_cards {
+	position: absolute;
+    top: 125px;
+    bottom: 0px;
+    left: 0px;
+    width: 100%;
+	overflow:scroll;
+	z-index: 2;
+}
+.sidebar_card {
+    text-align: center;
+    margin: 5px;
+    padding: 5px;
+    color: #007AFF;
+    background-color: #dddddd;
+    cursor: pointer;    
+}
+.sidebar_card_selected {
+    background-color: yellow;
+}
+
+.logo-middle {
+    width: 300px;
+    text-align: center;
+}
+
+label {
+    color: #b94a48;
+    font-size: 0.9rem;
+}
+  

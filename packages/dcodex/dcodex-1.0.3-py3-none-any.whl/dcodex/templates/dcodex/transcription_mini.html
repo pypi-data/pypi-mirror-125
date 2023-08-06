@@ -1,0 +1,31 @@
+{% load static imagedeck %}
+{% get_media_prefix as MEDIA_PREFIX %}
+<script type="text/javascript">
+	$(document).ready(function() {	
+		$('#manuscriptInBoxImage').on('load', function() {
+			var y = {{ location.y }} * $('#manuscriptInBox').prop('scrollHeight');
+			var x = {{ location.x }} * $('#manuscriptInBox').prop('scrollWidth');
+			var margin = (-y+50);
+			var top = y+margin;
+	
+			$('#verseMarkerInBox').css('top',top+"px");	
+			$('#verseMarkerInBoxX').css('top',top+"px");	
+			$('#verseMarkerInBoxX').css('left',x+"px");
+			console.log($('#verseMarkerInBoxX').css('right'));
+
+			$('#manuscriptInBoxImage').css('margin-top',margin+"px");
+		});
+    });
+</script>
+
+{% if verse_transcription %}
+    <span class="{{ verse_transcription.manuscript.text_direction_css }}">{{ verse_transcription.transcription }}</span>
+{% endif %}
+
+<div id=manuscriptInBox style='position: relative; overflow:hidden;'>
+
+    <img src="{{ location.deck_membership.image|url_with_width:800 }}" style='width: 100%;' id=manuscriptInBoxImage />
+
+    <div id='verseMarkerInBox' class='verseMarker' style='background-color: green; height: 1px; width: 100%;'></div>
+    <div id='verseMarkerInBoxX' class='verseMarker' style='position: absolute; background-color: green; height: 30px; width: 1px;'></div>
+</div>

@@ -1,0 +1,19 @@
+{% load static %}
+<script type="text/javascript">
+	$(document).ready(function() {	
+    });
+</script>
+
+<div id=manuscriptSelectClose class=closeButton></div>
+<div id=allManuscripts>
+    {% for manuscript in manuscripts %}
+        <div data-manuscript="{{ manuscript.id }}" class=manuscriptSelect>{{ manuscript }}</div>
+        {% if manuscript.pdf_set.count > 1 %}
+            {% for pdf in manuscript.pdf_set %}
+                <div class=otherPDF>
+                <a href='/decodex/pdf/{{ pdf }}'>{{ pdf }}</a>
+                </div>
+            {% endfor %}
+        {% endif %}
+    {% endfor %}
+</div>
