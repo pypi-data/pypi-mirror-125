@@ -1,0 +1,8 @@
+LICENSE
+README.md
+setup.py
+dinosource/__init__.py
+dinosource.egg-info/PKG-INFO
+dinosource.egg-info/SOURCES.txt
+dinosource.egg-info/dependency_links.txt
+dinosource.egg-info/top_level.txt
