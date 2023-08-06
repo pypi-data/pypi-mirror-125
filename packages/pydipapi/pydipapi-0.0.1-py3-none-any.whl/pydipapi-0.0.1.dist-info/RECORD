@@ -1,0 +1,10 @@
+DIP-API/__init__.py,sha256=tGGwW8BB9xDp3Tuel5J4KuQSW92t0tIfpeXeI5OfF_8,26
+DIP-API/api.py,sha256=FORIXyJZqw0_brHEtVZ0XEzjKUS3Tfw3XUeZNDjxh6Q,3698
+dipapi/__init__.py,sha256=_eyJSm1CyxTftUVTgrWG2UochfBzcAIdLLL1AAcio0I,28
+dipapi/api.py,sha256=FORIXyJZqw0_brHEtVZ0XEzjKUS3Tfw3XUeZNDjxh6Q,3698
+pydipapi/__init__.py,sha256=_eyJSm1CyxTftUVTgrWG2UochfBzcAIdLLL1AAcio0I,28
+pydipapi/api.py,sha256=FORIXyJZqw0_brHEtVZ0XEzjKUS3Tfw3XUeZNDjxh6Q,3698
+pydipapi-0.0.1.dist-info/METADATA,sha256=f4gZzsC4VFfmo0KYO3XIPKd_nX3OaJnKOa6a8cDRMpM,1251
+pydipapi-0.0.1.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+pydipapi-0.0.1.dist-info/top_level.txt,sha256=4iocOkqTFATSNG8M59spvNgBZd_wwfPm3jCUxb1-_28,9
+pydipapi-0.0.1.dist-info/RECORD,,
