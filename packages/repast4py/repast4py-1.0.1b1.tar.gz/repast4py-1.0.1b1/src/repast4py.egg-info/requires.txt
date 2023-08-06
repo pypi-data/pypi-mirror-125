@@ -1,0 +1,8 @@
+numpy>=1.18
+numba
+mpi4py
+torch
+networkx>=2.6.2
+pyyaml
+Cython
+typing_extensions
