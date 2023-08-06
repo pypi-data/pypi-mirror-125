@@ -1,0 +1,10 @@
+CHANGELOG.txt
+LICENCE.txt
+MANIFEST.in
+README.txt
+setup.py
+brahma_agi/__init__.py
+brahma_agi.egg-info/PKG-INFO
+brahma_agi.egg-info/SOURCES.txt
+brahma_agi.egg-info/dependency_links.txt
+brahma_agi.egg-info/top_level.txt
