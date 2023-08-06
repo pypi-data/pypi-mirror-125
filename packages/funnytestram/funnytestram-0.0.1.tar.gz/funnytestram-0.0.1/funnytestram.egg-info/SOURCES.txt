@@ -1,0 +1,9 @@
+README.md
+setup.py
+funniest/__init__.py
+funniest/qsamplehello.py
+funnytestram.egg-info/PKG-INFO
+funnytestram.egg-info/SOURCES.txt
+funnytestram.egg-info/dependency_links.txt
+funnytestram.egg-info/requires.txt
+funnytestram.egg-info/top_level.txt
