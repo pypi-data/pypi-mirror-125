@@ -1,0 +1,23 @@
+Metadata-Version: 2.1
+Name: amora
+Version: 0.0.1
+Summary: Amora Data Build Tool
+Home-page: http://github.com/mundipagg/amora-data-build-tool
+Author: TREX Data
+Author-email: diogo.martins@stone.com.br
+License: MIT
+Platform: UNKNOWN
+Classifier: Development Status :: 2 - Pre-Alpha
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: MacOS :: MacOS X
+Classifier: Operating System :: POSIX :: Linux
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: SQL
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+
+# Amora Data Build Tool (ADBT)
+
+To do
+
