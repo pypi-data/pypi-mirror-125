@@ -1,0 +1,10 @@
+homepage2vec/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+homepage2vec/data_collection.py,sha256=Eke3JYRNfXbOWOMLpu2J5of0irN6OD02xKOnq9lt2xg,3554
+homepage2vec/model.py,sha256=QZnhxoyiN-E91TsxggNQgUPP_5cztIfPhBqz99adDFI,6973
+homepage2vec/textual_extractor.py,sha256=OeYhypoL8LXXRsx6WkWXqjFvQ1jzGgHach6fzdHae8c,7412
+homepage2vec/visual_extractor.py,sha256=mo4ViNuH1vIcJMPxTl0R4S1wQ91e6rOaro4GFMJyn98,3387
+homepage2vec-0.0.2b0.dist-info/LICENSE,sha256=2bm9uFabQZ3Ykb_SaSU_uUbAj2-htc6WJQmS_65qD00,1073
+homepage2vec-0.0.2b0.dist-info/METADATA,sha256=3deYCWU5Tq5MwIh1ozId9V0v0bj0EwsHpdZU5WSQCCE,2089
+homepage2vec-0.0.2b0.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+homepage2vec-0.0.2b0.dist-info/top_level.txt,sha256=kP0ZIpf6tn_dCLns-pKmt2BvQ7-bhJZn-DwCeS7gdh4,13
+homepage2vec-0.0.2b0.dist-info/RECORD,,
