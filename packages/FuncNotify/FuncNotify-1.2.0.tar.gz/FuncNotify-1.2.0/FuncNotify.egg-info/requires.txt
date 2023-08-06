@@ -1,0 +1,6 @@
+python-dotenv
+requests
+slackclient
+twilio
+yagmail
+sendgrid
