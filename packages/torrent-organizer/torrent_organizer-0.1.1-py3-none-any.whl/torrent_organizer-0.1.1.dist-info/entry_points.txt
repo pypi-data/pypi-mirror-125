@@ -1,0 +1,3 @@
+[console_scripts]
+torrent_organizer=torrent_organizer.console.run:cli
+
