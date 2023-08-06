@@ -1,0 +1,16 @@
+LICENSE.txt
+README.md
+pyproject.toml
+setup.cfg
+setup.py
+entity/entities.py
+entity/entity.py
+entity/kraken_json.py
+entity/observation.py
+entity/observations.py
+entity/schema_cleanup.py
+kr_entity.egg-info/PKG-INFO
+kr_entity.egg-info/SOURCES.txt
+kr_entity.egg-info/dependency_links.txt
+kr_entity.egg-info/requires.txt
+kr_entity.egg-info/top_level.txt
