@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: pyprank
+Version: 0.1
+Summary: a module that pranks someone by making their computer act ubnormal
+Home-page: UNKNOWN
+Author: Yug Gupta
+Author-email: yugguptabro@gmail.com
+License: MIT
+Keywords: prank,ubnormal PC
+Platform: UNKNOWN
+License-File: LICENSE.txt
+Requires-Dist: subprocess
+Requires-Dist: rotatescreen
+
+UNKNOWN
+
