@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: resumename
+Version: 1.0.2
+Summary: The Extraction Of Name for Resume.
+Home-page: UNKNOWN
+Author: Zhu Kai
+Author-email: 626417369@qq.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: License :: OSI Approved :: MIT License
+Requires-Python: >=3
+License-File: LICENSE
+Requires-Dist: torch (==1.8.0)
+
+UNKNOWN
+
