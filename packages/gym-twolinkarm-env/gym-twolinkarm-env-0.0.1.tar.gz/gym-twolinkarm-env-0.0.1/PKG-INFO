@@ -1,0 +1,46 @@
+Metadata-Version: 2.1
+Name: gym-twolinkarm-env
+Version: 0.0.1
+Summary: This is the open-ai-gym environment for controlling two link arm
+Home-page: https://github.com/gyuta/gym-twolinkarm-env
+Author: gyuta
+License: UNKNOWN
+Project-URL: Bug Tracker, https://github.com/gyuta/gym-twolinkarm-env/issues
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# gym-twolinkarm-env
+![readme](https://user-images.githubusercontent.com/53563180/139202301-a0a82502-b09e-4ded-989f-44c0d75a1870.gif)
+## Installation
+```
+pip install gym-twolinkarm-env
+```
+
+## Usage example
+``` python
+# coding: utf-8
+import gym
+import gym_twolinkarm_env
+
+env = gym.make("TwoLinkArmEnv-v0")
+
+for ep in range(10):
+    env.reset()
+    for step in range(200):
+        action = env.action_space.sample()
+        obs, rew, done, info = env.step(action)
+        env.render()
+```
+
+## detail
+# env
+# state
+# phisics
+# reward
+# action
+
