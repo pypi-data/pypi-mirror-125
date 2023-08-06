@@ -1,0 +1,12 @@
+pydnevnikruapi/__init__.py,sha256=7UMWdcf-ks5VM70q0qa-8zcNeLZ4LdTNvWecoBKf4AA,109
+pydnevnikruapi/aiodnevnik/__init__.py,sha256=yLOGai76oHyqhceCHCQBHqp2tVRddHkS-hbgtuCnAT0,49
+pydnevnikruapi/aiodnevnik/dnevnik.py,sha256=igzLfdYmK1CHVZDUX8uD_8ISz5KVeN6eEy7mnacIeyg,28577
+pydnevnikruapi/aiodnevnik/exceptions.py,sha256=iPeg2lmnBnosE-pV0k3O1HcZWrt0eaGK29QMngmx2BU,45
+pydnevnikruapi/aiodnevnik/utils.py,sha256=QHiGr7wOAqcAUFO3rfdu-NkM_WpoHi33fUp0KEjeED4,958
+pydnevnikruapi/dnevnik/__init__.py,sha256=Fkui1ZGUwTVkhIVxLM57T-xuZuE0ddzP_gGmfCHvuY0,46
+pydnevnikruapi/dnevnik/dnevnik.py,sha256=CAZMO6oVhjhE5NFcGA-PzrLSvpOlYecaIF7yCuIX5U8,26561
+pydnevnikruapi/dnevnik/exceptions.py,sha256=maaCXtaduAC_qePEHvoAmMClO7lxknQC8q6KJghwWco,40
+pydnevnikruapi-0.1.0.dist-info/LICENSE,sha256=6bDpT2KOALXtmARs-gQWlv-J7ru91UEI7jUGJbxtA2M,1234
+pydnevnikruapi-0.1.0.dist-info/WHEEL,sha256=y3eDiaFVSNTPbgzfNn0nYn5tEn1cX6WrdetDlQM4xWw,83
+pydnevnikruapi-0.1.0.dist-info/METADATA,sha256=hsBCK32vGjTTAkznmIul8N6BOpPaQ1rvCxb0dmWRGe0,477
+pydnevnikruapi-0.1.0.dist-info/RECORD,,
