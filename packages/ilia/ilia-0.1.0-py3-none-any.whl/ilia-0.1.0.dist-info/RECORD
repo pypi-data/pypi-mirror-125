@@ -1,0 +1,14 @@
+ilia/__init__.py,sha256=RM9bolW9iOvepULThDOIWG47CSgRB4_z4Orxp35JXqo,504
+ilia/backends.py,sha256=veq5xBlH1wUH-m7ujD60fXcb-O9-S6JLWnKhuD6ZtoE,1628
+ilia/checkers.py,sha256=cZ0BLlCisjoGFaeuSkLyps35Bnxvjp5u6oWGqZxPy8c,2275
+ilia/ctx.py,sha256=SolKEf7Ga9Zv0wj6kgyV5EAe5PfBYQiYR7NOpqtMPg4,1715
+ilia/dialects/draft202021.py,sha256=R_Q4-0bXVwZHOvvqzacBMsLPFMgqpIif6dgN7ankEC8,17941
+ilia/evaluators.py,sha256=A8WCJpjUTcK7_5JR6pMhach83Bsef4jPLIjfSQuVG2I,36420
+ilia/loaders.py,sha256=l_lAOzE6dx67xe2bAVwgNcEPZJ1lvHG8HsmdQBULZvU,420
+ilia/ref.py,sha256=WbIqWgAFsaP4AOSpo2f9hVMXzdhxHxP4l95cJP25VVA,1031
+ilia/reg.py,sha256=Qzur6Xhr_qJWlU77u7xRt2L3v6aEz8DZYQC2iloqCdo,4161
+ilia/res.py,sha256=uWtXIwTgMC-10v8vcTWzxII_jOlX0T5SW2u1vgZwS1c,5202
+ilia/validators.py,sha256=rLwBtR1qdrVuBzfQ-uQ9DGTAXwLCdAPkq9_we9P58NU,815
+ilia-0.1.0.dist-info/WHEEL,sha256=y3eDiaFVSNTPbgzfNn0nYn5tEn1cX6WrdetDlQM4xWw,83
+ilia-0.1.0.dist-info/METADATA,sha256=xoyiMv3gi242ZMCe4VzjHzSQdByIJyCJLH2j-jKgVV4,982
+ilia-0.1.0.dist-info/RECORD,,

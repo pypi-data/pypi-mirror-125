@@ -1,0 +1,28 @@
+Metadata-Version: 2.1
+Name: ilia
+Version: 0.1.0
+Summary: a JSON Schema draft 2020-12 validation library
+Home-page: https://lab.errorist.xyz
+License: BSD-4-Clause
+Keywords: validation,json-schema
+Author: Xavier Barbosa
+Author-email: clint.northwood@gmail.com
+Requires-Python: >=3.10,<4.0
+Classifier: Development Status :: 2 - Pre-Alpha
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: BSD License
+Classifier: License :: Other/Proprietary License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Topic :: Software Development
+Classifier: Topic :: Software Development :: Libraries
+Classifier: Topic :: Utilities
+Classifier: Typing :: Typed
+Requires-Dist: httpx[brotli,http2] (>=0.20.0,<0.21.0)
+Requires-Dist: pytest-subtests (>=0.5.0,<0.6.0)
+Requires-Dist: types-dataclasses (>=0.6.1,<0.7.0)
+Description-Content-Type: text/markdown
+
+# ilia
+
