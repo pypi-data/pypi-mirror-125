@@ -1,0 +1,4 @@
+nltk
+TurkishStemmer
+scikit-learn
+pandas
