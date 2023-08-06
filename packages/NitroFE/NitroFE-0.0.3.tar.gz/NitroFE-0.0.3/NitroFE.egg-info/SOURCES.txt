@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+NitroFE/__init__.py
+NitroFE.egg-info/PKG-INFO
+NitroFE.egg-info/SOURCES.txt
+NitroFE.egg-info/dependency_links.txt
+NitroFE.egg-info/requires.txt
+NitroFE.egg-info/top_level.txt
+NitroFE.egg-info/zip-safe
