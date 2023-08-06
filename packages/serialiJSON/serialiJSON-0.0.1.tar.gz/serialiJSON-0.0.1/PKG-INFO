@@ -1,0 +1,143 @@
+Metadata-Version: 2.1
+Name: serialiJSON
+Version: 0.0.1
+Summary: A simple converter from complex objects to JSON
+Home-page: https://github.com/matias-alejandro/serialiJSON
+Author: Matías Del Pin
+Author-email: madelpin@protonmail.com
+License: UNKNOWN
+Project-URL: Source, https://github.com/matias-alejandro/serialiJSON
+Project-URL: Tracker, https://github.com/matias-alejandro/serialiJSON/issues
+Platform: UNKNOWN
+Classifier: Programming Language :: Python
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Requires-Python: >=2.7
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# SerialiJSON
+
+`serialiJSON` is a tool that allows you to convert complex objects to JSON only by inheriting the BaseSerializable class.
+
+### Installation
+
+```
+python -m install serialiJSON
+```
+
+### Usage
+
+Import `BaseSerializable` class
+
+``` python
+from serialiJSON import BaseSerializable
+``` 
+Define your own class inheriting `BaseSerializable`
+
+``` python
+class myClass(BaseSerializable):
+	...
+
+myObject = myClass()
+```
+
+Convert to `JSON`
+
+``` python
+myObject.toJson()
+```
+An optional `indent`  can be passed into `toJson()` 
+
+Property | Description | type | default
+---------|-------------|------|--------
+indent| set the indent to pretty-printed | Int | None (most compact)
+
+### Compatible Types
+Type	| List mode
+--------|----------
+str		|	[str]
+int		|	[int]
+bool	|	[bool]
+float	|	[float]
+
+
+### Real Example
+``` python
+from serialiJSON import BaseSerializable
+
+class Item(BaseSerializable):
+	def __init__(self, itemName, isAlive):
+		self.itemName = itemName
+		self.isAliva = isAlive
+
+class Pet(BaseSerializable):
+	def __init__(self, name, age, favItems):
+		self.name = name
+		self.age = age
+		self.favItems = favItems
+
+class Human(BaseSerializable):
+	def __init__(self, name, age, pets):
+		self.name = name
+		self.age = age
+		self.pets = pets
+
+items = [
+		Item("snow ball", False),
+		Item("tree", True)
+	]
+
+pets = [
+		Pet("Cat", 12, items), 
+		Pet("Dog", 4, items)
+	]
+
+human = Human("name", 90, pets)
+
+print(human.toJson(indent=4))
+```
+### pretty-printed
+``` json
+{
+	"name": "name",
+	"age": 90,
+	"pets": [
+		{
+			"name": "Cat",
+			"age": 12,
+			"favItems": [
+				{
+					"itemName": "snow ball",
+					"isAliva": false
+				},
+				{
+					"itemName": "tree",
+					"isAliva": true
+				}
+			]
+		},
+		{
+			"name": "Dog",
+			"age": 4,
+			"favItems": [
+				{
+					"itemName": "snow ball",
+					"isAliva": false
+				},
+				{
+					"itemName": "tree",
+					"isAliva": true
+				}
+			]
+		}
+	]
+}
+```
+
+### non pretty-printed
+``` json
+{"name": "name", "age": 90, "pets": [{"name": "Cat", "age": 12, "favItems": [{"itemName": "snow ball", "isAliva": false}, {"itemName": "tree", "isAliva": true}]}, {"name": "Dog", "age": 4, "favItems": [{"itemName": "snow ball", "isAliva": false}, {"itemName": "tree", "isAliva": true}]}]}
+```
+
