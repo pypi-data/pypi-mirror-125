@@ -1,0 +1,3 @@
+[console_scripts]
+icnsutil = icnsutil.cli:main
+
