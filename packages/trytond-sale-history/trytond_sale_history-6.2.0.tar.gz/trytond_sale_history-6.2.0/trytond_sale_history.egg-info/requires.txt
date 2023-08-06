@@ -1,0 +1,2 @@
+trytond_sale<6.3,>=6.2
+trytond<6.3,>=6.2
