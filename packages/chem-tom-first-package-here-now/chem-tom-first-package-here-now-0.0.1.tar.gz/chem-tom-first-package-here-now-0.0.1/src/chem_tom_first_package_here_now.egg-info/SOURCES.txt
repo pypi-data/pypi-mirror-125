@@ -1,0 +1,10 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+src/chem_tom_first_package_here_now.egg-info/PKG-INFO
+src/chem_tom_first_package_here_now.egg-info/SOURCES.txt
+src/chem_tom_first_package_here_now.egg-info/dependency_links.txt
+src/chem_tom_first_package_here_now.egg-info/top_level.txt
+src/my_tommy_chem_example_package/__init__.py
+src/my_tommy_chem_example_package/example.py
