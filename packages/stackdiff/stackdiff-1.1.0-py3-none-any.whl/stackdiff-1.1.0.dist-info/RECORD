@@ -1,0 +1,14 @@
+stackdiff/__init__.py,sha256=q7ta_xam7BF0N6E_eJ_ifsLMOKdGhAcQaxF1BAbgXw8,75
+stackdiff/__main__.py,sha256=qGvcNFeRPE175Tab8DhvUog8J8mGpCLFgbdrwJB1Cok,184
+stackdiff/cli.py,sha256=fDvgefx7mjQQS_5HJiWlwU45ms7M4hIMb08LIVNgPtg,1106
+stackdiff/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+stackdiff/stack_diff.py,sha256=X2y3Dwda19GiDTjPOBNZSe8UlV95-v-WdzxioXIiNJU,3903
+stackdiff/version/VERSION,sha256=FXXhr0qV8S9wtO5qatzoFglT2T6hfcJhG5CIPMw607g,6
+stackdiff/version/__init__.py,sha256=1Hi8CuB5fIa1HiBTzV-FRyG7AAA4QmCNdAcHpv_bQgg,207
+stackdiff/version/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+stackdiff-1.1.0.dist-info/LICENSE,sha256=jecwHNG8OzeBOT_VaopmQWpty9muYzuw03tmWBQRwPs,1073
+stackdiff-1.1.0.dist-info/METADATA,sha256=fKDd0RzF2vhh5q89rWw7r9nkIJmBqPc0ITwSS_WT10M,3143
+stackdiff-1.1.0.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+stackdiff-1.1.0.dist-info/entry_points.txt,sha256=6GqPbiqPHf6_PX_9M1TI_WgfA2pK2g8tIZB2NUFMvjk,60
+stackdiff-1.1.0.dist-info/top_level.txt,sha256=sjax4bCMFHZTQxxA2C9CODrGCXVmcEFAQ04vbmYb8YY,10
+stackdiff-1.1.0.dist-info/RECORD,,
