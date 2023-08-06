@@ -1,0 +1,64 @@
+[tool.poetry]
+name = "pixii"
+version = "0.1.0"
+description = ""
+authors = ["Kevin Duff <kevinkelduff@gmail.com>"]
+
+license = "MIT"
+readme = "README.md"
+homepage = "https://github.com/k2bd/pixii"
+repository = "https://github.com/k2bd/pixii"
+keywords = []
+classifiers = [
+    "Operating System :: OS Independent",
+]
+include = [
+    "LICENSE",
+]
+
+[tool.poetry.dependencies]
+python = "^3.7"
+boto3 = "^1.19.6"
+pydantic = "^1.8.2"
+
+[tool.poetry.dev-dependencies]
+pytest = "^5.2"
+pytest-cov = "^3.0.0"
+black = "^21.9b0"
+flake8 = "^4.0.1"
+mypy = "^0.910"
+isort = "^5.9.3"
+poethepoet = "^0.10.0"
+
+[tool.isort]
+profile = "black"
+multi_line_output = 3
+
+[tool.poe.tasks]
+autoformat.sequence = [
+    {cmd = "black src tests"},
+    {cmd = "isort src tests"},
+]
+
+lint.sequence = [
+    {cmd = "black --check -v src tests"},
+    {cmd = "isort --check -v src tests"},
+    {cmd = "flake8 src tests"},
+    {cmd = "mypy --pretty src tests"},
+]
+
+[tool.poe.tasks.test]
+sequence = [
+    {shell = "docker-compose -p pixii-testing up -d"},
+    {shell = "trap 'docker-compose -p pixii-testing down' EXIT; pytest -vv --cov-report=xml --cov=pixii"},
+]
+
+[tool.poe.tasks.test.env]
+LOCAL_DYNAMODB_ENDPOINT = "http://localhost:8001"
+AWS_DEFAULT_REGION = "fake-region"
+AWS_ACCESS_KEY_ID = "fake-key"
+AWS_SECRET_ACCESS_KEY = "fake-secret-key"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
