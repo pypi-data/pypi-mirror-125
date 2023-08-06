@@ -1,0 +1,10 @@
+Metadata-Version: 1.0
+Name: beetles
+Version: 1.0.2
+Summary: Tool for labeling and training DNNs on spectrogram data
+Home-page: https://github.com/TravisWheelerLab/beetles-cnn/archive/refs/tags/v0.0.1-alpha.tar.gz
+Author: thomas colligan
+Author-email: thomas.colligan@umontana.edu
+License: MIT
+Description: UNKNOWN
+Platform: UNKNOWN
