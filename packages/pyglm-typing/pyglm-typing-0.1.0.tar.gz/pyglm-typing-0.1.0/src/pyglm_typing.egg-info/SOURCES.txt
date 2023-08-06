@@ -1,0 +1,11 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+src/glm_typing/__init__.py
+src/glm_typing/py.typed
+src/pyglm_typing.egg-info/PKG-INFO
+src/pyglm_typing.egg-info/SOURCES.txt
+src/pyglm_typing.egg-info/dependency_links.txt
+src/pyglm_typing.egg-info/requires.txt
+src/pyglm_typing.egg-info/top_level.txt
