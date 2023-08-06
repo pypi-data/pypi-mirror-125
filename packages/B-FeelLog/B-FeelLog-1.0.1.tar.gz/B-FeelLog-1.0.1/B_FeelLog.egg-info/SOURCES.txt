@@ -1,0 +1,11 @@
+LICENSE
+README.rst
+setup.cfg
+setup.py
+B_FeelLog.egg-info/PKG-INFO
+B_FeelLog.egg-info/SOURCES.txt
+B_FeelLog.egg-info/dependency_links.txt
+B_FeelLog.egg-info/requires.txt
+B_FeelLog.egg-info/top_level.txt
+core/__init__.py
+core/main.py
