@@ -1,0 +1,10 @@
+README.md
+pyproject.toml
+setup.py
+crypto/__init__.py
+crypto/crypto.py
+py_cryptocurrency.egg-info/PKG-INFO
+py_cryptocurrency.egg-info/SOURCES.txt
+py_cryptocurrency.egg-info/dependency_links.txt
+py_cryptocurrency.egg-info/requires.txt
+py_cryptocurrency.egg-info/top_level.txt
