@@ -1,0 +1,12 @@
+LICENSE.txt
+README.md
+setup.cfg
+setup.py
+datable/__init__.py
+datable.egg-info/PKG-INFO
+datable.egg-info/SOURCES.txt
+datable.egg-info/dependency_links.txt
+datable.egg-info/requires.txt
+datable.egg-info/top_level.txt
+datable/table/__init__.py
+datable/table/table.py
