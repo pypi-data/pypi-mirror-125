@@ -1,0 +1,12 @@
+gexfpy/__init__.py,sha256=5tRpa0WNjcBD30_IuDKKqRWygg8-wVfZjAz2nWQYIKU,2422
+gexfpy/datatypes.py,sha256=mU7ND7A0NLuRgzoXHQ8MyMoBKw1eDsrA3zsXdQ8CV_o,722
+gexfpy/dynamics.py,sha256=xFi74YGZQkJVTs7uBVS_qqwAQv74S5cc6N_m87TomLY,1447
+gexfpy/gexf.py,sha256=a5aKbUEQ5_RgYPMMNyr77Zwhe6kNBKgHpvVcHDryQL8,18087
+gexfpy/gexfparser.py,sha256=wcHGZZvqQ5QrSwWsl_BCRD9muG_4qL7iszXa0xpuGyU,1079
+gexfpy/phylogenics.py,sha256=uaEjl-8rygwfn1BVweVIx-zfqmz8005Om7mDKvFCXC0,752
+gexfpy/viz.py,sha256=8HkiA2UoKWHS6FV7Fby__knpq_03n5wlSghSd2WwhPk,8509
+gexfpy-0.1.1.dist-info/LICENSE,sha256=nZ1nU6nOoAl4KZn6HGEFGl1mU2dXL65zYqzUgv6W7VI,1067
+gexfpy-0.1.1.dist-info/METADATA,sha256=XDf3JB2d3vRUKV3sVWlX5dY8W5UpzvXCzHpB4HeSvFw,3016
+gexfpy-0.1.1.dist-info/WHEEL,sha256=gxPaqcqKPLUXaSAKwmfHO7_iAOlVvmp33DewnUluBB8,116
+gexfpy-0.1.1.dist-info/top_level.txt,sha256=gh7ZmJGc2xGQq5UZX4ba7VZgX-rBQQXx-2Cys5jn8SM,7
+gexfpy-0.1.1.dist-info/RECORD,,
