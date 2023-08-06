@@ -1,0 +1,17 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+setup.py
+pyminion/expansions/__init__.py
+pyminion/expansions/base.py
+pyminion/expansions/intrigue.py
+pyminion/expansions/seaside.py
+pyminion/models/__init__.py
+pyminion/models/base.py
+pyminion/models/cards.py
+pyminion/models/core.py
+pyminion/pyminion.egg-info/PKG-INFO
+pyminion/pyminion.egg-info/SOURCES.txt
+pyminion/pyminion.egg-info/dependency_links.txt
+pyminion/pyminion.egg-info/top_level.txt
