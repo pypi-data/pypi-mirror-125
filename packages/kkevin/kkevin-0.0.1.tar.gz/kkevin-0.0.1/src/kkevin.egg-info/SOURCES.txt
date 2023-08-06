@@ -1,0 +1,8 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+src/kkevin.egg-info/PKG-INFO
+src/kkevin.egg-info/SOURCES.txt
+src/kkevin.egg-info/dependency_links.txt
+src/kkevin.egg-info/top_level.txt
