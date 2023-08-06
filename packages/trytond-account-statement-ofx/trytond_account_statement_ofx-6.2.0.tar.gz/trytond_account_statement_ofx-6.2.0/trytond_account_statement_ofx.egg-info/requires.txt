@@ -1,0 +1,5 @@
+ofxparse
+trytond_account_statement<6.3,>=6.2
+trytond_bank<6.3,>=6.2
+trytond_party<6.3,>=6.2
+trytond<6.3,>=6.2
