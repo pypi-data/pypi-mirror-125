@@ -1,0 +1,13 @@
+LICENSE
+README.md
+setup.py
+gotoh/__init__.py
+gotoh/gotoh.c
+gotoh/gotoh.cpython-38-darwin.so
+gotoh/gotoh.cpython-39-darwin.so
+gotoh/gotoh.pyx
+gotoh.egg-info/PKG-INFO
+gotoh.egg-info/SOURCES.txt
+gotoh.egg-info/dependency_links.txt
+gotoh.egg-info/requires.txt
+gotoh.egg-info/top_level.txt
