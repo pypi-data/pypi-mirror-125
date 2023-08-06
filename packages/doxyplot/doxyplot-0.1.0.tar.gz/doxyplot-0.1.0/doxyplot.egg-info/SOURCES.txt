@@ -1,0 +1,11 @@
+README.md
+setup.py
+doxyplot/__init__.py
+doxyplot/doxyplot_core.py
+doxyplot/doxyplot_example.py
+doxyplot/doxyplot_special_utils.py
+doxyplot.egg-info/PKG-INFO
+doxyplot.egg-info/SOURCES.txt
+doxyplot.egg-info/dependency_links.txt
+doxyplot.egg-info/requires.txt
+doxyplot.egg-info/top_level.txt
