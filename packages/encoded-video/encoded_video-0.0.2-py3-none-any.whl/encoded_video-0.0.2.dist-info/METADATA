@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: encoded-video
+Version: 0.0.2
+Summary: Video utilities
+Home-page: https://github.com/nateraw/encoded-video
+Author: Nathan Raw
+Author-email: naterawdata@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Requires-Dist: av
+Requires-Dist: iopath
+Requires-Dist: numpy
+
+UNKNOWN
+
