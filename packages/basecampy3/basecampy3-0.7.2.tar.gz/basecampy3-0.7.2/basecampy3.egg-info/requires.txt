@@ -1,0 +1,6 @@
+python-dateutil
+pytz
+requests
+six
+urllib3<2.0.0
+tzlocal<=2.1
