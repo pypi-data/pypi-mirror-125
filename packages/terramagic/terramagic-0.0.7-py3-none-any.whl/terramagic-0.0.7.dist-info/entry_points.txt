@@ -1,0 +1,4 @@
+[console_scripts]
+packages=[{'include':'libs/*py'}]
+terramagic=terramagic:main
+
