@@ -1,0 +1,42 @@
+Metadata-Version: 2.1
+Name: oneNeuron-pypi-Rishbah-76
+Version: 0.0.2
+Summary: It is a Pereceptron Implementation
+Home-page: https://github.com/Rishbah-76/oneNeuron_pypi
+Author: Rishbah-76
+Author-email: rbrishabh76@example.com
+License: UNKNOWN
+Project-URL: Bug Tracker, https://github.com/Rishbah-76/oneNeuron_pypi/issues
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: numpy
+Requires-Dist: tqdm
+Requires-Dist: matplotlib
+Requires-Dist: pandas
+Requires-Dist: joblib
+
+# oneNeuron_pypi
+oneNeuron_pypi | Perceptron Pypi Package
+
+# How to Use this
+```python
+pip install oneNeuron-pypi-Rishbah-76
+from oneNeuronPerceptron.Perceptron import Perceptron,all_utils
+
+## get X and y and then use below commands
+model = Perceptron(eta=eta, epochs=epochs)
+model.fit(X, y)
+
+#THis is from utils package
+save_model(model,filename="and.model")
+save_plot(df,"and.png",model)
+```
+# Referecnce -
+[Official Python Package](https://packaging.python.org/tutorials/packaging-projects/)
+[Github official Doc for Github actions](https://docs.github.com/en/actions/automating-builds-and-tests/building-and-testing-python)
+
