@@ -1,0 +1,13 @@
+LICENSE
+MANIFEST.in
+README.md
+pyproject.toml
+setup.py
+src/MaoYanFontRecognize/__init__.py
+src/MaoYanFontRecognize/iconfont0.woff
+src/MaoYanFontRecognize/main.py
+src/maoyan_font_recognize.egg-info/PKG-INFO
+src/maoyan_font_recognize.egg-info/SOURCES.txt
+src/maoyan_font_recognize.egg-info/dependency_links.txt
+src/maoyan_font_recognize.egg-info/requires.txt
+src/maoyan_font_recognize.egg-info/top_level.txt
