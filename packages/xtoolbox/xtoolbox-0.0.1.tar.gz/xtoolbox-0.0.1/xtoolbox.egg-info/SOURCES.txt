@@ -1,0 +1,7 @@
+license.txt
+setup.py
+xtoolbox/__init__.py
+xtoolbox.egg-info/PKG-INFO
+xtoolbox.egg-info/SOURCES.txt
+xtoolbox.egg-info/dependency_links.txt
+xtoolbox.egg-info/top_level.txt
