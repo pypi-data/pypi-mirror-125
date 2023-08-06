@@ -1,0 +1,58 @@
+# robotframeworkopenstf
+
+## Introduction
+
+Robot framework client library for openstf control using open stf swagger api (https://vbanthia.github.io/angular-swagger-ui/).
+
+## Installation
+
+The recommended installation method is using pip::
+
+    pip install robotframework-openstf
+
+Usage
+-----
+
+.. code:: robotframework
+
+    *** Settings ***
+    Library    OpenStf   ${stf_base_url}    ${stf_user_auth}   
+    *** Variables ***
+    ${stf_base_url}     http://myhost.com/api/v1
+    ${stf_user_auth}    Bearer << mytoken >>
+    *** Test Cases ***
+    test 1
+        ${result}=    Get Device List  
+        log    ${result} 
+    test 2
+        ${result}=    Get Device Information    ${stf_sample_serial}
+        log    ${result} 
+
+    test 3
+        ${result}=    Get User Profile    
+        log    ${result} 
+
+    test 4
+        ${result}=    Get User Devices
+        log    ${result} 
+
+    test 5
+        ${result}=    Add a device to a user    ${stf_sample_serial}    
+        log    ${result} 
+
+    test 6
+        ${result}=    Get User Device    ${stf_sample_serial}    
+        log    ${result} 
+
+    test 7
+        ${remoteConnectUrl}=    Remote Connect a device    ${stf_sample_serial}    
+        log    ${remoteConnectUrl}
+
+    test 8
+        ${result}=    Remote Disconnect a device    ${stf_sample_serial}   
+        log    ${result} 
+        
+
+    test 9
+        ${result}=    Delete User Device    ${stf_sample_serial}    
+        log    ${result} 
