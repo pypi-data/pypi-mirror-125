@@ -1,0 +1,22 @@
+Metadata-Version: 2.1
+Name: gaspium
+Version: 0.0.1
+Summary: Python framework to build GASP apps
+Home-page: https://github.com/pyrustic/gaspium
+Author: Pyrustic Evangelist
+Author-email: pyrustic@protonmail.com
+Maintainer: Pyrustic Evangelist
+Maintainer-email: pyrustic@protonmail.com
+License: MIT
+Keywords: framework,GASP,GUI,productivity,apps
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.5
+Description-Content-Type: text/markdown
+Requires-Dist: pyrustic
+
+Hello World !
+
+
