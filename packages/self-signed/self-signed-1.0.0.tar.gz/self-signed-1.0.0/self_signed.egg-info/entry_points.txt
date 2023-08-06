@@ -1,0 +1,3 @@
+[console_scripts]
+self-signed = self_signed:main
+

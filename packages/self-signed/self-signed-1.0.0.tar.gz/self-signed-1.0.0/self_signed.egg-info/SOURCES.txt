@@ -1,0 +1,9 @@
+pyproject.toml
+self_signed.py
+setup.cfg
+self_signed.egg-info/PKG-INFO
+self_signed.egg-info/SOURCES.txt
+self_signed.egg-info/dependency_links.txt
+self_signed.egg-info/entry_points.txt
+self_signed.egg-info/requires.txt
+self_signed.egg-info/top_level.txt

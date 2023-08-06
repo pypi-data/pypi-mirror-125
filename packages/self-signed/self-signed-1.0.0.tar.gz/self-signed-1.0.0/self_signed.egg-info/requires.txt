@@ -1,0 +1,6 @@
+
+[test]
+pytest
+tox
+twine
+build
