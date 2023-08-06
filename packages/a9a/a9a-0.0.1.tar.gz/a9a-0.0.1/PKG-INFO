@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: a9a
+Version: 0.0.1
+Summary: a9a archivator
+Home-page: UNKNOWN
+Author: Uladzislau Khamkou
+License: UNKNOWN
+Platform: UNKNOWN
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+Git-friendly archive format to store many text files in one text file.
+
+
