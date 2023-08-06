@@ -1,0 +1,13 @@
+CHANGELOG.txt
+LICENSE.txt
+MANIFEST.in
+README.md
+pyproject.toml
+setup.cfg
+setup.py
+icp10125/__init__.py
+icp10125.egg-info/PKG-INFO
+icp10125.egg-info/SOURCES.txt
+icp10125.egg-info/dependency_links.txt
+icp10125.egg-info/requires.txt
+icp10125.egg-info/top_level.txt
