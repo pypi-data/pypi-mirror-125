@@ -1,0 +1,11 @@
+eclipse_pytorch/__init__.py,sha256=wOJN3HxAgnSon5vWYU3Txm2UZ_7tBHDKXUKZIH-mXX8,22
+eclipse_pytorch/_nbdev.py,sha256=uIP7ofV0UpeWSb7qhb4Sy0WWtg4laa9ysXLUavc96hY,1265
+eclipse_pytorch/imports.py,sha256=fMWJ-6bPLr9-Rf3gpP6--s7lmWQ61SYkzLo4vRnrEfo,131
+eclipse_pytorch/layers.py,sha256=YFQFNp2hiclN9aOFVDYpYOAMGPtihiS6afWUJZLrvEA,20968
+eclipse_pytorch/model.py,sha256=fNvkB63s4HoJhbPdLsnjtSGvRVd5rr09k_3Gg1R_fj4,5404
+eclipse_pytorch-0.0.8.dist-info/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+eclipse_pytorch-0.0.8.dist-info/METADATA,sha256=n4Ag_cmIx1Fpa262g96HS_yUnEcf06PJBeVukAdvZtU,1925
+eclipse_pytorch-0.0.8.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+eclipse_pytorch-0.0.8.dist-info/entry_points.txt,sha256=eqGnTHtEVMYwfXVk1Z9MhC8O2N8wuqAbr0lisLmrkxs,20
+eclipse_pytorch-0.0.8.dist-info/top_level.txt,sha256=k12G5uzTZcD-c7_NwXdgr3kTlxf3qw2qCbD2H8asvYA,16
+eclipse_pytorch-0.0.8.dist-info/RECORD,,
