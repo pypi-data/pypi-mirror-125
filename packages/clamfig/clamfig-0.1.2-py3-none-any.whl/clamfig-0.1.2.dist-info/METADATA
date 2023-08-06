@@ -1,0 +1,44 @@
+Metadata-Version: 2.1
+Name: clamfig
+Version: 0.1.2
+Summary: Serialization/Deserialization for dataclasses
+Home-page: https://github.com/pydefi/clamfig
+Author: PyDefi Development Team
+Author-email: clamdad+pydefi@protonmail.com
+License: MIT
+Keywords: dataclasses,json,serialize,deserialize,config file
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Office/Business :: Financial
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+Requires-Dist: pyyaml
+
+![ci](https://github.com/pydefi/clamfig/actions/workflows/tox.yml/badge.svg)
+
+# Clamfig
+
+## Features:
+- Serialization and deserialization of dataclass objects
+  - Compatible with JSON/YAML formats
+  - Supports nested dataclasses
+  - Serializes the following additional types:
+    - bytes
+    - Decimal
+    - datetime
+- Configuration file management using JSON or YAML format
+
+## Future Work
+- Add validation for deserialization from unreliable sources
+- Expand beyond dataclasses to handle other frameworks that include runtime validation. 
+  - Atom (https://github.com/nucleic/atom)
+  - Pydantic (https://github.com/samuelcolvin/pydantic)
+
+## Acknowledgements
+- Some code inspired by https://github.com/codelv/atom-db
+
+
