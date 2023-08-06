@@ -1,0 +1,43 @@
+Metadata-Version: 2.1
+Name: bodo
+Version: 2021.10.1
+Summary: The Python Supercomputing Analytics Platform
+Home-page: https://bodo.ai
+Author: Bodo.ai
+License: UNKNOWN
+Keywords: data analytics cluster
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Developers
+Classifier: Operating System :: POSIX :: Linux
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Topic :: Software Development :: Compilers
+Classifier: Topic :: System :: Distributed Computing
+License-File: LICENSE.md
+Requires-Dist: numba (==0.54.1)
+Requires-Dist: pyarrow (==5.0.0)
+Requires-Dist: pandas (==1.3.*)
+Requires-Dist: numpy (<1.21,>=1.17)
+Requires-Dist: mpi4py-mpich
+Provides-Extra: hdf5
+Requires-Dist: h5py ; extra == 'hdf5'
+Provides-Extra: parquet
+Requires-Dist: pyarrow ; extra == 'parquet'
+
+# Bodo 
+
+## The Python Supercomputing Analytics Platform
+
+Bodo scales analytics/ML codes in Python
+to bare-metal cluster/cloud performance automatically.
+It compiles a subset of Python (Pandas/Numpy) to efficient parallel binaries
+with MPI, requiring only minimal code changes.
+Bodo is orders of magnitude faster than
+alternatives like [Apache Spark](http://spark.apache.org).
+
+Bodo Documentation: https://docs.bodo.ai
+
+
