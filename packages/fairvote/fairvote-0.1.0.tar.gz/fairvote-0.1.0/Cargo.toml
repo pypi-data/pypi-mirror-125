@@ -1,0 +1,19 @@
+[dependencies.fairvote]
+path = "local_dependencies/fairvote"
+version = "0.1"
+
+[dependencies.pyo3]
+features = ["extension-module"]
+version = "0.14"
+
+[lib]
+crate-type = ["cdylib"]
+name = "fairvote"
+
+[package]
+edition = "2018"
+name = "fairvote-py"
+publish = false
+version = "0.1.0"
+[package.metadata.maturin]
+name = "fairvote"
