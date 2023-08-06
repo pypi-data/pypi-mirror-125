@@ -1,0 +1,14 @@
+numpy<=1.20,>=1.17
+scipy
+numba
+imageio
+pyfftw
+h5py
+matplotlib
+ase
+tqdm
+psutil
+
+[full]
+hyperspy
+pyxem
