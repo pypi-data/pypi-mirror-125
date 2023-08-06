@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: aifactory-beta
+Version: 1.2.5
+Summary: beta version of AI Factory client api package
+Home-page: https://www.aifactory.space
+Author: yoosunyoung
+Author-email: luysunyoung@aifactory.page
+License: MIT
+Platform: UNKNOWN
+Requires-Python: >=3.0
+Requires-Dist: pycryptodomex
+Requires-Dist: requests
+Requires-Dist: pandas
+
+UNKNOWN
+
