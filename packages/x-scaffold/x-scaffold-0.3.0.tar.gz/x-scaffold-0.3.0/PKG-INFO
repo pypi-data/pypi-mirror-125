@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: x-scaffold
+Version: 0.3.0
+Summary: 
+License: MIT
+Author: Daniel Clayton
+Author-email: dclayton@godaddy.com
+Requires-Python: >=3.8,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Requires-Dist: Jinja2 (>=3.0.1,<4.0.0)
+Requires-Dist: PyYAML (>=5.4.1,<6.0.0)
