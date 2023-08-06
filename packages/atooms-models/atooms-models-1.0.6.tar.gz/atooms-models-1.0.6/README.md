@@ -1,0 +1,65 @@
+Atooms models
+=============
+
+[![pypi](https://img.shields.io/pypi/v/atooms-models.svg)](https://pypi.python.org/pypi/atooms-models/)
+[![version](https://img.shields.io/pypi/pyversions/atooms-models.svg)](https://pypi.python.org/pypi/atooms-models/)
+[![license](https://img.shields.io/pypi/l/atooms-pp.svg)](https://en.wikipedia.org/wiki/GNU_General_Public_License)
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/git/https%3A%2F%2Fframagit.org%2Fatooms%2Fmodels/HEAD?labpath=docs%2Findex.ipynb)
+[![pipeline](https://framagit.org/atooms/models/badges/master/pipeline.svg)](https://framagit.org/atooms/models/badges/master/pipeline.svg)
+[![coverage report](https://framagit.org/atooms/models/badges/master/coverage.svg?job=test:f90)](https://framagit.org/atooms/models/-/commits/master)
+
+A database of interaction models for classical molecular dynamics and Monte Carlo simulations.
+
+Quick start
+-----------
+
+Show all the available models
+```python
+from atooms import models
+models.available()
+```
+
+Pretty print the full database
+```python
+from pprint import pprint
+pprint(models.database)
+```
+
+Select the Lennard-Jones one-component system and inspect the parameters
+```python
+model = models.database["lennard_jones"]
+print(model["potential"])
+print(model["cutoff"])
+```
+
+Look for a fluid Lennard-Jones sample and get a local copy
+```python
+for sample in model["samples"]:
+    if sample["state"] == 'fluid':
+        local_file = models.copy(sample)	    
+        break
+```
+The `local_file` can then be used to start a simulation or further analysis using `atooms` packages.
+
+
+Installation
+------------
+Clone the code repository and install from source
+```
+git clone https://framagit.org/atooms/models.git
+cd sample
+make install
+```
+
+Install `atooms-models` with pip
+```
+pip install atooms-models
+```
+
+Contributing
+------------
+Contributions to the project are welcome. If you wish to contribute, check out [these guidelines](https://framagit.org/atooms/atooms/-/blob/master/CONTRIBUTING.md).
+
+Authors
+-------
+Daniele Coslovich: https://www.units.it/daniele.coslovich/

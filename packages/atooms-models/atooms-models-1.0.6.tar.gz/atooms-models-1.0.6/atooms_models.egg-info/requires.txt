@@ -1,0 +1,2 @@
+atooms~=3.3
+f2py_jit
