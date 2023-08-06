@@ -1,0 +1,42 @@
+Metadata-Version: 2.1
+Name: jaxga
+Version: 0.0.1
+Summary: Geometric Algebra package for Jax
+Home-page: https://github.com/RobinKa/jaxga
+Author: Robin Kahlow
+Author-email: tora@warlock.ai
+License: UNKNOWN
+Project-URL: Bug Tracker, https://github.com/RobinKa/jaxga/issues
+Platform: UNKNOWN
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Development Status :: 3 - Alpha
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Intended Audience :: Education
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: Science/Research
+Classifier: Topic :: Scientific/Engineering
+Classifier: Topic :: Scientific/Engineering :: Physics
+Classifier: Topic :: Scientific/Engineering :: Mathematics
+Classifier: Topic :: Scientific/Engineering :: Artificial Intelligence
+Classifier: Topic :: Software Development
+Classifier: Topic :: Software Development :: Libraries
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# JaxGA - Jax Geometric Algebra
+[![Build status](https://github.com/RobinKa/jaxga/workflows/Build%20Test%20Publish/badge.svg)](https://github.com/RobinKa/jaxga/actions) [![PyPI](https://badge.fury.io/py/jaxga.svg)](https://badge.fury.io/py/jaxga)
+
+## Installation
+Install using pip: `pip install jaxga`
+
+Requirements:
+- Python 3
+- [jax](https://github.com/google/jax)
+
+
