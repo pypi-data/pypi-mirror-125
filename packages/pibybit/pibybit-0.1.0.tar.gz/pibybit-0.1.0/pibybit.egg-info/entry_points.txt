@@ -1,0 +1,3 @@
+[console_scripts]
+pibybit = pibybit.cli:main
+
