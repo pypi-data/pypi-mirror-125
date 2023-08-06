@@ -1,0 +1,14 @@
+_diffcp.cpython-38-darwin.so,sha256=2S38KIs9RIfzYDCh2VMFW1ySSAF_pIvQJp1JVnGlKGQ,865608
+diffcp/__init__.py,sha256=kJoBRmDH6oOm61Chu5Gc18j20Gi_DFuFIi271nkCcoY,236
+diffcp/cone_program.py,sha256=lcfxdw6hPjC0EOAL6BKP6idawHuilPIplOlQa8edE5c,18299
+diffcp/cones.py,sha256=dbz9dz2l0vRRLNrUBAnFVQBxk8kyppQqnfh-sTjLy7w,4288
+diffcp/utils.py,sha256=IZV3DE5i--F3xLVL2_fP5RKHHLIlJS8LLU1bYySNRjw,1286
+tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/test_cone_prog_diff.py,sha256=J4799Uq_fUPLjDHYBKkxxFE0h0Wo963M6Ggjhc8P17c,12030
+tests/test_ecos.py,sha256=znkVfOxy_8p2pH6ksdx3__HV4HueehCDikm2TQFJaGk,2151
+tests/test_scs.py,sha256=Sft-ftBWd3QXS5SPNEboz_NmIp2DgltqPNfIticFTac,3552
+diffcp-1.0.18.dist-info/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+diffcp-1.0.18.dist-info/METADATA,sha256=5ryCxW1x4YO9Lrn-Fz39bl7AudO2XNdaK3cTTxG7Iro,7236
+diffcp-1.0.18.dist-info/WHEEL,sha256=RA4ju32EWHpO-G1BhxTQ3AwXQWjnnrzYGkM9skoN7_I,109
+diffcp-1.0.18.dist-info/top_level.txt,sha256=JJQlhFrUfVJt9Gss7q0KCe41glpWmbK4wL82i3vtmfs,21
+diffcp-1.0.18.dist-info/RECORD,,
