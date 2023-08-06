@@ -1,0 +1,4 @@
+_examples
+examples
+fitbit_downloader
+tests
