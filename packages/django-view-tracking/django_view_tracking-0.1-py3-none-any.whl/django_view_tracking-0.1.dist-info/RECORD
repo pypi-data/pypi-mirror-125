@@ -1,0 +1,13 @@
+django_view_tracking/__init__.py,sha256=J-j-u0itpEFT6irdmWmixQqYMadNl1X91TxUmoiLHMI,22
+django_view_tracking/admin.py,sha256=fbdlmXRH_YwMTqXwjbfEFSEvTPS0J0KFcd7OSDVyIo8,603
+django_view_tracking/apps.py,sha256=O7CBn8zoSjQbjy8FwkwVTlNgYVV1eZtu966_K1nCEA0,212
+django_view_tracking/cleanup.py,sha256=yJ79nObeyd7xNB2r6LARS-SHBx2nm2UwpI6p9A6KVIU,345
+django_view_tracking/middleware.py,sha256=5UmDhPC3n3md1Xbkaxb4mA8RjzAN2pXjgRN_jOqgqM4,1722
+django_view_tracking/models.py,sha256=abdzd3YzQCQR6HYPgidD5mrQn4Qv0f8_Uj-ojLEqWRY,655
+django_view_tracking/migrations/0001_initial.py,sha256=MUmOcZYc9iIEIVLSrXFm_tQ22W3Eyktg8PDnVBN39-Y,1538
+django_view_tracking/migrations/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+django_view_tracking-0.1.dist-info/LICENSE,sha256=gUIyku88l0yquhfhtK09mZqUtjGXl7D0thmXqlWNHJo,1071
+django_view_tracking-0.1.dist-info/METADATA,sha256=jPzsMe9NrEUlhhEiqFmc9MKyW_G5EIpDg-qGWBW9FbU,1411
+django_view_tracking-0.1.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+django_view_tracking-0.1.dist-info/top_level.txt,sha256=4NrT_hhqWEjb8V6Qf-E1rixM_SDFxwi_2D-P7OeS3Fo,21
+django_view_tracking-0.1.dist-info/RECORD,,
