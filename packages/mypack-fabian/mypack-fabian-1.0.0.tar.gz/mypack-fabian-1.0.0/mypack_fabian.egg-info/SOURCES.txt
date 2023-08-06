@@ -1,0 +1,16 @@
+License
+README.md
+pyproject.toml
+setup.cfg
+mypack/__init__.py
+mypack/clear.py
+mypack/depickler.py
+mypack/file_lister.py
+mypack/fitro.py
+mypack/intput.py
+mypack/picklify.py
+mypack/strintput.py
+mypack_fabian.egg-info/PKG-INFO
+mypack_fabian.egg-info/SOURCES.txt
+mypack_fabian.egg-info/dependency_links.txt
+mypack_fabian.egg-info/top_level.txt
