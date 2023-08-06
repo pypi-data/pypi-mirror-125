@@ -1,0 +1,9 @@
+TestTEp37-2021.11.dev0.data/data/data/bondingcurves_initial_values.csv,sha256=oT9oexK6fhSh-PWULz4Qha1bxYMGLFoFKjFNt99cduI,118
+ltf/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+ltf/bondingcurves.py,sha256=Zjq64AL6QsSqdCQTj29kIsyIOQulWhliUtf2kEeewPk,18679
+ltf/data/bondingcurves_initial_values.csv,sha256=oT9oexK6fhSh-PWULz4Qha1bxYMGLFoFKjFNt99cduI,118
+TestTEp37-2021.11.dev0.dist-info/LICENSE,sha256=1lSiiqohWqBFZj6C-mmclTRz_ZBtmd_oqfIiKzYIHTQ,1103
+TestTEp37-2021.11.dev0.dist-info/METADATA,sha256=yVUI6LkwCm_UmHktGt48ayE-nLFQWak9itP8-GOkNao,1571
+TestTEp37-2021.11.dev0.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+TestTEp37-2021.11.dev0.dist-info/top_level.txt,sha256=y2_yyP0JrekrPqcliCNd3JzUBCysyQ9JGHTlmtB6mkQ,4
+TestTEp37-2021.11.dev0.dist-info/RECORD,,
