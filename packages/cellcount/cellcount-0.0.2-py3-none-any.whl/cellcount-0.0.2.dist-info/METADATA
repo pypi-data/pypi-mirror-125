@@ -1,0 +1,45 @@
+Metadata-Version: 2.1
+Name: cellcount
+Version: 0.0.2
+Summary: Count the number of contiguous regions in a binary array
+Home-page: https://github.com/ronan-pickell/cell-count
+Author: Ronan Pickell
+Author-email: ronanpickell@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Natural Language :: English
+Description-Content-Type: text/markdown
+License-File: LICENSE.txt.txt
+Requires-Dist: numpy (~=1.19)
+
+# Cell Count
+
+This package takes a binary array, and counts the number
+of seperate objects in the array.
+
+
+## Installation
+
+Run the following to install:
+
+```python
+pip install cellcount
+```
+
+## Usage
+
+```python
+import cellcount as cc
+import numpy as np
+
+img = np.random.randint(2, size=(5,5))
+
+# Count the number of seperate cells
+num_of_cells = cc.countCells(img)
+```
+
