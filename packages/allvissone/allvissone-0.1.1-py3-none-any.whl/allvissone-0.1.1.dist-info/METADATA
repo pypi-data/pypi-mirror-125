@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: allvissone
+Version: 0.1.1
+Summary: All Data Science Visualization package in single line
+Home-page: https://github.com/Sunilkpraja/allvissone
+Author: Sunilkpraja
+Author-email: sunilkumar.prajapati9689@gmail.com
+License: UNKNOWN
+Requires-Dist: matplotlib
+Requires-Dist: seaborn
+Requires-Dist: bokeh
+Requires-Dist: altair
+Requires-Dist: plotly
+Requires-Dist: ggplot
+Requires-Dist: pygal
+
+
+# Import all Data Science Visualization package in single line
+
