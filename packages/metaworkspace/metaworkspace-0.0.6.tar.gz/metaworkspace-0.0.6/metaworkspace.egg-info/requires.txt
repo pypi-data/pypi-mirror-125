@@ -1,0 +1,5 @@
+metacity>=0.0.54
+requests>=2.26.0
+fastapi>=0.68.1
+uvicorn>=0.15.0
+python-multipart>=0.0.5
