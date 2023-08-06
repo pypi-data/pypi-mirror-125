@@ -1,0 +1,8 @@
+README.md
+pyproject.toml
+setup.cfg
+setup.py
+src/JTToolbox.egg-info/PKG-INFO
+src/JTToolbox.egg-info/SOURCES.txt
+src/JTToolbox.egg-info/dependency_links.txt
+src/JTToolbox.egg-info/top_level.txt

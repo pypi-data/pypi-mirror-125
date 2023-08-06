@@ -1,0 +1,31 @@
+Metadata-Version: 2.1
+Name: JTToolbox
+Version: 0.0.1
+Summary: JT official library for learning and thinking programming can write HTML code in python
+Home-page: https://github.com/Jjhhvgfgvgnd/designer
+Author: Jjhhvgfgvgnd
+Author-email: xinfeimingyang@163.com
+License: UNKNOWN
+Project-URL: Bug Tracker, https://github.com/Jjhhvgfgvgnd/designer
+Description: # JTToolbox
+        JT官方为学而思编程打造的软件库
+        # JTdesigner
+        JT官方为学而思编程打造的可以用python写HTML代码的库
+        # JTWMB
+        JT官方为学而思编程打造的微信消息轰炸程序
+        #JTCTL
+        JT官方为学而思编程打造的编程模板库
+        #JTB
+        JT官方为学而思编程打造的浏览器
+        #JTJ
+        JT官方为学而思编程打造的九宫格游戏
+        #JTM
+        JT官方为学而思编程打造的Minecraft游戏
+        #JTT
+        JT官方转载的教师节动画库
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
