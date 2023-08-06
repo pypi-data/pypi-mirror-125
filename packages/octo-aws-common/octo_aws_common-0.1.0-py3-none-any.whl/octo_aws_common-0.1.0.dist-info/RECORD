@@ -1,0 +1,7 @@
+octo_aws_common/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+octo_aws_common/api_gateway_application.py,sha256=XmzyWSoQNNMXLhLN1oducOg3Lh68CWex_TneFX04lVc,334
+octo_aws_common/lambda_application.py,sha256=Ns_-WDUtluEP0GbDpK7K6dAKpW4CcuWJCSdTRJMOjAY,2231
+octo_aws_common/web_application.py,sha256=KgBdUBUPEj2ahGXDnEY0Fq96xg-nTgGu2EX1cGE2Rk4,2550
+octo_aws_common-0.1.0.dist-info/WHEEL,sha256=V7iVckP-GYreevsTDnv1eAinQt_aArwnAxmnP0gygBY,83
+octo_aws_common-0.1.0.dist-info/METADATA,sha256=2BNJ4wCa7teUlqVE85B9v6-P7GwOHutq3ioNHcT2Nw4,387
+octo_aws_common-0.1.0.dist-info/RECORD,,
