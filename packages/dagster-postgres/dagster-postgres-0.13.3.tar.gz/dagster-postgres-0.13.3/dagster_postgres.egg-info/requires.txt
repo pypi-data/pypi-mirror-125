@@ -1,0 +1,2 @@
+dagster==0.13.3
+psycopg2-binary
