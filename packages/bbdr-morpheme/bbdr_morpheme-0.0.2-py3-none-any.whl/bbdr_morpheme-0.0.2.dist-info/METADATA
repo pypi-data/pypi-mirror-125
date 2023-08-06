@@ -1,0 +1,49 @@
+Metadata-Version: 2.1
+Name: bbdr-morpheme
+Version: 0.0.2
+Summary: BBDR - korean morpheme parse from parquet file.
+Home-page: http://www.bbdr.co.kr/
+Author: ttajun
+Author-email: ttajun@bbdr.co.kr
+License: UNKNOWN
+Download-URL: http://www.bbdr.co.kr/
+Keywords: bbdr korean morpheme
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3.7
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+Requires-Dist: dask
+Requires-Dist: konlpy
+Requires-Dist: pandas
+Requires-Dist: pyarrow
+Requires-Dist: tweepy (==3.10.0)
+
+# bbdr-morpheme
+
+bbdr-morpheme is a Python library for distributed morpheme analysis for the AGASA system.
+
+## Installation
+
+Use the package manager [pip](https://pip.pypa.io/en/stable/) to install bbdr-morpheme.
+
+```bash
+pip install bbdr-morpheme
+```
+
+## Usage
+
+```console
+# show usage
+[user@dev]$ bbdr-morpheme -h
+```
+
+## Contributing
+Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
+
+Please make sure to update tests as appropriate.
+
+## License
+[MIT](https://choosealicense.com/licenses/mit/)
+

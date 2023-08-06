@@ -1,0 +1,11 @@
+bbdr_morpheme/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+bbdr_morpheme/bbdr_morpheme.py,sha256=kAnwWx-qLyKjQLWvL8DuTiDRGQXemmmArQ13t5XileI,4059
+bbdr_morpheme/data/apt.dic,sha256=1kXWQm3Z-Al-6Mr1C4MUYBPG2_CWuw6JQS4wAlW-qzw,283745
+bbdr_morpheme/data/dask_apt_20.csv.parquet,sha256=rB6XadrOLVIqkqNcOeTqOkTWevm4T51sjuKiXepr9SM,141112
+bbdr_morpheme/data/stop_words.csv,sha256=sr8J-8wKpJMV8a9AMcPDdhQqznDMutqnRBt9ir-Kjdo,4390
+bbdr_morpheme-0.0.2.dist-info/LICENSE,sha256=uIE3sOchFzhIZhwOwk0xVK0PG2osccR7E4_y43a9XOY,1067
+bbdr_morpheme-0.0.2.dist-info/METADATA,sha256=cD3pEKehsbf5-lD8u1o3RqQ2Op_1TmD4PU2Kg0omOrY,1193
+bbdr_morpheme-0.0.2.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+bbdr_morpheme-0.0.2.dist-info/entry_points.txt,sha256=79-eNylZBJkl3mxohH9oAI4WSuCRfN5xK0zAFxhrWKw,68
+bbdr_morpheme-0.0.2.dist-info/top_level.txt,sha256=TWzU3U78nd3mTITwTChqpu25m_8knREPVnfLxBXdTEo,14
+bbdr_morpheme-0.0.2.dist-info/RECORD,,

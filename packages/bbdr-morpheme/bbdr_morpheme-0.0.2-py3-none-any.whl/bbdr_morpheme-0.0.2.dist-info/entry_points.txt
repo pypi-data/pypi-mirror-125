@@ -1,0 +1,3 @@
+[console_scripts]
+bbdr-morpheme = bbdr_morpheme.bbdr_morpheme:main
+
