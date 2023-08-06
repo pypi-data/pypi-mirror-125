@@ -1,0 +1,18 @@
+Initial work on this backend was partly based on the django-arangodb backend
+work by Pablo T. Carreira.  The relevant Github repo is listed below.
+
+    Github:
+        https://github.com/pablotcarreira/django-arangodb.git (Apache License)
+
+    License: Apache
+
+    Common files:
+        base.py
+        client.py
+        compiler.py
+        creation.py
+        features.py
+        introspection.py
+        operations.py
+        schema.py
+
