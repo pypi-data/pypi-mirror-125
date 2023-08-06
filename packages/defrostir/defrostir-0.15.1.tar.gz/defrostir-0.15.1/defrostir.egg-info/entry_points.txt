@@ -1,0 +1,3 @@
+[console_scripts]
+defrostir = defrostir.__main__:main
+
