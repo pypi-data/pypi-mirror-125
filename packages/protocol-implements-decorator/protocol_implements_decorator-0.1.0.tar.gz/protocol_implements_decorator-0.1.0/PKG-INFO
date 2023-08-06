@@ -1,0 +1,11 @@
+Metadata-Version: 2.1
+Name: protocol-implements-decorator
+Version: 0.1.0
+Summary: Adds '@implements' decorator to aid in explicit use of protocols.
+Author: rbroderi
+Author-email: richard@sanguinesoftware.com
+Requires-Python: >=3.8,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
