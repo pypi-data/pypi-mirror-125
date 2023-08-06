@@ -1,0 +1,12 @@
+freetranslate/__init__.py,sha256=72AdlMiJ5uYCiM_e32TjIRtQiISA2tCs-32rUUt4W8Y,172
+freetranslate/constants.py,sha256=3KX7rAJQyX1RUjRF_aYB3mKxHZkUimkIifrouMdSafc,3266
+freetranslate/googletranslate.py,sha256=qi8KeQObcYsn4bxDiluQ8ocE8D7PcE-anXyxX8CjYm8,3660
+freetranslate/googlewebtranslate.py,sha256=uceUMNwgQd0ly7CNluT68eulRVKDQwl6kYmYc5v5LrE,5841
+freetranslate/libretranslate.py,sha256=6NvgNNP4K1QLk3vdB8Cl_AojLGLF0tFP_RmNRHhBzBo,2939
+freetranslate/translateresult.py,sha256=xoiKhOsGMO8TtlVOhdetNP5kWX5kEh943mQtbNeyNmA,954
+freetranslate/translatorabc.py,sha256=rG8Zx5-99vXMrEoT2VKOsKpU39heHOM4CtGjqm2krG4,707
+freetranslate-0.1.1.dist-info/LICENSE,sha256=ayq_p6dE6loOMI3q8OwisIzdPEpuUTT5WztiWFZ4i2o,1066
+freetranslate-0.1.1.dist-info/METADATA,sha256=z0NFe-9gai77tCXY52V7ApJngK66ng0mDDKNUdUHUXI,4496
+freetranslate-0.1.1.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+freetranslate-0.1.1.dist-info/top_level.txt,sha256=0FWgp6tlaJ9GWubv7PAH39buItpPaDilaFxJfGoiIps,14
+freetranslate-0.1.1.dist-info/RECORD,,
