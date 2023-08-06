@@ -1,0 +1,6 @@
+scan2pdf
+setup.py
+scan2pdf.egg-info/PKG-INFO
+scan2pdf.egg-info/SOURCES.txt
+scan2pdf.egg-info/dependency_links.txt
+scan2pdf.egg-info/top_level.txt

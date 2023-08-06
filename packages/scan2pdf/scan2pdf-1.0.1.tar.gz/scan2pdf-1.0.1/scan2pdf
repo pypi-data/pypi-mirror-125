@@ -1,0 +1,277 @@
+from pylatex import Document, PageStyle, Head, Foot, MiniPage, \
+    StandAloneGraphic, MultiColumn, Tabu, LongTabu, LargeText, MediumText, \
+    LineBreak, NewPage, Tabularx, TextColor, simple_page_number
+from pylatex.utils import bold, NoEscape
+from pylatex import Document, Section, Subsection, Command, Itemize
+from pylatex.section import Chapter
+from pylatex.utils import italic, NoEscape
+
+import os
+import json 
+import requests
+import sys 
+import argparse
+
+def parsePage(page_text):
+    heading = ''
+    initial_address = []
+    content = []
+    bottom_address = []
+
+    all_lines = page_text.split('\n')
+    lines = []
+    for i in range(len(all_lines)-1):
+        if len(all_lines[i])>5 or len(all_lines[i+1])>5:
+            lines.append(all_lines[i])
+    
+    i=0
+    n=len(lines)
+    if len(lines[0])<50 and lines[0][0].isupper():
+        heading = lines[0]
+        i+=1
+        while(len(lines[i])<50):
+            initial_address.append(lines[i])
+            i+=1
+
+    last_i=0
+    while(i<n-2):
+        if len(lines[i])>0:
+            avg_len = (len(lines[i])+len(lines[i+1])+len(lines[i+2]))/3
+            if avg_len>50:   
+                content.append(lines[i])
+                content.append(lines[i+1])
+                content.append(lines[i+2])
+                i+=2
+                last_i=i+1
+        else:
+            content.append(lines[i])
+        i+=1
+
+    i=last_i
+    while(i<n):
+        if len(lines[i])>5 and len(lines[i])<50:
+            bottom_address.append(lines[i])
+        if len(lines[i])<5:
+            bottom_address.append(lines[i])
+        i+=1
+
+
+    filtered_content = []
+    for c in content:
+        if len(c)>5:
+            if c[0].isnumeric():
+                k=0
+                s = []
+                while(c[k].isnumeric()):
+                    s.append(c[k])
+                    k+=1
+                if c[k] in [',', '.', ')', ' ']:
+                    idx = int(''.join(s))
+                    filtered_content.append(str(idx)+'>>>'+c[k+1:])
+                else:
+                    filtered_content.append(c)
+            else:
+                filtered_content.append(c)
+        else:
+            filtered_content.append(c)
+    return heading, initial_address, filtered_content, bottom_address
+
+
+def generate_unique(page, doc):
+    page_text = page['pageText']
+    heading, initial_address, filtered_content, bottom_address = parsePage(page_text)
+    # Generating first page style
+    first_page = PageStyle("firstpage")
+
+    # Add document title
+    with first_page.create(Head("C")) as right_header:
+        with right_header.create(MiniPage(width=NoEscape(r"0.49\textwidth"),
+                                 pos='c', align='r')) as title_wrapper:
+            title_wrapper.append(LargeText(bold(heading)))
+            title_wrapper.append(LineBreak())
+
+    doc.preamble.append(first_page)
+
+    # Add customer information
+    with doc.create(Tabu("X[l]")) as first_page_table:
+        customer = MiniPage(width=NoEscape(r"0.49\textwidth"), pos='h')
+        for line in initial_address:
+            customer.append(line)
+            customer.append('\n')
+            
+        # Add branch information
+        branch = MiniPage(width=NoEscape(r"0.49\textwidth"), pos='t!',
+                          align='r')
+        first_page_table.add_row([customer])
+        first_page_table.add_empty_row()
+
+        
+    # Add footer
+    with first_page.create(Foot("C")) as footer:
+        message = ''
+        with footer.create(Tabularx("X",width_argument=NoEscape(r"\textwidth"))) as footer_table:
+            branch_address = MiniPage(
+                width=NoEscape(r"0.7\textwidth"),pos='t')
+            for line in bottom_address:
+                branch_address.append(line)
+                branch_address.append('\n')
+                
+            footer_table.add_row([branch_address])
+            
+    doc.change_document_style("firstpage")
+    doc.add_color(name="lightgray", model="gray", description="0.80")
+
+    itemize_line_idx = []
+    for i in range(len(filtered_content)):
+        out = filtered_content[i].split('>>>')
+        if len(out)>1:
+            itemize_line_idx.append(i)
+    
+    if len(itemize_line_idx)==0:
+        for line in filtered_content:
+            doc.append(line)
+            doc.append('\n')
+    else:
+        i=0
+        while(i<itemize_line_idx[0]):
+            doc.append(filtered_content[i])
+            doc.append('\n')
+            i+=1
+        itemize_content = []
+        for j in range(len(itemize_line_idx)-1):
+            c = []
+            start = itemize_line_idx[j]
+            end = itemize_line_idx[j+1]
+            
+            out = filtered_content[start].split('>>>')[1]
+            c.append(out)
+            for k in range(start+1,end):
+                c.append(filtered_content[k])
+            itemize_content.append('\n'.join(c))
+        
+        c = []
+        
+        start = itemize_line_idx[-1]
+        out = filtered_content[start].split('>>>')[1]
+        c.append(out)
+        last_i = i
+        for i in range(start+1,len(filtered_content)):
+            if len(filtered_content[i])>5:
+                c.append(filtered_content[i])
+            else:
+                last_i = i
+                break
+        itemize_content.append('\n'.join(c))
+        
+        with doc.create(Itemize()) as itemize:
+            for c in itemize_content:
+                itemize.add_item(c)
+    
+    table_exists = page['tableExists']
+    if table_exists=='True':
+        table = page['tables'][0]['text']
+        max_row = 0
+        max_col = 0
+        row_id = table.keys()
+        for row in row_id:
+            r = int(row.split('_')[-1])
+            col_id = table[row].keys()
+            max_row = max(max_row,r)
+            for col in col_id:
+                c = int(col.split('_')[-1])
+                # text = table[row][col]['text']
+                # print(r,c,len(text))
+                max_col = max(max_col,c)
+        max_col +=1 
+        max_row +=1
+        
+        c = '| '
+        for i in range(max_col):
+            c+='X[c] |'
+
+        with doc.create(LongTabu(c,row_height=1.5)) as data_table:
+            data_table.add_hline()
+            row_id = table.keys()
+            for row in row_id:
+                col_id = table[row].keys()
+                row_data = []
+                for col in col_id:
+                    text = table[row][col]['text'][:30]
+                    row_data.append(text)
+                for i in range(len(col_id), max_col):
+                    row_data.append('')
+                r = int(row.split('_')[-1])
+                if (r % 2) == 0:
+                    data_table.add_row(row_data, color="lightgray")
+                else:
+                    data_table.add_row(row_data)
+                data_table.add_hline()
+        
+    doc.append(NewPage())
+    return doc 
+
+def main(pdf_path):
+    dexter_url = "http://10.0.1.22:8000/extract_content"
+    payload={}
+    files=[('file',('file',open(pdf_path,'rb'),'application/octet-stream'))]
+    headers = {}
+    response = requests.request("POST", dexter_url, headers=headers, data=payload, files=files)
+    data = response.json()
+
+    if not os.path.exists('./output'):
+        os.makedirs('./output')
+
+    filenames = next(os.walk('./output'), (None, None, []))[2]
+    for file in filenames:
+        os.remove('./output/'+file)
+
+    geometry_options = {
+        "head": "40pt",
+        "margin": "0.5in",
+        "bottom": "0.6in",
+        "includeheadfoot": True
+    }
+
+    for page in data['pages']:
+        try:
+            page_number = page['pageNumber']
+            doc = Document(geometry_options=geometry_options)
+            doc = generate_unique(data['pages'][0], doc)
+            doc.generate_pdf("./output/"+str(page_number), clean_tex=False)
+        except:
+            continue 
+
+if __name__ == '__main__':
+    parser = argparse.ArgumentParser()
+    parser.add_argument('--scan_path', type=str, required=True)
+    args = parser.parse_args()
+    main(args.scan_path)
+
+
+from fastapi import FastAPI, File, UploadFile, Request
+from fastapi.responses import FileResponse
+
+description = """
+scan2pdf API helps you to convert scanned document into True Portable Document Format. 🚀
+"""
+
+app = FastAPI(title="scan2pdf",
+    description=description,
+    version="0.0.1",
+    #terms_of_service="http://example.com/terms/",
+    contact={
+                "name": "Amit | Shounak | Nagesh",
+                "url": "https://buddi.ai/",
+            },
+        )
+
+@app.post("/scan2pdf")
+async def create_upload_file(file: UploadFile = File(...)):
+    file_name = file.filename
+    file_path = './input/'+ file_name
+    main(file_path)
+    out_path = './output/1.pdf'
+    return FileResponse(path=out_path, media_type='application/octet-stream', filename=file_name)
+    
+## launch service 
+# hypercorn scan2pdf:app --reload
