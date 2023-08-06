@@ -1,0 +1,6 @@
+setup.py
+Wordsense.egg-info/PKG-INFO
+Wordsense.egg-info/SOURCES.txt
+Wordsense.egg-info/dependency_links.txt
+Wordsense.egg-info/requires.txt
+Wordsense.egg-info/top_level.txt
