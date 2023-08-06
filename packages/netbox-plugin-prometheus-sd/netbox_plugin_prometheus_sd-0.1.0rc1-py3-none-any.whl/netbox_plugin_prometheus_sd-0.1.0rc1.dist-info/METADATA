@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: netbox-plugin-prometheus-sd
+Version: 0.1.0rc1
+Summary: A Netbox plugin to provide Netbox entires to Prometheus HTTP service discovery
+License: MIT
+Author: Felix Peters
+Author-email: felix.peters@breuninger.de
+Requires-Python: >=3.8,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
