@@ -1,0 +1,12 @@
+pyqtgraph>=0.12.3
+tqdm
+numpy
+matplotlib
+pandas
+scipy
+scikit-image
+docstring_parser
+ruamel.yaml
+
+[:python_version < "3.8"]
+typing_extensions
