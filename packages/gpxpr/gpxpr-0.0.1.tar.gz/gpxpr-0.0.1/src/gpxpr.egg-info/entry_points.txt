@@ -1,0 +1,3 @@
+[console_scripts]
+gpxpr = gpxpr.main:main
+
