@@ -1,0 +1,10 @@
+Metadata-Version: 1.0
+Name: arranger
+Version: 1.0.0
+Summary: moves each file to its appropriate directory based on the fil's extension.
+Home-page: https://github.com/j0eTheRipper/arranger
+Author: j0eTheRipper
+Author-email: j0eTheRipper0010@gmail.com
+License: UNKNOWN
+Description: UNKNOWN
+Platform: UNKNOWN
