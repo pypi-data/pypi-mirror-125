@@ -1,0 +1,15 @@
+crabnet/__init__.py,sha256=AifaxN5OYhFzc0lLMW9FZwlYY9A2m3m6hG4DplTqIrg,97
+crabnet/kingcrab.py,sha256=RovKsgfrl5XmPV7Lv3y2KFcixXPG7cYIHl39lCj62hQ,7549
+crabnet/model.py,sha256=fasdZH-0FZkDTRcPmhSSYc4mWcnG-E0sxu5u_dF8xYY,15358
+crabnet/utils/composition.py,sha256=ybBu9OBou9uqsbNH0eD8nLcs_p_kOBDds7WHe1RrEY0,10825
+crabnet/utils/estimatorselectionhelper.py,sha256=_RcEhy6vySfAvKkWz4_6LWb7IW5ud2s-O6xD4mOQ0T8,4379
+crabnet/utils/figures.py,sha256=R5DBPphj1dq47CNInUfzcSdgBQuHWYnzcSH4uVjR9J4,13242
+crabnet/utils/get_compute_device.py,sha256=FY35rprah5lYRDjV9Bc0s5EGFHFseYWcqGuqdfOV9tg,540
+crabnet/utils/get_core_count.py,sha256=q2Ig7Q5siTMoiL5WhwJjSusdwtDj2Y4rtL7UsYqz5F8,2657
+crabnet/utils/modelselectionhelper.py,sha256=J-2QumMOZk2DkSa6DoX5td3zAPh5ftCAuDRksm1bO0s,2987
+crabnet/utils/optim.py,sha256=Mp_jZF7UePZ9s3zFEkc6UD1Ktbl6u2vx_384XqRHkcs,15595
+crabnet/utils/utils.py,sha256=mpeQLygxemnYEEpugQrI9cWCO3GLhAIK0HdEy9dIsJg,26812
+crabnet-1.0.0.dist-info/LICENSE,sha256=vrDApPBj8LcSLRmw11IXbBp0P0VSf49snp9FVJrN0Jg,1105
+crabnet-1.0.0.dist-info/WHEEL,sha256=3tm2ZG-oRLlcavA1Wig9g4cIO0hV_ajg2xEhQivkwx4,99
+crabnet-1.0.0.dist-info/METADATA,sha256=hUMrIiiMaEuElM9LvTpdR9PGs53r-nkkCe4_-AcATHY,7256
+crabnet-1.0.0.dist-info/RECORD,,
