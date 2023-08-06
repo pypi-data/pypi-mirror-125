@@ -1,0 +1,23 @@
+Metadata-Version: 2.1
+Name: solring
+Version: 0.0.1
+Summary: a solr import tool to save data from solr to local storage
+Home-page: https://github.com/ozlerhakan/solring
+Author: Hakan Ozler
+Author-email: ozler.hakan@gmail.com
+License: MIT
+Project-URL: Bug Tracker, https://github.com/ozlerhakan/solring/issues
+Keywords: python,solr,pandas,import
+Platform: linux
+Platform: unix
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.7
+Description-Content-Type: text/plain; charset=UTF-8
+License-File: LICENSE
+
+# Solring
+
+
+
