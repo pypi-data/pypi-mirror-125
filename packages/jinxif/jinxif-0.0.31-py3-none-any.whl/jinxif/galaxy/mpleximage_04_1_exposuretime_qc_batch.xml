@@ -1,0 +1,36 @@
+<tool id="exposuretime_qc_batch" name="exposuretime_qc_batch" version="0.0.1" profile="21.09">
+    <description>check exposure time batch whide for possible errors</description>
+
+    <requirements>
+        <requirement type="package">jinxif</requirement>
+    </requirements>
+
+    <command detect_errors="exit_code"><![CDATA[
+	#import re
+
+        #set $the_batch = re.sub('[^\w\-\.\s]', '_', str($batch_id))
+    
+	mkdir csv_exposuretime &&
+	mkdir csv_metaimages &&
+
+	#for $csv in $csv_exposuretime_input:
+            #set $filename = re.sub('[^\w\-\.\s]', '_', str($csv.element_identifier))
+	    ln -s $csv csv_exposuretime/${filename}.csv &&
+        #end for
+
+	python $__tool_directory__/mpleximage_04_1_exposuretime_qc_batch.py $the_batch
+    ]]></command>
+
+    <inputs>
+        <param type="data_collection" collection_type="list" format="csv" name="csv_exposuretime_input" label="csv_exposuretime_input" />
+	<param type="text" value="galaxy" name="batch_id" label="batch_id" help="batch indetifier" />
+    </inputs>
+
+    <outputs>
+        <collection type="list" name="exposuretime_qc_output">
+            <discover_datasets pattern="__designation_and_ext__" visible="false" format="csv" directory="csv_metaimages" />
+        </collection>
+    </outputs>
+
+    <help></help>
+</tool>

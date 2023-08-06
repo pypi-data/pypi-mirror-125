@@ -1,0 +1,55 @@
+<tool id="afsub_auto_fluorescent_subtraction" name="afsub_auto_fluorescent_subtraction" version="0.0.1" profile="21.09">
+    <description>autofluorescent subtraction on registered images</description>
+
+    <requirements>
+        <requirement type="package">jinxif</requirement>
+    </requirements>
+
+    <command detect_errors="exit_code"><![CDATA[
+        #import re
+
+        mkdir metaimages &&
+        mkdir tiff_registered &&
+        mkdir tiff_afsub &&
+
+        #for $tiff in $tiff_registered_input:
+            #set $filename = re.sub('[^\w\-\.\s]', '_', str($tiff.element_identifier))
+            #if str($filename).endswith('.tif') or str($filename).endswith('.tiff'):
+                ln -s $tiff tiff_registered/$filename &&
+            #else:
+                ln -s $tiff tiff_registered/${filename}.tif &&
+            #end if
+        #end for
+
+        #set $filename = re.sub('[^\w\-\.\s]', '_', str($csv_exposuretime.element_identifier))
+        ln -s $csv_exposuretime metaimages/${filename}.csv &&
+        ln -s $json_etc_dictionary ddd_etc.json &&
+        ln -s $json_crop_dictionary ddd_crop.json &&
+        ln -s $json_early_dictionary ds_early.json &&
+        ln -s $json_late_dictionary ds_late.json &&
+        #set $xcolor = re.sub('[^\w\-\.\s]', '_', str($exclude_color))
+        #set $xmarker = re.sub('[^\w\-\.\s]', '_', str($exclude_marker))
+
+        python $__tool_directory__/mpleximage_06_1_afsub_auto_fluorescent_subtraction_slidepxscene.py --xcolor $xcolor --xmarker $xmarker --bit8 $bit8
+    ]]></command>
+
+    <inputs>
+        <param type="data_collection" collection_type="list" format="tiff" name="tiff_registered_input" label="tiff_registered_input" />
+        <param type="data" format="csv" name="csv_exposuretime"  label="csv_exposuretime_file_input" />
+        <param type="data" format="json" name="json_etc_dictionary" label="json_etc_dictionary_file_input" help="exposure time error correction dictionary" />
+        <param type="data" format="json" name="json_crop_dictionary" label="json_crop_dictionary_file_input" help="this dictionary is needed, because it maps microscopy scenes to the smaller 20000px * 20000px cropped scenes" />
+        <param type="data" format="json" name="json_early_dictionary" label="json_early_dictionary_file_input" help="early round quenching marker used for af subtraction" />
+        <param type="data" format="json" name="json_late_dictionary" label="json_late_dictionary_file_input" help="late round quenching marker used for af subtraction" />
+        <param type="text" value="c1 c5" name="exclude_color" label="exclude_color" help="space separated list of microscopy channel identifier that should be excluded from af subtraction, because there is no af, because of the wave length of this channels." />
+        <param type="text" value="" name="exclude_marker" label="exclude_marker" help="space separated list of markers which not are influenced by autofluorescence." />
+        <param type="boolean" truevalue="true" falsevalue="false" checked="false" name="bit8" label="bit8" help="by default the generated images are like the input images 16[bit] but for presentation itis sometimes nice to have an 8[bit] af subtracted image. set true to generating 8[bit] images instead of 16[bit] images." />
+    </inputs>
+
+    <outputs>
+        <collection type="list" name="tiff_afsub_output">
+            <discover_datasets pattern="__designation_and_ext__" visible="false" format="tiff" directory="tiff_afsub" />
+        </collection>
+    </outputs>
+
+    <help></help>
+</tool>
