@@ -1,0 +1,13 @@
+mypack/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+mypack/clear.py,sha256=gzBtsF1XQnuMLbqPYkqvHD9H7zjBLigPvW4uU-NllYk,95
+mypack/depickler.py,sha256=Oi4N4n4qFR981ooJxIqfqC29Z99S4-Ny6rnOmFyn_mE,339
+mypack/file_lister.py,sha256=EoT2aX4KzWD9I9LqZ6jOeOFOJZDpm-YoanaNn9BrOQ4,544
+mypack/fitro.py,sha256=Xan7Yc9UE8CAgXTnene6TM592dOa1JhTrl6R2MXZc5Y,586
+mypack/intput.py,sha256=zBbmGnEK8Glsr9H6IRdIjYZx1EBgGokffV17kugpr_c,387
+mypack/picklify.py,sha256=zx6AqHEm7tM_V06u1XC_ymYgn3vHnrHsy4doODER360,312
+mypack/strintput.py,sha256=VkTAZfrQmalrIYTZ0dnYKq8SqW8dtwMPM5SjHrZdIBo,571
+mypack_fabian-1.0.0.dist-info/License,sha256=liSj7pO_IG_QhRxNRcKnw0YnmbpPTNxAgzh1rODyTws,1075
+mypack_fabian-1.0.0.dist-info/METADATA,sha256=xY_0oJ7Dxy33MRUbC6DbuNutGJFDWjdVgw239qNRq78,563
+mypack_fabian-1.0.0.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+mypack_fabian-1.0.0.dist-info/top_level.txt,sha256=as-NgIllSUlr6cHuq6brZJAO1M6Sdub1Yje7BjZ_wyc,7
+mypack_fabian-1.0.0.dist-info/RECORD,,
