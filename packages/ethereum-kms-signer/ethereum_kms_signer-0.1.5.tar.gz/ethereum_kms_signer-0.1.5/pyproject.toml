@@ -1,0 +1,107 @@
+[tool]
+[tool.poetry]
+name = "ethereum_kms_signer"
+version = "0.1.5"
+homepage = "https://github.com/meetmangukiya/ethereum_kms_signer"
+description = "Sign ETH transactions with keys stored in AWS KMS."
+authors = ["Meet Mangukiya <meet@flamy.dev>"]
+readme = "README.md"
+license =  "MIT"
+classifiers=[
+    'Development Status :: 2 - Pre-Alpha',
+    'Intended Audience :: Developers',
+    'License :: OSI Approved :: MIT License',
+    'Natural Language :: English',
+    'Programming Language :: Python :: 3',
+    'Programming Language :: Python :: 3.6',
+    'Programming Language :: Python :: 3.7',
+    'Programming Language :: Python :: 3.8',
+    'Programming Language :: Python :: 3.9',
+]
+packages = [
+    { include = "ethereum_kms_signer" },
+    { include = "tests", format = "sdist" },
+]
+
+[tool.poetry.dependencies]
+python = ">=3.6.1,<4.0"
+fire = "0.4.0"
+
+boto3 = "^1.5.12"
+pyasn1 = "^0.4.8"
+pycryptodome = "^3.10.1"
+eth-utils = "^1.10.0"
+hexbytes = "^0.2.2"
+toolz = "^0.11.1"
+eth-account = "^0.5.6"
+
+[tool.poetry.dev-dependencies]
+black  = { version = "20.8b1" }
+isort  = { version = "5.6.4" }
+flake8  = { version = "3.8.4" }
+flake8-docstrings = { version = "^1.6.0" }
+pytest  = { version = "6.1.2" }
+pytest-cov  = { version = "2.10.1" }
+tox  = { version = "^3.20.1" }
+virtualenv  = { version = "^20.2.2" }
+pip  = { version = "^21.3.1" }
+mkdocs  = { version = "^1.1.2" }
+mkdocs-include-markdown-plugin  = { version = "^1.0.0" }
+mkdocs-material  = { version = "^6.1.7" }
+mkdocstrings  = { version = "^0.13.6" }
+mkdocs-material-extensions  = { version = "^1.0.1" }
+twine  = { version = "^3.3.0" }
+mkdocs-autorefs = { version = "0.1.1" }
+pre-commit = { version = "^2.12.0" }
+toml = { version = "^0.10.2" }
+boto3-stubs = { extras = ["kms"], version = "^1.18.50" }
+flake8-annotations = { version = "^2.6.2" }
+livereload = { version = "^2.6.3" }
+
+[tool.poetry.extras]
+actions = ["tox-gh-actions"]
+test = [
+    "pytest",
+    "black",
+    "isort",
+    "flake8",
+    "flake8-docstrings",
+    "pytest-cov",
+    "tox-gh-actions"
+    ]
+
+dev = ["tox", "pre-commit", "virtualenv", "pip", "twine", "toml"]
+
+doc = [
+    "mkdocs",
+    "mkdocs-include-markdown-plugin",
+    "mkdocs-material",
+    "mkdocstrings",
+    "mkdocs-material-extension",
+    "mkdocs-autorefs"
+    ]
+
+[tool.poetry.scripts]
+ethereum_kms_signer = 'ethereum_kms_signer.cli:main'
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.black]
+line-length = 88
+include = '\.pyi?$'
+exclude = '''
+/(
+    \.eggs
+  | \.git
+  | \.hg
+  | \.mypy_cache
+  | \.tox
+  | \.venv
+  | _build
+  | buck-out
+  | build
+  | dist
+)/
+'''
