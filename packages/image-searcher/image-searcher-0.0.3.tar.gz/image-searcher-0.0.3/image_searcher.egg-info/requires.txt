@@ -1,0 +1,12 @@
+Pillow
+ftfy
+numpy
+torch
+transformers
+
+[face_recognition]
+face_recognition
+
+[server]
+flask
+flask_cors
