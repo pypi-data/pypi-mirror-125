@@ -1,0 +1,4 @@
+pyroute2.minimal
+pyroute2.ethtool
+PyYAML
+jsonschema
