@@ -1,0 +1,15 @@
+README.rst
+setup.py
+ansys/api/mapdl/v0/C_StreamGrpc_pb2.py
+ansys/api/mapdl/v0/C_StreamGrpc_pb2_grpc.py
+ansys/api/mapdl/v0/__init__.py
+ansys/api/mapdl/v0/_version.py
+ansys/api/mapdl/v0/ansys_kernel_pb2.py
+ansys/api/mapdl/v0/ansys_kernel_pb2_grpc.py
+ansys/api/mapdl/v0/mapdl_pb2.py
+ansys/api/mapdl/v0/mapdl_pb2_grpc.py
+ansys_api_mapdl_v0.egg-info/PKG-INFO
+ansys_api_mapdl_v0.egg-info/SOURCES.txt
+ansys_api_mapdl_v0.egg-info/dependency_links.txt
+ansys_api_mapdl_v0.egg-info/requires.txt
+ansys_api_mapdl_v0.egg-info/top_level.txt
