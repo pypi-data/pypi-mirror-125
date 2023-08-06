@@ -1,0 +1,3 @@
+[console_scripts]
+create_grand_parameters = mosartwmpy.utilities.create_grand_parameters:create_grand_parameters
+
