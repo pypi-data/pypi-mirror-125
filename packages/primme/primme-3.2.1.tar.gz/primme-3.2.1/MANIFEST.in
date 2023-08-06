@@ -1,0 +1,4 @@
+# Files that will be distributed
+recursive-include primme *.h *.cpp
+include primme.cpp
+include README.rst
