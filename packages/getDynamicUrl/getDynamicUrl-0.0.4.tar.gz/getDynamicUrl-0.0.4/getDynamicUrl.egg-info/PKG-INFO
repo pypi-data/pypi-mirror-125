@@ -1,0 +1,24 @@
+Metadata-Version: 1.1
+Name: getDynamicUrl
+Version: 0.0.4
+Summary: Get dyanmic Url
+Home-page: UNKNOWN
+Author: Jhone Mendez
+Author-email: jhone0901@gmail.com
+License: MIT
+Description: Get a custom and dymanic url from a bigquery table.
+        
+        Change Log
+        ==========
+        
+        0.0.4 (01/11/2021)
+        -------------------
+        - Fourth Release
+        
+Keywords: dynamicUrl
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Education
+Classifier: Operating System :: Microsoft :: Windows :: Windows 10
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
