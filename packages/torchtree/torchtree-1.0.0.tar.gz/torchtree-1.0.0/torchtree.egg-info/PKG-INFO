@@ -1,0 +1,60 @@
+Metadata-Version: 2.1
+Name: torchtree
+Version: 1.0.0
+Summary: Phylogenetic inference with pytorch
+Home-page: https://github.com/4ment/torchtree
+Author: Mathieu Fourment
+Author-email: mathieu.fourment@uts.edu.au
+License: GPL3
+Description: # torchtree
+        
+        [![Python package](https://github.com/4ment/torchtree/actions/workflows/python-package.yml/badge.svg)](https://github.com/4ment/torchtree/actions/workflows/python-package.yml)
+        
+        ## Installation
+        
+        ### Get the torchtree source
+        ```bash
+        git clone https://github.com/4ment/torchtree
+        cd torchtree
+        ```
+        
+        ### Install dependencies
+        
+        Installing dependencies using Anaconda
+        ```bash
+        conda env create -f environment.yml
+        conda activate torchtree
+        ```
+        
+        or using pip
+        ```bash
+        pip install -r requirements.txt
+        ```
+        
+        ### Install torchtree
+        ```bash
+        python setup.py install
+        ```
+        
+        ### Check install
+        ```bash
+        torchtree --help
+        ```
+        
+        ### Quick start
+        ```bash
+        torchtree examples/advi/fluA.json
+        ```
+Keywords: phylogenetics,variational,Bayes,pytorch
+Platform: UNKNOWN
+Classifier: Intended Audience :: Science/Research
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Topic :: Scientific/Engineering :: Bio-Informatics
+Requires-Python: >=3.6
+Provides-Extra: dev
+Provides-Extra: test
