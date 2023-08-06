@@ -1,0 +1,3 @@
+[console_scripts]
+sdw = stupid_dns_watchdog.main:main
+
