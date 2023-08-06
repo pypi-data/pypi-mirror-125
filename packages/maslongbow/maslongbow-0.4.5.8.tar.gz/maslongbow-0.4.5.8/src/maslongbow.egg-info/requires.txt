@@ -1,0 +1,15 @@
+isort==4.3.21
+cython
+mypy
+click
+click-log
+pomegranate
+pandas
+numpy
+matplotlib
+pysam>=0.16.0.1
+progress
+construct
+pathos
+ssw==0.4.1
+tqdm
