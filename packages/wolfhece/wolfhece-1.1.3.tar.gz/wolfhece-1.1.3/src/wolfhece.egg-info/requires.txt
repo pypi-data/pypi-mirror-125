@@ -1,0 +1,9 @@
+wxpython
+numpy
+pyopengl
+pandas
+scipy
+owslib
+pillow
+cython
+pyproj
