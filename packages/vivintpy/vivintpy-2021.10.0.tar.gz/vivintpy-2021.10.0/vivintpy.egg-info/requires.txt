@@ -1,0 +1,12 @@
+aiohttp>=3.6
+certifi>=2019.9.11
+pubnub>=5.1.1
+
+[lint]
+black
+isort
+
+[test]
+pytest
+pytest-asyncio
+pytest-cov
