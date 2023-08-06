@@ -1,0 +1,51 @@
+Metadata-Version: 2.1
+Name: Loli-wrapper
+Version: 1.0.4
+Summary: Simple wrapper for loli api.
+Home-page: https://loli-api.ml
+Author: MagMigo
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3.10
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+<h1 align="center">Loli api wrapper</h1>
+
+#### pip install loli.py
+
+
+
+Sync Example
+--------------
+
+```Python
+from loli import LoliSync
+
+
+loli = LoliSync()
+
+print(loli.get_point('sfw', 'hug'))
+```
+
+Async example
+--------------
+
+```Python
+from loli import LoliAsync
+import asyncio
+
+
+loli = LoliAsync()
+
+async def main():
+    print(await loli.get_point('sfw', 'hug'))
+
+if __name__ == "__main__":
+    asyncio.run(main())
+```
+
+
