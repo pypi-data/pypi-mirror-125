@@ -1,0 +1,16 @@
+les_iterables/__init__.py,sha256=dQ9TM-v3H8dw-40GotrLzlYAmNV1aDX9g5pEDejI0R4,1309
+les_iterables/augmenting.py,sha256=LA72BsDzbtxSw8tQ4birkq-Vi3z2uks8OIU2uutJzc8,2795
+les_iterables/combining.py,sha256=X64Ca5I3mkCFcCa4NknKGc9-tyQ38P_1mwV-oh5y5f4,1427
+les_iterables/functions.py,sha256=lFW2Uh8fMcVHQLZf1S4dh1CAyljqlXeU11cRpU8qV5w,6786
+les_iterables/grouping.py,sha256=AbpHGcgLb-kRsJGnwFEktk7uzpZOCcBY74-YBdrKVGs,1
+les_iterables/parsing.py,sha256=8EnIbN74QkVze0koa54WTVEtfcb9vZ1t1KZ81Vy6ZCI,1719
+les_iterables/searching.py,sha256=Iv9OkYwc9mg3WFBWyJBIpGcEXXRMm_-WYOhUT3hJvxw,2332
+les_iterables/selecting.py,sha256=dh553tixDT99Hvr_USCYoGNH750XF4tw7huu2S3oUM8,10755
+les_iterables/sentinels.py,sha256=rer8Am6NYedMoN_i_hXfLzKl9UMQJdC9F0A6wukrhkc,20
+les_iterables/version.py,sha256=OEcmMTUWWg8EvbLoR59kCKPhTLg_icOn5Fc3zSK0ldw,71
+les_iterables-0.9.0.dist-info/LICENSE.txt,sha256=xX84eR01hH52i2CsTnFPmsNt8VmtN2wxdMEeIerdIqg,1071
+les_iterables-0.9.0.dist-info/METADATA,sha256=POCcroUvZ_jEqgL3rLv8nR7xZJtVKDsyyQ0NuCFMTfg,3510
+les_iterables-0.9.0.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+les_iterables-0.9.0.dist-info/top_level.txt,sha256=uaT3fnKqeOXsD_LvoMzEl3SYFMAQ57m3ooOxnrttu_U,14
+les_iterables-0.9.0.dist-info/zip-safe,sha256=AbpHGcgLb-kRsJGnwFEktk7uzpZOCcBY74-YBdrKVGs,1
+les_iterables-0.9.0.dist-info/RECORD,,
