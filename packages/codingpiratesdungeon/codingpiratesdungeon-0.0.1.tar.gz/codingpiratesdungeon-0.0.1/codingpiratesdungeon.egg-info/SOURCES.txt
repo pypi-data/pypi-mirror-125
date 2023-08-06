@@ -1,0 +1,5 @@
+setup.py
+codingpiratesdungeon.egg-info/PKG-INFO
+codingpiratesdungeon.egg-info/SOURCES.txt
+codingpiratesdungeon.egg-info/dependency_links.txt
+codingpiratesdungeon.egg-info/top_level.txt
