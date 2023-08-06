@@ -1,0 +1,12 @@
+pyecr/__init__.py,sha256=nDszQGYi6MV_gbhhP49DzXaGrQfbP4dJ5L5zOmHOmXo,116
+pyecr/completers_suggesters.py,sha256=myQJQxFQ0X1qfldsygVJFo34FNYfFheJGUxR-_expsQ,8020
+pyecr/emoticons.py,sha256=YKCWxZx5s6C90JUu5m5eY-HfMij2lNSXfrnbJn5sK0E,3986
+pyecr/messages.py,sha256=5MTupsmuIBCaTOXtSkDZFT3htAWCICAWg_Gm5XZzNeM,2000
+pyecr/pyecr.py,sha256=yhtZRQBEs0FtA_ew6KMkzIJyIExxdluR40NKtt-JPV8,27005
+pyecr/style.py,sha256=LyYshhUZhs15KV7BVWFwnz3_tTvUw63Qo_xZKruxGNI,1475
+pyecr/utils.py,sha256=icneV71xMnTbp_Z_O6mUO0Rb4x-Rozco_ZNQuuTyzug,5280
+pyecr-0.0.5.dist-info/METADATA,sha256=Jo3UK4xsWaiVSkgMSLlcxiaQoIHk7gpr-n-ChS0SPUw,1305
+pyecr-0.0.5.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+pyecr-0.0.5.dist-info/entry_points.txt,sha256=MOeqNH9QUbM4mx8_mkOknOQh36r8MSKUmMEfbUczCrU,44
+pyecr-0.0.5.dist-info/top_level.txt,sha256=Fdapz1s2sQUHFpu3mm73jnwuta3PNFxSIB0jpc60F1g,6
+pyecr-0.0.5.dist-info/RECORD,,
