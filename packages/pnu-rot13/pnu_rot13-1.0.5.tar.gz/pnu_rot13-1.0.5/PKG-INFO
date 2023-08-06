@@ -1,0 +1,56 @@
+Metadata-Version: 2.1
+Name: pnu_rot13
+Version: 1.0.5
+Summary: encrypt or decrypt caesar ciphers
+Home-page: https://github.com/HubTou/rot13/
+Author: Hubert Tournier
+Author-email: nobody@nowhere.invalid
+License: BSD 3-Clause License
+Project-URL: Bug Tracker, https://github.com/Hubert Tournier/rot13/issues
+Keywords: pnu-project,unix
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Environment :: Console
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: End Users/Desktop
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Natural Language :: English
+Classifier: Operating System :: OS Independent
+Classifier: Operating System :: POSIX :: BSD :: FreeBSD
+Classifier: Operating System :: Microsoft :: Windows
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.0
+Classifier: Programming Language :: Python :: 3.1
+Classifier: Programming Language :: Python :: 3.2
+Classifier: Programming Language :: Python :: 3.3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Topic :: Communications :: Email :: Filters
+Classifier: Topic :: Communications :: Usenet News
+Classifier: Topic :: Games/Entertainment :: Fortune Cookies
+Classifier: Topic :: Security :: Cryptography
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Classifier: Topic :: System
+Classifier: Topic :: Text Processing :: Filters
+Classifier: Topic :: Utilities
+Requires-Python: >=3.0
+Description-Content-Type: text/markdown
+License-File: License
+
+# Installation
+pip install [pnu-rot13](https://pypi.org/project/pnu-rot13/)
+
+# ROT13(6), ROT13(3)
+This repository includes a command-line utility:
+* [rot13(6)](https://github.com/HubTou/rot13/blob/main/ROT13.6.md) - encrypt or decrypt caesar ciphers
+
+And a Python library:
+* [rot13(3)](https://github.com/HubTou/rot13/blob/main/ROT13.3.md) - return the ROTxx version of the given text
+
+
+
