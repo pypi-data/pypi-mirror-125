@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: sshxx
+Version: 1.0.1
+Summary: run command/script on remote hosts.
+Home-page: https://github.com/walkerever/yssh
+Author: Yonghang Wang
+Author-email: wyhang@gmail.com
+License: Apache 2
+Description: ## [doc on github.io](https://walkerever.github.io/)
+        
+        
+Keywords: ssh
+Platform: UNKNOWN
+Classifier: License :: OSI Approved :: Apache Software License
+Description-Content-Type: text/markdown
