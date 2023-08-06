@@ -1,0 +1,11 @@
+test_aide/__init__.py,sha256=uOH0FczpPHAFk9XSHGGQDpA7aVL9vqnoFXphgs-0ykA,203
+test_aide/_version.py,sha256=kUR5RAFc7HCeiqdlX36dZOHkUI5wI6V_43RpEcD8b-0,22
+test_aide/classes.py,sha256=WalW7zJc8xOr2EP_LvfvNeCETFcHgiqwHLViwmgm5nI,2861
+test_aide/equality.py,sha256=5WZDPgODYKKUeFpIIZfuJLvLPXT5UFkryipgGYytj_g,11917
+test_aide/functions.py,sha256=Rd-a33vpjR2_TTv5DOHy2VVPDe6FuK6_87RYv6Hy-HI,9485
+test_aide/pandas.py,sha256=G17eaSBjBbjmVsz2VGDbAclBcf6DMy-atcSKH7RPkjE,5122
+test_aide-0.1.0.dist-info/LICENSE,sha256=6QAt5JYEdmPxG6Xtdxe6kWhNX3tH_uQ5p_FnKVQL7-o,1550
+test_aide-0.1.0.dist-info/METADATA,sha256=qqaietkm0yfiUwp6BbPBwOB-E9iMbJjiUR8QJ4pEvBM,2683
+test_aide-0.1.0.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+test_aide-0.1.0.dist-info/top_level.txt,sha256=DrsOHVpAyI0q5TTq9BZjwb84cOc1kDsTxw6wljRvg9Y,10
+test_aide-0.1.0.dist-info/RECORD,,
