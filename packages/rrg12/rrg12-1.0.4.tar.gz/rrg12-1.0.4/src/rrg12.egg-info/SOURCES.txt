@@ -1,0 +1,13 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+src/rrg12/__init__.py
+src/rrg12/custom.py
+src/rrg12/enums.py
+src/rrg12/modbus.py
+src/rrg12.egg-info/PKG-INFO
+src/rrg12.egg-info/SOURCES.txt
+src/rrg12.egg-info/dependency_links.txt
+src/rrg12.egg-info/requires.txt
+src/rrg12.egg-info/top_level.txt
