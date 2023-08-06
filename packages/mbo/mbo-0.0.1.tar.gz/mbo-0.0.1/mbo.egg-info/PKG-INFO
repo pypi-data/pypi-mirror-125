@@ -1,0 +1,21 @@
+Metadata-Version: 2.1
+Name: mbo
+Version: 0.0.1
+Summary: Multiobjective Bayesian Optimization
+Home-page: https://github.com/basf/mbo
+Author: BASF SE
+License: BSD-3
+Description: # MBO
+        
+        ... under construction ...
+Keywords: Bayesian optimization,Multi-objective optimization,Experimental design
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Topic :: Scientific/Engineering
+Classifier: Intended Audience :: Science/Research
+Classifier: Intended Audience :: Developers
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+Provides-Extra: testing

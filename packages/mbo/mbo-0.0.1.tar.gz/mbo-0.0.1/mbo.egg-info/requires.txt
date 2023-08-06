@@ -1,0 +1,7 @@
+mopti
+numpy
+pandas
+scipy>=1.7
+
+[testing]
+pytest
