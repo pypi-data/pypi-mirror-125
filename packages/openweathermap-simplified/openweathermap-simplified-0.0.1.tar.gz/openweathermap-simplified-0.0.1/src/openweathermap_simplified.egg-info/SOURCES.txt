@@ -1,0 +1,11 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+src/openweathermap/__init__.py
+src/openweathermap/main.py
+src/openweathermap_simplified.egg-info/PKG-INFO
+src/openweathermap_simplified.egg-info/SOURCES.txt
+src/openweathermap_simplified.egg-info/dependency_links.txt
+src/openweathermap_simplified.egg-info/requires.txt
+src/openweathermap_simplified.egg-info/top_level.txt
