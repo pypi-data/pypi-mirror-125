@@ -1,0 +1,16 @@
+pandas
+XlsxWriter
+requests
+ftfy
+sh
+scipy
+networkx
+pytz
+date-extractor
+wikipedia-api
+seaborn
+strsim
+pyecharts
+rltk==2.0.0a20
+kgtk==1.0.1
+Unidecode
