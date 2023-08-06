@@ -1,0 +1,43 @@
+Metadata-Version: 2.1
+Name: meson-python
+Version: 0.1.0
+Summary: Meson Python build backend (PEP 517)
+Keywords: meson build backend pep517 package
+Home-page: https://github.com/FFY00/mesonpy
+Author-Email: Filipe Laíns <lains@riseup.net>
+Classifier: Development Status :: 4 - Beta
+Classifier: Programming Language :: Python
+Project-URL: Homepage, https://github.com/FFY00/mesonpy
+Project-URL: Repository, https://github.com/FFY00/mesonpy
+Project-URL: Documentation, https://mesonpy.readthedocs.io
+Project-URL: Changelog, https://mesonpy.readthedocs.io/en/latest/changelog.html
+Requires-Python: >=3.7
+Requires-Dist: meson>=0.60.0
+Requires-Dist: ninja
+Requires-Dist: tomli>=1.0.0
+Requires-Dist: pytest; extra == "test"
+Requires-Dist: pytest-cov; extra == "test"
+Requires-Dist: pytest-mock; extra == "test"
+Requires-Dist: GitPython; extra == "test"
+Requires-Dist: auditwheel; extra == "test"
+Requires-Dist: pep621>=0.4.0; extra == "test"
+Requires-Dist: furo>=2021.04.11b34; extra == "docs"
+Requires-Dist: sphinx~=3.0; extra == "docs"
+Provides-Extra: test
+Provides-Extra: docs
+Description-Content-Type: text/markdown
+
+# mesonpy
+
+[![pre-commit.ci status](https://results.pre-commit.ci/badge/github/FFY00/mesonpy/main.svg)](https://results.pre-commit.ci/latest/github/FFY00/mesonpy/main)
+[![checks](https://github.com/FFY00/mesonpy/actions/workflows/checks.yml/badge.svg)](https://github.com/FFY00/mesonpy/actions/workflows/checks.yml)
+[![tests](https://github.com/FFY00/mesonpy/actions/workflows/tests.yml/badge.svg)](https://github.com/FFY00/mesonpy/actions/workflows/tests.yml)
+[![codecov](https://codecov.io/gh/FFY00/mesonpy/branch/main/graph/badge.svg?token=xcb2u2YvVk)](https://codecov.io/gh/FFY00/mesonpy)
+
+Meson PEP 517 Python build backend.
+
+It works on both pure Python and compiled projects, and has *optional*
+[PEP 621](https://www.python.org/dev/peps/pep-0621/) metadata support.
+
+Currently, it cannot deal with Meson targets that use a custom install location,
+but support for this is in progress.
