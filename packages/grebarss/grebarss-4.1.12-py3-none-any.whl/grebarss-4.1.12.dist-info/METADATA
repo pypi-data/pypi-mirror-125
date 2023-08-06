@@ -1,0 +1,20 @@
+Metadata-Version: 2.1
+Name: grebarss
+Version: 4.1.12
+Summary: CLI utility for reading news
+Home-page: https://github.com/Greba3000/Homework
+Author: Alexander Hreben
+Author-email: greba3000@gmail.com
+License: MIT
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3.9
+Requires-Python: >=3.9
+License-File: LICENSE.txt
+Requires-Dist: Jinja2 (==3.0.1)
+Requires-Dist: pytest (==6.2.5)
+Requires-Dist: requests (==2.26.0)
+Requires-Dist: xmltodict (==0.12.0)
+Requires-Dist: xhtml2pdf (~=0.2.5)
+
+UNKNOWN
+

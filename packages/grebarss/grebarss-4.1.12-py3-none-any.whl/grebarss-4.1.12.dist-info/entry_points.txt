@@ -1,0 +1,4 @@
+[console_scripts]
+grebarss = grebarss_reader.rss_reader:main
+rss_reader = grebarss_reader.rss_reader:main
+
