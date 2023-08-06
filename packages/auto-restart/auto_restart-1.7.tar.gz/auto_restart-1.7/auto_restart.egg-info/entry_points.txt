@@ -1,0 +1,4 @@
+[console_scripts]
+auto_restart = auto_restart.auto_restart_when_git_changed:restart
+auto_restart_tool = auto_restart.auto_restart_when_git_changed:restart
+
