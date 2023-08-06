@@ -1,0 +1,10 @@
+maya_sdk/__init__.py,sha256=-Sg_Gsu0OvP_iymjvFz5yqvfB4ry6vKkiszcgvTI5_0,42
+maya_sdk/api_client.py,sha256=ecoqhmcshnAnsgP5pjgMGIa5e3-PJSgUcmCC5ks21h8,13919
+maya_sdk/client.py,sha256=BooYlXyOWeEapQkq-S7A9JLbqrtuFFm7pnlKaUNYvrU,1361
+maya_sdk/errors.py,sha256=FtnOwRrUjBbd1MvMRe8__Q_vWQlhnsnUQ19cfuRoNKM,47
+maya_sdk/version.py,sha256=CpXi3jGlx23RvRyU7iytOMZrnspdWw4yofS8lpP1AJU,18
+maya_sdk-0.1.0.dist-info/LICENSE,sha256=DQ8ipE2vD8QXRFBzPxXvDTHCUrT4tGqzOEdVQMOtJHk,1101
+maya_sdk-0.1.0.dist-info/METADATA,sha256=t08d0oHy0IjFsOJtD-Z64feZryyOSHrNv7_KWaBMh4A,1854
+maya_sdk-0.1.0.dist-info/WHEEL,sha256=WzZ8cwjh8l0jtULNjYq1Hpr-WCqCRgPr--TX4P5I1Wo,110
+maya_sdk-0.1.0.dist-info/top_level.txt,sha256=1OiAIuc0qD6GIYwTICGDgAHIRCYYOlmxRZNWpJ8mq3w,9
+maya_sdk-0.1.0.dist-info/RECORD,,
