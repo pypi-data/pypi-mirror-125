@@ -1,0 +1,7 @@
+setup.py
+lxwisbadwei/__init__.py
+lxwisbadwei.egg-info/PKG-INFO
+lxwisbadwei.egg-info/SOURCES.txt
+lxwisbadwei.egg-info/dependency_links.txt
+lxwisbadwei.egg-info/not-zip-safe
+lxwisbadwei.egg-info/top_level.txt
