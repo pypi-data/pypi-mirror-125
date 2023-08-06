@@ -1,0 +1,12 @@
+{
+    "dictionary": {
+        "hello": "world",
+        "new": "value"
+    },
+    "list": [
+        "a",
+        "new",
+        "b",
+        "c"
+    ]
+}
