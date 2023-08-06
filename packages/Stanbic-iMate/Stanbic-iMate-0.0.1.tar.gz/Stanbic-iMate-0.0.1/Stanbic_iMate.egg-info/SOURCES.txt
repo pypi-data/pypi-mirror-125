@@ -1,0 +1,12 @@
+LICENSE
+MANIFEST.in
+README.md
+pyproject.toml
+setup.cfg
+Stanbic_iMate.egg-info/PKG-INFO
+Stanbic_iMate.egg-info/SOURCES.txt
+Stanbic_iMate.egg-info/dependency_links.txt
+Stanbic_iMate.egg-info/top_level.txt
+iMate/__init__.py
+iMate/utils.py
+iMate/web.py
