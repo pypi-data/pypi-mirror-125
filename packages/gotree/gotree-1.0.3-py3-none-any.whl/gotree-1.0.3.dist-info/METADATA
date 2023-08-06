@@ -1,0 +1,218 @@
+Metadata-Version: 2.1
+Name: gotree
+Version: 1.0.3
+Summary: A new solution to tree
+Home-page: https://www.baidu.com
+Author: Newman Lv
+Author-email: 453276749@qq.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# Gotree Package
+
+New solution to tree！
+gotree.py是一个使用围棋树方法解决树的存取问题的全新解决方法,示例代码如下：
+# 机构：79软件
+# 作者：Newman
+
+from gotree import *
+
+#=============================MAIN BODY=============================
+
+# 数据库连接参数，可以定义多个，比如db_connect_parm，conn_params2，用于连接多个数据库，在类实例化时指定
+db_connect_parm = {'host': 'localhost', 'port': 3306, 'user': 'newman', 'passwd': '123456', 'db': 'gotree',
+                'charset': 'utf8'}
+
+#Mysql Table name to store gotree，可以根据需要自行修改
+tablename='gotree_tb01'
+
+
+#------------------检查根节点是否存在--------------------------------
+
+root_exist=check_root_exist(db_connect_parm,tablename)
+print(root_exist)
+
+'''
+#------------------插入根节点--------------------------------
+
+ndname='A'
+nddata='ROOT NODE A'
+fndname=''
+build_one_node(db_connect_parm,tablename,ndname,nddata,fndname,root=True)
+
+#------------------插入普通节点1--------------------------------
+
+ndname='B1'
+nddata='NODE B1,第二层，父节点是根节点A'
+fndname='A'
+build_one_node(db_connect_parm,tablename,ndname,nddata,fndname,root=False)
+
+
+#------------------插入普通节点2--------------------------------
+
+ndname='B2'
+nddata='NODE B2,第二层，父节点是根节点A，第二个子节点'
+fndname='A'
+build_one_node(db_connect_parm,tablename,ndname,nddata,fndname,root=False)
+
+#------------------插入普通节点3--------------------------------
+
+ndname='B3'
+nddata='NODE B3,第二层，父节点是根节点A，第三个子节点'
+fndname='A'
+build_one_node(db_connect_parm,tablename,ndname,nddata,fndname,root=False)
+
+#------------------插入普通节点4到6--------------------------------
+
+ndname='B4'
+nddata='NODE B4,第二层，父节点是根节点A，第4个子节点'
+fndname='A'
+build_one_node(db_connect_parm,tablename,ndname,nddata,fndname,root=False)
+
+ndname='B5'
+nddata='NODE B5,第二层，父节点是根节点A，第5个子节点'
+fndname='A'
+build_one_node(db_connect_parm,tablename,ndname,nddata,fndname,root=False)
+
+
+ndname='B6'
+nddata='NODE B6,第二层，父节点是根节点A，第6个子节点'
+fndname='A'
+build_one_node(db_connect_parm,tablename,ndname,nddata,fndname,root=False)
+
+#=====================从Excel文件生成围棋树=========================
+
+filename='D:\VipStock\Test\gotree_data\gotree1.xlsx'
+#filename='D:\VipStock\Test\gotree_data\gotreesun.xlsx'
+headers=1
+excel2tree(db_connect_parm,tablename,filename,headers=1)
+
+#=====================从json文件生成围棋树=========================
+
+filename='D:\VipStock\Test\gotree_data\gotree1.json'
+json2tree(db_connect_parm,tablename,filename)
+
+#=====================从CSV文件生成围棋树=========================
+
+filename='D:\VipStock\Test\gotree_data\gotree1.csv'
+csv2tree(db_connect_parm,tablename,filename)
+
+#=====================从围棋树下载到Excel=========================
+
+filename='D:\VipStock\Test\gotree_data\gotreeb1.xlsx'
+#filename='D:\VipStock\Test\gotree_data\gotreebsun.xlsx'
+tree2excel(db_connect_parm,tablename,filename)
+
+#=====================从围棋树下载到csv=========================
+
+#filename='D:\VipStock\Test\gotree_data\gotreeb1.csv'
+filename='D:\VipStock\Test\gotree_data\gotreeb1-157077条记录.csv'
+tree2csv(db_connect_parm,tablename,filename)
+
+#=====================从围棋树下载到json=========================
+
+#filename='D:\VipStock\Test\gotree_data\gotreeb1.json'
+filename='D:\VipStock\Test\gotree_data\gotreeb1-157077条记录.json'
+tree2json(db_connect_parm,tablename,filename)
+
+#======================修改节点数据========================
+
+ndname='B3'
+nddata='修改过的记录！This is Node B2,Father-- is Node A,in the second level!好！很好！'
+rowcount=updnamedata(db_connect_parm,tablename,ndname,nddata)
+print('修改的记录个数为：',rowcount)
+
+#======================获取节点数据========================
+
+ndname='B3'
+result=getnamedata(db_connect_parm,tablename,ndname)
+print('节点信息为：',result)
+
+#======================获取树的高度========================
+
+result=getheight(db_connect_parm,tablename,)
+print('树的高度为：',result)
+
+#======================获取树的节点总数======================
+count=getnodecount(db_connect_parm,tablename,)
+print('节点总数为：',count)
+
+#======================树的逆生长，插入新root节点========================
+newndname='new1 root'
+newnddata='This is new1 root,new1 root!'
+inversegrowth(db_connect_parm,tablename,newndname,newnddata)
+
+#======================获取根节点的第n代子孙个数及节点名字========================
+n=5
+result=getrootdescendant(db_connect_parm,tablename,n)
+print('后代个数和名字为：',result)
+#======================获取普通节点的第n代子孙个数及节点名字========================
+n=2
+#n=1
+#ndname='B2'
+#ndname='Bx2'
+#ndname='A'
+ndname='Me241Pc759Rh730Gn559Yg363'
+result=getndnamedescendant(db_connect_parm,tablename,ndname,n)
+print('后代个数和名字为：',result)
+
+
+#======================获取节点的儿女个数和名字======================
+#ndname='B1'
+ndname='Eu604Px569Co722Kn632Be120'
+lst=getndnamechildren(db_conn_parm,tablename,ndname)
+print(lst)
+
+
+#======================获取节点的父节点个数和名字======================
+#ndname='B1'
+ndname='Av455Ne781Wn788Hw347Wd274'
+lst=getndnameparent(db_connect_parm,tablename,ndname)
+print(lst)
+
+
+#======================获取节点的第n代祖先节点个数和名字======================
+#ndname='C12'
+ndname='Av455Ne781Wn788Hw347Wd274'
+n=2
+lst=getndnameancestors(db_connect_parm,tablename,ndname,n)
+print(lst)
+
+
+#======================显示整颗围棋树的树形图，树形展示======================
+#graphtree(db_connect_parm,tablename)
+
+#======================显示围棋树的子树树形图，树形展示======================
+#ndname='孙权'
+#ndname='BZ1'
+#ndname='B1'
+#ndname='Av455Ne781Wn788Hw347Wd274'   #文件太大，超过2048K，报错
+ndname='Me241Pc759Rh730Gn559Yg363'
+graphsubtree(db_connect_parm,tablename,ndname)
+
+#ndname='孙和'              #叶节点，最底层
+#graphsubtree(db_connect_parm,tablename,ndname)
+
+#ndname='孙策'              #叶节点，不是最底层
+#graphsubtree(db_connect_parm,tablename,ndname)
+
+#ndname='B1'
+#graphsubtree(db_connect_parm,tablename,ndname)
+
+#ndname='C68'
+#graphsubtree(db_connect_parm,tablename,ndname)
+
+#ndname='C67'
+#graphsubtree(db_connect_parm,tablename,ndname)
+
+ndname='Zz32961UZz3265'
+graphsubtree(db_connect_parm,tablename,ndname)
+    
+
+
+
