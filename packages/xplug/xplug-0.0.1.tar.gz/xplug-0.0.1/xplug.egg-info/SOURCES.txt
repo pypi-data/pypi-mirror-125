@@ -1,0 +1,7 @@
+README.md
+setup.py
+xplug/__init__.py
+xplug.egg-info/PKG-INFO
+xplug.egg-info/SOURCES.txt
+xplug.egg-info/dependency_links.txt
+xplug.egg-info/top_level.txt
