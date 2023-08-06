@@ -1,0 +1,8 @@
+Babel
+future
+imagesize
+jinja2
+path.py
+pillow>=6
+ruamel.yaml
+tqdm
