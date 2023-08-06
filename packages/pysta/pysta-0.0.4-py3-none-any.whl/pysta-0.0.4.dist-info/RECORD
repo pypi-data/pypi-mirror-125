@@ -1,0 +1,10 @@
+sta/__init__.py,sha256=DH0qrA1pwPcIU8MI70EcxyC-EL-16igT25I62xS33xA,796
+sta/cli.py,sha256=HY6cThGoJcm1V2O2SbfV3O0oX27dlkxaz56BHqx7jsM,887
+sta/definitions.py,sha256=WiXs6c2mwjmklq5csy0dnTl71oan0AvnwjdzFQIutjw,2714
+sta/sta_client.py,sha256=9zv-WhFiS1ERp3Z6UWsgtFsJWR2hOXGVzWzEQvxMLtY,12317
+pysta-0.0.4.dist-info/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+pysta-0.0.4.dist-info/METADATA,sha256=uamq6G_rGp8u8Rm-ziBdWmx_69TEhGJ7fmL0h2yKxA4,423
+pysta-0.0.4.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+pysta-0.0.4.dist-info/entry_points.txt,sha256=E9uuae_LQxZmFMV9-3BtWTshT5OkjNU1gzalJmywhTQ,37
+pysta-0.0.4.dist-info/top_level.txt,sha256=xC4UjLx4x8uOPPtpinowsYsajHIZ3uUSK4Afqmwkt_U,4
+pysta-0.0.4.dist-info/RECORD,,
