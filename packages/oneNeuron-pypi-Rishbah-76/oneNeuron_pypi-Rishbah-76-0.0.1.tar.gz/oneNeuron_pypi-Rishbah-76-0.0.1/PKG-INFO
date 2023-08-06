@@ -1,0 +1,24 @@
+Metadata-Version: 2.1
+Name: oneNeuron_pypi-Rishbah-76
+Version: 0.0.1
+Summary: It is a Pereceptron Implementation
+Home-page: https://github.com/Rishbah-76/oneNeuron_pypi
+Author: Rishbah-76
+Author-email: rbrishabh76@example.com
+License: UNKNOWN
+Project-URL: Bug Tracker, https://github.com/Rishbah-76/oneNeuron_pypi/issues
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# oneNeuron_pypi
+oneNeuron_pypi | Perceptron Pypi Package
+
+# Referecnce -
+[Official Python Package](https://packaging.python.org/tutorials/packaging-projects/)
+[Github official Doc for Github actions](https://docs.github.com/en/actions/automating-builds-and-tests/building-and-testing-python)
+
