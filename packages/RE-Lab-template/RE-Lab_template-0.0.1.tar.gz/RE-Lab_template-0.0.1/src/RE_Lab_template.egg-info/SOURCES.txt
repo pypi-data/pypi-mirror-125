@@ -1,0 +1,9 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+src/RE_Lab_template.egg-info/PKG-INFO
+src/RE_Lab_template.egg-info/SOURCES.txt
+src/RE_Lab_template.egg-info/dependency_links.txt
+src/RE_Lab_template.egg-info/requires.txt
+src/RE_Lab_template.egg-info/top_level.txt
