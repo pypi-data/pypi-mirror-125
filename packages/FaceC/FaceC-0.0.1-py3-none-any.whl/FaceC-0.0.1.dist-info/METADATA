@@ -1,0 +1,21 @@
+Metadata-Version: 2.1
+Name: FaceC
+Version: 0.0.1
+Summary: Access your webcam and track your face
+Home-page: UNKNOWN
+Author: Goldenninja
+Author-email: 
+License: UNKNOWN
+Keywords: python,face detector,face
+Platform: UNKNOWN
+Classifier: Development Status :: 1 - Planning
+Classifier: Intended Audience :: Developers
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: Unix
+Classifier: Operating System :: Microsoft :: Windows
+License-File: LICENSE
+Requires-Dist: opencv-python
+Requires-Dist: mediapipe
+
+UNKNOWN
+
