@@ -1,0 +1,10 @@
+LICENSE
+README.md
+setup.py
+lempdf/__init__.py
+lempdf/pdf2image.py
+lempdf/pdf2text.py
+macpdf.egg-info/PKG-INFO
+macpdf.egg-info/SOURCES.txt
+macpdf.egg-info/dependency_links.txt
+macpdf.egg-info/top_level.txt
