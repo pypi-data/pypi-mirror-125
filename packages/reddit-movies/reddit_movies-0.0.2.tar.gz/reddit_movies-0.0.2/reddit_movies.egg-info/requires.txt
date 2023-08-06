@@ -1,0 +1,3 @@
+json_database
+feedparser
+beautifulsoup4

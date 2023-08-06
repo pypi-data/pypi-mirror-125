@@ -1,0 +1,7 @@
+setup.py
+reddit_movies/__init__.py
+reddit_movies.egg-info/PKG-INFO
+reddit_movies.egg-info/SOURCES.txt
+reddit_movies.egg-info/dependency_links.txt
+reddit_movies.egg-info/requires.txt
+reddit_movies.egg-info/top_level.txt
