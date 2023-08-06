@@ -1,0 +1,13 @@
+numpy
+pandas
+scipy
+scikit-image
+pyqtgraph>=0.12.3
+Pillow
+qdarkstyle
+matplotlib
+utilitys>=0.4.3
+
+[:python_version < "3.8"]
+typing_extensions
+importlib_metadata
