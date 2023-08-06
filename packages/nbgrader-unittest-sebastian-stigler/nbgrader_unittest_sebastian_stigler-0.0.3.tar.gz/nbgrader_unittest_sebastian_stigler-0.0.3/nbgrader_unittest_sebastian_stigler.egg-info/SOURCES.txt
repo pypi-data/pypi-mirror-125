@@ -1,0 +1,10 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+nbgrader_unittest/__init__.py
+nbgrader_unittest/mock.py
+nbgrader_unittest_sebastian_stigler.egg-info/PKG-INFO
+nbgrader_unittest_sebastian_stigler.egg-info/SOURCES.txt
+nbgrader_unittest_sebastian_stigler.egg-info/dependency_links.txt
+nbgrader_unittest_sebastian_stigler.egg-info/top_level.txt

@@ -1,0 +1,83 @@
+Metadata-Version: 2.1
+Name: nbgrader_unittest_sebastian_stigler
+Version: 0.0.3
+Summary: Drop-in replacement for the unittest module to use them in tests for nbgrader assignments.
+Home-page: https://in-stigler.htw-aalen.de/gitea/tools/nbgrader_unittest
+Author: Sebastian Stigler
+Author-email: sebastian.stigler@hs-aalen.de
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# nbgrader_unittest
+
+Drop-in replacement for the unittest module to use them in tests for
+[nbgrader][nbgrader] assignments.
+
+You can use this module just like the [unittest][unittest] module. Just don't
+call the `main` function to run the tests. Use the `run_nbgrader_test`
+function instead.
+
+If your tests all pass, no output will be generated and nbgrader will assign
+full marks to this cell.  If one of your tests fail, the usual unittest output
+will be created and printed to `sys.stderr` and no marks will be assigned to
+this cell in nbgrader.
+
+## Example
+
+You prepare a new jupyter notebook assignment with parts, that should be
+autograded with [nbgrader][nbgrader].Your assignment could be something like
+this:
+
+> Write a function that returns a list of numbers, such that $x_i=i^2$, for
+> $1 \leq i \leq n$. Make sure it handles the case where $n<1$ by raising a
+> `ValueError`.
+
+Your code cell with the "Autograded answer" will look like this:
+
+```python
+def squares(n):
+    """Compute the squares of numbers from 1 to n, such that the 
+    ith element of the returned list equals i^2.
+    
+    """
+    ### BEGIN SOLUTION
+    if n < 1:
+        raise ValueError("n must be greater than or equal to 1")
+    return [x**2 for x in range(1, n + 1)]
+    ### END SOLUTION
+```
+
+In a new code cell you put your "Autograder test":
+
+```python
+import nbgrader_unittest
+
+class SquaresTests(nbgrader_unittest.TestCase):
+
+    def test_square_of_one(self):
+        self.assertEqual(squares(1), [1])
+   
+    def test_squares_up_to_ten(self):
+       self.assertEqual(
+           squares(10),
+           [1, 4, 9, 16, 25, 36, 49, 64, 81, 100]
+       )
+
+    def test_negative_argument(self):
+        with self.assertRaises(ValueError):
+            squares(-4)
+
+nbgrader_unittest.run_nbgrader_test(SquaresTests)
+```
+
+
+[nbgrader]: https://nbgrader.readthedocs.io/en/stable/
+[unittest]: https://docs.python.org/3/library/unittest.html
+
+
