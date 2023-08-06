@@ -1,0 +1,62 @@
+Metadata-Version: 2.1
+Name: back-cleaner
+Version: 0.0.1
+Summary: Server-side Python tool for escaping script tags and converting characters into HTML entity equivalents (no regex)
+Home-page: https://github.com/Rairye/back-cleaner
+Author: Rairye
+License: apache-2.0
+Download-URL: https://github.com/Rairye/back-cleaner/archive/refs/tags/v0.0.1.tar.gz
+Keywords: HTML,entities,script,escape,serverside
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: End Users/Desktop
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.1
+Classifier: Programming Language :: Python :: 3.2
+Classifier: Programming Language :: Python :: 3.3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Description-Content-Type: text/markdown
+License-File: LICENSE.txt
+
+# back-cleaner
+Server-side Python tool for escaping script tags and converting characters into HTML entity equivalents (no regex).
+
+## def escape_script_tags(input_str)
+
+This function escapes script tags with backslashes.
+
+
+### Sample
+
+from back_cleaner.cleaner import escape_script_tags
+
+source = "<script>Hey, how are you doing?</script>"
+result = escape_script_tags(source)
+print(result)
+
+
+## def replace_with_ents(input_str)
+
+This function converts the following characters into the HTML entity equivalents.
+
+1. Ampersand (&)
+2. Less than (<)
+3. Greater than (>)
+4. Double quote (")
+5. Single quote (')
+
+
+### Sample
+
+from back_cleaner.cleaner import replace_with_ents
+
+source = "<script>Hey, how are you doing?</script>"
+result = replace_with_ents(source)
+print(result)
+
+
