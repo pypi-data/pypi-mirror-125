@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: JMBG Validator
+Version: 1.0.0
+Summary: Validira i ispisuje osnovne podatke o JMBGu. EN: Validates and displays basic UMCN data.
+Home-page: https://github.com/ivica-k
+Author: Ivica Kolenkaš
+License: MPL2.0
+Platform: UNKNOWN
+Requires-Python: >=3.7
+License-File: LICENSE.md
+
+UNKNOWN
+
