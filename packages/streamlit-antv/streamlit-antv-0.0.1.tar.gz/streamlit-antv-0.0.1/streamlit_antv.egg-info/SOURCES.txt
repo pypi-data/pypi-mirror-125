@@ -1,0 +1,13 @@
+MANIFEST.in
+README.md
+setup.py
+g6/__init__.py
+g6/frontend/dist/index.html
+g6/frontend/dist/assets/favicon.63a26457.svg
+g6/frontend/dist/assets/index.7fdeb11a.js
+g6/frontend/dist/assets/vendor.6ca40707.js
+streamlit_antv.egg-info/PKG-INFO
+streamlit_antv.egg-info/SOURCES.txt
+streamlit_antv.egg-info/dependency_links.txt
+streamlit_antv.egg-info/requires.txt
+streamlit_antv.egg-info/top_level.txt
