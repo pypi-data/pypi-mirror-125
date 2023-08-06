@@ -1,0 +1,10 @@
+jaggpy/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+jaggpy/asp_solver.py,sha256=-6ZEsa9O_sUoU0ZsS3hxCDLOVP7YfVBEPN2sP9m7PrQ,9833
+jaggpy/bf_solver.py,sha256=AAWX2KCDfitXJjON0gXQx8-5BLtY8MVIY2KoF-IebHk,11419
+jaggpy/classes.py,sha256=Woa96w2RNa9kAfAEUKKSa_-i5zZYcz_4zuG_Yi2wYI0,10164
+jaggpy/parser.py,sha256=J5fm-LbobIQzlzhB32yMYnOEV-kL0V3B1CxvsURNgVw,10440
+jaggpy-0.1.dist-info/LICENSE,sha256=4KkLelqjvYNO_A6MrOTE-pV-sivKIBbbz7c1U1tlfLc,1071
+jaggpy-0.1.dist-info/METADATA,sha256=MWBkYgREM3m422tIQxEM6dU-Jm79FQ5OVNt6EX-4NnQ,10833
+jaggpy-0.1.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+jaggpy-0.1.dist-info/top_level.txt,sha256=OGGsM1cCaRypNGl8DkNSLmobsd0dmPTdybO2ZtNZVok,7
+jaggpy-0.1.dist-info/RECORD,,
