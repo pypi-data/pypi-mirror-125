@@ -1,0 +1,13 @@
+LICENSE
+MANIFEST.in
+README.md
+pyproject.toml
+setup.cfg
+src/tgedr/pipeline/source/__init__.py
+src/tgedr/pipeline/source/ticker_live_lorikeet.py
+src/tgedr_pipeline_source.egg-info/PKG-INFO
+src/tgedr_pipeline_source.egg-info/SOURCES.txt
+src/tgedr_pipeline_source.egg-info/dependency_links.txt
+src/tgedr_pipeline_source.egg-info/requires.txt
+src/tgedr_pipeline_source.egg-info/top_level.txt
+test/test_ticker_live_lorikeet.py

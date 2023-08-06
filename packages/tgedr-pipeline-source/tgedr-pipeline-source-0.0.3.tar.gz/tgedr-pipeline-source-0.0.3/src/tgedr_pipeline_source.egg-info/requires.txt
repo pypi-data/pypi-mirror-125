@@ -1,0 +1,4 @@
+pytest
+configlookup
+tgedr-pipeline-common==0.1.10
+yahoo-fin==0.8.9.1

@@ -1,0 +1,23 @@
+Metadata-Version: 2.1
+Name: tgedr-pipeline-source
+Version: 0.0.3
+Summary: this package provides pipeline source implementations
+Home-page: https://github.com/tgedr/pipeline-source
+Author: joao tiago viegas
+Author-email: jtviegas.js@gmail.com
+License: Unlicense
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# pipeline-source
+this package provides pipeline source implementations
+
+## ticker live lorikeet
+pipeline source that retrieves the latest info on a stock ticker, see the tests for details on how to use
+
+
+
+
