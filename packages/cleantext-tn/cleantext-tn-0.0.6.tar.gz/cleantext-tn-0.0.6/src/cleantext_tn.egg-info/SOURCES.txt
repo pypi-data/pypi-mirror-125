@@ -1,0 +1,11 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+src/CleanText/__init__.py
+src/CleanText/clean_data.py
+src/cleantext_tn.egg-info/PKG-INFO
+src/cleantext_tn.egg-info/SOURCES.txt
+src/cleantext_tn.egg-info/dependency_links.txt
+src/cleantext_tn.egg-info/requires.txt
+src/cleantext_tn.egg-info/top_level.txt
