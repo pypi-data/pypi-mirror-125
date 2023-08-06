@@ -1,0 +1,8 @@
+pyuvdata>=2.2.0
+astropy>=3.0
+setuptools_scm
+
+[testing]
+pytest>=6.0
+pytest-cov
+pre-commit
