@@ -1,0 +1,11 @@
+ukrdc_sqla/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+ukrdc_sqla/empi.py,sha256=PfPcf3PobLV-pyZBpf8T-zK9IXZiKOHqClz73RFHT9c,6677
+ukrdc_sqla/errorsdb.py,sha256=AGHq67EXQdIHNcQYxJaOx89s8Mf2QQ-Z5SzXIwzdmXM,1006
+ukrdc_sqla/pkb.py,sha256=BRKC8KhsO_dJz78m5tRIGZZAeHJ8MwjtzrmXeC25NZE,350
+ukrdc_sqla/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+ukrdc_sqla/stats.py,sha256=fiCfkfWSnfWCuPQTvg905vEITZdAgLsnufwgd5gLMrQ,1312
+ukrdc_sqla/ukrdc.py,sha256=ewD0dYLWCj0rqsQ4kut27xPZSVRB_19B0-soViypIak,29326
+ukrdc_sqla-1.8.2.dist-info/LICENSE,sha256=SlAViSJl-vqJPEU-AcUqYIUzJAuoj-aaoKZsbLNwYjk,1074
+ukrdc_sqla-1.8.2.dist-info/WHEEL,sha256=N0LZrBtofpkS5mJXgVHTCEy52Sam4D6PHQWC8HnMeTs,83
+ukrdc_sqla-1.8.2.dist-info/METADATA,sha256=yGzpv4eWae-SVv4m3MsiyfdIY8E6n28_u8vQYa4XJ_c,2354
+ukrdc_sqla-1.8.2.dist-info/RECORD,,
