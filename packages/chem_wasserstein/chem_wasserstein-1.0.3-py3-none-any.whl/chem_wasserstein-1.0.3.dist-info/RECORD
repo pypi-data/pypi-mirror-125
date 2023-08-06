@@ -1,0 +1,11 @@
+chem_wasserstein/ElM2D_.py,sha256=z5oCwVrU6TduxYgZSj97mlzIPviLIVEPFu0uk316tgQ,33111
+chem_wasserstein/ElM2D_0-4-0_ElMD_0-4-3.csv,sha256=47Z0_bvK1vR-k2M0b3uUbPBatLOyAOmeipMPIOVxUNY,6250500
+chem_wasserstein/__init__.py,sha256=p3ToLACecGhuW9OEXVL-BYYv87C908fsCDiBcG3hhZU,135
+chem_wasserstein/meta.yaml,sha256=ItT1edkpyrKhMWcFKuOPuNoDZVbCIYT_Y6TxEWbjnMQ,1068
+chem_wasserstein/test_ElM2D.py,sha256=3A9atCilRTTo_AbHoRtiH_8OWYR_GSp0m4JGKeLf6fA,4941
+chem_wasserstein/train-debug.csv,sha256=I-7kQoU3LXi70ZWzUg4B_hmEHB4oYtj0Tx26pX4i7cI,3669
+chem_wasserstein/utils/Timer.py,sha256=BaC3_Z_-i_J7sFCdODGd6Y-iQItVmD_USixIrxVOOhs,839
+chem_wasserstein-1.0.3.dist-info/LICENSE,sha256=IwGE9guuL-ryRPEKi6wFPI_zOhg7zDZbTYuHbSt_SAk,35823
+chem_wasserstein-1.0.3.dist-info/WHEEL,sha256=pVNS5wRGlMB8qzi0M1coslDk7i694hS7VxZqRXRntY4,81
+chem_wasserstein-1.0.3.dist-info/METADATA,sha256=6McEhhgqfHP_SozqWTxxJYQ4MQ_zVfrJELnuIBRgITc,7215
+chem_wasserstein-1.0.3.dist-info/RECORD,,
