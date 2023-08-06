@@ -1,0 +1,12 @@
+sani_nlu/__init__.py,sha256=L5WdVvnzri6BRvcnqfyYDLpspQeH466scm-sMeNHWjs,202
+sani_nlu/constants.py,sha256=WoVYTa0O1YIR1YJAhuAxtI_dim9lfGY7lQlYwXOs7UU,177
+sani_nlu/utils.py,sha256=k7YfBiTkfyXJaOfswG3lhrpFfIzF77v5KZ9YDBwaoSs,868
+sani_nlu/extractors/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+sani_nlu/extractors/flair_extractor.py,sha256=xwGT2j54cmMQUK3ehLtlAF-tOPUGmPgD-cIeqVEtc58,3649
+sani_nlu/extractors/overlap_extractor.py,sha256=6IZVYIVT6sLtj_OBSWYsYCC_MWs7y3DjuTzxL-jYfmo,3441
+sani_nlu/tokenizers/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+sani_nlu/tokenizers/vietnamese_tokenizer.py,sha256=8OnhMN2REAZs_KsCSDwkkRaw8jBRx-VBbIlUull6JWU,4710
+sani_nlu-1.0.1.dist-info/METADATA,sha256=AS9HWlsMlJxeOQCQ7Lr9xXIA4XDaIy2Cb56pmNXLFTo,388
+sani_nlu-1.0.1.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+sani_nlu-1.0.1.dist-info/top_level.txt,sha256=vtBbhFsRn5eqFf6BlQxEbHd-kr0-Lda75XODerCP058,9
+sani_nlu-1.0.1.dist-info/RECORD,,
