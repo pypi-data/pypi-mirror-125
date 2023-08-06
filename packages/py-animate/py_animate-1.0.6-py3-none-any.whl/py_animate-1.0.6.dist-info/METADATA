@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: py-animate
+Version: 1.0.6
+Summary: Animate is an interpreter written in Python which reads commands from an Excel file and some bitmap images and composes an animation with these commands. It can make simple animations, but also much more complex ones. No Python knowledge is needed to use the library.
+Home-page: https://github.com/henkjannl/py-animate.git
+Author: HenkJan van der Pol
+Author-email: henkjannospam@gmail.com
+License: UNKNOWN
+Project-URL: Bug Tracker, https://github.com/henkjannl/py-animate/issues
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.0
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+https://github.com/henkjannl/py-animate/blob/main/README.md
+
