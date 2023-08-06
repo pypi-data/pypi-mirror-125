@@ -1,0 +1,38 @@
+Metadata-Version: 2.1
+Name: hqvfx
+Version: 0.0.3
+Summary: Base libraries for visual effects content production pipeline
+Home-page: https://github.com/hqvfx/hqvfx
+Author: HQ VFX TECHNOLOGIES
+Author-email: developers@hqvfx.com
+License: UNKNOWN
+Project-URL: Bug Tracker, https://github.com/hqvfx/hqvfx/issues
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# HQ VFX PIPELINE
+### Base Libraries Packages for VFX Pipeline
+
+![alt text](https://hqvfx.com/wp-content/uploads/2021/10/hqvfx-technologies.png)
+
+
+    Base libraries for visual effects content production pipeline
+    Copyright (C) 2021  HQ VFX TECHNOLOGIES
+    Website: www.hqvfx.com
+    Email: contact@hqvfx.com
+    This program is free software: you can redistribute it and/or modify
+    it under the terms of the GNU General Public License as published by
+    the Free Software Foundation, either version 3 of the License, or
+    (at your option) any later version.
+
+    This program is distributed in the hope that it will be useful,
+    but WITHOUT ANY WARRANTY; without even the implied warranty of
+    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+    GNU General Public License for more details.
+
+
