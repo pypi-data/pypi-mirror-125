@@ -1,0 +1,23 @@
+Metadata-Version: 2.1
+Name: pybfbc2stats
+Version: 0.1.2
+Summary: Simple Python library for retrieving statistics of Battlefield: Bad Company 2 players
+Home-page: https://github.com/cetteup/pybfbc2stats
+Author: cetteup
+Author-email: me@cetteup.com
+License: MIT
+Project-URL: Bug Tracker, https://github.com/cetteup/pybfbc2stats/issues
+Platform: UNKNOWN
+Classifier: Development Status :: 2 - Pre-Alpha
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE.md
+
+# pybfbc2stats
+
+Simple Python 🐍 library for retrieving statistics of Battlefield: Bad Company 2 players. Possible thanks to previous work by Luigi Auriemma and nemo.
+
