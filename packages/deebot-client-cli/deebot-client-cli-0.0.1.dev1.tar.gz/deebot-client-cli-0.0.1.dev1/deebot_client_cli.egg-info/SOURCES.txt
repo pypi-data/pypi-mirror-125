@@ -1,0 +1,8 @@
+LICENSE.txt
+README.md
+setup.cfg
+setup.py
+deebot_client_cli.egg-info/PKG-INFO
+deebot_client_cli.egg-info/SOURCES.txt
+deebot_client_cli.egg-info/dependency_links.txt
+deebot_client_cli.egg-info/top_level.txt
