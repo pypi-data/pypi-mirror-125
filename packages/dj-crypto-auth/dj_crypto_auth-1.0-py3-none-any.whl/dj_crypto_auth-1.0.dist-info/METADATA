@@ -1,0 +1,27 @@
+Metadata-Version: 2.1
+Name: dj-crypto-auth
+Version: 1.0
+Summary: Crypto Authentication App for Django
+Home-page: https://github.com/maliex4mix4/dj-crypto-auth
+Author: maliexmix2021
+Author-email: malikopeyemi5@gmail.com
+Maintainer: maliexmi2021
+Maintainer-email: malikopeyemi5@gmail.com
+License: MIT
+Keywords: django Crypto Authentication
+Platform: UNKNOWN
+Classifier: Environment :: Web Environment
+Classifier: Framework :: Django
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Description-Content-Type: text/x-rst
+License-File: LICENSE
+
+UNKNOWN
+
