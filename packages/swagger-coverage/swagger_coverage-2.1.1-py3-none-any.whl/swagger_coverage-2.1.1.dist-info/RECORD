@@ -1,0 +1,17 @@
+swagger_coverage_py/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+swagger_coverage_py/configs.py,sha256=PLOrfbAo6TTNZyLe5EpGygi3RpV5yGqxQOMkU5mOOWQ,155
+swagger_coverage_py/listener.py,sha256=8vdaLBxOgcwEbz4MErlYKx4h0RpJtQG02pOWliPTn0M,1158
+swagger_coverage_py/reporter.py,sha256=QokA7OAY9PqGFJjg87r0xBK0-swKpTndDnJE_y0SWrY,2541
+swagger_coverage_py/request_schema_handler.py,sha256=yuhXUrFuHEjOw1ImzgQ7dEyMfe8lHDvUNGy4xJZF08I,932
+swagger_coverage_py/uri.py,sha256=nrWg__qBHhXD7n-kamckQOs_Mk4BVgRYjxuOiBEw6Q8,301
+swagger_coverage_py/docs_writers/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+swagger_coverage_py/docs_writers/api_doc_writer.py,sha256=RnYyd17A4U5ii25f0LK28q9QuKvc41l-fxAqBrJ9Dlk,335
+swagger_coverage_py/results_writers/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+swagger_coverage_py/results_writers/base_schemas_manager.py,sha256=0YoHp445rWLFIZ2tJscso3RupN5qZ0wvioHYskXBB2I,3069
+swagger_coverage_py/results_writers/openapi_schemas_manager.py,sha256=Y_hgVSRs8ukRHKZRzq7alOVvGcfGcCb55rVQA-hxiss,1133
+swagger_coverage_py/results_writers/swagger_schemas_manager.py,sha256=CECcGBYk3-3ien22d90mVcM5wgXIlAe52dtfKhqAEj8,1635
+swagger_coverage-2.1.1.dist-info/LICENSE,sha256=v01c4epDMEz8swOv1BoxDGoG5OEzDymK4CbXKy-AVN4,1062
+swagger_coverage-2.1.1.dist-info/METADATA,sha256=e_NVpvg4Ok0oASsgwDcRzOWK-2lssX8uqKQ5b7IF-L0,7901
+swagger_coverage-2.1.1.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+swagger_coverage-2.1.1.dist-info/top_level.txt,sha256=hYSp8V6lXs6ZgePhsHA6oeK3Ii1t-dqbIeexFRB1Gio,20
+swagger_coverage-2.1.1.dist-info/RECORD,,
