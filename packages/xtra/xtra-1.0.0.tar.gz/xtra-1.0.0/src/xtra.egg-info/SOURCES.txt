@@ -1,0 +1,9 @@
+LICENSE
+README.md
+setup.py
+src/xtra/__init__.py
+src/xtra/my_class.py
+src/xtra.egg-info/PKG-INFO
+src/xtra.egg-info/SOURCES.txt
+src/xtra.egg-info/dependency_links.txt
+src/xtra.egg-info/top_level.txt
