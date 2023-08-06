@@ -1,0 +1,84 @@
+{
+  "app": "superset",
+  "entrypoints": {
+    "preamble": {
+      "css": [],
+      "js": [
+        "/static/assets/vendors.e30aebc8.chunk.js",
+        "/static/assets/preamble.e30aebc8.entry.js"
+      ]
+    },
+    "theme": {
+      "css": [],
+      "js": [
+        "/static/assets/theme.e30aebc8.entry.js"
+      ]
+    },
+    "menu": {
+      "css": [],
+      "js": [
+        "/static/assets/vendors.e30aebc8.chunk.js",
+        "/static/assets/3.e30aebc8.chunk.js",
+        "/static/assets/menu.e30aebc8.entry.js"
+      ]
+    },
+    "spa": {
+      "css": [],
+      "js": [
+        "/static/assets/vendors.e30aebc8.chunk.js",
+        "/static/assets/mathjs.e30aebc8.chunk.js",
+        "/static/assets/thumbnail.e30aebc8.chunk.js",
+        "/static/assets/3.e30aebc8.chunk.js",
+        "/static/assets/4.e30aebc8.chunk.js",
+        "/static/assets/5.e30aebc8.chunk.js",
+        "/static/assets/spa.e30aebc8.entry.js"
+      ]
+    },
+    "addSlice": {
+      "css": [],
+      "js": [
+        "/static/assets/vendors.e30aebc8.chunk.js",
+        "/static/assets/mathjs.e30aebc8.chunk.js",
+        "/static/assets/thumbnail.e30aebc8.chunk.js",
+        "/static/assets/3.e30aebc8.chunk.js",
+        "/static/assets/4.e30aebc8.chunk.js",
+        "/static/assets/addSlice.e30aebc8.entry.js"
+      ]
+    },
+    "explore": {
+      "css": [],
+      "js": [
+        "/static/assets/vendors.e30aebc8.chunk.js",
+        "/static/assets/mathjs.e30aebc8.chunk.js",
+        "/static/assets/thumbnail.e30aebc8.chunk.js",
+        "/static/assets/3.e30aebc8.chunk.js",
+        "/static/assets/4.e30aebc8.chunk.js",
+        "/static/assets/5.e30aebc8.chunk.js",
+        "/static/assets/explore.e30aebc8.entry.js"
+      ]
+    },
+    "sqllab": {
+      "css": [],
+      "js": [
+        "/static/assets/vendors.e30aebc8.chunk.js",
+        "/static/assets/3.e30aebc8.chunk.js",
+        "/static/assets/sqllab.e30aebc8.entry.js"
+      ]
+    },
+    "profile": {
+      "css": [],
+      "js": [
+        "/static/assets/vendors.e30aebc8.chunk.js",
+        "/static/assets/3.e30aebc8.chunk.js",
+        "/static/assets/profile.e30aebc8.entry.js"
+      ]
+    },
+    "showSavedQuery": {
+      "css": [],
+      "js": [
+        "/static/assets/vendors.e30aebc8.chunk.js",
+        "/static/assets/showSavedQuery.e30aebc8.entry.js"
+      ]
+    }
+  }
+}
