@@ -1,0 +1,9 @@
+LICENSE.md
+MANIFEST.in
+README.md
+setup.py
+pypest.egg-info/PKG-INFO
+pypest.egg-info/SOURCES.txt
+pypest.egg-info/dependency_links.txt
+pypest.egg-info/requires.txt
+pypest.egg-info/top_level.txt
