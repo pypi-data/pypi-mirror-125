@@ -1,0 +1,9 @@
+LICENSE
+README.md
+setup.py
+pr0xyP3sr/__init__.py
+pr0xyP3sr/pr0xyP3sr.py
+pr0xyP3sr.egg-info/PKG-INFO
+pr0xyP3sr.egg-info/SOURCES.txt
+pr0xyP3sr.egg-info/dependency_links.txt
+pr0xyP3sr.egg-info/top_level.txt
