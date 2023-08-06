@@ -1,0 +1,20 @@
+Metadata-Version: 2.1
+Name: booklet-splitter
+Version: 0.0.1
+Summary: Make booklets out of pdf files
+Home-page: https://github.com/fanchuo/booklet_splitter
+Author: François Sécherre
+Author-email: secherre.nospam@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+License-File: LICENSE
+Requires-Dist: PyPDF2 (==1.26.0)
+Provides-Extra: tests
+Requires-Dist: coverage (==6.0.2) ; extra == 'tests'
+Requires-Dist: flake8 (==4.0.1) ; extra == 'tests'
+Requires-Dist: black (==21.9b0) ; extra == 'tests'
+Requires-Dist: twine (==3.4.2) ; extra == 'tests'
+
+UNKNOWN
+
