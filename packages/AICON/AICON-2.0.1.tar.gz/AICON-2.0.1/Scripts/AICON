@@ -1,0 +1,111 @@
+#!/usr/bin/env python
+
+"""
+Created on Mon Apr  6 14:49:27 2020
+
+@author: nwpuf
+"""
+
+import sys
+import os
+import numpy as np
+from aicon.electron import Electron
+from aicon.phonon import Phonon
+from aicon.tools import get_highsympath
+
+
+def get_parser():
+    import argparse
+    parser = argparse.ArgumentParser(description="AICON command-line-tool")
+    parser.set_defaults(electron=False, phonon=False, temperature=None, tmax=None, tmin=None, tstep=None,
+                        dope=None, dope_max=None, dope_min=None, dope_step=None, mode='standard', highpath=False, noSB=False)
+    parser.add_argument("--elec", dest="electron", action="store_true", help="Calculate electrical conductivity")
+    parser.add_argument("--phon", dest="phonon", action="store_true", help="Calculate lattice thermal conductivity")
+    parser.add_argument("-m", "--mode", dest="mode", help="mode for electrical conductivity calculation, either standard or doping")
+    parser.add_argument("-t", "--temperature", nargs='+', dest="temperature", help="Specified temperature")
+    parser.add_argument("--tmax", dest="tmax", type=float, help="Maximum calculated temperature")
+    parser.add_argument("--tmin", dest="tmin", type=float, help="Minimum calculated temperature")
+    parser.add_argument("--tstep", dest="tstep", type=float, help="Calculated temperature step")
+    parser.add_argument("-d", "--dope", nargs='+', dest="dope", help="Specified carrier concentration")
+    parser.add_argument("--dope_max", dest="dope_max", type=float, help="Maximum calculated carrier concentration")
+    parser.add_argument("--dope_min", dest="dope_min", type=float, help="Minimum calculated carrier concentration")
+    parser.add_argument("--dope_step", dest="dope_step", type=float, help="Calculated concentration step")
+    parser.add_argument("--highpath", dest="highpath", action="store_true", help="Obtain high-symmetry path")
+    parser.add_argument("--noSB", dest="noSB", action="store_true", help="Disable second band calculation")
+    parser.add_argument("--scale", dest="scale", action="store_true", help="If multiply a scaling factor with Kappa")
+    
+    return parser
+
+
+def Get_Electron(filepath, Temp, dope, mode, ifSB):
+    '''For electron transport properties calculation '''    
+    Compound = Electron()
+    Compound.Get_bandstru(filepath + "equi/")
+    Compound.Get_values(filepath, Temp, dope, mode, ifSB=ifSB)
+    Compound.Output(Temp, dope, mode)
+
+    
+def Get_Phonon(filepath, Temp, ifscale):
+    '''For lattice thermal conductivity calculation '''
+    kappa = Phonon(filepath)
+    kappa.Get_Kappa(filepath, Temp, ifscale=ifscale)
+    kappa.Output(Temp)
+    
+
+if __name__ == '__main__':
+    '''AICON for transport properties calculation '''
+    parser = get_parser()
+    args = parser.parse_args()
+    if args.electron:
+        mode = args.mode
+        if args.temperature is not None:
+            Temp = np.array([float(i) for i in args.temperature])
+        elif args.tmax is not None:
+            Temp = np.arange(args.tmin, args.tmax+args.tstep, args.tstep)
+        else:
+            raise ValueError("Temperature or temperature range must be specified!")
+            
+        if mode == 'doping':
+            if args.dope is not None:
+                Dope = np.array([float(i) for i in args.dope])
+            elif args.dope_max is not None:
+                Dope = np.arange(args.dope_min, args.dope_max+args.dope_step, args.dope_step)
+            else:
+                raise ValueError("Carrier concentration or its range must be specified in doping mode!")
+        else:
+            Dope = args.dope
+        
+        if args.noSB:
+            ifSB = False
+        else: 
+            ifSB = True
+
+        Get_Electron("./", Temp, Dope, mode, ifSB)
+        
+    elif args.phonon:
+        if args.highpath:
+            filepath = os.getcwd()
+            if os.path.exists(filepath + '/POSCAR'):
+                get_highsympath('POSCAR')
+            else:
+                raise ValueError('No structure file found in current directory!')
+
+            sys.exit(0)
+            
+        if args.temperature is not None:
+            Temp = np.array([float(i) for i in args.temperature])
+        elif args.tmax is not None:
+            Temp = np.arange(args.tmin, args.tmax+args.tstep, args.tstep)
+        else:
+            raise ValueError("Temperature or temperature range must be specified!")
+
+        if args.scale:
+            ifscale = True
+        else:
+            ifscale = False
+            
+        Get_Phonon("./", Temp, ifscale)
+        
+    else:
+        raise ValueError("Must specify electron or phonon calculation!")    
+
