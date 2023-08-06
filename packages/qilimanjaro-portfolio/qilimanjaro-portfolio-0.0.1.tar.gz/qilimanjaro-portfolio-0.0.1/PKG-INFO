@@ -1,0 +1,22 @@
+Metadata-Version: 2.1
+Name: qilimanjaro-portfolio
+Version: 0.0.1
+Summary: Qilimanjaro Portfolio Library
+Home-page: https://github.com/qilimanjaro-tech/qili-portfolio-library
+Author: Qilimanjaro team
+Author-email: info@qilimanjaro.tech
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: Topic :: Scientific/Engineering :: Physics
+Requires-Python: >=3.6.0
+Description-Content-Type: text/markdown
+Provides-Extra: docs
+Provides-Extra: tests
+License-File: LICENSE
+
+# Qilimanjaro Portfolio
+
+Qilimanjaro algorithms portfolio repository packaged in a Python library
+
+
