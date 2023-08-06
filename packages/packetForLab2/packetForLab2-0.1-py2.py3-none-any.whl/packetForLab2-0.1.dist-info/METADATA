@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: packetForLab2
+Version: 0.1
+Summary: Package for lab2
+Home-page: UNKNOWN
+Author: UNKNOWN
+Author-email: UNKNOWN
+License: UNKNOWN
+Platform: UNKNOWN
+Requires-Dist: pandas (<0.23)
+
+UNKNOWN
+
+
