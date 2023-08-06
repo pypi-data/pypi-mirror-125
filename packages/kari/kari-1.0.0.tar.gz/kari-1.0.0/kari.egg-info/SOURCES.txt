@@ -1,0 +1,8 @@
+README.md
+setup.py
+kari/__init__.py
+kari/kari.py
+kari.egg-info/PKG-INFO
+kari.egg-info/SOURCES.txt
+kari.egg-info/dependency_links.txt
+kari.egg-info/top_level.txt
