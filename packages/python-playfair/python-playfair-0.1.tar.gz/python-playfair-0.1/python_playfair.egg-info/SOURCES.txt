@@ -1,0 +1,10 @@
+LICENSE
+README.rst
+pyproject.toml
+setup.py
+python_playfair.egg-info/PKG-INFO
+python_playfair.egg-info/SOURCES.txt
+python_playfair.egg-info/dependency_links.txt
+python_playfair.egg-info/not-zip-safe
+python_playfair.egg-info/requires.txt
+python_playfair.egg-info/top_level.txt
