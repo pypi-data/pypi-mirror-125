@@ -1,0 +1,12 @@
+[compiler]
+# compiler_name = icc
+# linker_name = icc -shared
+# extra_libs = /usr/lib
+
+[mkl]
+sdl = True
+# root = ~/.local/lib:/usr/lib
+
+[threading]
+omp_loops = True
+threaded_mkl = False
