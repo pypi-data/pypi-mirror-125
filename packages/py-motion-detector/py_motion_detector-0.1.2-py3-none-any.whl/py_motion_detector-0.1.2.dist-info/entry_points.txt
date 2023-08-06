@@ -1,0 +1,3 @@
+[console_scripts]
+py-motion-detector=py_motion_detector.cli:init
+
