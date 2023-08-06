@@ -1,0 +1,76 @@
+#!python
+
+# example use: jrepo https://github.com/NVIDIA/DeepLearningExamples/blob/master/PyTorch/Detection/SSD/examples/inference.ipynb
+
+import sys
+import subprocess
+from urllib.parse import urlparse
+import http.client
+import time
+import pathlib
+
+
+if __name__ == "__main__":
+    if len(sys.argv) < 2:
+      print("use: jrepo.py <git repo URL>")
+      sys.exit(1)
+
+    SCRIPT_DIR = str(pathlib.Path(__file__).parent.absolute())
+
+    purl = sys.argv[1]
+
+    parsed = urlparse(purl)
+#    print(parsed)
+
+    ppath = parsed.path.split('/')
+    git_user = ppath[1]
+    repo = ppath[2]
+    blobtree = ppath[3]
+    branch = ppath[4]
+    filepath = '/'.join(ppath[5:])
+
+
+    base_url = git_user + "/" + repo + "/" + blobtree + "/" + branch
+
+    found_dir = None
+    rel_fname = None
+    for i in range(len(ppath)-1 , 4, -1):
+        conn = http.client.HTTPSConnection(parsed.netloc)
+        d = '/'.join(ppath[5:i])
+        rf = '/'.join(ppath[i:])
+        if i > 5:
+          dir = "/" + base_url + "/" + d
+        else:
+          dir = "/" + base_url 
+        u = dir + "/" + 'Dockerfile'
+        print("checking: " + u)
+        conn.request("HEAD", u)
+        r1 = conn.getresponse()
+        if r1.status == 200:
+          print("Found: " + u + " rel_fname: " + rf)
+          found_dir = d
+          rel_fname = rf
+          break
+
+        conn.close()
+
+    RANDOM_PORT = "56661" 
+    if found_dir is not None:
+      # jupyter-repo2docker --ref 9ced85dd9a84859d0767369e58f33912a214a3cf --subdir blah https://github.com/norvig/pytudes
+      str = SCRIPT_DIR + "/jupyter-repo2docker --ref " + branch + " -p " + RANDOM_PORT + ":" + RANDOM_PORT
+      if d != "":
+    	  str = str +  " --subdir " + d
+      str = str + " "  + parsed.scheme + "://" + parsed.netloc + "/" + git_user + "/" + repo + " " + "jupyter lab --ip=0.0.0.0 --allow-root"
+      str = str + " --port " + RANDOM_PORT + " --NotebookApp.token=''" + " --NotebookApp.custom_display_url=http://127.0.0.1:" + RANDOM_PORT + " --no-browser"
+      print(str)
+
+      browser_url = "http://127.0.0.1:" + RANDOM_PORT + "/lab/tree/" + rel_fname
+      print(browser_url)
+      out = subprocess.run(["/bin/bash", "-c", str + " &"])
+      print(out)
+      print("sleeping") 
+      time.sleep(20)
+      print("launching browser") 
+      subprocess.run(["/usr/bin/x-www-browser", browser_url], stdout=subprocess.PIPE).stdout
+    else:
+      print("Could not find a docker file, unable to launch!")

@@ -1,0 +1,19 @@
+ARG FROM_IMAGE=mattf/spark-jupyter:alpha-3.1.2-hadoop3.2-accelerator21.06.0
+FROM ${FROM_IMAGE}
+#  AS build
+
+# ENTRYPOINT
+# EXPOSE 8888/tcp
+
+RUN curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.38.0/install.sh | bash &&  \. "$HOME/.nvm/nvm.sh" && nvm install node && jupyter lab build --dev-build=False --minimize=False --name='spark:3.1.2'
+# apparently, we need this to build jupyter lab below
+# change name of the jupyter window
+
+# make the mounted data directory show up in the home jupyter lab dir
+# VOLUME ["/data"]
+
+# FROM ${FROM_IMAGE}
+# COPY --from=build /usr/local/share/jupyter/lab /usr/local/share/jupyter/lab
+# RUN ln -s /data ./data
+ENV PATH /usr/bin/versions/node/v16.6.1/bin/:$PATH
+# CMD /run-jupyter
