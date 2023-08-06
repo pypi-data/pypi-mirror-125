@@ -1,0 +1,8 @@
+audacitorch/__init__.py,sha256=bQDUyl9GFRUT3sX0hIV1hWMgfOkWf80rXmTIaNwKW7c,39
+audacitorch/core.py,sha256=ryNaYnzWZcDyjRuV6oqwOPn7cFnP80btUbDkyefAdA8,3593
+audacitorch/utils.py,sha256=yleRSUJ2BnKFa_28Gh8yr7IBjukjOgYRZwI1pP6p3tw,3222
+audacitorch-0.0.1.dist-info/LICENSE,sha256=jN3NytZeX4WO5B_-ZpG2z9ZkZpmmXcvAlOyqAfHTO7Y,1073
+audacitorch-0.0.1.dist-info/METADATA,sha256=nGKDOSvGbeMw0dbTuYsJSC7xAzHWtNorBnDpQywL5TQ,15322
+audacitorch-0.0.1.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+audacitorch-0.0.1.dist-info/top_level.txt,sha256=fekSnDpr3OJUMoHGpiRUaUCg3HT3tuSjYApd4-s6Gm4,12
+audacitorch-0.0.1.dist-info/RECORD,,
