@@ -1,0 +1,9 @@
+numpy
+scipy
+audioread
+pyaudio
+wcwidth
+appdirs
+
+[:python_version < "3.7"]
+dataclasses
