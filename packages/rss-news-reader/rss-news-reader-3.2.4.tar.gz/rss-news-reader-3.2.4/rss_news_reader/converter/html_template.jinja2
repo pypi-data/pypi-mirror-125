@@ -1,0 +1,111 @@
+{# Basic HTML template for feeds conversion. #}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>News</title>
+    <style>
+        @font-face {
+            font-family: DejaVuSans;
+            src: url("{{ fonts + "\DejaVuSans.ttf" }}");
+        }
+
+        @font-face {
+            font-family: DejaVuSans;
+            src: url("{{ fonts + "\DejaVuSans-Bold.ttf" }}");
+            font-weight: bold;
+        }
+
+        body {
+            -pdf-word-wrap: CJK;
+            font-family: DejaVuSans;
+        }
+
+
+        header {
+            padding: 2rem;
+        }
+
+        .container {
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            padding: 5px;
+        }
+
+        .feed_image {
+            width: 250px;
+            margin: 5px;
+            max-width: 250px;
+            max-height: 250px;
+        }
+
+        .feed_title {
+            margin: 10px;
+        }
+
+        .items {
+            padding: 1rem;
+        }
+
+        .item {
+            padding-bottom: 1rem;
+        }
+    </style>
+</head>
+<body>
+<main>
+    {% for feed in feeds %}
+        <div lang={{ feed.language }}>
+            <div class="container">
+                <img class="feed_image" src={{ feed.image }} alt="feed_image"/>
+                <h1 class="feed_title">{{ feed.title }}</h1>
+            </div>
+
+            <h2>{{ feed.description }}</h2>
+            <section class="items">
+                {% for item in feed.items %}
+                    <article class="item">
+                        {% if item.title %}
+                            <h3 class="item_title">{{ item.title }}</h3>
+                        {% endif %}
+                        {% if item.pubDate %}
+                            <p class="publish_date">{{ item.pubDate }}</p>
+                        {% endif %}
+                        {% if item.link %}
+                            <a href="{{ item.link }}">{{ item.link }}</a>
+                        {% endif %}
+                        <div class="description">
+                            <p class="description_text">{{ item.description }}</p>
+                            {% for link_type in item.links.keys() %}
+                                {% if link_type == "images" and item.links[link_type] %}
+                                    <p>Images:</p>
+                                    <div class="container">
+                                        {% for link in item.links[link_type] %}
+                                            <img class="feed_image" src={{ link }} alt="feed_image"/>
+                                        {% endfor %}
+                                    </div>
+                                {% endif %}
+                                {% if link_type == "audios" and item.links[link_type] %}
+                                    <ul>Audios:</ul>
+                                    {% for link in item.links[link_type] %}
+                                        <li><a href={{ link }}>{{ link }}</a></li>
+                                    {% endfor %}
+                                {% endif %}
+                                {% if link_type == "others" and item.links[link_type] %}
+                                    <ul>Other links:</ul>
+                                    {% for link in item.links[link_type] %}
+                                        <li><a href={{ link }}>{{ link }}</a></li>
+                                    {% endfor %}
+                                {% endif %}
+                            {% endfor %}
+                        </div>
+                    </article>
+                {% endfor %}
+            </section>
+        </div>
+    {% endfor %}
+</main>
+</body>
+</html>
