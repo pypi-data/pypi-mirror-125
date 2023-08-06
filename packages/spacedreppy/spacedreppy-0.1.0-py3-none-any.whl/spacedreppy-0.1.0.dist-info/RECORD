@@ -1,0 +1,8 @@
+spacedreppy/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+spacedreppy/schedulers/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+spacedreppy/schedulers/sm2.py,sha256=svT4grvJJh-__c9CA7g90XfhxfZKfNkDtAW2JXtSCjA,2406
+spacedreppy/schedulers/spaced_repetition_scheduler.py,sha256=uffq0O7kLS16UfpEhWfKXRdAAF-vwbdCubFKGntvTck,763
+spacedreppy-0.1.0.dist-info/LICENSE,sha256=zKwsOADYT6lEnvT4olrVhj6qxTkn--0Yzmbw29WmpUc,1094
+spacedreppy-0.1.0.dist-info/WHEEL,sha256=y3eDiaFVSNTPbgzfNn0nYn5tEn1cX6WrdetDlQM4xWw,83
+spacedreppy-0.1.0.dist-info/METADATA,sha256=Qg1SHGdKoiqLYEprOZ3qorQ5D5xuiU3lJycEaAskmKs,564
+spacedreppy-0.1.0.dist-info/RECORD,,
