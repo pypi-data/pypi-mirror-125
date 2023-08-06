@@ -1,0 +1,10 @@
+fps_uvicorn/__init__.py,sha256=pPnzx7WA1SAtvQkiB23HxjjDfm1VLoONIpAkMVFqp4A,53
+fps_uvicorn/_version.py,sha256=gcwS1A-72UCyNBbsqQRvHBI6WSVVvzIcs3yafp8Z_7A,72
+fps_uvicorn/cli.py,sha256=H35bazFnHj5fZxyhMlWOBO_rFK9vbkX8MFz4q7j1ErA,4529
+fps_uvicorn/config.py,sha256=NIpfQpQOUJyXy7jvIfAACP1WMRoMMrc2z_HuQ-tLJos,401
+fps_uvicorn-0.0.3.dist-info/LICENSE,sha256=Pq_RKgBCIf768nCDHks1Uva57tVp_blxPrsG-DTjeYQ,1486
+fps_uvicorn-0.0.3.dist-info/METADATA,sha256=fTiEiOf2DGXgsKt_2QECvt9h1DtZGJhfz3lk-6iJYGM,764
+fps_uvicorn-0.0.3.dist-info/WHEEL,sha256=Z-nyYpwrcSqxfdux5Mbn_DQ525iP7J2DG3JgGvOYyTQ,110
+fps_uvicorn-0.0.3.dist-info/entry_points.txt,sha256=kXWceirVgiT-3cS5nMD8bhDQAq9i7LEwcXdrVwf6X-Y,107
+fps_uvicorn-0.0.3.dist-info/top_level.txt,sha256=kG9Y6ZIE8W-KUgq7edqYh7d6bRPwVk3fvTzHimXSMWg,12
+fps_uvicorn-0.0.3.dist-info/RECORD,,
