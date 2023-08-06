@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: plot-ellipse
+Version: 1.0.1
+Summary: Easily plot 2D ellipses with matplotlib.
+Home-page: http://github.com/nkern/plot_ellipse
+Author: Nicholas Kern
+License: UNKNOWN
+Platform: UNKNOWN
+Requires-Python: >=2.7
+License-File: LICENSE
+
+Easily plot 2D ellipses with matplotlib. Accepts 2x2 covariance matrices and plots confidence regions.
+
