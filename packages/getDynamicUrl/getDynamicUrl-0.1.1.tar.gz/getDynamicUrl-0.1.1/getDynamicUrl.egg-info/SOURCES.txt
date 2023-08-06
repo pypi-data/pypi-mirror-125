@@ -1,0 +1,16 @@
+CHANGELOG.txt
+LICENCE.txt
+MANIFEST.in
+README.md
+requirements.txt
+setup.py
+dynamic_url/__init__.py
+dynamic_url/functions.py
+dynamic_url/url.py
+getDynamicUrl.egg-info/PKG-INFO
+getDynamicUrl.egg-info/SOURCES.txt
+getDynamicUrl.egg-info/dependency_links.txt
+getDynamicUrl.egg-info/requires.txt
+getDynamicUrl.egg-info/top_level.txt
+test/__init__.py
+test/dynamic_url_test.py
