@@ -1,0 +1,8 @@
+tftrainer/__init__.py,sha256=PKPJG6N8l_0uQUehPiL3tpnQ8k8DpvNY-2qZuEHttq0,134
+tftrainer/optimizer.py,sha256=r8AqtwLFOZP38E1SkN3f0bjNl20rDPyCSS-Wl2MgxmE,2391
+tftrainer/trainarguments.py,sha256=ma78kejhpzOqwUGOudKoLHu5xFVKJ4v5cgAyWqRkcDI,2706
+tftrainer/trainer.py,sha256=Zz19QPsQeTyCs_MgdSfSGObXMQIg5ytC7klj54siN-8,9340
+TFTrainer-0.1.4.dist-info/METADATA,sha256=oD_qfc7Fi6omFPNk7Nd7r7rk2CXg-fA1c-AegRiDhxM,589
+TFTrainer-0.1.4.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+TFTrainer-0.1.4.dist-info/top_level.txt,sha256=i7fWofOxdG3UPWN7lBB8s6G5OQlACE6zibfrRTssU9I,10
+TFTrainer-0.1.4.dist-info/RECORD,,
