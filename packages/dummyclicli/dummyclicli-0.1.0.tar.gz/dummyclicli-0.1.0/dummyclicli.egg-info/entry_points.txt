@@ -1,0 +1,3 @@
+[console_scripts]
+dummycli = dummyclicli.dummyclicli:main
+
