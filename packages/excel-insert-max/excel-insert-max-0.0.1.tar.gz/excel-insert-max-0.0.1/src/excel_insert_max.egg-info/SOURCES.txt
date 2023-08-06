@@ -1,0 +1,10 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+src/excel_insert_max.egg-info/PKG-INFO
+src/excel_insert_max.egg-info/SOURCES.txt
+src/excel_insert_max.egg-info/dependency_links.txt
+src/excel_insert_max.egg-info/top_level.txt
+src/excel_util/__init__.py
+src/excel_util/mk_book.py
