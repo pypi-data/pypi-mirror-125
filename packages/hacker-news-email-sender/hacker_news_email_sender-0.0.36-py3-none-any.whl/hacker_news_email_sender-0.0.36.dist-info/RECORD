@@ -1,0 +1,10 @@
+hacker_news_email_sender/__init__.py,sha256=BK2_v56gGazyYpuTwB-ADlZ9uQe7ZLqFAmpKK-wU470,85
+hacker_news_email_sender/__main__.py,sha256=22kxp3AsyyOfZ5kyL4SUwQGvA6_rwgppinPm3V4czB4,938
+hacker_news_email_sender/base.py,sha256=bv4EV8gy-B_C1HfKzfZR7HkwjwVJMXcGQGclzW5tTg4,616
+hacker_news_email_sender/newsExctractor.py,sha256=CjTiiNHCbp85kETpjjjb1mPh1X_EQQpbAOsDC0f-kE4,2605
+hacker_news_email_sender-0.0.36.dist-info/LICENSE,sha256=awOCsWJ58m_2kBQwBUGWejVqZm6wuRtCL2hi9rfa0X4,1211
+hacker_news_email_sender-0.0.36.dist-info/METADATA,sha256=rsn67TNyhbQRlF5eV4ynEhx-SfLjPAs90sMKz232xUQ,3885
+hacker_news_email_sender-0.0.36.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+hacker_news_email_sender-0.0.36.dist-info/entry_points.txt,sha256=7a67CVhAUbWcf-Epy3wbxL9O6OshrG8dp_fajySjzM0,85
+hacker_news_email_sender-0.0.36.dist-info/top_level.txt,sha256=Qq7G9mV_rsjYdj2Daje8n138W9g301FDCFR4qND1O2w,25
+hacker_news_email_sender-0.0.36.dist-info/RECORD,,
