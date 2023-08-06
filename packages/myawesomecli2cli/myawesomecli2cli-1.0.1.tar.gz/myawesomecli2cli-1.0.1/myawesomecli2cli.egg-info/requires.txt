@@ -1,0 +1,2 @@
+coloredlogs~=10.0
+myawesometest2lib~=0.1.0
