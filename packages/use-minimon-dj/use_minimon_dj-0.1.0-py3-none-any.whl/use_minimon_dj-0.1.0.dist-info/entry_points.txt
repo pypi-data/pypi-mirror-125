@@ -1,0 +1,3 @@
+[console_scripts]
+mm-flashing = use_minimon.flashing:main
+
