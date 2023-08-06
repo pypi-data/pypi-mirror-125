@@ -1,0 +1,68 @@
+Metadata-Version: 2.1
+Name: login_tracker
+Version: 0.2
+Summary: A Django app to conduct Web-based login_tracker.
+Home-page: https://github.com/doddahulugappa/login-tracker
+Author: Doddahulugappa
+Author-email: doddahulugappa@gmail.com
+License: BSD-3-Clause
+Project-URL: Bug Tracker, https://github.com/doddahulugappa/login-tracker/issues
+Platform: UNKNOWN
+Classifier: Environment :: Web Environment
+Classifier: Framework :: Django
+Classifier: Framework :: Django :: 3.2
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Topic :: Internet :: WWW/HTTP
+Classifier: Topic :: Internet :: WWW/HTTP :: Dynamic Content
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+
+Login Tracker
+-------------
+
+login_tracker is a Django reusable app to track logins.
+It keeps  track of all the login history
+
+Install
+------------
+
+
+    
+
+
+Quick start
+-----------
+1. Install login tracker:: 
+  
+      pip install login-tracker
+      or
+      pip install git+https://github.com/doddahulugappa/login-tracker.git
+
+
+2. Add "login_tracker" to your INSTALLED_APPS setting like this::
+
+    INSTALLED_APPS = [
+        ...
+        'login_tracker',
+    ]
+
+3. Include the login_tracker URLconf in your project urls.py like this::
+
+    path('login_tracker/', include('login_tracker.urls')),
+
+4. Run ``python manage.py migrate`` to create the login_tracker models.
+
+5. Login into your django admin panel and you will be able see the Login History Tracker under LOGIN_TRACKER App
+
+
+
