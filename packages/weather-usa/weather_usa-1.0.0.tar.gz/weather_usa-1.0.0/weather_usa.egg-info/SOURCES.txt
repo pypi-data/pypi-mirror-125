@@ -1,0 +1,9 @@
+LICENSE
+LICENSE.md
+README.md
+setup.py
+weather_usa.egg-info/PKG-INFO
+weather_usa.egg-info/SOURCES.txt
+weather_usa.egg-info/dependency_links.txt
+weather_usa.egg-info/requires.txt
+weather_usa.egg-info/top_level.txt
