@@ -1,0 +1,8 @@
+postgres_fixture/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+postgres_fixture/analysis.py,sha256=d-a66BjTHgdlLm88Hgkw6-QLRANxPKoAqM2N56eMr0w,246
+postgres_fixture/db.py,sha256=cx057QMeiSc-pHmAcqjWLidWZDd8Sx2QfEN9NGL9nNs,1658
+postgres_fixture/postgres_fixture.py,sha256=luhnAX8EdVYmACWwz0PHp9VKNDWSKkedljNgFKmxkxU,3681
+postgres_fixture-0.1.0.dist-info/entry_points.txt,sha256=NGShaPROqKZ8X8ReE4zDp4RYhvczbOCuhLs4UQmS8fY,76
+postgres_fixture-0.1.0.dist-info/WHEEL,sha256=N0LZrBtofpkS5mJXgVHTCEy52Sam4D6PHQWC8HnMeTs,83
+postgres_fixture-0.1.0.dist-info/METADATA,sha256=yjlu5X8QneZSxQXgfc6Xh4SFAxcgFL868FRcy7CIueg,423
+postgres_fixture-0.1.0.dist-info/RECORD,,

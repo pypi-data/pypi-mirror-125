@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: postgres-fixture
+Version: 0.1.0
+Summary: 
+Author: peder2911
+Author-email: pglandsverk@gmail.com
+Requires-Python: >=3.8,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Requires-Dist: SQLAlchemy (>=1.4.26,<2.0.0)
+Requires-Dist: click (>=8.0.3,<9.0.0)
+Requires-Dist: psycopg2 (>=2.9.1,<3.0.0)
