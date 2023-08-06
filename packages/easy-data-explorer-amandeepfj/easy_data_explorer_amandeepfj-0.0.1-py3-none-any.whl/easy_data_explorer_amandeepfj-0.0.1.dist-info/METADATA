@@ -1,0 +1,31 @@
+Metadata-Version: 2.1
+Name: easy-data-explorer-amandeepfj
+Version: 0.0.1
+Summary: Easy Data Explorer
+Home-page: https://github.com/amandeepfj/easy_data_explorer
+Author: amandeepfj (Amandeep Jiddewar)
+Author-email: <amandeep.jiddewar@alumni.emory.edu>
+License: UNKNOWN
+Project-URL: Bug Tracker, https://github.com/amandeepfj/easy_data_explorer/issues
+Keywords: python,data explore
+Platform: UNKNOWN
+Classifier: Development Status :: 1 - Planning
+Classifier: Intended Audience :: Developers
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: Unix
+Classifier: Operating System :: MacOS :: MacOS X
+Classifier: Operating System :: Microsoft :: Windows
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: pandas
+Requires-Dist: numpy
+
+# Easy Data Explorer
+Python library to do common data exploring tasks 
+
+## To build
+
++ `python3 setup.py sdist bdist_wheel`
++ 
+
