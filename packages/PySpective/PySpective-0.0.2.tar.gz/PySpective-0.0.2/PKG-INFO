@@ -1,0 +1,31 @@
+Metadata-Version: 2.1
+Name: PySpective
+Version: 0.0.2
+Summary: A Google's Perspective API wrapper
+Home-page: https://github.com/Brain-Flooder/PySpective/
+Author: Brain-Flooder
+Author-email: brainflooder9985@gmail.com
+License: UNKNOWN
+Description: # PySpective
+        ## About
+        You totallly wondering: "Who is this guy?" or "What is this?"
+        
+        Welp, 1st question: "I'm a student who use free time for coding."
+        
+        2nd question: "This is a simplified version of Google's Perspective API which is kinda easy to use."
+        ## Installation
+        To install, use
+        ```pip install PySpective```
+        ## Example
+        ```
+        from pyspective import pyspective
+        
+        perspective = pyspective.PyspectiveAPI('Your-API-key')
+        print(perspective.score('hi'))
+        ```
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
