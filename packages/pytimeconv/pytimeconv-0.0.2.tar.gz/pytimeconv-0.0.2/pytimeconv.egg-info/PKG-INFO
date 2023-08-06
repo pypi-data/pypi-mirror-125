@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: pytimeconv
+Version: 0.0.2
+Summary: Basic time conversion module
+Home-page: https://github.com/Ichunjo/pytimeconv
+Author: Vardë
+Author-email: ichunjo.le.terrible@gmail.com
+License: UNKNOWN
+Description: # pytimeconv
+        Micro package for time conversion
+        
+Platform: UNKNOWN
+Classifier: Intended Audience :: Developers
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.9
+Description-Content-Type: text/markdown
