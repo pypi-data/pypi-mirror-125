@@ -1,0 +1,81 @@
+
+[![Build and Test , Package PyPI](https://github.com/arita37/myutil/actions/workflows/build%20and%20release.yml/badge.svg)](https://github.com/arita37/myutil/actions/workflows/build%20and%20release.yml)
+
+[     https://pypi.org/project/utilmy/#history ](https://pypi.org/project/utilmy/#history)
+
+
+# myutil
+    1000s of One liner function utilities.
+    
+    https://pypi.org/project/utilmy/#history
+
+
+
+# Documentation
+
+    pip install --upgrade utilmy
+
+    https://github.com/arita37/myutil/issues/127
+   
+
+
+# How to contribute ?
+
+   This package is looking for contributors. 
+   Please check here:
+   https://github.com/arita37/myutil/issues/144
+   
+    
+
+
+# Usage examples
+ 
+  https://colab.research.google.com/drive/12rpbgH3WYcQq3jtl9vzEYeVdu9a9GOM_?usp=sharing
+ 
+  https://colab.research.google.com/drive/1NYQZrfAPqbuLCt9yhVROLMRJM-RrFYWr#scrollTo=Rrho08zYe6Gj
+
+  https://colab.research.google.com/drive/1NYQZrfAPqbuLCt9yhVROLMRJM-RrFYWr#scrollTo=2zMKv6MXOJJu
+
+
+
+
+
+
+# Install for dev
+    git clone  https://github.com/arita37/myutil.git
+    git checkout newbranch
+    cd myutil
+    pip install -e .
+
+
+
+## Other usages
+
+ ```
+   #### Save current python session on disk.
+   from utilmy import Session
+   sess = Session("ztmp/session")
+   
+   
+   aabb = 'ok'
+   
+   
+   
+   ### Save Python sesison
+   sess.save('mysess', globals(),)
+   sess.show()
+   
+   
+   ### Reload session
+   del aabb
+   sess.load('mysess', )
+   print(aabb)
+   
+   
+   
+ ```
+ 
+ 
+
+
+
