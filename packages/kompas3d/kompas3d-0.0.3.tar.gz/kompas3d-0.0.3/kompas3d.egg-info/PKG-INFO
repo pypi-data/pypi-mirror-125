@@ -1,0 +1,21 @@
+Metadata-Version: 2.1
+Name: kompas3d
+Version: 0.0.3
+Summary: Kompas 3D packages
+Home-page: https://www.ascon.net/
+Author: Asem Nurzhanova
+Author-email: asem.nurzhanova@outlook.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3.8
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# KOMPAS-3D - is a computer-aided design application for 3D mechanical design, simulation, visualization, and documentation developed by ASCON
+Python Library for KOMPAS-API
+
+
+
