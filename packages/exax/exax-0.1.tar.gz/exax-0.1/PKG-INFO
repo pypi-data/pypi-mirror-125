@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: exax
+Version: 0.1
+Summary: exax is accelerator
+Home-page: UNKNOWN
+License: UNKNOWN
+Description: # exax is accelerator
+        
+        This is a dummy package so that `pip install exax` will do the right thing.
+        
+        The package you want is https://pypi.org/project/accelerator/
+        
+Platform: UNKNOWN
+Description-Content-Type: text/markdown
