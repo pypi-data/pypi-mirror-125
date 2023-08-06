@@ -1,0 +1,9 @@
+LICENSE.txt
+README.md
+ecp5.py
+setup.cfg
+setup.py
+esp32ecp5.egg-info/PKG-INFO
+esp32ecp5.egg-info/SOURCES.txt
+esp32ecp5.egg-info/dependency_links.txt
+esp32ecp5.egg-info/top_level.txt
