@@ -1,0 +1,12 @@
+LICENSE
+README.md
+setup.py
+stupid_dns_watchdog/__init__.py
+stupid_dns_watchdog/main.py
+stupid_dns_watchdog.egg-info/PKG-INFO
+stupid_dns_watchdog.egg-info/SOURCES.txt
+stupid_dns_watchdog.egg-info/dependency_links.txt
+stupid_dns_watchdog.egg-info/entry_points.txt
+stupid_dns_watchdog.egg-info/requires.txt
+stupid_dns_watchdog.egg-info/top_level.txt
+stupid_dns_watchdog/src/__init__.py
