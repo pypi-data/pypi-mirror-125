@@ -1,0 +1,11 @@
+msa_src/__init__.py,sha256=nIIbn4bZSN8GQwEodIN5wlfNN7X5SvAEfZHC9SbQepY,52
+msa_src/msa.py,sha256=Q5J7VCjKK2vA_qsgKyoN3iDk_p7GgaSLe03p36t-Lcg,17751
+msa_src/utils.py,sha256=oeGEK1_bAOzDKtk0t3tT8HqSkYeAE2hWXMoG7ANuVAo,9960
+tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/test_bad_inputs.py,sha256=IJY6_7dROHDcfZRF-HNkJgw3cBiIzJecBR-MjCus0Hw,1301
+tests/test_ground_truth.py,sha256=ejcdofb_wo-DnnbNGmZvynwnHU1FqpaR-a-WLDcDhI8,1069
+msapy-0.0.1.dist-info/LICENSE,sha256=YSJeZYzngpv-oAC5DZGt3iA5PlubVu6fC3bHGtwj8fQ,1069
+msapy-0.0.1.dist-info/METADATA,sha256=hiKZzbGooBV8QVDvgTsnkitoIMojNAIRpPYqxfDY-RI,10793
+msapy-0.0.1.dist-info/WHEEL,sha256=WzZ8cwjh8l0jtULNjYq1Hpr-WCqCRgPr--TX4P5I1Wo,110
+msapy-0.0.1.dist-info/top_level.txt,sha256=MHndszs6v97sWbdvABFDuHSqdX9yfM_lh2Jg450HY-c,14
+msapy-0.0.1.dist-info/RECORD,,
