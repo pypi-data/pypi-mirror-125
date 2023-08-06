@@ -1,0 +1,21 @@
+Metadata-Version: 2.1
+Name: amcache2
+Version: 0.1.2
+Summary: creates a bodyfile from AmCache.hve
+Home-page: https://github.com/janstarke/amcache2.py
+Author: Jan Starke
+Author-email: jan.starke@t-systems.com
+License: UNKNOWN
+Project-URL: Bug Tracker, https://github.com/janstarke/amcache2.py/issues
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: GNU Lesser General Public License v3 (LGPLv3)
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# amcache2.py
+creates a bodyfile from AmCache.hve
+
+
