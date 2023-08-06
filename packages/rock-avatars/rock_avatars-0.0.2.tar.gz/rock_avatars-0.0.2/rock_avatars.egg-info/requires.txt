@@ -1,0 +1,13 @@
+Pillow
+psd-tools
+coloredlogs
+elasticsearch==7.10.1
+oss2
+python-dotenv
+
+[develop]
+autopep8
+Cython
+pytest
+pytest-cov
+coveralls
