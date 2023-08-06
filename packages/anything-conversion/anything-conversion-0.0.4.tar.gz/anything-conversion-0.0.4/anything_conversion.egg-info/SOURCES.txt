@@ -1,0 +1,9 @@
+README.md
+setup.py
+anything_conversion/__init__.py
+anything_conversion/converter.py
+anything_conversion/sample.py
+anything_conversion.egg-info/PKG-INFO
+anything_conversion.egg-info/SOURCES.txt
+anything_conversion.egg-info/dependency_links.txt
+anything_conversion.egg-info/top_level.txt
