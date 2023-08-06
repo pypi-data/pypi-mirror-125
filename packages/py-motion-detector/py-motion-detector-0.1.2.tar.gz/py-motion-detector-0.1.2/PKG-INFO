@@ -1,0 +1,39 @@
+Metadata-Version: 2.1
+Name: py-motion-detector
+Version: 0.1.2
+Summary: A python based motion detection application for the raspberry pi.
+Home-page: https://github.com/ambauma/pi-motion-detector/
+Author: ambauma
+Author-email: ambauma@users.noreply.github.com
+Requires-Python: >=3.7,<3.11
+Classifier: Framework :: Pytest
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Classifier: Natural Language :: English
+Classifier: Operating System :: POSIX :: Linux
+Classifier: Operating System :: RISC OS
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Topic :: Home Automation
+Requires-Dist: numpy (>=1.21.3,<2.0.0)
+Requires-Dist: picamera (>=1.13,<2.0)
+Project-URL: Repository, https://github.com/ambauma/pi-motion-detector/
+Description-Content-Type: text/x-rst
+
+==================
+py-motion-detector
+==================
+
+A python based motion detection application for the raspberry pi.  Current version must be ran on a raspberry pi since it relies on the ``picamera`` software.
+
+Usage
+-----
+
+To start the application::
+
+    py-motion-detector
+
+Hit Ctrl-C to exit or use ``kill <pid>``.
+
