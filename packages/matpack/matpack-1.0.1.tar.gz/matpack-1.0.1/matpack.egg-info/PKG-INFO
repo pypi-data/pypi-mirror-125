@@ -1,0 +1,11 @@
+Metadata-Version: 1.0
+Name: matpack
+Version: 1.0.1
+Summary: pacote de funções matemáticas únicas
+Home-page: UNKNOWN
+Author: Thiarly Souza
+Author-email: Thiarly@ufrn.edu.br
+License: MIT
+Description: matpack é um pacote de funções matemáticas únicas desenvolvidas para facilitar a abordagem de diversos contextos
+Keywords: matematica,funções
+Platform: UNKNOWN
