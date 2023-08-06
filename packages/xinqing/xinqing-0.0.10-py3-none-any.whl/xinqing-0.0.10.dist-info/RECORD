@@ -1,0 +1,11 @@
+xinqing/__init__.py,sha256=7AfSx8muIuBu9i7a_HaPmidiwpVXDbZw4r9bycP3sa8,30
+xinqing/playsound122.py,sha256=VH_14-dOR7DlOEe_uFWdcGCYYq_OavutHy4qXk_PtsA,4390
+xinqing/typing.mp3,sha256=XYMV4VxibINgaHhH5_iMZkxmVsD9qh1flk5x6_Cq-lA,419188
+xinqing/typing_long.mp3,sha256=eXfac3dEJYSfrWGebPIsSZh-xBJm0e5cBLccZo5xBqE,1526508
+xinqing/typing_long.wav,sha256=VJJe1k-fRgrlW-Pt0RPz33hdquMyaSt2SfVPpOWc04w,7315336
+xinqing/xinqing.py,sha256=V6b8XPxI9kZkQ1NrRxmqYrioPPjzNreOuJdzWi_cgfE,2873
+xinqing-0.0.10.data/data/xinqing/typing_long.mp3,sha256=eXfac3dEJYSfrWGebPIsSZh-xBJm0e5cBLccZo5xBqE,1526508
+xinqing-0.0.10.dist-info/METADATA,sha256=_FD2Np5gd3glMJRss9RWDNhFn0rznIkquvBzxjny_W0,423
+xinqing-0.0.10.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+xinqing-0.0.10.dist-info/top_level.txt,sha256=VxA1G2vrKOeKTAGRucrY7vPxaGPZuFDXdpqvSiAGDlY,8
+xinqing-0.0.10.dist-info/RECORD,,
