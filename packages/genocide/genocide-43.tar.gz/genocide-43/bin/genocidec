@@ -1,0 +1,86 @@
+#!/usr/bin/env python3
+# This file is placed in the Public Domain.
+
+import os
+import readline
+import sys
+import termios
+import threading
+import time
+
+
+from gcd.clt import Client
+from gcd.irc import Cfg as IRC
+from gcd.obj import Cfg
+from gcd.ofn import fmt
+from gcd.run import Runtime
+from gcd.run import Cfg as RunCfg
+from gcd.tbl import Table
+from gcd.utl import spl
+from gcd.ver import __version__
+
+
+Cfg.wd = "/var/lib/genocide/"
+
+
+IRC.channel = "#genocide"
+IRC.nick = "genocide"
+IRC.username = "EM_T04_OTP-CR-117_19"
+IRC.realname = "genocide"
+IRC.users = False
+IRC.server = "localhost"
+
+
+class CLI(Client):
+
+    def handle(self, clt, e):
+        k.put(e)
+        e.wait()
+
+    def raw(self, txt):
+        print(txt)
+        sys.stdout.flush()
+
+
+class Kernel(Runtime):
+
+    @staticmethod
+    def error(txt):
+        Kernel.log(txt)
+
+    @staticmethod
+    def log(txt):
+        if not txt:
+            return
+        print(txt)
+        sys.stdout.flush()
+
+
+k = Kernel()
+
+
+import gcd.all
+import genocide.all
+
+
+def wrap(func):
+    try:
+        func()
+    except KeyboardInterrupt:
+        print("")
+    except PermissionError as ex:
+        print("you need root privileges")
+
+
+def main(): 
+    RunCfg.name = "genocide"
+    RunCfg.version = __version__
+    k.parse_cli()
+    if not k.prs.txt:
+        return
+    k.privileges()
+    c = CLI()
+    k.cmd(c, k.prs.otxt)
+
+
+wrap(main)
