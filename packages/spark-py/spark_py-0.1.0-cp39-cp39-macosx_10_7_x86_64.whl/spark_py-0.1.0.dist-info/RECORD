@@ -1,0 +1,5 @@
+spark_py-0.1.0.dist-info/METADATA,sha256=xgWhvzKhIwsnynp9d3ccXo6OXr1mp_rWZpnd8yfMEPs,52
+spark_py-0.1.0.dist-info/WHEEL,sha256=_SukJEvD0xApzeN4vqppHMabBhSTtluQ2JvZ7KZK6AU,104
+pyspark/__init__.py,sha256=I1L4SphHMok7Pn4-32F2mVZG7upjVrLog1X5JSS6dJE,50
+pyspark/pyspark.cpython-39-darwin.so,sha256=7_7zdCm8RcrdZsl6SgcnV_CX0mjECn1N3PPv5_rjnJs,3569432
+spark_py-0.1.0.dist-info/RECORD,,
