@@ -1,0 +1,16 @@
+wagtail_svg_images/__init__.py,sha256=bZBMEu2gWQ8DppCGSdtDGm2MZQJGJGVx4JHJ9E3jQaI,70
+wagtail_svg_images/admin.py,sha256=qO8qiYOKbDJMAmacaw1TFnv46Ki148U4pmruxEFXzuI,1119
+wagtail_svg_images/apps.py,sha256=1SUI4lQksZ01HdUiBuyzUvVtwB2-gFyD2DPYd3WQDJk,115
+wagtail_svg_images/blocks.py,sha256=owgFnFtBzatJABd57i8jhno7dH4coQ9ou6u5TwJwx1Q,3730
+wagtail_svg_images/models/__init__.py,sha256=KLE3XLiG6Iy7j5M4sXWHTGKUjyHIeSDwdvUUAoCFKlk,95
+wagtail_svg_images/models/fields.py,sha256=b_0qSKSwA0S93IHSSLNwSB08Jf4f83u4jIy2580isuw,1564
+wagtail_svg_images/models/snippets.py,sha256=NxkPetOQ3x4ohOi3Lc6gFAa86fHWE9UhNGihbJuhnrA,1683
+wagtail_svg_images/panels.py,sha256=kuJNEBhN_W7qc8Q7VTfbjNJdv9GkBHPhkSniBeTmB2o,1795
+wagtail_svg_images/static/js/svg_handler.js,sha256=6TKPM5TPEqkgCI231PCmcxciNIcae0VmTr9B5Hyok8Y,1767
+wagtail_svg_images/templates/wagtailadmin/edit_handlers/image_or_svg_panel.html,sha256=lsvqIXIrrsBW2o-QxOPFHhRgedqFU0rDW1fR6mRQQWU,701
+wagtail_svg_images/templatetags/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+wagtail_svg_images/templatetags/svg_tags.py,sha256=PNyLoLOH-e4erMHzt-GouESdlOhjdlkMbBQlvDkJ1ME,5406
+wagtail_svg_images/wagtail_hooks.py,sha256=2QyXMuuXtWjzqFT9hBPSG8MiId5C6rnuyAf0ZdV2lxg,725
+wagtail_svg_images-0.1.4.dist-info/WHEEL,sha256=y3eDiaFVSNTPbgzfNn0nYn5tEn1cX6WrdetDlQM4xWw,83
+wagtail_svg_images-0.1.4.dist-info/METADATA,sha256=H6yNXzPAu-Cyr7PUU35usZVhvXawMlBOih6MSQLg1qE,567
+wagtail_svg_images-0.1.4.dist-info/RECORD,,
