@@ -1,0 +1,30 @@
+<tool id="sane_tiff_raw" name="sane_tiff_raw" version="0.0.1" profile="21.09">
+
+    <description>check tiff_raw file names</description>
+
+    <requirements>
+        <requirement type="package">jinxif</requirement>
+    </requirements>
+
+    <command detect_errors="exit_code"><![CDATA[
+	#import re
+
+	mkdir tiff_raw &&
+
+	#for $tiff in $tiff_raw_input:
+            #set $filename = re.sub('[^\w\-\.\s]', '_', str($tiff.element_identifier))
+            ln -s $tiff tiff_raw/$filename &&
+	#end for
+
+	python $__tool_directory__/mpleximage_01_3_sane_tiff_raw_slide.py > $stdout_tiff_raw
+    ]]></command>
+
+    <inputs>
+        <param type="data_collection" collection_type="list" format="tiff" name="tiff_raw_input" label="tiff_raw_input"/>
+    </inputs>
+    <outputs>
+        <data format="tabular" name="stdout_tiff_raw" label="stdout_tiff_raw"/>
+    </outputs>
+
+    <help></help>
+</tool>

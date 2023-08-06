@@ -1,0 +1,64 @@
+<tool id="feature_extraction" name="feature_extraction" version="0.0.1" profile="21.09">
+    <description>match nucleus and cell segmentation labels</description>
+
+    <requirements>
+        <requirement type="package">jinxif</requirement>
+    </requirements>
+   
+    <!-- 
+    bue 2021-10-19: tiff_registered/ have to have a slide_pxscene/ subfolder structure.
+    will generate this subfolder structure within mpleximage_09_1_feature_extraction_slidepxscene.py
+    -->
+    <command detect_errors="exit_code"><![CDATA[
+	#import re
+
+        mkdir tiff_registered &&
+        mkdir tiffpng_segmentation &&
+        mkdir csv_segmentation &&
+
+        #set $imagetype = re.sub('[^\w\-\.\s]', '_', str($image_type))
+
+        #for $tiff in $tiff_registered_input:
+            #set $filename = re.sub('[^\w\-\.\s]', '_', str($tiff.element_identifier))
+            #if str($filename).endswith('.tif') or str($filename).endswith('.tiff'):
+                ln -s $tiff tiff_registered/$filename &&
+            #else:
+                ln -s $tiff tiff_registered/${filename}.tif &&
+            #end if
+        #end for
+
+        #set $filename = re.sub('[^\w\-\.\s]', '_', str($png_nuc_zprojection.element_identifier))
+        ln -s $png_nuc_zprojection tiffpng_segmentation/${filename}.png &&
+
+        #set $filename = re.sub('[^\w\-\.\s]', '_', str($tiff_nuc_segmentation.element_identifier))
+        ln -s $tiff_nuc_segmentation tiffpng_segmentation/${filename}.tif &&
+
+        #set $filename = re.sub('[^\w\-\.\s]', '_', str($tiff_cell_nuc_match_segmentation.element_identifier))
+        ln -s $tiff_cell_nuc_match_segmentation tiffpng_segmentation/${filename}.tif &&
+
+        #set $cytoplasmmarker = re.sub('[^\w\-\.\s]', '_', str($cytoplasm_marker))
+
+        python $__tool_directory__/mpleximage_09_1_feature_extraction_slidepxscene.py --imagetype $imagetype --cmarker $cytoplasmmarker --exp $exp --mem $mem --shrink $shrink
+    ]]></command>
+
+    <inputs>
+	<param type="text" value="registeredimages" name="image_type" label="image_type" help="are the images in tiff_registered_input registeredimages of auto fluorescent subtractedregisterdimages?" />
+        <param type="data_collection" collection_type="list" format="tiff" name="tiff_registered_input" label="tiff_registered_input" />
+        <param type="data" format="png" name="png_nuc_zprojection" label="png_nuc_zprojection" />
+        <param type="data" format="tiff" name="tiff_nuc_segmentation"  label="tiff_nuc_segmentation" />
+        <param type="data" format="tiff" name="tiff_cell_nuc_match_segmentation"  label="tiff_cell_nuc_match_segmentation" />
+	<param type="text" value="Ecad" name="cytoplasm_marker" label="cytoplasm_marker" help="cytoplasm marker that will downstream aswell be used for cytoplasm tresholding. e.g. Ecad or PANCK. can be None." />
+        <param type="integer" value="5" name="exp" label="exp" help="how many pixel should the nucleus be extend to be regared as the whole cell? how whide should the dougnut regared as cytoplasm be? default setting is 5, though this value depends on your pixel size." />
+        <param type="integer" value="2" name="mem" label="mem" help="how many pixel should the nucleus or cell border to the inside be extented to be regarded as  membran? how many pixel should the nucleus or cell border to the indside and outside be extended to be regared as adjacent? default setting is 2, though this value depends on your pixel size." />
+        <param type="integer" value="0" name="shrink" label="shrink" help="
+should marker also be shrunk, e.g. to be in the filter_features step used as custom_markerpartition or against beed through? set how many pixel should be shrunken here. this will produce additiona nuclei, exp, perinuc, and cytoplasm coulums, taking this value into account." />
+    </inputs>
+
+    <outputs>
+        <collection type="list"  name="csv_segmentation_output">
+            <discover_datasets pattern="__designation_and_ext__" visible="true" format="tiff" directory="csv_segmentation" />
+        </collection>
+    </outputs>
+
+    <help></help>
+</tool>

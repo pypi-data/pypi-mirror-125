@@ -1,0 +1,30 @@
+<tool id="sane_czi_original" name="sane_czi_original" version="0.0.1" profile="21.09">
+
+    <description>check czi_original file names</description>
+
+    <requirements>
+        <requirement type="package">jinxif</requirement>
+    </requirements>
+
+    <command detect_errors="exit_code"><![CDATA[
+        #import re
+
+	mkdir czi_original &&
+
+	#for $czi in $czi_original_input:
+            #set $filename = re.sub('[^\w\-\.\s]', '_', str($czi.element_identifier))
+	    ln -s czi czi_original/$filename &&
+	#end for
+
+	python $__tool_directory__/mpleximage_01_1_sane_czi_original_slide.py > $stdout_czi_original
+    ]]></command>
+
+    <inputs>
+        <param type="data_collection" collection_type="list" format="tiff" name="czi_original_input" label="czi_original_input"/>
+    </inputs>
+    <outputs>
+        <data format="tabular" name="stdout_czi_original" label="stdout_czi_original"/>
+    </outputs>
+
+    <help></help>
+</tool>

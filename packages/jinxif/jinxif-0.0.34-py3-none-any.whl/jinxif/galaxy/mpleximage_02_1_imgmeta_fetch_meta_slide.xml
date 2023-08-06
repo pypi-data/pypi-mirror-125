@@ -1,0 +1,46 @@
+<tool id="imgmeta_fetch_metadata" name="imgmeta_fetch_metadata" version="0.0.1" profile="21.09">
+
+    <description>fetch image metadata</description>
+
+    <requirements>
+        <requirement type="package">jinxif</requirement>
+    </requirements>
+
+    <command detect_errors="exit_code"><![CDATA[
+        #import re
+    
+	mkdir czi_original &&
+        mkdir czi_splitscene &&
+        mkdir csv_exposuretime &&
+        mkdir csv_sceneposition &&
+
+	#set $the_round = re.sub('[^\w\-\.\s]', '_', str($round))
+
+	#for $czi in $czi_original_input:
+            #set $filename = re.sub('[^\w\-\.\s]', '_', str($czi.element_identifier))
+            ln -s $czi czi_original/$filename &&
+	#end for
+    
+	#for $czi in $czi_splitscene_input:
+            #set $filename = re.sub('[^\w\-\.\s]', '_', str($czi.element_identifier))
+            ln -s $czi czi_splitscene/$filename &&
+	#end for
+
+	python $__tool_directory__/mpleximage_02_1_imgmeta_fetch_meta_slide.py $the_round
+    ]]></command>
+
+    <inputs>
+        <param type="text" value="R1_" name="round" label="round" help="round pattern for original czi file, used for scene position extraction." />
+        <param type="data_collection" collection_type="list" format="tiff" name="czi_original_input" label="czi_original_input" />
+        <param type="data_collection" collection_type="list" format="tiff" name="czi_splitscene_input" label="czi_splitscene_input" />
+    </inputs>
+
+    <outputs>
+        <collection type="list" name="metaimages">
+            <discover_datasets pattern="__designation_and_ext__" visible="true" format="csv" directory="csv_exposuretime" />
+            <discover_datasets pattern="__designation_and_ext__" visible="true" format="csv" directory="csv_sceneposition" />
+        </collection>
+    </outputs>
+
+    <help></help>
+</tool>

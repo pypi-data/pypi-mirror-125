@@ -1,0 +1,40 @@
+<tool id="threshold_auto" name="threshold_auto" version="0.0.1" profile="21.09">
+    <description>match nucleus and cell segmentation labels</description>
+
+    <requirements>
+        <requirement type="package">jinxif</requirement>
+    </requirements>
+
+    <command detect_errors="exit_code"><![CDATA[
+	#import re
+
+        mkdir tiff_registered &&
+        mkdir csv_metaimages &&
+
+        #for $tiff in $tiff_registered_input:
+	    #set $filename = re.sub('[^\w\-\.\s]', '_', str($tiff.element_identifier))
+	    #if str(filename).endswith('.tif') or str(filename).endswith('.tiff'):
+	        ln -s $tiff tiff_registered/${filename} &&
+	    #else:
+	        ln -s $tiff tiff_registered/${filename}.tif &&
+	    #end if
+        #end for
+
+        #set $imagetype = re.sub('[^\w\-\.\s]', '_', str($image_type)) 
+
+	python $__tool_directory__/mpleximage_08_1_threshold_auto_slidepxscene.py --imagetype $imagetype
+    ]]></command>
+
+    <inputs>
+        <param type="text" value="registeredimages" name="image_type" label="image_type" help="are the images in tiff_registered_input registeredimages of auto fluorescent subtractedregisterdimages?" />
+        <param type="data_collection" collection_type="list"  format="tiff" name="tiff_registered_input"  label="tiff_registered_input" />
+    </inputs>
+
+    <outputs>
+        <collection type="list"  name="tiff_registered_output">
+            <discover_datasets pattern="__designation_and_ext__" visible="true" format="csv" directory="csv_metaimages" />
+        </collection>
+    </outputs>
+
+    <help></help>
+</tool>
