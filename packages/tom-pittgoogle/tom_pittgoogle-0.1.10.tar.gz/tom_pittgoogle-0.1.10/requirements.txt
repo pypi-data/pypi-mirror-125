@@ -1,0 +1,32 @@
+fastavro
+google-cloud-bigquery
+google-cloud-logging
+google-cloud-pubsub
+google-auth-oauthlib
+requests_oauthlib
+tomtoolkit
+
+# TOM Toolkit
+whitenoise
+# psycopg2 is not compiling. I (Troy) likely need some of the build prereqs. See:
+# https://www.psycopg.org/docs/install.html
+# I believe the TOM `Target` relies on it.
+# psycopg2-binary  # don't use this in production, build from source
+# psycopg2
+
+# Django
+django
+django-bootstrap4
+django-crispy-forms
+django-environ
+django-extensions
+django-guardian
+django-recaptcha
+
+# RTD
+docutils<0.17  # render lists properly
+myst-parser
+sphinx
+sphinx-copybutton
+sphinx_autodoc_typehints
+sphinx_rtd_theme
