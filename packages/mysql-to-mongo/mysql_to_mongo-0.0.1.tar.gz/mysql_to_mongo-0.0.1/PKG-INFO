@@ -1,0 +1,16 @@
+Metadata-Version: 1.1
+Name: mysql_to_mongo
+Version: 0.0.1
+Summary: Migrate your MySql databse to MongoDb.
+Home-page: UNKNOWN
+Author: ArJun Gawali
+Author-email: arjungawali111@gmail.com
+License: MIT
+Description: UNKNOWN
+Keywords: mysql-to-mongodb,migrate,mysql,mongodb
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Education
+Classifier: Operating System :: Microsoft :: Windows :: Windows 10
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
