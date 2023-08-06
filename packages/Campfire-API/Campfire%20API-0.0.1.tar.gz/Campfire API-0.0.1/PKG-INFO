@@ -1,0 +1,26 @@
+Metadata-Version: 2.1
+Name: Campfire API
+Version: 0.0.1
+Summary: CampfireAPI based on Capfire web.
+Home-page: https://github.com/Ghost-3/CapfireAPI
+Author: Ghost-3
+Author-email: ghost3.github@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3.8
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# General
+
+CampfireAPI based on [Capfire web](https://github.com/timas130/campfire-web).
+
+## Install
+
+Coming soon...
+
+
+
