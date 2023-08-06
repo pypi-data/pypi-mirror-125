@@ -1,0 +1,12 @@
+maison/__init__.py,sha256=TL6mG1WrG-lky9HfrtFGnA2Q_s5kAOZZ2tsU9a1Qajk,81
+maison/__main__.py,sha256=3UXLLbEKqBcFDh5pCkHk8znx0qI4A4ZP_2PjGFxeeJQ,202
+maison/config.py,sha256=5z_zfCMo3vV1bLzamRBazxf1HkLegg4bTkekiNn0cf8,4715
+maison/errors.py,sha256=TMMubdG-S9IyHyfK_jzeDMNnEX9tJxPPKLkplT-Lzrk,151
+maison/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+maison/schema.py,sha256=hlwn2qJxtjSbEEdMvBTzRJUyvPnptNJqm4mEBrmT7ZM,189
+maison/utils.py,sha256=V-WTNNSG1_-CaC7CdLj5txF-_krCEkgQzKYG-7FBub0,3127
+maison-1.2.3.dist-info/entry_points.txt,sha256=-1R975chuGooJcNLHroy1AjcFl3yEQ4Xg35UAJeK7z8,47
+maison-1.2.3.dist-info/LICENSE.rst,sha256=lsn55t3ndaa2Farg1bzJ7uSeeKrujaeHsdbb1L8clAg,1082
+maison-1.2.3.dist-info/WHEEL,sha256=y3eDiaFVSNTPbgzfNn0nYn5tEn1cX6WrdetDlQM4xWw,83
+maison-1.2.3.dist-info/METADATA,sha256=nO6f2nFYoV7LX0mYLVJXSmP9-wg_FXvO_i-0V-Pi1Bg,2792
+maison-1.2.3.dist-info/RECORD,,
