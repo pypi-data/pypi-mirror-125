@@ -1,0 +1,4 @@
+cdktf==0.7.0
+click==8.0.3
+google-cloud-pubsub==2.8.0
+google-cloud==0.34.0
