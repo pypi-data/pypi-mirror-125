@@ -1,0 +1,14 @@
+LICENSE
+LICENSE.txt
+README.md
+setup.py
+MGSurvE/__init__.py
+MGSurvE/_version.py
+MGSurvE/auxiliary.py
+MGSurvE/landscape.py
+MGSurvE/trap.py
+MGSurvE.egg-info/PKG-INFO
+MGSurvE.egg-info/SOURCES.txt
+MGSurvE.egg-info/dependency_links.txt
+MGSurvE.egg-info/requires.txt
+MGSurvE.egg-info/top_level.txt

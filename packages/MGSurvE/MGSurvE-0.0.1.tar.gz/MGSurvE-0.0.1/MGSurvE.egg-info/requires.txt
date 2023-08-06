@@ -1,0 +1,8 @@
+numpy
+matplotlib
+ipython
+jupyter
+pandas
+compress-pickle
+deap
+scikit-learn
