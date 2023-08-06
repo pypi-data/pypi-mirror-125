@@ -1,0 +1,16 @@
+Metadata-Version: 1.1
+Name: pklc
+Version: 0.4
+Summary: lzma compressing pickles
+Home-page: UNKNOWN
+Author: msk_mule
+Author-email: 18.3071@gmail.com
+License: MIT
+Description: UNKNOWN
+Keywords: pickle,compress,lzma
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Build Tools
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3.8
