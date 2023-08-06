@@ -1,0 +1,39 @@
+{
+  "install_requires": [
+    "PyYAML",
+    "base58<2.0,>=1.0.2",
+    "cbor2>=5,<6",
+    "coverage>=1.4.33",
+    "frozendict",
+    "jsonschema",
+    "mypy-extensions",
+    "nose",
+    "numpy",
+    "numpy",
+    "oyaml",
+    "py-cid",
+    "py-multihash",
+    "pybase64",
+    "pytz",
+    "termcolor",
+    "typing-extensions",
+    "validate-email",
+    "zuper-commons-z6",
+    "zuper-typing-z6"
+  ],
+  "tests_require": [],
+  "srcdir": "src",
+  "package_name": "zuper-ipce-z6",
+  "entry_points": {
+    "console_scripts": []
+  },
+  "zip_safe": true,
+  "include_package_data": true,
+  "modules": [
+    "zuper_ipce"
+  ],
+  "version": "6.1.1",
+  "author": "",
+  "author_email": "",
+  "url": ""
+}
