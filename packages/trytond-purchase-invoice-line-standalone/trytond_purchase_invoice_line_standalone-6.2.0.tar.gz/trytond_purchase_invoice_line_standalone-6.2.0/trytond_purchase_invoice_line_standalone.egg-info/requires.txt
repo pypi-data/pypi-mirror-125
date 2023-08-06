@@ -1,0 +1,4 @@
+python-sql
+trytond_account_invoice_line_standalone<6.3,>=6.2
+trytond_purchase<6.3,>=6.2
+trytond<6.3,>=6.2
