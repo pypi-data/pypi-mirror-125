@@ -1,0 +1,17 @@
+LICENSE-APACHE
+LICENSE-MIT
+MANIFEST.in
+README.md
+pyproject.toml
+setup.cfg
+setup.py
+src/use_minimon/__init__.py
+src/use_minimon/flashing.py
+src/use_minimon/flashmap.toml
+src/use_minimon/responder.py
+src/use_minimon_dj.egg-info/PKG-INFO
+src/use_minimon_dj.egg-info/SOURCES.txt
+src/use_minimon_dj.egg-info/dependency_links.txt
+src/use_minimon_dj.egg-info/entry_points.txt
+src/use_minimon_dj.egg-info/requires.txt
+src/use_minimon_dj.egg-info/top_level.txt

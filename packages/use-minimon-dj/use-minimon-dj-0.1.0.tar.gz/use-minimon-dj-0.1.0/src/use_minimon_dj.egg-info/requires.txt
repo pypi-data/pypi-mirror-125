@@ -1,0 +1,4 @@
+pyserial
+tqdm
+toml
+types-toml
