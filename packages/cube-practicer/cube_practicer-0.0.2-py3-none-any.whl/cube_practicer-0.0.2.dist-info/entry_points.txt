@@ -1,0 +1,3 @@
+[console_scripts]
+cube-practicer=cube_practicer.main:app
+
