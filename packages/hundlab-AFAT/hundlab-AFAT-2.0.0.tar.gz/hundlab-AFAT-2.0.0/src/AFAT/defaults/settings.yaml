@@ -1,0 +1,42 @@
+###############################################################################
+# k neighbors classifier settings
+## this is the second pass which attempts to classify pixes missed in the first
+## pass into blue, red, or unidentifiable.
+
+#raw settings for KNeighborsClassifier
+#see https://scikit-learn.org/stable/modules/generated/sklearn.neighbors.KNeighborsClassifier.html#sklearn.neighbors.KNeighborsClassifier
+KNN:
+  raw:
+    n_neighbors: 5
+    n_jobs: -1
+
+# minimum fraction of neighbors with the same label needed to classify a pixel
+#default 1 or 100% of neighbors must be the same
+  min_consensus: 0.8
+
+
+# These settins control the maximum number of pixels to be used by KNN
+# so if there are more pixels in the image than max_pixels only max_pixel
+# number of pixels will be used
+  max_pixels: 10_000_000
+
+# The pixels are resampled so that there are fixed fractions of each group
+# the fraction of background to be used will be calcuated by 
+# 1 - frac_stain - frac_tissue
+  frac_stain: 0.375
+  frac_tissue: 0.375
+
+
+###############################################################################
+# other settings
+
+# save mask images to a directory
+save_images: True
+
+# show image plots
+show_images: False
+
+# save settings yaml file with analysis
+# will be saved in the same location as the csv data file
+save_settings: True
+###############################################################################
