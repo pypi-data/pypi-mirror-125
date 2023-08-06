@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: TPM2PPF-learntools
+Version: 0.1.1
+Summary: Utilities for The TP of the PPF Master 2, adapted from Kaggle Learn exercises
+Home-page: http://github.com/antoinetavant/learntools
+Author: Antoine Tavant
+Author-email: antoine.tavant@polytechnique.edu
+License: Apache 2.0
+Platform: UNKNOWN
+Requires-Dist: tqdm
+Requires-Dist: matplotlib
+Requires-Dist: numpy
+Requires-Dist: scipy
+
+UNKNOWN
+
+
