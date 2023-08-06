@@ -1,0 +1,28 @@
+Metadata-Version: 2.1
+Name: path-analysis-toolbox
+Version: 0.0.3
+Summary: Toolbox for various path analysis and creating directories.
+Home-page: https://github.com/ksproska/path_analyser
+Author: Kamila Sproska
+Author-email: kamila.sproska@gmail.com
+License: UNKNOWN
+Keywords: path,directory,filename,extension,create
+Platform: UNKNOWN
+Description-Content-Type: text/markdown
+
+Get directory, filename or extension from path:
+```python
+from path_analysis_toolbox import PathAnalyser
+PathAnalyser.directory_filename_extension("C:\\Example\\directory\\filename.mp3")
+# ("C:\\Example\\directory", "filename", "mp3")
+
+PathAnalyser.directory("C:\\Example\\directory\\filename.mp3") # "C:\\Example\\directory"
+PathAnalyser.filename("C:\\Example\\directory\\filename.mp3") # "filename"
+PathAnalyser.extension("C:\\Example\\directory\\filename.mp3") # "mp3"
+
+PathAnalyser.directory_filename_extension("C:\\Example\\directory\\filename")
+# ("C:\\Example\\directory", "filename", "")
+PathAnalyser.directory_filename_extension("C:")
+# ("", "C:", "")
+```
+
