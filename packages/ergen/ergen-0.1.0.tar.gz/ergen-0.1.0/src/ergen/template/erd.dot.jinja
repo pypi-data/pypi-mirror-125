@@ -1,0 +1,32 @@
+digraph {
+    graph [
+        rankdir="LR"
+        fontname="Helvetica"
+        nodesep=0.5
+        labelloc=t
+        {% if title %}label="{{ title }}"{% endif %}
+    ]
+    node [shape=plain fontsize=12]
+    edge [dir=both]
+
+{% for table in tables %}
+    "{{ table.name }}" [label=<
+        <table border="1" cellborder="0" cellspacing="0" cellpadding="5">
+            <tr><td bgcolor="black"><font color="white">{{ table.name }}</font></td></tr>
+    {%- for column in table.columns %}
+            <tr><td port="{{ column.name }}" align="left">{{ column.name }} <font color="grey60">{{ column.type }}
+            {%- if column.type_arg1 %}({{ column.type_arg1 }}{% if column.type_arg2 %}, {{ column.type_arg2 }}{% endif %})
+            {%- endif %}</font></td></tr>
+    {%- endfor %}
+        </table>
+    >]
+{% endfor %}
+
+{% for table in tables %}
+    {%- for column in table.columns %}
+    {%- if column.foreign_key %}
+    "{{ column.foreign_key.ref_table }}":"{{ column.foreign_key.ref_column }}" -> "{{ table.name }}":"{{ column.name }}" [arrowhead=crow arrowtail=nonetee]
+    {%- endif %}
+    {%- endfor %}
+{%- endfor %}
+}
