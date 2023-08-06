@@ -1,0 +1,21 @@
+Metadata-Version: 2.1
+Name: mysqlplus
+Version: 2.0
+Summary: A simple wrapper for the module mysql-connector-python.
+Home-page: https://github.com/anthony16t/mysqlplus
+Author: anthony16t
+Author-email: info@anthony16t.com
+License: MIT
+Keywords: mysql,database,sql
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: Unix
+Classifier: Operating System :: MacOS :: MacOS X
+Classifier: Operating System :: Microsoft :: Windows
+Classifier: Programming Language :: Python :: 3
+License-File: LICENCE.txt
+
+A simple wrapper for the module mysql-connector-python.
+

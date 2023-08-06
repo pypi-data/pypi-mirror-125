@@ -1,0 +1,9 @@
+LICENCE.txt
+README.txt
+setup.py
+mysqlplus/__init__.py
+mysqlplus.egg-info/PKG-INFO
+mysqlplus.egg-info/SOURCES.txt
+mysqlplus.egg-info/dependency_links.txt
+mysqlplus.egg-info/requires.txt
+mysqlplus.egg-info/top_level.txt

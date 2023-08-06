@@ -1,0 +1,1 @@
+A simple wrapper for the module mysql-connector-python.
