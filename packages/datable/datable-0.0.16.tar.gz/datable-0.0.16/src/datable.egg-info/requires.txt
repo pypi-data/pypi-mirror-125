@@ -1,0 +1,5 @@
+pip
+setuptools
+tk
+tksheet
+pywin32
