@@ -1,0 +1,21 @@
+Metadata-Version: 2.1
+Name: jsonfiles
+Version: 0.1
+Summary: Use json objects with a bit of sugar.
+Home-page: https://github.com/anthony16t/jsonfiles
+Author: anthony16t
+Author-email: info@anthony16t.com
+License: MIT
+Keywords: json,objects
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Education
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: Unix
+Classifier: Operating System :: MacOS :: MacOS X
+Classifier: Operating System :: Microsoft :: Windows
+Classifier: Programming Language :: Python :: 3
+License-File: LICENCE.txt
+
+Use json objects with a bit of sugar.
+

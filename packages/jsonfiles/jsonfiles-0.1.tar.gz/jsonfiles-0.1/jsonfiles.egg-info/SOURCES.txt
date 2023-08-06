@@ -1,0 +1,8 @@
+LICENCE.txt
+README.txt
+setup.py
+jsonfiles/__init__.py
+jsonfiles.egg-info/PKG-INFO
+jsonfiles.egg-info/SOURCES.txt
+jsonfiles.egg-info/dependency_links.txt
+jsonfiles.egg-info/top_level.txt
