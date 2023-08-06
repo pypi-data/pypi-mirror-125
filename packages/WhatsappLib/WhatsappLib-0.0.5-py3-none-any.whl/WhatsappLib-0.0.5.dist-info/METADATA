@@ -1,0 +1,31 @@
+Metadata-Version: 2.1
+Name: WhatsappLib
+Version: 0.0.5
+Summary: This is whatsapp group chat analysis package which will basically help you to extract amazing insights from the group chat and create beautiful interactive visuals in just 2 to 3 lines of code. You do not have to worry about anything, just load the chat file, create an object and use it.
+Home-page: https://github.com/ronylpatil/whatsapplib
+Author: ronil08
+Author-email: ronyy0080@gmail.com
+License: MIT
+Keywords: whatsapp analyzer,whatsapp lib,whatsapp analysis,whatsapp python,chat,whatsapp group chat analysis,whatsapp library,ronil patil,ronil08,website,download,links,images,videos
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Intended Audience :: Developers
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Operating System :: Unix
+Classifier: Operating System :: MacOS :: MacOS X
+Classifier: Operating System :: Microsoft :: Windows
+Description-Content-Type: text/markdown
+Requires-Dist: plotly
+Requires-Dist: nltk
+Requires-Dist: numpy
+Requires-Dist: emoji
+Requires-Dist: wordcloud
+Requires-Dist: matplotlib
+Requires-Dist: pandas
+
+This is whatsapp group chat analysis package which will basically extract the insights from the whatsapp group chat and create beautiful interactive visuals in just 2 to 3 lines of code. You do not have to worry about anything, just load the chat file, create an object, and use it. There are more than 15 methods are available which will help you to create beautiful user-interactive charts. Even you can download the preprocessed data, charts, and use it for further analysis. This is my small open source contribution to python's community. For more details visit : https://github.com/ronylpatil/whatsapplib
+
+
