@@ -1,0 +1,13 @@
+CHANGELOG.md,sha256=FA0mIcUeRvRIar0SemSIhlkcR4sX_ihnsBiLTBPI_24,446
+LICENSE,sha256=DaGLuKueio3GxlqJvFbqANVL3jGhYyYb0PD2-FyqtGg,1071
+README.md,sha256=lfhjbJm81OkoaMQ-EBP1wTIngHmoe-hlQ1Khru1yrys,2353
+documentation/block.md,sha256=K71svsA6utdF06bE0jWa174HGuFtMfa68szmefSQHJw,2249
+documentation/span.md,sha256=Uu8Nq5wMYBhCantLHIlSCdwQsSd3C9TJk9Pn4kyUP4U,1722
+markdownio/__init__.py,sha256=hYGLxWQAeX_higokxDzLH3BvacYi7C0_qPAeVp4e4O8,145
+markdownio/block.py,sha256=a4Kt3hRiNoLI9nsIS5EUs96rfW_I6EQ6eGCuT_PwVvU,6353
+markdownio/markdownio.py,sha256=ddZ2f9lQpAm7gNDy39LiI10JaEsGgutkzqv2r1YEuYA,2036
+markdownio/span.py,sha256=KRSYQeg4QU09yspXvq-1sCdDyMFTXz0qZFTvTwZO6Sk,625
+markdownio-0.1.0.dist-info/LICENSE,sha256=DaGLuKueio3GxlqJvFbqANVL3jGhYyYb0PD2-FyqtGg,1071
+markdownio-0.1.0.dist-info/WHEEL,sha256=y3eDiaFVSNTPbgzfNn0nYn5tEn1cX6WrdetDlQM4xWw,83
+markdownio-0.1.0.dist-info/METADATA,sha256=jOPMevHkqMPt5yZ_9BGYZC3mTg_Rl4wr2fS6pVAp0_s,3374
+markdownio-0.1.0.dist-info/RECORD,,
