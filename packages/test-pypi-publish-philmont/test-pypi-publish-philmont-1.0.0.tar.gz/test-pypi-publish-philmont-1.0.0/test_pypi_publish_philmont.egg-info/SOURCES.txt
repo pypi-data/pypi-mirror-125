@@ -1,0 +1,9 @@
+README.md
+setup.py
+src/publish/__init__.py
+src/publish/greeting.py
+test_pypi_publish_philmont.egg-info/PKG-INFO
+test_pypi_publish_philmont.egg-info/SOURCES.txt
+test_pypi_publish_philmont.egg-info/dependency_links.txt
+test_pypi_publish_philmont.egg-info/requires.txt
+test_pypi_publish_philmont.egg-info/top_level.txt
