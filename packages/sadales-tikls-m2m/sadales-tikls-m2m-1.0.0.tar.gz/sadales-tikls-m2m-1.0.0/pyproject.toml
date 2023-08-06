@@ -1,0 +1,42 @@
+[tool.poetry]
+name = "sadales-tikls-m2m"
+version = "1.0.0"
+description = "A client library for accessing Sadales Tikls M2M API"
+
+authors = ["Pavels Veretennikovs <vermut@pm.me>"]
+repository = "https://github.com/vermut/sadales-tikls-m2m"
+
+readme = "README.md"
+packages = [
+    {include = "sadales_tikls_m2m_api_client"},
+]
+include = ["CHANGELOG.md", "sadales_tikls_m2m_api_client/py.typed"]
+license = "Apache 2.0"
+
+[tool.poetry.dependencies]
+python = "^3.6"
+httpx = ">=0.15.4,<0.20.0"
+attrs = ">=20.1.0,<22.0.0"
+python-dateutil = "^2.8.0"
+
+[tool.black]
+line-length = 120
+target_version = ['py36', 'py37', 'py38']
+exclude = '''
+(
+  /(
+    | \.git
+    | \.venv
+    | \.mypy_cache
+  )/
+)
+'''
+
+[tool.isort]
+line_length = 120
+multi_line_output = 3
+include_trailing_comma = true
+
+[build-system]
+requires = ["poetry>=1.0"]
+build-backend = "poetry.masonry.api"
