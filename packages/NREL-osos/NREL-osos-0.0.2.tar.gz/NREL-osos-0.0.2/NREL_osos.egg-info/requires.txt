@@ -1,0 +1,15 @@
+click
+nrel-rex
+numpy
+pandas
+pypistats
+requests
+
+[dev]
+pytest>=5.2
+flake8
+pre-commit
+pylint
+
+[test]
+pytest>=5.2
