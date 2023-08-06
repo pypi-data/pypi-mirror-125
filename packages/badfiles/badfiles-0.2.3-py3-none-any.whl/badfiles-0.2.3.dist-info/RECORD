@@ -1,0 +1,14 @@
+badfiles/__init__.py,sha256=38B5YqmTNmkTMaXPe4OxZGeY4qxObUYuRafYqs-ugYs,133
+badfiles/badfiles.py,sha256=3RrhSTSLD8ZSykc_wNVu1J9_oE3qcKpZU3vLvU3lv3c,6954
+badfiles/cli.py,sha256=pt4Fr3tESXrNcPdfmMoeY9XVJ6SA9nRvMBtAB5MvB2M,3193
+badfiles/process_tar.py,sha256=-hTE2oj4OWSZEecwBBfeZ_UcmV5mmCW3HniS9jklFdY,934
+badfiles/rules/csv_rules.yara,sha256=kNkmEWDiu7d0g-z4YwymTB9W7rrmjUnCeofYlB-Ml9U,696
+badfiles/rules/id_rules.yara,sha256=d1ODoaxtoWaRlc6Jn8cOPObDnikWjDqxSqRjw8OqgcE,566
+badfiles/rules/tar_rules.yara,sha256=lEr4J9SNlnB8KnU2qdZGn-ftnta7PepfYEAJBYrm2-w,2192
+badfiles/rules/zip_rules.yara,sha256=uPVvNc7xd4xiXK2OLE0Muj4evWsRAB9FMFdnxK6jkAE,1727
+badfiles/utils.py,sha256=OWgQ2dGT2eERTCX-0q-wYCVHEuas79z772iFjj-4Rjo,2146
+badfiles-0.2.3.dist-info/entry_points.txt,sha256=S5KPVMGqOuegVSKesaZarWEc-MDsbbD6Eix1JDHsxqw,46
+badfiles-0.2.3.dist-info/LICENSE,sha256=iqcBNgbRrUxciwP-o7Hl_h_yIMESE864g46Ur90Ujf8,586
+badfiles-0.2.3.dist-info/WHEEL,sha256=y3eDiaFVSNTPbgzfNn0nYn5tEn1cX6WrdetDlQM4xWw,83
+badfiles-0.2.3.dist-info/METADATA,sha256=589XhbLyU0nIBkv8x6ZYUyYPHucJMvgl0LyNb0m89To,3156
+badfiles-0.2.3.dist-info/RECORD,,
