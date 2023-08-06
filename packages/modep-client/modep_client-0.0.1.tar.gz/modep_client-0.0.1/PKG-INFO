@@ -1,0 +1,54 @@
+Metadata-Version: 1.2
+Name: modep_client
+Version: 0.0.1
+Summary: Python client for the modep API
+Home-page: https://github.com/modep-ai/modep-client
+Author: modep-ai
+Author-email: contact@modep.ai
+License: MIT license
+Description: ============
+        modep-client
+        ============
+        
+        .. image:: https://img.shields.io/pypi/v/modep-client.svg
+                :target: https://pypi.org/project/modep-client
+        .. image:: https://github.com/modep-ai/modep-client/actions/workflows/tests.yml/badge.svg
+                :target: https://github.com/modep-ai/modep-client/actions
+        .. image:: https://github.com/modep-ai/modep-client/actions/workflows/docs.yml/badge.svg
+                :target: https://modep-ai.github.io/modep-client
+        
+        
+        
+        Python client for the modep API
+        
+        
+        Documentation: https://modep-ai.github.io/modep-client.
+        
+        
+        Features
+        --------
+        
+        * TODO
+        
+        
+        
+        =======
+        History
+        =======
+        
+        0.0.1 (2021-11-01)
+        ------------------
+        
+        * First release on PyPI.
+        
+Keywords: modep_client
+Platform: UNKNOWN
+Classifier: Development Status :: 2 - Pre-Alpha
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Natural Language :: English
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Requires-Python: >=3.6
