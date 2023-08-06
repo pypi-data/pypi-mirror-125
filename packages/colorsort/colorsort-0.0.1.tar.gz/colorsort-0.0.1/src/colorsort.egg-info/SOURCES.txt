@@ -1,0 +1,11 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+src/colorsort/__init__.py
+src/colorsort/colorsort.py
+src/colorsort.egg-info/PKG-INFO
+src/colorsort.egg-info/SOURCES.txt
+src/colorsort.egg-info/dependency_links.txt
+src/colorsort.egg-info/requires.txt
+src/colorsort.egg-info/top_level.txt
