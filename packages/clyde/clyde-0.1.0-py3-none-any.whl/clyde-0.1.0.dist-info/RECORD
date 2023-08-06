@@ -1,0 +1,16 @@
+clyde/__init__.py,sha256=ZZJ3jkRf69hQAI-bViDgHkd6M-Fcp6ZW3CxNNDGFrRA,258
+clyde/applications.py,sha256=_nopOARqEX5EI5NUEuQu3TyN9c73bvGWUtCO2e6pF5g,2351
+clyde/client.py,sha256=pRwqro9W11OG0nP83BG0nBqB5ICJpkrI7IhK-4Q1n0A,2643
+clyde/datastructures.py,sha256=Ao1u0LFg359McNYTEmwIHwjjTfaT0aRk6SCFsnUP4BQ,46
+clyde/endpoints.py,sha256=FiUEbRJBh2gqaipfAnzmHSgSRG_cAWPeNBF5xnfZPYU,178
+clyde/enums.py,sha256=NvPD7-_Vyj6bKx3M9hgKGqIuB3U9jTd2B9vJeRS_I2M,328
+clyde/middleware.py,sha256=YLib0-OZqRFvt0O4lhaXE1fb9aiE0xvtt-7G-uMhRe8,137
+clyde/models.py,sha256=Gz8Bw87uvcXu0XW37ljcnWHcZ7NthIVThOpF_3Xl4GQ,1471
+clyde/responses.py,sha256=DB3e6CPAwMofVyBfw-XirPvydnlbylCkvcVyNvvyBPY,78
+clyde/routing.py,sha256=8E8o-uvsfiXZVzxcdJaJNWFYpvlFTvegsxoqXAb6wJg,3246
+clyde/sessions.py,sha256=XwMzICs7nXyYQ4HB_ezgj61umtA1VHQgtgNZv81zMzk,453
+clyde/utils.py,sha256=vbUCunFNqPB6VrnMxWD7z9pjLbNjFN5PiJL2dB02vwA,225
+clyde-0.1.0.dist-info/LICENSE,sha256=GnW03-0adM_f-nbemR0-poxBk-zJQWQB3t8yAMMFMhY,1067
+clyde-0.1.0.dist-info/WHEEL,sha256=SrtnPGVTMeYWttls9xnWA01eUhCZ3ufFdJUYb1J3r-U,83
+clyde-0.1.0.dist-info/METADATA,sha256=Catpaw9D7tnWXhJGcAxIL5hOucqwxWKjQm8OjHLkpSU,497
+clyde-0.1.0.dist-info/RECORD,,
