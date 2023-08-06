@@ -1,0 +1,4 @@
+include *.txt
+include grebarss_reader/templates/*.jinja2
+include grebarss_reader/fonts/*.ttf
+include grebarss_reader/database/*.json
