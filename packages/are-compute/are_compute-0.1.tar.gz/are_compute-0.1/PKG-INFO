@@ -1,0 +1,25 @@
+Metadata-Version: 1.1
+Name: are_compute
+Version: 0.1
+Summary: ARE-compute package from the Saint-Malo poster “Evaluating the Effect of Individualized Treatment Rules Using Observational Data.”
+Home-page: UNKNOWN
+Author: François Grolleau
+Author-email: francois.grolleau@aphp.fr
+License: MIT
+Description: ARE-compute package from the Saint-Malo poster “Evaluating the Effect of Individualized Treatment Rules Using Observational Data.”
+        Implementation details are available at https://github.com/fcgrolleau/Emulated-ITR/ 
+        Theoretical argument including extensive simulations will be posted on Arxiv soon.
+        
+        Change Log
+        ==========
+        
+        
+        0.1 (11/01/2021)
+        -------------------
+        - First Release
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Education
+Classifier: Operating System :: Microsoft :: Windows :: Windows 10
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
