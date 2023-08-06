@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: pkm-installer
+Version: 0.2.1
+Summary: lightweight installer for pkm
+License: MIT
+Author: bennyl
+Requires-Python: >=3.6,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Requires-Dist: importlib-metadata (>=1.7.0); python_version < "3.8"
+Description-Content-Type: text/markdown
+
+
