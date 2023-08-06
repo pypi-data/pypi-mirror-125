@@ -1,0 +1,9 @@
+LICENSE
+README.md
+setup.py
+src/py-ar/__init__.py
+src/py-ar/my_class.py
+src/py_ar.egg-info/PKG-INFO
+src/py_ar.egg-info/SOURCES.txt
+src/py_ar.egg-info/dependency_links.txt
+src/py_ar.egg-info/top_level.txt
