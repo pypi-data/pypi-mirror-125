@@ -1,0 +1,11 @@
+.gitignore,sha256=y4OnrjuOuhhyLpsafUd3HLgHi4kM1muEZqhLtiwHjUI,54
+LICENSE,sha256=E_tIpsMacuDitpZQsc6-iVT3tzRJhISS3P0islvZGvo,35182
+README.md,sha256=yZcgsdLZcWMF-LBHG_nMt751Letc43domcLsIjJ4po4,745
+requirements.txt,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+vpncmd/__init__.py,sha256=g0v4B_UXH5_O9M97LVPQxCK33aA9azFLU1pJR6d4Rdc,424
+vpncmd/core.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+vpncmd-0.0.1.dist-info/LICENSE,sha256=E_tIpsMacuDitpZQsc6-iVT3tzRJhISS3P0islvZGvo,35182
+vpncmd-0.0.1.dist-info/METADATA,sha256=yPn0GNIwr7NUZ5pPYAsmaqkZBs3Hp1BkbrD4P_Z1HLU,1492
+vpncmd-0.0.1.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+vpncmd-0.0.1.dist-info/top_level.txt,sha256=3Jrn_eF87jGRqLhkp_SCjrN-EnhxhntUpsZntyKSJIk,7
+vpncmd-0.0.1.dist-info/RECORD,,
