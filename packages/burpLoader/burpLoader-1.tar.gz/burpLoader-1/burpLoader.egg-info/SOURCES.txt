@@ -1,0 +1,7 @@
+LICENSE
+README.md
+setup.py
+burpLoader.egg-info/PKG-INFO
+burpLoader.egg-info/SOURCES.txt
+burpLoader.egg-info/dependency_links.txt
+burpLoader.egg-info/top_level.txt

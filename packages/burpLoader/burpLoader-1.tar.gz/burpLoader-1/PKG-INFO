@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: burpLoader
+Version: 1
+Summary: Load all your recon data to burp
+Home-page: UNKNOWN
+Author: karthithehacker
+Author-email: <contact@karthithehacker.com>
+License: UNKNOWN
+Keywords: python,burp,burpLoader
+Platform: UNKNOWN
+Classifier: Development Status :: 1 - Planning
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: Unix
+Classifier: Operating System :: MacOS :: MacOS X
+Classifier: Operating System :: Microsoft :: Windows
+License-File: LICENSE
+
+UNKNOWN
+
