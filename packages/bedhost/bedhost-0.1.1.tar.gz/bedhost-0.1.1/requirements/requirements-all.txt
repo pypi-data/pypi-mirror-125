@@ -1,0 +1,13 @@
+aiofiles
+bbconf>=0.2.0
+fastapi>=0.61.2
+itsdangerous
+logmuse
+pipestat>=0.3.0
+pipestat_reader
+python-multipart
+pyyaml
+requests
+starlette
+uvicorn
+yacman>=0.7.1
