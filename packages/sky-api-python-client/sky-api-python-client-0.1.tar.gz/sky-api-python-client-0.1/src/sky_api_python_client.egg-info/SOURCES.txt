@@ -1,0 +1,12 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+src/funky/__init__.py
+src/funky/auth.py
+src/funky/sky.py
+src/sky_api_python_client.egg-info/PKG-INFO
+src/sky_api_python_client.egg-info/SOURCES.txt
+src/sky_api_python_client.egg-info/dependency_links.txt
+src/sky_api_python_client.egg-info/requires.txt
+src/sky_api_python_client.egg-info/top_level.txt
