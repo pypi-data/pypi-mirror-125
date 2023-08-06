@@ -1,0 +1,24 @@
+Metadata-Version: 2.1
+Name: selenium-logging
+Version: 0.0.2
+Summary: Log messages and images in HTML file
+Home-page: https://github.com/smirad91/LoggingSelenium
+Author: smirad91
+Author-email: smirad91@gmail.com
+License: UNKNOWN
+Project-URL: Bug Tracker, https://github.com/smirad91/LoggingSelenium/issues
+Description: Logging of screenshot and messages to HTML file. Can be used with selenium, but not necessary.
+        How to use it:
+        
+        
+        LogHTML.set_log_path(r"pathToFolderForLogs")
+        
+        LogHTML.screenshot("After submit button is clicked")
+        
+        LogHTML.info("After clicking")
+Keywords: log,selenium,automation,screenshot,message,HTML
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: Microsoft :: Windows
+Description-Content-Type: text/markdown
