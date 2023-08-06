@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: spacedreppy
+Version: 0.1.0
+Summary: A spaced repetition Python library.
+License: MIT
+Keywords: Spaced-repetition
+Author: Louis Schlessinger
+Author-email: 2996982+lschlessinger1@users.noreply.github.com
+Requires-Python: >=3.8,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Description-Content-Type: text/markdown
+
+# SpacedRepPy
+
