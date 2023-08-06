@@ -1,0 +1,1 @@
+Download stock symbol historical data from yahoo finance in a json format (dictionary) beginners friendly.

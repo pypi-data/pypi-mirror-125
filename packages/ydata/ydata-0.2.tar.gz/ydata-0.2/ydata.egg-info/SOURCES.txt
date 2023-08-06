@@ -1,0 +1,9 @@
+LICENCE.txt
+README.txt
+setup.py
+ydata/__init__.py
+ydata.egg-info/PKG-INFO
+ydata.egg-info/SOURCES.txt
+ydata.egg-info/dependency_links.txt
+ydata.egg-info/requires.txt
+ydata.egg-info/top_level.txt
