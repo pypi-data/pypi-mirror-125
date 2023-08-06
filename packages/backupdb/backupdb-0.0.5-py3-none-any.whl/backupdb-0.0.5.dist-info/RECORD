@@ -1,0 +1,10 @@
+backupdb/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+backupdb/cli.py,sha256=ogBz9GOworJp3DAjAmwK942mE2bcgFR0l7URReDEaf0,1751
+backupdb/pgdump.py,sha256=vLyOXno6ByPxlK_OUaNUy7FW2Ufvm5O0Jz9y56ccy-0,1019
+backupdb/storage.py,sha256=7bCkdkrCqEriiEaXewTwG6lJEN6AdSE8sWL1K_En-pc,786
+backupdb-0.0.5.dist-info/LICENSE,sha256=enNqOVkheRan-ahKgek500Md9nnag5hzHlG6RW5SvP4,1073
+backupdb-0.0.5.dist-info/METADATA,sha256=k00ZjQD1JSOxpukZuGDd9HUdPSSS-AVNavF1nmbk1pU,2042
+backupdb-0.0.5.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+backupdb-0.0.5.dist-info/entry_points.txt,sha256=znqfeACQM1BpvGTvMl-SRs_xbuNNP577PSpg_KAjzhg,48
+backupdb-0.0.5.dist-info/top_level.txt,sha256=1lMxW8bQNx5vQB2_kssvSrbC5Y0sLn3U107tXoxajp4,9
+backupdb-0.0.5.dist-info/RECORD,,
