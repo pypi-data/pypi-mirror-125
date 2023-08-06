@@ -1,0 +1,8 @@
+README.md
+setup.py
+qsamplehello/src/qsamplehello.py
+qsamplehello/src/qsamplehello.egg-info/PKG-INFO
+qsamplehello/src/qsamplehello.egg-info/SOURCES.txt
+qsamplehello/src/qsamplehello.egg-info/dependency_links.txt
+qsamplehello/src/qsamplehello.egg-info/requires.txt
+qsamplehello/src/qsamplehello.egg-info/top_level.txt
