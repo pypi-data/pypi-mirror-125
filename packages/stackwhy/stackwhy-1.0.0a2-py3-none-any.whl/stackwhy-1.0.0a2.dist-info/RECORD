@@ -1,0 +1,14 @@
+stackwhy/__init__.py,sha256=s6k3bS-lFphY2UGd9Zgo3ym2P3i49eq7RwmnYkJYGJA,117
+stackwhy/__main__.py,sha256=kT7x4l715MdNF8ZTJqTuu0HBlUaCEXvZac_SQf_FyKg,228
+stackwhy/cli.py,sha256=plvvbXvj-18qfsAGp5-6DDlFHEEVmwYW6N1yN-5kKR8,890
+stackwhy/event.py,sha256=UKN7oqobVKQ3IUTvmj0909y9hxOj6aYwrcdZ6Grndcc,656
+stackwhy/stack_why.py,sha256=g-dwdlFDsnFdcORG2b2aWr1501V0kIOTqYZPKQmqEAc,3254
+stackwhy/version/VERSION,sha256=LXUCGsKHGGt0wefNXJd79GwVqjrn4sseR1ce6an5XIY,8
+stackwhy/version/__init__.py,sha256=1Hi8CuB5fIa1HiBTzV-FRyG7AAA4QmCNdAcHpv_bQgg,207
+stackwhy/version/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+stackwhy-1.0.0a2.dist-info/LICENSE,sha256=jecwHNG8OzeBOT_VaopmQWpty9muYzuw03tmWBQRwPs,1073
+stackwhy-1.0.0a2.dist-info/METADATA,sha256=GwmHesQHr6xmRJhOJUxAAZwJ7D61DxR_zhHp5jJ-NJI,4674
+stackwhy-1.0.0a2.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+stackwhy-1.0.0a2.dist-info/entry_points.txt,sha256=MlGZhegc2Tkj7dyKoj8NXMKe-Ankvz0TAfTvZlAGlEU,58
+stackwhy-1.0.0a2.dist-info/top_level.txt,sha256=VMt48RB7Agr0DXrbSYyXaCmaj4JpN3nWCucIh7q1XqA,9
+stackwhy-1.0.0a2.dist-info/RECORD,,
