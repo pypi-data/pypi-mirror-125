@@ -1,0 +1,9 @@
+compliant_dynamodb/__init__.py,sha256=Xekyn-9M68X8PbTYMMJLb_koc96GIF_x8rABMP_nxQw,26363
+compliant_dynamodb/py.typed,sha256=AbpHGcgLb-kRsJGnwFEktk7uzpZOCcBY74-YBdrKVGs,1
+compliant_dynamodb/_jsii/__init__.py,sha256=U36EZWjhT8aRB9mpGUw9Kacm1d5wE1IxNXMuq4_0_Lw,563
+compliant_dynamodb/_jsii/compliantdynamodb@0.0.22.jsii.tgz,sha256=piEqCqibq3C6hNsFSDk1pAmtFeyXpAnHgBOhkz6SFrw,16455
+compliantdynamodb-0.0.22.dist-info/LICENSE,sha256=z8d0m5b2O9McPEK1xHG_dWgUBT6EfBDz6wA0F7xSPTA,11358
+compliantdynamodb-0.0.22.dist-info/METADATA,sha256=ZVM0rbYxvO69ygtxk1CLN281CFEFJ3z4-E4Fg4tjzlo,2110
+compliantdynamodb-0.0.22.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+compliantdynamodb-0.0.22.dist-info/top_level.txt,sha256=tSATJFCEMYhqHfJUjcMhRpp_ic-AsD3ut_dUxwpWBMY,19
+compliantdynamodb-0.0.22.dist-info/RECORD,,
