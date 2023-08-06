@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: new-face
+Version: 0.0.1
+Summary: Face Recognition Tools
+Home-page: https://github.com/Michael07220823/new_face.git
+Author: Overcomer
+Author-email: michael31703@gmail.com
+License: MIT License
+Description: # new_face
+        Face Recognition
+        
+Keywords: Face Recognition
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: Microsoft :: Windows
+Classifier: Operating System :: POSIX :: Linux
+Classifier: Operating System :: MacOS
+Description-Content-Type: text/markdown

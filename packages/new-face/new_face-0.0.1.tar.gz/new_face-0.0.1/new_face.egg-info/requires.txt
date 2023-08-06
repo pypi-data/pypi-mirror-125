@@ -1,0 +1,12 @@
+numpy
+opencv-python
+opencv-contrib-python
+tensorflow<=2.5.0
+mtcnn
+sklearn
+imutils
+cmake
+dlib
+scikit-image
+new_tools
+pydot

@@ -1,0 +1,8 @@
+README.md
+setup.py
+new_face/__init__.py
+new_face.egg-info/PKG-INFO
+new_face.egg-info/SOURCES.txt
+new_face.egg-info/dependency_links.txt
+new_face.egg-info/requires.txt
+new_face.egg-info/top_level.txt
