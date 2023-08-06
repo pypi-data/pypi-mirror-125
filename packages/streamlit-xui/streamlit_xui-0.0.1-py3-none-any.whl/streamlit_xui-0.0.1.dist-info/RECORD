@@ -1,0 +1,12 @@
+placeholder/__init__.py,sha256=Xd_7jhU89PXDobdy7c0n6YWfm-SEt1_-ngbCwB8GFWo,785
+placeholder/frontend/dist/index.html,sha256=guEWbs80hcRbPBW_ypX3_rkCOB77kkQIiPs6pdWOhW4,408
+placeholder/frontend/dist/assets/index.d8e9905b.js,sha256=beEY7pu1T0U6chom79em-_9TSqLSAYbq0xEvT1O8qEw,992
+placeholder/frontend/dist/assets/vendor.919a7b4c.js,sha256=hvruSx5Ai5Ox4GVzaT_pNU_Ci1TwXwm97IXTHaFHg0M,230773
+sidemenu/__init__.py,sha256=71mpP0ddFiL3o83ouNbgNl7IIVG5C4e1RE-Ca84OQX0,3838
+sidemenu/frontend/dist/index.html,sha256=dCj3dmOpM7ra4AZ5U0nHZCGDdmNlN1vWSa8JuiY2Izs,405
+sidemenu/frontend/dist/assets/index.b6b9f3be.js,sha256=4yGblV6aWp5BxxqkG7d14PbjvN824Hu46cOEicCtwoY,3630
+sidemenu/frontend/dist/assets/vendor.919a7b4c.js,sha256=hvruSx5Ai5Ox4GVzaT_pNU_Ci1TwXwm97IXTHaFHg0M,230773
+streamlit_xui-0.0.1.dist-info/METADATA,sha256=HFVDKIceNLpxRM3YvuUjwhVADW6RzkCHN7D324XNRsI,1054
+streamlit_xui-0.0.1.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+streamlit_xui-0.0.1.dist-info/top_level.txt,sha256=8bJVNEWst-5GIqDzhvCsVqHe45_EeUscCiGyTweCwiw,21
+streamlit_xui-0.0.1.dist-info/RECORD,,
