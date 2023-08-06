@@ -1,0 +1,3 @@
+[console_scripts]
+becli=badexperiment.becli:make_iot_yaml
+
