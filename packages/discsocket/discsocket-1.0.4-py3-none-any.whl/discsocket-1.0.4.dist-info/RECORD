@@ -1,0 +1,16 @@
+discsocket/__init__.py,sha256=9uVbU9Qyd05lqw-p9uZ7CZEbyzjM2cawAIZ6SDj3XjM,319
+discsocket/container.py,sha256=tJdeWziEYEJKAdJ_qio-XlBWJ0h0ciT96xmZXh3oehw,1196
+discsocket/decorators.py,sha256=4-OwmLkPvv8Ov_CLUpKbUJtsfyM7pq-QsSbtB1ytmWo,1281
+discsocket/socket.py,sha256=Swg86xF4LGo1NUe0HxWBO8fg3M8r_TK0sXWCvKpvfCQ,12534
+discsocket/models/__init__.py,sha256=3Zi5AzqwF5-KCgnLJP3CpXblZ05ahM7IC15U566SJ48,22
+discsocket/models/components.py,sha256=JDUSUD4RytYHg2npDKCv3h_5T0W2ey5lAL-Dcw8N4lE,1389
+discsocket/models/context.py,sha256=C6THjnagqbHoDDG7wEoMzAhOs8Vv04GItVV9Ty4ycCk,8046
+discsocket/models/message.py,sha256=bXViv1QitBGAg1yYFPl0RsgCJeew0hmCjQ2A88n2av4,2693
+discsocket/models/user.py,sha256=JTNJLET_tWfFMejJBCanvSI3zvPFcOceHZW8hJNqdms,541
+discsocket/utils/__init__.py,sha256=oYwx5GtFdnDEelVZsqoaV-X04Gb_SDmJ_JM6Q_BznGo,282
+discsocket/utils/cdn.py,sha256=K1GoK9lS0SoOXde2RmaMk96JZuescZPS6Ewkp1FSQkE,599
+discsocket-1.0.4.dist-info/LICENSE,sha256=lkMzejtk0NOA906em0Tuz1ZHQpy1Onbnesgaob0M5FU,1083
+discsocket-1.0.4.dist-info/METADATA,sha256=cATdaeW8oCbwvl8Fld6DHOTmfpsb0Hs6mwXABI7inYA,1580
+discsocket-1.0.4.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+discsocket-1.0.4.dist-info/top_level.txt,sha256=MJgCNbtUMvhM46_3lX_6oS_w993xibpm8O2IJLKYCcs,11
+discsocket-1.0.4.dist-info/RECORD,,
