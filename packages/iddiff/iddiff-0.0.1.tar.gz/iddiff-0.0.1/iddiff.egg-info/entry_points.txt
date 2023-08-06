@@ -1,0 +1,3 @@
+[console_scripts]
+iddiff = iddiff.iddiff:main
+
