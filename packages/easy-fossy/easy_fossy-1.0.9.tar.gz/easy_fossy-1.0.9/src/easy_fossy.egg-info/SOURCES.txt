@@ -1,0 +1,11 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+src/easy_fossy/__init__.py
+src/easy_fossy/models.py
+src/easy_fossy.egg-info/PKG-INFO
+src/easy_fossy.egg-info/SOURCES.txt
+src/easy_fossy.egg-info/dependency_links.txt
+src/easy_fossy.egg-info/requires.txt
+src/easy_fossy.egg-info/top_level.txt
