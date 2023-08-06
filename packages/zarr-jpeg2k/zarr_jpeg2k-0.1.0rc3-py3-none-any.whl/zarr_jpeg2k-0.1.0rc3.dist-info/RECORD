@@ -1,0 +1,10 @@
+tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/test_zarr_jpeg2k.py,sha256=zU444JW7Jlm5upUCFuJILFNPWax6QJfwWmIWbo3M1Mc,409
+zarr_jpeg2k/__init__.py,sha256=XpQcBT7GoJvtmLyM5mnp7E0FcUOMli46ZBL4JX7L4Xk,370
+zarr_jpeg2k/version.py,sha256=o8tnPx4vfDRcTCbsPtub3cYRzR-I6-p7u3bIvb3v-T0,21
+zarr_jpeg2k/zarr_jpeg2k.py,sha256=pazHOHECycRkxSsZo1mC7HsKExwbc_CohKqWYpIR6js,1537
+zarr_jpeg2k-0.1.0rc3.dist-info/LICENSE,sha256=BCNJK9m1P0GEzfZ7AJ4eawj_jN2okM_sKE2mde7PEoA,1466
+zarr_jpeg2k-0.1.0rc3.dist-info/METADATA,sha256=qk-nPhVwTWd37WNzS_4ZZs5AudK2t3OQaiQEHb8NyVs,1115
+zarr_jpeg2k-0.1.0rc3.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+zarr_jpeg2k-0.1.0rc3.dist-info/top_level.txt,sha256=I1vZMMPraUBMtD7yTNgyq94imvsgzSUDZAAsCj__mjQ,18
+zarr_jpeg2k-0.1.0rc3.dist-info/RECORD,,
