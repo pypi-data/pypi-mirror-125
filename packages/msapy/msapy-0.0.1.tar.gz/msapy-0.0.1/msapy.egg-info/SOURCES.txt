@@ -1,0 +1,14 @@
+LICENSE
+README.md
+setup.py
+msa_src/__init__.py
+msa_src/msa.py
+msa_src/utils.py
+msapy.egg-info/PKG-INFO
+msapy.egg-info/SOURCES.txt
+msapy.egg-info/dependency_links.txt
+msapy.egg-info/requires.txt
+msapy.egg-info/top_level.txt
+tests/__init__.py
+tests/test_bad_inputs.py
+tests/test_ground_truth.py
