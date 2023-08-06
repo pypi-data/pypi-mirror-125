@@ -1,0 +1,22 @@
+Metadata-Version: 2.1
+Name: hindiwsd
+Version: 1.0.1
+Summary: A pipeline for transliteration of hinglish code mixed data to hindi along with spell correction and word sense disambiguation of hindi words.
+Home-page: https://github.com/praatibhsurana/Hinglish_Hindi_WSD
+Author: Praatibh Surana, Mirza Yusuf
+Author-email: praatibhsurana@gmail.com
+License: UNKNOWN
+Keywords: nlp,machine learning,spell correction,IndoWordNet,Hindi,Hinglish code mixed to Hindi transliteration
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3.6
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# Hinglish-Hindi-WSD
+
+A pipeline for transliteration, spell correction and word sense disambiguation of Hinglish code mixed data to Hindi Devanagari script.
+
+
