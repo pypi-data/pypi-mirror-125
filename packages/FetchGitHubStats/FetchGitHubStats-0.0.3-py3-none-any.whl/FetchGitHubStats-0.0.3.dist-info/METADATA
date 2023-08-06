@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: FetchGitHubStats
+Version: 0.0.3
+Summary: Returns GitHub Users Repo's data to Pandas Dataframe
+Home-page: https://www.adgstudios.co.za
+Author: Ashlin Darius Govindasamy
+Author-email: adgrules@hotmail.com
+License: MIT
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Dist: pandas
+Requires-Dist: requests
+
+UNKNOWN
+
+
