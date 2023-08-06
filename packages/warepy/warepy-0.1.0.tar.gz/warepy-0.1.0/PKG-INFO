@@ -1,0 +1,17 @@
+Metadata-Version: 1.1
+Name: warepy
+Version: 0.1.0
+Summary: My toolkit for Python.
+Home-page: https://github.com/ryzhovalex/warepy
+Author: Alexander Ryzhov
+Author-email: thed4rkof@gmail.com
+License: MIT
+Download-URL: https://github.com/ryzhovalex/warepy/archive/refs/tags/0.2.0.tar.gz
+Description: UNKNOWN
+Keywords: toolkit,python-core
+Platform: UNKNOWN
+Classifier: Development Status :: 1 - Planning
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Build Tools
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3.9
