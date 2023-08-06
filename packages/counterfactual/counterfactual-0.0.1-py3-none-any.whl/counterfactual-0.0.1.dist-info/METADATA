@@ -1,0 +1,56 @@
+Metadata-Version: 2.1
+Name: counterfactual
+Version: 0.0.1
+Summary: This project is a framework for counterfactual analysis
+Home-page: https://gitlab.tools.eu.pvh.cloud/abi/data-science/performance-marketing/tyche-activation-testing-framework/tree/master
+Author: Luigi Brioschi
+Author-email: luigibrioschi@pvh.com
+License: Apache Software License 2.0
+Keywords: counterfactual analysis causal impact
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Natural Language :: English
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: License :: OSI Approved :: Apache Software License
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+Requires-Dist: pip
+Requires-Dist: packaging
+Requires-Dist: tfcausalimpact (==0.0.9)
+Requires-Dist: tensorflow (==2.6.0)
+Requires-Dist: pandas (==1.3.4)
+Requires-Dist: google (==3.0.0)
+Requires-Dist: google-api-core (==1.31.1)
+Requires-Dist: google-auth (==1.34.0)
+Requires-Dist: google-auth-oauthlib (==0.4.5)
+Requires-Dist: google-cloud (==0.34.0)
+Requires-Dist: google-cloud-bigquery (==2.24.0)
+Requires-Dist: google-cloud-core (==1.7.2)
+Requires-Dist: google-crc32c (==1.1.2)
+Requires-Dist: google-resumable-media (==1.3.3)
+Requires-Dist: googleapis-common-protos (==1.53.0)
+Provides-Extra: dev
+Requires-Dist: nbdev (>=1.0.22) ; extra == 'dev'
+Requires-Dist: pre-commit ; extra == 'dev'
+Requires-Dist: black ; extra == 'dev'
+Requires-Dist: mypy ; extra == 'dev'
+Requires-Dist: flake8 ; extra == 'dev'
+Requires-Dist: twine ; extra == 'dev'
+
+# Project Template
+> A sample project showing how to use `nbdev` and log tensorflow models to MLflow.
+
+
+```
+import sys
+sys.path.append("..")
+```
+
+## Install
+
+`pip install tyche`
+
+
