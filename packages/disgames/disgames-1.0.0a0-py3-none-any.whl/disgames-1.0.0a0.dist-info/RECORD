@@ -1,0 +1,11 @@
+disgames/Board.py,sha256=u0B6Hyg9IMpDZyxbVLqj1cksIlBZb-nR46pCGDdF0ik,1263
+disgames/__init__.py,sha256=5ffmZxke1QIVuX-AaljzKapRBaLYNdfmMhF8XBF3_Fo,259
+disgames/hangman.py,sha256=ccuIaKVuwBJ3TlMG0t_ESJcbbGE38DtSLohdW7HIxx0,4478
+disgames/madlib.py,sha256=5lmhJzT-eLiXAg8sPKpOKPw50R8Vv18hJWh_bTAKYDc,907
+disgames/ttt.py,sha256=g380sXt1lNXtmxzxdAif-x4Fjz6tuvET6TmwSvM9UhM,3755
+disgames/utils.py,sha256=R-6NgHShwap8oopWMaMPGBfz39yBOy2sPfssq8zeMI4,895
+disgames-1.0.0a0.dist-info/LICENSE,sha256=GxZ5FF48hvI9Yl4yniCxC2LSRbK3QYCBWvc9r-uiC8M,11358
+disgames-1.0.0a0.dist-info/METADATA,sha256=yJ2j2tPZZxPuHwEfbJ-UVDTF-BAnlf6dBy88zGYJejs,786
+disgames-1.0.0a0.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+disgames-1.0.0a0.dist-info/top_level.txt,sha256=3-raDTd_Ac1s-TumNAQ7rzRRVlQnZ3ZvR9BDTIyeQCM,9
+disgames-1.0.0a0.dist-info/RECORD,,
