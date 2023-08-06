@@ -1,0 +1,13 @@
+LICENSE
+README.md
+setup.py
+ctorrent/__init__.py
+ctorrent/__main__.py
+ctorrent/torrents.py
+ctorrent/utils.py
+ctorrent.egg-info/PKG-INFO
+ctorrent.egg-info/SOURCES.txt
+ctorrent.egg-info/dependency_links.txt
+ctorrent.egg-info/entry_points.txt
+ctorrent.egg-info/requires.txt
+ctorrent.egg-info/top_level.txt
