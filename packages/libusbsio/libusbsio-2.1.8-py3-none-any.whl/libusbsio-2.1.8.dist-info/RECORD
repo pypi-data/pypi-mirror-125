@@ -1,0 +1,17 @@
+libusbsio/__init__.py,sha256=gZcej5Ikzr_V1WEsPfV6dSMvo_xvPPMJIkReNMs3UDI,763
+libusbsio/__main__.py,sha256=nWWNq5lAvBl6mQ3_dOwngYPaRUqbxhnqwhyyK58ykhI,251
+libusbsio/libusbsio.py,sha256=E4VHY8cyO9XpDtDlNhJOuiVAMe2Xc5duFo7Z10JMPCk,56618
+libusbsio/bin/BSD-3-clause.txt,sha256=ahRxfp6XWWOOtl3Vt0FGu3mCqlUmHWqDGXYG2TNB1oc,1448
+libusbsio/bin/LICENSE-hidapi-bsd.txt,sha256=saUGSD3k_DKnNWg3CqJIv2xfggteKJHKPym4hE6mvzM,1560
+libusbsio/bin/Win32/libusbsio.dll,sha256=6noCnn9I37LgMNU1XLmBGW6H9ZXdYcOoEQnuRvN6i4w,115712
+libusbsio/bin/linux_aarch64/libusbsio.so,sha256=_y1_BGVS9_hjzVgwvOxoxxURYQ4xI39mpL8W6n616YU,44832
+libusbsio/bin/linux_armv7l/libusbsio.so,sha256=aIF3rGTh8iCH0LcpmWzX9lXMW1L7CtDZzkkn4t3Yqns,34296
+libusbsio/bin/linux_i686/libusbsio.so,sha256=OtsovQyfevWGyWj52FkCuv-sb0uLrD5NjOGRa6rwQWM,44888
+libusbsio/bin/linux_x86_64/libusbsio.so,sha256=iVWsdNLKIinVgImxxdzrvz7vEBQykpr2KKHLsTCMW-A,47200
+libusbsio/bin/osx_arm64/libusbsio.dylib,sha256=7ao_pZChX4Vtb5B5KCITzmF3iPSlLeZQfMvQUqqC5Fs,74572
+libusbsio/bin/osx_x86_64/libusbsio.dylib,sha256=oc6xhyR44D9AaFoMY7xrsVQlchvH9LKBn2CU62Xepqo,73944
+libusbsio/bin/x64/libusbsio.dll,sha256=WblGO-6mHemHTzA0vc2FSCXnMyvHYXV1-2YknRcGQIE,138752
+libusbsio-2.1.8.dist-info/METADATA,sha256=wCc7ruOQKt2nlKiFj7B6vCMIMKlKkY1lZmwzi6pUN38,4882
+libusbsio-2.1.8.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+libusbsio-2.1.8.dist-info/top_level.txt,sha256=iqFcxaEoSYAGihOnY4fNXB_V-29HYhPnou5ayQlDKlM,10
+libusbsio-2.1.8.dist-info/RECORD,,
