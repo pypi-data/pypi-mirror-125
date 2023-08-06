@@ -1,0 +1,11 @@
+maison/__init__.py,sha256=TL6mG1WrG-lky9HfrtFGnA2Q_s5kAOZZ2tsU9a1Qajk,81
+maison/__main__.py,sha256=3UXLLbEKqBcFDh5pCkHk8znx0qI4A4ZP_2PjGFxeeJQ,202
+maison/config.py,sha256=_k90uKH5ayrqYP0mG30yLzcvpXIagWPqqXigRlbj2kg,3927
+maison/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+maison/schema.py,sha256=hlwn2qJxtjSbEEdMvBTzRJUyvPnptNJqm4mEBrmT7ZM,189
+maison/utils.py,sha256=sVeR4_mLP86hDGtUywPKGEw1KCMFVotSoTN47Zx9vkg,3147
+maison-1.2.0.dist-info/entry_points.txt,sha256=-1R975chuGooJcNLHroy1AjcFl3yEQ4Xg35UAJeK7z8,47
+maison-1.2.0.dist-info/LICENSE.rst,sha256=lsn55t3ndaa2Farg1bzJ7uSeeKrujaeHsdbb1L8clAg,1082
+maison-1.2.0.dist-info/WHEEL,sha256=y3eDiaFVSNTPbgzfNn0nYn5tEn1cX6WrdetDlQM4xWw,83
+maison-1.2.0.dist-info/METADATA,sha256=2j3x0numyWM5pTgjk5e2iuz5eGliKGl8AJhLKRYWNrU,2432
+maison-1.2.0.dist-info/RECORD,,
