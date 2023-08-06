@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: cliannelibrary
+Version: 0.1
+Summary: Create useful utilities
+Home-page: https://github.com/DmitryOstroushko/cliannelibrary
+Author: Dmitry Ostroushko
+Author-email: dmitrlylianne@gmail.com
+License: Dmitry Ostroushko
+Platform: UNKNOWN
+
+как делать свой пакет https://code.tutsplus.com/ru/tutorials/how-to-write-package-and-distribute-a-library-in-python--cms-28693
+
+
