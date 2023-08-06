@@ -1,0 +1,3 @@
+nnf>=0.3.0
+pyparsing
+clingo
