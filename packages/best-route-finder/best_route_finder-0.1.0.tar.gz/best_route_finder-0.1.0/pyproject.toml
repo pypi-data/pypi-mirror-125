@@ -1,0 +1,23 @@
+[project]
+name = "best-route-finder"
+version = "0.1.0"
+description = "Library for finding best route in the routing table"
+readme = "README.md"
+requires-python = ">=3.9"
+license = {file = "LICENSE"}
+authors = [
+    {email = "krunchfrompoland@gmail.com", name = "KRunchPL"}
+]
+
+[project.urls]
+homepage = "https://github.com/KRunchPL/best-route-finder"
+repository = "https://github.com/KRunchPL/best-route-finder"
+documentation = "https://github.com/KRunchPL/best-route-finder"
+
+[build-system]
+requires = ["maturin>=0.11,<0.12"]
+build-backend = "maturin"
+
+[tool.maturin]
+bindings = "pyo3"
+compatibility = "linux"
