@@ -1,0 +1,8 @@
+README.rst
+setup.py
+TestPackage/__init__.py
+TestPackage/hello.py
+nebulatest.egg-info/PKG-INFO
+nebulatest.egg-info/SOURCES.txt
+nebulatest.egg-info/dependency_links.txt
+nebulatest.egg-info/top_level.txt
