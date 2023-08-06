@@ -1,0 +1,11 @@
+LICENCE
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+src/redondear/__init__.py
+src/redondear/redondear.py
+src/redondear_dsalinas.egg-info/PKG-INFO
+src/redondear_dsalinas.egg-info/SOURCES.txt
+src/redondear_dsalinas.egg-info/dependency_links.txt
+src/redondear_dsalinas.egg-info/top_level.txt
