@@ -1,0 +1,7 @@
+muzzle.egg-info
+*.pyc
+*.swp
+.coverage
+pyenv
+.env
+dist/
