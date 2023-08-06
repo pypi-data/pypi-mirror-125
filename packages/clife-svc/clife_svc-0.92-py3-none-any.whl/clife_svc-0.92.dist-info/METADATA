@@ -1,0 +1,20 @@
+Metadata-Version: 2.1
+Name: clife-svc
+Version: 0.92
+Summary: A module for service
+Home-page: UNKNOWN
+Author: andy.hu
+Author-email: hlp0@163.com
+License: MIT
+Platform: UNKNOWN
+Requires-Dist: loguru
+Requires-Dist: aiohttp
+Requires-Dist: uvicorn
+Requires-Dist: requests
+Requires-Dist: cos-python-sdk-v5
+Requires-Dist: aiofiles
+Requires-Dist: fastapi
+
+UNKNOWN
+
+

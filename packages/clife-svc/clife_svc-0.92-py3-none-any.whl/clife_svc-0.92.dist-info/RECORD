@@ -1,0 +1,14 @@
+clife_svc/__init__.py,sha256=frcCV1k9oG9oKj3dpUqdJg1PxRT2RSN_XKdLCPjaYaY,2
+clife_svc/application.py,sha256=_Ap7-JdIUpp7osjYTwPcqWkl5sVnglkv2_riHxvTxMA,8568
+clife_svc/disconf.py,sha256=nmReuOEnSQA6VL98M4Y60jTJeSoWcPl9-G2c6vnRltc,7671
+clife_svc/test.py,sha256=l1_VhBEVV67TdKle8lbb662vWX4WQDAGi-XzC7lxH3I,2459
+clife_svc/errors/__init__.py,sha256=frcCV1k9oG9oKj3dpUqdJg1PxRT2RSN_XKdLCPjaYaY,2
+clife_svc/errors/error_code.py,sha256=_0XtxhgET635zwXtGROaDQbcC-DsZvRCx0t9AEgYbGI,3873
+clife_svc/libs/__init__.py,sha256=frcCV1k9oG9oKj3dpUqdJg1PxRT2RSN_XKdLCPjaYaY,2
+clife_svc/libs/http_request.py,sha256=wJaMP9kRZzH3F9fQXhWt59XtZv7QJkhMrVZvjBAsxL0,7935
+clife_svc/libs/log.py,sha256=wvje_lURUdGllqj8y4D3THMJz2zqzj1Ng_28-26We4I,1555
+clife_svc/libs/txy_cos.py,sha256=KHlYpIB_I2wMV96u5aADc4RsgSi9jxBcrfJcH63t9w0,3885
+clife_svc-0.92.dist-info/METADATA,sha256=15AkO0lSSZHk814rpIVzAfKKnVY2s-Zb1lVi1C9ZGKk,358
+clife_svc-0.92.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+clife_svc-0.92.dist-info/top_level.txt,sha256=DNV7DFnm3dz60r0NG9M8wCHEz7cg-LTtpIPfO4YG3wY,10
+clife_svc-0.92.dist-info/RECORD,,
