@@ -1,0 +1,31 @@
+Metadata-Version: 2.1
+Name: bigeye-airflow
+Version: 0.0.14
+Summary: Airflow operators to be used with Bigeye
+Home-page: https://github.com/torodata/toro-airflow
+Author: Bigeye
+Author-email: support@bigeye.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# bigeye-airflow
+Airflow operators to interact with Bigeye.
+
+### How to Test
+[Astronomer](astronomer.io) provides a local runtime for Airflow DAGs.  This runtime
+is build from the Dockerfile in the astro folder.  A startup bash script has been 
+added, ***astro_dev***, to facilitate the needed copies into the astro environment.
+```shell
+bash astro_dev start
+bash astro_dev stop
+bash astro_dev restart
+```
+
+
+
