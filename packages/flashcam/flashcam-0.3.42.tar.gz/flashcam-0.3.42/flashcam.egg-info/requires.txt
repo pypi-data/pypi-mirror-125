@@ -1,0 +1,6 @@
+fire
+flask_httpauth
+gunicorn
+imutils
+numpy
+v4l2py
