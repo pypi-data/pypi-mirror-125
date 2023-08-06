@@ -1,0 +1,25 @@
+Metadata-Version: 2.1
+Name: sibylsystem
+Version: 0.0.2
+Summary: Python Wrapper for the Sibyl System Antispam API for telegram
+Home-page: https://github.com/AnimeKaizoku/SibylSystem-Py
+License: GNU General Public License
+Keywords: sibyl,wrapper,telegram,antispam,api
+Author: Sayan Biswas
+Author-email: sayan@pokurt.me
+Requires-Python: >=3.7,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: License :: Other/Proprietary License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Requires-Dist: httpx (>=0.20.0,<0.21.0)
+Description-Content-Type: text/markdown
+
+# SibylPy
+
+## Python3 wrapper for the Sibyl System antispam API for telegram
+
