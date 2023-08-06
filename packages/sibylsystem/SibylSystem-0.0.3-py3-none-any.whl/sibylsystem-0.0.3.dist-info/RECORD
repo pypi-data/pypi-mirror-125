@@ -1,0 +1,10 @@
+src/SibylSystem/__init__.py,sha256=qmpKTLYeqL0ZIAv6PYCj3AEsHaPn78S8kVOqYY9LjYQ,4595
+src/SibylSystem/exceptions.py,sha256=zd4JAIiSS3HDcccUZ9d0eoSO1NoPK1xZzlmPUdjtAMA,1119
+src/SibylSystem/types/__init__.py,sha256=SP6R-vIP7VBeHDx5ek3blnYgcHGSAjtkhI8ANhuEv5U,901
+src/SibylSystem/types/bans.py,sha256=sWLWQDBXUR4jkesAa8v_C-KefyxU0_UMt-EC_95KEQQ,1246
+src/SibylSystem/types/permission.py,sha256=zAAZA5hVaeLVlyiptcQ5gQn9zYs10VyIQh8mFdygRCc,208
+src/SibylSystem/types/token.py,sha256=78sqiG6q-k3RKcAMb61cDMkyljQvNK7S0P2FBjp5L84,1205
+sibylsystem-0.0.3.dist-info/LICENSE,sha256=iDlYTm_Pl2OzWvoQXhZKb0wLY9PwF5J5nCKyH5y8a_c,35813
+sibylsystem-0.0.3.dist-info/WHEEL,sha256=y3eDiaFVSNTPbgzfNn0nYn5tEn1cX6WrdetDlQM4xWw,83
+sibylsystem-0.0.3.dist-info/METADATA,sha256=lBffgEAMMCmUMOuQo-mFeIHtUgwJRxIcvE-U_frjqI4,1036
+sibylsystem-0.0.3.dist-info/RECORD,,
