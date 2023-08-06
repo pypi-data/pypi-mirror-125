@@ -1,0 +1,29 @@
+Metadata-Version: 2.1
+Name: napari-text-layer
+Version: 0.1.0
+Summary: Text layer for bio-image annotation.
+Home-page: UNKNOWN
+Author: Hanjin Liu
+Author-email: liuhanjin-sc@g.ecc.u-tokyo.ac.jp
+License: BSD 3-Clause
+Download-URL: https://github.com/hanjinliu/napari-text-layer
+Platform: UNKNOWN
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+
+# napari-text-layer
+
+Napari text layer for bio-image annotation.
+
+![](GIFs/annot.gif)
+![](GIFs/age.gif)
+
+### Keybindings and mouse callbacks
+
+- "&rarr;", "&larr;", "&uarr;", "&darr;" ... Move selected shapes by 1 pixel.
+- "F2" ... Enter edit mode at the selected shape (or the last one if no shape is selected).
+- "Enter" ... Finish edit mode or add a new shape at the same interval.
+- "Ctrl" + "Shift" + "<" or ">" ... Change font size.
+- double click ... Enter edit mode at the clicked shape.
+
+
