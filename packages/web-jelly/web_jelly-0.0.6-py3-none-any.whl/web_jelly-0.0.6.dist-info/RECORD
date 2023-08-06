@@ -1,0 +1,10 @@
+jelly/__init__.py,sha256=J8nZgUnNtAUy1r40HQtEamduAvoJpwfYYr68c1Hchpw,1839
+jelly/client.py,sha256=7uuNhBjlsjXsR_IQ4ORsp8Hqxg7iplbAkskjJgZgCWg,4135
+jelly/html.py,sha256=_zFuhAhlXMpijyEkU47O3-j_K6CMbm_0qRsvwfkIQAM,9757
+jelly/logger.py,sha256=2bSru8oVAGKj1Zt06RHmzl4nowHICxuDT9vrs9g9xfA,9925
+jelly/transport.py,sha256=FoMBN2Yad_dKEpwHAz4vcjhdQDnO_RqUQKd0J825v-4,2763
+web_jelly-0.0.6.dist-info/LICENSE,sha256=6kbiFSfobTZ7beWiKnHpN902HgBx-Jzgcme0SvKqhKY,1091
+web_jelly-0.0.6.dist-info/METADATA,sha256=3Tbupcz35aUJKMzDCo6N8ZoMuOU2ZCjZ0iU7LHgTshQ,573
+web_jelly-0.0.6.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+web_jelly-0.0.6.dist-info/top_level.txt,sha256=Q5lp1s-Uhh8Qn8WOS1CUlh023WiMdoxbVMbg9muFHl0,6
+web_jelly-0.0.6.dist-info/RECORD,,
