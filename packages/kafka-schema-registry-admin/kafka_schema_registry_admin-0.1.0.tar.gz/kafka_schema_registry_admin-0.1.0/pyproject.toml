@@ -1,0 +1,85 @@
+[tool.poetry]
+name = "kafka_schema_registry_admin"
+version = "0.1.0"
+description = "Python native library to manage Kafka Schemas in Schema Registry"
+authors = ["johnpreston <john@compose-x.io>"]
+license = "LGPL-3.0-only"
+classifiers = [
+  "Programming Language :: Python :: 3",
+  "Programming Language :: Python :: 3.7",
+  "Programming Language :: Python :: 3.8",
+  "Programming Language :: Python :: 3.9",
+  "Development Status :: 2 - Pre-Alpha",
+  "Intended Audience :: Developers",
+  "Natural Language :: English",
+  "License :: OSI Approved :: GNU Lesser General Public License v3 (LGPLv3)"
+]
+readme = "README.rst"
+
+[tool.poetry.dependencies]
+python = "^3.7"
+pydantic = "^1.8.2"
+requests = "^2.26.0"
+
+[tool.poetry.dev-dependencies]
+black = "^21.9b0"
+isort = "^5.9.3"
+flake8 = "^3.9.2"
+coverage = "^5.5"
+pytest = "^6.2.4"
+pre-commit = "^2.14.0"
+tbump = "^6.4.0"
+cleanpy = "^0.3.1"
+
+[tool.tbump]
+github_url = "https://github.com/compose-x/kafka_schema_registry_admin"
+
+[tool.tbump.version]
+current = "0.1.0"
+
+regex = '''
+  (?P<major>\d+)
+  \.
+  (?P<minor>\d+)
+  \.
+  (?P<patch>\d+)
+  (?:(?P<rc>[\S]+))?
+  '''
+
+[tool.tbump.git]
+message_template = "Bump to {new_version}"
+tag_template = "v{new_version}"
+
+[[tool.tbump.file]]
+src = "pyproject.toml"
+
+[[tool.tbump.file]]
+src = "kafka_schema_registry_admin/__init__.py"
+
+[[tool.tbump.before_commit]]
+name = "Files format"
+cmd = "make conform"
+
+[tool.black]
+line-length = 88
+
+[tool.isort]
+profile = "black"
+multi_line_output = 3
+include_trailing_comma = true
+force_grid_wrap = 0
+use_parentheses = true
+known_first_party = "kelvin"
+
+[tool.coverage.report]
+exclude_lines = [
+  "if __name__ == '__main__'"
+]
+[tool.coverage.run]
+omit = [
+  "*/cli.py"
+]
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
