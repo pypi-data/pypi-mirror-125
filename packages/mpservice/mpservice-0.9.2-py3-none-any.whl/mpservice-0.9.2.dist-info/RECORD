@@ -1,0 +1,14 @@
+mpservice/__init__.py,sha256=HSMl6bLm3r1Ias1jHIPpJeQ0IYNuuSdlT38MTb79ewM,22
+mpservice/_async_streamer.py,sha256=gFTj0UEgUUjdQlOSDByXtD4snc5Lm8ndbIYW0szUelU,14890
+mpservice/_streamer.py,sha256=y3g7215QZXstIyxLY6s3lPhXL05X6dtmwWb5aGf4LeE,22393
+mpservice/background_task.py,sha256=cZmQ9Tfe0QOzOcx0Lpi8Ahj1y8nAed1ZAU3RsL-RvF4,4992
+mpservice/http_server.py,sha256=GZPf22xBO5pqE7vGAecYhRPhDmVREgN213K4TZ02EJ0,5235
+mpservice/mperror.py,sha256=t_otTmLZBLPFB-XOsvLRujkwKAN9mTEamaDKlOv57zk,2308
+mpservice/mpserver.py,sha256=3bI4i-OTSedqOQU5e2XBRLUpM5OBjTkFcEh6Q0gKMuI,30465
+mpservice/server_process.py,sha256=cCSGWlLla7t2mJIIiGyPJ8cea6TudWfhJav9tuhbMxU,1471
+mpservice/streamer.py,sha256=v9TfG2xWJ2x8Gmy7mRNMhxvGJE9c-I3ZcdMcuO5BEJ0,118
+mpservice-0.9.2.dist-info/LICENSE,sha256=Mx-ae4fXQys21SldoHoEaSOUF-2n02Z_Sx6o6YlRW3c,1067
+mpservice-0.9.2.dist-info/METADATA,sha256=ZT7sYCrzJenSeJfZ3_XqRj2TFJU6sYdTTHAbr9EE7Tk,1608
+mpservice-0.9.2.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+mpservice-0.9.2.dist-info/top_level.txt,sha256=CuIEOI3FCievBq4NSesW8ZDVTAtpaqhyMXlqExDhcF0,10
+mpservice-0.9.2.dist-info/RECORD,,
