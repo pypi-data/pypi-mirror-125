@@ -1,0 +1,10 @@
+The file Broken-image-389560.svg was downloaded, changed in color from black to white and converted to png:
+  - Broken-image-389560-black.png
+  - Broken-image-389560-white.png
+  Source: https://commons.wikimedia.org/wiki/File:Broken-image-389560.svg
+
+The file Pause_-_The_Noun_Project.svg was downloaded, changed in color from black to white and converted to png:
+  - Pause_-_The_Noun_Project-black.png
+  - Pause_-_The_Noun_Project-white.png
+  Source: https://upload.wikimedia.org/wikipedia/commons/7/74/Pause_-_The_Noun_Project.svg
+

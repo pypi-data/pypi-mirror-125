@@ -1,0 +1,7 @@
+{
+    "primeMusicBrowseable": false,
+    "primeMusicContentAccessible": false,
+    "primeMusicTestBrowseAndAddable": false,
+    "primeMusicTestPlaybackAccessible": false
+}
+
