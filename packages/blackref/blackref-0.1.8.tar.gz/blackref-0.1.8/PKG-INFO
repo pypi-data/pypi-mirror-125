@@ -1,0 +1,25 @@
+Metadata-Version: 2.1
+Name: blackref
+Version: 0.1.8
+Summary: An uncompromising BibTeX/BibLaTeX reference list formatter.
+Home-page: https://github.com/dvolgyes/blackref
+Author: David Völgyes
+Author-email: david.volgyes@ieee.org
+License: AGPLv3
+Keywords: code formattig,latex,bibtex,biblatex
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: GNU Affero General Public License v3
+Classifier: Natural Language :: English
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Requires-Python: >=3.6
+License-File: LICENSE.txt
+
+An uncompromising BibTeX/BibLaTeX reference list formatter.
+
