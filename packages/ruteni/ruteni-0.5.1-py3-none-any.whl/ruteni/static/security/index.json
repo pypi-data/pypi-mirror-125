@@ -1,0 +1,1 @@
+{"resources":{"script.sanitizer":{"url":"sanitizer.js","revision":"80f68c0c547ac1eac586743ca02c4278","size":109,"type":"script","preload":false}},"name":"security","version":"0.1.0","module":{"url":"index.js","revision":"7e6ce1a89c5abc06019288d64c2cc87c","size":19256,"type":"script"},"select":[],"dependencies":["logging"],"base":"/static/security"}
