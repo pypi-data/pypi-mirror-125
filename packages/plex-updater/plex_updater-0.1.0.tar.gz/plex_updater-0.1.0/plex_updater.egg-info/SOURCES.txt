@@ -1,0 +1,11 @@
+pyproject.toml
+setup.cfg
+plex_updater/__init__.py
+plex_updater/__main__.py
+plex_updater/plex_updater.py
+plex_updater.egg-info/PKG-INFO
+plex_updater.egg-info/SOURCES.txt
+plex_updater.egg-info/dependency_links.txt
+plex_updater.egg-info/entry_points.txt
+plex_updater.egg-info/requires.txt
+plex_updater.egg-info/top_level.txt

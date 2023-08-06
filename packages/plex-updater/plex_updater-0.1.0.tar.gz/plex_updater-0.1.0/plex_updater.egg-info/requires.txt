@@ -1,0 +1,5 @@
+requests
+python-apt
+
+[:python_version == "2.6"]
+importlib
