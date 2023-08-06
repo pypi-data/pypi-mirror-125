@@ -1,0 +1,4 @@
+pip-services3-commons
+pip-services3-components
+pip-services3-messaging
+kafka-python
