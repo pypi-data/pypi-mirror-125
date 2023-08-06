@@ -1,0 +1,17 @@
+monasca_predictor/__init__.py,sha256=Z-Ru8r_YmHrnYe67UohsjkzzkpW3qIhW2x2FT8r2Iig,138
+monasca_predictor/daemon.py,sha256=_HBW6rM3NU2YHyZcmt_RyoUfx43ZGVkTsAkOjlbwbiw,21155
+monasca_predictor/version.py,sha256=dBXY1G1nndDseC1DMHiDnG-x0TMFqcLqJNGcPaQ6rP4,174
+monasca_predictor/api/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+monasca_predictor/api/monasca_api.py,sha256=7Bn-3UgUC4nQaLPhSgOeYqhkUl8BQ33Bt1IXTkfIcqM,3486
+monasca_predictor/common/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+monasca_predictor/common/config.py,sha256=4b8M_HaTAazOR-VqsoGYlxR8G5dVgXx4bPVM93xA8bo,3534
+monasca_predictor/common/util.py,sha256=h2WCsP25zBLsof2VrXuJJALfApqph3ygN1QRw3AJUGc,6229
+monasca_predictor/inference/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+monasca_predictor/inference/model.py,sha256=JiITV3BQrmtP8J379_SULb9AD2zOT53d5SeQlgxDODo,6488
+monasca_predictor-0.1.0.dist-info/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+monasca_predictor-0.1.0.dist-info/METADATA,sha256=awJlxOxWSl0etm-weitv3q_ir0mopl6V6J9fsAobsDc,8401
+monasca_predictor-0.1.0.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+monasca_predictor-0.1.0.dist-info/entry_points.txt,sha256=P6MzR7oPxQYAVkOVa5VqekH6IdvWgfwIY5OVZhZvMRo,69
+monasca_predictor-0.1.0.dist-info/pbr.json,sha256=Ta6Ni54m6R9nnpH-VQhvq2qq_rUfqhG9vG-sq1ybxEQ,47
+monasca_predictor-0.1.0.dist-info/top_level.txt,sha256=3xY5ysjsTP1tYSOlWasLr667E_KswocBS3X2clJVipc,18
+monasca_predictor-0.1.0.dist-info/RECORD,,
