@@ -1,0 +1,10 @@
+utpy/__init__.py,sha256=XvcUEqQw0YCY6r3yELlIWE8zItqr77OA77bnXIQwYg8,22
+utpy/decipher.py,sha256=777TUmGQpDww2tyFyOqMuoZ0soqWatVtHWuzP8C5r-g,2505
+utpy/dicts.py,sha256=AXIe96dxuFAeI2e1WcXxq49Pdun8m4l0Ie3rWR4jzgI,545
+utpy/exceptions.py,sha256=kTYxO2hPd-IZngqbOQydrGwoMW79AbQdlYLfIsgFluc,161
+utpy/test.py,sha256=n1FHBrLuJi7Sc-oO9iIAcURebSqQVXlIWyY5n8jOWEM,254
+utpy/utpy.py,sha256=m4gbSBkhUTqQUOxArkrM0Ii1SFCyHC2ZvBk83uNlM0o,9710
+utpy-1.1.2.dist-info/METADATA,sha256=RxuZxRIwQ9t1bMxRW4Z6nb128pFcn6ZKHy8Djgr_oCU,909
+utpy-1.1.2.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+utpy-1.1.2.dist-info/top_level.txt,sha256=D_bEXbtNFFg9bLennkGKeHC2HcMvKOKFzX41dZvxgAk,5
+utpy-1.1.2.dist-info/RECORD,,
