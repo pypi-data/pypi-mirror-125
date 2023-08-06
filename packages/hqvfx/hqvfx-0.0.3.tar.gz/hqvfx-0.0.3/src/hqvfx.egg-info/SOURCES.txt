@@ -1,0 +1,7 @@
+LICENSE
+README.md
+setup.py
+src/hqvfx.egg-info/PKG-INFO
+src/hqvfx.egg-info/SOURCES.txt
+src/hqvfx.egg-info/dependency_links.txt
+src/hqvfx.egg-info/top_level.txt
