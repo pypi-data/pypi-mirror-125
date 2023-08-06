@@ -1,0 +1,12 @@
+LICENSE
+MANIFEST.in
+README.md
+setup.py
+src/solring/Solring.py
+src/solring/__init__.py
+src/solring.egg-info/PKG-INFO
+src/solring.egg-info/SOURCES.txt
+src/solring.egg-info/dependency_links.txt
+src/solring.egg-info/entry_points.txt
+src/solring.egg-info/requires.txt
+src/solring.egg-info/top_level.txt

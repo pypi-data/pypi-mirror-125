@@ -1,0 +1,3 @@
+[console_scripts]
+solring = solring.Solring:main
+
