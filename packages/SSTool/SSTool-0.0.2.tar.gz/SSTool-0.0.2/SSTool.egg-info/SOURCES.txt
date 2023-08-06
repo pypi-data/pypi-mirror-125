@@ -1,0 +1,7 @@
+setup.py
+SSTool/__init__.py
+SSTool/__version__.py
+SSTool.egg-info/PKG-INFO
+SSTool.egg-info/SOURCES.txt
+SSTool.egg-info/dependency_links.txt
+SSTool.egg-info/top_level.txt
