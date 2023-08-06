@@ -1,0 +1,36 @@
+Metadata-Version: 2.1
+Name: vsvmafxml
+Version: 1.0.0
+Summary: Store per-frame score from log of VMAF as a frame property in clip for VapourSynth
+Home-page: UNKNOWN
+Author: HolyWu
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Topic :: Multimedia :: Video
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: defusedxml
+
+## Dependencies
+- [VapourSynth](http://www.vapoursynth.com/)
+
+
+## Installation
+```
+pip install --upgrade vsvmafxml
+```
+
+
+## Usage
+```python
+from vsvmafxml import XmlToProp
+
+ret = XmlToProp(clip, 'path/to/log.xml')
+```
+
+
