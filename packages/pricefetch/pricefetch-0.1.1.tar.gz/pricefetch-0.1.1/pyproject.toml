@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "pricefetch"
+version = "0.1.1"
+description = "Stock and Option tools"
+authors = ["Devesh Todarwal <todarwal.devesh@gmail.com>","Rutuvi Narang <rutuvinarang@gmail.com>"]
+license = "MIT"
+
+[tool.poetry.dependencies]
+python = "^3.5"
+requests = "^2.12"
+beautifulsoup4 = "^4.5"
+scipy = "^1.5"
+
+[tool.poetry.dev-dependencies]
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
