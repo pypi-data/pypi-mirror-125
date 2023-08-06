@@ -1,0 +1,8 @@
+README.md
+setup.py
+cne_learn.egg-info/PKG-INFO
+cne_learn.egg-info/SOURCES.txt
+cne_learn.egg-info/dependency_links.txt
+cne_learn.egg-info/not-zip-safe
+cne_learn.egg-info/requires.txt
+cne_learn.egg-info/top_level.txt
