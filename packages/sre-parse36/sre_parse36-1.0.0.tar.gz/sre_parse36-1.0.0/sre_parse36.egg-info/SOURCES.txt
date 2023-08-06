@@ -1,0 +1,9 @@
+.gitignore
+LICENSE
+README.md
+setup.py
+sre_parse36.py
+sre_parse36.egg-info/PKG-INFO
+sre_parse36.egg-info/SOURCES.txt
+sre_parse36.egg-info/dependency_links.txt
+sre_parse36.egg-info/top_level.txt
