@@ -1,0 +1,67 @@
+Metadata-Version: 2.1
+Name: report2junit
+Version: 0.0.1
+Summary: `report2junit` is a tool that converts various reports into the JUnit format.
+Home-page: https://github.com/Nr18/report2junit
+Author: Joris Conijn
+Author-email: joris@conijnonline.nl
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: Programming Language :: JavaScript
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Topic :: Software Development :: Code Generators
+Classifier: Topic :: Utilities
+Classifier: Typing :: Typed
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE.md
+
+# Report 2 JUnit
+
+`report2junit` is a tool that converts various reports into the JUnit format.
+
+## Installation
+
+You can install the `report2junit` tool by running the following command: 
+
+```bash
+pip install report2junit
+```
+
+## Usage
+
+### Syntax
+
+The following syntax can be used to convert a report: 
+
+```bash
+report2junit --source-type <TYPE> <SOURCE_LOCATION>
+```
+
+### Examples
+
+Convert an output report from [cloudformation-guard](https://github.com/aws-cloudformation/cloudformation-guard) using
+the following command(s): 
+
+```bash
+report2junit --source-type cfn-guard ./sample-reports/cfn-guard.json
+
+# Or if you want to specify the destination:
+report2junit --source-type cfn-guard ./sample-reports/cfn-guard.json ./sample-reports/cfn-guard-other-destination.xml
+```
+
+Convert an output report from [cfn-nag](https://github.com/stelligent/cfn_nag) using
+the following command(s): 
+
+```bash
+report2junit --source-type cfn-nag ./sample-reports/cfn-nag.json
+
+# Or if you want to specify the destination:
+report2junit --source-type cfn-nag ./sample-reports/cfn-nag.json ./sample-reports/cfn-nag-other-destination.xml
+```
+
