@@ -1,0 +1,10 @@
+LICENSE
+MANIFEST.in
+README.md
+setup.py
+src/ppscanner.egg-info/PKG-INFO
+src/ppscanner.egg-info/SOURCES.txt
+src/ppscanner.egg-info/dependency_links.txt
+src/ppscanner.egg-info/entry_points.txt
+src/ppscanner.egg-info/requires.txt
+src/ppscanner.egg-info/top_level.txt
