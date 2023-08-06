@@ -1,0 +1,21 @@
+Metadata-Version: 2.1
+Name: django-amis-render
+Version: 0.0.1
+Summary: a django app to render amis json file to web.
+Home-page: https://github.com/Jiangshan00001/django_amis_render
+Author: jiangshan00000
+Author-email: 710806594@qq.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# django_amis_render
+a django app to render amis json file to web.
+
+amis version:1.3.4
+
+
