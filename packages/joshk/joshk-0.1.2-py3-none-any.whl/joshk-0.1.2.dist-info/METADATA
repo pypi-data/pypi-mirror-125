@@ -1,0 +1,11 @@
+Metadata-Version: 2.1
+Name: joshk
+Version: 0.1.2
+Summary: A package of Josh K's things
+Author: Josh K
+Author-email: 59419126+this-josh@users.noreply.github.com
+Requires-Python: >=3.9,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.9
+Requires-Dist: click (>=8.0.3,<9.0.0)
+Requires-Dist: requests (>=2.26.0,<3.0.0)
