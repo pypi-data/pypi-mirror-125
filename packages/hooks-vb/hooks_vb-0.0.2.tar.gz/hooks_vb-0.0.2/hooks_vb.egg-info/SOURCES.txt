@@ -1,0 +1,16 @@
+LICENSE
+README.rst
+setup.cfg
+setup.py
+hooks_vb/__init__.py
+hooks_vb/add_version_tag.py
+hooks_vb/build_utils.py
+hooks_vb/check_commit_msg.py
+hooks_vb/git_utils.py
+hooks_vb/publish.py
+hooks_vb.egg-info/PKG-INFO
+hooks_vb.egg-info/SOURCES.txt
+hooks_vb.egg-info/dependency_links.txt
+hooks_vb.egg-info/entry_points.txt
+hooks_vb.egg-info/requires.txt
+hooks_vb.egg-info/top_level.txt
