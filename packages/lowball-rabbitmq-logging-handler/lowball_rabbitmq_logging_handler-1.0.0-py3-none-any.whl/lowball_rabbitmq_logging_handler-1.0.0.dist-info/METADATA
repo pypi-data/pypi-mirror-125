@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: lowball-rabbitmq-logging-handler
+Version: 1.0.0
+Summary: lowball-rabbitmq-logging-handler is a simple lowball module to log to a rabbitmq service
+Home-page: https://github.com/EmersonElectricCo/lowball-rabbitmq-logging-handler
+Author: Isaiah Eichen
+Author-email: ieichen137@gmail.com
+License: Apache License 2.0
+Platform: UNKNOWN
+Requires-Dist: pika
+Requires-Dist: lowball
+
+lowball-rabbitmq-logging-handler is a simple lowball module to log to a rabbitmq service
+
+
