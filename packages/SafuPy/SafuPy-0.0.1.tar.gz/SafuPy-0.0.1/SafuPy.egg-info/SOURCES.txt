@@ -1,0 +1,10 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+SafuPy.egg-info/PKG-INFO
+SafuPy.egg-info/SOURCES.txt
+SafuPy.egg-info/dependency_links.txt
+SafuPy.egg-info/top_level.txt
+Safupy/__init__.py
+Safupy/safupy.py
