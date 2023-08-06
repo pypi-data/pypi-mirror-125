@@ -1,0 +1,5 @@
+[console_scripts]
+sequences=sequences:main
+split=split:main
+splitn=splitn.main:app
+
