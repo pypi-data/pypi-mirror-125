@@ -1,0 +1,214 @@
+{
+    "mt": {
+        "base_url": [
+            "https://api-mt.metrc.com"
+        ],
+        "employees_v1": [
+            "/employees/v1/"
+        ],
+        "facilities_v1": [
+            "/facilities/v1"
+        ],
+        "harvests_v1_id": [
+            "/harvests/v1/{id}"
+        ],
+        "harvests_v1_active": [
+            "/harvests/v1/active"
+        ],
+        "harvests_v1_onhold": [
+            "/harvests/v1/onhold"
+        ],
+        "harvests_v1_inactive": [
+            "/harvests/v1/inactive"
+        ],
+        "harvests_v1_waste_types": [
+            "/harvests/v1/waste/types"
+        ],
+        "items_v1_id": [
+            "/items/v1/{id}"
+        ],
+        "items_v1_active": [
+            "/items/v1/active"
+        ],
+        "items_v1_categories": [
+            "/items/v1/categories"
+        ],
+        "items_v1_brands": [
+            "/items/v1/brands"
+        ],
+        "labtests_v1_states": [
+            "/labtests/v1/states"
+        ],
+        "labtests_v1_types": [
+            "/labtests/v1/types"
+        ],
+        "labtests_v1_results": [
+            "/labtests/v1/results"
+        ],
+        "locations_v1_id": [
+            "/location/v1/{id}"
+        ],
+        "locations_v1_active": [
+            "/location/v1/active"
+        ],
+        "locations_v1_types": [
+            "/location/v1/types"
+        ],
+        "packages_v1_id": [
+            "/packages/v1/{id}"
+        ],
+        "packages_v1_label": [
+            "/packages/v1/{label}"
+        ],
+        "packages_v1_active": [
+            "/packages/v1/active"
+        ],
+        "packages_v1_onhold": [
+            "/packages/v1/onhold"
+        ],
+        "packages_v1_inactive": [
+            "/packages/v1/inactive"
+        ],
+        "packages_v1_types": [
+            "/packages/v1/types"
+        ],
+        "packages_v1_adjust_reasons": [
+            "/packages/v1/adjust/reasons"
+        ],
+        "patients_v1_status_patientLicenseNumber": [
+            "/patients/v1/statuses/{patientLicenseNumber}"
+        ],
+        "patients_v1_id": [
+            "/patients/v1/{id}"
+        ],
+        "patients_v1_active": [
+            "/patients/v1/active"
+        ],
+        "plantbatches_v1_id": [
+            "/plantbatches/v1/{id}"
+        ],
+        "plantbatches_v1_active": [
+            "/plantbatches/v1/active"
+        ],
+        "plantbatches_v1_inactive": [
+            "/plantbatches/v1/inactive"
+        ],
+        "plantbatches_v1_types": [
+            "/plantbatches/v1/types"
+        ],
+        "plants_v1_id": [
+            "/plants/v1/{id}"
+        ],
+        "plants_v1_label": [
+            "/plants/v1/{label}"
+        ],
+        "plants_v1_vegetative": [
+            "/plants/v1/vegetative"
+        ],
+        "plants_v1_flowering": [
+            "/plants/v1/flowering"
+        ],
+        "plants_v1_onhold": [
+            "/plants/v1/onhold"
+        ],
+        "plants_v1_additives": [
+            "/plants/v1/additives"
+        ],
+        "plants_v1_growthphases": [
+            "/plants/v1/growthphases"
+        ],
+        "plants_v1_additives_types": [
+            "/plants/v1/additives/types"
+        ],
+        "plants_v1_waste_methods": [
+            "/plants/v1/waste/methods"
+        ],
+        "plants_v1_waste_reasons": [
+            "/plants/v1/waste/reasons"
+        ],
+        "sales_v1_customertypes": [
+            "/sales/v1/customertypes"
+        ],
+        "sales_v1_deliveries_active": [
+            "/sales/v1/deliveries/active"
+        ],
+        "sales_v1_deliveries_inactive": [
+            "/sales/v1/deliveries/inactive"
+        ],
+        "sales_v1_deliveries_id": [
+            "/sales/v1/delivery/{id}"
+        ],
+        "sales_v1_deliveries_returnreasons": [
+            "/sales/v1/delivery/returnreasons"
+        ],
+        "sales_v1_receipts_active": [
+            "/sales/v1/receipts/active"
+        ],
+        "sales_v1_receipts_inactive": [
+            "/sales/v1/receipts/inactive"
+        ],
+        "sales_v1_receipts_id": [
+            "/sales/v1/receipts/{id}"
+        ],
+        "sales_v1_transactions": [
+            "/sales/v1/transactions"
+        ],
+        "strains_v1_id": [
+            "/strains/v1/{id}"
+        ],
+        "strains_v1_active": [
+            "/strains/v1/active"
+        ],
+        "transfers_v1_incoming": [
+            "/transfers/v1/incoming"
+        ],
+        "transfers_v1_outgoing": [
+            "/transfers/v1/outgoing"
+        ],
+        "transfers_v1_rejected": [
+            "/transfers/v1/rejected"
+        ],
+        "transfers_v1_id_deliveries": [
+            "/transfers/v1/{id}/deliveries"
+        ],
+        "transfers_v1_delivery_id_transporters": [
+            "/transfers/v1/delivery/{id}/transporters"
+        ],
+        "transfers_v1_delivery_id_transporters/details": [
+            "/transfers/v1/delivery/{id}/transporters/details"
+        ],
+        "transfers_v1_delivery_id_packages": [
+            "/transfers/v1/delivery/{id}/packages"
+        ],
+        "transfers_v1_delivery_id_packages/wholesale": [
+            "/transfers/v1/delivery/{id}/packages/wholesale"
+        ],
+        "transfers_v1_delivery_package_id_requiredlabtestbatches": [
+            "/transfers/v1/delivery/package/{id}/requiredlabtestbatches"
+        ],
+        "transfers_v1_delivery_packages_states": [
+            "/transfers/v1/delivery/packages/states"
+        ],
+        "transfers_v1_templates": [
+            "/transfers/v1/templates"
+        ],
+        "transfers_v1_templates_id_deliveries": [
+            "/transfers/v1/templates/{id}/deliveries"
+        ],
+        "transfers_v1_templates_delivery_id_transporters": [
+            "/transfers/v1/templates/delivery/{id}/transporters"
+        ],
+        "transfers_v1_templates_delivery_id_transporters_details": [
+            "/transfers/v1/templates/delivery/{id}/transporters/details"
+        ],
+        "transfers_v1_templates_delivery_id_packages": [
+            "/transfers/v1/templates/delivery/{id}/packages"
+        ],
+        "transfers_v1_types": [
+            "/transfers/v1/types"
+        ],
+        "unitsofmeasure_v1_active": [
+            "/unitsofmeasure/v1/active"
+        ]
+    }
+}
