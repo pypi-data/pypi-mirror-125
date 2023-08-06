@@ -1,0 +1,8 @@
+README.md
+setup.py
+nest_dfa.egg-info/PKG-INFO
+nest_dfa.egg-info/SOURCES.txt
+nest_dfa.egg-info/dependency_links.txt
+nest_dfa.egg-info/top_level.txt
+pydfa/__init__.py
+pydfa/dfa.py
