@@ -1,0 +1,14 @@
+icnsutil/ArgbImage.py,sha256=HG3TT6fr993gIE6SjKLrT6XbRHfisacsD5bPUFImjjU,5548
+icnsutil/IcnsFile.py,sha256=-HLByFeyGJUSnSydLPT1t2bbCyF70qPa80pEEzC-_ok,13632
+icnsutil/IcnsType.py,sha256=0A-jb_84-41nkJ72YE2QX9O_SIdDzNFHkykpPnbTpms,11969
+icnsutil/PackBytes.py,sha256=oLR6zAKCl81Zb4uBzqrE5k0LLhIsOaDJsIfrkpx6qaQ,2200
+icnsutil/RawData.py,sha256=6LjY4rPF4bssxh7ioH8TMaxeX8ugYnthDUcxhRxbC64,4215
+icnsutil/__init__.py,sha256=771k2obMpcHIT0Ixa6HpxMrgEFani7CuviQCdxiNxuE,246
+icnsutil/__main__.py,sha256=YYnVVpLUwEEqwoZ0qWwHNeAgj-J6PWdGfuwDOcCMpWY,52
+icnsutil/cli.py,sha256=Oxfh8gMB47EzePEEUFq39iSoqiBG3JQvRXXtH0dIWC0,9776
+icnsutil-1.0.dist-info/LICENSE,sha256=iHfcqw83if-QggnBgGwYMJUMP-qgiUTTcD8XWF4-aFM,1050
+icnsutil-1.0.dist-info/METADATA,sha256=TMa462N5GNS1SEwAgCqcUJugS1DbNg1R9wLiPNTy43A,4899
+icnsutil-1.0.dist-info/WHEEL,sha256=U88EhGIw8Sj2_phqajeu_EAi3RAo8-C6zV3REsWbWbs,92
+icnsutil-1.0.dist-info/entry_points.txt,sha256=i2uLuUkQQzCeuGB7F66wevq64_FZ9CBl62vIsu8aALA,48
+icnsutil-1.0.dist-info/top_level.txt,sha256=9LAGjcqKxqHcC840CUctDu0uQxO5XoJtRnEbUB_bajI,9
+icnsutil-1.0.dist-info/RECORD,,
