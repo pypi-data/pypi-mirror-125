@@ -1,0 +1,16 @@
+jerome/__init__.py,sha256=oSSEnzpfrge_Lj3IyoJS2VdYaPv_opffCZILx1iJBd4,402
+jerome/__version__.py,sha256=5mDtfU2t04ATmg92S5B-scUcdjCy1ZBq620y3GmpdtQ,21
+jerome/common.py,sha256=7H4LhcHiAu3OfjzXOVVlF7E1Q2rXUddJN-ZfvX_RlXk,843
+jerome/glosser.py,sha256=P9xUD1aEsxQOOZg0UThS91T5i7ztYlAjs_INuQ5SmdI,1398
+jerome/keeper.py,sha256=9TrqYN-YEoRkyqpqVTfIwYTMH7XQuErbqt_leF_vssY,2010
+jerome/loader.py,sha256=Mp4EaKBYGRrLsBMXYHNk-QU2snMdSaoh2P5QV02UbjM,768
+jerome/replacer.py,sha256=AHNb2hQEbvtIif30nInoTsKNQSaZZvShvQD0DyDHE58,850
+jerome/runlength.py,sha256=nagzhG7CJphkccYF8A--tqyebJjqzFbHiczf0RYkLSw,484
+jerome/sample_text.py,sha256=tIJDEbd4gNP6pTAjPi3tg3Mbogg4SIslKuniHsxLIYY,1039
+jerome/bw/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+jerome/bw/burrowswheeler.py,sha256=2haHzdmLIT091qL9zRZcuo5ekJ0u6Kk_gxjya7nwCBQ,1487
+jerome-0.3.0.dist-info/LICENSE,sha256=Qv2ilebwoUtMJnRsZwRy729xS5JZQzLauJ0tQzkAkTA,1088
+jerome-0.3.0.dist-info/METADATA,sha256=j7CuSeIk47N2OM-Rw7nPRJrH4Fwzv0VD5AJpMLbiFPs,8608
+jerome-0.3.0.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+jerome-0.3.0.dist-info/top_level.txt,sha256=469LMo8zMOL0oRSJEbqeGuX9JAl444bPOL861qcua8Q,7
+jerome-0.3.0.dist-info/RECORD,,
