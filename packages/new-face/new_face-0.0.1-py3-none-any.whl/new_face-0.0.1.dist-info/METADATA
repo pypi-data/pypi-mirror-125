@@ -1,0 +1,33 @@
+Metadata-Version: 2.1
+Name: new-face
+Version: 0.0.1
+Summary: Face Recognition Tools
+Home-page: https://github.com/Michael07220823/new_face.git
+Author: Overcomer
+Author-email: michael31703@gmail.com
+License: MIT License
+Keywords: Face Recognition
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: Microsoft :: Windows
+Classifier: Operating System :: POSIX :: Linux
+Classifier: Operating System :: MacOS
+Description-Content-Type: text/markdown
+Requires-Dist: numpy
+Requires-Dist: opencv-python
+Requires-Dist: opencv-contrib-python
+Requires-Dist: tensorflow (<=2.5.0)
+Requires-Dist: mtcnn
+Requires-Dist: sklearn
+Requires-Dist: imutils
+Requires-Dist: cmake
+Requires-Dist: dlib
+Requires-Dist: scikit-image
+Requires-Dist: new-tools
+Requires-Dist: pydot
+
+# new_face
+Face Recognition
+
+
