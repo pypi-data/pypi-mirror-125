@@ -1,0 +1,10 @@
+LICENSE.txt
+MANIFEST.in
+README.txt
+setup.py
+JoeTradingHalt/__init__.py
+tradinghalts.egg-info/PKG-INFO
+tradinghalts.egg-info/SOURCES.txt
+tradinghalts.egg-info/dependency_links.txt
+tradinghalts.egg-info/requires.txt
+tradinghalts.egg-info/top_level.txt
