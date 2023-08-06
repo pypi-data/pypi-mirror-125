@@ -1,0 +1,22 @@
+Metadata-Version: 1.1
+Name: amseg
+Version: 0.1
+Summary: This is an Amharic document segmentation and normalization tool
+Home-page: https://seyyaw.github.io/
+Author: Seid Muhie Yimam
+Author-email: seid.muhie.yimam@uni-hamburg.de
+License: MIT
+Download-URL: https://github.com/uhh-lt/amharicprocessor/archive/refs/tags/v_01.tar.gz
+Description: UNKNOWN
+Keywords: Amharic,Amharic sentence splitter,Amharic document normalizer
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Build Tools
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.7
