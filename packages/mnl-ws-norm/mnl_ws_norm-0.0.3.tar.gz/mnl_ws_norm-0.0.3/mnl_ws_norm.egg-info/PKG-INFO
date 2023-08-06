@@ -1,0 +1,33 @@
+Metadata-Version: 2.1
+Name: mnl-ws-norm
+Version: 0.0.3
+Summary: Light-weight tool for normalizing whitespace and accurately tokenizing words (no regex). Multiple natural languages supported.
+Home-page: https://github.com/Rairye/mnl-ws-norm
+Author: Rairye
+License: apache-2.0
+Download-URL: https://github.com/Rairye/mnl-ws-norm/archive/refs/tags/v0.0.3.tar.gz
+Keywords: whitespace,multi-language,normalization,noregex
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: End Users/Desktop
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.1
+Classifier: Programming Language :: Python :: 3.2
+Classifier: Programming Language :: Python :: 3.3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Description-Content-Type: text/markdown
+License-File: LICENSE.txt
+
+Light-weight tool for normalizing whitespace and accurately tokenizing words (no regex). Multiple natural languages supported. Useful for scrapping, machine learning, and data analysis.
+
+
+For the full documentation, please see the repository:
+
+https://github.com/Rairye/mnl-ws-norm
+
+
