@@ -1,0 +1,34 @@
+Metadata-Version: 2.1
+Name: divvy
+Version: 0.6.0
+Summary: A python-based configuration manager for portable environment configurations
+Home-page: https://github.com/pepkit/divvy/
+Author: Nathan Sheffield, Vince Reuter, Michal Stolarczyk
+Author-email: nathan@code.databio.org, vreuter@virginia.edu, mjs5kd@virginia.edu
+License: BSD-2-Clause
+Keywords: project,metadata,bioinformatics,sequencing,ngs,workflow
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Topic :: System :: Distributed Computing
+Description-Content-Type: text/markdown
+License-File: LICENSE.txt
+Requires-Dist: attmap (>=0.12.9)
+Requires-Dist: yacman (>=0.8.1)
+Requires-Dist: pyyaml (>=5.1)
+Requires-Dist: logmuse (>=0.2.0)
+Requires-Dist: ubiquerg (>=0.5.0)
+
+<img src="https://raw.githubusercontent.com/pepkit/divvy/master/docs/img/divvy_logo.svg?sanitize=true" alt="Divvy" height="70" align="left"/><br>
+
+[![PEP compatible](http://pepkit.github.io/img/PEP-compatible-green.svg)](http://pepkit.github.io)
+[![Build Status](https://travis-ci.org/pepkit/divvy.svg?branch=master)](https://travis-ci.org/pepkit/divvy)
+[![codecov](https://codecov.io/gh/pepkit/divvy/branch/master/graph/badge.svg?token=AO0I7HA2YL)](https://codecov.io/gh/pepkit/divvy)
+[![Code style: black](https://img.shields.io/badge/code%20style-black-000000.svg)](https://github.com/psf/black)
+
+`divvy` is a python package for reading portable computing environment configuration files, which we call *divvy configuration files*. Complete documentation and API for the `divvy` python package is at [divvy.databio.org](http://divvy.databio.org).
+
+
