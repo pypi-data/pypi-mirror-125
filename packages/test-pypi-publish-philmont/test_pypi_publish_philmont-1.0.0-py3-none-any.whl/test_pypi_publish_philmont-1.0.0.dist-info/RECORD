@@ -1,0 +1,6 @@
+src/publish/__init__.py,sha256=VcQpu9G_SDVbG6zljL4jpntoP1oLMOKk43cL0feFUv8,97
+src/publish/greeting.py,sha256=1eAU1dwBhArflRIYUFYei_KAdIUjgZNuHdh0V0YgTOw,289
+test_pypi_publish_philmont-1.0.0.dist-info/METADATA,sha256=8xeXRXsEA6PKWxWZP2S5gM0BwyKx1xB8umEN0hI4a30,604
+test_pypi_publish_philmont-1.0.0.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+test_pypi_publish_philmont-1.0.0.dist-info/top_level.txt,sha256=kFO-GUed9FebOP5N-lo6F8AecL2HvcTuifL4f1yw0r8,12
+test_pypi_publish_philmont-1.0.0.dist-info/RECORD,,
