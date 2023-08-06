@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: XPipe
+Version: 0.1.2
+Summary: Standardize your ML projects
+Home-page: UNKNOWN
+Author: Jules Tevissen
+License: MIT
+Platform: UNKNOWN
+License-File: LICENSE
+Requires-Dist: numpy
+Requires-Dist: bokeh
+Requires-Dist: mongoengine
+Requires-Dist: Flask
+Requires-Dist: flask-cors
+Requires-Dist: pyyaml
+Requires-Dist: click
+
+UNKNOWN
+
