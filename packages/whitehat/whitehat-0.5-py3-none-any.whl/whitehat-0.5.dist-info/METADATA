@@ -1,0 +1,75 @@
+Metadata-Version: 2.1
+Name: whitehat
+Version: 0.5
+Summary: Python Library For Ethical Hacker
+Home-page: https://github.com/EterNomm/Whitehat
+Author: LyQuid
+Author-email: lyquidpersonal@gmail.com
+License: Apache License 2.0
+Keywords: python,hacker,whitehat,hacker tool,ethical hacker
+Platform: UNKNOWN
+Classifier: Development Status :: 2 - Pre-Alpha
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Intended Audience :: Science/Research
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Operating System :: Android
+Classifier: Operating System :: Microsoft :: Windows
+Classifier: Operating System :: MacOS
+Classifier: Operating System :: POSIX :: Linux
+Classifier: Programming Language :: Python
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: python-socketio
+Requires-Dist: phonenumbers
+Requires-Dist: pynput
+
+[![PyPI - Downloads](https://img.shields.io/pypi/dm/whitehat?label=PyPI%20Downloads&logo=pypi&logoColor=yellow)](https://pypi.org/project/whitehat)
+[![PyPI](https://img.shields.io/pypi/v/whitehat?label=PyPI%20Version&logo=pypi&logoColor=yellow)](https://pypi.org/project/whitehat)
+[![PyPI - Status](https://img.shields.io/pypi/status/Whitehat?label=Pakcage%20Status&logo=Python&logoColor=lightblue)](https://pypi.org/project/whitehat#data)
+[![GitHub repo size](https://img.shields.io/github/repo-size/EterNomm/Whitehat?label=Repo%20Size&logo=Github)](https://github.com/EterNomm/Whitehat)
+[![Discord](https://img.shields.io/discord/887650006977347594?color=blue&label=EterNomm&logo=discord)](https://discord.com/invite/qpT2AeYZRN)
+[![Discord](https://img.shields.io/discord/835863428450877441?color=blue&label=NekoIceTeam&logo=discord)](https://discord.com/invite/hNtA2uEb7J)
+
+# Whitehat
+
+⚠️ **WARNING THIS PYTHON LIBRARY FOR EDUCATIONAL PURPOSES ONLY** ⚠️
+
+## Features
+- DDoS (Can up to 1500+ Requests per seconds)
+- Get Phonenumber Info
+- Get IP Address Information
+- Keylogger
+- More features soon!
+
+## Install
+- ### PIP
+`pip install whitehat`
+
+- ### Development Version
+```
+$ git clone https://github.com/EterNomm/Whitehat`
+$ cd whitehat
+$ pip install .
+```
+or
+```
+$ pip install git+https://github.com/EterNomm/Whitehat
+```
+
+## Example
+[Click here](https://github.com/EterNomm/Whitehat/tree/main/examples)
+
+
+## Other
+- Want to be a contributor? [Pull Request](https://github.com/EterNomm/Whitehat/pulls) are welcome :3
+
+- **Note from Developers :**
+```
+Sorry if we often update Whitehat (in one day can be 5+ updates).
+because this version is still in BETA and we want version 1.0.0 (ALPHA version) to be released before 2022,
+so we are pressed for time to quickly release the ALPHA version (stable version)
+
+- Whitehat Developers
+```
+
+
