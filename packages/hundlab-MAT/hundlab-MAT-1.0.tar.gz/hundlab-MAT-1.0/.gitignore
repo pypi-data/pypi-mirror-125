@@ -1,0 +1,12 @@
+__pycache__/
+*.c
+*.h
+*.pyc
+opencv/
+defaults/
+plugins/
+spyder.lock/
+AD5933/
+*.zip
+*.ini
+*.whl

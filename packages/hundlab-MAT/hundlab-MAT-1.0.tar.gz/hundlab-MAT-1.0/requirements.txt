@@ -1,0 +1,9 @@
+matplotlib
+scipy
+scikit-image
+scikit-learn
+xlrd
+xlsxwriter
+numpy
+PyQt5
+pillow
