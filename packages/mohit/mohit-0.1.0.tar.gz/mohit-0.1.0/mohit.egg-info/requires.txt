@@ -1,0 +1,2 @@
+kubernetes>=19.13.0
+awscli>=1.21.5
