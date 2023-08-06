@@ -1,0 +1,10 @@
+injector
+glfw
+PyOpenGL
+PyGLM
+numpy
+pillow
+
+[dev]
+black
+mypy
