@@ -1,0 +1,14 @@
+LICENSE,sha256=aVX99MHe0Uow-2bjeqfTl5aEIdLgYWhrvYioTrZI_js,1090
+pipeline_views/__init__.py,sha256=oHmKeDK00lHVp1l0Vv691pxNRKtRJ25yKMeA3J4BRwM,366
+pipeline_views/exceptions.py,sha256=zUAc9MZOZmRLfHMeP4Dn2xdu6y7pc9z4iSKPvAsj2UY,501
+pipeline_views/mixins.py,sha256=svc9c4HaDVfRC1bkPyEVhKuHOV0oMNFHkfBL8fSo-AQ,1802
+pipeline_views/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+pipeline_views/serializers.py,sha256=kfsEmfDuBarQ1z8B7680uPBNc76FCtGPN3hwEnkcprU,638
+pipeline_views/typing.py,sha256=jxtZUIHkyiC9xGh_4g71vGRVPVoC57dVQQVrR3phJeE,1826
+pipeline_views/utils.py,sha256=_ZdNIzP4pvSaL-TquOOnWs5wPTmDufXaskArbe1j2qc,6903
+pipeline_views/views.py,sha256=k7r5pK1TwD2QzY5CO9V3vBcUjT0CHK7VWKKvfz9TRWY,4250
+README.md,sha256=yF93RF-EUjoZLAVcecGWuf49bGT0nMTYhAGkpC3hwzA,2970
+drf_pipeline_views-0.1.7.dist-info/LICENSE,sha256=aVX99MHe0Uow-2bjeqfTl5aEIdLgYWhrvYioTrZI_js,1090
+drf_pipeline_views-0.1.7.dist-info/WHEEL,sha256=DRf8A_Psd1SF2kVqTQOOFU1Xzl3-A2qljAxBMTOusUs,83
+drf_pipeline_views-0.1.7.dist-info/METADATA,sha256=6Xo4VryPLAu07aTn1Eg2KvYzdTdxfksz2jgsydLjQd8,4475
+drf_pipeline_views-0.1.7.dist-info/RECORD,,
