@@ -1,0 +1,3 @@
+pygl/dms.cpython-37m-x86_64-linux-gnu.so
+pygl/solvers.cpython-37m-x86_64-linux-gnu.so
+pygl/utils.cpython-37m-x86_64-linux-gnu.so
