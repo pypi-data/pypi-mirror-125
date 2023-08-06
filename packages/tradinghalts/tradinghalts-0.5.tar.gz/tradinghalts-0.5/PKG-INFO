@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: tradinghalts
+Version: 0.5
+Summary: Trading halt insights
+Home-page: UNKNOWN
+Author: Jovad Uribe
+Author-email: jovuribe@gmail.com
+License: MIT
+Keywords: trading
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Financial and Insurance Industry
+Classifier: Operating System :: Microsoft :: Windows :: Windows 10
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+License-File: LICENSE.txt
+
+This is a trading halt insight package that uses machine learning to predict trading halts. 
+
