@@ -1,0 +1,6 @@
+include README.md
+include license.txt
+include lauetoolsnn/*.py
+include lauetoolsnn/*.txt
+include lauetoolsnn/*.png
+include lauetoolsnn/*.npz
