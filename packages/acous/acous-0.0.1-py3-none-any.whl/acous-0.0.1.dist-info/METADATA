@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: acous
+Version: 0.0.1
+Summary: Acoustics computing package for Python
+Home-page: https://github.com/wendeli/acous
+Author: Wende Li
+Author-email: wendeli@outlook.com
+License: MIT
+Platform: UNKNOWN
+Description-Content-Type: text/markdown
+
+# Acous
+
+Acoustics computing package for Python.
+
+
+
