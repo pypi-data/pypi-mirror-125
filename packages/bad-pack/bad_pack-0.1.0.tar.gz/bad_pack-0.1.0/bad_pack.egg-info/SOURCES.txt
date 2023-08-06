@@ -1,0 +1,8 @@
+setup.py
+bad_pack/__init__.py
+bad_pack/packfile.py
+bad_pack.egg-info/PKG-INFO
+bad_pack.egg-info/SOURCES.txt
+bad_pack.egg-info/dependency_links.txt
+bad_pack.egg-info/requires.txt
+bad_pack.egg-info/top_level.txt
