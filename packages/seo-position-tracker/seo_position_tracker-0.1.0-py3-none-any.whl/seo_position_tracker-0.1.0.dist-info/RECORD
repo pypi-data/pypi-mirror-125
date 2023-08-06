@@ -1,0 +1,11 @@
+seo_position_tracker/__init__.py,sha256=01ikbBxzZqDbZLQOjvgClcQBot3-vi_SiYyfwJ6C0sk,112
+seo_position_tracker/google_domains.py,sha256=o9QCdRkw3pYfOY_ngzgERRZlSTi2VFNblTmVsZBM4LA,6606
+seo_position_tracker/google_supported_languages.py,sha256=i7RM8zIpO5L5nAOD1anrJTpuevz5d2h69HuQN2XITYE,1346
+seo_position_tracker/htmls/brave_search_tracker.html,sha256=Htg7yeJ3hn1PNhBBsXa8W3SF0TZ1u-5ICksM2CzTIfI,142510
+seo_position_tracker/htmls/google_tracker.html,sha256=3-qo3roysPGWTorvwKtpbEgQA3efoHn96XHHB7GYN-s,703974
+seo_position_tracker/seo_position_tracker.py,sha256=dcfIvLPjQHsVjUyD4n174r_tnBLdAuJyNnoUAsRoiMk,3500
+seo_position_tracker/testing_seo_position_tracker.py,sha256=XpCxPlefIMt-QzPZ14WYkYgR-6CxVAtFXwPG397NztQ,3401
+seo_position_tracker-0.1.0.dist-info/LICENSE,sha256=LcN-91vNrBDZhSw2uUAMtbwF2zLNCWBedAvzb2oqBe0,1089
+seo_position_tracker-0.1.0.dist-info/WHEEL,sha256=DRf8A_Psd1SF2kVqTQOOFU1Xzl3-A2qljAxBMTOusUs,83
+seo_position_tracker-0.1.0.dist-info/METADATA,sha256=TdcYsRBmbgeud5hoVwrVsMN4J5OMkKtPavlQutaT7U0,3704
+seo_position_tracker-0.1.0.dist-info/RECORD,,
