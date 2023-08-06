@@ -1,0 +1,29 @@
+Metadata-Version: 2.1
+Name: funnytestram
+Version: 0.0.2
+Summary: say hello
+Home-page: https://github.com/ramagopr/sara
+Author: Ramkumar Ramagopalan
+Author-email: kumar.gopalan@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: License :: OSI Approved :: GNU General Public License v2 (GPLv2)
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+
+##Usage
+
+```python
+from helloworld import say_hello
+
+#Generate "Hello,World"
+say_hello()
+
+#Generate "Hello,Everybod"
+say_hello("Everybody")
+
+
+
