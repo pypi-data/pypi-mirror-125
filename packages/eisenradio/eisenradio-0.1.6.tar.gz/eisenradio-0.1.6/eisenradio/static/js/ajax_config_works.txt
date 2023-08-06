@@ -1,0 +1,27 @@
+
+<button class="btn-primary " id="12" name="asdf">Update</button>
+
+
+--in .js
+$(document).ready(function(){
+var clicked;
+$("button").click(function(){
+clicked = $(this).attr("name");
+$.ajax({
+  type : 'POST',
+  url : "/test",
+  data : {'data':clicked}
+});
+ });
+});
+/* https://stackoverflow.com/questions/37631388/how-to-get-data-in-flask-from-ajax-post */
+
+
+
+@app.route('/test', methods=('GET', 'POST'))
+def test():
+    clicked=None
+    if request.method == "POST":
+        clicked=request.form['data']
+        print(' ---------------------------------------------')
+    return render_template('test.html')
