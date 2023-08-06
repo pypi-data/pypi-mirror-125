@@ -1,0 +1,66 @@
+{% extends "admin/change_form.html" %}
+{% load static %}
+{% load custom_tags %}
+
+{% block content %}
+    <div class="form-row field-title" style="max-height: 300px; overflow-y: scroll">
+    <div style="width: 49%; display: inline-block; position: relative; vertical-align:top">
+    <h2 style="margin-top:0px">Statistiken (sista {{how_many_days}} dagar)</h2>
+        <table style="margin-bottom: 60px; width: 100%">
+            <tr style="background: #264b5d">
+                <th>Datum</th>
+                <th>Impressions</th>
+                <th>Views</th>
+                <th style="text-align:center">%</th>
+                <th>Clicks</th>
+                <th style="text-align:center">%</th>
+            </tr>
+        {% for el in banner_statistics %}
+            <tr>
+                <td>{{el.date}} </td>
+                <td style="text-align:center">{{el.impressions}} </td>
+                <td style="text-align:center">{{el.views}} </td>
+                <td style="text-align:center">{{el|calculate_kpi:"view"}} %</td>
+                <td style="text-align:center">{{el.clicks}}</td>
+                <td style="text-align:center">{{el|calculate_kpi:"click"}} %</td>
+            </tr>
+        {% endfor %}
+            <tr style="background: #264b5d">
+                <td></td>
+                <td style="text-align:center">{{summary.impressions}}</td>
+                <td style="text-align:center">{{summary.views}}</td>
+                <td style="text-align:center">{{summary.v_i}} %</td>
+                <td style="text-align:center">{{summary.clicks}}</td>
+                <td style="text-align:center">{{summary.v_c}} %</td>
+            </tr>
+        </table>
+    
+    </div>
+    <div style="width: 48%; margin: 0 0 0 2%; display: inline-block; position: relative; vertical-align:top">
+    <div>
+        <h2 style="margin-top:0px">Klickar (sista {{how_many_days}} dagar)</h2>
+        <table style="width: 100%">
+            <tr style="background: #264b5d">
+                <th>Sida</th>
+                <th>Antal</th>
+            </tr>
+        {% for element in better_bc %}
+            <tr>
+                <td>{{element.url}}</td>
+                <td>{{element.total}}</td>
+            </tr>
+        {% endfor %}
+        </table>
+
+    </div>
+    </div>
+    </div>
+
+    <style>
+        .historylink {
+            display: none !important
+        }
+    </style>
+
+    {{ block.super }}
+{% endblock %}
