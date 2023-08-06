@@ -1,0 +1,11 @@
+numpy>=1.10.0
+scipy>=0.13.0
+bayespy
+h5py
+
+[doc]
+sphinx
+numpydoc
+
+[test]
+pytest
