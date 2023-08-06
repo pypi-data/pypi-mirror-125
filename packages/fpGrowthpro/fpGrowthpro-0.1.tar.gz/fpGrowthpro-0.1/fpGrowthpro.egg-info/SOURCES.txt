@@ -1,0 +1,7 @@
+setup.py
+fpGrowthpro/__init__.py
+fpGrowthpro.egg-info/PKG-INFO
+fpGrowthpro.egg-info/SOURCES.txt
+fpGrowthpro.egg-info/dependency_links.txt
+fpGrowthpro.egg-info/not-zip-safe
+fpGrowthpro.egg-info/top_level.txt
