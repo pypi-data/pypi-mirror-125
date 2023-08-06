@@ -1,0 +1,30 @@
+Metadata-Version: 2.1
+Name: stupid_dns_watchdog
+Version: 0.0.1
+Summary: Watchdog for changes in your external IP. Automatically pushes the changes to git.
+Home-page: https://github.com/Velythyl/stupid-dns-watchdog
+Author: Charlie Gauthier
+Author-email: charlie.gauthier@umontreal.ca
+License: MIT
+Platform: UNKNOWN
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# litreview
+
+Automates the creation of reports for literature reviews.
+
+# Install
+
+```
+pip3 install stupid-dns-watchdog
+```
+
+# Usage
+
+Simply call
+
+```
+sdw init <github_url>
+```
+
