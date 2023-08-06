@@ -1,0 +1,4 @@
+[console_scripts]
+gcv = git_conventional_version.cli:cli
+gcv-log = git_conventional_version.cli:changelog
+
