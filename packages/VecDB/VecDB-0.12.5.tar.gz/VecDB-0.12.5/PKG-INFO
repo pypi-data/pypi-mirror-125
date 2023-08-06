@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: VecDB
+Version: 0.12.5
+Summary: UNKNOWN
+Home-page: UNKNOWN
+Author: Relevance AI
+Author-email: dev@vctr.ai
+License: UNKNOWN
+Platform: UNKNOWN
+Requires-Python: >=3.7
+Provides-Extra: dev
+Provides-Extra: tests
+
+UNKNOWN
+
