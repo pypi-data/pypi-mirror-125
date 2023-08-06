@@ -1,0 +1,13 @@
+LICENSE
+README.md
+setup.py
+taug/__init__.py
+taug/datasets.py
+taug/utils.py
+taug.egg-info/PKG-INFO
+taug.egg-info/SOURCES.txt
+taug.egg-info/dependency_links.txt
+taug.egg-info/requires.txt
+taug.egg-info/top_level.txt
+taug/augmenters/__init__.py
+taug/augmenters/vae.py
