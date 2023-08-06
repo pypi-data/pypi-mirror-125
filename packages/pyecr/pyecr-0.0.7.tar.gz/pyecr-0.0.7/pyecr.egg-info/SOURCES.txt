@@ -1,0 +1,15 @@
+README.md
+setup.py
+pyecr/__init__.py
+pyecr/completers_suggesters.py
+pyecr/emoticons.py
+pyecr/messages.py
+pyecr/pyecr.py
+pyecr/style.py
+pyecr/utils.py
+pyecr.egg-info/PKG-INFO
+pyecr.egg-info/SOURCES.txt
+pyecr.egg-info/dependency_links.txt
+pyecr.egg-info/entry_points.txt
+pyecr.egg-info/requires.txt
+pyecr.egg-info/top_level.txt

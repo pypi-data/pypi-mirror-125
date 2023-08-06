@@ -1,0 +1,9 @@
+Pygments>=2.3.1
+arnparse>=0.0.2
+boto3>=1.18.62
+botocore>=1.21.62
+docker>=5.0.3
+docker_py>=1.10.6
+prompt_toolkit>=2.0.10
+python_dateutil>=2.8.2
+pytz>=2019.3
