@@ -1,0 +1,7 @@
+setup.py
+_init_/__init__.py
+ytmp3.egg-info/PKG-INFO
+ytmp3.egg-info/SOURCES.txt
+ytmp3.egg-info/dependency_links.txt
+ytmp3.egg-info/requires.txt
+ytmp3.egg-info/top_level.txt

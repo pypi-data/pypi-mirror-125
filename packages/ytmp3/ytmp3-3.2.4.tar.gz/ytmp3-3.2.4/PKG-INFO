@@ -1,0 +1,16 @@
+Metadata-Version: 1.1
+Name: ytmp3
+Version: 3.2.4
+Summary: python mp3 converter
+Home-page: UNKNOWN
+Author: Gavin Pritchard 
+Author-email: 312983629@mcsdgas.com
+License: UNKNOWN
+Description: A simple mp3 converter made in python
+Keywords: python,youtube
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Education
+Classifier: Programming Language :: Python :: 2
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: Microsoft :: Windows
