@@ -1,0 +1,13 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+setup.py
+simsoil/__init__.py
+simsoil/core.py
+simsoil/transpiration.py
+simsoil.egg-info/PKG-INFO
+simsoil.egg-info/SOURCES.txt
+simsoil.egg-info/dependency_links.txt
+simsoil.egg-info/requires.txt
+simsoil.egg-info/top_level.txt
