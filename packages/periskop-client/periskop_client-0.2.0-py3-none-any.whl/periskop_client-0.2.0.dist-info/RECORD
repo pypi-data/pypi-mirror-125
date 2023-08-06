@@ -1,0 +1,9 @@
+periskop_client/__init__.py,sha256=WeLVSFN_6Y-DJZq8_wbGVeR3WCLZ4au_Dg3x7PqhB6g,91
+periskop_client/collector.py,sha256=JdWLxIbz5M3XZTlBZDQ7jGgKKRgpgmdMEMSTFOFz86o,2085
+periskop_client/exporter.py,sha256=tdghMfjh9I15dkPauz09uy6tRIcfU849XJxKWqsjBtE,490
+periskop_client/handler.py,sha256=DPs96R00QKhkFwSkhGHVGsILV7UnS67WxMtyiqGvt2M,1022
+periskop_client/models.py,sha256=pDjGPLhJ1Kuu1GHrOl2ZU-O2cDxueX-YvdB7CHepBJg,2582
+periskop_client-0.2.0.dist-info/LICENSE,sha256=yDUzRH3A8Mmrd9Jt3HU2VqpzgA4h7LQ1lx5vyNlevkk,11340
+periskop_client-0.2.0.dist-info/WHEEL,sha256=xSvaL1DM8LOHfdyo0cCcwjZu1tC6CnCsRGWUgazvlbM,83
+periskop_client-0.2.0.dist-info/METADATA,sha256=Rtp_t_EcZbe_EOId1Wgm9T_3tNg2DAUoBJDZIcj1YmY,3710
+periskop_client-0.2.0.dist-info/RECORD,,
