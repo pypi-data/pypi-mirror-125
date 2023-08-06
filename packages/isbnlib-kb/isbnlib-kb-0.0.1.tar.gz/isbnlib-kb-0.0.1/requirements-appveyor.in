@@ -1,0 +1,6 @@
+coverage
+flake8
+nose
+tox
+wheel
+isbnlib
