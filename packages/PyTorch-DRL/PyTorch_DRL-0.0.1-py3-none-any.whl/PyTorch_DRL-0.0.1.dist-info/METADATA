@@ -1,0 +1,47 @@
+Metadata-Version: 2.1
+Name: PyTorch-DRL
+Version: 0.0.1
+Summary: A simple PyTorch wrapper making deep reinforcement learning much easier
+Home-page: https://github.com/imyizhang/PyTorch-DRL
+Author: Yi Zhang
+Author-email: yizhang.dev@gmail.com
+License: MIT
+Download-URL: https://github.com/imyizhang/PyTorch-DRL
+Keywords: pytorch,reinforcement-learning,drl,pytorch-drl
+Platform: UNKNOWN
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+Requires-Dist: torch (>=1.8.1)
+
+# PyTorch-DRL
+
+PyTorch-DRL is
+
+* a simple PyTorch wrapper making deep reinforcement learning much easier
+
+
+
+
+
+## Quickstart
+
+
+
+### Dependencies and Installation
+
+#### Package Dependencies
+
+`pip install -r requirements.txt` can handle all package dependencies.
+
+#### Install PyTorch-DRL
+
+```bash
+$ pip install pytorch-drl
+```
+
+
+
