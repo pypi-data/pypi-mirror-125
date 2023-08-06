@@ -1,0 +1,10 @@
+CHANGELOG.txt
+LICENCE.txt
+MANIFEST.in
+README.txt
+__init__.py
+setup.py
+simpleDS.egg-info/PKG-INFO
+simpleDS.egg-info/SOURCES.txt
+simpleDS.egg-info/dependency_links.txt
+simpleDS.egg-info/top_level.txt

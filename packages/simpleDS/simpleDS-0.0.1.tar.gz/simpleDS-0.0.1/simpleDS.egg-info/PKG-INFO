@@ -1,0 +1,23 @@
+Metadata-Version: 1.1
+Name: simpleDS
+Version: 0.0.1
+Summary: A very basic Data Science library
+Home-page: UNKNOWN
+Author: Azal Ahmad Khan
+Author-email: azalahmadkhan@gmail.com
+License: MIT
+Description: This is a simple Data Science library made in python
+        
+        Change Log
+        ==========
+        
+        0.0.1(1/11/2021)
+        -----------------
+        -First Release
+Keywords: DataScience
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Education
+Classifier: Operating System :: Microsoft :: Windows :: Windows 10
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
