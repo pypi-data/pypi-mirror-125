@@ -1,0 +1,12 @@
+LICENSE
+README.md
+setup.py
+fast_gat/GAT.py
+fast_gat/__init__.py
+fast_gat/dense_gat.py
+fast_gat/graph_util.py
+fast_gat.egg-info/PKG-INFO
+fast_gat.egg-info/SOURCES.txt
+fast_gat.egg-info/dependency_links.txt
+fast_gat.egg-info/requires.txt
+fast_gat.egg-info/top_level.txt
