@@ -1,0 +1,17 @@
+Metadata-Version: 1.1
+Name: bm_takeaway_makers
+Version: 0.4
+Summary: takeaway-challenge
+Home-page: https://github.com/bmargerison/takeaway-challenge
+Author: Ben Margerison
+Author-email: bmargerison@outlook.com
+License: MIT
+Download-URL: https://github.com/bmargerison/takeaway-challenge/archive/refs/tags/v0.4.tar.gz
+Description: UNKNOWN
+Keywords: takeaway,order,text
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Build Tools
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3.8
