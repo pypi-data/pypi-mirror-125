@@ -1,0 +1,10 @@
+README.md
+pyproject.toml
+setup.cfg
+src/clamfig/__init__.py
+src/clamfig/base.py
+src/clamfig.egg-info/PKG-INFO
+src/clamfig.egg-info/SOURCES.txt
+src/clamfig.egg-info/dependency_links.txt
+src/clamfig.egg-info/requires.txt
+src/clamfig.egg-info/top_level.txt
