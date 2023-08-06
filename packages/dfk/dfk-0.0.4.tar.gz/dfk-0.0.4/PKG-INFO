@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: dfk
+Version: 0.0.4
+Summary: A command-line tool for defektor 👨‍💻
+Home-page: https://github.com/SysOBs/dfk.git
+Author: SysOBs
+Author-email: sob@dei.uc.pt
+License: UNKNOWN
+Description: # dfk
+        A command-line tool for defektor 👨‍💻
+        
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown

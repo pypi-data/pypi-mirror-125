@@ -1,0 +1,6 @@
+click==7.1.1
+click-completion==0.5.2
+defektor-api==0.1.1
+python-jsonschema-objects==0.3.12
+jsonschema==3.2.0
+setuptools~=46.1.3
