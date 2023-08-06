@@ -1,0 +1,5 @@
+[console_scripts]
+pmxanalyse = biobb_pmx.pmx.pmxanalyse:main
+pmxgentop = biobb_pmx.pmx.pmxgentop:main
+pmxmutate = biobb_pmx.pmx.pmxmutate:main
+
