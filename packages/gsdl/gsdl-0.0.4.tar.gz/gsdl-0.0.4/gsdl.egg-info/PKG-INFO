@@ -1,0 +1,31 @@
+Metadata-Version: 2.1
+Name: gsdl
+Version: 0.0.4
+Summary: Pygame GUI Library.
+Home-page: https://github.com/Pixelsuft/gsdl
+Author: Pixelsuft
+License: MIT
+Project-URL: Readme, https://github.com/Pixelsuft/gsdl/blob/main/README.MD
+Project-URL: Example, https://github.com/Pixelsuft/gsdl/blob/main/main.py
+Project-URL: Issue tracker, https://github.com/Pixelsuft/gsdl/issues
+Keywords: gsdl
+Platform: UNKNOWN
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# GSDL
+Python GUI lib for PyGame
+## Links
+[Github](https://github.com/Pixelsuft/gsdl) <br />
+[PyPi](https://pypi.org/project/gsdl/) <br />
+[Example](https://github.com/Pixelsuft/gsdl/blob/main/main.py) <br />
+[Issue Tracker](https://github.com/Pixelsuft/gsdl/issues)
+## Work In Progress
+
+
