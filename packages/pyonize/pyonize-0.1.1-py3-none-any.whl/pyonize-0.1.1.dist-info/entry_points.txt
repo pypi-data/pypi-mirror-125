@@ -1,0 +1,3 @@
+[console_scripts]
+realpython=pyonize.__main__:main
+
