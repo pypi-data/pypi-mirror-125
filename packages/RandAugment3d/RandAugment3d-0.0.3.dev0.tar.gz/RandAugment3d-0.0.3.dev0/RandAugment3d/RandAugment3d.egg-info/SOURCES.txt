@@ -1,0 +1,10 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+setup.py
+RandAugment3d/RandAugment3d.egg-info/PKG-INFO
+RandAugment3d/RandAugment3d.egg-info/SOURCES.txt
+RandAugment3d/RandAugment3d.egg-info/dependency_links.txt
+RandAugment3d/RandAugment3d.egg-info/requires.txt
+RandAugment3d/RandAugment3d.egg-info/top_level.txt
