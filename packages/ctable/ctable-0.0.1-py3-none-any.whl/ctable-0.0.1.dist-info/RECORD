@@ -1,0 +1,11 @@
+ctable/__init__.py,sha256=iYjwLAnOIe3brdno2lgCMJaG1HdSc8VafS7wk07wwMo,185
+ctable/__main__.py,sha256=ZXlKl2LXWz98yBD0u4E8Rp7-2dH-_7aKse4pEQrswX8,1069
+ctable/color.py,sha256=L27hluufMIWyOyilsnEBdC93f9_W8drjoUqrCqPtEE0,3209
+ctable/ctable.py,sha256=sC0Kseo6r2rskcwlnPgncqy_2sNRo9F8Zcxmn-3i1Fk,8618
+ctable/utils.py,sha256=2oKYBLNHenyDZL0vqbaXZH4z-xpz8D-5GRZOSrkyVXE,1032
+ctable-0.0.1.dist-info/LICENSE,sha256=9XrL5jhD5Up2yeDrv4SmlPw58s22iXeMYpAdZ4gimno,751
+ctable-0.0.1.dist-info/METADATA,sha256=2X_GdKZOiBgBNWFxjZEK8RkMjXAK7_0AsEpBROf_UCU,413
+ctable-0.0.1.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+ctable-0.0.1.dist-info/entry_points.txt,sha256=C4slG1MRThT0jalVMozrJJEek9EeYDt59yYeXbpNZnE,49
+ctable-0.0.1.dist-info/top_level.txt,sha256=0oj6xHR-p02b-8eHg0Jp8-GTne4eDMn_Yuw6O1BAIpY,7
+ctable-0.0.1.dist-info/RECORD,,
