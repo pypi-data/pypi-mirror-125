@@ -1,0 +1,8 @@
+README.md
+setup.cfg
+setup.py
+Anonim.egg-info/PKG-INFO
+Anonim.egg-info/SOURCES.txt
+Anonim.egg-info/dependency_links.txt
+Anonim.egg-info/top_level.txt
+AnonimTest/__init__.py
