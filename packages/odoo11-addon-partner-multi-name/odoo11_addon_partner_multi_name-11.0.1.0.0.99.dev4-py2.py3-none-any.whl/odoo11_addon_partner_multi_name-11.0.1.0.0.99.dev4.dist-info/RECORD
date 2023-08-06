@@ -1,0 +1,19 @@
+odoo/addons/partner_multi_name/README.rst,sha256=_Kmh27Eq8025m-q9EkcUVQQEeiPGxtnK083PShDmAB0,1149
+odoo/addons/partner_multi_name/__init__.py,sha256=aF9UVtEWW3J5V-1wyzLli_k781umDbjwj3j1XADE_fw,484
+odoo/addons/partner_multi_name/__manifest__.py,sha256=7dG7d_qrcoclEstDkwRhyb29Gdq4gGAMe5eW4Fci_OU,1005
+odoo/addons/partner_multi_name/.vscode/settings.json,sha256=J_Ds8FScwaFoCMQD6rAC95TmBRWuiM7SNo5jvGcn8Yk,123
+odoo/addons/partner_multi_name/i18n/es CO.po,sha256=m0x1eKk7cIkf7QCCCD9yMRB4040IuWrh9-s0ua07EeU,1159
+odoo/addons/partner_multi_name/i18n/es.po,sha256=m0x1eKk7cIkf7QCCCD9yMRB4040IuWrh9-s0ua07EeU,1159
+odoo/addons/partner_multi_name/i18n/partner_multi_name.pot,sha256=s82Acbvqo-x5vYu2uY44PU87qbYoxbfifuZXo_H0Mi8,975
+odoo/addons/partner_multi_name/i18n/partner_other_names.pot,sha256=cPR4eR_qrggyAc7oG0kPSCA0d7ZjQ2YnJC88u1p4OJ8,1063
+odoo/addons/partner_multi_name/models/__init__.py,sha256=3ol8iOL_w3umVGsSGCAhcei2GzQi2OB56fl7nps5Jwo,547
+odoo/addons/partner_multi_name/models/res_config_settings.py,sha256=vgLwf8mP3OiuaQI0-1qA0Fkx5vXT6EuyhMthFJ8ZsgY,1692
+odoo/addons/partner_multi_name/models/res_partner.py,sha256=4WiBTsJYSdusbP6RhmpdmBV6sRJKyR0ze3VBHs4mTg8,4597
+odoo/addons/partner_multi_name/models/res_users.py,sha256=yCUIT6pwe0XgAzb3JSQq5eMgpE5kO1ZcJPOHFcP4z3A,951
+odoo/addons/partner_multi_name/static/description/icon.png,sha256=gomHvakrdkmyAw0apa3LXycJ5mCWUxpeFxNQZYfdBQw,10333
+odoo/addons/partner_multi_name/views/res_partner_views.xml,sha256=d9y1VurVrropKPvnZ59ErCpRHUeOBvh8nIbBwyC2P4k,4014
+odoo/addons/partner_multi_name/views/res_users_views.xml,sha256=KeS1_1tDqWY1zlWdIzK1AbTZnQ8Z5nGJGtR3kVNwF7w,1072
+odoo11_addon_partner_multi_name-11.0.1.0.0.99.dev4.dist-info/METADATA,sha256=73AlV8ul5kFCsrYie9c9dYedv062fwF57WaeW5Mawsw,1834
+odoo11_addon_partner_multi_name-11.0.1.0.0.99.dev4.dist-info/WHEEL,sha256=WzZ8cwjh8l0jtULNjYq1Hpr-WCqCRgPr--TX4P5I1Wo,110
+odoo11_addon_partner_multi_name-11.0.1.0.0.99.dev4.dist-info/top_level.txt,sha256=qBj40grFkGOfDZ2WDSw3y1RnDlgG0u8rP8pvGNdbz4w,5
+odoo11_addon_partner_multi_name-11.0.1.0.0.99.dev4.dist-info/RECORD,,
