@@ -1,0 +1,36 @@
+Metadata-Version: 2.1
+Name: machine-web
+Version: 0.0.2.post2
+Summary: A simple plugin-based web framework
+Home-page: UNKNOWN
+Author: Igor Kraglik
+Author-email: kraglik.i.d@gmail.com
+License: BSDv3
+Project-URL: homepage, https://github.com/kraglik/machine
+Project-URL: repository, https://github.com/kraglik/machine
+Keywords: web,framework,machine
+Platform: UNKNOWN
+Requires-Python: ==3.*,>=3.8.0
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# Machine
+A very simple web framework implemented in Python.
+
+The core idea of this framework are **plugins**.
+Plugins could be found everywhere throughout the framework.
+Plugin itself is simple - it's just an asynchronous generator that yields a tuple of `Connection` and `Parameters`.
+
+The simplest possible plugin just yields its arguments:
+```python3
+async def simple_plugin(conn, params):
+    yield conn, params
+```
+
+
+
+# Installation
+
+To install Machine, just type `pip install machine-web` in your console.
+
+
