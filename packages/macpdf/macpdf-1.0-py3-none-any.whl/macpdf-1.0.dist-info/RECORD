@@ -1,0 +1,8 @@
+lempdf/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+lempdf/pdf2image.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+lempdf/pdf2text.py,sha256=iTJZ3wPy62_0ZNtIq3NhbXr_W4pSlq4g-Z2N-_-pGd4,57
+macpdf-1.0.dist-info/LICENSE,sha256=ixuiBLtpoK3iv89l7ylKkg9rs2GzF9ukPH7ynZYzK5s,35148
+macpdf-1.0.dist-info/METADATA,sha256=X9SkAKQPPj20tq38-ZC80cbEFvcGPZ_O_1yeX3cuYJQ,218
+macpdf-1.0.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+macpdf-1.0.dist-info/top_level.txt,sha256=Iiq5rU87WZRyJzoikKRopi79phG6OPsmPjOO4xkWO_c,7
+macpdf-1.0.dist-info/RECORD,,
