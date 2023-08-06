@@ -1,0 +1,10 @@
+wheel
+json2html
+tornado
+gaiaclient
+PyYAML
+colorlog
+colorama
+mock
+pymongo
+bcrypt
