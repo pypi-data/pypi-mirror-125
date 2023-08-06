@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="UTF-8">
+	<title>Etiqueta Correos de Chile Orden: {{instance.reference}}</title>
+	<style>
+        @page {
+            size: 6in 10in;
+            margin: 0.5cm;
+        }
+		body {
+			text-transform: uppercase;
+			font-family: 'Arial', sans-serif;
+		}
+		p {
+			margin: 0;
+			padding: 0;
+		}
+		hr {
+			border:none;
+		}
+		 table {
+		  border-collapse: collapse;
+		  width:100%;
+		}
+
+		table, th, td {
+		  border: 2px solid black;
+		}
+		.container {
+            max-width:700px;
+		}
+		.item {
+			border-bottom:2px solid #000;
+			padding: 3px;
+			overflow: hidden;
+		}
+        .item.detail{
+            min-height: 120px;
+            display: block;
+            padding: 0px;
+        }
+		.barcode {
+			width: 100%;
+			text-align: center;
+		}
+		.col-4,.col-8 {
+			float: left;
+		}
+		.col-4 {width: 33%;}
+		.col-8 {width: 62%;  }
+		.contrast {
+			background-color: black;
+			color: #fff;
+			padding-left: 5%;
+            height: 120px;
+		}
+        .contrast h1{
+            font-size: 28px;
+        }
+        .text-center{
+        	text-align: center;
+        }
+        .title{
+        	font-size:30px;
+        }
+        .subtitle{
+        	font-size: 13px;
+        }
+        .no-margin{
+        	margin:0px;
+        }
+        .no-margin{
+        	margin:0px;
+        }
+        .m-1{
+        	margin:2px;
+        }
+        .no-border{
+        	border-bottom: white;
+        }
+        .vertical{
+        	transform: rotate(-90deg);
+        }
+	</style>
+</head>
+<body>
+	<div class="container">
+		<table style="font-size:10px; border-bottom: white;">
+			<tr>
+				<td rowspan="3">
+					<img style='width: 130px'src="https://www.grabadoycortelaser.cl/wpbienestarysalud/uploads/2018/06/correos-chile-logo.png" alt=""><br>
+					<p style="font-size: 12px; font-weight: bold">{{ raw_data.NombreDelegacionDestino }}</p>
+				</td>
+				<td>A.R</td>
+				<td>RDOC</td>
+				<td>A.TEL</td>
+				<td>P.D</td>
+				<td>REEM</td>
+				<td>PRG</td>
+				<td>SAB</td>
+				<td>FIVPS</td>
+			</tr>
+			<tr>
+				<td colspan="8">DE: ITALMOD</td>
+			</tr>
+			<tr>
+				<td colspan="3">RUT 19.431.289-K</td>
+				<td colspan="3">CTA: 900012345</td>
+				<td colspan="2">TEL: 02 - 1234567</td>
+			</tr>
+			<tr>
+				<td rowspan="2">
+					{{ instance.shipping_date }} <br>
+					<h1 style="text-align: center">{{ raw_data.AbreviaturaServicio }}</h1>
+				</td>
+				<td colspan="8">Referencia: {{ instance.reference }}</td>
+			</tr>
+			<tr>
+				<td colspan="2">Factura CTE. N <br>{{ instance.purchase_number }}</td>
+				<td colspan="2">Reembolso <br> ${{0.00|stringformat:".0f"}}</td>
+				<td colspan="2">Portes <br> ${{ 0.00|stringformat:".0f" }}</td>
+				<td colspan="2">Total a pagar <br> ${{ 0.00|stringformat:".0f" }}</td>
+			</tr>
+			<tr>
+				<td colspan="9" style='text-align: center'>
+					<img style="width: 430px; margin-top:30px" src="{% url 'barcode-c128' ccl_enc=raw_data.CodigoEncaminamiento shipping_nbr=raw_data.NumeroEnvio slip=instance.package %}" alt="">
+				</td>
+			</tr>
+			<tr>
+				<td colspan="2">Encaminamiento: <br> {{ raw_data.CodigoEncaminamiento }}</td>
+				<td colspan="5">N de envio: <p style='font-size: 15px; font-weight: bold;'>{{ raw_data.NumeroEnvio }}</p></td>
+				<td colspan="2"> Bulto: {{  instance.package }}</td>
+			</tr>
+			<tr>
+				<td style="border-bottom:white; border-right:white;" colspan="2">
+					A: {{ raw_data.ComunaDestino }}
+				</td>
+				<td style="border-bottom:white; border-left:white;" colspan="7">
+					Para: {{ instance.customer.name }} {{ instance.customer.last_name  }}
+				</td>
+			</tr>
+			<tr>
+				<td style="border-top:white;border-bottom:white; border-right:white;" colspan="8">
+					Dir: {{ instance.address.full_address }}
+				</td>
+				<td style="border-top:white;border-bottom:white; border-left:white;" colspan="1">
+					Tel: {{instance.customer.phone}}
+				</td>
+			</tr>
+			<tr>
+				<td style="border-top:white" colspan="9">
+					Obs: Firmar factura de cliente y devolver
+				</td>
+			</tr>
+			<tr>
+				<td colspan="1">SDP</td>
+				<td colspan="6">Planta Destino</td>
+				<td colspan="1">Sucursal</td>
+				<td colspan="1">CDP/Cuartel</td>
+			</tr>
+			<tr>
+				<td colspan="1"><h1>{{ raw_data.SDP }}</h1></td>
+				<td colspan="6"><h1>{{ raw_data.ComunaDestino }}</h1></td>
+				<td colspan="1">{{ raw_data.NombreSucursal }}</td>
+				<td colspan="1"><h1>{{ raw_data.Sector }}/{{ raw_data.Cuartel }}</h1></td>
+			</tr>
+		</table>
+	</div>
+</body>
+</html>

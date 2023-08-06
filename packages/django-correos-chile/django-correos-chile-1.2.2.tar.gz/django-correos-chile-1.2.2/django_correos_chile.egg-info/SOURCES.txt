@@ -1,0 +1,14 @@
+MANIFEST.in
+README.rst
+setup.py
+correos_chile/handler.py
+correos_chile/settings.py
+correos_chile/urls.py
+correos_chile/utils.py
+correos_chile/views.py
+correos_chile/templates/correos_chile/correos_slip.html
+django_correos_chile.egg-info/PKG-INFO
+django_correos_chile.egg-info/SOURCES.txt
+django_correos_chile.egg-info/dependency_links.txt
+django_correos_chile.egg-info/requires.txt
+django_correos_chile.egg-info/top_level.txt

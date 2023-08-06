@@ -1,0 +1,4 @@
+Django>=2
+WeasyPrint>=52.2
+python-barcode>=0.13.1
+zeep>=4.0.0

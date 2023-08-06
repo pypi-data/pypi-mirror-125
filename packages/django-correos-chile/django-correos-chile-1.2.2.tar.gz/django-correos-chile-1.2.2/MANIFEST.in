@@ -1,0 +1,3 @@
+global-include *.html
+recursive-include polls/static *
+recursive-include polls/templates *
