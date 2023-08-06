@@ -1,0 +1,20 @@
+Metadata-Version: 1.1
+Name: hand_tracking_f_beginners
+Version: 0.1
+Summary: I have created a python project for hand tracking for absolute beginners. I am to a beginner too. I found that on internet it is hard get the perfect code and to start up with computer vision and it is just a littlie fun project
+Home-page: https://github.com/AayushBannapure/hand_Tracking_For_beginners
+Author: Aayush
+Author-email: aayushbannapure6@gmail.com
+License: MIT
+Download-URL: https://github.com/AayushBannapure/hand_Tracking_For_beginners/archive/refs/tags/hand_tracking_f_beginners.tar.gz
+Description: UNKNOWN
+Keywords: Hand_Tracking,Hand_Tracking_f_beginners,Hand_tracking_for_beginners
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Build Tools
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
