@@ -1,0 +1,12 @@
+aicsimageio
+cellpose
+imagecodecs
+matplotlib
+numba
+numpy
+pandas
+pillow
+scikit-image
+scipy
+seaborn
+torch
