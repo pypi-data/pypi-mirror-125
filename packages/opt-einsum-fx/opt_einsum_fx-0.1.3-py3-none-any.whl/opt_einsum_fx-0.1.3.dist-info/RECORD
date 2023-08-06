@@ -1,0 +1,10 @@
+opt_einsum_fx/__init__.py,sha256=F1EN1qo40TXKqj0TXQ2quZdEVe8MuShUxra-44JZ7UQ,260
+opt_einsum_fx/_fuse.py,sha256=SxxNohn4-W1uIYf0cTw5G9hztB4yigYZ0suoWNKfZ_U,13782
+opt_einsum_fx/_opt_ein.py,sha256=WixP0UJqgwQbtEG6xvNdKMfv1T2btMVsRC4CdDXuLoo,6635
+opt_einsum_fx/_script.py,sha256=tPdHcjpc4s03bEuLX4knpULaLS-ciNdRHSLhKaalR20,1958
+opt_einsum_fx/fx_utils.py,sha256=x-wHKAFFd6l9I8PKDbEuGs1-4uxT5dxvwU6gHcEMrrQ,702
+opt_einsum_fx-0.1.3.dist-info/LICENSE,sha256=KKt9ALu-PbQoEHaoGw9jsMWI6KiM6WQHSXWgo2uWU3A,1064
+opt_einsum_fx-0.1.3.dist-info/METADATA,sha256=dzdNm1jhTInQirpyhqIWteBcY3ysBWibrIARFFx3y80,3306
+opt_einsum_fx-0.1.3.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+opt_einsum_fx-0.1.3.dist-info/top_level.txt,sha256=n_8VU6ejdGOJAQBlBl6dKXKRT0TiHgew-KeruNIHqNg,14
+opt_einsum_fx-0.1.3.dist-info/RECORD,,
