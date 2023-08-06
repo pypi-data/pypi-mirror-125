@@ -1,0 +1,14 @@
+[build-system]
+requires = ["flit_core >=2,<4"]
+build-backend = "flit_core.buildapi"
+
+[tool.flit.metadata]
+module = "markit"
+author = "Vyacheslav Rusov"
+author-email = "odryfox@gmail.com"
+home-page = "https://github.com/odryfox/markit"
+classifiers = [
+    "Programming Language :: Python :: 3",
+]
+description-file = "README.md"
+requires-python = ">=3.6"
