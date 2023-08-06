@@ -1,0 +1,32 @@
+Metadata-Version: 2.1
+Name: pixii
+Version: 0.1.1
+Summary: 
+Home-page: https://github.com/k2bd/pixii
+License: MIT
+Author: Kevin Duff
+Author-email: kevinkelduff@gmail.com
+Requires-Python: >=3.7,<4.0
+Classifier: Development Status :: 1 - Planning
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Topic :: Database
+Requires-Dist: aiohttp (>=3.7.4)
+Requires-Dist: botocore (>=1.22.7,<2.0.0)
+Requires-Dist: pydantic (>=1.8.2,<2.0.0)
+Project-URL: Repository, https://github.com/k2bd/pixii
+Description-Content-Type: text/markdown
+
+# Pixii
+
+![PyPI - Status](https://img.shields.io/pypi/status/pixii) ![PyPI - Python Version](https://img.shields.io/pypi/pyversions/pixii) ![PyPI](https://img.shields.io/pypi/v/pixii) [![GitHub license](https://img.shields.io/github/license/k2bd/pixii)](https://github.com/k2bd/pixii/blob/main/LICENSE)
+
+[![CI](https://github.com/k2bd/pixii/actions/workflows/ci.yml/badge.svg)](https://github.com/k2bd/pixii/actions/workflows/ci.yml) [![codecov](https://codecov.io/gh/k2bd/pixii/branch/main/graph/badge.svg?token=YEZCDAA1JZ)](https://codecov.io/gh/k2bd/pixii)
+
