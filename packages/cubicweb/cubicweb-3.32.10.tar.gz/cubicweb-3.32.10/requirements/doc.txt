@@ -1,0 +1,3 @@
+sphinx==1.8.5  # We use logilab.common.decorators.iclassmethod which breaks sphinx 4 https://github.com/sphinx-doc/sphinx/issues/9756
+docutils<0.18
+.[pyramid]
