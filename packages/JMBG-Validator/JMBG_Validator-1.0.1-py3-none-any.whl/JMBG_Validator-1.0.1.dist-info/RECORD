@@ -1,0 +1,11 @@
+jmbg_validator/__init__.py,sha256=n7Cz2Xgso6ZnPHpH8-tFwFjFaFs3ULvMAPNz2YIq_zw,27
+jmbg_validator/exceptions.py,sha256=8KPaZENO8IraZqZD5LXSwTPuB8lgvClWlEM0KxF6sic,219
+jmbg_validator/main.py,sha256=gMj8Kiyv4qaNNWvO_DFTbfGzGx8zSKWoD-aq_iFU0c8,3806
+jmbg_validator/matrices.py,sha256=Nt9o9T2m7EUeT6jAyqHiAKVc32z0DBZl5TklRnYFSV8,4124
+jmbg_validator/output.py,sha256=NVws1q9UZ4_sI1tnSaDleEqGRDYg-5B1bqlNuDTsm6s,781
+JMBG_Validator-1.0.1.dist-info/LICENSE.md,sha256=himVNdTQaDDrjlOjfQdNe1E0Xu375-3YmhZWvzUHdmI,15580
+JMBG_Validator-1.0.1.dist-info/METADATA,sha256=3y9qUqlU1-5Mi9gjPQn4OUGYT4nELJSTpqv7qDNsFnQ,798
+JMBG_Validator-1.0.1.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+JMBG_Validator-1.0.1.dist-info/entry_points.txt,sha256=CcsK6SRtREQNSWxoBBRE5PPFEsna52tKcNgHlY8jeQI,60
+JMBG_Validator-1.0.1.dist-info/top_level.txt,sha256=UwzoFTcaApuM2T7LTrQlRw0B7xCVGQljO9lK-Us9kNQ,15
+JMBG_Validator-1.0.1.dist-info/RECORD,,

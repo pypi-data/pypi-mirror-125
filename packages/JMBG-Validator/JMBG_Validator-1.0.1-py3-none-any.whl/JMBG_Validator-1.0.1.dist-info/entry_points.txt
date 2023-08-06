@@ -1,0 +1,3 @@
+[console_scripts]
+jmbg-validator = jmbg_validator.main:cli
+
