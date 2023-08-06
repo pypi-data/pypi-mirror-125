@@ -1,0 +1,26 @@
+Metadata-Version: 2.1
+Name: mlflowapi
+Version: 0.1
+Summary: It is a wrapper function of swapcase.
+Home-page: UNKNOWN
+Author: Vikas Yadav
+Author-email: datapoc001@gmail.com
+License: MIT
+Keywords: MLflow,mlflowtracking,data-registory
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Build Tools
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Requires-Dist: pandas
+Requires-Dist: sklearn
+Requires-Dist: pickle
+Requires-Dist: mlflow
+
+UNKNOWN
+
+
