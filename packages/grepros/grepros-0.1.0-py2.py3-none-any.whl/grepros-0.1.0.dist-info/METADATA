@@ -1,0 +1,35 @@
+Metadata-Version: 2.1
+Name: grepros
+Version: 0.1.0
+Summary: grep for ROS1 bag files and live topics
+Home-page: https://github.com/suurjaak/grepros
+Author: Erki Suurjaak
+Author-email: erki@lap.ee
+License: BSD
+Keywords: ROS rosbag grep
+Platform: any
+Classifier: Development Status :: 4 - Beta
+Classifier: Environment :: Console
+Classifier: Environment :: Console :: Curses
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Intended Audience :: Developers
+Classifier: Operating System :: POSIX
+Classifier: Topic :: Scientific/Engineering
+Classifier: Topic :: Utilities
+Classifier: Programming Language :: Python :: 2
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=2.7
+Description-Content-Type: text/markdown
+Requires-Dist: pyyaml
+
+grep for ROS1 bag files and live topics.
+
+Searches through ROS messages and matches any message field value by regular
+expression patterns or plain text, regardless of field type.
+Can also look for specific values in specific message fields only.
+
+By default, matches are printed to console. Additionally, matches can be written
+to a bagfile, or published to live topics.
+
+
