@@ -1,0 +1,8 @@
+{
+  "main.js": "/static/plugins/vc_zoom/dist/js/main.8fce7db4.bundle.js",
+  "main.css": "/static/plugins/vc_zoom/dist/css/main.eb37fdb5.css",
+  "common-runtime.js": "/static/plugins/vc_zoom/dist/js/common-runtime.574be56e.bundle.js",
+  "main.8fce7db4.bundle.js.map": "/static/plugins/vc_zoom/dist/js/main.8fce7db4.bundle.js.map",
+  "main.eb37fdb5.css.map": "/static/plugins/vc_zoom/dist/css/main.eb37fdb5.css.map",
+  "common-runtime.574be56e.bundle.js.map": "/static/plugins/vc_zoom/dist/js/common-runtime.574be56e.bundle.js.map"
+}
