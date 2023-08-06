@@ -1,0 +1,12 @@
+HISTORY.md
+LICENSE
+MANIFEST.in
+README.md
+setup.cfg
+setup.py
+tsgym.egg-info/PKG-INFO
+tsgym.egg-info/SOURCES.txt
+tsgym.egg-info/dependency_links.txt
+tsgym.egg-info/not-zip-safe
+tsgym.egg-info/requires.txt
+tsgym.egg-info/top_level.txt
