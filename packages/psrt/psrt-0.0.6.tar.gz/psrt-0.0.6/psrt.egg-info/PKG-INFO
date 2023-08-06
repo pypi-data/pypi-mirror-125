@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: psrt
+Version: 0.0.6
+Summary: PubSubRT Python connector
+Home-page: https://github.com/alttch/psrt-py
+Author: Altertech
+Author-email: pr@altertech.com
+License: Apache License 2.0
+Description: # PubSubRT Python connector
+        
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: Apache Software License
+Description-Content-Type: text/markdown
