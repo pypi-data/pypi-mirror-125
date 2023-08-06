@@ -1,0 +1,9 @@
+README.rst
+setup.py
+tnk/__init__.py
+tnk/build_autoencoder.py
+tnk.egg-info/PKG-INFO
+tnk.egg-info/SOURCES.txt
+tnk.egg-info/dependency_links.txt
+tnk.egg-info/requires.txt
+tnk.egg-info/top_level.txt
