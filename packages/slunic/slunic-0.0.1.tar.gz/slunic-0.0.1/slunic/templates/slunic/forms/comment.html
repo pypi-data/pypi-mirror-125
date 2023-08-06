@@ -1,0 +1,30 @@
+{% load i18n slunic_tags %}
+<div class="comment-outter-wrapper">
+    <div id="comment-wrapper" class="comment-inner-wrapper">
+    {% if request.user.is_authenticated %}
+      {% if object.comment_allowed %}
+        {% if object.real_model == "question" %}
+          <h3 class="fs-4">{% trans "Your Answer" %}</h3>
+        {% else %}
+          <h3 class="fs-4">{% trans "Your Comment" %}</h3>
+        {% endif %}
+        <form class="comment-form" action="" method="post">
+          {{ form.media }}
+          {{ form.non_field_errors }}
+          {% csrf_token %}
+          {% for field in form %}
+            {{ field }}
+            <span>{{ field.errors }}</span>
+          {% endfor %}
+          <button class="btn btn-primary" type="submit">{% trans "Submit Response" %}</button>
+        </form>
+      {% else %}
+        {% if object.real_model == 'comment' %}
+          {% trans "Response not allowed. Back to" %} <a href="{{ object.get_root.get_absolute_url }}">{{ object.get_root }}</a>
+        {% endif %}        
+      {% endif %}
+    {% else %}
+      {% trans "You must be " %}. <a href="{% slunic_login_url %}?next=">{% trans "login" %}</a> {% trans "to submit feedback." %}
+    {% endif %}
+  </div>
+</div>

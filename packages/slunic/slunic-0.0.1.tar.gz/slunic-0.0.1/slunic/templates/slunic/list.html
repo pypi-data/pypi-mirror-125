@@ -1,0 +1,38 @@
+{% extends 'slunic/base.html' %}
+{% load i18n slunic_tags webpack_loader %}
+
+{% block head_title %}{% firstof page_title model_name %}{% endblock head_title %}
+
+{% block breadcrumb_item %}
+  <li class="breadcrumb-item"><a href="{% url 'slunic_index' %}">{% trans "Home" %}</a></li>
+  <li class="breadcrumb-item active" aria-current="page">{{ view.model_name | capfirst }}</li>
+{% endblock breadcrumb_item %}
+
+{% block content %}
+  <section class="row g-2">
+    {% for object in results %}
+      {% render_content_type view.model_name object %}
+    {% empty %}
+      <div class="col">{% blocktrans %}Sorry {{ view.model_name }} is empty.{% endblocktrans %}</div>
+    {% endfor %}
+  </section>
+  {% include 'slunic/includes/pagination.html' with page=page %}
+{% endblock content %}
+
+{% block sidebar_right_content %}
+  {% widget_featured_join %}
+  {% if model_name == 'question' %}
+    {% widget_submit_question %}
+  {% elif model_name == 'tutorial' %}
+    {% widget_submit_tutorial %}
+  {% endif %}
+  {% widget_popular_tags limit=10 %}
+  {% if model_name == "tutorial" or model_name == "question" %}
+    {% widget_popular_posts model_name=model_name limit=3 %}
+  {% endif %}
+{% endblock %}
+
+{% block main_js %}
+    {{ block.super }}
+    {% render_bundle 'index' 'js' %}
+{% endblock main_js %}

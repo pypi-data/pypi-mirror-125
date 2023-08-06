@@ -1,0 +1,16 @@
+<div class="easymde-wrapper" id="{{ widget.name }}-easymde-wrapper">
+    <textarea name="{{ widget.name }}"{% include "django/forms/widgets/attrs.html" %}>{% if widget.value %}{{ widget.value }}{% endif %}</textarea>
+    <script>
+        var easyMDE = new EasyMDE({
+            element: document.getElementById('id_{{ widget.name }}'),
+            forceSync: true,
+            {% if widget.configs.toolbarTips %}toolbarTips: true,{% endif %}
+            {% if widget.configs.autofocus %}autofocus: true,{% endif %}
+            {% if widget.configs.uploadImage %}uploadImage: true,{% endif %}
+            {% if widget.configs.sideBySideFullscreen %}sideBySideFullscreen: true,{% endif %}
+            minHeight: "{{ widget.configs.minHeight }}",
+            maxHeight: "{{ widget.configs.maxHeight }}",
+            toolbar: [{% for icon in widget.configs.toolbar %}"{{ icon }}",{% endfor %}]
+        });
+    </script>
+</div>

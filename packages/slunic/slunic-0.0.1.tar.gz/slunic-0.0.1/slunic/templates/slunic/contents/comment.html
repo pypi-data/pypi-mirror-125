@@ -1,0 +1,51 @@
+{% load i18n cache slunic_tags %}
+
+<div x-data="postComp('{{ object.uid }}', '{{ object.vote_count }}', '{% slunic_login_url %}', {{ request.user.is_authenticated | lower }})" id="{{ object.real_model }}_{{ object.uid }}" class="row flex-md-row h-md-250 position-relative">
+  <div class="d-flex justify-content-between align-items-center mb-3">
+    <div class="d-flex align-items-center">
+      <img src="{% gravatar_url object.author %}" width="36px" height="36px" alt="{{ object.author.username }}" class="rounded-circle">
+      <div class="small text-muted ms-2">
+        <a class="link-dark d-block fw-bold" href="{% url 'slunic_page_detail' model_name='profile' id=object.author.id slug=object.author.username %}">{{ object.author.first_name }} {{ object.author.last_name }}</a>
+        <small>{{ object.created_at|date:"d M Y" }}</small>
+      </div>
+    </div>
+  </div>
+  <div class="post-content mb-2">{{ object.content|markdown|safe }}</div>
+  <div class="post-states d-flex justify-content-between align-items-center">
+    <div class="">
+      {% if object.real_model == 'comment' %}
+        <a class="btn btn-sm btn-light" href="{{ object.get_root.get_absolute_url }}"><i class="fs-6 mdi mdi-arrow-left"></i> {% trans "Back to Post" %}</a>
+      {% else %}
+        <a class="btn btn-sm btn-light" href="{% url 'slunic_page_list' model_name=object.real_model %}"><i class="fs-6 mdi mdi-arrow-left"></i> {% trans "Back to list" %}</a>
+      {% endif %}
+      <div class="btn-group">
+        <button @click="reaction('upvote', '{{ object.uid }}')" class="btn btn-sm btn-light" data-bs-toggle="tooltip" data-bs-placement="bottom" title="{% trans "Up Vote" %}">
+          <i class="fs-6 mdi mdi-arrow-up"></i>
+          <span x-text="vote_count"></span>
+        </button>
+        <button @click="reaction('downvote', '{{ object.uid }}')" data-bs-toggle="tooltip" data-bs-placement="bottom" title="{% trans "Down Vote" %}" class="btn btn-sm btn-light">
+          <i class="fs-6 mdi mdi-arrow-down"></i>
+        </button>
+      </div>
+      <button @click="reaction('bookmark', '{{ object.uid }}')" data-bs-toggle="tooltip" data-bs-placement="bottom" title="{% trans "Bookmark" %}" class="btn btn-sm btn-light">
+        <i class="fs-6 mdi mdi-bookmark-outline"></i>
+      </button>
+      <button @click="console.log('sharing modal')" data-bs-toggle="tooltip" data-bs-placement="bottom" title="{% trans "Share Options" %}" class="btn btn-sm btn-light">
+        <i class="fs-6 mdi mdi-share-variant-outline"></i>
+      </button>
+    </div>
+    <div>
+      <a href="#comment-wrapper" data-bs-toggle="tooltip" data-bs-placement="bottom" title="{% trans "Response" %}" class="btn btn-sm btn-light">
+        <i class="fs-6 mdi mdi-chat-outline"></i> <span class="d-none d-md-inline-block">{% trans "Leave a Comment" %}</span>
+      </a>
+      <button data-bs-toggle="tooltip" data-bs-placement="bottom" title="{% trans "More" %}" class="btn btn-sm btn-light">
+        <i class="fs-6 mdi mdi-dots-horizontal"></i>
+      </button>
+      <ul class="dropdown-menu dropdown-menu dropdown-menu-end py-0 mt-2">
+        <li><a class="dropdown-item" href="#">{% trans "Share" %}</a></li>
+        <li><a class="dropdown-item" href="#">{% trans "Log" %}</a></li>
+        <li><a class="dropdown-item" href="#">{% trans "Report" %}</a></li>
+      </ul>
+    </div>
+  </div>
+</div>

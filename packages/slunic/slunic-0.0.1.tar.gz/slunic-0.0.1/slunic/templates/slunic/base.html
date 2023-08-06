@@ -1,0 +1,148 @@
+{% extends 'slunic/layout.html' %}
+{% load i18n static webpack_loader %}
+
+{% block body_classes %}bg-white {{ request.user }}{% endblock body_classes %}
+
+{% block navbar %}
+  {% include 'slunic/includes/navbar.html' %}
+{% endblock navbar %}
+
+{% block main %}
+  <div class="container">
+    <div class="row">
+      {% block sidebar_left %}
+        <div class="{% block sidebar_left_classes %}col-md-2 px-4 px-md-3{% endblock %} mb-4">
+          <div class="position-sticky border-end py-3" style="top: 0rem;">
+            {% block sidebar_left_content %}
+              <ul class="list-group list-group-flush small">
+                <li class="list-group-item border-0 p-0">
+                  <span class="py-2 fw-bold d-block small">{% trans "PUBLIC" %}</span>
+                </li>
+                {% for menu in top_menu_items %}
+                  <li class="list-group-item border-0 p-0">
+                    <a href="{% url 'slunic_page_list' menu.name %}"
+                      class="nav-link py-1 px-3 link-dark {% if view.model_name == menu.name %}text-muted fw-bold bg-light border-3 border-end{% endif %}"
+                      >
+                      {{ menu.label }}
+                    </a>
+                  </li>
+                {% endfor %}
+              </ul>
+            {% endblock %}
+          </div>
+        </div>
+      {% endblock %}
+      <div class="col-md-10">
+        {% block header %}
+          <div class="row py-4 px-4 px-md-2">
+            <div class="{% block breadcrumb_class %}col-md-4{% endblock breadcrumb_class %} order-md-2">
+              <nav aria-label="breadcrumb">
+                <ol class="breadcrumb float-md-end small">
+                  {% block breadcrumb_item %}{% endblock breadcrumb_item %}
+                </ol>
+              </nav>
+            </div>
+            <div class="{% block page_title_class %}col-md-8{% endblock page_title_class %} order-md-1">
+              <h1 class="display-6 fw-bold">{% block page_title %}{{ page_title }}{% endblock page_title %}</h1>
+              <p class="mb-0">
+                {% block page_subtitle %}{{ page_subtitle }}{% endblock page_subtitle %}
+              </p>
+            </div>
+          </div>
+        {% endblock header %}
+        <div class="row">
+          <div class="{% block content_classes %}col-md-8 px-4 px-md-4 py-3{% endblock %} mb-4">
+            {% block content %}{% endblock content %}
+          </div>
+          {% block sidebar_right %}
+            <div class="{% block sidebar_classes %}col-md-4 px-4 px-md-3 py-3{% endblock %} mb-4">
+              <div class="position-sticky" style="top: 2rem;">
+                {% block sidebar_right_content %}{% endblock %}
+              </div>
+            </div>
+          {% endblock %}
+        </div>
+      </div>
+    </div>
+  </div>
+{% endblock %}
+
+{% block footer %}
+  {% include 'slunic/includes/footer.html' %}
+{% endblock footer %}
+
+{% block modal %}
+
+<!-- Modal -->
+<div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="staticBackdropLabel">Modal title</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        ...
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-primary">Understood</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+{% endblock modal %}
+
+{% block messages %}
+  <div class="toast-container position-fixed p-3 bottom-0 end-0">
+    <div id="reactionToast" class="toast align-items-center text-white border-0" role="alert" aria-live="assertive" aria-atomic="true">
+      <div class="d-flex">
+        <div id="reactionToastBody" class="toast-body small"></div>
+        <button type="button" class="btn-close btn-close-white me-2 m-auto" data-bs-dismiss="toast" aria-label="Close"></button>
+      </div>
+    </div>
+  </div>
+  {% if messages %}
+    <div class="toast-container position-fixed p-3 bottom-0 end-0">
+    {% for message in messages %}
+      <div class="toast align-items-center text-white bg-{{ message.tags }} border-0" role="alert" aria-live="assertive" aria-atomic="true">
+        <div class="d-flex">
+          <div class="toast-body small">
+            {{ message|capfirst }}
+          </div>
+          <button type="button" class="btn-close btn-close-white me-2 m-auto" data-bs-dismiss="toast" aria-label="Close"></button>
+        </div>
+      </div>
+    {% endfor %}
+    </div>
+  {% endif %}
+{% endblock messages %}
+
+{% block main_css %}
+    {% render_bundle 'main' 'css' %}
+{% endblock main_css %}
+
+{% block main_js %}
+    {% render_bundle 'shared' 'js' %}
+    <script>
+      var slunic_api = '/api/v1/';
+    </script>
+    {% render_bundle 'main' 'js' %}
+{% endblock main_js %}
+
+{% block extra_js %}
+  {% if messages %}
+    <script>
+      var toastElList = [].slice.call(document.querySelectorAll('.toast'))
+      var toastList = toastElList.map(function (toastEl) {
+        toast = new bootstrap.Toast(toastEl, {
+          animation: true,
+          autohide: true,
+          delay: 10000,
+        });
+        toast.show();
+      })
+    </script>
+  {% endif %}
+{% endblock extra_js %}

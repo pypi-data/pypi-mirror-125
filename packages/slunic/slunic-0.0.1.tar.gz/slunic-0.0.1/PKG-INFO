@@ -1,0 +1,44 @@
+Metadata-Version: 2.1
+Name: slunic
+Version: 0.0.1
+Summary: Simple QA
+Home-page: https://github.com/realnoobs/slunic
+Author: Rizki Sasri Dwitama
+Author-email: sasri.project@gmail.com
+License: MIT
+Project-URL: Documentation, https://github.com/realnoobs/slunic
+Project-URL: Source, https://github.com/realnoobs/slunic
+Project-URL: Tracker, https://github.com/realnoobs/slunic/projects
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Environment :: Web Environment
+Classifier: Framework :: Django
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Topic :: Internet :: WWW/HTTP
+Classifier: Topic :: Internet :: WWW/HTTP :: Dynamic Content
+Classifier: Topic :: Internet :: WWW/HTTP :: WSGI
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Classifier: Topic :: Software Development :: Libraries :: Application Frameworks
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+<p align="center">
+  <h2>Slunic</h2>
+  <p align="center">Simple Blog Engine</p>
+</p>
+
+<p align="center">
+  <a href="https://heroku.com/deploy?template=https://github.com/justsasri/slunic/tree/main" alt="Deploy to Heroku">
+     <img alt="Deploy" src="https://www.herokucdn.com/deploy/button.svg"/>
+  </a>
+</p>
+
+

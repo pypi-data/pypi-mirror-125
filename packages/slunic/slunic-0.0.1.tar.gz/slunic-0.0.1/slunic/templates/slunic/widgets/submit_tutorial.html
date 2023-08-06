@@ -1,0 +1,12 @@
+{% load i18n static %}
+
+{% if request.user.is_authenticated %}
+<div class="sidebar-widget bg-light bg-opacity-25 p-4 mb-3 border rounded" data-js="tutorial" data-analytics="">
+  <div class="text-center mb-2">
+    <img src="{% static 'slunic/img/write_blog.svg' %}" width="100px" alt="write blog">
+  </div>
+  <span class="d-block fw-bold text-center mb-2 fs-6">{% trans "Supporting each other to make an impact." %}</span>
+  <span class="d-block text-center mb-2 fs-6">{% trans "Start to share your knowledge." %}</span>
+  <a class="btn btn-primary w-100" href="{% url 'slunic_page_create' model_name="tutorial" %}">{% trans "Write new Tutorial" %}</a>
+</div>
+{% endif %}

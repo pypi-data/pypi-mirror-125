@@ -1,0 +1,27 @@
+{% load i18n slunic_tags %}
+<div class="sidebar-widget bg-light bg-opacity-25 p-4 mb-3 border rounded" data-js="tutorial" data-analytics="">
+  <h3 class="mb-3 h6 fw-bold">{% trans "Popular Topics" %}</h3>
+  <div x-data="popularTagsWidget(10)">
+    <div x-show="!loading">
+      <template x-if="results.length > 0 ">
+        <template x-for="tag in results" :key="tag.id">
+          <a href="#" class="badge fw-normal border mb-2 me-2 bg-light text-body">
+            <span class="me-2" x-text="tag.name"></span>
+            <span x-text="tag.tagged_count"></span>
+          </a>
+        </template>
+      </template>
+      <template x-if="results.length <= 0 ">
+        <div class="mb-2">
+          <span class="fs-6">{% trans "Sorry, there is no tag." %}</span>
+        </div>
+      </template>
+    </div>
+    <div x-show="loading" class="placeholder-glow">
+      <div class="placeholder bg-secondary col-4 mb-1 me-1 placeholder-sm"></div>
+      <div class="placeholder bg-secondary col-5 mb-1 me-1 placeholder-sm"></div>
+      <div class="placeholder bg-secondary col-6 mb-1 me-1 placeholder-sm"></div>
+      <div class="placeholder bg-secondary col-3 mb-1 me-1 placeholder-sm"></div>
+    </div>
+  </div>
+</div>
