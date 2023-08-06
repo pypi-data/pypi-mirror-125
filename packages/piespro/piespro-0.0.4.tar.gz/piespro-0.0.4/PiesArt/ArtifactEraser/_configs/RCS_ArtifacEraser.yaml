@@ -1,0 +1,33 @@
+NAME: 'Eraser_100k'
+
+MODEL:
+   ARCHITECTURE:
+      N_FILTERS: 128
+
+TRAIN:
+   DATASET: PiesArt.ArtifactEraser.dataset.StimArtifactDataset
+   EEG_GENERATORS_DCGAN: ['MultiCenteriEEG_physiology', 'MultiCenteriEEG_pathology'] # models from PiesGen.DCGAN
+   STIM_ARTIFACT: ['RCS']
+   CPU_COUNT_LOADERS: 8
+
+   PATH_REPORT: /mnt/Helium/filip/Projects/2021_PiesArt/training
+
+   SIGNAL_LENGTH: 1 # secondsEEG_GENERATORS_DC
+   BATCH: 128
+   N_ITERATIONS: 100000
+   DECAY_ITERATIONS: [50000]
+   DECAY_FACTOR: 0.1
+
+   WEIGHT_SIGNAL_RECONSTRUCTION: 10
+   WEIGHT_STFT_RECONSTRUCTION: 1
+   WEIGHT_DETECTION: 1
+
+   BASE_LR: 0.0002
+   BETA_1: 0.5
+
+   GPU: [7]
+
+   SAVE_MODEL_ITERATION: 500
+   SAVE_REPORT_ITERATION: 500
+
+
