@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.py
+etherscan/__init__.py
+etherscan/errors.py
+etherscan/etherscan.py
+etherscan2.egg-info/PKG-INFO
+etherscan2.egg-info/SOURCES.txt
+etherscan2.egg-info/dependency_links.txt
+etherscan2.egg-info/requires.txt
+etherscan2.egg-info/top_level.txt
