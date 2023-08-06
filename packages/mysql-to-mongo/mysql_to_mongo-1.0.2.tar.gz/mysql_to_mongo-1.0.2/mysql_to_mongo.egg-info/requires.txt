@@ -1,0 +1,3 @@
+dnspython
+mysql.connector.python
+pymongo
