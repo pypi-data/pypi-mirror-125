@@ -1,0 +1,11 @@
+canuvit/__init__.py,sha256=w_YAswOZcJBA8ZP74pUM5jrwUT71V7KSLrZdXngqmHE,96
+canuvit/__main__.py,sha256=vK0ZoefqHp3OWBN4ihXtxUoR8AKT32qEjw8e5jSRkRA,66
+canuvit/_canuvit_version.py,sha256=gpeIoCpYBLZDm6tSSv9DzqEUkRzYTxqgS07_7BRrCxQ,80
+canuvit/canuvit.py,sha256=7xjsaEL3vucWumDHGA9PbR272cmV6H7FOC4qZ8yLr2s,45846
+canuvit/cli.py,sha256=WKh0BmzsapOShRtEF9kJrygG5LBktNWOFNZCYoRudeY,4225
+canuvit-0.3.0.dist-info/LICENSE,sha256=z8d0m5b2O9McPEK1xHG_dWgUBT6EfBDz6wA0F7xSPTA,11358
+canuvit-0.3.0.dist-info/METADATA,sha256=PWq-aJMw9Jn7llx7P-GfNt0pifA_WatpFJSwXyzBzjU,3953
+canuvit-0.3.0.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+canuvit-0.3.0.dist-info/entry_points.txt,sha256=WQfr-L8w4OWRFf_0w2wtTCtyduWqUHe29MllkRmgazQ,45
+canuvit-0.3.0.dist-info/top_level.txt,sha256=s_jLmQ95nU8o3tZJEd5W_ryZUyiPKHuJSQKDRfR3Wsg,8
+canuvit-0.3.0.dist-info/RECORD,,
