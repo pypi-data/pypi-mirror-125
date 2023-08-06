@@ -1,0 +1,17 @@
+LICENSE
+MANIFEST.in
+README.md
+requirements.txt
+setup.py
+examples/advanced_example.py
+examples/basic_example.py
+examples/copyright_detection.py
+src/twitch_highlights/__init__.py
+src/twitch_highlights/acr_cloud.py
+src/twitch_highlights/clip_edit.py
+src/twitch_highlights/twitch_api.py
+src/twitch_highlights.egg-info/PKG-INFO
+src/twitch_highlights.egg-info/SOURCES.txt
+src/twitch_highlights.egg-info/dependency_links.txt
+src/twitch_highlights.egg-info/requires.txt
+src/twitch_highlights.egg-info/top_level.txt
