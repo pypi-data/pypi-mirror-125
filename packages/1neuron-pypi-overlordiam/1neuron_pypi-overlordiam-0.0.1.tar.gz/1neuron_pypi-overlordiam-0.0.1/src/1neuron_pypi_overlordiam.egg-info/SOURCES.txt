@@ -1,0 +1,11 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+src/1neuron/__init__.py
+src/1neuron/perceptron.py
+src/1neuron_pypi_overlordiam.egg-info/PKG-INFO
+src/1neuron_pypi_overlordiam.egg-info/SOURCES.txt
+src/1neuron_pypi_overlordiam.egg-info/dependency_links.txt
+src/1neuron_pypi_overlordiam.egg-info/requires.txt
+src/1neuron_pypi_overlordiam.egg-info/top_level.txt
