@@ -1,0 +1,9 @@
+sphinx_notebook/__init__.py,sha256=crvKNUL3_Qr5dksOZU7AVbatQWht0cuOgALfJTrbPjQ,250
+sphinx_notebook/cli.py,sha256=Ovpwc39Zi0MKqORhjW8RpPvHf4830d_O_AoDDfG_4Ls,910
+sphinx_notebook/notebook.py,sha256=ztGp65SBuhEXRlFDWkWhagqMbRCwQrCRAWRA2LS2n7M,2429
+sphinx_notebook/templates/index.rst,sha256=pPc77ETZZjqd-HAwFmm4qcktaLOPPeXXp8eytff4gXk,828
+sphinx_notebook-0.2.3.dist-info/entry_points.txt,sha256=c1qz3B1bC2haEzBgq8tK9HYM7jjrM0msWcuI2R5Ugcs,60
+sphinx_notebook-0.2.3.dist-info/LICENSE,sha256=6iwQ-KZcYMPGohlEukgbnb94U4BUyqH9OZkFFdIf1X4,1070
+sphinx_notebook-0.2.3.dist-info/WHEEL,sha256=y3eDiaFVSNTPbgzfNn0nYn5tEn1cX6WrdetDlQM4xWw,83
+sphinx_notebook-0.2.3.dist-info/METADATA,sha256=XQ0uhxROZghEm1S56G_Cl4_bOCVDg_gek48BuW5iNdU,1178
+sphinx_notebook-0.2.3.dist-info/RECORD,,
