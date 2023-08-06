@@ -1,0 +1,14 @@
+LICENCE,sha256=OXLcl0T2SZ8Pmy2_dmlvKuetivmyPd5m1q-Gyd-zaYY,35149
+yubival/__init__.py,sha256=IMjkMO3twhQzluVTo8Z6rE7Eg-9U79_LGKMcsWLKBkY,22
+yubival/admin.py,sha256=EwsdYDL79ndHXYLKBnnEuAPrJKJjoQYJUJADhEHOGUQ,256
+yubival/apps.py,sha256=sJLXRDDBe5-Q4RqdspwlJGzLQm-hRjgO7WliMMoGJzE,146
+yubival/migrations/0001_initial.py,sha256=o2Y0LXvd2HCzxX_ps0F7Z2xc-1THO90tlDRerg-7r-A,1784
+yubival/migrations/0002_add_label_and_date_created_fields.py,sha256=bp1-EG54Yw41V_CKVmBQdvy55vGb33neBhnE0Vn2a6c,2183
+yubival/migrations/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+yubival/models.py,sha256=6OcMahhzmi0_n1l7hp94wXaesgPNq846_Wtsm1WZEi8,2409
+yubival/urls.py,sha256=QtkXwkLN42b-0o1jcD3WO_-3Ce7WQHU_m4deJbQw7r4,148
+yubival/validators.py,sha256=smoH4hLsQv71j6GUrt2tsxq_1vfBDuRTMlhUENt17sk,681
+yubival/views.py,sha256=NEh167MvwUJsHs2aG9Xh0nHLKpn7R0W12egIq_0ze9c,6385
+yubival-0.1.0.dist-info/WHEEL,sha256=y3eDiaFVSNTPbgzfNn0nYn5tEn1cX6WrdetDlQM4xWw,83
+yubival-0.1.0.dist-info/METADATA,sha256=5zTBn0aVcKD9C4ztmkWYcS-Xex1UNv4Z7-Vcaw-1EKI,5091
+yubival-0.1.0.dist-info/RECORD,,
