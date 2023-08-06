@@ -1,0 +1,33 @@
+<!--
+ * @Author: BDFD
+ * @Date: 2021-10-27 18:39:19
+ * @LastEditTime: 2021-10-27 22:38:49
+ * @LastEditors: Please set LastEditors
+ * @Description: In User Settings Edit
+ * @FilePath: \6.0-PyPI_Table_Nan_Val\README.md
+-->
+
+# Table_Nan_Val
+
+Check the missing value in Data Frame
+
+## Installation
+
+`pip install table-nan-val`
+
+## How to use it?
+
+`from table_nan_val import table_nan_val as tnv`
+
+`tnv.table_nan_val(df)`
+then you will get analysis table and graph
+
+## License
+
+copyright @ 2021 BDFD
+
+This repository is licensed under the MIT license. See LICENSE for details.
+
+### References
+
+https://github.com/bdfd/6.1-PyPI_Table_Nan_Val
