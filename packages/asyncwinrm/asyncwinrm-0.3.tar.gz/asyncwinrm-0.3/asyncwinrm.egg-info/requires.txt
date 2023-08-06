@@ -1,0 +1,9 @@
+httpx
+cryptography
+urllib3
+mock
+xmltodict
+requests_ntlm
+six
+requests
+winrm
