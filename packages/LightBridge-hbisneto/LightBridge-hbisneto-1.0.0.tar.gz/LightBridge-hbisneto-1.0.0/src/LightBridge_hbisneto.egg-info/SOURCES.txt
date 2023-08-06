@@ -1,0 +1,13 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+src/LightBridge/Android.py
+src/LightBridge/Linux.py
+src/LightBridge/Mac.py
+src/LightBridge/Windows.py
+src/LightBridge/__init__.py
+src/LightBridge_hbisneto.egg-info/PKG-INFO
+src/LightBridge_hbisneto.egg-info/SOURCES.txt
+src/LightBridge_hbisneto.egg-info/dependency_links.txt
+src/LightBridge_hbisneto.egg-info/top_level.txt

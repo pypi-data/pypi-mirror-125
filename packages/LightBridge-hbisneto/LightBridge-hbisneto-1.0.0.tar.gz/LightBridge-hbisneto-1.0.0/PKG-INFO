@@ -1,0 +1,182 @@
+Metadata-Version: 2.1
+Name: LightBridge-hbisneto
+Version: 1.0.0
+Summary: A PyBridge extension to manipulate FileSystem locations on any platform
+Home-page: https://github.com/hbisneto/LightBridge/
+Author: Heitor Bisneto
+Author-email: heitor.bardemaker@live.com
+Maintainer: Heitor Bisneto
+Maintainer-email: heitor.bardemaker@live.com
+License: MIT
+Project-URL: Source, https://github.com/hbisneto/LightBridge/
+Project-URL: Tracker, https://github.com/hbisneto/LightBridge/issues
+Keywords: bridge,ponte,virtual
+Platform: any
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: MacOS :: MacOS X
+Classifier: Operating System :: Microsoft :: Windows
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: Implementation :: PyPy
+Classifier: Topic :: Software Development :: Libraries
+Classifier: Topic :: Software Development :: Testing
+Classifier: Topic :: Utilities
+Requires-Python: >=3.9
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# LightBridge
+
+A PyBridge extension to manipulate FileSystem locations on any platform
+
+#
+
+## Linux
+
+Use LightBridge to path directories on Linux
+
+### Linux Directories
+
+- Desktop
+- Documents
+- Downloads
+- Music
+
+### Example
+
+The code below shows how to use LightBridge on Linux environments
+
+```
+import LightBridge
+from LightBridge import Linux
+
+print(Linux.Desktop)
+print(Linux.Documents)
+```
+
+```
+### Output
+
+/home/YOUR_USER/Desktop/
+/home/YOUR_USER/Documents/
+```
+
+#
+
+## Mac
+
+Use LightBridge to path directories on Mac
+
+### Mac Directories
+
+- Applications
+- Desktop
+- Documents
+- Downloads
+- Movies
+- Music
+- Pictures
+- Public
+
+### Example
+
+The code below shows how to use LightBridge on Mac environments
+
+```
+import LightBridge
+from LightBridge import Mac
+
+print(Mac.Desktop)
+print(Mac.Documents)
+```
+
+```
+### Output
+
+/Users/YOUR_USER/Desktop/
+/Users/YOUR_USER/Documents/
+```
+
+#
+
+## Windows
+
+Use LightBridge to path directories on Windows
+
+### Windows Directories
+
+- ApplicationData
+- Desktop
+- Documents
+- Downloads
+- LocalAppData
+- Temp
+- Pictures
+- Favorites
+
+### Example
+
+The code below shows how to use LightBridge on Windows environments
+
+```
+import LightBridge
+from LightBridge import Windows
+
+print(Windows.Desktop)
+print(Windows.Documents)
+```
+
+```
+### Output
+
+C:\Users\YOUR_USER/Desktop/
+C:\Users\YOUR_USER/Documents/
+```
+
+#
+
+## Android
+
+Use LightBridge to path directories on Android
+
+### Android Directories
+
+#### Internal Storage Access
+
+- Home
+- Documents
+- Downloads
+- Movies
+- Pictures
+
+### Example
+
+The code below shows how to use LightBridge on Android environments
+
+```
+import LightBridge
+from LightBridge import Android
+
+print(Android.CurrentPath)
+print(Android.InternalStorage.Home)
+print(Android.InternalStorage.Documents)
+print(Android.InternalStorage.Downloads)
+print(Android.InternalStorage.Movies)
+print(Android.InternalStorage.Pictures)
+```
+
+```
+### Output
+
+/storage/emulated/0/PYTHON_APP_FOR_ANDROID
+/storage/emulated/0/
+/storage/emulated/0/Documents/
+/storage/emulated/0/Download/
+/storage/emulated/0/Movies/
+/storage/emulated/0/Pictures/
+```
+
+#
+
