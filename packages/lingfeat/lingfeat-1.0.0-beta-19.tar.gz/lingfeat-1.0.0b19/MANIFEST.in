@@ -1,0 +1,2 @@
+include lingfeat/_AdvancedSemantic/model/*
+include lingfeat/_LexicoSemantic/resources/*
