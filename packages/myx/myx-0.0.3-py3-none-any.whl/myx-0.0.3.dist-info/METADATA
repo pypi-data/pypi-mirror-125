@@ -1,0 +1,29 @@
+Metadata-Version: 2.1
+Name: myx
+Version: 0.0.3
+Summary: Wrapper around MYX's One3D platform API
+Home-page: https://gitlab.myxrobotics.com/stanislav.nikolov/myx-api-wrapper-python
+Author: Stanislav Ch. Nikolov
+Author-email: stanislav.nikolov@myxrobotics.com
+License: UNKNOWN
+Project-URL: Documentation, https://docs.myxrobotics.com
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: requests
+
+# Documentation
+Visit [docs.myxrobotics.com](https://docs.myxrobotics.com) to see the documentation in your browser.
+
+Generated with:
+```sh
+$ python3 -m pip install pdoc3
+$ python3 -m pdoc --html myx
+$ open html/myx/index.html
+```
+
+
