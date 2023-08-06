@@ -1,0 +1,4 @@
+include *.txt
+include *.rst
+graft src/iroin_pycountry
+global-exclude *.py[co]
