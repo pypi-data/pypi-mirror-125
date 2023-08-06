@@ -1,0 +1,6 @@
+autograd
+emcee
+matplotlib
+numba
+numpy<1.20,>=1.15
+scipy
