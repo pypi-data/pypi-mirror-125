@@ -1,0 +1,7 @@
+python-sql>=1.1.0
+trytond_currency<6.3,>=6.2
+trytond_account<6.3,>=6.2
+trytond_account_eu<6.3,>=6.2
+trytond_account_invoice<6.3,>=6.2
+trytond_party<6.3,>=6.2
+trytond<6.3,>=6.2
