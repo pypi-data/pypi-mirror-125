@@ -1,0 +1,8 @@
+README.md
+setup.py
+src/python_upgrade/README.md
+src/python_upgrade/__init__.py
+src/python_upgrade.egg-info/PKG-INFO
+src/python_upgrade.egg-info/SOURCES.txt
+src/python_upgrade.egg-info/dependency_links.txt
+src/python_upgrade.egg-info/top_level.txt
