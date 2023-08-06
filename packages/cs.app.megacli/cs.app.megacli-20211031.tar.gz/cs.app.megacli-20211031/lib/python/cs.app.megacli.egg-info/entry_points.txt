@@ -1,0 +1,3 @@
+[console_scripts]
+mcli = cs.app.megacli:main
+
