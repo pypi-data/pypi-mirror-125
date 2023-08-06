@@ -1,0 +1,15 @@
+FuncNotify/EmailMethod.py,sha256=Kak-WaAwGLDG6JJ3SJ7YSDBBg4wjk_hd4JOaaUWTtzs,4473
+FuncNotify/NotifyDecorators.py,sha256=B9g3dYUd7vDPYjxCDn9RbidPRdtZauUZhMdrICtp9nY,7258
+FuncNotify/NotifyMethods.py,sha256=3irzZbn3A_4mvSpi4Sc1c_YYwuQd6hKw5sdy1E6nVm8,12879
+FuncNotify/PrintMethod.py,sha256=88SQW12bi5Z2qyKJpm2Z6f-JbkS42L41sE3MjyvLJT0,599
+FuncNotify/SlackMethod.py,sha256=5hXwkeY2h9pV0hsRgFu1M5s0sBw1AlbOaCIaSZInIXI,2985
+FuncNotify/TeamsMethod.py,sha256=GzP5fs2Yb91zK-LzywfHoGNvI9XYAsg7-JIOyVPhBmc,3492
+FuncNotify/TemplateMethod_.py,sha256=PQ6y9l8cjo19832sFxzlQAtWxWmI8tqq6YmseEvl8Zw,4939
+FuncNotify/TextMethod.py,sha256=XiWT6uCKxoy5lZj24Qu4IEjnL0_RYl2ozUHCiVJRj1M,3180
+FuncNotify/__init__.py,sha256=kcQRZnnVR0SbW7VxS-SsfX9z_-MyDivyupgz5wBwEX8,957
+FuncNotify-1.2.0.dist-info/LICENSE,sha256=YzXjD2XrpequgFrVUWSR1YW0ujEmT7QTk4ztagcOG_Q,1068
+FuncNotify-1.2.0.dist-info/METADATA,sha256=GRykMuivHaK1JHfSApLui1Oktv5mvTC-RqsJ_UYZV4w,3760
+FuncNotify-1.2.0.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+FuncNotify-1.2.0.dist-info/entry_points.txt,sha256=mDtq5fbYTdTDXA-CdbL8J4uUGDm5_js9Ys2qp_8k3q4,53
+FuncNotify-1.2.0.dist-info/top_level.txt,sha256=O6uuKke_rwsdwiG0vsAY5AJq4vSfogvVuk7nk-ifAQ4,11
+FuncNotify-1.2.0.dist-info/RECORD,,
