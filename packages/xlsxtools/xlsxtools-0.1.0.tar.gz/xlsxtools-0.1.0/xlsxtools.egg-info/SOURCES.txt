@@ -1,0 +1,10 @@
+LICENSE
+MANIFEST.in
+README.md
+setup.py
+xlsxtools.py
+xlsxtools.egg-info/PKG-INFO
+xlsxtools.egg-info/SOURCES.txt
+xlsxtools.egg-info/dependency_links.txt
+xlsxtools.egg-info/requires.txt
+xlsxtools.egg-info/top_level.txt
