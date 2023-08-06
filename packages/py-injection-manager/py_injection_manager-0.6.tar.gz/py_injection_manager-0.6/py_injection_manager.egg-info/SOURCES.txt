@@ -1,0 +1,8 @@
+setup.py
+PyInjectionManager/__init__.py
+PyInjectionManager/main.py
+PyInjectionManager/manager.py
+py_injection_manager.egg-info/PKG-INFO
+py_injection_manager.egg-info/SOURCES.txt
+py_injection_manager.egg-info/dependency_links.txt
+py_injection_manager.egg-info/top_level.txt
