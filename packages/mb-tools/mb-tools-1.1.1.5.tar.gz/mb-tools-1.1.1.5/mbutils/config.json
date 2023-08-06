@@ -1,0 +1,242 @@
+{
+  "name":"server config",
+  "description":"server config",
+  "redis_cli":
+  {
+    "host":"pre.xiaoantech.com",
+    "port": 6379,
+    "pwd" :"",
+    "db" : 1
+  },
+  "yuntu":{
+      "uriBase": "http://yuntuapi.amap.com",
+      "key": "d8247b35f3f0a4d8bc982af1c2288326",
+      "deviceTableid": "5ca30868afdf520d316c038a",
+      "gFenceServiceTableid": "5ca30a46afdf520d316c873f",
+      "gFenceUsableTableid": "5ca30a7d2376c10e3db2feb1",
+      "noParkingTableid": "5cc011ca2376c10e3d3f2de6",
+      "comment": "云图配置"
+  },
+  "mysql":
+  {
+    "host": "pre.xiaoantech.com",
+    "user": "xiaoan",
+    "password": "Xiaoan2020",
+    "database": "scm",
+    "multipleStatements" : true,
+    "max": 30,
+    "min": 0,
+    "idle": 5000
+  },
+  "sub_mysql":
+  {
+    "host": "pre.xiaoantech.com",
+    "user": "xiaoan",
+    "port":3306,
+    "password": "Xiaoan2020",
+    "database": "scm",
+    "multipleStatements" : true,
+    "max": 30,
+    "min": 0,
+    "idle": 5000
+  },
+  "tsdb": {
+    "host": "ts-wz9k945izy5k451l8.hitsdb.tsdb.aliyuncs.com",
+    "port": 8242,
+    "prefix": {
+      "device": "xc.device"
+    }
+  },
+  "pingpp": {
+    "apiKey": "sk_test_zLKuDSTGKiD0yHa104a9GSe1",
+    "appId": "app_KejrTGHqXjX5aD8K"
+  },
+  "wxLite":{
+    "uri":"https://api.weixin.qq.com/sns/jscode2session?appid=wx674be208a52ff08e&secret=f23486a3912c2e3a8a76adc39d407403&grant_type=authorization_code&js_code="
+  },
+  "wepay":{
+    "appID": "wx97252b404e983ec9",
+    "appsecret": "fef1b15c4161da30013017588bf396ee",
+    "mch_id": "1550638911",
+    "mchName": "电驴出行",
+    "key": "0BZN7NhbVvE3GDch4sGVRPkXIcEbVaie",
+    "notify_url_head": "https://api.xiaoantech.com/share/ebike/pay"
+  },
+  "wx_lite": {
+    "appid": "wx1ca64e50dde50c18",
+    "mch_id": "1550638911",
+    "appSecret": "a495089225078630ddada2afee60f80b",
+    "key": "0BZN7NhbVvE3GDch4sGVRPkXIcEbVaie",
+    "trade_type": "JSAPI",
+    "timeout": 3,
+    "mchName": "电驴出行",
+    "timeout_unit": "m",
+    "notify_url_head": "https://api.xiaoantech.com/share/ebike/pay",
+    "pfxPath": "./cert/apiclient_cert.pem"
+  },
+  "alipay": {
+    "app_id": "2018022602277890",
+    "charset": "utf-8",
+    "sign_type": "RSA2",
+    "version": "1.0",
+    "gateway": "https://openapi.alipay.com/gateway.do",
+    "privateKey": "-----BEGIN RSA PRIVATE KEY-----\nMIIEogIBAAKCAQEAz7zXBleySzMygih2eAvxuUYjGmVgTanpBsjZR1i1NnIj/06bqMTLKNWXm3jNrXpUw9su1fNuIAW0PSOcSWGQhFwK9Re5FpnU6M6PLyICoNA34kpiIwxeqBGz855ThToqIYWdGRQWWh1Tc8HutBpcY/3BZM4uyCuwMOvPpZuKSBKNnBt9zCl3zfnigv/vohzXyHJjzPUMWllpdwd0HUjIxBfIWHgfLYoVmVF3oEUpLZwZ8y/q52s/2yBM/8VgnMN6s4QtobI+3K5mxFGowvT+VsNJ5Y8TrVc+8prO04M20oDAvz3L8uFjwF/YbezwO6Cua26dY0d7lb18iW/Nx2pQLQIDAQABAoIBAHNYUjhGV0wj+EaG+wi68RPDmtgcM/XLgwTuXp6b5bp+c/hdiFaUNo3M0ypTUDijtQ8u03meeaY0JJjR/gRMtPaZOMhPzMh8z9gYYS51fuoV0wHF9Wmqg6Bke/uoDI3r9tq4GruDCMougFjE9Kpx/JzUmB5F0Xn5sBHpzVkR3R0YmAqkwrls1UIXqT8Yu3DSskPc+mcNrDIhMag89/bV/CxrCk8hZE1kXBlTtCAZDarpUKV68LNWPr+zE14RmrSnYttLCXlFwaLvPN/v/U+p28EVWXOJ/nXh2CaZJEmUkKzsqK6NAWZgRsauGBZEKMbGf10VhxNgVgcyG7AYBUJmDIECgYEA5qbvpfcbqeIyCsJ1EGCkR7RkFseoL1Sv/BRu/xOQW/5piqFMwJPmuEIXDg3uwHRElUrLcjq7+5MECSF6UDVF0szCAHSPXqAt4jh41cO/qOE/Tz1SjhZF+9JFaQEfM4AzMfpq1uCCKjO4R1o6RCW0pAngJTAII1Q5b8i0h/SNzM0CgYEA5pE9OWaQWYwKZj/n6+aj0F49PLTDELQLgxXaMt4EzglbUgKzRTng+0YT+C5wHfDyhofSqSiQ43qsQHvCiR4bbaVjoF+wVMgoEuvXfinE+v7E/JXoKDFt5mv5DINm1Q4m00LTI/xyJB7vqC161ZmlKwUS7qL7oQ7wiCIFmmHukOECgYAdGwe2u74D7AVAklVPYcKZQcw3i65PerJSbwmqqn9W/H24/q2+x2sf6UcbgOqV4pYc+Lk/iuXZ0y15MX5LzM0o0qnQgOTunevsVg/5eaAf4XyptSVLxMfEBT65B2k2iIDtV5pPzzjdtnUUm/AqVU+8O3rLdoowWxp8XqlZVqTmKQKBgBs5JttyKrUH/epYvU9zKgBeQCi8xxNfzsQpflvnLvYM0MV8ICKaVOAWRCFXilFes6QCwXLLoV/aiiAK/MsnzOFDV+IFqlI4V9L0GbuBvwpLroKMSJ8GRw2fzgYWNbwOMbNb/oYPNoLhTDa1N/2kaIYN0VBv2foIQ4ovSi4SRhLBAoGAXDqd3JYLOBQ5CgZAB0vleEn0dHcsD14rfEN2D0uWPu49uhhq8Eue4Z/+3mwxuHZ3lQcDpyWw5YNddLIx6gKto/qPm3OjQY05urln13WvN49dG/h+sxkA7wQ6IMYIr7qADl1OBBOzR7EcDI3OcuKdwT37BsT+H42Ujzicq3htTpE=\n-----END RSA PRIVATE KEY-----",
+    "publicKey": "-----BEGIN PUBLIC KEY-----\nMIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAij+SyFWvtZwVBoHkFzQB1/M/NioJIJJlZ/z4xPdOkXRUKQ9tt1VetvokpvHeq546CDUIpHyx2M7huhdWDrOp+u2Py1RTx+JzcKsQjrY98wG3b6JqJdERQ1oK6jqp0YImmCJqmzNJpzT4MMslBZDlyB8C7y53fSHFThlBX/jI03ppT2CPj3mN11ZSX1Vj/JopIsdlxWc752ruP4VRsPebSI2ScNttuaoS++El8wHuESUD4csWBOcH/7+1tBjFxBv9YmuTF82zrUlp4NE1Fazv28G0h36ttL5e8sZMckviy7H2zWO9XQOVEVO3Yj/ClCeUDbtW39VMLX5nrDrvrPMFGwIDAQAB\n-----END PUBLIC KEY-----",
+    "notify_url_head": "https://api.xiaoantech.com/share/ebike/pay",
+    "notify_url_head_test": "http://47.107.25.167:9000/share/ebike/pay"
+  },
+  "Unionpay_WXlite_Single": {
+    "key": "47f31a589c8dab642403f509672a7c42",
+    "appId": "wx11187df432a7e651",
+    "mch_id": "QRA595575121PQB",
+    "version": "2.0",
+    "sign_type": "MD5",
+    "mchName": "粤世纪出行",
+    "url": "https://qra.95516.com/pay/gateway",
+    "notify_url_head": "https://api.yueshiji.top/ebike/pay",
+    "separateProportion": 2,
+    "sub_account": [
+      {
+        "key": "c9b258055bb27bbb2d859ef5e39ef0f3",
+        "appId": "wx11187df432a7e651",
+        "mch_id": "QRA595575123010",
+        "separateProportion": 1
+      }
+    ]
+  },
+  "Unionpay_WXlite": {
+    "key": "90005385579b41ddcb266a87919e94f4",
+    "appId": "wx11187df432a7e651",
+    "mch_id": "QRA595575122KLD",
+    "version": "2.0",
+    "sign_type": "MD5",
+    "mchName": "粤世纪出行",
+    "separateProportion": 10,
+    "url": "https://qra.95516.com/pay/gateway",
+    "notify_url_head": "https://api.yueshiji.top/ebike/pay",
+    "sub_account": [
+      {
+        "key": "7ff6c01614393a1feab8b0b491eb6ce0",
+        "appId": "wx11187df432a7e651",
+        "mch_id": "QRA595575120FFL",
+        "separateProportion": 1
+      },
+      {
+        "key": "1855cfec1c78f8a47e05e7d1d5ee8512",
+        "appId": "wx11187df432a7e651",
+        "mch_id": "QRA595575120UV7",
+        "separateProportion": 2
+      }
+    ]
+  },
+  "amapConfig": {
+    "url": "http://restapi.amap.com",
+    "key": "c14eb93def053bf0ab1f3669e7371d04"
+  },
+  "ridingCardConfig": {
+    "uri": "https://xc-cfg.oss-cn-shenzhen.aliyuncs.com/qiyuanConfig/ridingCardConfig.json",
+    "comment": "默认配置，不随客户变更"
+  },
+  "jingdongService": {
+    "key": "f7b4ef0c56aed6a2b694754b48949a32",
+    "uri": "https://way.jd.com/youhuoBeijing/test"
+  },
+  "aliyunInfoPush": {
+    "accessKeyId": "LTAIftj4lQAXYgkm",
+    "secretAccessKey": "TQVk4zlRkeKZZsT1y0SLO3GLqjG3xx",
+    "SignName": "骑缘GO",
+    "TemplateCode": "SMS_150743535"
+  },
+  "mqttConfig": {
+    "host": "mqtt.xiaoantech.com",
+    "post": 1883,
+    "topic":{
+      "updateCarInfoResult": "1ca64e50dde50c18"
+    }
+  },
+  "threshold": {
+    "LOW_VOLTAGE_STATIC_THRESHOLD": 15
+  },
+  "agent": {
+    "id": 2
+  },
+  "aliyunSLS": {
+    "accessKeyId": "LTAIAlogb1Gu3MKv",
+    "secretAccessKey": "2jRh0TkqofOZ0gmazl1KitZIDzUgNV",
+    "endpoint": "http://cn-shenzhen.sls.aliyuncs.com",
+    "apiVersion": "2015-06-01",
+    "projectName": "dianlv-all-log",
+    "logStoreName": "biz-log",
+    "arn": "acs:ram::1490302926978974:role/sts",
+    "limitCount": "1"
+  },
+  "aliyun": {
+    "accountId": "1490302926978974",
+    "accessKeyId": "LTAIAlogb1Gu3MKv",
+    "secretAccessKey": "2jRh0TkqofOZ0gmazl1KitZIDzUgNV",
+    "region": "cn-shenzhen"
+  },
+  "ROUTER": "/ebike",
+  "withoutOrderDays": 1,
+  "motionlessTime": 600,
+  "motionless_on": true,
+  "temparkingMotionlessTime": 7200,
+  "apiKey":"yCgCur4oa9LhlaAKpWP9DqfP",
+  "OSSConfig":{
+    "region":"oss-cn-shenzhen",
+    "accessKeyId":"LTAIAlogb1Gu3MKv",
+    "accessKeySecret":"2jRh0TkqofOZ0gmazl1KitZIDzUgNV",
+    "bucket":"xc-res",
+    "resUrl": "https://res.xiaoantech.com"
+  },
+  "aliyunSMS": {
+    "accessKeyId": "LTAIAlogb1Gu3MKv",
+    "accessKeySecret": "2jRh0TkqofOZ0gmazl1KitZIDzUgNV",
+    "endpoint": "https://dysmsapi.aliyuncs.com",
+    "regionId": "cn-hangzhou",
+    "action": "SendSms",
+    "apiVersion": "2017-05-25",
+    "signName": "小安电驴出行",
+    "freezeCode": "SMS_180961983",
+    "blackCode": "SMS_180946975"
+  },
+  "jpushBusinessMsg": {
+    "appkey": "6bde4c3d89b451eb2e621550",
+    "masterSecret": "cc0ce978527ed94759deb108",
+    "platformName": "电驴商家端"
+  },
+  "jpushMsg": {
+    "appkey": "97981b252ffee95b1f907b65",
+    "masterSecret": "9532acaef2761a29885bfbea",
+    "platformName": "电驴出行"
+  },
+  "worker": {
+    "ebikeUrl": "http://innerworker.xiaoantech.com:8092/v1/appMsg"
+  },
+  "xcuserKeys":{
+    "AppId":"5d54ee77e73b9f672b86baba"
+  },
+    "ridingCarDetails": {
+    "DEPOSITCARD_DETAILS": "购买会员卡",
+    "DEPOSITCARD_NEWUSERGIVE": "新用户赠送会员卡",
+    "DEPOSITCARD_ACTIVEGIVE": "活动赠送会员卡"
+  },
+  "OpsConfig": {
+    "CustomerName": "local",
+    "VpcId": "vpc-bp12jwa0lvzoykdmrmgwn",
+    "VswId": "vsw-bp1id9xdr8ichhwkh82n2",
+    "SecurityGroupId": "sg-bp16clkat7xfigipn474",
+    "FCregion": "cn-hangzhou",
+    "EcsEbikeId": "['i-xx']",
+    "EcsWorkerId": "['i-xx']",
+    "EcsDeviceId": "['i-aa']"
+  },
+  "kafkaConfig": {
+    "bootstrap_servers": "120.78.190.39:9093,47.106.185.188:9093,47.106.195.69:9093",
+    "sasl_plain_username": "alikafka_post-cn-tl32a2goi003",
+    "sasl_plain_password": "tVlwcQHiTEQq8HGIK0iyleU74dfROC8w",
+    "certificate": "-----BEGIN CERTIFICATE-----\nMIIDPDCCAqWgAwIBAgIJAMRsb0DLM1fsMA0GCSqGSIb3DQEBBQUAMHIxCzAJBgNV\nBAYTAkNOMQswCQYDVQQIEwJIWjELMAkGA1UEBxMCSFoxCzAJBgNVBAoTAkFCMRAw\nDgYDVQQDEwdLYWZrYUNBMSowKAYJKoZIhvcNAQkBFht6aGVuZG9uZ2xpdS5semRA\nYWxpYmFiYS5jb20wIBcNMTcwMzA5MTI1MDUyWhgPMjEwMTAyMTcxMjUwNTJaMHIx\nCzAJBgNVBAYTAkNOMQswCQYDVQQIEwJIWjELMAkGA1UEBxMCSFoxCzAJBgNVBAoT\nAkFCMRAwDgYDVQQDEwdLYWZrYUNBMSowKAYJKoZIhvcNAQkBFht6aGVuZG9uZ2xp\ndS5semRAYWxpYmFiYS5jb20wgZ8wDQYJKoZIhvcNAQEBBQADgY0AMIGJAoGBALZV\nbbIO1ULQQN853BTBgRfPiRJaAOWf38u8GC0TNp/E9qtI88A+79ywAP17k5WYJ7XS\nwXMOJ3h1qkQT2TYJVetZ6E69CUJq4BsOvNlNRvmnW6eFymh5QZsEz2MTooxJjVjC\nJQPlI2XRDjIrTVYEQWUDxj2JhB8VVPEed+6u4KQVAgMBAAGjgdcwgdQwHQYDVR0O\nBBYEFHFlOoiqQxXanVi2GUoDiKDD33ujMIGkBgNVHSMEgZwwgZmAFHFlOoiqQxXa\nnVi2GUoDiKDD33ujoXakdDByMQswCQYDVQQGEwJDTjELMAkGA1UECBMCSFoxCzAJ\nBgNVBAcTAkhaMQswCQYDVQQKEwJBQjEQMA4GA1UEAxMHS2Fma2FDQTEqMCgGCSqG\nSIb3DQEJARYbemhlbmRvbmdsaXUubHpkQGFsaWJhYmEuY29tggkAxGxvQMszV+ww\nDAYDVR0TBAUwAwEB/zANBgkqhkiG9w0BAQUFAAOBgQBTSz04p0AJXKl30sHw+UM/\n/k1jGFJzI5p0Z6l2JzKQYPP3PfE/biE8/rmiGYEenNqWNy1ZSniEHwa8L/Ux98ci\n4H0ZSpUrMo2+6bfuNW9X35CFPp5vYYJqftilJBKIJX3C3J1ruOuBR28UxE42xx4K\npQ70wChNi914c4B+SxkGUg==\n-----END CERTIFICATE-----"
+  },
+  "isTBeacon": 0,
+  "isHelmet": 0
+}
