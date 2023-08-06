@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.py
+src/cravision/__init__.py
+src/cravision.egg-info/PKG-INFO
+src/cravision.egg-info/SOURCES.txt
+src/cravision.egg-info/dependency_links.txt
+src/cravision.egg-info/top_level.txt
+src/cravision/datasets/__init__.py
+src/cravision/datasets/mnist.py
+src/cravision/datasets/vision.py
