@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: markunder
+Version: 0.0.1
+Summary: Markup language for chatbots.
+Home-page: https://github.com/odryfox/markunder
+Author: Vyacheslav Rusov
+Author-email: odryfox@gmail.com
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+Classifier: Programming Language :: Python :: 3
+
+### Markunder
+
+Markup language for chatbots
+
