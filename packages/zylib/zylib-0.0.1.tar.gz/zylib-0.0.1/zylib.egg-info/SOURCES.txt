@@ -1,0 +1,8 @@
+LICENSE
+README.md
+setup.py
+zylib/__init__.py
+zylib.egg-info/PKG-INFO
+zylib.egg-info/SOURCES.txt
+zylib.egg-info/dependency_links.txt
+zylib.egg-info/top_level.txt
