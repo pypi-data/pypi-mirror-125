@@ -1,0 +1,3 @@
+typing
+numpy<=1.1
+seaborn
