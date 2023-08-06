@@ -1,0 +1,12 @@
+README.md
+setup.cfg
+setup.py
+g_and_b_probability/Binomialdistribution.py
+g_and_b_probability/Gaussiandistribution.py
+g_and_b_probability/Generaldistribution.py
+g_and_b_probability/__init__.py
+g_and_b_probability.egg-info/PKG-INFO
+g_and_b_probability.egg-info/SOURCES.txt
+g_and_b_probability.egg-info/dependency_links.txt
+g_and_b_probability.egg-info/not-zip-safe
+g_and_b_probability.egg-info/top_level.txt
