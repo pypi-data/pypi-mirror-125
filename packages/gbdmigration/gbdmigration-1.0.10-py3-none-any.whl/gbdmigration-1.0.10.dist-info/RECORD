@@ -1,0 +1,15 @@
+gbdmigration/__init__.py,sha256=xwFjf6rYIstJdkVuRQa7TCK1Ur9RNB1r10YgNXU5ddg,899
+gbdmigration/applier.py,sha256=5qIX3iHe5FdGIWzzRk70q2V2GdxPa_1EmcVRt3YrDpc,9511
+gbdmigration/download.py,sha256=1QsQPqYtMZjBmmpppjCUD1-sN6e7D-Pec0FVTfXTaUU,2515
+gbdmigration/execs.py,sha256=sBg8zeIQ9lPSk7xFxT9cTi-CDe53tjxZpNqWVfJaP0E,8583
+gbdmigration/filescanner.py,sha256=_ENt9vofUt_6M49DZE0A2wokgMp3FBeHL5hkbCddWcg,6349
+gbdmigration/organiser.py,sha256=qBT3O9MSWFylKczcX3YW-bLVQmc-muNzPVW7Eu9zWoE,7023
+gbdmigration/upload.py,sha256=irSZT9ALEPiETrtawu85981rHxz1eMyUdFEdOvTqKUE,3340
+gbdmigration/utilities.py,sha256=oRxxviTi1pBym9QOuVBl2hfWOxiLrUTnmDNyE-Yc9UY,4000
+gbdmigration/wrappers.py,sha256=KHumwT_9E4pmfd71-AhKVSBMGpsFuiocnDBcpHTTA-M,3379
+gbdmigration-1.0.10.dist-info/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+gbdmigration-1.0.10.dist-info/METADATA,sha256=0ZrGC61oq0J021mq-NejBk6v81LB3eAAQZIMivDMF-s,546
+gbdmigration-1.0.10.dist-info/WHEEL,sha256=EVRjI69F5qVjm_YgqcTXPnTAv3BfSUr0WVAHuSP3Xoo,92
+gbdmigration-1.0.10.dist-info/entry_points.txt,sha256=eBz9VLEcwyslG0k1o3ktM4hxEKaB_ZWmYPNMYtG33OE,529
+gbdmigration-1.0.10.dist-info/top_level.txt,sha256=H2tBkBIdMcEgGFYqNuMIopdvOHQ9FZK9VcLVv1mxWP4,13
+gbdmigration-1.0.10.dist-info/RECORD,,
