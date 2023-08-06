@@ -1,0 +1,1 @@
+# LZON (Lazy JSON)
