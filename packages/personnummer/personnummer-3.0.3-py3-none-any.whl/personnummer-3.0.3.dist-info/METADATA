@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: personnummer
+Version: 3.0.3
+Summary: Validate Swedish personal identity numbers
+Home-page: http://github.com/personnummer/python
+Author: Personnummer and Contributors
+Author-email: hello@personnummer.dev
+License: MIT
+Platform: UNKNOWN
+License-File: LICENSE
+
+UNKNOWN
+
