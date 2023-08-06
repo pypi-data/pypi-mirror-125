@@ -1,0 +1,11 @@
+LICENSE
+MANIFEST.in
+README.md
+pyproject.toml
+setup.cfg
+src/tgedr_pipeline_common.egg-info/PKG-INFO
+src/tgedr_pipeline_common.egg-info/SOURCES.txt
+src/tgedr_pipeline_common.egg-info/dependency_links.txt
+src/tgedr_pipeline_common.egg-info/requires.txt
+src/tgedr_pipeline_common.egg-info/top_level.txt
+test/test_factory.py
