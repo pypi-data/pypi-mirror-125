@@ -1,0 +1,3 @@
+[console_scripts]
+eeland=eeland.main:run_cli
+

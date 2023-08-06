@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: eeland
+Version: 2.0.2
+Summary: easy eland: cli&utils to make eland even easier to use
+License: MIT
+Author: Federico Falconieri
+Author-email: federico.falconieri@tno.nl
+Requires-Python: >=3.7,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Requires-Dist: eland (>=7.10.1-beta.1,<8.0.0)
