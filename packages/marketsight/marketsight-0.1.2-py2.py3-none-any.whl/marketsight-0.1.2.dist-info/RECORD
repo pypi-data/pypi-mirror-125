@@ -1,0 +1,11 @@
+marketsight/__init__.py,sha256=gICqJyUZQ94p_4NGsZ1lb7Of6XhJyrvrlO7Ub-gJB78,68
+marketsight/__version__.py,sha256=YvuYzWnKtqBb-IqG8HAu-nhIYAsgj9Vmc_b9o7vO-js,22
+marketsight/_compat.py,sha256=VJHzoOIUKkqwPjnSwsnJWCB6SmTCtAg3-SMK7el9_eM,2581
+marketsight/application_api.py,sha256=XD_zUJwSBWRJF3YN_X97ULwSTM5CYcNIZwi-xOz5-iY,39891
+marketsight/exceptions.py,sha256=kFFziMl6UdOIUfiDw9mp0jpL1s-XuTgoc5SYvA4q140,11310
+marketsight/http_client.py,sha256=ShJEzIE-Q787bw0tc3fIE9Cz7x55yQbMZ29EVrT4Ff0,3553
+marketsight-0.1.2.dist-info/LICENSE,sha256=mmEsdpLbvo4pzdDzjm8EHqqtpwe3etZCSSxuz6ew3hk,1052
+marketsight-0.1.2.dist-info/METADATA,sha256=pjlRXwhqMsXWspUW4keNx-H9-WNPDURaIUM56Zs8lnc,5811
+marketsight-0.1.2.dist-info/WHEEL,sha256=WzZ8cwjh8l0jtULNjYq1Hpr-WCqCRgPr--TX4P5I1Wo,110
+marketsight-0.1.2.dist-info/top_level.txt,sha256=bB9z-mSDDNQMMC6cbDp5ndTL-XR9xWDXB4M2dfWJG2s,12
+marketsight-0.1.2.dist-info/RECORD,,
