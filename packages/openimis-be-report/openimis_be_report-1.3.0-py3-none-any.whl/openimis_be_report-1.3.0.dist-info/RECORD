@@ -1,0 +1,16 @@
+report/__init__.py,sha256=gIm1rqmH4XSlOY1YJNaEg-dfsvp48NTGaiUzBtxjxbw,48
+report/admin.py,sha256=8B35GOLx8q3HMWROpAyD9R3-jyF8PcruVSSo-MmoRJg,109
+report/apps.py,sha256=9UUGSNNSg79eJqX5QarYiBB0UIIodhglzATLwLtBsk0,87
+report/default_report.py,sha256=UritlAZuVC0R1gd4hS7q8EBL4CVurmXppDFMCr7ZuUA,11217
+report/models.py,sha256=uacGrUXelZ98Rw_5C5YIM-m4srsV-NYPd7VV3utLZFM,844
+report/services.py,sha256=_8oUfj75MIvC_GaEpS9AaTMEvze43i-RMRNiyvaHMyk,1095
+report/tests.py,sha256=qWDvA9ZhVCQ1rPbkoFify7o_fDirXMUdYMxF12q3WIM,26
+report/urls.py,sha256=2VZHO_d8F86pUF_4xeyFtSOr6-xpwltmk0L1szOBNEw,16
+report/views.py,sha256=F42JXgnqFqK0fajXeutyJJxwOszRxoLMNkIhfc4Z7KI,26
+report/migrations/0001_initial.py,sha256=RLD2KAmnQxSOZnbiL5uGzH5IEBrtMVVi7zzdnj2VblQ,950
+report/migrations/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+openimis_be_report-1.3.0.dist-info/LICENSE.md,sha256=qv829pDgynxCyMDqJP9yACWRxhNQEP7jrTxY8U5m4gY,1852
+openimis_be_report-1.3.0.dist-info/METADATA,sha256=Sl5MpMYIkaWVsv8lLU-K9UxlPVWptnAPDsusxN51HEc,889
+openimis_be_report-1.3.0.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+openimis_be_report-1.3.0.dist-info/top_level.txt,sha256=Mx0m1tj4YuRrqQCBG-inoeTbqiKbFMmb7P1eUVFJDZU,7
+openimis_be_report-1.3.0.dist-info/RECORD,,
