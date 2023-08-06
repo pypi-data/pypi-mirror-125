@@ -1,0 +1,11 @@
+COPYING
+MANIFEST.in
+README.md
+setup.py
+bchlibcaronoff.egg-info/PKG-INFO
+bchlibcaronoff.egg-info/SOURCES.txt
+bchlibcaronoff.egg-info/dependency_links.txt
+bchlibcaronoff.egg-info/top_level.txt
+src/bch.c
+src/bch.h
+src/bchlib.c
