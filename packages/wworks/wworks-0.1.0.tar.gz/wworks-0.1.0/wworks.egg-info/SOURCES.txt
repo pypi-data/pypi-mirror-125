@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.py
+wworks/__init__.py
+wworks/pools.py
+wworks/swworks.py
+wworks.egg-info/PKG-INFO
+wworks.egg-info/SOURCES.txt
+wworks.egg-info/dependency_links.txt
+wworks.egg-info/requires.txt
+wworks.egg-info/top_level.txt
