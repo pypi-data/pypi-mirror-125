@@ -1,0 +1,10 @@
+tuprovertest/__init__.py,sha256=OxDZp01oF5AsxqWl6mGSnWjFAJv5QZGgzdMTIXBkDXs,56
+tuprovertest/add.py,sha256=Cs3Y5LY_iIgT7Faz1Qq9sdFuYnBqr3SQ7kgT_upHqic,152
+tuprovertest/subtract.py,sha256=VRDsDdI_RM3qiQBCXTuWElgk_H43zWWcvtLURRh-QgA,41
+tuprovertest/extras/__init__.py,sha256=NIMDDcWWtTvZTT457qmE9zYMA4dH7vZz7L7H12LVI8I,58
+tuprovertest/extras/divide.py,sha256=vquhfk_qdZtwP6su2DmOMZ-99gL4p1Bl0rqrTEAUEqU,37
+tuprovertest/extras/multiply.py,sha256=ruryU4tnRkjZFicVFlwJu0f2PvTcMe-BKaHZD58qA7o,41
+tuprovertest-0.0.2.dist-info/METADATA,sha256=Z3XwyXO5ZTDrHOrECgI80wENaleBqMu7XCv_8h_gM8c,571
+tuprovertest-0.0.2.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+tuprovertest-0.0.2.dist-info/top_level.txt,sha256=YkyDJjGiweiztUhXC7XpE_Hx5nwwVq1XKD3Hsury_js,13
+tuprovertest-0.0.2.dist-info/RECORD,,
