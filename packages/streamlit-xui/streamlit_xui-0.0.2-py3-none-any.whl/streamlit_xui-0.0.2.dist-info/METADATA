@@ -1,0 +1,38 @@
+Metadata-Version: 2.1
+Name: streamlit-xui
+Version: 0.0.2
+Summary: Extended UI components for Streamlit
+Home-page: https://github.com/ais-one/favv
+Author: Aaron Gong
+Author-email: aaronjxz@gmail.com
+License: MIT License
+Keywords: streamlit,sidebar,menu,sidemenu,placeholder
+Platform: UNKNOWN
+Classifier: Development Status :: 2 - Pre-Alpha
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+Requires-Dist: streamlit (>=0.63)
+
+# Streamlit XUI
+
+An extended set of UI components for use in streamlit
+
+- st_xui_sidemenu
+- st_xui_placeholder
+
+## Installation
+
+```
+pip install streamlit-xui
+```
+
+## Usage
+
+Refer to the following files for example usage
+- [placeholder](placeholder/README.md)
+- [sidemenu](sidemenu/README.md)
+
+
