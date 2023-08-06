@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: ssssg
+Version: 0.0.1
+Summary: Stupidly Simple Static Site Generator
+Home-page: UNKNOWN
+License: UNKNOWN
+Platform: UNKNOWN
+Requires-Dist: jinja2 (>=3.0.2)
+Requires-Dist: libsass (>=0.21.0)
+Provides-Extra: test
+Requires-Dist: pytest (<=6.2.5) ; extra == 'test'
+
+UNKNOWN
+
