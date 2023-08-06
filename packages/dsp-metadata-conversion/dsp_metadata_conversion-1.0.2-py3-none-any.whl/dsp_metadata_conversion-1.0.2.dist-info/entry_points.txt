@@ -1,0 +1,3 @@
+[console_scripts]
+convert-metadata = converter.converter:cli
+
