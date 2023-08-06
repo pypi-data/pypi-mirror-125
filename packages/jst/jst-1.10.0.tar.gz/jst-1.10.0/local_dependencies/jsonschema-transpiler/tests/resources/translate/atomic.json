@@ -1,0 +1,215 @@
+{
+  "name": "atomic",
+  "tests": [
+    {
+      "name": "test_atomic",
+      "compatible": true,
+      "test": {
+        "avro": {
+          "type": "long"
+        },
+        "bigquery": [
+          {
+            "mode": "REQUIRED",
+            "name": "root",
+            "type": "INT64"
+          }
+        ],
+        "json": {
+          "type": "integer"
+        }
+      }
+    },
+    {
+      "name": "test_atomic_with_null",
+      "compatible": true,
+      "test": {
+        "avro": [
+          {
+            "type": "null"
+          },
+          {
+            "type": "long"
+          }
+        ],
+        "bigquery": [
+          {
+            "mode": "NULLABLE",
+            "name": "root",
+            "type": "INT64"
+          }
+        ],
+        "json": {
+          "type": [
+            "integer",
+            "null"
+          ]
+        }
+      }
+    },
+    {
+      "description": [
+        "Test that overlapping types are treated as json blobs."
+      ],
+      "name": "test_incompatible_atomic_multitype",
+      "compatible": false,
+      "test": {
+        "avro": {
+          "type": "string"
+        },
+        "bigquery": [
+          {
+            "mode": "REQUIRED",
+            "name": "root",
+            "type": "STRING"
+          }
+        ],
+        "json": {
+          "type": [
+            "boolean",
+            "integer"
+          ]
+        }
+      }
+    },
+    {
+      "description": [
+        "Test that overlapping types that can be null are nullable json blobs.",
+        "A field is null if any of it's types are null."
+      ],
+      "name": "test_incompatible_atomic_multitype_with_null",
+      "compatible": false,
+      "test": {
+        "avro": [
+          {
+            "type": "null"
+          },
+          {
+            "type": "string"
+          }
+        ],
+        "bigquery": [
+          {
+            "mode": "NULLABLE",
+            "name": "root",
+            "type": "STRING"
+          }
+        ],
+        "json": {
+          "type": [
+            "boolean",
+            "integer",
+            "null"
+          ]
+        }
+      }
+    },
+    {
+      "name": "test_datetime",
+      "compatible": true,
+      "test": {
+        "avro": {
+          "type": "string"
+        },
+        "bigquery": [
+          {
+            "mode": "REQUIRED",
+            "name": "root",
+            "type": "TIMESTAMP"
+          }
+        ],
+        "json": {
+          "format": "date-time",
+          "type": "string"
+        }
+      }
+    },
+    {
+      "description": [
+        "Test that strings can be cast into byte strings"
+      ],
+      "name": "test_bytes_format",
+      "compatible": true,
+      "test": {
+        "avro": {
+          "type": "bytes"
+        },
+        "bigquery": [
+          {
+            "mode": "REQUIRED",
+            "name": "root",
+            "type": "BYTES"
+          }
+        ],
+        "json": {
+          "format": "bytes",
+          "type": "string"
+        }
+      }
+    },
+    {
+      "name": "test_atomic_with_description",
+      "compatible": true,
+      "test": {
+        "avro": {
+          "type": "long"
+        },
+        "bigquery": [
+          {
+            "description": "test description",
+            "mode": "REQUIRED",
+            "name": "root",
+            "type": "INT64"
+          }
+        ],
+        "json": {
+          "description": "test description",
+          "type": "integer"
+        }
+      }
+    },
+    {
+      "name": "test_atomic_with_description_and_title",
+      "compatible": true,
+      "test": {
+        "avro": {
+          "type": "long"
+        },
+        "bigquery": [
+          {
+            "description": "test title - test description",
+            "mode": "REQUIRED",
+            "name": "root",
+            "type": "INT64"
+          }
+        ],
+        "json": {
+          "description": "test description",
+          "title": "test title",
+          "type": "integer"
+        }
+      }
+    },
+    {
+      "name": "test_atomic_with_title",
+      "compatible": true,
+      "test": {
+        "avro": {
+          "type": "long"
+        },
+        "bigquery": [
+          {
+            "description": "test title",
+            "mode": "REQUIRED",
+            "name": "root",
+            "type": "INT64"
+          }
+        ],
+        "json": {
+          "title": "test title",
+          "type": "integer"
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,120 @@
+name: Release
+on:
+  workflow_dispatch:
+  push:
+    tags:
+      - "python-v*.*.*"
+
+jobs:
+  release_manylinux:
+    name: Release manylinux
+    runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        python-path:
+          ["cp36-cp36m", "cp37-cp37m", "cp38-cp38", "cp39-cp39", "cp310-cp310"]
+    container: quay.io/pypa/manylinux2014_x86_64:latest
+    env:
+      TWINE_PASSWORD: ${{ secrets.PYPI_TOKEN }}
+      TWINE_USERNAME: __token__
+      RUSTFLAGS: -C target-cpu=k8
+
+    steps:
+      - uses: actions/checkout@v2
+      - uses: actions-rs/toolchain@v1
+        with:
+          profile: minimal
+          toolchain: stable
+          override: true
+      - run: yum install -y libffi libffi-devel openssl openssl-devel
+      - name: build and publish to PyPI
+        run: |
+          /opt/python/${{ matrix.python-path }}/bin/python -m venv .venv
+          . .venv/bin/activate
+          pip install wheel twine maturin
+          maturin build --no-sdist --release --strip --manylinux 2014 -i /opt/python/${{ matrix.python-path }}/bin/python --target x86_64-unknown-linux-gnu
+          twine upload --non-interactive --skip-existing target/wheels/*
+        working-directory: bindings/python
+
+  release_windows:
+    name: Release windows
+    runs-on: windows-latest
+    strategy:
+      matrix:
+        python-version: ["3.6", "3.7", "3.8", "3.9"]
+    env:
+      TWINE_PASSWORD: ${{ secrets.PYPI_TOKEN }}
+      TWINE_USERNAME: __token__
+      RUSTFLAGS: -C target-cpu=k8
+    steps:
+      - uses: actions/checkout@v2
+      - uses: actions-rs/toolchain@v1
+        with:
+          profile: minimal
+          toolchain: stable
+          override: true
+      - name: Set up Python
+        uses: actions/setup-python@v2
+        with:
+          python-version: ${{ matrix.python-version }}
+
+      - name: build and publish to PyPI
+        run: |
+          pip install wheel twine maturin
+          maturin build --no-sdist --release --strip -i $pythonLocation"python.exe"
+          twine upload --non-interactive --skip-existing target\wheels\*
+        working-directory: bindings/python
+
+  release_macos:
+    name: Release macOS
+    strategy:
+      matrix:
+        python-version: ["3.6", "3.7", "3.8", "3.9"]
+    runs-on: macos-latest
+    env:
+      TWINE_PASSWORD: ${{ secrets.PYPI_TOKEN }}
+      TWINE_USERNAME: __token__
+      RUSTFLAGS: -C target-cpu=k8
+    steps:
+      - uses: actions/checkout@v2
+      - uses: actions-rs/toolchain@v1
+        with:
+          profile: minimal
+          toolchain: stable
+          override: true
+      - name: Set up Python
+        uses: actions/setup-python@v2
+        with:
+          python-version: ${{ matrix.python-version }}
+
+      - name: build and publish to PyPI
+        run: |
+          pip install wheel twine maturin
+          maturin build --no-sdist --release --strip --manylinux off -i $pythonLocation/python --target x86_64-apple-darwin
+          twine upload --non-interactive --skip-existing target/wheels/*
+        working-directory: bindings/python
+
+  release_sdist:
+    name: Release sdist
+    runs-on: ubuntu-latest
+    env:
+      TWINE_PASSWORD: ${{ secrets.PYPI_TOKEN }}
+      TWINE_USERNAME: __token__
+    steps:
+      - uses: actions/checkout@v2
+      - uses: actions-rs/toolchain@v1
+        with:
+          profile: minimal
+          toolchain: stable
+          override: true
+      - name: Set up Python
+        uses: actions/setup-python@v2
+        with:
+          python-version: 3.8
+
+      - name: build and publish to PyPI
+        run: |
+          pip install wheel twine maturin
+          maturin sdist
+          twine upload --non-interactive --skip-existing target/wheels/*
+        working-directory: bindings/python
