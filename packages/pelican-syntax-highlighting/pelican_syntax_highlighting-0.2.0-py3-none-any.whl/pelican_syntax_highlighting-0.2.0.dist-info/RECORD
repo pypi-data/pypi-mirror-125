@@ -1,0 +1,8 @@
+pelican/plugins/syntax_highlighting/__init__.py,sha256=fkpVaTmjudNGVQMeFDAyaPJqgWEb4mZmE_64dVZezMQ,56
+pelican/plugins/syntax_highlighting/markdown_extension.py,sha256=cv1rkGDSHJJ6nRaR4Nh7BSwJEKR_XG20eW8rCtjddiM,1994
+pelican/plugins/syntax_highlighting/settings.py,sha256=QBI1zaJySjfxuQpuL7Zpjh1lzGRJRmx6nBhOFVKZ41Q,798
+pelican/plugins/syntax_highlighting/syntax_highlighting.py,sha256=eCNSEvVwR5kClYD6NxsF_qOHk9WcsuiXk5TGoFqtQzg,454
+pelican/plugins/syntax_highlighting/test_syntax_highlighting.py,sha256=6mFXcqhWvOJzUnhGimOYlR2L-0pgzj-66NAD9lGHWcI,27
+pelican_syntax_highlighting-0.2.0.dist-info/WHEEL,sha256=y3eDiaFVSNTPbgzfNn0nYn5tEn1cX6WrdetDlQM4xWw,83
+pelican_syntax_highlighting-0.2.0.dist-info/METADATA,sha256=eqpjH7A5Ryt6TNd3MwBxiBbK5ddH7xunoLVJBSdkq38,2971
+pelican_syntax_highlighting-0.2.0.dist-info/RECORD,,
