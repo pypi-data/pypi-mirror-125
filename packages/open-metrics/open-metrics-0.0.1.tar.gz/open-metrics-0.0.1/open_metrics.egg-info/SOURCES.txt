@@ -1,0 +1,5 @@
+setup.py
+open_metrics.egg-info/PKG-INFO
+open_metrics.egg-info/SOURCES.txt
+open_metrics.egg-info/dependency_links.txt
+open_metrics.egg-info/top_level.txt
