@@ -1,0 +1,52 @@
+Metadata-Version: 2.1
+Name: pnu-strings
+Version: 1.1.2
+Summary: print the strings of printable characters in files
+Home-page: https://github.com/HubTou/strings/
+Author: Hubert Tournier
+Author-email: nobody@nowhere.invalid
+License: BSD 3-Clause License
+Project-URL: Bug Tracker, https://github.com/HubTou/strings/issues
+Keywords: pnu-project,unix
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Environment :: Console
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: End Users/Desktop
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Natural Language :: English
+Classifier: Operating System :: OS Independent
+Classifier: Operating System :: POSIX :: BSD :: FreeBSD
+Classifier: Operating System :: Microsoft :: Windows
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.0
+Classifier: Programming Language :: Python :: 3.1
+Classifier: Programming Language :: Python :: 3.2
+Classifier: Programming Language :: Python :: 3.3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Topic :: Security
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Classifier: Topic :: System
+Classifier: Topic :: Utilities
+Requires-Python: >=3.0
+Description-Content-Type: text/markdown
+License-File: License
+
+# Installation
+pip install [pnu-strings](https://pypi.org/project/pnu-strings/)
+
+# STRINGS(1), STRINGS(3)
+This repository includes a command-line utility:
+* [strings(1)](https://github.com/HubTou/strings/blob/main/STRINGS.1.md) - print the strings of printable characters in files
+
+And a Python library:
+* [strings(3)](https://github.com/HubTou/strings/blob/main/STRINGS.3.md) - return the strings of printable characters in files
+
+
+
