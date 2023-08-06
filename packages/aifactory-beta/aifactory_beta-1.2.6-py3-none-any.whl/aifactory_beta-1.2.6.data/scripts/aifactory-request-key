@@ -1,0 +1,27 @@
+#!/bin/bash
+
+OPTIONS=''
+
+while [[ $# -gt 0 ]]; do
+  key="$1"
+  case $key in
+    -u|--user-email)
+      USER_EMAIL="$2"
+      OPTIONS="${OPTIONS} --debug ${USER_EMAIL}"
+      shift
+      ;;
+    -d|--debug)
+      DEBUG="$2"
+      OPTIONS="${OPTIONS} --debug ${DEBUG}"
+      shift
+      ;;
+    --auth-url)
+      AUTH_URL="$2"
+      OPTIONS="${OPTIONS} --auth-url ${AUTH_URL}"
+      shift
+      ;;
+  esac
+  shift
+done
+
+python3 -m aifactory.Executables.request_key ${OPTIONS}
