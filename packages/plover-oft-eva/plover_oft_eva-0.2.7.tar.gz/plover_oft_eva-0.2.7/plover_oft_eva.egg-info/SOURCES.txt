@@ -1,0 +1,16 @@
+MANIFEST.in
+README.md
+setup.cfg
+setup.py
+tox.ini
+plover_oft_eva/__init__.py
+plover_oft_eva/machine.py
+plover_oft_eva/machine_option.py
+plover_oft_eva/testing.py
+plover_oft_eva.egg-info/PKG-INFO
+plover_oft_eva.egg-info/SOURCES.txt
+plover_oft_eva.egg-info/dependency_links.txt
+plover_oft_eva.egg-info/entry_points.txt
+plover_oft_eva.egg-info/requires.txt
+plover_oft_eva.egg-info/top_level.txt
+plover_oft_eva.egg-info/zip-safe

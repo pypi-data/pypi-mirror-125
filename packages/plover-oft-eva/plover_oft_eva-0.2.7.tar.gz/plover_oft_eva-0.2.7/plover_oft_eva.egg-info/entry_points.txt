@@ -1,0 +1,9 @@
+[console_scripts]
+oft_eva_test = plover_oft_eva.testing:main
+
+[plover.gui.qt.machine_option]
+plover_oft_eva.machine:OftEvaMachine = plover_oft_eva.machine_option:OftEvaOption
+
+[plover.machine]
+OFT EVA = plover_oft_eva.machine:OftEvaMachine
+
