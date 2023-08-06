@@ -1,0 +1,8 @@
+LICENSE
+README.md
+setup.py
+aiofase.egg-info/PKG-INFO
+aiofase.egg-info/SOURCES.txt
+aiofase.egg-info/dependency_links.txt
+aiofase.egg-info/requires.txt
+aiofase.egg-info/top_level.txt
