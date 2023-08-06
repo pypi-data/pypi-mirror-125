@@ -1,0 +1,23 @@
+[tool.poetry]
+name = "dencrypt"
+version = "0.1.0"
+description = "Quickly generates the encryption of texts and files. Using RSA and Fernet as a base."
+authors = ["Vitor Gabriel <edvitor13@hotmail.com>"]
+license = "MIT"
+readme = "README.md"
+repository = "https://github.com/edvitor13/dencrypt"
+
+[tool.poetry.dependencies]
+python = "^3.9"
+rsa = "^4.7.2"
+cryptography = "^35.0.0"
+
+[tool.poetry.dev-dependencies]
+pytest = "^5.2"
+
+[tool.poetry.scripts]
+dencrypt = "cli:main"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
