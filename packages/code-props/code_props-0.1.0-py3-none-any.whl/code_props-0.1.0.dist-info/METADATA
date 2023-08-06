@@ -1,0 +1,28 @@
+Metadata-Version: 2.1
+Name: code-props
+Version: 0.1.0
+Summary: Identify basic code properties such as module, method and parameter names from application source
+Home-page: https://rosa.cx
+License: Apache-2.0
+Keywords: linter,code-analysis
+Author: Prabhu Subramanian
+Author-email: prabhu@ngcloud.io
+Requires-Python: >=3.8,<4.0
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Environment :: Console
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: System Administrators
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Topic :: Security
+Classifier: Topic :: Software Development :: Code Generators
+Classifier: Topic :: Utilities
+Requires-Dist: tree-sitter (>=0.19.0,<0.20.0)
+Project-URL: Repository, https://git.sr.ht/~prabhu/code-props
+Description-Content-Type: text/markdown
+
+
