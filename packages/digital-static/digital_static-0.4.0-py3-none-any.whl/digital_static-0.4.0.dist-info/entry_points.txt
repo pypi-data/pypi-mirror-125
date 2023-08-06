@@ -1,0 +1,3 @@
+[console_scripts]
+dstatic = dstatic.dstatic:main
+
