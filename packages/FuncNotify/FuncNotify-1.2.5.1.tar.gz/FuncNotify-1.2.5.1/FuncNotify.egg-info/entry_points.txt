@@ -1,0 +1,6 @@
+[console_scripts]
+FuncNotify = FuncNotify.__main__:main
+Funcnotify = FuncNotify.__main__:main
+funcNotify = FuncNotify.__main__:main
+funcnotify = FuncNotify.__main__:main
+
