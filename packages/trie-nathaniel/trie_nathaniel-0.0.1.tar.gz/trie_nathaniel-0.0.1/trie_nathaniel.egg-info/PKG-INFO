@@ -1,0 +1,33 @@
+Metadata-Version: 2.1
+Name: trie-nathaniel
+Version: 0.0.1
+Summary: Calls commands to the trie server that can modify its state
+Home-page: https://github.com/Nathaniel-github/TrieClient
+Author: Nathaniel Thomas
+Author-email: catchnate+pypi@gmail.com
+License: MIT
+Description: # TrieClient
+         Client CLI for the trie project
+        
+        ## Installation
+        
+        Run the following to install:
+        
+        ```python
+        pip install trie-nathaniel
+        ```
+        
+        ## Usage
+        
+        ```
+        triecli
+        ```
+Platform: UNKNOWN
+Classifier: Development Status :: 6 - Mature
+Classifier: Environment :: Console
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Natural Language :: English
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3.8
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
