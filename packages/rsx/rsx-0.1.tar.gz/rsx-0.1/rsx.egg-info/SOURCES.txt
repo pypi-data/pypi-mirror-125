@@ -1,0 +1,5 @@
+setup.py
+rsx.egg-info/PKG-INFO
+rsx.egg-info/SOURCES.txt
+rsx.egg-info/dependency_links.txt
+rsx.egg-info/top_level.txt
