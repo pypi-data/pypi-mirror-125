@@ -1,0 +1,9 @@
+appdirs
+psutil
+jinja2
+requests
+pandas
+matplotlib
+docker
+gitpython
+boto3

@@ -1,0 +1,8 @@
+setup.py
+biopip/__init__.py
+biopip.egg-info/PKG-INFO
+biopip.egg-info/SOURCES.txt
+biopip.egg-info/dependency_links.txt
+biopip.egg-info/not-zip-safe
+biopip.egg-info/requires.txt
+biopip.egg-info/top_level.txt
