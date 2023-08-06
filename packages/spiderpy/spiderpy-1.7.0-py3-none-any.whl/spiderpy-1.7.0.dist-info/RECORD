@@ -1,0 +1,11 @@
+spiderpy/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+spiderpy/devices/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+spiderpy/devices/base.py,sha256=SAStBIMeODoPYKQ0C78Csml_-Tfe_b45oo6djhze6FM,859
+spiderpy/devices/powerplug.py,sha256=8y1zAVwNEpf9imnO5jVvFN0GayoURrfcWZ6u6ShbH6o,1232
+spiderpy/devices/thermostat.py,sha256=HJk5paf2y2P4McEhOYJHbPzRtfPG2tizXHmjqLepTjo,5102
+spiderpy/spiderapi.py,sha256=T_o4KRICRXsAJAeJPFiSIh_SttAAE9T0SkF9xZntdXo,11323
+spiderpy/test_spiderapi.py,sha256=bJfrJwIhBs2jkwLvBpnYgn3cd2g_QF3UbpX9h9z8Y3s,2912
+spiderpy-1.7.0.dist-info/LICENSE,sha256=HXwxrtNpS-jJyKXNGJerFdtjlV80kywkbi2IUjJJRlQ,1075
+spiderpy-1.7.0.dist-info/WHEEL,sha256=y3eDiaFVSNTPbgzfNn0nYn5tEn1cX6WrdetDlQM4xWw,83
+spiderpy-1.7.0.dist-info/METADATA,sha256=TtXSsqILAmVKAFTpZfQ_bwKsV1ZzeMbDQ9EUscc8jlM,528
+spiderpy-1.7.0.dist-info/RECORD,,
