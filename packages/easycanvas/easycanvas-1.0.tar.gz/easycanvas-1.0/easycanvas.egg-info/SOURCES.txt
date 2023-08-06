@@ -1,0 +1,9 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+easycanvas/__init__.py
+easycanvas.egg-info/PKG-INFO
+easycanvas.egg-info/SOURCES.txt
+easycanvas.egg-info/dependency_links.txt
+easycanvas.egg-info/top_level.txt
