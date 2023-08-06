@@ -1,0 +1,9 @@
+ergen/cli.py,sha256=C8holLR9araIYukS757ssNCHU43bPYm6RFphD8DGk-A,699
+ergen/main.py,sha256=VpZr8ILZPzeMISvpjYOTncMLEUKo8vHMpw3QgnHR3oc,398
+ergen/template/erd.dot.jinja,sha256=HNGTBAiFXVDwiU5IICInHnz-tFJORm18lMQ-4sweJ2M,1128
+ergen/types.py,sha256=1UAbV-83852-TK_GO2DmBKPUQcTr96Vl-o54Ew8sqOY,842
+ergen-0.1.0.dist-info/entry_points.txt,sha256=lslAFesQtnvmjZSvT1zNd_WGNj5cFunwdBDpfxe0TI8,39
+ergen-0.1.0.dist-info/LICENSE,sha256=sEyIUP32TRcjPwrL5OtjLwO9ZjCUIzyUm9vniIWLuEE,10851
+ergen-0.1.0.dist-info/WHEEL,sha256=N0LZrBtofpkS5mJXgVHTCEy52Sam4D6PHQWC8HnMeTs,83
+ergen-0.1.0.dist-info/METADATA,sha256=AyTNcRuwpSE5-DFOBsaRXfeBZmjSQ1pWEW73j9e9t4Y,476
+ergen-0.1.0.dist-info/RECORD,,

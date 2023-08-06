@@ -1,0 +1,3 @@
+[console_scripts]
+ergen=ergen.cli:app
+
