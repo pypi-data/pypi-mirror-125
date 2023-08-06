@@ -1,0 +1,11 @@
+Change Log
+==========
+
+0.1.1 (11/02/2021)
+-------------------
+- ci_coverage argument added to the plot method. Fix minor typos.
+
+
+0.1 (11/01/2021)
+-------------------
+- First Release
