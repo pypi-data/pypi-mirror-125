@@ -1,0 +1,12 @@
+Metadata-Version: 2.1
+Name: cyint-aws-ml-ops-tools
+Version: 1.2.11
+Summary: Tools for assisting with managing modern ml-ops-pipelines in AWS Sagemaker
+License: MIT
+Author: Daniel Fredriksen
+Author-email: dfredriksen@cyint.technology
+Requires-Python: >=3.9,<3.10
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.9
+Requires-Dist: boto3 (>=1.19.6,<2.0.0)
