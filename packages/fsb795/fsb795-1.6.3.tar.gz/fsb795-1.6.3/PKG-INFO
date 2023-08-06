@@ -1,0 +1,23 @@
+Metadata-Version: 2.1
+Name: fsb795
+Version: 1.6.3
+Summary: Получение атрибутов квалифицированного сертификата, созданного в соответствии с требованиями Приказа ФСБ РФ N 795
+Home-page: https://pypi.org/project/fsb795/
+Author: Vladimir Orlov
+Author-email: vorlov@lissi.ru
+License: MIT License
+Description: Получение атрибутов квалифицированного сертификата, 
+        	созданного в соответствии с требованиями Приказа ФСБ РФ N 795 
+        	от декабря 2011 года
+        	(в редакции от 21 января 2021 года)
+Platform: any
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 2
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Natural Language :: Russian
