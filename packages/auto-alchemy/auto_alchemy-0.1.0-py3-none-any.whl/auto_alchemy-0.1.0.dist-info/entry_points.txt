@@ -1,0 +1,3 @@
+[console_scripts]
+auto-alchemy=auto-alchemy.cli:main
+
