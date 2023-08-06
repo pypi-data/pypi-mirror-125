@@ -1,0 +1,12 @@
+iocbio.db
+PyQt5
+h5py
+scipy
+numpy
+pyqtgraph
+XlsxWriter
+tabulate
+msgpack
+attrdict
+netCDF4
+python-dateutil
