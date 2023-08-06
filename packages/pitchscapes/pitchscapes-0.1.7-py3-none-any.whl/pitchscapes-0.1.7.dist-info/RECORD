@@ -1,0 +1,13 @@
+pitchscapes/__init__.py,sha256=ZeTAAfBPFISU0OVmdVBCrfOOyMpkx0EJwxKTBndH3Q0,72
+pitchscapes/keyfinding.py,sha256=96ISHk-2quasJebRUZmLEQfMtEmT1LtwFhsgTixGsk0,9131
+pitchscapes/model.py,sha256=V48RInvuEqtI0ZiJQaD0V_oiOPyB72zzphk3qL8Tb8Q,26843
+pitchscapes/optimization.py,sha256=ZDINNNCdhRrWjDBXY9QU2g4gcaz6sHIWaln993SIaME,4524
+pitchscapes/plotting.py,sha256=iVmVQe-zsD_9SCHiCPE5-VcfEbZXDVR6XXBdW4V09qg,26503
+pitchscapes/reader.py,sha256=St-XNEl3NNDc4jQrlUI8QzkzxoV1A3uus2hVWwgxUMs,10940
+pitchscapes/scapes.py,sha256=NFjQKGM-EQ_g_5KyDVKqdMYge700jehle2waAb4ji1o,36007
+pitchscapes/util.py,sha256=vPIuGjDQuSmxsRvu6K7XV06MHIuN99Pjg_daVkA8pPg,14220
+pitchscapes-0.1.7.dist-info/LICENSE,sha256=OXLcl0T2SZ8Pmy2_dmlvKuetivmyPd5m1q-Gyd-zaYY,35149
+pitchscapes-0.1.7.dist-info/METADATA,sha256=vbY8Pu3xU0e2SYDqjTfAC7iJ0kli9SMeD6yOyuzwvpk,3013
+pitchscapes-0.1.7.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+pitchscapes-0.1.7.dist-info/top_level.txt,sha256=8RD8_nvUzRmzvDhCL62XVL4KfUvNQa6xeOUPOeY7Dzk,12
+pitchscapes-0.1.7.dist-info/RECORD,,
