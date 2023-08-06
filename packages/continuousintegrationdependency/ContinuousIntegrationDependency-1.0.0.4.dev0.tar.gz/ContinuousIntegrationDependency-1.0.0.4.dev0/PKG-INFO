@@ -1,0 +1,10 @@
+Metadata-Version: 2.1
+Name: continuousintegrationdependency
+Version: 1.0.0.4.dev0
+Summary: 
+Author: Aaron Shiels
+Author-email: aaron.shiels@outlook.com
+Requires-Python: >=3.9,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.9
