@@ -1,0 +1,3 @@
+[console_scripts]
+s4g = ssssg.create_site:create_site
+
