@@ -1,0 +1,12 @@
+[tool.poetry]
+name = "pkm-installer"
+version = "0.2.2"
+description = "lightweight installer for pkm"
+authors = [ "bennyl"]
+license = "MIT License"
+readme = "README.md"
+dependencies = {python = "^3.6", importlib-metadata = ">=1.7.0", virtualenv = "^20.9.0"}
+
+[build-system]
+requires = [ "relaxed-poetry-core>=0.3.0"]
+build-backend = "poetry.core.masonry.api"
