@@ -1,0 +1,8 @@
+README.md
+setup.py
+scalabis/__init__.py
+scalabis/comparisons.py
+scalabis.egg-info/PKG-INFO
+scalabis.egg-info/SOURCES.txt
+scalabis.egg-info/dependency_links.txt
+scalabis.egg-info/top_level.txt
