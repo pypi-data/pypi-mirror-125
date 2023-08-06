@@ -1,0 +1,33 @@
+Metadata-Version: 2.1
+Name: pyecr
+Version: 0.0.6
+Summary: Utility to help handle the process of pulling images to ECR
+Home-page: https://github.com/ualter/pyecr.git
+Author: Ualter Otoni Pereira
+Author-email: ualter.junior@gmail.com
+License: MIT
+Description: **PyECR**
+        ---
+        ---
+        
+        Command line tool that helps handle interactively the workflow of pushing images to AWS ECR. 
+        
+        - Create or choose an AWS ECR Repository
+        - Pull an docker image to your local Docker
+        - Tag your docker image preparing it to upload to ECR
+        - Push the tagged docker image to ECR
+        
+        ```bash
+        # To run it, just call it...
+        $ pyecr
+        ```
+        
+Keywords: aws,cloud,ecr,boto3,image,docker
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: System Administrators
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Description-Content-Type: text/markdown

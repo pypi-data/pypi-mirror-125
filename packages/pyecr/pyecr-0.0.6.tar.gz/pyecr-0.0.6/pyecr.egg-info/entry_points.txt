@@ -1,0 +1,3 @@
+[console_scripts]
+pyecr = pyecr.pyecr:main
+
