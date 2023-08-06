@@ -1,0 +1,1 @@
+Get a custom and dymanic url from a bigquery table.
