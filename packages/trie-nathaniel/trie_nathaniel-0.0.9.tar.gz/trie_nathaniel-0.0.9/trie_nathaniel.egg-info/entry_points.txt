@@ -1,0 +1,3 @@
+[console_scripts]
+triecli = triecli:cli
+

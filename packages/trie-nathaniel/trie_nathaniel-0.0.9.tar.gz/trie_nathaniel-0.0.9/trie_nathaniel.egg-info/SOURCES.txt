@@ -1,0 +1,14 @@
+LICENSE.txt
+MANIFEST.in
+README.md
+setup.py
+triecli.py
+cli/__init__.py
+cli/trie_nathaniel.py
+trie_nathaniel.egg-info/PKG-INFO
+trie_nathaniel.egg-info/SOURCES.txt
+trie_nathaniel.egg-info/dependency_links.txt
+trie_nathaniel.egg-info/entry_points.txt
+trie_nathaniel.egg-info/not-zip-safe
+trie_nathaniel.egg-info/requires.txt
+trie_nathaniel.egg-info/top_level.txt
