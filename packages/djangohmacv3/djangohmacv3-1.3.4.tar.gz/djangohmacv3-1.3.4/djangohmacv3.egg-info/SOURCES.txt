@@ -1,0 +1,15 @@
+CHANGELOG.rst
+LICENSE
+MANIFEST.in
+README.rst
+VERSION.txt
+setup.py
+djangohmac/__init__.py
+djangohmac/decorators.py
+djangohmac/middleware.py
+djangohmac/sign.py
+djangohmacv3.egg-info/PKG-INFO
+djangohmacv3.egg-info/SOURCES.txt
+djangohmacv3.egg-info/dependency_links.txt
+djangohmacv3.egg-info/requires.txt
+djangohmacv3.egg-info/top_level.txt
