@@ -1,0 +1,22 @@
+Metadata-Version: 2.1
+Name: palom
+Version: 2021.11.0
+Summary: Piecewise alignment for layers of mosaics
+Author: Yu-An Chen
+Author-email: atwood12@gmail.com
+Requires-Python: >=3.7.8,<3.8
+Classifier: Programming Language :: Python :: 3
+Requires-Dist: dask (>=2021.10.0,<2022.0.0)
+Requires-Dist: matplotlib (>=3.4.3,<4.0.0)
+Requires-Dist: napari-lazy-openslide (>=0.2.0,<0.3.0)
+Requires-Dist: numpy (>=1.21.3,<2.0.0)
+Requires-Dist: opencv-python (>=4.5.3.56,<5.0.0.0)
+Requires-Dist: scikit-image (>=0.18.3,<0.19.0)
+Requires-Dist: scikit-learn (>=0.24.2,<0.25.0)
+Requires-Dist: scipy (>=1.7.1,<2.0.0)
+Requires-Dist: tifffile (>=2021.10.12,<2022.0.0)
+Requires-Dist: tqdm (>=4.62.3,<5.0.0)
+Requires-Dist: zarr (>=2.10.0,<3.0.0)
+Description-Content-Type: text/markdown
+
+# Piecewise alignment for layers of mosaics
