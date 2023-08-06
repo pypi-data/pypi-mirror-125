@@ -1,0 +1,2 @@
+Sphinx
+sphindexer>=0.5.0
