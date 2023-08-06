@@ -1,0 +1,12 @@
+LICENSE.txt
+README.md
+setup.cfg
+setup.py
+src/datable/__init__.py
+src/datable.egg-info/PKG-INFO
+src/datable.egg-info/SOURCES.txt
+src/datable.egg-info/dependency_links.txt
+src/datable.egg-info/requires.txt
+src/datable.egg-info/top_level.txt
+src/datable/table/__init__.py
+src/datable/table/table.py
