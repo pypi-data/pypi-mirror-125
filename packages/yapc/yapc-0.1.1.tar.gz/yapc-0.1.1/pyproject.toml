@@ -1,0 +1,54 @@
+[tool.poetry]
+name = "yapc"
+version = "0.1.1"
+description = "Yet Another PDF CLI"
+authors = ["Atahan Yorgancı <atahanyorganci@hotmail.com>"]
+license = "BSD-3-Clause"
+repository = "https://github.com/atahanyorganci/yapc.git"
+readme = "README.md"
+
+[tool.poetry.scripts]
+pdf_tool = "yapc.__main__:cli"
+
+[tool.poetry.dependencies]
+python = "^3.8"
+click = "^8.0.3"
+PyPDF2 = "^1.26.0"
+
+[tool.poetry.dev-dependencies]
+black = "^21.9b0"
+pylint = "^2.11.1"
+isort = "^5.9.3"
+pytest = "^6.2.5"
+pre-commit = "^2.15.0"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.black]
+line-length = 90
+target-version = ['py38']
+include = 'yapc'
+
+[tool.isort]
+profile = "black"
+multi_line_output = 3
+line_length = 90
+
+[tool.pylint.MESSAGE_CONTROL]
+disable = """
+    missing-class-docstring,
+    missing-module-docstring,
+    missing-function-docstring,
+    too-many-instance-attributes,
+    too-few-public-methods,
+    invalid-name,
+"""
+enable = "useless-suppression"
+
+[tool.pylint.REPORTS]
+reports="no"
+
+[tool.pylint.FORMAT]
+max-line-length="90"

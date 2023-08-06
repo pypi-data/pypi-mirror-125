@@ -1,0 +1,23 @@
+Metadata-Version: 2.1
+Name: yapc
+Version: 0.1.1
+Summary: Yet Another PDF CLI
+Home-page: https://github.com/atahanyorganci/yapc.git
+License: BSD-3-Clause
+Author: Atahan Yorgancı
+Author-email: atahanyorganci@hotmail.com
+Requires-Python: >=3.8,<4.0
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Requires-Dist: PyPDF2 (>=1.26.0,<2.0.0)
+Requires-Dist: click (>=8.0.3,<9.0.0)
+Project-URL: Repository, https://github.com/atahanyorganci/yapc.git
+Description-Content-Type: text/markdown
+
+# yapc - Yet Anothet PDF CLI
+
+Yet another CLI tool for interacting with PDFs files.
+
