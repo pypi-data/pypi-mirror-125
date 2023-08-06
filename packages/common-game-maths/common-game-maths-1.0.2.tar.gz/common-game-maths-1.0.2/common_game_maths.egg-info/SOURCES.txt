@@ -1,0 +1,12 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+common_game_maths/Color.py
+common_game_maths/Point.py
+common_game_maths/Vector.py
+common_game_maths/__init__.py
+common_game_maths.egg-info/PKG-INFO
+common_game_maths.egg-info/SOURCES.txt
+common_game_maths.egg-info/dependency_links.txt
+common_game_maths.egg-info/top_level.txt
