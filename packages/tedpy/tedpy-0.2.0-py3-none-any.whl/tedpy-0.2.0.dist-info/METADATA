@@ -1,0 +1,53 @@
+Metadata-Version: 2.1
+Name: tedpy
+Version: 0.2.0
+Summary: Unofficial library for reading from The Energy Detective power meters
+Home-page: https://github.com/rianadon/the-energy-detective-py
+License: Apache-2.0
+Author: rianadon
+Requires-Python: >=3.7,<4.0
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Requires-Dist: httpx (>=0.20.0,<0.21.0)
+Requires-Dist: xmltodict (>=0.12.0,<0.13.0)
+Project-URL: Documentation, https://github.com/rianadon/the-energy-detective-py#readme
+Project-URL: Repository, https://github.com/rianadon/the-energy-detective-py
+Description-Content-Type: text/markdown
+
+# TEDpy
+
+Unofficial library for reading from The Energy Detective power meters
+
+This library supports the TED5000 and TED6000 devices.
+
+It is based on @realumhelp's [ted6000py](https://github.com/realumhelp/ted6000py), Home Assistant's ted5000 implementation, and @gtdiehl and @jesserizzo's [envoy_reader](https://github.com/gtdiehl/envoy_reader/). Also huge thanks to @realumhelp for patching support for consumption/production distinction!
+
+## Usage
+
+```python
+from tedpy import createTED
+
+HOST = 'ted6000'
+
+# Use asyncio to deal with the async methods
+reader = await createTED(HOST)
+await reader.update()
+reader.print_to_console()
+```
+
+## Testing
+
+To print out your energy meter's values, run `poetry run python -m tedpy`.
+
+The module's tests can be run using `poetry run pytest` (make sure you `poetry install` first!).
+
+## Development
+
+1. Install dependencies: `poetry install`
+2. Install pre-commit hooks: `poetry run pre-commit install`
+3. Develop!
+
