@@ -1,0 +1,27 @@
+Metadata-Version: 2.1
+Name: cff
+Version: 1.0.0a0
+Summary: Amazon Web Services CloudFront lambda function bootstraps
+Home-page: https://github.com/cariad/cff
+Author: Cariad Eccleston
+Author-email: cariad@cariad.earth
+License: MIT
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Environment :: Console
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Natural Language :: English
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Topic :: Software Development :: Testing
+Classifier: Topic :: Utilities
+Classifier: Typing :: Typed
+Requires-Python: >=3.9
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# cff
+
+
