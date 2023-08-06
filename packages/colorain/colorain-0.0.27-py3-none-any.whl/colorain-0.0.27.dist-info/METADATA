@@ -1,0 +1,40 @@
+Metadata-Version: 2.1
+Name: colorain
+Version: 0.0.27
+Summary: A simple styling package for making console programmes great again.
+Home-page: https://github.com/susmit31/colorain
+Author: Susmit Islam
+Author-email: <susmitislam31@gmail.com>
+License: UNKNOWN
+Keywords: colour,color,terminal
+Platform: UNKNOWN
+Description-Content-Type: text/markdown
+
+# Colorain v0.0.27
+Ever wondered how people make those console programmes print in pretty colours? Well, the answer is simple: there are ANSI colour codes with which you have to tag up the text. The problem is, the codes are pretty complicated, and so typically people write bland, all-whites console programmes. Colorain is a package that makes printing coloured text to the console a piece of cake. Using a simple markup designed just for colouring text on the terminal, Colorain allows you to quickly add colours to any Python project you might have. There's a few other packages that help you to print colourful text with Python, but none with the ease of use as Colorain.
+
+## Installation
+```
+pip install colorain
+```
+
+## Usage
+Using a very simple markup that kinda looks like HTML, you can easily modify the colour of different parts of some text. The following example is pretty self explanatory. The general syntax is as follows: `<f=C>Text</>` colours the foreground with colour C, i.e. the text, `<b=C>Text</>` colours the background with colour C, and `<f=C1;b=C2>Text</>` or `<b=C2;f=C1>` colours the foreground with C1 and the background with C2. Aside from the markups, there's also some utility wrapper classes if you need to colour some large chunk of text in the same colour. 
+```python
+from colorain import *
+# parses the colour tags and colour-codes the text as needed
+txt = StyledText('<f=y>Okay</>, workin <f=y;b=r>fine</>') 
+
+# prints the coloured text
+print(txt) 
+
+# strips off the colour tags and gives the raw text
+print(txt.raw_text()) 
+
+# we've overloaded the plus operator for you
+# so that you can manipulate your strings just
+# as usual
+print(txt + FGRed("\nOr is it?") + "\n*VSauce background intensifies*")
+```
+
+
