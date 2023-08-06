@@ -1,0 +1,11 @@
+README.md
+pyproject.toml
+setup.py
+src/alda_pipeline/Project.py
+src/alda_pipeline/__init__.py
+src/alda_pipeline/test_int_main.py
+src/alda_pipeline/test_main.py
+src/example_pkg_alda_pipeline.egg-info/PKG-INFO
+src/example_pkg_alda_pipeline.egg-info/SOURCES.txt
+src/example_pkg_alda_pipeline.egg-info/dependency_links.txt
+src/example_pkg_alda_pipeline.egg-info/top_level.txt
