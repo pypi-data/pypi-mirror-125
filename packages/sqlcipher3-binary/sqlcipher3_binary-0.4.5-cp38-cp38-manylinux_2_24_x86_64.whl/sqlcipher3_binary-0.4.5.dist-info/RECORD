@@ -1,0 +1,9 @@
+sqlcipher3_binary.libs/libcrypto-44dc4d8b.so.1.1.1b,sha256=1KU6HqEA7KY2F7x6bT7Ff6zJOMgPnyvWRjpMNo6bpNY,3542352
+sqlcipher3_binary-0.4.5.dist-info/WHEEL,sha256=bQDS2UIU5ysnOurKICB87_FDaf-GAYOeCAZEt2ZU92E,112
+sqlcipher3_binary-0.4.5.dist-info/top_level.txt,sha256=yX35D6lFaO12-KwiILjh4aroPYjrQUOM39v8P8KHhlI,11
+sqlcipher3_binary-0.4.5.dist-info/METADATA,sha256=ZR7BpGQ6reFzYpaiGSsEhx-eYC7hRup0qT7Sc6KY_LY,780
+sqlcipher3_binary-0.4.5.dist-info/RECORD,,
+sqlcipher3_binary-0.4.5.dist-info/LICENSE,sha256=-iPPJQEmVI6QAI_pLeTudtSFv7s1kvW-iqcxd1iSqWA,889
+sqlcipher3/dbapi2.py,sha256=j6XGrnsyYApgHBZMdeKhS-0T6p2SQOR5HE3MpQgmI5Q,2727
+sqlcipher3/_sqlite3.cpython-38-x86_64-linux-gnu.so,sha256=8YHHymkTy-2ZzbILKVS0aGtWkodjEa0u9ne0f-vHCwY,8194088
+sqlcipher3/__init__.py,sha256=Pp-yCXq8PXgC0GoD-roHDu74J0QS_tcCk6o7Qhu7ao4,1020
