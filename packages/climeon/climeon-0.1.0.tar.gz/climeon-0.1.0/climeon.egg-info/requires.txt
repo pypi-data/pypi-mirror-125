@@ -1,0 +1,5 @@
+fastparquet
+matplotlib
+msal
+pandas
+requests
