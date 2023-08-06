@@ -1,0 +1,17 @@
+glimmr/__init__.py,sha256=0M1uimUkQnmZZuMRj5hML3Ar4ttiowRCP-6WHkxC9Go,401
+glimmr/exceptions.py,sha256=QBFEbJnO51op23xRU6dhgSJLYmeJ2dIPdWxpyCRvBn0,492
+glimmr/glimmr.py,sha256=uce0n6ZzbRPPZiwi0tr95w5bok3QxffZ9ekGtyolp0g,11330
+glimmr/models.py,sha256=8kh0KXfjPWEESUz7xHbJ_J1wATVZ6o-kN-XgEH4z3hs,7862
+src/glimmr/__init__.py,sha256=0M1uimUkQnmZZuMRj5hML3Ar4ttiowRCP-6WHkxC9Go,401
+src/glimmr/exceptions.py,sha256=QBFEbJnO51op23xRU6dhgSJLYmeJ2dIPdWxpyCRvBn0,492
+src/glimmr/glimmr.py,sha256=wtS_fnwaN-PhJdmFCQ2_ZQANyQHauqdQPbPaL4Xbb5c,9394
+src/glimmr/models.py,sha256=CLE1WT3LPtmc-JiZVVi63n_T0NcpZC_zPoP_AGitF2A,7058
+tests/__init__.py,sha256=dLxqbefAgRzYjuQHBMmqwMvbuQ9snufpaKa4rrDne7Y,45
+tests/test_glimmr.py,sha256=xyDEzrfvGBpmum1Au4H_pnSoJi7E6acYuaMOCFIjYok,18863
+tests/test_wled.py,sha256=UOWkRa3Zipuu6myCCH1-nQ5HU79Kz7SYayjLcCri7NE,18863
+glimmr-1.1.9.dist-info/LICENSE,sha256=NQ89DP2H5FqlrpoCg9fHKAgep52NYA048hij6y71E5g,1086
+glimmr-1.1.9.dist-info/LICENSE.md,sha256=ehmRaXz5cuvf7O4hhGHdXXlYDsp-0mcIa65vxKsO-Ok,1077
+glimmr-1.1.9.dist-info/METADATA,sha256=-u7EKkpbYV_aRb9933oqlcyzyG1809vhbJLg6WuDSgo,1655
+glimmr-1.1.9.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+glimmr-1.1.9.dist-info/top_level.txt,sha256=gOUXh2nb83bmSOD8WRb4Nr0LmifL7vgtY7SQxB6Lx6E,7
+glimmr-1.1.9.dist-info/RECORD,,
