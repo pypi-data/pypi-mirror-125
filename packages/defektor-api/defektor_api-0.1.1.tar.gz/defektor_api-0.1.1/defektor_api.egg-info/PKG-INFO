@@ -1,0 +1,13 @@
+Metadata-Version: 1.2
+Name: defektor-api
+Version: 0.1.1
+Summary: defektor OpenAPI Specification
+Home-page: UNKNOWN
+Author: OpenAPI Generator community
+Author-email: sob@dei.uc.pt
+License: UNKNOWN
+Description:     defektor controll aplication interface  # noqa: E501
+            
+Keywords: OpenAPI,OpenAPI-Generator,defektor OpenAPI Specification
+Platform: UNKNOWN
+Requires-Python: >=3.6
