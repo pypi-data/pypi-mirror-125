@@ -1,0 +1,3 @@
+[isbnlib.metadata]
+kb = isbnlib_kb:query
+
