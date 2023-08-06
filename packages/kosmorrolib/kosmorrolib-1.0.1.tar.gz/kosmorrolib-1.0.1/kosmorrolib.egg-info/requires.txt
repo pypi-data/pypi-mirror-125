@@ -1,0 +1,4 @@
+skyfield<2.0.0,>=1.21.0
+skyfield-data<4.0.0,>=3.0.0
+numpy<2.0.0,>=1.17.0
+python-dateutil
