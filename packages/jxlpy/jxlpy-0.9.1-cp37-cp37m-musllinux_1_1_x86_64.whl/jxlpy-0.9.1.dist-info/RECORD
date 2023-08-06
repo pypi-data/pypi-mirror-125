@@ -1,0 +1,15 @@
+_jxlpy.cpython-37m-x86_64-linux-gnu.so,sha256=sCWYzEhQMA86IgECcA5OY-1vM9yj9-8aAAxx3F4Ebcw,1028376
+jxlpy/__init__.py,sha256=8UP_UJHs_tbmBZ2DDpBXsK7lkrPB5Y5It6Ti1N25u8k,66
+jxlpy/JXLImagePlugin.py,sha256=gesQzW6PGJhQ08ZXiu3EuveAoegVxn4DGd614KY1GCA,2810
+jxlpy-0.9.1.dist-info/WHEEL,sha256=AwCV1FkWdYpjfcoaK7n6p6fj_Id8GAo6XowTK5Ts_YM,112
+jxlpy-0.9.1.dist-info/top_level.txt,sha256=tsJim8Ae73FKomiqSFdA2YXn_ZIWXRURZ9ir5T5M_nE,13
+jxlpy-0.9.1.dist-info/METADATA,sha256=2fE46bHgfyslF7PR8jTYHRoxVI6gjAMBqdUK5GUa6b8,4210
+jxlpy-0.9.1.dist-info/LICENSE,sha256=BEEKZrL20dqUzo75VW5jVqnoAxXgGA893OvI2O_QA4I,1080
+jxlpy-0.9.1.dist-info/RECORD,,
+jxlpy.libs/libjxl_threads-7d06924e.so.0.6.1,sha256=YCG18vRa0xspdx9hZdVqtGMwb9WfXjsRcZ-iv4PRwbI,39520
+jxlpy.libs/libgcc_s-a04fdf82.so.1,sha256=E2_sw1FhiQZsCQiywTDdBDMlSUsazp7QUYpklMz_w_s,81256
+jxlpy.libs/libbrotlicommon-cc90c157.so.1.0.7,sha256=jQTabRaPA9QCMn2xLXcgb4hsJdSlCnrNvIuo54EL0jQ,143704
+jxlpy.libs/libbrotlidec-4946736b.so.1,sha256=FHm0FkFuFsqW7W2nBpLpSlM5zncLBILAR48X63OV-YQ,70360
+jxlpy.libs/libjxl-cbfad09f.so.0.6.1,sha256=rIY7AgNP4oGjVyv4GkHND0TdYxgFdRN1vo4RSR7n6b4,3707296
+jxlpy.libs/libbrotlienc-697a35a8.so.1,sha256=tCY4t9zOFCWmX2WJbYROQEFOfaZByOwFpgwsg7AZ2jg,684696
+jxlpy.libs/libstdc++-a9383cce.so.6.0.28,sha256=AQF8xpA7y538aY2feICyHGJkLWgDpwHYribC_iWn8Bw,2447392
