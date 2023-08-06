@@ -1,0 +1,7 @@
+license.txt
+setup.py
+ztool/__init__.py
+ztool.egg-info/PKG-INFO
+ztool.egg-info/SOURCES.txt
+ztool.egg-info/dependency_links.txt
+ztool.egg-info/top_level.txt
