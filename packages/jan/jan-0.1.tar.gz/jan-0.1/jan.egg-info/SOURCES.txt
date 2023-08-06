@@ -1,0 +1,8 @@
+setup.py
+jan.egg-info/PKG-INFO
+jan.egg-info/SOURCES.txt
+jan.egg-info/dependency_links.txt
+jan.egg-info/not-zip-safe
+jan.egg-info/top_level.txt
+lili/__main__.py
+lili/utils.py
