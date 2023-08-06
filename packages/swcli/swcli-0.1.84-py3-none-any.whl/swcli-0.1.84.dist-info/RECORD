@@ -1,0 +1,15 @@
+swcli/__init__.py,sha256=LJO_uw28IXJhOMzZ1QMQeITQ6H-xtOv4UI3DsPK1NuU,98
+swcli/films.py,sha256=9Q12Lbl-0-BCwWX0zkxfspNO1aKNlnoPpfVIf0iyXyY,2880
+swcli/models.py,sha256=Z5Pysf2shynqpiufdwNcIHlR0bHwSDfKL_waRhgJ-rw,1670
+swcli/people.py,sha256=3UK1LnslDLrcO6kNUbWJ_pY-len04Pby4bXR_gfwW4M,2912
+swcli/planets.py,sha256=cezvRnA3NyRdrWGz9tXb1cMsC0nrozzLIwajBsFg2pc,2651
+swcli/settings.py,sha256=anfUd3UAe_YSG9qGhdoDDgD4JEk5bjjmNsTds_e3fv0,241
+swcli/species.py,sha256=kP3XAQVh_My-hKcJ_8Ho3xahOXUtTonaBBliwHwk1rI,2898
+swcli/starships.py,sha256=72zIE8KXw2SF69zvfRH8JZzQnjiQx9iD8oNboJ3DIW8,3135
+swcli/swcli.py,sha256=WLw7K7mb7rGEvb0yndpnFloPYOt_UC1tBB4cqsaF_HI,2967
+swcli/utils.py,sha256=-FV5Bz_Ynbf3RDQ_TbaOKD_vkMx5hkykRVWIDqM4d70,230
+swcli/vehicles.py,sha256=pJ5EPCHnYvr1nnA77XO95ut5IVVbyjOybHxjxSg-4_M,2906
+swcli-0.1.84.dist-info/entry_points.txt,sha256=dIXlMBpv_lY52gVTZBjrEEFSIcDkWN5MeWgmiPRzvlw,42
+swcli-0.1.84.dist-info/WHEEL,sha256=y3eDiaFVSNTPbgzfNn0nYn5tEn1cX6WrdetDlQM4xWw,83
+swcli-0.1.84.dist-info/METADATA,sha256=JPI90HXpWbGtTxSxxkuHIIO69H7SBb0xOcg5t-fXqNM,543
+swcli-0.1.84.dist-info/RECORD,,
