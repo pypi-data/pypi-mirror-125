@@ -1,0 +1,10 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+src/serialiJSON/__init__.py
+src/serialiJSON/serialiJSON.py
+src/serialiJSON.egg-info/PKG-INFO
+src/serialiJSON.egg-info/SOURCES.txt
+src/serialiJSON.egg-info/dependency_links.txt
+src/serialiJSON.egg-info/top_level.txt
