@@ -1,0 +1,8 @@
+LICENSE
+README.md
+setup.py
+setup_logger.py
+overboard_logger.egg-info/PKG-INFO
+overboard_logger.egg-info/SOURCES.txt
+overboard_logger.egg-info/dependency_links.txt
+overboard_logger.egg-info/top_level.txt
