@@ -1,0 +1,2 @@
+django_rest_admin
+django_rest_admin_test
