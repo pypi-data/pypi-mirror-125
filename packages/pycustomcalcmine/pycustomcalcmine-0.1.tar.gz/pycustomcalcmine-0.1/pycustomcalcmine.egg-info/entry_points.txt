@@ -1,0 +1,3 @@
+[console_scripts]
+calc = pycustomcalcmine.app:start_app
+
