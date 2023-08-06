@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: streamlit_stepper_bar
+Version: 0.0.2
+Summary: A MaterialUI stepper bar based for Streamlit.
+Home-page: https://github.com/BionomeeX/streamlit-stepper-bar
+Author: Hadarak
+License: MIT
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+UNKNOWN
+
