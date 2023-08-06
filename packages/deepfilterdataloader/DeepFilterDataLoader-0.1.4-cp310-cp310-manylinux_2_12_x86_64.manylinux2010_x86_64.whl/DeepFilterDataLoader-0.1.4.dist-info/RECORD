@@ -1,0 +1,9 @@
+DeepFilterDataLoader-0.1.4.dist-info/WHEEL,sha256=xE4cV_UsrD-oFdZ5hNu3T6N5fWfUtK3R7ea3TzjRy74,148
+DeepFilterDataLoader-0.1.4.dist-info/METADATA,sha256=rIqqvuuwZwyXEAy2TN3iM-Jz6YR95NlhGQyf-CqMSP4,323
+DeepFilterDataLoader-0.1.4.dist-info/RECORD,,
+libdfdata/__init__.py,sha256=0_yStsJtzR7MbesW6MH7jM4kb3Oitl4EwLVIh_PsHyc,199
+libdfdata/torch_dataloader.py,sha256=8cT2jFCP0WkvW_SDVdQnhxu7oRrcOU-Yec1ON6qJ4d4,9127
+libdfdata/libdfdata.cpython-310-x86_64-linux-gnu.so,sha256=E_nziqzAdItPQKCoilprKy9SwnteJv3Cnp1eOzYYh7I,2348016
+DeepFilterDataLoader.libs/libaec-9c9e97eb.so.0.0.10,sha256=00fJrQvyEz3nmFC9A-CrEYWhvDycTXQ1IHs9FGiGtU0,127816
+DeepFilterDataLoader.libs/libhdf5-346dbfc8.so.200.1.0,sha256=KGNq-naOihwB2I5h0zGA4W4ypgRfIkTAk7uqfiwM5og,4913464
+DeepFilterDataLoader.libs/libsz-090daab4.so.2.0.1,sha256=-pYPuh-RJVXMtGwuNDzGr-GacC-te7n49Wig8TL-H7o,33128
