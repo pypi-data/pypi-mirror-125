@@ -1,0 +1,10 @@
+kawadi/__init__.py,sha256=Oun-263uD6YDFuz3MhA-WRlHp7yIZR6wNxg2jUANKPQ,278
+kawadi/_repo_version.py,sha256=zWVHf3DqIS6sYe780DU38lmTH_EXQUcBK32nOsBO7ao,18
+kawadi/cli.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+kawadi/text_search.py,sha256=qVvClmztVlETkTIvw2ru9wE8q52x8dhbrKNP7Sa7Ra4,8863
+kawadi-0.0.2.dist-info/LICENSE,sha256=dtysJ97_A2b51lG0K4k-vX3yauNrdz0UC7m9B5jFoME,1066
+kawadi-0.0.2.dist-info/METADATA,sha256=4GbNRMhiYBSv3nh1KHQBd6xYy1kBii-UO_VpQ7fMDL8,4925
+kawadi-0.0.2.dist-info/WHEEL,sha256=WzZ8cwjh8l0jtULNjYq1Hpr-WCqCRgPr--TX4P5I1Wo,110
+kawadi-0.0.2.dist-info/entry_points.txt,sha256=71CD2NPopdy9-zoeznyQsmIngBTtaEKOgbdehmAh3m4,50
+kawadi-0.0.2.dist-info/top_level.txt,sha256=DQvKJjoLHyJqKuzCDiqGc9EQHXRi5EohtpVIfeghbcI,7
+kawadi-0.0.2.dist-info/RECORD,,
