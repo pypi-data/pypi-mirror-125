@@ -1,0 +1,9 @@
+
+[dev]
+build>=0.7.0
+twine>=3.4.2
+coverage>=6.0.2
+pre-commit>=2.15
+pytest>=6.2
+tox>=3.24
+tox-pyenv>=1.1.0
