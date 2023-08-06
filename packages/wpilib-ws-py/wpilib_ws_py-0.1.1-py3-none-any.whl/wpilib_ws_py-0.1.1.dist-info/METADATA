@@ -1,0 +1,23 @@
+Metadata-Version: 2.1
+Name: wpilib-ws-py
+Version: 0.1.1
+Summary: An implementation of the WPILib WebSocket protocol for Python
+Home-page: https://github.com/AM2i9/wpilib-ws-py
+License: MIT
+Keywords: wpilib,websocket
+Author: Patrick Brennan (AM2i9)
+Requires-Python: >=3.9,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.9
+Requires-Dist: aiohttp (>=3.7.4,<4.0.0)
+Project-URL: Repository, https://github.com/AM2i9/wpilib-ws-py
+Description-Content-Type: text/markdown
+
+# wpilib-ws-py
+## An implementation of the WPILib WebSocket protocol for Python3
+
+This library is an implementation of the WPILib simulation WebSocket, used for controlling non-frc hardware using WPILib. The specification of this protocol is found [here](https://github.com/wpilibsuite/allwpilib/blob/main/simulation/halsim_ws_core/doc/hardware_ws_api.md).
+
+[Example Sever Usage](tests/examples/demo_server.py)
