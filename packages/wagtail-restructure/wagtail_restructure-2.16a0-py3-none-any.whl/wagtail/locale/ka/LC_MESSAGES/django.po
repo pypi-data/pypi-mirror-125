@@ -1,0 +1,220 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+#
+# Translators:
+# André Bouatchidzé <a@anbz.net>, 2015
+#, fuzzy
+msgid ""
+msgstr ""
+"#-#-#-#-#  django.po (Wagtail)  #-#-#-#-#\n"
+"Project-Id-Version: Wagtail\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-10-15 17:42+0100\n"
+"PO-Revision-Date: 2021-10-15 16:43+0000\n"
+"Last-Translator: Matt Westcott <matthew@torchbox.com>\n"
+"Language-Team: Georgian (http://www.transifex.com/torchbox/wagtail/language/"
+"ka/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: ka\n"
+"Plural-Forms: nplurals=2; plural=(n!=1);\n"
+"#-#-#-#-#  django.po (Wagtail)  #-#-#-#-#\n"
+"#-#-#-#-#  django.po (Wagtail)  #-#-#-#-#\n"
+"Project-Id-Version: Wagtail\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-10-15 17:42+0100\n"
+"PO-Revision-Date: 2021-10-15 16:43+0000\n"
+"Last-Translator: Matt Westcott <matthew@torchbox.com>\n"
+"Language-Team: Georgian (http://www.transifex.com/torchbox/wagtail/language/"
+"ka/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: ka\n"
+"Plural-Forms: nplurals=2; plural=(n!=1);\n"
+"#-#-#-#-#  django.po (Wagtail)  #-#-#-#-#\n"
+"#-#-#-#-#  django.po (Wagtail)  #-#-#-#-#\n"
+"Project-Id-Version: Wagtail\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-10-15 17:42+0100\n"
+"PO-Revision-Date: 2021-10-15 16:43+0000\n"
+"Last-Translator: André Bouatchidzé <a@anbz.net>\n"
+"Language-Team: Georgian (http://www.transifex.com/torchbox/wagtail/language/"
+"ka/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: ka\n"
+"Plural-Forms: nplurals=2; plural=(n!=1);\n"
+"#-#-#-#-#  django.po (Wagtail)  #-#-#-#-#\n"
+"Project-Id-Version: Wagtail\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-10-15 17:42+0100\n"
+"PO-Revision-Date: 2021-10-15 16:43+0000\n"
+"Last-Translator: Matt Westcott <matthew@torchbox.com>\n"
+"Language-Team: Georgian (http://www.transifex.com/torchbox/wagtail/language/"
+"ka/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: ka\n"
+"Plural-Forms: nplurals=2; plural=(n!=1);\n"
+
+msgid "Sites"
+msgstr "საიტები"
+
+msgid "Site"
+msgstr "საიტი"
+
+msgid "Email"
+msgstr "ელფოსტა"
+
+msgid "First Name"
+msgstr "სახელი"
+
+msgid "Last Name"
+msgstr "გვარი"
+
+msgid "Password"
+msgstr "პაროლი"
+
+msgid "Administrator"
+msgstr "ადმინისტრატორი"
+
+msgid "Delete"
+msgstr "წაშლა"
+
+msgid "Delete group"
+msgstr "ჯგუფის წაშლა"
+
+msgid "Add group"
+msgstr "ჯგუფის დამატება"
+
+msgid "Save"
+msgstr "შენახვა"
+
+msgid "Add"
+msgstr "დამატება"
+
+msgid "Change"
+msgstr "შეცვლა"
+
+msgid "Page"
+msgstr "გვერდი"
+
+msgid "groups"
+msgstr "ჯგუფები"
+
+msgid "Account"
+msgstr "ანგარიში"
+
+msgid "Roles"
+msgstr "როლები"
+
+msgid "Users"
+msgstr "მომხმარებლები"
+
+msgid "Add a user"
+msgstr "მომხმარებლის დამატება"
+
+msgid "Status"
+msgstr "სტატუსი"
+
+msgid "Active"
+msgstr "აქტიური"
+
+msgid "Groups"
+msgstr "ჯგუფები"
+
+msgid "Edit"
+msgstr "რედაქტირება"
+
+msgid "Publish"
+msgstr "გამოქვეყნება"
+
+msgid "Content"
+msgstr "შიგთავსი"
+
+msgid "Enter password"
+msgstr "შეიყვანეთ პაროლი"
+
+#, python-format
+msgid "Enter your %s"
+msgstr "შეიყვანეთ თქვენი %s"
+
+msgid "New title"
+msgstr "ახალი სათაური"
+
+msgid "Search"
+msgstr "ძიება"
+
+msgid "Search term"
+msgstr "ძიების ტერმინი"
+
+msgid "Reset password"
+msgstr "პაროლის აღდგენა"
+
+msgid "Login"
+msgstr "შესვლა"
+
+msgid "Check your email"
+msgstr "შეამოწმეთ თქვენი ელფოსტა"
+
+msgid "Menu"
+msgstr "მენიუ"
+
+msgid "Internal link"
+msgstr "შიდა ბმული"
+
+msgid "Title"
+msgstr "სათაური"
+
+msgid "Edit this page"
+msgstr "ამ გვერდის რედაქტირება"
+
+msgid "Type"
+msgstr "ტიპი"
+
+msgid "Date"
+msgstr "თარიღი"
+
+msgid "You can view the page here:"
+msgstr "გვერდის ნახვა შეგიძლიათ აქ:"
+
+msgid "You can edit the page here:"
+msgstr "გვერდის რესქტირება შეგიძლიათ აქ:"
+
+msgid "Copy"
+msgstr "კოპირება"
+
+msgid "New"
+msgstr "ახალი"
+
+msgid "User"
+msgstr "მომხმარებელი"
+
+msgid "Previous"
+msgstr "წინა"
+
+msgid "Next"
+msgstr "შემდეგი"
+
+msgid "Log out"
+msgstr "გამოსვლა"
+
+msgid "Choose another page"
+msgstr "სხვა გვერდის არჩევა"
+
+msgid "page"
+msgstr "გვერდი"
+
+msgid "pages"
+msgstr "გვერდები"
+
+msgid "site"
+msgstr "საიტი"
+
+msgid "sites"
+msgstr "საიტები"
