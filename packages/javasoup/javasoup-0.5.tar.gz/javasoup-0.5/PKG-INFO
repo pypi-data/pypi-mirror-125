@@ -1,0 +1,20 @@
+Metadata-Version: 1.1
+Name: javasoup
+Version: 0.5
+Summary: Simple python library that uses puppeteer to pull HTML from a loaded SPA (REQUIRES NODE, NPM, AND PUPPETEER)
+Home-page: https://github.com/R-s0n/javasoup
+Author: rs0n
+Author-email: rs0n.evolv3@gmail.com
+License: MIT
+Download-URL: https://github.com/R-s0n/javasoup/archive/refs/tags/v_01.tar.gz
+Description: UNKNOWN
+Keywords: webscraping,beautifulsoup,soup
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Build Tools
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
