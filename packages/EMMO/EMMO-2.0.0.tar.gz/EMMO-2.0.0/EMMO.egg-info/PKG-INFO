@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: EMMO
+Version: 2.0.0
+Summary: Python reference API for the Europeean Materials & Modelling Ontology
+Home-page: https://github.com/emmo-repo/EMMO-python
+Author: Jesper Friis, Francesca Lønstad Bleken, Bjørn Tore Løvfall
+Author-email: jesper.friis@sintef.no
+License: BSD
+Platform: UNKNOWN
+Classifier: Development Status :: 7 - Inactive
+Requires-Python: >=3.6.0
+Description-Content-Type: text/markdown
+License-File: LICENSE.txt
+
+Use [`EMMOntoPy`](https://pypi.org/project/EMMOntoPy) instead.
+
