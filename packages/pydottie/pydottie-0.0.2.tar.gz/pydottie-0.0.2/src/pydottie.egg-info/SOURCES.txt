@@ -1,0 +1,16 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+src/pydottie/__init__.py
+src/pydottie/exists.py
+src/pydottie/find.py
+src/pydottie/flatten.py
+src/pydottie/get.py
+src/pydottie/paths.py
+src/pydottie/set_value.py
+src/pydottie/transform.py
+src/pydottie.egg-info/PKG-INFO
+src/pydottie.egg-info/SOURCES.txt
+src/pydottie.egg-info/dependency_links.txt
+src/pydottie.egg-info/top_level.txt
