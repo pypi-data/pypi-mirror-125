@@ -1,0 +1,35 @@
+Metadata-Version: 2.1
+Name: counterfactual
+Version: 0.0.1
+Summary: This project is a framework for counterfactual analysis
+Home-page: https://gitlab.tools.eu.pvh.cloud/abi/data-science/performance-marketing/tyche-activation-testing-framework/tree/master
+Author: Luigi Brioschi
+Author-email: luigibrioschi@pvh.com
+License: Apache Software License 2.0
+Keywords: counterfactual analysis causal impact
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Natural Language :: English
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: License :: OSI Approved :: Apache Software License
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+Provides-Extra: dev
+
+# Project Template
+> A sample project showing how to use `nbdev` and log tensorflow models to MLflow.
+
+
+```
+import sys
+sys.path.append("..")
+```
+
+## Install
+
+`pip install tyche`
+
+
