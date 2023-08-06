@@ -1,0 +1,8 @@
+numpy
+scipy
+h5py
+meshio
+
+[all]
+numba
+sparse
