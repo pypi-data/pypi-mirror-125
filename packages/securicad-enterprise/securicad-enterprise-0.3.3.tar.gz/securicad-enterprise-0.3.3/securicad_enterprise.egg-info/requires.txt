@@ -1,0 +1,14 @@
+requests
+securicad-model<0.1.0
+
+[dev]
+black
+build
+coverage
+isort
+mypy
+pylint
+pytest
+securicad-aws-collector
+twine
+types-requests
