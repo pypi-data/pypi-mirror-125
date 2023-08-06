@@ -1,0 +1,3 @@
+trytond_stock_supply<6.3,>=6.2
+trytond_stock_forecast<6.3,>=6.2
+trytond<6.3,>=6.2
