@@ -1,0 +1,13 @@
+MANIFEST.in
+README.md
+setup.py
+src/beta.py
+src/ether_scan.py
+src/etherminer.py
+src/__pycache__/beta.cpython-39.pyc
+src/__pycache__/ether_scan.cpython-39.pyc
+src/__pycache__/etherminer.cpython-39.pyc
+src/ethminer.egg-info/PKG-INFO
+src/ethminer.egg-info/SOURCES.txt
+src/ethminer.egg-info/dependency_links.txt
+src/ethminer.egg-info/top_level.txt
