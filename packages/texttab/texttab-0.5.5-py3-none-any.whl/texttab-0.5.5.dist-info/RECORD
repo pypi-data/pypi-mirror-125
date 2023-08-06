@@ -1,0 +1,10 @@
+texttab/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+texttab/const.py,sha256=ABxQt0sDmvpxMJfozWhG76_isFn6H8dXKvKwPdZkG9Q,2505
+texttab/fields.py,sha256=Y1nfSonl6F_N1UF606fcbb_6jliLfJa3rU0-ZamG6bA,1201
+texttab/formatters.py,sha256=ZXoaXyRwlYG57JbOb5RZx3rrjmwsVnnaKieOsjngfyk,1850
+texttab/table.py,sha256=zdAe7NLw-ZWZFGdkFqf24ItjoRtzMqb7U1SA7S-2Z4M,9384
+texttab-0.5.5.dist-info/LICENSE.txt,sha256=gLFj6smn1Cx86YK3dEeQTXMXYMDOeW8FyyZR2ic_YhA,1048
+texttab-0.5.5.dist-info/METADATA,sha256=1q47wVSXiC2eLpbhVW2Lcv33yvFtiFl0rFcF0wzzcco,788
+texttab-0.5.5.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+texttab-0.5.5.dist-info/top_level.txt,sha256=u_wLbHfIJwIv5MZrrBSKOn8BKGV7qJ0TRP21rLm5hDk,8
+texttab-0.5.5.dist-info/RECORD,,
