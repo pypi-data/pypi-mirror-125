@@ -1,0 +1,11 @@
+pyelftools
+jsonschema
+clingo
+six
+
+[all]
+pyelftools
+jsonschema
+clingo
+six
+pytest>=4.6.2
