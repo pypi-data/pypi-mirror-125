@@ -1,0 +1,11 @@
+numpy
+matplotlib
+scipy
+pandas
+pytest
+unittest
+
+[testing]
+pytest>=6.0
+tox>=3.24
+unittest
