@@ -1,0 +1,14 @@
+isort
+cython
+mypy
+click
+click-log
+pomegranate
+pandas
+numpy
+matplotlib
+pysam
+progress
+construct
+pathos
+ssw
