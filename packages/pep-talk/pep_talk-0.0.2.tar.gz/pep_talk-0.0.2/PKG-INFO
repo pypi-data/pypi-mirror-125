@@ -1,0 +1,47 @@
+Metadata-Version: 2.1
+Name: pep_talk
+Version: 0.0.2
+Summary: Get a little bit of a boost today.
+Home-page: https://github.com/chrishannam/pep-talk
+Author: Chris Hannam
+Author-email: ch@chrishannam.co.uk
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# Pep Talk!
+A little library to give your day a little pep!
+
+# Install
+
+```bash
+$ pip install pep-talk
+```
+
+# Running
+
+```bash
+$ pep-talk 
+Okay, listen up: the way you roll deserves the Nobel Prize, period.
+```
+
+## Colour Options
+This module uses the `colored` module from [https://pypi.org/project/colored/](https://pypi.org/project/colored/).
+Check the link to see the colour options.
+
+To enable the colour features, use the following:
+```bash
+--fg Foreground colour
+--bg Background colour
+--attr Text attributes, bold etc.
+```
+
+```python
+$ pep-talk --bg black --fg green --attr bold
+```
+
+
