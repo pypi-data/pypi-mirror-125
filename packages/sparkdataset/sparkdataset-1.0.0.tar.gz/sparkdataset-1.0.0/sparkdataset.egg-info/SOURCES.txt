@@ -1,0 +1,16 @@
+LICENSE
+README.md
+setup.py
+sparkdataset/__init__.py
+sparkdataset/datasets_handler.py
+sparkdataset/dump_data.py
+sparkdataset/locate_datasets.py
+sparkdataset/resources.tar.gz
+sparkdataset/support.py
+sparkdataset.egg-info/PKG-INFO
+sparkdataset.egg-info/SOURCES.txt
+sparkdataset.egg-info/dependency_links.txt
+sparkdataset.egg-info/requires.txt
+sparkdataset.egg-info/top_level.txt
+sparkdataset/utils/__init__.py
+sparkdataset/utils/html2text.py
