@@ -1,0 +1,8 @@
+LICENSE.txt
+README.md
+setup.py
+physics/__init__.py
+physics_equations.egg-info/PKG-INFO
+physics_equations.egg-info/SOURCES.txt
+physics_equations.egg-info/dependency_links.txt
+physics_equations.egg-info/top_level.txt
