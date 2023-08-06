@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: multiuserfilelock
+Version: 0.0.2
+Summary: UNKNOWN
+Home-page: https://github.com/ramonaoptics/multiuserfilelock
+Author: Ramona Optics, Inc.
+Author-email: info@ramonaoptics.com
+License: BSD
+Platform: UNKNOWN
+Requires-Python: >=3.7
+License-File: LICENSE
+
+UNKNOWN
+
