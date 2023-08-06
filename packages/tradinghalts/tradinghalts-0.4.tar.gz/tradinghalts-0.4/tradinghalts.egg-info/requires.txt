@@ -1,0 +1,9 @@
+datetime
+pandas
+python-firebase
+firebase
+python_jwt
+gcloud
+sseclient
+pycryptodome
+requests_toolbelt
