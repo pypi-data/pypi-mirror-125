@@ -1,0 +1,3 @@
+sqlalchemy
+json5
+pymysql
