@@ -1,0 +1,11 @@
+README.md
+setup.py
+companyClassifier/__init__.py
+companyClassifier/companyClassifier.py
+companyClassifier.egg-info/PKG-INFO
+companyClassifier.egg-info/SOURCES.txt
+companyClassifier.egg-info/dependency_links.txt
+companyClassifier.egg-info/requires.txt
+companyClassifier.egg-info/top_level.txt
+test/test_pandas.py
+test/test_text.py
