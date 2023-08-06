@@ -1,0 +1,9 @@
+triecli.py,sha256=JCkGjZ2vHT1qU7KFD9-ANs1_1q_RTM4f4dh9Kh-LKeU,1887
+cli/__init__.py,sha256=oziXOdgJvsQStKfKMDgRiS7PpBKIVr5V0XcCnzYbdrU,37
+cli/trie_nathaniel.py,sha256=_KwXyAAFqZdLZQ5ftFXjqBvwtKR5DA52SGfI0oOjRbw,300
+trie_nathaniel-0.0.5.dist-info/LICENSE.txt,sha256=d7J_4OEkM9CjTPj1st3q3e2Gq2dwfx3d4OMb2MlER6U,1073
+trie_nathaniel-0.0.5.dist-info/METADATA,sha256=MQMs02SIHMBeKEOL6vTNPDCUUNkYizR9CcHElMFRxrM,4938
+trie_nathaniel-0.0.5.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+trie_nathaniel-0.0.5.dist-info/entry_points.txt,sha256=dafiYSkTMOfzFSHMDB06XHTkx1uOgy3Gh0_-hW3CF9A,41
+trie_nathaniel-0.0.5.dist-info/top_level.txt,sha256=XZDOGmH29LTB2YftGpnF9wXO-FLSovQMD5sOm1sdlrQ,12
+trie_nathaniel-0.0.5.dist-info/RECORD,,
