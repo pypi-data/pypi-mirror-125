@@ -1,0 +1,21 @@
+Metadata-Version: 2.1
+Name: UmbrellaReminder
+Version: 0.0.1
+Summary: This package contains methods that scrape weather data using Python and sends umbrella reminders to specified email at specified time daily. If the weather condition is rainy or cloudy it will send you an "umbrella reminder" to your email reminding you to pack an umbrella before leaving the house. This package scrapes weather information from Google using bs4 and requests libraries in python. 
+Home-page: https://github.com/VinayEdula/UmbrellaReminder
+Author: Edula Vinay Kumar Reddy
+License: UNKNOWN
+Keywords: weather,Reminder,scraping,Rain Reminder,Umbrella Reminder,Weather Reminder
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+Requires-Dist: requests
+Requires-Dist: schedule
+Requires-Dist: beautifulsoup4
+
+UNKNOWN
+
+
