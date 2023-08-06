@@ -1,0 +1,81 @@
+Metadata-Version: 2.1
+Name: curses_utils
+Version: 0.0.2
+Summary: Simple curses utilities
+Home-page: https://github.com/KinuTheDragon/CursesUtils
+Author: Logan Goldberg
+Author-email: logangoldberg@hvrsd.org
+License: UNKNOWN
+Description: # CursesUtils
+        ## Functions
+        `menu.menu(stdscr, title, options)`
+        
+        Pulls up a select menu.
+        
+        * `stdscr`:  The screen to write to.
+        * `title`:   The title of the menu.
+        * `options`: A collection of strings to choose from.
+        
+        Returns the index of the selected item, or None if the user chooses to quit.
+        
+        `number_select.number_select(stdscr, title, num_range, start = None)`
+        
+        Pulls up a number selection menu.
+        
+        * `stdscr`:    The screen to write to.
+        * `title`:     The title of the selection.
+        * `num_range`: A range object for valid numbers.
+        * `start`:     The starting selected number. Defaults to `num_range`'s min value.
+        
+        Returns the number selected, or None if the user chooses to quit.
+        
+        `remap_keys.set_key_codes(key_name, key_codes)`
+        
+        Sets a key's function by name.
+        
+        * `key_name`:  The key name to set.
+        * `key_codes`: A collection of key codes (as returned by `stdscr.getkey()`) to use.
+        
+        Make sure to set keys before using them!
+        Internally, CursesUtils uses the following keys:
+        * `menu_up` (for navigating UP through menus)
+        * `menu_down` (for navigating DOWN through menus)
+        * `menu_confirm` (for CONFIRMING on menus)
+        * `menu_cancel` (for QUITTING on menus)
+        
+        `remap_keys.get_key_codes(key_name)`
+        
+        Gets a key's codes by name.
+        
+        * `key_name`: The key name to get the codes of.
+        
+        Returns the key codes of the given key, or None if it doesn't exist. See set_key_codes for more information.
+        
+        `remap_keys.get_next_key(stdscr)`
+        
+        Gets the next key and saves it.
+        
+        * `stdscr`: The screen to write to.
+        
+        `remap_keys.get_current_key()`
+        
+        Gets the current pressed key.
+        
+        `remap_keys.is_pressed(key_name)`
+        
+        Checks if the given key is the current pressed key by name.
+        
+        * `key_name`: The key name to check.
+        
+        `wrapper.wrapper(func)`
+        
+        Wraps a function to set up and shut down, also wrapping using `curses.wrapper`.
+        
+        * `func`: The function to wrap.
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: Environment :: Console :: Curses
+Classifier: Intended Audience :: Developers
+Classifier: License :: Freely Distributable
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
