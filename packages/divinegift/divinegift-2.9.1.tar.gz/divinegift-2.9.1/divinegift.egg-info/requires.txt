@@ -1,0 +1,7 @@
+requests
+mailer
+deprecation
+cryptography
+pyyaml>=5.1
+python-dateutil
+easydict
