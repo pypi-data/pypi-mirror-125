@@ -1,0 +1,11 @@
+galaxy-app
+galaxy-data
+galaxy-test-base
+galaxy-tool-util
+galaxy-util
+galaxy-webapps
+galaxy-web-framework
+nose
+pytest
+pyyaml
+six
