@@ -1,0 +1,10 @@
+pysle/__init__.py,sha256=n6bugOP3pGyUAigEWnLCPN0CCKrlQEidLzwdgU84vmg,1279
+pysle/isletool.py,sha256=kibG107sjnxGy2F_JJ-oPsJf-hiahLD1SDa6uWu7w9Y,18800
+pysle/praattools.py,sha256=f9M86L4AS2Ay_WW8KLgCx5asWAlVNW7Ur16KhiS_PNM,14493
+pysle/pronunciationtools.py,sha256=5ZyBQ0KUrBmpAprDBIGEbXQYwgwDZP3gFEsSrwn5wtA,13284
+pysle/data/ISLEdict.txt,sha256=2Wiy_XU01oFzcutHbjltTCTlVROa1T4nevjPpyfHXEM,13662140
+pysle-3.0.2.dist-info/LICENSE,sha256=Y81BY1QCQh4jPuXBJ2Ift_t00cx0yDyNIhFa_uhMM94,1360
+pysle-3.0.2.dist-info/METADATA,sha256=qzV4HrMeVszOzGJQXTxA_O8OvGmi3CByoeuJwGKZmcs,5988
+pysle-3.0.2.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+pysle-3.0.2.dist-info/top_level.txt,sha256=XMVSceua-krNirDmDnyvnxx2PVueEjp4RNuWg_jJ-VA,6
+pysle-3.0.2.dist-info/RECORD,,
