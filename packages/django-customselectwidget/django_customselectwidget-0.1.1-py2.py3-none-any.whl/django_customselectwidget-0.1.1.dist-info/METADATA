@@ -1,0 +1,159 @@
+Metadata-Version: 2.1
+Name: django-customselectwidget
+Version: 0.1.1
+Summary: Django Custom select widget
+Home-page: https://github.com/hisham2k9/django-customselectwidget
+Author: Sayed Hisham
+Author-email: hisham2k9@gmail.com
+License: LGPL 3
+Keywords: django,custom,select,field,choices,widget
+Platform: UNKNOWN
+Classifier: Framework :: Django
+Classifier: License :: OSI Approved :: GNU Library or Lesser General Public License (LGPL)
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+License-File: LICENSE
+Requires-Dist: django (>=2.0)
+
+django-CustomSelectWidget
+
+=======================
+
+
+
+This is a custom Select Widget for django forms and modelforms. This widget will enable you to have a select field in HTML that can take free text value along with a limited
+
+select options. the selectable option can be selected by user or if need be, the user can type their own free text in the field. This widget works with django.forms.CharField.ChildProcessError
+
+
+
+
+
+
+
+Supported Python versions:  3.4+
+
+
+
+Supported Django versions: 2.0+
+
+
+
+Installation
+
+============
+
+
+
+
+
+Install with pip
+
+----------------
+
+
+
+.. code-block:: bash
+
+
+
+    $ pip install django-CustomSelectWidget
+
+
+
+Configure your models.py or forms.py
+
+-------------------------------------
+
+
+
+.. code-block:: python
+
+
+
+    from django.forms.models import ModelForm
+
+    from customselectwidget.customselectwidget import CustomSelectWidget
+
+    from django import forms
+
+
+
+    # ...
+
+
+
+    
+
+    class MyModelForm(ModelForm):
+
+
+
+        # .....
+
+        my_field=forms.CharField(required=False,max_length=200, label='Please select your task')
+
+        def __init__(self, *args, **kwargs):
+
+            _type_list = kwargs.pop('data_list', None)
+
+            super(MyModelForm, self).__init__(*args, **kwargs)
+
+            # the "name" parameter will allow you to use the same widget more than once in the same
+
+            # form, not setting this parameter differently will cuse all inputs display the
+
+            # same list.
+
+            self.fields['my_field'].widget = CustomSelectWidget(data_list=['option 1','option 2','option 3'], name='type-list')
+
+    
+
+
+
+
+
+In your settings.py
+
+-------------------
+
+
+
+
+
+
+
+.. code-block:: python
+
+
+
+    INSTALLED_APPS = (
+
+        'django.contrib.auth',
+
+        'django.contrib.contenttypes',
+
+        'django.contrib.sessions',
+
+        'django.contrib.sites',
+
+        'django.contrib.admin',
+
+
+
+        #.....................#
+
+
+
+        'customselectwidget',
+
+    )
+
+
+
+
+
+
+
+
+
