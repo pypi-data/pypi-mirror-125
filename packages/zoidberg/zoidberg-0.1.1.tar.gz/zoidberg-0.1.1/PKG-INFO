@@ -1,0 +1,36 @@
+Metadata-Version: 2.1
+Name: zoidberg
+Version: 0.1.1
+Summary: Generate flux-coordinate independent (FCI) grids for BOUT++
+Home-page: https://github.com/boutproject/zoidberg
+Author: Peter Hill
+Author-email: peter.hill@york.ac.uk
+License: UNKNOWN
+Project-URL: Bug Tracker, https://github.com/boutproject/zoidberg/issues/
+Project-URL: Documentation, https://bout-dev.readthedocs.io/en/latest/
+Project-URL: Source Code, https://github.com/boutproject/zoidberg/
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Science/Research
+Classifier: Intended Audience :: Education
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: GNU Lesser General Public License v3 or later (LGPLv3+)
+Classifier: Natural Language :: English
+Classifier: Operating System :: POSIX :: Linux
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Topic :: Scientific/Engineering :: Visualization
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# Zoidberg: Flux-Coordinate Independent Grid Generator for BOUT++
+
+Zoidberg is a tool for generating grids for BOUT++ when using the
+Flux-Coordinate Independent (FCI) method of evaluating derivative
+parallel to a magnetic field.
+
+
