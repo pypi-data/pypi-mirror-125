@@ -1,0 +1,8 @@
+daacla/__init__.py,sha256=_aVVh42WhXCv2l4Q6Q2JbuHYcH_kTQU5U3i8VkKQ_h4,5920
+tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/test_decorator.py,sha256=pmapdnX56TumWkGVKZ8-1awtIvABkr9xsLmr5p1X6FI,2627
+daacla-0.0.4.dist-info/LICENSE,sha256=zZ2n7SWRXyUZmkPQFSMRGneOOW4pBIHGTgLfVMN8Ua0,1050
+daacla-0.0.4.dist-info/METADATA,sha256=JPn00YZs5F1L2AvM519wpOTKJK76VXOv65Qfb4xTJVw,571
+daacla-0.0.4.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+daacla-0.0.4.dist-info/top_level.txt,sha256=lw0O5ckk-T9pxDUFQM78npOtkVa5gmqSukQGrHG1-L4,13
+daacla-0.0.4.dist-info/RECORD,,
