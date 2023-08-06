@@ -1,0 +1,9 @@
+Metadata-Version: 2.1
+Name: aurcore
+Version: 1.2.16
+Summary: Aurcore!
+Author: Zenith
+Author-email: z@zenith.dev
+Requires-Python: >=3.10
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
