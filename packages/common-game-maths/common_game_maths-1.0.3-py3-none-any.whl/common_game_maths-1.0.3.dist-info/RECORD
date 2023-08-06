@@ -1,0 +1,9 @@
+common_game_maths/Color.py,sha256=JFjbjYcBEKGq5OefwsqLz7weIlO6noCWy3u8DF48QpU,599
+common_game_maths/Point.py,sha256=xlfTE68hpb-y68o60sPIfrYuZ27eUUfv4jSUVCngvKU,571
+common_game_maths/Vector.py,sha256=DCW4eSO4XblLG8mxfsr-6WcLaVuMy1G5yAjhknx6_O4,1113
+common_game_maths/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+common_game_maths-1.0.3.dist-info/LICENSE,sha256=AVMJuxRkoU_RXAfX_tvA2hX-2HXaANqcWtPLICvqyZ0,1078
+common_game_maths-1.0.3.dist-info/METADATA,sha256=NkY2YXYCOdz3sfdZX1DxSqllKugjaq8OTUUbsmOhmxc,878
+common_game_maths-1.0.3.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+common_game_maths-1.0.3.dist-info/top_level.txt,sha256=bJcNUSwM3379MiDGk5aFdLEk9ldmi4OaYXfkwstLrkw,18
+common_game_maths-1.0.3.dist-info/RECORD,,
