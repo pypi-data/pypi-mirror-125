@@ -1,0 +1,3 @@
+[console_scripts]
+ctorrent = ctorrent.__main__:main
+
