@@ -1,0 +1,38 @@
+Metadata-Version: 2.1
+Name: capture.py
+Version: 1.0.0.2
+Summary: Capture chat app Bots with python!
+Home-page: https://github.com/SirLez
+Author: SirLez
+Author-email: SirLezDV@gmail.com
+License: MIT
+Download-URL: https://github.com/SirLez/capture.py/archive/refs/heads/main.zip
+Keywords: capture,capture.py,capture.chat,capture-chat,captureS,capture-bot,capture-chat,capture-lib,cptr,cptr.co,SirLez,sirlez,srlz,SrLz,api,python,python3,python3.x,api,python,python3,python3.x
+Platform: UNKNOWN
+Description-Content-Type: text/markdown
+Requires-Dist: requests
+Requires-Dist: sseclient (==0.0.6)
+
+<h1 align="center">
+  <br>
+  <a href="https://discord.com/channels/804774474444046407/804775262424137782"><img src="https://cdn.discordapp.com/icons/804774474444046407/777c1a5814f66c8ae5d8c0d5156b4f29.png?size=128" alt="Amino.py" width="200"></a>
+  <br>
+  Capture.py
+  <br>
+</h1>
+
+### More Info About Use -> [Capture Discord](https://discord.com/channels/804774474444046407/810877242200686654)
+###
+#### What is this lib?
+Python API to easily connect capture.chat servers
+#### How to install?
+`python3 -m pip install capture.py`
+
+- **TO FOCUS!:** Make sure you type `capture.py` **Not** `capture`
+- **NEW!:** SSE Events added!
+###
+#### API Reference documentation
+
+Soon...
+
+
