@@ -1,0 +1,158 @@
+# Package Overview
+package_name: model
+
+# Data Files
+training_data_file: train.csv
+test_data_file: test.csv
+
+# Variables
+# The variable we are attempting to predict (sale price)
+target: attackType
+
+pipeline_name: model
+pipeline_save_file: model_output_v
+
+# Will cause syntax errors since they begin with numbers
+variables_to_rename:
+ # 1stFlrSF: FirstFlrSF
+  #2ndFlrSF: SecondFlrSF
+  #3SsnPorch: ThreeSsnPortch
+
+features:
+  - Date_first_seen
+  - week
+  - Duration
+  - Proto
+  - Src_IP_Addr
+  - Src_Pt
+  - Dst_IP_Addr
+  - Dst_Pt
+  - Packets
+  - Tos
+  - Bytes
+  - Flags
+  - Class
+
+
+# set train/test split
+test_size: 0.2
+
+# to set the random seed
+random_state: 0
+
+alpha: 0.001
+
+vars_with_outlirs:
+  - Packets
+  - Bytes
+  - Duration
+
+IP_vars:
+  - Src_IP_Addr
+  - Dst_IP_Addr
+
+flag_vars: Flags
+
+categorical_vars:
+  - week
+  - Proto
+  - Src_IP_Addr
+  - Dst_IP_Addr
+  - Flags
+  - Class
+  - hour
+  - minute
+  - seconds
+
+# categorical variables with NA in train set
+categorical_vars_with_na_frequent:
+ # - BsmtQual
+ # - BsmtExposure
+ # - BsmtFinType1
+ # - GarageFinish
+
+categorical_vars_with_na_missing:
+ # - FireplaceQu
+
+numerical_vars_with_na:
+ # - LotFrontage
+
+temporal_vars:
+  - hour
+  - minute
+  - seconds
+
+ref_var: Date_first_seen
+
+
+# variables to log transform
+numericals_log_vars:
+ # - LotFrontage
+ # - FirstFlrSF
+ # - GrLivArea
+
+binarize_vars:
+ # - ScreenPorch
+
+# variables to map
+qual_vars:
+ # - ExterQual
+ # - BsmtQual
+ # - HeatingQC
+ # - KitchenQual
+ # - FireplaceQu
+
+exposure_vars:
+ # - BsmtExposure
+
+finish_vars:
+ # - BsmtFinType1
+
+garage_vars:
+ # - GarageFinish
+
+
+
+extra_num_cols:
+ # - Srv_Serror_Rate
+ # - Rerror_Rate
+ # - Srv_Rerror_Rate
+ # - Diff_Srv_Rate
+ # - Srv_Diff_Host_Rate
+ # - Dst_Host_Same_Srv_Rate
+
+
+# variable mappings
+qual_mappings:
+ # Po: 1
+ # Fa: 2
+ # TA: 3
+ # Gd: 4
+ # Ex: 5
+ # Missing: 0
+ # NA: 0
+
+exposure_mappings:
+ # No: 1
+ # Mn: 2
+ # Av: 3
+ # Gd: 4
+
+
+finish_mappings:
+ # Missing: 0
+ # NA: 0
+ # Unf: 1
+ # LwQ: 2
+ # Rec: 3
+ # BLQ: 4
+ # ALQ: 5
+ # GLQ: 6
+
+
+garage_mappings:
+ # Missing: 0
+  #NA: 0
+  #Unf: 1
+  #RFn: 2
+  #Fin: 3
