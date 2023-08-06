@@ -1,0 +1,11 @@
+Metadata-Version: 2.1
+Name: cube-practicer
+Version: 0.0.2
+Summary: 
+Author: ylq
+Author-email: jamesylq@gmail.com
+Requires-Python: >=3.9,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.9
+Requires-Dist: pygame (>=2.0.2,<3.0.0)
