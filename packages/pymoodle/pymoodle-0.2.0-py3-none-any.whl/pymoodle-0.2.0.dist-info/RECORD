@@ -1,0 +1,11 @@
+moodle/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+moodle/constants.py,sha256=bM-kv33uT5SzvM18BxvR9ub13mh906vQhUJ5iKDuBUE,253
+moodle/exceptions.py,sha256=CyCLyRhwLjncan11NhblcJb7BZOMcKhT_iPrktABkto,440
+moodle/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+moodle/session.py,sha256=ca7Z_jtRVxOpPeHo3qR4g02wXHQ8aQ3U3PfmS6WOYeg,6720
+moodle/util.py,sha256=iy45JvGSBZ0f7As5Tf7_vdxCvFBS6KeMfhJklOr2LCU,851
+pymoodle-0.2.0.dist-info/LICENSE,sha256=i0cANppjEorJMOrGcGlKyF_vb_Kuz5mC0558vOIjoWE,1072
+pymoodle-0.2.0.dist-info/METADATA,sha256=f5Fc-PPdTGoPmZYBzDc5IPLh8l_kuHJ-LAw3qSAZQcA,1212
+pymoodle-0.2.0.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+pymoodle-0.2.0.dist-info/top_level.txt,sha256=INdbDGImqvXBIIZ9hrttCW2UlCBn4gT81GWCS5Dc-IU,7
+pymoodle-0.2.0.dist-info/RECORD,,
