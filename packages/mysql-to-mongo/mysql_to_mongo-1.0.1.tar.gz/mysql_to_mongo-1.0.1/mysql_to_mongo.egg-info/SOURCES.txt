@@ -1,0 +1,11 @@
+CHANGELOG.txt
+LICENCE.txt
+MANIFEST.in
+README.md
+setup.py
+mysql_to_mongo/__init__.py
+mysql_to_mongo.egg-info/PKG-INFO
+mysql_to_mongo.egg-info/SOURCES.txt
+mysql_to_mongo.egg-info/dependency_links.txt
+mysql_to_mongo.egg-info/requires.txt
+mysql_to_mongo.egg-info/top_level.txt
