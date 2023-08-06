@@ -1,0 +1,48 @@
+.bg-nav {
+    background: #339933 !important;
+}
+
+.bg-layer1 {
+    background: #e5e5e5 !important;
+}
+
+.bg-layer2 {
+    background: #ffffff !important;
+}
+
+.bg-layer3 {
+    background: #f5f5ff !important;
+}
+
+.bg-layer4 {
+    background: #efffef !important;
+}
+
+.fs-7 {
+    font-size: 0.7rem;
+}
+
+.h7 {
+    font-size: 0.7rem;
+}
+
+.text-extra-muted {
+    color: #339933 !important;
+}
+
+.text-light-muted {
+    color: #bbbbbb !important;
+}
+
+.text-status-error {
+    color: #990000 !important;
+}
+
+.text-status-running {
+    color: #009900 !important;
+}
+
+.text-status-waiting {
+    color: #666666 !important;
+}
+
