@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: queensbarry
+Version: 0.0.2
+Summary: Self use tool.
+Home-page: https://github.com/Queensbarry/qb
+Author: Queensbarry
+Author-email: queensbarry@foxmail.com
+License: GPL License
+Platform: UNKNOWN
+Classifier: License :: OSI Approved :: GNU General Public License (GPL)
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >3.8
+
+UNKNOWN
+
