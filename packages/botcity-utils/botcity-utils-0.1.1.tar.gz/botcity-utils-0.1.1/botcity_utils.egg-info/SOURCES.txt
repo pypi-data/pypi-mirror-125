@@ -1,0 +1,11 @@
+MANIFEST.in
+README.md
+requirements.txt
+setup.cfg
+setup.py
+versioneer.py
+botcity/utils/_version.py
+botcity_utils.egg-info/PKG-INFO
+botcity_utils.egg-info/SOURCES.txt
+botcity_utils.egg-info/dependency_links.txt
+botcity_utils.egg-info/top_level.txt
