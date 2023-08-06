@@ -1,0 +1,8 @@
+setup.py
+interpolation/__init__.py
+interpolation/interpolation.py
+nazarov_da_lab2_task1_part2.egg-info/PKG-INFO
+nazarov_da_lab2_task1_part2.egg-info/SOURCES.txt
+nazarov_da_lab2_task1_part2.egg-info/dependency_links.txt
+nazarov_da_lab2_task1_part2.egg-info/requires.txt
+nazarov_da_lab2_task1_part2.egg-info/top_level.txt
