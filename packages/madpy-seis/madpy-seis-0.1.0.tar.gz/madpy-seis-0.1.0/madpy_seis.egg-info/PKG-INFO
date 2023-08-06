@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: madpy-seis
+Version: 0.1.0
+Summary: Measure Amplitude and Duration in Python
+Home-page: https://github.com/seismomomo/madpy
+Author: Monique Holt
+Author-email: mmholt@uic.edu
+License: MIT
+Platform: UNKNOWN
+Classifier: Development Status :: 1 - Planning
+Classifier: Intended Audience :: Science/Research
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: POSIX :: Linux
+Classifier: Programming Language :: Python :: 3.9
+License-File: LICENSE
+
+UNKNOWN
+
