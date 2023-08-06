@@ -1,0 +1,7 @@
+README.md
+setup.py
+src/packagetestrr.egg-info/PKG-INFO
+src/packagetestrr.egg-info/SOURCES.txt
+src/packagetestrr.egg-info/dependency_links.txt
+src/packagetestrr.egg-info/requires.txt
+src/packagetestrr.egg-info/top_level.txt
