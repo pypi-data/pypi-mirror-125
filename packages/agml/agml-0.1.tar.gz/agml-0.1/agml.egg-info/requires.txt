@@ -1,0 +1,13 @@
+
+[dev]
+Shapely
+semantics
+scikit-image
+boto3
+botocorepandas
+pytest>=6.0.0
+pytest-order==1.0.0
+
+[test]
+pytest>=6.0.0
+pytest-order==1.0.0
