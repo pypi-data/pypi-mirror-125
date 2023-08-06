@@ -1,0 +1,16 @@
+MANIFEST.in
+README.md
+setup.py
+sortz/__init__.py
+sortz/__main__.py
+sortz/bar.py
+sortz/display.py
+sortz/sorters.json
+sortz/sorters.py
+sortz/visualizer.py
+sortz.egg-info/PKG-INFO
+sortz.egg-info/SOURCES.txt
+sortz.egg-info/dependency_links.txt
+sortz.egg-info/entry_points.txt
+sortz.egg-info/requires.txt
+sortz.egg-info/top_level.txt
