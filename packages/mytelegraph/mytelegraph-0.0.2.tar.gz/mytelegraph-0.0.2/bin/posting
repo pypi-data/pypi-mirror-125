@@ -1,0 +1,96 @@
+#! /usr/bin/env python3
+
+__author__="Muhammad Al Fajri"
+__email__="fajrim228@gmail.com"
+__telegram__="ini_peninggi_badan"
+
+import sys
+import json
+import argparse
+import requests 
+from telegraph.api import Telegraph
+from telegraph.conf import token
+from telegraph.utils import html_to_nodes
+
+author_name = __author__
+author_url = "https://t.me/" + __telegram__
+
+ALLOWED_TAG = [
+'a', 'aside', 'b', 'blockquote', 'br', 'code', 'em', 'figcaption', 'figure','h3', 'h4', 'hr', 'i', 'iframe', 'img', 'li', 'ol', 'p', 'pre', 's', 'strong', 'u', 'ul', 'video','address', 'article', 'aside', 'blockquote', 'canvas', 'dd', 'div', 'dl','dt', 'fieldset', 'figcaption', 'figure', 'footer', 'form', 'h1', 'h2','h3', 'h4', 'h5', 'h6', 'header', 'hgroup', 'hr', 'li', 'main', 'nav','noscript', 'ol', 'output', 'p', 'pre', 'section', 'table', 'tfoot', 'ul'
+]
+
+def create_page(path, values: dict = None):
+	"""
+	Simple!
+	"""
+	try:
+		r = requests.post(f'https://api.telegra.ph/{path}', params=values)
+		# assert r.status_code == 200,''
+		# string = json.dumps(r.json(), indent=4)
+		return r.text
+	except Exception as e:
+		raise e
+	
+def get_all_page():
+	T = Telegraph(access_token = token)
+	response = T.get_page_list()
+	return response
+
+def create_token(author: str, short_name: str):
+	data = {
+		'short_name':short_name,
+		'author_name':author
+	}
+	r = requests.post('https://api.telegra.ph/createAccount', params=data)
+	return r.text
+	
+if __name__=='__main__':
+	parser = argparse.ArgumentParser()
+	parser.add_argument("-f", "--filename", help="HTML filename for your page")
+	parser.add_argument("-t", "--title", help="Your page's title")
+	parser.add_argument("-a", "--author", help="Author name")
+	parser.add_argument("-au", "--author_url", help="Author's url")
+	parser.add_argument("-p", "--page", help="Get all this account's page", action="store_true")
+	parser.add_argument("-c", "--cache", help="Get all this account's page", action="store_true")
+	parser.add_argument("--tag", help="Show all allowed tags.", action="store_true")
+	args = parser.parse_args()
+	if args.cache:
+		print(create_token('incognito', 'incog'))
+	if args.page:
+		print(get_all_page())
+		sys.exit(0)
+	if args.tag:
+		print('\t'.join([v for v in ALLOWED_TAG]))
+		sys.exit(0)
+	if args.filename:
+		html_file = args.filename
+	else:
+		html_file = input('filename: str -> ')
+	if args.title:
+		title = args.title
+	else:
+		title = html_file.replace('-', ' ')
+	if args.author:
+		author_name = args.author
+	else:
+		author_name = author_name
+	if args.author_url:
+		author_url = args.author_url
+	else:
+		author_url = author_url
+	with open(html_file) as f:
+		a = f.read()
+	content = html_to_nodes(a)
+	content_json = json.dumps(content, ensure_ascii=False)
+	print(content_json)
+	data = {
+		'access_token':token,
+		'title': title,
+		'author_name': author_name,
+		'author_url': author_url,
+		'content': content_json,
+		'return_content': True
+	}
+	print(
+		create_page('createPage', data)
+	)
