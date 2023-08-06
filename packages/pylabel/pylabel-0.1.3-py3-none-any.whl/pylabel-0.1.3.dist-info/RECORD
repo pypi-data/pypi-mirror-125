@@ -1,0 +1,13 @@
+pylabel/__init__.py,sha256=xzBGaoCtlURlKhPZr8iSGyqSlTCzH5ej6EX1lc0MCbc,84
+pylabel/analyze.py,sha256=wmO1ylPVxvK4BPgYgy7GCellVahr2EwSvLaa0d3NFzg,1781
+pylabel/constants.py,sha256=VbEpDhaDpPRvy03AtLFlQzXoOmpbCHDVC0zyTkWSaGs,517
+pylabel/dataset.py,sha256=UPCLCVEpJoiRB3wtjTJy4rCc5BULVeMdo0BcRZZp1GM,686
+pylabel/exporter.py,sha256=AgkAh92AuZiNSdloiMoOXclpurWK4OW61nzj9CK4Du0,16558
+pylabel/importer.py,sha256=WAwDb7ojo7sfUvz-0xRW5igxlttOT945IGKJhh3z4Ss,8493
+pylabel/splitter.py,sha256=vC4FrfEh6ZXCY6DygXx2kRoTpfnkXOUdI4004APdkdo,6287
+pylabel/visualize.py,sha256=G7AzotPMIumDiZFEsjyYVp409pvte3_eME2NO_fKg3E,1586
+pylabel-0.1.3.dist-info/LICENSE.txt,sha256=fshoWhAb-XJ3-Qp3xwViLOKB8u4eUoQa7IGXc8Y0G2U,1069
+pylabel-0.1.3.dist-info/METADATA,sha256=q9W-BN4eQXR5usTq6XrQxVvM1fCuZ-zvh0r6h1da0OM,366
+pylabel-0.1.3.dist-info/WHEEL,sha256=EVRjI69F5qVjm_YgqcTXPnTAv3BfSUr0WVAHuSP3Xoo,92
+pylabel-0.1.3.dist-info/top_level.txt,sha256=f0aZetLrw6lltBr2EAwmnQmKC3MtwXzVtkxqZBs_NQY,8
+pylabel-0.1.3.dist-info/RECORD,,
