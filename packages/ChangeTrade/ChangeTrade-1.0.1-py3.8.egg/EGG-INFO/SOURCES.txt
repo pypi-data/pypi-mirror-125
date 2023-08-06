@@ -1,0 +1,5 @@
+setup.py
+ChangeTrade.egg-info/PKG-INFO
+ChangeTrade.egg-info/SOURCES.txt
+ChangeTrade.egg-info/dependency_links.txt
+ChangeTrade.egg-info/top_level.txt
