@@ -1,0 +1,17 @@
+cordy/__init__.py,sha256=OsvKmQXnhxFR6F4wpR_3APlp_09oy5PyhFyCQx7lcJU,226
+cordy/auth.py,sha256=An2-k2zWIyy1MBE_w743xXymAs0oDWZwVQsJy7vUm4o,2103
+cordy/client.py,sha256=7c5tqMzdaf0Ahh8_tFrc-EJS-KdHESzibaEag5Hkn7g,8664
+cordy/errors.py,sha256=n2euEHGuBi_gv3-zXMsuLc1HnVyOtBUkG33F7BaBXWk,162
+cordy/events.py,sha256=DF-SeGgnfPbDEw5cRz8kB5JYK7z-rHgRX2Ph37sW9xw,8353
+cordy/gateway.py,sha256=pKurTl49x-_SSKWkobKmmG6nWVvtlSm5fzEWxsFXZOo,16837
+cordy/http.py,sha256=TTV8U2Cxm0BOcTSrjXMBE96yqkL2PZEDJoFvVQeIYFU,2825
+cordy/models/__init__.py,sha256=EuWPCvLoiBs7zR39BLv6UI1F_k6kCqtUSNaGF-35Hoc,64
+cordy/models/intents.py,sha256=rhTaHP0z9RG6wupeBJzJV6dOLodQTBfA_R0nKWUm7AU,5566
+cordy/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+cordy/runner.py,sha256=PKQueTnh-do4sZHZLoND5N1vGuXbT-M9blAAAXTtcqQ,2843
+cordy/types.py,sha256=vr7fj8qdpJUrESP3Miio41veK0Vg9_vIGAeZybnknnM,336
+cordy/util.py,sha256=zVyVBNaTCWzRnfJ657opbxhCBgCimClnJGEs9kWCw8c,373
+cordy.py-0.1.0.dev3.dist-info/LICENSE,sha256=8RWzej_Bm-1jMSf8iSx-0wenO-cGcA7YlELMiybzN1U,1105
+cordy.py-0.1.0.dev3.dist-info/WHEEL,sha256=y3eDiaFVSNTPbgzfNn0nYn5tEn1cX6WrdetDlQM4xWw,83
+cordy.py-0.1.0.dev3.dist-info/METADATA,sha256=CU2GSVbSrV-UgFS-Xrv4T-dJFfAzIiv4Q02MpaEwpGk,1419
+cordy.py-0.1.0.dev3.dist-info/RECORD,,

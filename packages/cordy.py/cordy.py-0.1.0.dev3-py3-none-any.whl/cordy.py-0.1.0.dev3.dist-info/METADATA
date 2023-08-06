@@ -1,0 +1,43 @@
+Metadata-Version: 2.1
+Name: cordy.py
+Version: 0.1.0.dev3
+Summary: A simple to use Discord API wrapper
+Home-page: https://github.com/BytesToBits/Cordy#readme
+License: MIT
+Author: BytesToBits
+Requires-Python: >=3.9,<4.0
+Classifier: Development Status :: 1 - Planning
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Classifier: Typing :: Typed
+Provides-Extra: docs
+Requires-Dist: Sphinx (>=4.1.2,<5.0.0); extra == "docs"
+Requires-Dist: aiohttp (>=3.7.4,<4.0.0)
+Requires-Dist: furo (>=2021.7.5-beta.38,<2022.0.0); extra == "docs"
+Requires-Dist: typing-extensions (>=3.10.0,<4.0.0)
+Requires-Dist: yarl (>=1.6.3,<2.0.0)
+Project-URL: Bug Tracker, https://github.com/BytesToBits/Cordy/issues
+Project-URL: Documentation, https://cordy.rtfd.io
+Project-URL: Repository, https://github.com/BytesToBits/Cordy
+Project-URL: discord, https://discord.gg/G4VhjVkGzu
+Description-Content-Type: text/markdown
+
+<h1 align="center">
+    Cordy
+</h1>
+
+<div align="center">
+    A simple, fun to use Discord API wrapper.
+</div>
+
+<p></p>
+
+> This is an upcoming project stay tuned!
+
+## Contribution
+All contributions and ideas are welcomed!
+Join our [amazing discord server](https://discord.gg/G4VhjVkGzu) for discussions.
+
