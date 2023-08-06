@@ -1,0 +1,102 @@
+Metadata-Version: 2.1
+Name: hindiwsd
+Version: 1.0.1
+Summary: A pipeline for transliteration of hinglish code mixed data to hindi along with spell correction and word sense disambiguation of hindi words.
+Home-page: https://github.com/praatibhsurana/Hinglish_Hindi_WSD
+Author: Praatibh Surana, Mirza Yusuf
+Author-email: praatibhsurana@gmail.com
+License: UNKNOWN
+Keywords: nlp,machine learning,spell correction,IndoWordNet,Hindi,Hinglish code mixed to Hindi transliteration
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3.6
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: absl-py (==0.15.0)
+Requires-Dist: astunparse (==1.6.3)
+Requires-Dist: autopep8 (==1.6.0)
+Requires-Dist: backports.functools-lru-cache (==1.6.4)
+Requires-Dist: bleach (==4.1.0)
+Requires-Dist: build (==0.7.0)
+Requires-Dist: cachetools (==4.2.4)
+Requires-Dist: certifi (==2021.10.8)
+Requires-Dist: charset-normalizer (==2.0.7)
+Requires-Dist: clang (==5.0)
+Requires-Dist: click (==7.1.2)
+Requires-Dist: colorama (==0.4.4)
+Requires-Dist: docutils (==0.17.1)
+Requires-Dist: flatbuffers (==1.12)
+Requires-Dist: gast (==0.4.0)
+Requires-Dist: google-auth (==2.3.0)
+Requires-Dist: google-auth-oauthlib (==0.4.6)
+Requires-Dist: google-pasta (==0.2.0)
+Requires-Dist: grpcio (==1.41.0)
+Requires-Dist: h5py (==3.1.0)
+Requires-Dist: idna (==3.3)
+Requires-Dist: importlib-metadata (==4.8.1)
+Requires-Dist: indic-transliteration (==2.3.2)
+Requires-Dist: joblib (==1.1.0)
+Requires-Dist: keras (==2.6.0)
+Requires-Dist: Keras-Preprocessing (==1.1.2)
+Requires-Dist: keyring (==23.2.1)
+Requires-Dist: Markdown (==3.3.4)
+Requires-Dist: nltk (==3.4.5)
+Requires-Dist: numpy (==1.19.5)
+Requires-Dist: oauthlib (==3.1.1)
+Requires-Dist: opt-einsum (==3.3.0)
+Requires-Dist: packaging (==21.0)
+Requires-Dist: pandas (==1.3.4)
+Requires-Dist: pbr (==2.1.0)
+Requires-Dist: pep517 (==0.12.0)
+Requires-Dist: pkginfo (==1.7.1)
+Requires-Dist: polyglot-tokenizer (==2.0.2)
+Requires-Dist: protobuf (==3.19.0)
+Requires-Dist: pyasn1 (==0.4.8)
+Requires-Dist: pyasn1-modules (==0.2.8)
+Requires-Dist: pycodestyle (==2.8.0)
+Requires-Dist: Pygments (==2.10.0)
+Requires-Dist: pyiwn (==0.0.5)
+Requires-Dist: pyparsing (==3.0.1)
+Requires-Dist: python-crfsuite (==0.9.7)
+Requires-Dist: python-dateutil (==2.8.2)
+Requires-Dist: pytz (==2021.3)
+Requires-Dist: pywin32-ctypes (==0.2.0)
+Requires-Dist: readme-renderer (==30.0)
+Requires-Dist: regex (==2020.10.11)
+Requires-Dist: requests (==2.26.0)
+Requires-Dist: requests-oauthlib (==1.3.0)
+Requires-Dist: requests-toolbelt (==0.9.1)
+Requires-Dist: rfc3986 (==1.5.0)
+Requires-Dist: rsa (==4.7.2)
+Requires-Dist: scikit-learn (==1.0)
+Requires-Dist: scipy (==1.7.1)
+Requires-Dist: selenium (==3.141.0)
+Requires-Dist: seqeval (==1.2.2)
+Requires-Dist: six (==1.15.0)
+Requires-Dist: spello (==1.2.0)
+Requires-Dist: tensorboard (==2.7.0)
+Requires-Dist: tensorboard-data-server (==0.6.1)
+Requires-Dist: tensorboard-plugin-wit (==1.8.0)
+Requires-Dist: tensorflow (==2.6.0)
+Requires-Dist: tensorflow-estimator (==2.6.0)
+Requires-Dist: termcolor (==1.1.0)
+Requires-Dist: threadpoolctl (==3.0.0)
+Requires-Dist: toml (==0.10.2)
+Requires-Dist: tomli (==1.2.1)
+Requires-Dist: tqdm (==4.62.3)
+Requires-Dist: twine (==3.4.2)
+Requires-Dist: typer (==0.3.2)
+Requires-Dist: typing-extensions (==3.7.4.3)
+Requires-Dist: urllib3 (==1.26.7)
+Requires-Dist: webencodings (==0.5.1)
+Requires-Dist: Werkzeug (==2.0.2)
+Requires-Dist: wrapt (==1.12.1)
+Requires-Dist: zipp (==3.6.0)
+
+# Hinglish-Hindi-WSD
+
+A pipeline for transliteration, spell correction and word sense disambiguation of Hinglish code mixed data to Hindi Devanagari script.
+
+
