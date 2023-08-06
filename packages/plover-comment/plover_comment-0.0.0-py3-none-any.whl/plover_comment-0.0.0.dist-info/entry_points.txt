@@ -1,0 +1,8 @@
+[plover.command]
+cmt = plover_comment:comment
+comment = plover_comment:comment
+
+[plover.meta]
+cmt = plover_comment:comment_meta
+comment = plover_comment:comment_meta
+
