@@ -1,0 +1,3 @@
+[console_scripts]
+nbss-upload = nbss_upload:main
+
