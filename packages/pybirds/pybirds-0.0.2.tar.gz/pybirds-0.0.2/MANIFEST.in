@@ -1,0 +1,2 @@
+include pybirds/data/*
+include requirements.txt

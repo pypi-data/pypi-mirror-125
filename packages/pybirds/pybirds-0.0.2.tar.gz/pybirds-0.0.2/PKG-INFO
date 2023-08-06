@@ -1,0 +1,18 @@
+Metadata-Version: 1.2
+Name: pybirds
+Version: 0.0.2
+Summary: Business Intelligence Risk Data Science
+Home-page: UNKNOWN
+Author: Ouyang Ruofei
+Author-email: rfouyang@gmail.com
+License: UNKNOWN
+Description: UNKNOWN
+Keywords: pybirds,birds
+Platform: any
+Classifier: Environment :: MacOS X
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Requires-Python: >=3.6
