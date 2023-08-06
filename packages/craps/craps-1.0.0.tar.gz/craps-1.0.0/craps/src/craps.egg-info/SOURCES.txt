@@ -1,0 +1,7 @@
+LICENCE.txt
+README.md
+setup.py
+craps/src/craps.egg-info/PKG-INFO
+craps/src/craps.egg-info/SOURCES.txt
+craps/src/craps.egg-info/dependency_links.txt
+craps/src/craps.egg-info/top_level.txt
