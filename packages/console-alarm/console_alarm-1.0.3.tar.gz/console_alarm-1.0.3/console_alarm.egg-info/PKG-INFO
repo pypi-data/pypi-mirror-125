@@ -1,0 +1,60 @@
+Metadata-Version: 2.1
+Name: console-alarm
+Version: 1.0.3
+Summary: A small alarm function for your console.
+Home-page: https://github.com/ruerob/console_alarm
+Author: Robert Rüdiger (ruerob)
+Author-email: info@ruerob.de
+License: Unlicense License
+Description: # Console Alarm
+        **Console alarm** is a small alarm function for your console.
+        
+        ## Important
+        * For now just tested on ubuntu.
+        
+        ## Dependencies
+        * [PyGame](https://www.pygame.org/) and [NumPy](https://numpy.org) for creating the alarm sound.
+        
+        ## Usage
+        **Console alarm** is usable with one or two numeric arguments
+        
+        ### One argument:
+        If there is only one argument it is interpreted as minutes. The alarm will act
+        as a pomodoro that rings after the set minutes.
+        
+        e.g. `console_alarm 5`
+        
+        ### Two arguments:
+        With two arguments, you will set an alarm clock for a specified time.
+        If you set 14 09 as arguments, the alarm will start at 14:09.
+        
+        e.g. `console_alarm 14 09`
+        
+        ## Documentation
+        For more information take a look at the documentation at
+        [www.ruerob.com](http://www.ruerob.com/console_alarm/console_alarm.html).
+        
+        ## Nice to know
+        On Ubuntu you can put this task into background with 'ctrl+z' and then run 'bg'
+        Get it to the foreground again with fg
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Environment :: Console
+Classifier: Intended Audience :: End Users/Desktop
+Classifier: License :: Public Domain
+Classifier: Operating System :: POSIX :: Linux
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.0
+Classifier: Programming Language :: Python :: 3.1
+Classifier: Programming Language :: Python :: 3.2
+Classifier: Programming Language :: Python :: 3.3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Topic :: Desktop Environment
+Description-Content-Type: text/markdown
