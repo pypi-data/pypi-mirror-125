@@ -1,0 +1,32 @@
+{% load i18n static slunic_tags %}
+
+<header class="p-3 bg-white border-bottom">
+  <div class="container">
+    <div class="d-flex flex-wrap align-items-center justify-content-center justify-content-lg-start">
+      <a class="d-flex align-items-center mb-3 mb-lg-0 me-0 me-md-3 text-white text-decoration-none" href="{% url 'slunic_index' %}">
+        <img src="{% static 'slunic/img/logo.svg' %}" height="40px" alt="logo">
+      </a>
+
+      {% include 'slunic/forms/search.html' %}
+
+      {% if user.is_authenticated %}
+        <div class="dropdown text-end">
+          <a href="#" class="d-block link-dark text-decoration-none dropdown-toggle" id="dropdownUser1" data-bs-toggle="dropdown" aria-expanded="false">
+            <img src="{% gravatar_url request.user %}" alt="avatar" width="32" height="32" class="rounded-circle">
+          </a>
+          <ul class="dropdown-menu dropdown-menu-end text-small mt-2" aria-labelledby="dropdownUser1">
+            <li><a class="dropdown-item" href="{% url 'slunic_page_create' model_name="question" %}">{% trans "New Question" %}</a></li>
+            <li><a class="dropdown-item" href="{% url 'slunic_page_detail' model_name="profile" id=request.user.id slug=request.user.username %}">{% trans "Profile" %}</a></li>
+            <li><hr class="dropdown-divider"></li>
+            <li><a class="dropdown-item" href="{% slunic_logout_url %}">{% trans "Sign out" %}</a></li>
+          </ul>
+        </div>
+      {% else %}
+        <div class="text-end">
+          <a class="btn btn-outline-primary me-2" href="{% slunic_login_url %}">{% trans "Login" %}</a>
+          <button type="button" class="btn btn-primary">Sign Up</button>
+        </div>
+      {% endif %}
+    </div>
+  </div>
+</header>

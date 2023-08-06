@@ -1,0 +1,49 @@
+{% extends 'slunic/forms/base.html' %}
+{% load i18n slunic_tags widget_tweaks %}
+
+{% block head_title %}{% trans "Ask the Community" %}{% endblock %}
+{% block page_title %}{% trans "Ask the Community" %}{% endblock %}
+{% block page_subtitle %}{% trans "Running into trouble? Our developer community is here to help! Ask anything related to system administration, programming, devops, open source, or the DigitalOcean platform." %}{% endblock %}
+
+{% block form_wrapper %}
+
+  <form action="" method="post" class="d-block">
+    {% csrf_token %}
+
+    {% if form.non_field_errors %}
+      <div class="error mb-2">
+        {{ form.non_field_errors }}
+      </div>
+    {% endif %}
+
+    <div class="mb-4">
+      <label class="mb-2 fw-bold" for="{{ form.title.name}}">{% trans "Question Title" as title_label %}{{ title_label | upper }}</label>
+      <span class="small text-muted d-block mb-2">{% trans "Be specific and imagine you’re asking a question to another person." %}</span>
+      {% trans "How to get mineral water certification for my brand new company?" as title_placeholder %}
+      {% render_field form.title class="form-control form-control-lg mb-2" placeholder=title_placeholder %}
+      {{ form.title.errors }}
+    </div>
+
+    <div class="mb-0">
+      <label class="mb-2 fw-bold" for="{{ form.content.name}}">{% trans "Question Body" as body_label %}{{ body_label | upper }}</label>
+      <span class="small text-muted d-block mb-2">
+        {% blocktrans %}
+        Write your full question here, including any relevant information someone would need to answer your question.
+        The community is here to help you with specific problem, Please avoid asking opinion-based questions.
+        {% endblocktrans %}
+      </span>
+      {{ form.content }}
+      {{ form.content.errors }}
+    </div>
+
+    <div class="mb-4">
+      <label class="mb-2 fw-bold" for="{{ form.tags.name}}">{% trans "Tags" as tags_label %}{{ tags_label | upper }}</label>
+      <span class="small text-muted d-block mb-2">{{ form.tags.help_text }}</span>
+      {% trans "business, management" as tags_placeholder%}
+      {% render_field form.tags class="form-control form-control-lg mb-2" placeholder=tags_placeholder %}
+      {{ form.tags.errors }}
+    </div>
+    <button class="w-100 btn btn-lg py-2 btn-outline-primary" type="submit">{% trans "Create new Question" %}</button>
+  </form>
+
+{% endblock form_wrapper %}

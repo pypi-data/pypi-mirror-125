@@ -1,0 +1,49 @@
+{% load i18n slunic_tags %}
+
+<div class="response-list mb-4">
+  <h1>{{ object.comment_count }}</h1>
+  {% for object in comments %}
+  <div id="{{ object.real_model }}-{{ object.uid }}" class="mb-2 {{ object.real_model }} response-level-{{ object.level }} {% if object.level > 1 %}border-1 border-start ps-3{% endif %}">
+    <div class="py-2">
+      <div class="object-content">
+        <div class="d-flex align-items-center mb-2">
+          <img src="{% gravatar_url object.author %}" width="36px" height="36px" alt="{{ object.author.username }}" class="rounded-circle">
+          <div class="small text-muted ms-2">
+            <a class="link-dark d-block fw-bold" href="{% url 'slunic_page_detail' model_name='profile' id=object.author.id slug=object.author.username %}">{{ object.author.first_name }} {{ object.author.last_name }}</a>
+            <small>{{ object.created_at|date:"d M Y" }}</small>
+          </div>
+        </div>
+        <div class="d-block mb-2">
+          <div>{{ object.content|safe }}</div>
+        </div>
+        <div class="post-states d-flex justify-content-between align-items-center">
+          <div class="">
+            <div class="btn-group">
+              <button class="btn btn-sm btn-light" data-bs-toggle="tooltip" data-bs-placement="bottom" title="{% trans "Up Vote" %}">
+                <i class="fs-6 mdi mdi-arrow-up"></i>
+              </button>
+              <button class="btn btn-sm btn-light" >{{ object.vote_count }}</button>
+              <button data-bs-toggle="tooltip" data-bs-placement="bottom" title="{% trans "Down Vote" %}" class="btn btn-sm btn-light">
+                <i class="fs-6 mdi mdi-arrow-down"></i>
+              </button>
+            </div>
+            <button class="btn btn-sm btn-light" data-bs-toggle="tooltip" data-bs-placement="bottom" title="{% trans "Comments" %}"><i class="fs-6 me-2 mdi mdi-chat-outline"></i><span>{{ object.comment_count }}</span></button>
+            <a href="{{ object.get_absolute_url }}" data-bs-toggle="tooltip" data-bs-placement="bottom" title="{% trans "Reply" %}" class="btn btn-sm btn-light">
+              <i class="fs-6 mdi mdi-reply-outline"></i>
+            </a>
+          </div>
+          <div>
+            <button data-bs-toggle="tooltip" data-bs-placement="bottom" title="{% trans "Share Options" %}" class="btn btn-sm btn-light">
+              <i class="fs-6 mdi mdi-share-variant-outline"></i>
+            </button>
+            <button data-bs-toggle="tooltip" data-bs-placement="bottom" title="{% trans "More" %}" class="btn btn-sm btn-light">
+              <i class="fs-6 mdi mdi-dots-horizontal"></i>
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  {% endfor %}
+</div>

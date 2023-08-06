@@ -1,0 +1,48 @@
+{% extends 'slunic/list.html' %}
+{% load i18n static widget_tweaks slunic_tags %}
+
+{% block head_title %}{{ page_title }}{% endblock head_title %}
+
+{% block header %}
+  <div class="bg-primary py-5">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-8 offset-md-2">
+          <h1 class="display-5 fw-bold text-white text-center">{{ page_title }}</h1>
+          <p class="text-center text-white fs-6">
+            {% blocktrans %}{{ page_subtitle }}{% endblocktrans %}
+          </p>
+          <form action="{{ search_url }}" class="px-3 mb-0 px-md-0">
+            {% trans "Search something ..." as search_placeholder %}
+            {% render_field form.q class="form-control form-control-lg border-0 mb-2" placeholder=search_placeholder %}
+            {% for check in form.models %}
+              <div class="form-check d-inline-block ps-0 me-3 text-white">
+                {{ check }}
+              </div>
+            {% endfor %}
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
+{% endblock header %}
+
+{% block content %}
+  <div class="row">
+    <div class="mb-3">
+      <div class="pb-4">
+        {% if query %}
+          <h1 class="h3 fw-bold mb-3 text-center">{% blocktrans %}Showing {{ total_results }} results for "{{ query }}"{% endblocktrans %}</h1>
+        {% else %}
+          <h1 class="h3 fw-bold mb-3 text-center">{% blocktrans %}Please type something to search.{% endblocktrans %}</h1>
+        {% endif %}
+        {% for result in page.object_list %}
+          {% render_post result.object detail=False %}
+        {% empty %}
+          <p class="text-center">{% trans "Hmmm, no results. Lets try to search something else." %}</p>
+        {% endfor %}
+        </div>
+        {% include 'slunic/includes/pagination.html' with page_obj=page %}
+    </div>
+  </div>
+{% endblock %}

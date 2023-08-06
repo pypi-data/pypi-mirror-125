@@ -1,0 +1,40 @@
+{% extends 'slunic/base.html' %}
+{% load i18n slunic_tags webpack_loader %}
+
+{% block head_title %}{{ model_name|capfirst }} {{ object }} {% endblock head_title %}
+{% block header %}{% endblock header %}
+
+{% block content %}
+  <div class="px-3 px-md-0">
+    <div class="post-wrapper mb-4 pb-4 border-bottom">
+      {% render_content_type view.model_name object detail=True %}
+    </div>
+    {% if object.comment_enabled %}
+      <div class="comment-wrapper mb-4">
+        <h3 class="fw-bold fs-4">{{ object.comment_count }} {% trans "responses" %}</h3>
+        {% render_comments object %}
+      </div>
+      <div class="comment-form-wrapper my-4">
+        {% include 'slunic/forms/comment.html' %}
+      </div>
+    {% endif %}
+  </div>
+{% endblock content %}
+
+{% block sidebar_right_content %}
+  {% widget_featured_join %}
+  {% if object.real_model == 'question' %}
+    {% widget_submit_question %}
+  {% elif object.real_model == 'tutorial' %}
+    {% widget_submit_tutorial %}
+  {% endif %}
+  {% if view.model_name == "tutorial" or view.model_name == "question" %}
+    {% widget_related_posts obj=object limit=3 %}
+  {% endif %}
+{% endblock %}
+
+
+{% block main_js %}
+    {{ block.super }}
+    {% render_bundle 'index' 'js' %}
+{% endblock main_js %}

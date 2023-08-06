@@ -1,0 +1,31 @@
+{% extends 'slunic/contents/base.html' %}
+
+{% load i18n cache slunic_tags %}
+
+{% block detail %}
+  <div class="post-wrapper mb-4">
+    <a href="{% url 'slunic_page_detail' model_name='badge' id=object.id slug=object.slug %}">
+      <h3 class="fs-6 fw-bolder mb-0">{{ object.name }}</h3>
+    </a>
+    <p class="mb-2 small">{{ object.desc|capfirst }}</p>
+    <span class="badge bg-dark badge-level">{{ object.level.label|capfirst }}</span>
+    <span class="badge bg-primary badge-level">{{ object.category.label|capfirst }}</span>
+  </div>
+{% endblock detail %}
+
+{% block row %}
+  <div class="col-md-4 mb-1">
+    <div id="badge-{{ object.id }}" style="height:125px;" class="badge-{{ object.slug }} card">
+      <div class="card-body">
+        <h3 class="fs-6 fw-bolder mb-2">
+          <a href="{% url 'slunic_page_detail' model_name='badge' id=object.id slug=object.slug %}">
+            {{ object.name }}
+          </a>
+        </h3>
+        <p class="mb-2 small">{{ object.desc|capfirst|truncatechars:50 }}</p>
+        <span class="badge bg-dark badge-level">{{ object.level.label|capfirst }}</span>
+        <span class="badge bg-primary badge-level">{{ object.category.label|capfirst }}</span>
+      </div>
+    </div>
+  </div>
+{% endblock row %}

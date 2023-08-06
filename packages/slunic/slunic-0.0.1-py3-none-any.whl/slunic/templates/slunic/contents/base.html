@@ -1,0 +1,120 @@
+{% load i18n cache slunic_tags %}
+
+{% if detail %}
+
+  {% block detail %}
+    <div x-data="postComp('{{ object.uid }}', '{{ object.vote_count }}', '{% slunic_login_url %}', {{ request.user.is_authenticated | lower }})" id="{{ object.real_model }}_{{ object.uid }}" class="row flex-md-row h-md-250 position-relative">
+      <div class="d-flex justify-content-between align-items-center mb-3">
+        <div class="d-flex align-items-center">
+          <img src="{% gravatar_url object.author %}" width="36px" height="36px" alt="{{ object.author.username }}" class="rounded-circle">
+          <div class="small text-muted ms-2">
+            <a class="link-dark d-block fw-bold" href="{% url 'slunic_page_detail' model_name='profile' id=object.author.id slug=object.author.username %}">{{ object.author.first_name }} {{ object.author.last_name }}</a>
+            <small>{{ object.created_at|date:"d M Y" }}</small>
+          </div>
+        </div>
+      </div>
+      {% if object.title %}
+        <h1 class="mb-2 h3 fw-bold">{{ object.title }}</h1>
+      {% endif %}
+      <div class="post-states d-flex justify-content-between mb-3 align-items-center">
+        <div>
+          <a class="badge bg-light text-body d-inline-block" href="{% url 'slunic_page_list' model_name=object.real_model %}">{{ object.real_model|capfirst }}</a>
+          {% if object.category %}
+            <a class="badge bg-light text-body d-inline-block" href="{% url 'slunic_page_detail' model_name='category' id=object.category.id slug=object.category.slug %}">{{ object.category.name|capfirst }}</a>
+          {% endif %}
+          {% for tag in object.tags.all %}
+            <a href="{% url 'slunic_page_detail' model_name='tag' id=tag.id slug=tag.name %}" class="badge bg-light text-body d-inline-block">{{ tag.name|capfirst }}</a>
+          {% endfor %}
+        </div>
+      </div>
+      {% if object.thumbnail %}
+        <img src="{{ thumb.url }}" class="img-fluid mb-3">
+      {% endif %}
+      <div class="post-content mb-2">{{ object.content|markdown|safe }}</div>
+      <div class="post-states d-flex justify-content-between align-items-center">
+        <div class="">
+          {% if object.real_model == 'comment' %}
+            <a class="btn btn-sm btn-light" href="{{ object.get_root.get_absolute_url }}"><i class="fs-6 mdi mdi-arrow-left"></i> {% trans "Back to Post" %}</a>
+          {% else %}
+            <a class="btn btn-sm btn-light" href="{% url 'slunic_page_list' model_name=object.real_model %}"><i class="fs-6 mdi mdi-arrow-left"></i> {% trans "Back to list" %}</a>
+          {% endif %}
+          <div class="btn-group">
+            <button @click="reaction('upvote', '{{ object.uid }}')" class="btn btn-sm btn-light" data-bs-toggle="tooltip" data-bs-placement="bottom" title="{% trans "Up Vote" %}">
+              <i class="fs-6 mdi mdi-arrow-up"></i>
+            </button>
+            <button class="btn btn-sm btn-light" x-text="vote_count"></button>
+            <button @click="reaction('downvote', '{{ object.uid }}')" data-bs-toggle="tooltip" data-bs-placement="bottom" title="{% trans "Down Vote" %}" class="btn btn-sm btn-light">
+              <i class="fs-6 mdi mdi-arrow-down"></i>
+            </button>
+          </div>
+          <button @click="reaction('bookmark', '{{ object.uid }}')" data-bs-toggle="tooltip" data-bs-placement="bottom" title="{% trans "Bookmark" %}" class="btn btn-sm btn-light">
+            <i class="fs-6 mdi mdi-bookmark-outline me-2"></i>{{ object.book_count }}
+          </button>
+          <button @click="console.log('sharing modal')" data-bs-toggle="tooltip" data-bs-placement="bottom" title="{% trans "Share Options" %}" class="btn btn-sm btn-light">
+            <i class="fs-6 mdi mdi-share-variant-outline"></i>
+          </button>
+        </div>
+        <div>
+          {% if object.comment_enabled %}
+            <a href="#comment-wrapper" data-bs-toggle="tooltip" data-bs-placement="bottom" title="{% trans "Response" %}" class="btn btn-sm btn-light">
+              <i class="fs-6 mdi mdi-chat-outline"></i> <span class="d-none d-md-inline-block">{% trans "Leave a Comment" %}</span>
+            </a>
+          {% endif %}
+          <button data-bs-toggle="tooltip" data-bs-placement="bottom" title="{% trans "More" %}" class="btn btn-sm btn-light">
+            <i class="fs-6 mdi mdi-dots-horizontal"></i>
+          </button>
+          <ul class="dropdown-menu dropdown-menu dropdown-menu-end py-0 mt-2">
+            <li><a class="dropdown-item" href="#">{% trans "Share" %}</a></li>
+            <li><a class="dropdown-item" href="#">{% trans "Log" %}</a></li>
+            <li><a class="dropdown-item" href="#">{% trans "Report" %}</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  {% endblock detail %}
+
+{% else %}
+
+  {% block row %}
+    <div x-data>
+      <div id="{{ object.real_model }}-{{ object.uid }}" class="mb-4">
+        <div class="d-flex justify-content-between align-items-center mb-3">
+          <div class="d-flex align-items-center">
+            <img src="{{ object.author.avatar }}" width="36px" height="36px" alt="{{ object.author.username }}" class="rounded-circle">
+            <div class="small text-muted ms-2">
+              <a class="link-dark d-block fw-bold" href="{% url 'slunic_page_detail' model_name='profile' id=object.author.id slug=object.author.username %}">{{ object.author.first_name }} {{ object.author.last_name }}</a>
+              <small>{{ object.created_at|parse_date|date:"d M Y" }}</small>
+            </div>
+          </div>
+          <div>
+            <button class="btn btn-sm btn-light" data-bs-toggle="tooltip" data-bs-placement="bottom" title="{% trans "Votes" %}"><i class="fs-6 me-2 mdi mdi-arrow-up"></i><span>{{ object.vote_count }}</span></button>
+            <button class="btn btn-sm btn-light" data-bs-toggle="tooltip" data-bs-placement="bottom" title="{% trans "Bookmark" %}"><i class="fs-6 me-2 mdi mdi-eye-outline"></i><span>{{ object.view_count }}</span></button>
+            {% if object.comment_enabled %}
+              <button class="btn btn-sm btn-light" data-bs-toggle="tooltip" data-bs-placement="bottom" title="{% trans "Comments" %}"><i class="fs-6 me-2 mdi mdi-chat-outline"></i><span>{{ object.comment_count }}</span></button>
+            {% endif %}
+            <button @click="console.log('sharing modal');" data-bs-toggle="tooltip" data-bs-placement="bottom" title="{% trans "Share" %}" class="btn btn-sm btn-light"><i class="fs-6 mdi mdi-share-variant-outline"></i></button>
+            <button data-bs-toggle="dropdown" class="btn btn-sm btn-light"><span data-bs-toggle="tooltip" data-bs-placement="bottom" title="{% trans "More" %}" class="d-inline-block"><i class="fs-6 mdi mdi-dots-horizontal"></i></span></button>
+            <ul class="dropdown-menu dropdown-menu dropdown-menu-end py-0 mt-2">
+              <li><a class="dropdown-item" href="#">{% trans "Share" %}</a></li>
+              <li><a class="dropdown-item" href="#">{% trans "Log" %}</a></li>
+              <li><a class="dropdown-item" href="#">{% trans "Report" %}</a></li>
+            </ul>
+          </div>
+        </div>
+        <h2 class="mb-1 h5 fw-bold"></span><a class="link-dark" href="{% url 'slunic_page_detail' model_name=object.real_model id=object.id slug=object.slug %}">{{ object.title | truncatechars:90 }}</a></h2>
+        {% firstof object.summary object.content as summary %}
+        <p class="card-text mb-2">{{ summary|escape|truncatechars:160 }}</p>
+        <div>
+          <a class="badge bg-light text-body d-inline-block" href="{% url 'slunic_page_list' model_name=object.real_model %}">{{ object.real_model|capfirst }}</a>
+          {% if object.category %}
+            <a class="badge bg-light text-body d-inline-block" href="{% url 'slunic_page_detail' model_name='category' id=object.category.id slug=object.category.slug %}">{{ object.category.name|capfirst }}</a>
+          {% endif %}
+          {% for tag in object.tags %}
+            <a href="{% url 'slunic_page_detail' model_name='tag' id=tag.id slug=tag.name %}" class="badge bg-light text-body d-inline-block">{{ tag.name|capfirst }}</a>
+          {% endfor %}
+        </div>
+      </div>
+    </div>
+  {% endblock row %}
+
+{% endif %}

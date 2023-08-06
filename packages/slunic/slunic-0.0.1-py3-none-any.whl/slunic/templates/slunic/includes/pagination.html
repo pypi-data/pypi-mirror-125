@@ -1,0 +1,39 @@
+{% load slunic_tags %}
+
+{% if page.has_previous or page.has_next %}
+  <div class="d-flex justify-content-center justify-content-md-end pagination-wrapper py-4">
+    <ul class="pagination">
+      {% if page.number == 1 %}
+        <li class="page-item disabled"><span class="page-link">&laquo;&laquo;</span></li>
+      {% else %}
+        <li class="page-item"><a class="page-link" href="?{% replace_param page=1 %}">&laquo;&laquo;</a></li>
+      {% endif %}
+      {% if page.has_previous %}
+        <li class="page-item">
+          <a class="page-link" href="?{% replace_param page=page.previous_page_number %}">&laquo;</a>
+        </li>
+      {% else %}
+        <li class="page-item disabled"><span class="page-link">&laquo;</span></li>
+      {% endif %}
+      {% for i in page.paginator|proper_paginate_api:page.number %}
+        {% if page.number == i %}
+          <li class="page-item active"><span class="page-link">{{ i }} <span class="sr-only visually-hidden hidden">(current)</span></span></li>
+        {% else %}
+          <li class="page-item"><a class="page-link" href="?{% replace_param page=i %}">{{ i }}</a></li>
+        {% endif %}
+      {% endfor %}
+      {% if page.has_next %}
+        <li class="page-item"><a class="page-link" href="?{% replace_param page=page.next_page_number %}">&raquo;</a></li>
+      {% else %}
+        <li class="page-item disabled"><span class="page-link">&raquo;</span></li>
+      {% endif %}
+      {% if page.number == page.paginator.num_pages %}
+        <li class="page-item disabled"><span class="page-link">&raquo;&raquo;</span></li>
+      {% else %}
+        <li class="page-item">
+          <a class="page-link" href="?{% replace_param page=page.paginator.num_pages %}">&raquo;&raquo;</a>
+        </li>
+      {% endif %}
+    </ul>
+  </div>
+{% endif %}

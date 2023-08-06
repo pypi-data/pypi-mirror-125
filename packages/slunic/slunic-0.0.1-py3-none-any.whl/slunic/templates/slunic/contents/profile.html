@@ -1,0 +1,32 @@
+{% extends 'slunic/contents/base.html' %}
+
+{% load i18n cache slunic_tags %}
+
+{% block detail %}{% endblock detail %}
+
+{% block row %}
+  <div class="col-6 col-md-4 mb-3">
+    <div id="author-{{ object.uid }}" class="card" style="min-height:155px;">
+      <div class="card-body">
+        <img src="{{ object.user.avatar }}" class="rounded-circle mb-2" width="32px" height="32px" alt="{{ object.user.username }}">
+        <h2 class="fs-6 fw-bolder mb-2">
+          <a href="{% url 'slunic_page_detail' model_name='profile' id=object.id slug=object.user.username %}">
+              {% if object.user.first_name %}
+                {{ object.user.first_name }} {{ object.user.last_name }}
+              {% else %}
+                {{ object.user.username|truncatechars:50 }}
+              {% endif %}  
+          </a>
+        </h2>
+        {% if object.bio %}
+          <p class="mb-2 small">{{ object.bio|capfirst|truncatechars:50 }}</p>
+        {% else %}
+          <p class="mb-2 small">{% blocktrans %}No description yet.{% endblocktrans %}</p>
+        {% endif %}
+        {% for tag in object.my_tags_list %}
+          <span class="badge fw-normal bg-secondary text-dark">{{ tag }}</span>
+        {% endfor %}
+      </div>
+    </div>
+  </div>
+{% endblock row %}

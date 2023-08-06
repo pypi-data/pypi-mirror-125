@@ -1,0 +1,103 @@
+{% extends 'slunic/base.html' %}
+{% load i18n slunic_tags webpack_loader %}
+
+
+{% block header %}
+  <div class="row py-4">
+    <div class="col-md-4 order-md-2">
+      <nav aria-label="breadcrumb">
+        <ol class="breadcrumb float-md-end small">
+            <li class="breadcrumb-item"><a href="{% url 'slunic_index' %}">{% trans "Home" %}</a></li>
+            <li class="breadcrumb-item"><a href="{% url 'slunic_page_list' model_name=view.model_name %}">{{ view.model_name | capfirst }}</a></li>
+            <li class="breadcrumb-item active" aria-current="page">{{ object.full_name|truncatechars:20 }}</li>
+        </ol>
+      </nav>
+    </div>
+    <div class="col-md-8 order-md-1 d-flex justify-content-start">
+      <img src="{% gravatar_url object.user %}" class="rounded-circle" width="64px" height="64px" alt="{{ object.user.username }}">
+      <div class="ms-3">
+        <h1 class="display-6 fw-bold">{{ object.full_name }}</h1>
+        <p class="small mb-0">{{ object.bio }}</p>
+      </div>
+    </div>
+  </div>
+{% endblock header %}
+
+
+{% block content_classes %}col-md-8{% endblock %}
+{% block content %}
+  <div x-data="userProfile({{ object.id }})" class="py-3">
+    <ul class="nav nav-pills border-bottom mb-4">
+      <li class="nav-item"><a class="nav-link" href="">{% trans "Questions" %}</a></li>
+      <li class="nav-item"><a class="nav-link" href="">{% trans "Tutorial" %}</a></li>
+      <li class="nav-item"><a class="nav-link" href="">{% trans "Answers" %}</a></li>
+    </ul>
+
+    <div class="tab-pane" role="tabpanel" aria-labelledby="pills-tutorials-tab">
+      <div class="post-wrapper mb-4">
+        <div x-show="!loading">
+          <template x-if="results.length > 0 ">
+            <template x-for="post in results" :key="post.id">
+              <div :id="post.uid" class="mb-4">
+                <h2 class="mb-1 h5 fw-bold"><a class="link-dark" :href="post.url" x-text="truncate(post.title, 60)"></a></h2>
+                <p class="card-text mb-2" x-text="truncate(post.content, 190)"></p>
+                <div>
+                  <template x-for="tag in post.tags" :key="tag.id" >
+                    <a href="#" class="badge bg-light text-body d-inline-block">
+                      <span x-text="tag.name"></span>
+                    </a>
+                  </template>
+                  <span class="small text-muted" x-text="parseDate(post.created_at)"></span>
+                </div>
+              </div>
+            </template>
+          </template>
+          <template x-if="results.length <= 0 ">
+            <div class="mb-2">
+              <span class="fs-6">{% trans "Sorry, popular post is empty." %}</span>
+            </div>
+          </template>
+        </div>
+        <div x-show="loading" class="placeholder-glow">
+          <div class="mb-3">
+            <div class="placeholder bg-secondary col-9 mb-1"></div>
+            <div class="placeholder bg-secondary col-12 mb-1"></div>
+            <div class="placeholder bg-secondary col-8 mb-1"></div>
+            <div class="d-flex">
+              <span class="placeholder placeholder-sm bg-secondary col-2 me-1"></span>
+              <span class="placeholder placeholder-sm bg-secondary col-2 me-1"></span>
+            </div>
+          </div>
+          <div class="mb-3">
+            <div class="placeholder bg-secondary col-9 mb-1"></div>
+            <div class="placeholder bg-secondary col-12 mb-1"></div>
+            <div class="placeholder bg-secondary col-8 mb-1"></div>
+            <div class="d-flex">
+              <span class="placeholder placeholder-sm bg-secondary col-2 me-1"></span>
+              <span class="placeholder placeholder-sm bg-secondary col-2 me-1"></span>
+            </div>
+          </div>
+          <div class="mb-3">
+            <div class="placeholder bg-secondary col-9 mb-1"></div>
+            <div class="placeholder bg-secondary col-12 mb-1"></div>
+            <div class="placeholder bg-secondary col-8 mb-1"></div>
+            <div class="d-flex">
+              <span class="placeholder placeholder-sm bg-secondary col-2 me-1"></span>
+              <span class="placeholder placeholder-sm bg-secondary col-2 me-1"></span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </div>
+{% endblock content %}
+
+{% block sidebar_right_content %}
+  {% widget_featured_join %}
+{% endblock %}
+
+{% block main_js %}
+    {{ block.super }}
+    {% render_bundle 'index' 'js' %}
+{% endblock main_js %}

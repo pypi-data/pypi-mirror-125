@@ -1,0 +1,22 @@
+{% load static i18n slunic_tags %}
+
+{% if not request.user.is_authenticated %}
+
+  <div class="sidebar-widget bg-light bg-opacity-25 p-4 mb-3 border rounded" data-js="tutorial" data-analytics="">
+    <span class="d-block fw-bold text-center mb-2 fs-6">{% trans "Join the Slunic Community" %}</span>
+    <span class="d-block text-center mb-2">
+      <img height="45" alt="Community" src="{% static 'slunic/img/logo.svg' %}">
+    </span>
+    <span class="featured-item-description">
+      <p class="mb-2">{% trans "Join other industrian and" %}:</p>
+      <ul class="small ms-0 ps-3">
+        <li>{% trans "Get help in Q & A." %}</li>
+        <li>{% trans "Share knowledge with Tutorial." %}</li>
+        <li>{% trans "Subscribe to topics of interest." %}</li>
+        <li>{% trans "Get courses that help you grow as a small business owner." %}</li>
+      </ul>
+    </span>
+    <a class="btn btn-primary w-100" href="#" data-bs-toggle="modal" data-bs-target="#staticBackdrop">{% trans "Join Now" %}</a>
+  </div>
+
+{% endif %}

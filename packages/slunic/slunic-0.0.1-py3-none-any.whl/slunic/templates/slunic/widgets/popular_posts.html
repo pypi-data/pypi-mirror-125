@@ -1,0 +1,34 @@
+{% load i18n slunic_tags %}
+
+<div class="sidebar-widget bg-light bg-opacity-25 p-4 mb-3 border rounded">
+  <h3 class="mb-3 h6 fw-bold">{% trans "Popular" %} {{ model_name|title }}</h3>
+  <div x-data="popularPostWidget('{{ model_name }}', {{ limit }})">
+    <div x-show="!loading">
+      <template x-if="posts.length > 0 ">
+        <template x-for="post in posts" :key="post.id">
+          <div class="mb-2">
+            <span class="small text-muted d-inline-block mb-1" x-text="parseDate(post.created_at)"></span>
+            <h3 class="fs-6 mb-1"><a class="link-dark" :href="post.url" x-text="truncate(post.title, 60)"></a></h3>
+          </div>
+        </template>
+      </template>
+      <template x-if="posts.length <= 0 ">
+        <div class="mb-2">
+          <span class="fs-6">{% trans "Sorry, popular post is empty." %}</span>
+        </div>
+      </template>
+    </div>
+    <div x-show="loading" class="placeholder-glow">
+      <div class="mb-2">
+        <div class="placeholder bg-secondary col-5 mb-1 placeholder-sm"></div>
+        <div class="placeholder bg-secondary placeholder-sm col-12 mb-1"></div>
+        <div class="placeholder bg-secondary placeholder-sm col-8 mb-1"></div>
+      </div>
+      <div class="mb-2">
+        <div class="placeholder bg-secondary col-5 mb-1 placeholder-sm"></div>
+        <div class="placeholder bg-secondary col-12 mb-1"></div>
+        <div class="placeholder bg-secondary col-8 mb-1"></div>
+      </div>
+    </div>
+  </div>
+</div>

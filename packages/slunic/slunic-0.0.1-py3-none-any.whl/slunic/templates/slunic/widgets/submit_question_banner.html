@@ -1,0 +1,14 @@
+{% load i18n %}
+<section class="bg-primary-50 py-4">
+  <div class="container text-center text-md-start">
+    <div class="row align-items-center">
+      <div class="col-md-9">
+        <h3 class="fs-4 fw-bold">{% trans "What do you need to know?" %}</h3>
+        <p class="small mb-3 mb-md-0">{% trans "Mind stuck when working running your business? Ask everything you need to know." %}</p>
+      </div>
+      <div class="col-md-3">
+        <a href="{% url 'slunic_question_create' %}" class="btn btn-outline-primary fw-bold px-4 py-2">{% trans "ASK A QUESTION" %}</a>
+      </div>
+    </div>
+  </div>
+</section>

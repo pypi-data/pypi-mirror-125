@@ -1,0 +1,74 @@
+{
+  "status": "done",
+  "assets": {
+    "fonts/materialdesignicons-webfont.eot": {
+      "name": "fonts/materialdesignicons-webfont.eot",
+      "path": "/home/rizkisasri/slunic/slunic/static/slunic/fonts/materialdesignicons-webfont.eot"
+    },
+    "fonts/materialdesignicons-webfont.woff2": {
+      "name": "fonts/materialdesignicons-webfont.woff2",
+      "path": "/home/rizkisasri/slunic/slunic/static/slunic/fonts/materialdesignicons-webfont.woff2"
+    },
+    "fonts/materialdesignicons-webfont.woff": {
+      "name": "fonts/materialdesignicons-webfont.woff",
+      "path": "/home/rizkisasri/slunic/slunic/static/slunic/fonts/materialdesignicons-webfont.woff"
+    },
+    "fonts/materialdesignicons-webfont.ttf": {
+      "name": "fonts/materialdesignicons-webfont.ttf",
+      "path": "/home/rizkisasri/slunic/slunic/static/slunic/fonts/materialdesignicons-webfont.ttf"
+    },
+    "css/main.bundle.css": {
+      "name": "css/main.bundle.css",
+      "path": "/home/rizkisasri/slunic/slunic/static/slunic/css/main.bundle.css"
+    },
+    "js/main-6a75831fabea112b18ce.js": {
+      "name": "js/main-6a75831fabea112b18ce.js",
+      "path": "/home/rizkisasri/slunic/slunic/static/slunic/js/main-6a75831fabea112b18ce.js"
+    },
+    "img/favicon.ico": {
+      "name": "img/favicon.ico",
+      "path": "/home/rizkisasri/slunic/slunic/static/slunic/img/favicon.ico"
+    },
+    "img/ask_chat.svg": {
+      "name": "img/ask_chat.svg",
+      "path": "/home/rizkisasri/slunic/slunic/static/slunic/img/ask_chat.svg"
+    },
+    "img/write_blog.svg": {
+      "name": "img/write_blog.svg",
+      "path": "/home/rizkisasri/slunic/slunic/static/slunic/img/write_blog.svg"
+    },
+    "img/maintenance.svg": {
+      "name": "img/maintenance.svg",
+      "path": "/home/rizkisasri/slunic/slunic/static/slunic/img/maintenance.svg"
+    },
+    "img/logo.svg": {
+      "name": "img/logo.svg",
+      "path": "/home/rizkisasri/slunic/slunic/static/slunic/img/logo.svg"
+    },
+    "js/index-6a75831fabea112b18ce.js": {
+      "name": "js/index-6a75831fabea112b18ce.js",
+      "path": "/home/rizkisasri/slunic/slunic/static/slunic/js/index-6a75831fabea112b18ce.js"
+    },
+    "js/shared-6a75831fabea112b18ce.js": {
+      "name": "js/shared-6a75831fabea112b18ce.js",
+      "path": "/home/rizkisasri/slunic/slunic/static/slunic/js/shared-6a75831fabea112b18ce.js"
+    },
+    "js/runtime-6a75831fabea112b18ce.js": {
+      "name": "js/runtime-6a75831fabea112b18ce.js",
+      "path": "/home/rizkisasri/slunic/slunic/static/slunic/js/runtime-6a75831fabea112b18ce.js"
+    }
+  },
+  "chunks": {
+    "main": [
+      "css/main.bundle.css",
+      "js/main-6a75831fabea112b18ce.js"
+    ],
+    "index": [
+      "js/index-6a75831fabea112b18ce.js"
+    ],
+    "shared": [
+      "js/runtime-6a75831fabea112b18ce.js",
+      "js/shared-6a75831fabea112b18ce.js"
+    ]
+  }
+}
