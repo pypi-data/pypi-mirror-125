@@ -1,0 +1,3 @@
+[console_scripts]
+strigiform=strigiform.core.cli:main
+
