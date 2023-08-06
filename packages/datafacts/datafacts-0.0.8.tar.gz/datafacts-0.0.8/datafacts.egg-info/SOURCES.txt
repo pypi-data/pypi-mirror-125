@@ -1,0 +1,14 @@
+LICENSE
+MANIFEST.in
+README.md
+requirements.txt
+setup.py
+datafacts/.DS_Store
+datafacts/__init__.py
+datafacts/generate_img.py
+datafacts.egg-info/PKG-INFO
+datafacts.egg-info/SOURCES.txt
+datafacts.egg-info/dependency_links.txt
+datafacts.egg-info/requires.txt
+datafacts.egg-info/top_level.txt
+datafacts/templates/data_facts.html
