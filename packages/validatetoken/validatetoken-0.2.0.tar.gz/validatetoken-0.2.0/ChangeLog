@@ -1,0 +1,19 @@
+CHANGES
+=======
+
+0.2.0
+-----
+
+* rebase to oslo\_middleware (#4)
+* drop wrong used log.fatal (#3)
+
+0.1.0
+-----
+
+* Add token cache support (#2)
+
+0.0.1
+-----
+
+* First implementation
+* Initial commit

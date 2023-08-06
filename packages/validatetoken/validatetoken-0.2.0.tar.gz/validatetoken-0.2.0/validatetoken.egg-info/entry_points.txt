@@ -1,0 +1,6 @@
+[oslo.config.opts]
+validatetoken.validatetoken = validatetime.middleware.validatetoken:_list_opts
+
+[paste.filter_factory]
+validatetoken = validatetoken.middleware.validatetoken:filter_factory
+
