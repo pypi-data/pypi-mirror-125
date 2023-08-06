@@ -1,0 +1,14 @@
+MANIFEST.in
+README.md
+setup.py
+hwpfc/__init__.py
+hwpfc/__main__.py
+hwpfc/run.py
+hwpfc.egg-info/PKG-INFO
+hwpfc.egg-info/SOURCES.txt
+hwpfc.egg-info/dependency_links.txt
+hwpfc.egg-info/entry_points.txt
+hwpfc.egg-info/requires.txt
+hwpfc.egg-info/top_level.txt
+hwpfc/media/hello.jpg
+hwpfc/media/hello.wav
