@@ -1,0 +1,10 @@
+LICENSE
+README.md
+classconvergence.py
+setup.py
+classconvergence.egg-info/PKG-INFO
+classconvergence.egg-info/SOURCES.txt
+classconvergence.egg-info/dependency_links.txt
+classconvergence.egg-info/entry_points.txt
+classconvergence.egg-info/requires.txt
+classconvergence.egg-info/top_level.txt
