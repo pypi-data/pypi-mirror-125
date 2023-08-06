@@ -1,0 +1,12 @@
+README.md
+setup.py
+ctable/__init__.py
+ctable/__main__.py
+ctable/color.py
+ctable/ctable.py
+ctable/utils.py
+ctable.egg-info/PKG-INFO
+ctable.egg-info/SOURCES.txt
+ctable.egg-info/dependency_links.txt
+ctable.egg-info/entry_points.txt
+ctable.egg-info/top_level.txt
