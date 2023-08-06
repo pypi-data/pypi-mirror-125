@@ -1,0 +1,9 @@
+kubetpl/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+kubetpl/aws.py,sha256=jYL4ERY-kwfh9wnkTFtgUwZkJkBj4MHAXWRUPAbirLo,335
+kubetpl/kubetpl.py,sha256=TtOxU_YRxs0uKjAIiimjxqIIOkXh2bYzF_-c1FOSR5E,6046
+kubetpl-1.1.7.dist-info/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+kubetpl-1.1.7.dist-info/METADATA,sha256=MLqVQ4jk0O_h_BCj1n_CPCOrbtG_KY7W6iRVddjIZPI,703
+kubetpl-1.1.7.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+kubetpl-1.1.7.dist-info/entry_points.txt,sha256=5EUnnk84rGzCVnrVerOSw-9Rz0hh6A3x0d8oQ5IcHyI,50
+kubetpl-1.1.7.dist-info/top_level.txt,sha256=nip742lb8DXg7oBLdcpygo3-yelV1CXSLkTx_f_Bap4,8
+kubetpl-1.1.7.dist-info/RECORD,,
