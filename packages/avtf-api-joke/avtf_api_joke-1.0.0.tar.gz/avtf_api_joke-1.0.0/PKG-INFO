@@ -1,0 +1,24 @@
+Metadata-Version: 2.1
+Name: avtf_api_joke
+Version: 1.0.0
+Summary: Python module for avtf
+Home-page: UNKNOWN
+Author: tr3tty
+Author-email: vadim.ivanov13371@gmail.com
+License: Apache License, Version 2.0, see LICENSE file
+Description: helllo
+        nice to meet you!
+Platform: UNKNOWN
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Operating System :: OS Independent
+Classifier: Intended Audience :: End Users/Desktop
+Classifier: Intended Audience :: Developers
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: Implementation :: PyPy
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Description-Content-Type: text/markdown
