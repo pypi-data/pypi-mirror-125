@@ -1,0 +1,8 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+treesearchsolverpy/treesearchsolverpy.egg-info/PKG-INFO
+treesearchsolverpy/treesearchsolverpy.egg-info/SOURCES.txt
+treesearchsolverpy/treesearchsolverpy.egg-info/dependency_links.txt
+treesearchsolverpy/treesearchsolverpy.egg-info/top_level.txt
