@@ -1,0 +1,16 @@
+playsh/__init__.py,sha256=kRCaW4hFtuHeBdJX98ZWqXf7HRAIffJlO7Q3xFrKw5s,94
+playsh/error.py,sha256=odo9ve1-LY_rtKApej4MvqkAu_5dsIqqsW3_Y4FCa6c,660
+playsh/input.py,sha256=lcCQF8SuTVAjjlvLHxuXfM-Y0D1nwZTTd2Xf4Ur52CQ,1558
+playsh/playsh.py,sha256=QOMIZNdlSKGx71lPprYzUtWIPnSCzLHTcTOnPv7Vibc,5567
+playsh/store.py,sha256=kzYpWNOb73tYHcarZkSyV1CdRNVOIyAEDsE3stqELpg,561
+playsh/timer.py,sha256=7hSN479kp8bNKfiGM--SiHJAN6kd73Wxo1lyoXlIQaU,549
+playsh/graphics/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+playsh/graphics/geometry.py,sha256=eVFzQ94T_n0J0Yn3ryW0x_sig5b5eLiM7Z5c4ityyhM,1002
+playsh/graphics/renderer.py,sha256=GBgGXcI0CUqW1odnLQ7DuCWNiP0oCjvvKzqIyGX3pRU,4743
+playsh/graphics/shader.py,sha256=b0iwQEjLqWxdHw-WRv7xtfsquDpAn4XDDhbBl3xHRpo,4986
+playsh/graphics/texture.py,sha256=YZLTq_6LIKySPY0cfGbTkRBnTUe8UDvdoQ-mZoNvUcg,1593
+playsh-0.0.2.dist-info/LICENSE,sha256=ArmrTbNvv6_qquy6VIpEH8XmGn_pOCguqptDChXOwxY,1072
+playsh-0.0.2.dist-info/METADATA,sha256=LVj-U8c-mczafxdeNByagDtlj8j24NuVVFNeAPctLsY,1525
+playsh-0.0.2.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+playsh-0.0.2.dist-info/top_level.txt,sha256=rLQCxPkWVlfsujjgEGosAKUcUfGgtLZ-_Wg5Uu6VRwA,7
+playsh-0.0.2.dist-info/RECORD,,
