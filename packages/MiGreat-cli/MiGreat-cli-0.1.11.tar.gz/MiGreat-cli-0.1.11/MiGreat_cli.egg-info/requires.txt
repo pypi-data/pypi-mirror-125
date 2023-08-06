@@ -1,0 +1,4 @@
+PyYAML
+psycopg2
+pydantic
+sqlalchemy
