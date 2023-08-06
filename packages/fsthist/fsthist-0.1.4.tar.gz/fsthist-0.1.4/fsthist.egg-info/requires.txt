@@ -1,0 +1,4 @@
+typing
+numpy<=1.15
+seaborn
+matplotlib<3.0
