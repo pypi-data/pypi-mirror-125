@@ -1,0 +1,10 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+src/ogham/__init__.py
+src/ogham/mappings.py
+src/ogham.egg-info/PKG-INFO
+src/ogham.egg-info/SOURCES.txt
+src/ogham.egg-info/dependency_links.txt
+src/ogham.egg-info/top_level.txt
