@@ -1,0 +1,9 @@
+my_ezql/__init__.py,sha256=ltq1F_8WZ66Y8X9dNUuXB0uihMzVSA47hllioeMpMK0,31
+my_ezql/myezql.py,sha256=sHrMlDfgnziofYbLW8kR8Xe6upz6bqNIo55-E2LZMKE,26881
+tests/__init__.py,sha256=LdpPMX7FWCidE_JTikonVlr1APKtsuJ3mekG10bTCAs,32
+tests/test_my_ezql.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+my_ezql-0.2.3.dist-info/LICENSE,sha256=eybBExrtzHz5oX_x9jOH2glDzkvLKQgc6m6_9WOSzKc,1067
+my_ezql-0.2.3.dist-info/METADATA,sha256=V6W2AhEGhEPnnAzKQAs93dxM_oL8NQzDVp5LuWQ0zJE,9462
+my_ezql-0.2.3.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+my_ezql-0.2.3.dist-info/top_level.txt,sha256=dTiEViFApC9myfASFM__2nCVl24xAH9xZ5IYRTKVwcQ,14
+my_ezql-0.2.3.dist-info/RECORD,,
