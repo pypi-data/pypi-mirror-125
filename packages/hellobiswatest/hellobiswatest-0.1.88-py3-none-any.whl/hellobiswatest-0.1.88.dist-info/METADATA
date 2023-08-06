@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: hellobiswatest
+Version: 0.1.88
+Summary: a pypi package for testing purposes by biswaroop1547
+License: MIT
+Author: Biswaroop Bhattacharjee
+Author-email: biswaroop08@gmail.com
+Requires-Python: >=3.9,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.9
+Requires-Dist: black (>=21.9b0,<22.0)
+Requires-Dist: mypy (>=0.910,<0.911)
+Requires-Dist: pytest (>=6.2.5,<7.0.0)
+Requires-Dist: pytest-cov (>=3.0.0,<4.0.0)
