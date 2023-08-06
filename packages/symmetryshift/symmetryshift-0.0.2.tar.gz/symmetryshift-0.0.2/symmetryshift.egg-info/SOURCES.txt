@@ -1,0 +1,8 @@
+setup.py
+symmetryshift/__init__.py
+symmetryshift/create_biological_structure_unit.py
+symmetryshift.egg-info/PKG-INFO
+symmetryshift.egg-info/SOURCES.txt
+symmetryshift.egg-info/dependency_links.txt
+symmetryshift.egg-info/entry_points.txt
+symmetryshift.egg-info/top_level.txt
