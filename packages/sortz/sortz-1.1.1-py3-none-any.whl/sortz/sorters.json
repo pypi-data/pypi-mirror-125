@@ -1,0 +1,34 @@
+{
+    "Bubble" : {
+        "Name" : "Bubble",
+        "TimeComplexity" : "O(N^2)",
+        "Description" : [
+            "Iterate through the array comparing consecutive number pairs",
+            "and swapping them if they're out of order.  Repeat until no",
+            "swaps occur.  Each iteration effectively 'bubbles' up the largest",
+            "value."
+        ]
+    },
+    "Selection" : {
+        "Name" : "Selection",
+        "TimeComplexity" : "O(N^2)",
+        "Description" : [
+            "Iterate through the array keeping track of the index of the",
+            "smallest value.  Swap the values at the starting index and the",
+            "lowest value index.  Repeat starting at the next index until end",
+            "of array is reached."
+        ]
+    },
+    "Insertion" : {
+        "Name" : "Insertion",
+        "TimeComplexity" : "O(N^2)",
+        "Description" : [
+            "Iterate through the array starting at index 1, store value in",
+            "a temporary variable.  Compare temp value to values to the left",
+            "of it.  If out of order, shift to the right.  Continue until index",
+            "0 is reached or a value that is in the correct order is found.",
+            "Repeat iteration starting at the next index until all indices have",
+            "been checked."
+        ]
+    }
+}
