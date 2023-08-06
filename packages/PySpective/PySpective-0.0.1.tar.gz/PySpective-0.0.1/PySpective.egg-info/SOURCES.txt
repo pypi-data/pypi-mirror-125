@@ -1,0 +1,10 @@
+LICENSE
+README.md
+setup.py
+PySpective.egg-info/PKG-INFO
+PySpective.egg-info/SOURCES.txt
+PySpective.egg-info/dependency_links.txt
+PySpective.egg-info/top_level.txt
+pyspective/__init__.py
+pyspective/errors.py
+pyspective/pyspective.py
