@@ -1,0 +1,13 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+src/TestTEp37.egg-info/PKG-INFO
+src/TestTEp37.egg-info/SOURCES.txt
+src/TestTEp37.egg-info/dependency_links.txt
+src/TestTEp37.egg-info/not-zip-safe
+src/TestTEp37.egg-info/requires.txt
+src/TestTEp37.egg-info/top_level.txt
+src/ltf/__init__.py
+src/ltf/bondingcurves.py
+src/ltf/data/bondingcurves_initial_values.csv
