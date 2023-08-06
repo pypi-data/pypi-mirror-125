@@ -1,0 +1,15 @@
+tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/test_allanvar.py,sha256=Fkj2r-Wq7yaaO_9ylm280NQQjuQSsgEzmAXAeszICz8,2134
+tests/test_calibration.py,sha256=M1sQm5959pZGE4CYtW2kU6e6P_-h_9LVZtpcRdyU4eQ,2052
+tests/test_simulations.py,sha256=HUOjjeJXR0p8c9nD0MlXaXFVQFiBmRftRD4rWAr9vZQ,558
+tweezepy/MLE.py,sha256=zVhrWPxi4m47XdfBeKIxfAC7LfekkX6PvjjotLMKUnc,14766
+tweezepy/__init__.py,sha256=co8lhEAMamuzIG3nqTcBCdzSowrLVPC9WtaPsFSNY-U,803
+tweezepy/allanvar.py,sha256=E8Z4GKXXIhj1oKJf4WuExCKK3RDz7XujXs0rDSprDxY,22017
+tweezepy/expressions.py,sha256=e3J9q0Rw5TNbc0aoiXFHWW8gyQncIXD7rbtZ275_wNE,2148
+tweezepy/simulations.py,sha256=MK-qXzVBK8BHwk5wHncPKu_apN8pkP6nWmhRazVYhA0,2972
+tweezepy/smmcalibration.py,sha256=-ndVckJM3oCyLMAMpSbVM1SGeAUnRo4ZSq2NC9MqU5g,14400
+Tweezepy-1.1.7.dist-info/LICENSE,sha256=YF6QR6Vjxcg5b_sYIyqkME7FZYau5TfEUGTG-0JeRK0,35129
+Tweezepy-1.1.7.dist-info/METADATA,sha256=KfULEQNAqOBSO5Rtwwnz44KZasPagzqrWUGVG6ZW-UA,2277
+Tweezepy-1.1.7.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+Tweezepy-1.1.7.dist-info/top_level.txt,sha256=zsji2255ANUuR6YmB3OmkxyYLaje-lpwV8td-mvwKT0,15
+Tweezepy-1.1.7.dist-info/RECORD,,
