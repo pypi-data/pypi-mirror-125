@@ -1,0 +1,10 @@
+rafm/__init__.py,sha256=I7A5ilysr5dy1c4gY2y28r2eHI3_g-4rSUv4_HfERX0,324
+rafm/__main__.py,sha256=QITBoghEfdHE6vDyNAWiR4qO49_07RLCDmw_KAxkde0,1094
+rafm/common.py,sha256=VyD_j6gniaT7kFwoDZK0xMFRobCdx5QdWNetqT-gk7Y,1132
+rafm/plddt.py,sha256=dwIXFY_r3VFpU7OoEbpmlYRlpkDO-8UCeNOk533Vc7Q,7975
+rafm/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+rafm-0.3.0.dist-info/entry_points.txt,sha256=cpsSaYz0DDYA8uorf6AoI8Mw0Tn9KjNyYjhGb4ZwiUs,43
+rafm-0.3.0.dist-info/LICENSE.rst,sha256=qNICaW5kF97bmRqLqZGxa7ogRthzhSv5y5l93OV5MTA,1106
+rafm-0.3.0.dist-info/WHEEL,sha256=y3eDiaFVSNTPbgzfNn0nYn5tEn1cX6WrdetDlQM4xWw,83
+rafm-0.3.0.dist-info/METADATA,sha256=m4AeHYgYSpR1Wxr4v6seL7ii-q9pwE4xyEWh5Bt8arU,6988
+rafm-0.3.0.dist-info/RECORD,,
