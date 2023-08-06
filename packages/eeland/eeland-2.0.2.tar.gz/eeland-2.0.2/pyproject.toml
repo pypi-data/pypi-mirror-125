@@ -1,0 +1,26 @@
+[tool.poetry]
+name = "eeland"
+version = "2.0.2"
+description = "easy eland: cli&utils to make eland even easier to use"
+authors = ["Federico Falconieri <federico.falconieri@tno.nl>"]
+license = "MIT"
+
+[tool.poetry.dependencies]
+python = "^3.7"
+eland = "^7.10.1-beta.1"
+
+[tool.poetry.dev-dependencies]
+black = "^21.6b0"
+isort = "^5.8.0"
+mypy = "^0.902"
+tbump = "^6.3.2"
+pre-commit = "^2.15.0"
+pylint = "^2.11.1"
+twine = "^3.4.2"
+
+[tool.poetry.scripts]
+eeland = "eeland.main:run_cli"
+
+[build-system]
+requires = ["poetry-core>=1.0.1"]
+build-backend = "poetry.core.masonry.api"
