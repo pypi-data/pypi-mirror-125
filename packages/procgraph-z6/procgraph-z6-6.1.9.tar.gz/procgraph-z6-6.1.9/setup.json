@@ -1,0 +1,56 @@
+{
+  "install_requires": [
+    "PyContracts3",
+    "PyGeometry-z6",
+    "SystemCmd-z6",
+    "numpy",
+    "pyparsing",
+    "qtfaststart",
+    "setproctitle",
+    "setuptools-git",
+    "termcolor",
+    "zuper-commons-z6"
+  ],
+  "tests_require": [
+    "nose>1.1.2,<2"
+  ],
+  "srcdir": "src",
+  "package_name": "procgraph-z6",
+  "entry_points": {
+    "console_scripts": []
+  },
+  "zip_safe": true,
+  "include_package_data": true,
+  "modules": [
+    "procgraph",
+    "procgraph.block_utils",
+    "procgraph.components",
+    "procgraph.components.debug_components",
+    "procgraph.core",
+    "procgraph.scripts",
+    "procgraph.testing",
+    "procgraph.utils",
+    "procgraph_cv",
+    "procgraph_foo",
+    "procgraph_hdf",
+    "procgraph_images",
+    "procgraph_images.alpha",
+    "procgraph_io_misc",
+    "procgraph_mpl",
+    "procgraph_mpl.examples",
+    "procgraph_mplayer",
+    "procgraph_mplayer.conversions",
+    "procgraph_mplayer.scripts",
+    "procgraph_numpy_ops",
+    "procgraph_pil",
+    "procgraph_robotics",
+    "procgraph_ros",
+    "procgraph_signals",
+    "procgraph_statistics",
+    "procgraph_yaml"
+  ],
+  "version": "6.1.7",
+  "author": "",
+  "author_email": "",
+  "url": ""
+}
