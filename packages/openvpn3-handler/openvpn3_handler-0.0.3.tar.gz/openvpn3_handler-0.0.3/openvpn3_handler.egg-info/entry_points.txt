@@ -1,0 +1,3 @@
+[console_scripts]
+openvpn3_handler = openvpn3_handler.main:run
+
