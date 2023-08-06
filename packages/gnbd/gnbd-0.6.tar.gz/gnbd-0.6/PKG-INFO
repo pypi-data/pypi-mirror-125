@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: gnbd
+Version: 0.6
+Summary: Gaussian abd Binomial distributions
+Home-page: UNKNOWN
+Author: Mateus Furquim Dev
+Author-email: mateus@mfurquim.dev
+License: UNKNOWN
+Description: # Gaussian and Binomial Distribution package
+        
+        A package which contains both Gaussian and Binomial distribution math
+        
+Platform: UNKNOWN
+Description-Content-Type: text/markdown

@@ -1,0 +1,12 @@
+README.md
+setup.py
+gnbd/Binomialdistribution.py
+gnbd/Gaussiandistribution.py
+gnbd/Generaldistribution.py
+gnbd/__init__.py
+gnbd.egg-info/PKG-INFO
+gnbd.egg-info/SOURCES.txt
+gnbd.egg-info/dependency_links.txt
+gnbd.egg-info/not-zip-safe
+gnbd.egg-info/requires.txt
+gnbd.egg-info/top_level.txt
