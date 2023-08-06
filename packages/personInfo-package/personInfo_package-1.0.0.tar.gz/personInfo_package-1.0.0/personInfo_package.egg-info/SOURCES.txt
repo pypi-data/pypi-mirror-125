@@ -1,0 +1,9 @@
+LICENSE.txt
+README.rst
+setup.py
+personInfo_package/__init__.py
+personInfo_package/main.py
+personInfo_package.egg-info/PKG-INFO
+personInfo_package.egg-info/SOURCES.txt
+personInfo_package.egg-info/dependency_links.txt
+personInfo_package.egg-info/top_level.txt

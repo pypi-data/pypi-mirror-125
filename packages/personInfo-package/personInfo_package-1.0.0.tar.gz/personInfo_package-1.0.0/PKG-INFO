@@ -1,0 +1,30 @@
+Metadata-Version: 2.1
+Name: personInfo_package
+Version: 1.0.0
+Summary: Generate multiple messages
+Home-page: https://gitee.com/l_cola/cola
+Author: Cola
+Author-email: 2651509381@qq.com
+License: MIT License
+Platform: all
+Classifier: Intended Audience :: Developers
+Classifier: Operating System :: OS Independent
+Classifier: Natural Language :: Chinese (Simplified)
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 2
+Classifier: Programming Language :: Python :: 2.5
+Classifier: Programming Language :: Python :: 2.6
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Topic :: Software Development :: Libraries
+License-File: LICENSE.txt
+
+**这是我的第一个发布到pypi上的包**
+
+- 这是一个自动生成用户信息的小工具 -
+- 包括：姓名，电话，身份证，出生年月，性别，住址，用户昵称，用户密码 -
+
