@@ -1,0 +1,62 @@
+Metadata-Version: 2.1
+Name: tracardi-key-counter
+Version: 0.6.0
+Summary: This plugin counts keys provided in payload.
+Home-page: UNKNOWN
+Author: Risto Kowaczewski
+Author-email: risto.kowaczewski@gmail.com
+License: UNKNOWN
+Keywords: tracardi,plugin
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+License-File: LICENSE.md
+Requires-Dist: pydantic
+Requires-Dist: tracardi-plugin-sdk (>=0.6.22)
+Requires-Dist: tracardi-dot-notation
+Requires-Dist: tracardi
+
+# Key counter
+
+This plugin counts key strings. Key string provided in configuration will be treated as an information 
+to increase the value of a key in profile. For example if the key equals to `['a','b','a']` then the 
+key count equals to `{"a":2, "b":1}`. 
+
+This plugin can be used for simple statistics e.g. count how many user visited us on mobile device vs other devices
+like desktop or tablet.
+
+# Configuration
+
+```json
+{
+  "key": "desktop",
+  "save_in": "profile@stats.counters.MobileVisits"
+}
+```
+
+* `key` may be a string or a list of strings. Also, a dot notation can be used to access data.
+* `save_in` point to data in profile that will hold the information on key counts. It should be empty object `{}` or a key-value object.
+
+*Example*
+
+```json
+{
+  "key1": 1,
+  "key2": 33
+}
+```
+
+## Examples
+
+Example of configuration with dot notation in `key` and `save_in`
+
+```json
+{
+  "key": ["event@session.context.browser.agent", "event@session.context.browser.agent.string"],
+  "save_in": "profile@stats.counters.visits_origins"
+}
+```
+

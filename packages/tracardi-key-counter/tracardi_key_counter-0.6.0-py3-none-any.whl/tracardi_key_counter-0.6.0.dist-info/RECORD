@@ -1,0 +1,14 @@
+tracardi_key_counter/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tracardi_key_counter/plugin.py,sha256=OCqFejqOtrz2aXtTw-7yaOiqmL-aR-J7iKyZWQ7k96w,3281
+tracardi_key_counter/model/configuration.py,sha256=WRgmu_tZOP5yxwKVeziA4ig5O6CHIsiTA4b0Hh-Mqb4,145
+tracardi_key_counter/model/__pycache__/configuration.cpython-38.pyc,sha256=QuaQ3-Se5WLAOPyL4rz4UZ0zHXy-gnNDJ-W-fu2nL7c,515
+tracardi_key_counter/service/key_counter.py,sha256=pDvasOmC7f2zK0mbJXz58nFRIj1B1hF1nigVptIza78,681
+tracardi_key_counter/service/__pycache__/key_counter.cpython-38.pyc,sha256=2DrvaUMNzZLmnSLmysGT6LTKFf9JE_bdZGYob4O1Ty4,1080
+tracardi_key_counter/test/manual/plugin_test.py,sha256=4hfnp1QDSxdHPbBK2KSQlMzR0Bh_MVw1Xs5ZvrGLS5Q,394
+tracardi_key_counter/test/unit/test_key_counter.py,sha256=tpR5wxj8Lm9NMTXpGbdFgaBToldbDKsc0p237aQGCOE,255
+tracardi_key_counter/test/unit/test_key_counter_plugin.py,sha256=eIoFIEx-7Co1tgQ7UTq-A5SIIRyf3cA-3EFN6VultUQ,502
+tracardi_key_counter-0.6.0.dist-info/LICENSE.md,sha256=l3ZUNaXLxnJvPaG7GYQk8VW6uUE0meUyDOrd7QXXu28,1072
+tracardi_key_counter-0.6.0.dist-info/METADATA,sha256=9pEteMi4ZDrmfzye_y1KcVyAEa7cqDzx6YT0poc9kig,1672
+tracardi_key_counter-0.6.0.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+tracardi_key_counter-0.6.0.dist-info/top_level.txt,sha256=rPKdbrmcX6k8DMMCo9MU1Lvg2T5dXbO5-sLYHDg7MjM,21
+tracardi_key_counter-0.6.0.dist-info/RECORD,,
