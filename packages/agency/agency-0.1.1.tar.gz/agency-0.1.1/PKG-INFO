@@ -1,0 +1,12 @@
+Metadata-Version: 2.1
+Name: agency
+Version: 0.1.1
+Summary: User Agent parsing and creation
+Author: Tom Bulled
+Author-email: 26026015+tombulled@users.noreply.github.com
+Requires-Python: >=3.8,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Requires-Dist: enumb (>=0.1.2,<0.2.0)
+Requires-Dist: parse (>=1.19.0,<2.0.0)
