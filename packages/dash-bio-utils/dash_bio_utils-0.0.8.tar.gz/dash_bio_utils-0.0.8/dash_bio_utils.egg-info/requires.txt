@@ -1,0 +1,14 @@
+colour
+GEOparse>=1.1.0
+jsonschema
+pandas
+parmed
+periodictable
+requests
+typing_extensions
+
+[:python_version == "2.7"]
+biopython==1.76
+
+[:python_version >= "3.0"]
+biopython>=1.77
