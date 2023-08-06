@@ -1,0 +1,41 @@
+Metadata-Version: 2.1
+Name: causal-inference-population-dynamics
+Version: 1.0.2
+Summary: Library to conduct experiments in population dynamics.
+Home-page: https://github.com/artificial-life-lab/population-dynamics
+Author: Pranjal Dhole
+Author-email: dhole.pranjal@gmail.com
+License: MIT
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: numpy
+Requires-Dist: h5py
+Requires-Dist: matplotlib
+
+
+
+# Causal-inference-population-dynamics
+
+Causal-inference-population-dynamics is a library to simulate and infer population dynamics models.
+
+The currently imlemented population dynamics models are
++ Lotka-Volterra model
+
+## Running the code
+
+You can run the simulator directly from terminal by running
+
+```(bash)
+python causal/base/lotka_volterra.py
+```
+
+The simulation statistics will be saved in the `repo/results` directory.
+
+
+
