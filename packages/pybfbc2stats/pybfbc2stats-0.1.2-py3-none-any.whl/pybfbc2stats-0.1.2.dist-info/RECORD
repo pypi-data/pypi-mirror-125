@@ -1,0 +1,10 @@
+pybfbc2stats/__init__.py,sha256=Ovbp1-Q8XBpDDV3yxUFNP7n7Um9eg-FOgHJ_MEBDwfM,538
+pybfbc2stats/client.py,sha256=zPTEvbHdcZmgL3iWxV7NaCwIfkYxXkvgJNdhBvskTvk,8518
+pybfbc2stats/connection.py,sha256=Hb7046iz6kr2-j2guo_4C3md7Bg63-PihQFRR4mxR5M,2695
+pybfbc2stats/constants.py,sha256=O5kWxHr6_kCnBwvtTQdiq3awqXw-sNHE1FJYPBVMx4o,34096
+pybfbc2stats/exceptions.py,sha256=3KigedmU7OhgSlDgs1Ex_iMwdWumidkhpJLkdUG9HKU,234
+pybfbc2stats-0.1.2.dist-info/LICENSE.md,sha256=GbjlnvoQaMTG1hb8UtPi59CV5Hs3LWiUuzsf6lAkbu4,1074
+pybfbc2stats-0.1.2.dist-info/METADATA,sha256=osWMrs2pjyvo71baHykdwjcBB-BC2jSVPmFzNXPZMWg,848
+pybfbc2stats-0.1.2.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+pybfbc2stats-0.1.2.dist-info/top_level.txt,sha256=69BWwtOu7S9XkmQCXWmPnZld3PSkmuGhNYaIMlqak90,13
+pybfbc2stats-0.1.2.dist-info/RECORD,,
