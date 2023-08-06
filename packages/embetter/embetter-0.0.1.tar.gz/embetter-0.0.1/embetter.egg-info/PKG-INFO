@@ -1,0 +1,26 @@
+Metadata-Version: 2.1
+Name: embetter
+Version: 0.0.1
+Summary: Improving Embeddings via Similarities
+Home-page: https://koaning.github.io/embetter/
+Author: Vincent D. Warmerdam
+License: UNKNOWN
+Project-URL: Documentation, https://koaning.github.io/embetter/
+Project-URL: Source Code, https://github.com/koaning/embetter/
+Project-URL: Issue Tracker, https://github.com/koaning/embetter/issues
+Platform: UNKNOWN
+Classifier: Intended Audience :: Science/Research
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Topic :: Scientific/Engineering
+Classifier: Topic :: Scientific/Engineering :: Artificial Intelligence
+Description-Content-Type: text/markdown
+Provides-Extra: dev
+
+# embetter
+Improving Representations via Similarities
+
+

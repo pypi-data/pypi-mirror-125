@@ -1,0 +1,8 @@
+README.md
+setup.py
+embetter/__init__.py
+embetter.egg-info/PKG-INFO
+embetter.egg-info/SOURCES.txt
+embetter.egg-info/dependency_links.txt
+embetter.egg-info/requires.txt
+embetter.egg-info/top_level.txt
