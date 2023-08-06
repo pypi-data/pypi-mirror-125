@@ -1,0 +1,16 @@
+matrix/__init__.py,sha256=3K5kmwaKzXHGFYCq3YRtmGQMQuDFNiFEL2HkEs8OI1w,4210
+matrix/__version__.py,sha256=08TK2sYzQF2Wqm6gpxZEgWYYF9ZjbInObIzS2R2yxiE,18
+matrix/exceptions.py,sha256=XxI81SS6njrtvnES9LPEzuxXlOJY04pYlUY8ozXVtt0,1382
+matrix/matrix.py,sha256=h5Jx-xRkAAwKCSRMWqTuz_P_BrtiuC6HEHjW8v1osbY,42477
+matrix/utils.py,sha256=9TeSwtIcrkg6CoBiVSnDEZ7T8aC_uXrHsyLBFJkyo64,12487
+matrix/components/__init__.py,sha256=RKnY8cz62LaPUQdz8lqDrX-hG5jDZjE5rQ25W4K5bzs,108
+matrix/components/bases.py,sha256=5eU9YdF6M9XNpaBmrlWgWXUMuCanx0TpnPv2FQo4LJ8,9767
+matrix/components/columns.py,sha256=THK3yWKNn0VD6GG7PbHfIeoulLJvWJxZk4Fk9osCv54,9715
+matrix/components/elements.py,sha256=1Hnum3pn1O8iURuFinWoo0gpOP51xz8bx0yyQR5VPUQ,3048
+matrix/components/rows.py,sha256=0exMY9774wpsBkFXJI-8H2R8Ui_4bNuGkYibdVycHEw,9613
+matrix/components/utils.py,sha256=B5KFIM685aAQiijHE_MUs14wnYJYrID3-tbg7TX8NAU,4698
+matrix_47-0.1.2.dist-info/LICENSE,sha256=5X8cMguM-HmKfS_4Om-eBqM6A1hfbgZf6pfx2G24QFI,35150
+matrix_47-0.1.2.dist-info/METADATA,sha256=tgC7pBUMnH88BGRXtx1OOwrvAhlYy7sz_Ljgz5mLyU8,6816
+matrix_47-0.1.2.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+matrix_47-0.1.2.dist-info/top_level.txt,sha256=BvHVM9c7-5SLzg-1OCRpHKgqAubWhRN1e38e6coHs-g,7
+matrix_47-0.1.2.dist-info/RECORD,,
