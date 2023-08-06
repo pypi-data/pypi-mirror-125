@@ -1,0 +1,26 @@
+Metadata-Version: 2.1
+Name: mesiqi
+Version: 0.0.1
+Summary: mesiqi helps you build data microservices
+Home-page: https://github.com/metagoods/mesiqi
+Author: metagoods
+Author-email: info@metagoods.com
+License: UNKNOWN
+Keywords: data microservices,data products,data pipelines,datamesh,ETL,ELT
+Platform: UNKNOWN
+Classifier: Development Status :: 2 - Pre-Alpha
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+Provides-Extra: dbt
+Provides-Extra: snowflake
+Provides-Extra: all
+
+===
+mesiqi
+===
+
+Toolkit for building dataproducts
+
