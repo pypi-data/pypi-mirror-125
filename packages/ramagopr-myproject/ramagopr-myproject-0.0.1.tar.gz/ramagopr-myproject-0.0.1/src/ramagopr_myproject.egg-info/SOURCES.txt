@@ -1,0 +1,10 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+src/mypackage/__init__.py
+src/mypackage/example.py
+src/ramagopr_myproject.egg-info/PKG-INFO
+src/ramagopr_myproject.egg-info/SOURCES.txt
+src/ramagopr_myproject.egg-info/dependency_links.txt
+src/ramagopr_myproject.egg-info/top_level.txt
