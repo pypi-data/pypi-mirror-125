@@ -1,0 +1,26 @@
+<tool id="consume_memory" name="Consume memory" version="0.1.0" profile="17.01">
+    <command detect_errors="exit_code"><![CDATA[
+        python '$consume_mem_script' > output.txt
+    ]]></command>
+    <configfiles>
+        <configfile name="consume_mem_script"><![CDATA[
+import sys
+import time
+
+
+consume_mem = ' ' * ${consume_mem_mb} * 1024 * 1024
+time.sleep(int(${sleep_time}))
+print(sys.getsizeof(consume_mem))
+        ]]></configfile>
+    </configfiles>
+    <inputs>
+        <param name="consume_mem_mb" label="memory to consume (in MB)" type="integer" max="8000" value="5000"/>
+        <param name="sleep_time" label="Sleep this many seconds after reserving memory" type="integer" value="60"/>
+    </inputs>
+    <outputs>
+        <data name="output" format="txt" from_work_dir="output.txt"/>
+    </outputs>
+    <help><![CDATA[
+Consumes a user-specified amount of memory and then sleeps a user-defined amount of time.
+    ]]></help>
+</tool>
