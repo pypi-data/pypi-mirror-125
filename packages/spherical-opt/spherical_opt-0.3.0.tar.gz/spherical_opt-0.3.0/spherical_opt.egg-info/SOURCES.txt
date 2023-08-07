@@ -1,0 +1,10 @@
+LICENSE
+README.md
+setup.py
+spherical_opt/__init__.py
+spherical_opt/spherical_opt.py
+spherical_opt.egg-info/PKG-INFO
+spherical_opt.egg-info/SOURCES.txt
+spherical_opt.egg-info/dependency_links.txt
+spherical_opt.egg-info/requires.txt
+spherical_opt.egg-info/top_level.txt
