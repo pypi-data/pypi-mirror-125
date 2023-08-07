@@ -1,0 +1,32 @@
+Metadata-Version: 2.1
+Name: XperiBot
+Version: 0.1.2
+Summary: Telegram Bot for monitoring ML experiments
+Home-page: https://github.com/Skalextric/XperiBot
+Author: Marco Formoso
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: GNU General Public License v3 or later (GPLv3+)
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: numpy
+Requires-Dist: matplotlib
+Requires-Dist: python-telegram-bot
+
+# ExperiBot
+## Telegram bot to keep track of ML experiments
+
+Installation: 
+- pip install experibot
+
+Bot usage: 
+- /raw_scalars Show the last iteration of selected scalars
+- /draw_scalars Draw the selected scalars
+
+Currently only can track one experiment. See example.py
+
+You should set the enviroment variable TELE_BOT to the token provided by Telegram.
+
