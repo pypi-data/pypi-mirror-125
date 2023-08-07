@@ -1,0 +1,12 @@
+README.md
+setup.py
+bin/singgalang
+singgalang/__init__.py
+singgalang/main.py
+singgalang/singgalang.py
+singgalang.egg-info/PKG-INFO
+singgalang.egg-info/SOURCES.txt
+singgalang.egg-info/dependency_links.txt
+singgalang.egg-info/not-zip-safe
+singgalang.egg-info/requires.txt
+singgalang.egg-info/top_level.txt

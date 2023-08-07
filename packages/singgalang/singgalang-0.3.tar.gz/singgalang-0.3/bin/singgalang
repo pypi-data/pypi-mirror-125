@@ -1,0 +1,17 @@
+__version__  = '0.1'
+__author__   = 'Muhammad Al Fajri'
+__email__    = 'fajrim228@gmail.com'
+__telegram__ = 'ini_peninggi_badan'
+
+import sys
+try:
+    import singgalang
+except Exception as e:
+    raise e
+
+from singgalang import main
+if __name__=='__main__':
+    try:
+        sys.exit(main.run())
+    except Exception as e:
+        pass
