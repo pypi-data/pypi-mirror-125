@@ -1,0 +1,12 @@
+LICENSE
+README.md
+setup.py
+labelme_to_detectron2/__init__.py
+labelme_to_detectron2/convert_annotation.py
+labelme_to_detectron2/convert_annotations.py
+labelme_to_detectron2.egg-info/PKG-INFO
+labelme_to_detectron2.egg-info/SOURCES.txt
+labelme_to_detectron2.egg-info/dependency_links.txt
+labelme_to_detectron2.egg-info/not-zip-safe
+labelme_to_detectron2.egg-info/requires.txt
+labelme_to_detectron2.egg-info/top_level.txt
