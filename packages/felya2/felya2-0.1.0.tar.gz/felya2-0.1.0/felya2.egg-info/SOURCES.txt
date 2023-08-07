@@ -1,0 +1,6 @@
+setup.py
+felya2.egg-info/PKG-INFO
+felya2.egg-info/SOURCES.txt
+felya2.egg-info/dependency_links.txt
+felya2.egg-info/requires.txt
+felya2.egg-info/top_level.txt
