@@ -1,0 +1,10 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+src/case_switcher.egg-info/PKG-INFO
+src/case_switcher.egg-info/SOURCES.txt
+src/case_switcher.egg-info/dependency_links.txt
+src/case_switcher.egg-info/top_level.txt
+src/caseswitcher/__init__.py
+test/test.py
