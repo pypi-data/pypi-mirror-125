@@ -1,0 +1,6 @@
+alpharotate
+alpharotate/libs/utils/cython_utils/cython_bbox
+alpharotate/libs/utils/cython_utils/cython_nms
+alpharotate/libs/utils/iou_cpu
+alpharotate/libs/utils/rbbox_overlaps
+alpharotate/libs/utils/rotate_polygon_nms

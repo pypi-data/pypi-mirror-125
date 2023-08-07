@@ -1,0 +1,5 @@
+cython
+tensorflow-gpu==1.13.1
+opencv-python==4.1.1.26
+Shapely==1.7.1
+tqdm==4.54.0

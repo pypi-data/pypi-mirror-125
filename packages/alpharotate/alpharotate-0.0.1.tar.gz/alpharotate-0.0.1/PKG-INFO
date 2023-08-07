@@ -1,0 +1,16 @@
+Metadata-Version: 1.1
+Name: alpharotate
+Version: 0.0.1
+Summary: A Rotation Detection Benchmark using TensorFlow
+Home-page: https://github.com/yangxue0827/RotationDetection
+Author: yangxue0827
+Author-email: yangxue-2019-sjtu@sjtu.edu.cn
+License: Apache License 2.0
+Description: UNKNOWN
+Keywords: AlphaRotate,TensorFlow,Deep Learning,Rotation Detection,Benchmark,AI
+Platform: UNKNOWN
+Classifier: Programming Language :: Python
+Classifier: Operating System :: OS Independent
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: Science/Research
+Classifier: Topic :: Scientific/Engineering :: Artificial Intelligence
