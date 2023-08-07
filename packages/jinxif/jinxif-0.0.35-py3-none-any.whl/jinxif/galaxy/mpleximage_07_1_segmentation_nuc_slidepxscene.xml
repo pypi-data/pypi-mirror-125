@@ -1,0 +1,42 @@
+<tool id="segmentation_nuc" name="segmentation_nuc" version="0.0.1" profile="21.09">
+    <description>cellpose nucleus segmentation</description>
+
+    <requirements>
+        <requirement type="package">jinxif</requirement>
+    </requirements>
+
+    <command detect_errors="exit_code"><![CDATA[
+	#import re
+
+	mkdir tiff_registered &&
+        mkdir tiff_segmentation &&
+
+	#for $tiff in $tiff_registered_input:
+            #set $filename = re.sub('[^\w\-\.\s]', '_', str($tiff.element_identifier))
+            #if str($filename).endswith('.tif') or str($filename).endswith('.tiff'):
+                ln -s $tiff tiff_registered/$filename &&
+            #else:
+                ln -s $tiff tiff_registered/${filename}.tif &&
+            #end if
+        #end for
+
+        #set $dapiround = re.sub('[^\w\-\.\s]', '_', str($dapi_round))
+
+	python $__tool_directory__/mpleximage_07_1_segmentation_nuc_slidepxscene.py --nucdiam $nuc_diam --dapiround $dapiround --gpu $gpu
+    ]]></command>
+
+    <inputs>
+	<param type="data_collection" collection_type="list" format="tiff" name="tiff_registered_input" label="tiff_registered_input" />
+	<param type="integer" value="30" name="nuc_diam" label="nuc_diameter_input" help="nucleus diameter in pixel." />
+	<param type="text" value="R1" name="dapi_round" label="dapi round" help="round from which dapi for segmentation should be used." />
+	<param type="boolean" truevalue="true" falsevalue="false" checked="false" name="gpu" label="gpu" help="are for segmentation gpu processor aviable and cellpose was gpu capable installed?" />
+    </inputs>
+
+    <outputs>
+        <collection type="list"  name="tiff_segmentation_output">
+            <discover_datasets pattern="__designation_and_ext__" visible="true" format="tiff" directory="tiff_segmentation" />
+        </collection>
+    </outputs>
+
+    <help></help>
+</tool>

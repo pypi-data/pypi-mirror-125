@@ -1,0 +1,37 @@
+<tool id="segmentation_match" name="segmentation_match" version="0.0.1" profile="21.09">
+    <description>match nucleus and cell segmentation labels</description>
+
+    <requirements>
+        <requirement type="package">jinxif</requirement>
+    </requirements>
+
+    <command detect_errors="exit_code"><![CDATA[
+	#import re
+
+        mkdir tiff_segmentation &&
+
+        #set $filename = re.sub('[^\w\-\.\s]', '_', str($tiff_nuc_segmentation.element_identifier))
+        ln -s $tiff_nuc_segmentation tiff_segmentation/${filename}.tif &&
+
+        #set $filename = re.sub('[^\w\-\.\s]', '_', str($tiff_cell_segmentation.element_identifier))
+        ln -s $tiff_cell_segmentation tiff_segmentation/${filename}.tif &&
+
+        #set $datatype = re.sub('[^\w\-\.\s]', '_', str($data_type))
+
+        python $__tool_directory__/mpleximage_07_3_segmentation_match_slidepxscene.py --datatype $datatype
+    ]]></command>
+
+    <inputs>
+        <param type="data" format="tiff" name="tiff_nuc_segmentation"  label="tiff_nuc_segmentation" />
+        <param type="data" format="tiff" name="tiff_cell_segmentation"  label="tiff_cell_segmentation" />
+	<param type="text" value="cmif" name="data_type" label="data_type" help="micropscopy data type. possible datatypes are cmif and codex." />
+    </inputs>
+
+    <outputs>
+        <collection type="list"  name="tiff_segmentation_output">
+            <discover_datasets pattern="__designation_and_ext__" visible="true" format="tiff" directory="tiff_segmentation" />
+        </collection>
+    </outputs>
+
+    <help></help>
+</tool>

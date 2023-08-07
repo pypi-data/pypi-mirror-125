@@ -1,0 +1,30 @@
+<tool id="sane_czi_splitscene" name="sane_czi_splitscene" version="0.0.1" profile="21.09">
+
+    <description>check czi_splitscene file names</description>
+
+    <requirements>
+        <requirement type="package">jinxif</requirement>
+    </requirements>
+
+    <command detect_errors="exit_code"><![CDATA[
+	#import re
+
+	mkdir czi_splitscene &&
+
+	#for $czi in $czi_splitscene_input:
+	    #set $filename = re.sub('[^\w\-\.\s]', '_', str($czi.element_identifier))
+	    ln -s $czi czi_splitscene/$filename &&
+	#end for
+
+	python $__tool_directory__/mpleximage_01_2_sane_czi_splitscene_slide.py > $stdout_czi_splitscene
+    ]]></command>
+
+    <inputs>
+        <param type="data_collection"  collection_type="list" format="tiff" name="czi_splitscene_input" label="czi_splitscene_input"/>
+    </inputs>
+    <outputs>
+	    <data format="tabular" name="stdout_czi_splitscene" label="stdout_czi_splitscene"/>
+    </outputs>
+
+    <help></help>
+</tool>
