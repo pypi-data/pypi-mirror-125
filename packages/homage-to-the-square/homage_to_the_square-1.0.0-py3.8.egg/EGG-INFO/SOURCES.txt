@@ -1,0 +1,9 @@
+README.md
+setup.py
+homage/__init__.py
+homage/main.py
+homage_to_the_square.egg-info/PKG-INFO
+homage_to_the_square.egg-info/SOURCES.txt
+homage_to_the_square.egg-info/dependency_links.txt
+homage_to_the_square.egg-info/entry_points.txt
+homage_to_the_square.egg-info/top_level.txt
