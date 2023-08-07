@@ -1,0 +1,11 @@
+sonus/__init__.py,sha256=ZpvQ2M2oEM7PaRuhNa-0cVAyfL3p-2vCcm9geFOUVvA,44
+sonus/__main__.py,sha256=C9ohrmO73piGZ1ox9EVST0M7yTT9OjajyKshzstOEWM,67
+sonus/chapterizer.py,sha256=q3zvc3sIOlpCzkbVzQtIHiWOqzg-4jKqf_8s7cT5w1c,6727
+sonus/downloader.py,sha256=cev6W2ExG7cA_qHYT4dOYJ3vCWBbC7S-ldIJNY1rg_o,11458
+sonus/main.py,sha256=LOft28qDt-ju94wpdSpfvFjdhm3c29rqyE6sqqiir4Y,4224
+sonus-0.1.0.dist-info/LICENSE,sha256=YF6QR6Vjxcg5b_sYIyqkME7FZYau5TfEUGTG-0JeRK0,35129
+sonus-0.1.0.dist-info/METADATA,sha256=XoaIAc-SaHhPY5i5a2nlrq6IXIkaBEzqKcQ3Lvdwwsw,2761
+sonus-0.1.0.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+sonus-0.1.0.dist-info/entry_points.txt,sha256=gYImS5791QwC2z4QmHnqcua-NpxL2St43dUdkFqkbCg,43
+sonus-0.1.0.dist-info/top_level.txt,sha256=EAFlUBxMnQTQOSqkx36YXplrg4Xm_25d6aQ6mvvYjXs,6
+sonus-0.1.0.dist-info/RECORD,,
