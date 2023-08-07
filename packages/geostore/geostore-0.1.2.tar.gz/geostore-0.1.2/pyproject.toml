@@ -1,0 +1,274 @@
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.black]
+line-length = 100
+
+[tool.coverage.report]
+exclude_lines = [
+    'if TYPE_CHECKING:',
+    'if __name__ == "__main__":',
+    'pragma: no cover',
+]
+fail_under = 100
+
+[tool.coverage.run]
+branch = true
+omit = [
+    ".venv/*",
+]
+
+[tool.isort]
+case_sensitive = true
+line_length = 100
+profile = "black"
+
+[tool.mypy]
+show_error_codes = true
+strict = true
+
+[[tool.mypy.overrides]]
+module = [
+    "jsonschema",
+    "jsonschema._utils",
+    "jsonschema.validators",
+    "multihash",
+    "pystac",
+    "pystac.layout",
+    "pytest_subtests",
+    "smart_open",
+    "linz_logger"
+]
+ignore_missing_imports = true
+
+[tool.poetry]
+name = "geostore"
+version = "0.1.2"
+description = "Central storage, management and access for important geospatial datasets developed by LINZ"
+authors = [
+    "Bill M. Nelson <bmnelson@linz.govt.nz>",
+    "Daniel Silk <dsilk@linz.govt.nz>",
+    "Ivan Mincik <ivan.mincik@gmail.com>",
+    "Mitchell Paff <mpaff@linz.govt.nz>",
+    "Sandro Santilli <strk@kbt.io>",
+    "Simon Planzer <splanzer@linz.govt.nz>",
+    "Victor Engmark <vengmark@linz.govt.nz>",
+]
+license = "MIT"
+readme = "README.md"
+homepage = "https://github.com/linz/geostore"
+repository = "https://github.com/linz/geostore"
+keywords = [
+    "SpatioTemporal Asset Catalog (STAC)",
+    "Toitū Te Whenua Land Information New Zealand",
+]
+classifiers = [
+    "Development Status :: 4 - Beta",
+    "Environment :: Console",
+    "Framework :: AWS CDK",
+    "Framework :: Pytest",
+    "Intended Audience :: End Users/Desktop",
+    "Intended Audience :: Information Technology",
+    "License :: OSI Approved :: MIT License",
+    "Natural Language :: English",
+    "Operating System :: POSIX",
+    "Programming Language :: Python :: 3.8",
+    "Topic :: Communications :: File Sharing",
+    "Topic :: Scientific/Engineering :: GIS",
+    "Topic :: Utilities",
+    "Typing :: Typed",
+]
+
+[tool.poetry.dependencies]
+python = "^3.8"
+"aws-cdk.aws-dynamodb" = {version = "*", optional = true}
+"aws-cdk.aws-ec2" = {version = "*", optional = true}
+"aws-cdk.aws-ecr" = {version = "*", optional = true}
+"aws-cdk.aws-ecr_assets" = {version = "*", optional = true}
+"aws-cdk.aws-ecs" = {version = "*", optional = true}
+"aws-cdk.aws-events" = {version = "*", optional = true}
+"aws-cdk.aws-events-targets" = {version = "*", optional = true}
+"aws-cdk.aws-iam" = {version = "*", optional = true}
+"aws-cdk.aws-lambda" = {version = "*", optional = true}
+"aws-cdk.aws-lambda-event-sources" = {version = "*", optional = true}
+"aws-cdk.aws-lambda-python" = {version = "*", optional = true}
+"aws-cdk.aws-s3" = {version = "*", optional = true}
+"aws-cdk.aws-sns" = {version = "*", optional = true}
+"aws-cdk.aws-stepfunctions" = {version = "*", optional = true}
+"aws-cdk.aws-stepfunctions_tasks" = {version = "*", optional = true}
+awscli = {version = "*", optional = true}
+boto3 = {version = "*", optional = true}
+cattrs = {version = "*", optional = true}
+jsonschema = {version = "*", extras = ["format"], optional = true}
+multihash = {version = "*", optional = true}
+pynamodb = {version = "*", optional = true}
+pystac = {version = "*", optional = true}
+slack-sdk = {version = "*", extras = ["models", "webhook"], optional = true}
+smart-open = {version = "*", extras = ["s3"], optional = true}
+strict-rfc3339 = {optional = true, version = "*"}
+typer = {version = "*", optional = true}
+ulid-py = {version = "*", optional = true}
+linz-logger = {version = "*", optional = true}
+
+[tool.poetry.dev-dependencies]
+black = "*"
+boto3-stubs = {version = "*", extras = ["batch", "dynamodb", "events", "lambda", "lambda-python", "s3", "s3control", "sns", "sqs", "ssm", "stepfunctions", "sts"]}
+gitlint = "*"
+ipdb = "*"
+isort = "*"
+language-formatters-pre-commit-hooks = "*"
+mutmut = "*"
+mypy = "*"
+pre-commit = "*"
+pylint = "*"
+pytest = "*"
+pytest-randomly = "*"
+pytest-socket = "*"
+pytest-subtests = "*"
+pytest-timeout = "*"
+types-pkg-resources = "*"
+types-python-dateutil = "*"
+types-requests = "*"
+types-six = "*"
+types-toml = "*"
+
+[tool.poetry.dev-dependencies.coverage]
+version = "*"
+extras = ["toml"]
+
+[tool.poetry.extras]
+cdk = [
+    "aws-cdk.aws-dynamodb",
+    "aws-cdk.aws-ec2",
+    "aws-cdk.aws-ecr",
+    "aws-cdk.aws-ecr_assets",
+    "aws-cdk.aws-ecs",
+    "aws-cdk.aws-events",
+    "aws-cdk.aws-events-targets",
+    "aws-cdk.aws-iam",
+    "aws-cdk.aws-lambda",
+    "aws-cdk.aws-lambda-event-sources",
+    "aws-cdk.aws-lambda-python",
+    "aws-cdk.aws-s3",
+    "aws-cdk.aws-sns",
+    "aws-cdk.aws-stepfunctions",
+    "aws-cdk.aws-stepfunctions_tasks",
+    "awscli",
+    "cattrs",
+]
+check_files_checksums = [
+    "boto3",
+    "linz-logger",
+    "multihash",
+    "pynamodb",
+]
+check_stac_metadata = [
+    "boto3",
+    "jsonschema",
+    "linz-logger",
+    "pynamodb",
+    "strict-rfc3339",
+]
+cli = [
+    "boto3",
+    "typer",
+]
+content_iterator = [
+    "jsonschema",
+    "linz-logger",
+    "pynamodb",
+]
+datasets = [
+    "boto3",
+    "jsonschema",
+    "linz-logger",
+    "pynamodb",
+    "pystac",
+    "ulid-py",
+]
+dataset_versions = [
+    "jsonschema",
+    "linz-logger",
+    "pynamodb",
+    "ulid-py",
+]
+import_asset_file = [
+    "boto3",
+    "linz-logger",
+    "smart-open",
+]
+import_dataset = [
+    "boto3",
+    "jsonschema",
+    "linz-logger",
+    "pynamodb",
+    "smart-open",
+    "ulid-py",
+]
+import_metadata_file = [
+    "boto3",
+    "linz-logger",
+]
+import_status = [
+    "boto3",
+    "jsonschema",
+    "linz-logger",
+    "pynamodb",
+]
+notify_status_update = [
+    "boto3",
+    "jsonschema",
+    "linz-logger",
+    "pynamodb",
+    "slack-sdk"
+]
+populate_catalog = [
+    "boto3",
+    "jsonschema",
+    "linz-logger",
+    "pystac",
+]
+update_dataset_catalog = [
+    "boto3",
+    "jsonschema",
+    "linz-logger",
+    "pynamodb",
+    "ulid-py"
+]
+upload_status = [
+    "boto3",
+    "jsonschema",
+    "linz-logger",
+    "pynamodb",
+]
+validation_summary = [
+    "jsonschema",
+    "linz-logger",
+    "pynamodb",
+]
+
+[tool.poetry.scripts]
+geostore = "geostore.cli:app"
+
+[tool.pylint.MASTER]
+disable = [
+    "duplicate-code",
+    "missing-class-docstring",
+    "missing-function-docstring",
+    "missing-module-docstring",
+]
+load-plugins = [
+    "pylint.extensions.mccabe",
+]
+max-complexity = 6
+
+[tool.pytest.ini_options]
+addopts = "--randomly-dont-reset-seed"
+markers = [
+    "infrastructure: requires a deployed infrastructure",
+]
+python_functions = "should_*"
+testpaths = [
+    "tests"
+]
