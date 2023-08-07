@@ -1,0 +1,48 @@
+Metadata-Version: 2.1
+Name: crf-beam
+Version: 0.1.1
+Summary: crf beam search
+Home-page: https://nanoporetech.com
+Author: Oxford Nanoporetech Technologies, Ltd.
+Author-email: support@nanoporetech.com
+License: UNKNOWN
+Platform: UNKNOWN
+Description-Content-Type: text/markdown
+Requires-Dist: setuptools
+Requires-Dist: wheel (>=0.34.1)
+Requires-Dist: auditwheel (>=3.1.0)
+Requires-Dist: torch (>=1.1.0)
+
+# crf-beam
+
+Beam search for Bonito CRF models.
+
+## Usage
+
+```python
+>>> import torch
+>>> from crf_beam import beam_search
+>>>
+>>> T, C = 1000, 320
+>>> scores = torch.rand(T, C)
+>>> back_guides = torch.rand(T + 1, C)
+>>> post = torch.rand(T, C)
+>>>
+>>> sequence, qstring, moves = beam_search(scores, back_guides, post)
+>>> sequence
+'ACACTCGCAGCGCGATACGACTGATCGAGATATACTCAGTGTACACAGT...'
+>>> qstring
+'(&''(****95444"@732"55",--/5555"5"@@E"E4""","-#**...'
+```
+
+## Developer Quickstart
+
+```
+$ python3 -m venv venv3
+$ source venv3/bin/activate
+(venv3) $ pip install -r requirements.txt
+(venv3) $ make build
+(venv3) $ make test
+```
+
+
