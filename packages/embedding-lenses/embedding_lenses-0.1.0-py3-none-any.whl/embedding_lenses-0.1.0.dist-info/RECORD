@@ -1,0 +1,11 @@
+embedding_lenses/__init__.py,sha256=kUR5RAFc7HCeiqdlX36dZOHkUI5wI6V_43RpEcD8b-0,22
+embedding_lenses/app.py,sha256=FaKAV_AaNUSR0IMuDduBqmux7Apk0VetBm2gwppNi38,3729
+embedding_lenses/data.py,sha256=xWA5RQL6lPC0B2W53FcUyEovF-XZx3VNGnNdGRk9oJk,752
+embedding_lenses/dimensionality_reduction.py,sha256=1Gt5RMe9BMGkLZU1uH4Obq0GuhRtaFoLGHqI33a3ZeM,640
+embedding_lenses/embedding.py,sha256=23eL8tjraAu0nExRWOrU8TWBxJwH5BAtsQ3GaSshvLo,411
+embedding_lenses/utils.py,sha256=OJ7vUH-2grN-yEIYUyesiYOvhHBbCGT-13y9cuQc2Z4,188
+embedding_lenses/visualization.py,sha256=DAm05qt-CpiBfjAuUvn6U0KHbO8gCbjhf_abM-ilHpA,1463
+embedding_lenses-0.1.0.dist-info/LICENSE,sha256=yMewLHlUpSgd1JpfXFw8WY7HOqfe7_AeHhLAWhZrzQY,1084
+embedding_lenses-0.1.0.dist-info/WHEEL,sha256=SrtnPGVTMeYWttls9xnWA01eUhCZ3ufFdJUYb1J3r-U,83
+embedding_lenses-0.1.0.dist-info/METADATA,sha256=jBLw-4rSeVg5DYTiCc8kDBr0TBhlIuSUM2r4fGsTbQA,738
+embedding_lenses-0.1.0.dist-info/RECORD,,
