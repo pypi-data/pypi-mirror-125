@@ -1,0 +1,12 @@
+.gitignore,sha256=y4OnrjuOuhhyLpsafUd3HLgHi4kM1muEZqhLtiwHjUI,54
+LICENSE,sha256=E_tIpsMacuDitpZQsc6-iVT3tzRJhISS3P0islvZGvo,35182
+README.md,sha256=SBb2ysrOIqbr3eM750J3FCW9QO_O2m887uSG8vScui4,929
+requirements.txt,sha256=dNYx97pkwquRMtTQRbg3aNVEUhBbxPFf0ky7LYAQdrs,137
+sneaky/__init__.py,sha256=VQqJ1Mu2BdQU01lfe5EEZCGw3jwwdx9h2jOGf1UGPxs,525
+sneaky/core.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+sneaky/utils.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+sneaky-0.0.1.dist-info/LICENSE,sha256=E_tIpsMacuDitpZQsc6-iVT3tzRJhISS3P0islvZGvo,35182
+sneaky-0.0.1.dist-info/METADATA,sha256=J7IFSDMkrf7v1L8EuB3EAO5DbOPtY44yAcnoBQtA88A,2220
+sneaky-0.0.1.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+sneaky-0.0.1.dist-info/top_level.txt,sha256=Jzq5VlE8ZBD-JKLbtjYMBJ79IQ6NLyOFvXpKkHxFXUY,7
+sneaky-0.0.1.dist-info/RECORD,,
