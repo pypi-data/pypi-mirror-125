@@ -1,0 +1,20 @@
+[build-system]
+requires = [
+    "setuptools>=42",
+    "wheel"
+]
+
+build-backend = "setuptools.build_meta"
+
+[tool.mypy]
+files = [
+    "wcmatch/*.py"
+]
+strict = true
+show_error_codes = true
+
+[[tool.mypy.overrides]]
+module = [
+    'wcmatch.glob.*'
+]
+warn_unused_ignores = false
