@@ -1,0 +1,11 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+src/albumplayer/__init__.py
+src/albumplayer/albumplayer.py
+src/keywind_albumplayer.egg-info/PKG-INFO
+src/keywind_albumplayer.egg-info/SOURCES.txt
+src/keywind_albumplayer.egg-info/dependency_links.txt
+src/keywind_albumplayer.egg-info/requires.txt
+src/keywind_albumplayer.egg-info/top_level.txt
