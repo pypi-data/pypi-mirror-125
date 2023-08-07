@@ -1,0 +1,13 @@
+pyserial<4.0,>=3.5
+mbed-ls>=1.8.9
+pexpect<5.0,>=4.8
+packaging>=20.4
+future
+click>=7.0
+pyelftools
+pyyaml
+globster
+enum34
+
+[pyocd]
+pyocd>=0.28.3
