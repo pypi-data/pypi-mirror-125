@@ -1,0 +1,12 @@
+LICENSE,sha256=ourvUbQJkHhmseMULVTbFcD_2uCGnzCatt0Qet_gQbY,1077
+dslash/__init__.py,sha256=eCUJW53BLz3Wrhb9njOqsSPD8LBos_cPM1usMOM0nxw,815
+dslash/choices.py,sha256=bwiFyXJJBKLrubBqYeRECTYMg210pw4Wgb8uOOoVjMk,3577
+dslash/client.py,sha256=XYMXMiyJU3S1gS2kBS5ti_BJPnJEy8H_d-SOpDPZE90,12698
+dslash/commands.py,sha256=_N_ryqGXUBQuoDVzUXM6OcNaR3KTw240KgzoB6tK5As,13873
+dslash/groups.py,sha256=X51mZhOIUsSO2geCXssYUcv2VoT20yBKxx3n0oP6p1o,3511
+dslash/options.py,sha256=sCDalFiNNkY7-ztQqOL215zZMERulK412O-sSRmbUXY,5455
+dslash/permissions.py,sha256=ZdDrHEEbXlCxmi-sMb6gOOVbwJRG3KhLH-g2JLEckS8,6178
+dslash-0.4.2.dist-info/LICENSE,sha256=ourvUbQJkHhmseMULVTbFcD_2uCGnzCatt0Qet_gQbY,1077
+dslash-0.4.2.dist-info/WHEEL,sha256=y3eDiaFVSNTPbgzfNn0nYn5tEn1cX6WrdetDlQM4xWw,83
+dslash-0.4.2.dist-info/METADATA,sha256=sYT1X2QHq_tC2hFpp7kTV834WAkR7NFTbVBN7uaQXZQ,5262
+dslash-0.4.2.dist-info/RECORD,,
