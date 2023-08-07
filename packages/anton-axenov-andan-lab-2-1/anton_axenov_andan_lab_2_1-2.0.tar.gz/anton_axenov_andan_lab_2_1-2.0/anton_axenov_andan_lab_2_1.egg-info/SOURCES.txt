@@ -1,0 +1,9 @@
+README.txt
+setup.py
+anton_axenov_andan_lab_2_1/__init__.py
+anton_axenov_andan_lab_2_1/core.py
+anton_axenov_andan_lab_2_1.egg-info/PKG-INFO
+anton_axenov_andan_lab_2_1.egg-info/SOURCES.txt
+anton_axenov_andan_lab_2_1.egg-info/dependency_links.txt
+anton_axenov_andan_lab_2_1.egg-info/requires.txt
+anton_axenov_andan_lab_2_1.egg-info/top_level.txt
