@@ -1,0 +1,10 @@
+README.md
+setup.py
+LoggingSelenium/LogHTML.py
+LoggingSelenium/__init__.py
+LoggingSelenium/ttt.py
+selenium_logging.egg-info/PKG-INFO
+selenium_logging.egg-info/SOURCES.txt
+selenium_logging.egg-info/dependency_links.txt
+selenium_logging.egg-info/requires.txt
+selenium_logging.egg-info/top_level.txt
