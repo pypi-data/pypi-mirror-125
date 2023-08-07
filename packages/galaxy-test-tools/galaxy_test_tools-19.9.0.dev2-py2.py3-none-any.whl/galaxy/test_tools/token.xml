@@ -1,0 +1,23 @@
+<tool id="token_test" name="token_test" version="1.0.0">
+    <macros>
+        <token name="@TOKEN@">hello</token>
+    </macros>
+    <command>
+        echo @TOKEN@ > '$output'
+    </command>
+    <inputs>
+        <param name="text_param" type="text" value="@TOKEN@" />
+    </inputs>
+    <outputs>
+        <data name="output" format="txt" />
+    </outputs>
+    <tests>
+        <test>
+            <output name="output">
+                <assert_contents>
+                    <has_line line="hello"/>
+                </assert_contents>
+            </output>
+        </test>
+    </tests>
+</tool>

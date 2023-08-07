@@ -1,0 +1,12 @@
+<tool id="galaxy_slots_and_memory" name="galaxy_slots_and_memory" version="0.1.0">
+    <command detect_errors="exit_code"><![CDATA[
+echo \$GALAXY_SLOTS >> '$job_resources' &&
+echo \$GALAXY_MEMORY_MB >> '$job_resources' &&
+echo \$GALAXY_MEMORY_MB_PER_SLOT >> '$job_resources'
+    ]]></command>
+    <inputs>
+    </inputs>
+    <outputs>
+        <data name="job_resources" format="txt"/>
+    </outputs>
+</tool>
