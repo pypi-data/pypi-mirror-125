@@ -1,0 +1,12 @@
+.editorconfig
+.flake8
+.gitignore
+LICENSE
+MANIFEST.in
+README.md
+setup.py
+type_annotations_generator.py
+type_annotations_generator.egg-info/PKG-INFO
+type_annotations_generator.egg-info/SOURCES.txt
+type_annotations_generator.egg-info/dependency_links.txt
+type_annotations_generator.egg-info/top_level.txt

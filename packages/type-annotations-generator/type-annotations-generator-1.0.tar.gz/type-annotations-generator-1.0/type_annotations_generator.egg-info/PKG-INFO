@@ -1,0 +1,62 @@
+Metadata-Version: 2.1
+Name: type-annotations-generator
+Version: 1.0
+Summary: type-annotations-generator provides a function for generating type annotations for a object
+Home-page: https://gitlab.com/JakobDev/type-annotations-generator
+Author: JakobDev
+Author-email: jakobdev@gmx.de
+License: BSD
+Project-URL: Bug Tracker, https://gitlab.com/JakobDev/type-annotations-generator/-/issues
+Keywords: JakobDev,type,annotations
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Developers
+Classifier: Environment :: Other Environment
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Operating System :: OS Independent
+Classifier: Operating System :: POSIX
+Classifier: Operating System :: POSIX :: BSD
+Classifier: Operating System :: POSIX :: Linux
+Classifier: Operating System :: MacOS :: MacOS X
+Classifier: Operating System :: Microsoft :: Windows
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Classifier: Programming Language :: Python :: Implementation :: PyPy
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# type-annotations-generator
+
+type-annotations-generator provides a function for generating type annotations. That can be useful if you work with a API which has a complex data structure.
+It supports [PEP 585](https://www.python.org/dev/peps/pep-0585) and [PEP 604](https://www.python.org/dev/peps/pep-0604).
+
+```python
+import type_annotations_generator
+
+data = {
+    "elements": [
+        {
+            "name": "foo",
+            "age": 42
+        }
+    ],
+    "count": 1
+}
+
+print(type_annotations_generator.generate_annotations(data))
+# Dict[str, Union[List[Dict[str, Union[str, int]]], int]]
+
+print(type_annotations_generator.generate_annotations(data, pep_585=True))
+# dict[str, Union[list[dict[str, Union[str, int]]], int]]
+
+print(type_annotations_generator.generate_annotations(data, pep_585=True, pep_604=True))
+# dict[str, list[dict[str, str | int]] | int]
+```
+
+
