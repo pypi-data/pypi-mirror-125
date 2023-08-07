@@ -1,0 +1,13 @@
+LICENSE.txt
+MANIFEST.in
+README.md
+setup.py
+python_chefkoch/__init__.py
+python_chefkoch/chefkoch.py
+python_chefkoch.egg-info/PKG-INFO
+python_chefkoch.egg-info/SOURCES.txt
+python_chefkoch.egg-info/dependency_links.txt
+python_chefkoch.egg-info/requires.txt
+python_chefkoch.egg-info/top_level.txt
+src/categories.json
+src/specifications.json
