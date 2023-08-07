@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: singgalang
+Version: 0.3
+Summary: Python script dengan tempo yang sesingkat-singkatnya.
+Home-page: https://github.com/aN4ksaL4y/hariansinggalang
+Author: Muhammad Al Fajri
+Author-email: fajrim228@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Requires-Dist: bs4
+Requires-Dist: requests
+Requires-Dist: urwid
+
+UNKNOWN
+
