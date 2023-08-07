@@ -1,0 +1,4 @@
+
+        [console_scripts]
+        dfk=dfk.cli:cli
+    
