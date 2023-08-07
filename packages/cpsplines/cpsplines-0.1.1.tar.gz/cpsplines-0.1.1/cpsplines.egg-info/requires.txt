@@ -1,0 +1,14 @@
+joblib
+matplotlib
+mosek
+numpy
+pandas
+scipy
+tensorly
+
+[dev]
+black
+ipykernel
+mypy
+pip-tools
+pytest
