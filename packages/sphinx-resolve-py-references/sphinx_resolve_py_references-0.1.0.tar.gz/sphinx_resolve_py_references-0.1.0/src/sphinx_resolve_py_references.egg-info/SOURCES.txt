@@ -1,0 +1,14 @@
+README.md
+pyproject.toml
+setup.cfg
+setup.py
+src/sphinx_resolve_py_references/__init__.py
+src/sphinx_resolve_py_references/extension.py
+src/sphinx_resolve_py_references/resolver.py
+src/sphinx_resolve_py_references/utils.py
+src/sphinx_resolve_py_references.egg-info/PKG-INFO
+src/sphinx_resolve_py_references.egg-info/SOURCES.txt
+src/sphinx_resolve_py_references.egg-info/dependency_links.txt
+src/sphinx_resolve_py_references.egg-info/not-zip-safe
+src/sphinx_resolve_py_references.egg-info/requires.txt
+src/sphinx_resolve_py_references.egg-info/top_level.txt
