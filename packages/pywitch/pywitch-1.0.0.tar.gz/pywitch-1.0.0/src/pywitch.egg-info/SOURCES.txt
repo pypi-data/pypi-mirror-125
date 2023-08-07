@@ -1,0 +1,14 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+src/pywitch/__init__.py
+src/pywitch/pywitch_functions.py
+src/pywitch/pywitch_heat.py
+src/pywitch/pywitch_redemptions.py
+src/pywitch/pywitch_streaminfo.py
+src/pywitch/pywitch_tmi.py
+src/pywitch.egg-info/PKG-INFO
+src/pywitch.egg-info/SOURCES.txt
+src/pywitch.egg-info/dependency_links.txt
+src/pywitch.egg-info/top_level.txt
