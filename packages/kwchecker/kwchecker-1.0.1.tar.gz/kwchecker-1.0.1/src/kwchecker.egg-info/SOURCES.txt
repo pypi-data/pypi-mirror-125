@@ -1,0 +1,11 @@
+LICENSE.txt
+README.md
+pyproject.toml
+setup.py
+src/kwchecker/__init__.py
+src/kwchecker/kwchecker.py
+src/kwchecker.egg-info/PKG-INFO
+src/kwchecker.egg-info/SOURCES.txt
+src/kwchecker.egg-info/dependency_links.txt
+src/kwchecker.egg-info/requires.txt
+src/kwchecker.egg-info/top_level.txt
