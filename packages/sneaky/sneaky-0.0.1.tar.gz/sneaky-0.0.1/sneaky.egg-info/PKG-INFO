@@ -1,0 +1,43 @@
+Metadata-Version: 2.1
+Name: sneaky
+Version: 0.0.1
+Summary: A sneaky web bot based on Selenium driven by ChromeDriver equipped with undetected-chromedriver (as bot detection bypass), Buster (as a reCAPTCHA solver), browsermob-proxy (as network traffic monitor), vpncmd (as free VPN rotator) let you breach the Internet as you please.
+Home-page: https://github.com/foxe6/sneaky
+Author: f̣ộx̣ệ6
+Author-email: foxe6@protonmail.com
+License: AGPL-3.0
+Keywords: chromedriver undetected detection antibot prevent avoid recaptcha captcha buster solver bypass audio selenium web bot scraper crawler proxy automation browsermob
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Topic :: Utilities
+Classifier: Natural Language :: English
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: GNU Affero General Public License v3
+Classifier: Operating System :: Microsoft :: Windows :: Windows 10
+Requires-Python: >=3
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# sneaky
+
+<badges>[![version](https://img.shields.io/pypi/v/sneaky.svg)](https://pypi.org/project/sneaky/)
+[![license](https://img.shields.io/pypi/l/sneaky.svg)](https://pypi.org/project/sneaky/)
+[![pyversions](https://img.shields.io/pypi/pyversions/sneaky.svg)](https://pypi.org/project/sneaky/)  
+[![donate](https://img.shields.io/badge/Donate-Paypal-0070ba.svg)](https://paypal.me/foxe6)
+[![powered](https://img.shields.io/badge/Powered%20by-UTF8-red.svg)](https://paypal.me/foxe6)
+[![made](https://img.shields.io/badge/Made%20with-PyCharm-red.svg)](https://paypal.me/foxe6)
+</badges>
+
+<i>A sneaky web bot based on Selenium driven by ChromeDriver equipped with undetected-chromedriver (as bot detection bypass), Buster (as a reCAPTCHA solver), browsermob-proxy (as network traffic monitor), vpncmd (as free VPN rotator) let you breach the Internet as you please.</i>
+
+# sneaky
+
+```
+sneaky
+```
+
+# Example
+
+## python
+See `test`.
+

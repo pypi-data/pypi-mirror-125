@@ -1,0 +1,16 @@
+LICENSE
+README.md
+setup.py
+sneaky/__init__.py
+sneaky/core.py
+sneaky/utils.py
+sneaky.egg-info/PKG-INFO
+sneaky.egg-info/SOURCES.txt
+sneaky.egg-info/dependency_links.txt
+sneaky.egg-info/requires.txt
+sneaky.egg-info/top_level.txt
+sneaky/../.gitignore
+sneaky/../LICENSE
+sneaky/../README.md
+sneaky/../requirements.txt
+test/test.py
