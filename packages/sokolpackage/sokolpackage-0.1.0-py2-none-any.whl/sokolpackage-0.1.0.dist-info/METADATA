@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: sokolpackage
+Version: 0.1.0
+Summary: A example Python package
+Home-page: UNKNOWN
+Author: Alexandr Sokolov
+Author-email: sokolov-19.07@yandex.ru
+License: UNKNOWN
+Platform: UNKNOWN
+Requires: pandas
+
+UNKNOWN
+
+
