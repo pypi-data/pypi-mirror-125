@@ -1,0 +1,16 @@
+galaxy/__init__.py,sha256=iOEMwnlORWezdO8-2vxBIPSR37D7JGjluZ8f55vzxls,81
+galaxy/project_galaxy_objectstore.py,sha256=oHpY-YU_evfhI1ZEoqzw0_iqEIZs0CRoZpanLY_n_-g,440
+galaxy/objectstore/__init__.py,sha256=qvhdPhXk9QpOGipmlojAQLdUkbdH7pl9B7NjTg9x_tU,46152
+galaxy/objectstore/azure_blob.py,sha256=0LCgxq2z_2K894KqJGIKGdVy-nnaPCdHB8TQlU88uiY,25299
+galaxy/objectstore/cloud.py,sha256=o1Nm74C2_Q_HCapxVfS-dSEuIKAUYMIIHmynqMX_GjU,32366
+galaxy/objectstore/irods.py,sha256=oLeTlG0ycLg_IJjzqOKLMLHJ11psg6CMdsCTN5LelpM,28514
+galaxy/objectstore/pithos.py,sha256=mWN-mgXLP5EuBO2KCpOhUAOT1d8aKLufDK7rzpImzNk,16876
+galaxy/objectstore/pulsar.py,sha256=-4j1r1t33s8UHV3YLh7y1dgJTJOtEUuIQ1-HMmGE7nY,3021
+galaxy/objectstore/s3.py,sha256=yAiy9ISGdQeFM8QBKkv8TZ6UZZAkaMUw9-igc99LmrA,33152
+galaxy/objectstore/s3_multipart_upload.py,sha256=xavGDIzh_lf1zEvrrhsT5O67zziQHeFwQiW5xkSmG0w,2898
+galaxy_objectstore-21.9.0.dist-info/LICENSE,sha256=zLn8FACIXExVxpD2F498YO0NSi0fKLUIbA9uuN64_NA,11109
+galaxy_objectstore-21.9.0.dist-info/METADATA,sha256=wA_uvdIgzW_iN9MjGZTlZYlUGpvxVouVFzNHF8vj2no,1947
+galaxy_objectstore-21.9.0.dist-info/WHEEL,sha256=Z-nyYpwrcSqxfdux5Mbn_DQ525iP7J2DG3JgGvOYyTQ,110
+galaxy_objectstore-21.9.0.dist-info/entry_points.txt,sha256=freNUk7Y6hU6F_gEh7ZY3-WtlaFd4tQ1ViUA0js9sCE,27
+galaxy_objectstore-21.9.0.dist-info/top_level.txt,sha256=9HENT-IEOWP3NQHcVmb3stdSJQyyjYcyt-qaFqZ0lpk,7
+galaxy_objectstore-21.9.0.dist-info/RECORD,,
