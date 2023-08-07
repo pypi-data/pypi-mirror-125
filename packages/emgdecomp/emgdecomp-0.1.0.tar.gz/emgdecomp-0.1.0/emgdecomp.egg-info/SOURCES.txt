@@ -1,0 +1,17 @@
+README.md
+setup.cfg
+setup.py
+emgdecomp/__init__.py
+emgdecomp/_data.py
+emgdecomp/_util.py
+emgdecomp/decomposition.py
+emgdecomp/parameters.py
+emgdecomp/plots.py
+emgdecomp.egg-info/PKG-INFO
+emgdecomp.egg-info/SOURCES.txt
+emgdecomp.egg-info/dependency_links.txt
+emgdecomp.egg-info/requires.txt
+emgdecomp.egg-info/top_level.txt
+emgdecomp/tests/__init__.py
+emgdecomp/tests/_simulations.py
+emgdecomp/tests/test_decomposition.py

@@ -1,0 +1,10 @@
+matplotlib
+scipy
+numpy
+numba
+
+[cuda]
+cupy
+
+[dask]
+dask[array,distributed]
