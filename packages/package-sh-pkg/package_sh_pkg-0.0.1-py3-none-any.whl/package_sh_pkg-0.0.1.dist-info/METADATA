@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: package-sh-pkg
+Version: 0.0.1
+Summary: A example Python package
+Home-page: https://github.com/mshimanskaya
+Author: Shimanskaya Margarita
+Author-email: mshimanskaya@mail.ru
+License: BSD 2-clause
+Platform: UNKNOWN
+Requires-Python: >=3.6
+Requires-Dist: numpy (<1.17.3)
+
+UNKNOWN
+
