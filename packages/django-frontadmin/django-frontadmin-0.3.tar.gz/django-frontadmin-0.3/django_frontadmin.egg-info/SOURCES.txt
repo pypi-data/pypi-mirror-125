@@ -1,0 +1,12 @@
+MANIFEST.in
+README.rst
+setup.cfg
+setup.py
+django_frontadmin.egg-info/PKG-INFO
+django_frontadmin.egg-info/SOURCES.txt
+django_frontadmin.egg-info/dependency_links.txt
+django_frontadmin.egg-info/requires.txt
+django_frontadmin.egg-info/top_level.txt
+migrations/__init__.py
+templatetags/__init__.py
+templatetags/content_widgets.py
