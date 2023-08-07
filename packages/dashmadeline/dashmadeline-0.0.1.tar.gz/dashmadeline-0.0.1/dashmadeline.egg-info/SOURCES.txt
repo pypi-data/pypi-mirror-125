@@ -1,0 +1,16 @@
+LICENSE
+MANIFEST.in
+README.md
+package.json
+setup.py
+dashmadeline/DashMadeline.py
+dashmadeline/__init__.py
+dashmadeline/_imports_.py
+dashmadeline/dashmadeline.min.js
+dashmadeline/dashmadeline.min.js.map
+dashmadeline/metadata.json
+dashmadeline/package-info.json
+dashmadeline.egg-info/PKG-INFO
+dashmadeline.egg-info/SOURCES.txt
+dashmadeline.egg-info/dependency_links.txt
+dashmadeline.egg-info/top_level.txt

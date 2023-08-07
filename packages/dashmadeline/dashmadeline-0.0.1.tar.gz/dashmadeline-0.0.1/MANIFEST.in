@@ -1,0 +1,7 @@
+include dashmadeline/dashmadeline.min.js
+include dashmadeline/dashmadeline.min.js.map
+include dashmadeline/metadata.json
+include dashmadeline/package-info.json
+include README.md
+include LICENSE
+include package.json
