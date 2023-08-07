@@ -1,0 +1,17 @@
+finkl/__init__.py,sha256=QvlVh4JTl3JL7jQAja76yKtT-IvF4631ASjWY1wS6AQ,22
+finkl/maybe.py,sha256=xFmfzFYKOaimdx9wDZOkEZtBnvCvenyntMmZqVhRYqk,1993
+finkl/monoid.py,sha256=CWkc2He2PB9kSC6dy7OSiNkUF-xfkj7FgwVOPA0qUbk,1879
+finkl/util.py,sha256=JZtUXIqQvFgSPSmguW_s8URZ_q3qiSr-nmOjaIkLj1Q,1004
+finkl/data/__init__.py,sha256=rXf832CCfSmXVtwNSCv0Qnh18xP24MYLuGX2ebYdI1s,113
+finkl/data/eq.py,sha256=LVFwi3Ms-t4D8wnQfTYyF8Ije-bkAQ_cdLx0GpKNGDs,1000
+finkl/data/functor.py,sha256=pV9lqJuPLjDSsSz_bP7ZG8cZeQarG4fT-fE1yWSdblM,1591
+finkl/data/monad.py,sha256=GR80CXsKgk8gtCbCAqnc85dbM15AcX6RZTBJlaL46QQ,1724
+finkl/data/monoid.py,sha256=us2XaeOCckvcc0GyRkpFNWvgL7f8OUqdAihqmXL_2P0,1295
+test/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+test/test_maybe.py,sha256=DCgPU26OW_JL3YPyCUc5LZ-NmlImAxFrkRj7KlC-Vf4,3367
+test/test_monoid.py,sha256=JoknfZRLVgQo8Ys9MUQ5ZpwNFWsvSNvj-hU1aO1A1C4,1626
+finkl-0.0.2.dist-info/LICENSE,sha256=OXLcl0T2SZ8Pmy2_dmlvKuetivmyPd5m1q-Gyd-zaYY,35149
+finkl-0.0.2.dist-info/METADATA,sha256=HKABAUP2cx0Z5CV7BbtGHiH77u2PN4L0UZmDaMznTsM,5717
+finkl-0.0.2.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+finkl-0.0.2.dist-info/top_level.txt,sha256=C5HpS7n5IEc_PEjsJ6ZeiwGJbTs7a8nQkPhVyVzix3w,11
+finkl-0.0.2.dist-info/RECORD,,
