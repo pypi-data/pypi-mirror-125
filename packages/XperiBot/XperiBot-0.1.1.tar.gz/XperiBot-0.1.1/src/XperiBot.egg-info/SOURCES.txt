@@ -1,0 +1,12 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+src/XperiBot.egg-info/PKG-INFO
+src/XperiBot.egg-info/SOURCES.txt
+src/XperiBot.egg-info/dependency_links.txt
+src/XperiBot.egg-info/requires.txt
+src/XperiBot.egg-info/top_level.txt
+src/xperibot/__init__.py
+src/xperibot/utils.py
+src/xperibot/xperibot.py
