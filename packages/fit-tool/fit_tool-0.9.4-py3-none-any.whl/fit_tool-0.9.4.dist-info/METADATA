@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: fit-tool
+Version: 0.9.4
+Summary: A library for reading and writing Garmin FIT files.
+Home-page: https://bitbucket.org/stagescycling/python_fit_tool.git
+Author: Matt Tucker
+Author-email: mtucker@stagescycling.com
+License: none
+Platform: UNKNOWN
+License-File: LICENSE
+License-File: AUTHORS
+Requires-Dist: openpyxl (==2.5.12)
+Requires-Dist: bitstruct (==8.11.1)
+
+UNKNOWN
+
