@@ -1,0 +1,10 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+src/SimpleDeco.egg-info/PKG-INFO
+src/SimpleDeco.egg-info/SOURCES.txt
+src/SimpleDeco.egg-info/dependency_links.txt
+src/SimpleDeco.egg-info/top_level.txt
+src/simpledeco/__init__.py
+src/simpledeco/utils.py
