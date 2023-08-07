@@ -1,0 +1,21 @@
+Metadata-Version: 1.2
+Name: tictactai
+Version: 1.0.1
+Summary: Play tic tac toe with an AI
+Home-page: https://github.com/donutboy929/tictactAI
+Author: Daniel Ng
+Author-email: dndanielng@gmail.com
+License: MIT
+Download-URL: https://github.com/donutboy929/tictactAI/archive/refs/tags/v1.0.tar.gz
+Description: # tictactAI
+        tic tac toe AI implemented with minimax algorithm
+        
+Keywords: tui,tictactoe,minimax
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Topic :: Games/Entertainment :: Board Games
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.9
+Requires-Python: >=3.7
