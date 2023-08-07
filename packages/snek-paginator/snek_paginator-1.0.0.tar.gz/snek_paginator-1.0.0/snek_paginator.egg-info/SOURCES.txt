@@ -1,0 +1,10 @@
+LICENSE
+README.md
+setup.py
+snek_paginator/__init__.py
+snek_paginator/paginator.py
+snek_paginator.egg-info/PKG-INFO
+snek_paginator.egg-info/SOURCES.txt
+snek_paginator.egg-info/dependency_links.txt
+snek_paginator.egg-info/requires.txt
+snek_paginator.egg-info/top_level.txt
