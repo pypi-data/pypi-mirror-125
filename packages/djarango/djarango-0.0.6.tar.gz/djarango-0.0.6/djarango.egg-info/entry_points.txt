@@ -1,0 +1,3 @@
+[console_scripts]
+djarango = djarango.scripts.djarango:main
+
