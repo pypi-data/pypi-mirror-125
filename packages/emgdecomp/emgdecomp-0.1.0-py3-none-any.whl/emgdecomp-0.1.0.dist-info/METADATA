@@ -1,0 +1,21 @@
+Metadata-Version: 2.1
+Name: emgdecomp
+Version: 0.1.0
+Summary: Package for decomposing EMG signals into motor unit firings.
+Home-page: https://github.com/carmenalab/emgdecomp
+Author: Emanuele Formento, Paul Botros
+Author-email: pbotros@berkeley.edu
+License: UNKNOWN
+Platform: UNKNOWN
+Requires-Dist: matplotlib
+Requires-Dist: scipy
+Requires-Dist: numpy
+Requires-Dist: numba
+Provides-Extra: cuda
+Requires-Dist: cupy ; extra == 'cuda'
+Provides-Extra: dask
+Requires-Dist: dask[array,distributed] ; extra == 'dask'
+
+UNKNOWN
+
+

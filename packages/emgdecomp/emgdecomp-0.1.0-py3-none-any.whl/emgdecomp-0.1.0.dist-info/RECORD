@@ -1,0 +1,14 @@
+emgdecomp/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+emgdecomp/_data.py,sha256=jNNelO5OTcnrlJjLfwhRVrr6pA33JV3LbpCvAwlSSM4,9776
+emgdecomp/_util.py,sha256=uOlP5STV6z9OoQqdZ6iFDxAi7o3vpT3ZjbblNT7Qg_U,4733
+emgdecomp/decomposition.py,sha256=W5mzHe5Dq3tPzuyHPpwsmky1bmbLkKs2QZ3g0PPE5SU,55916
+emgdecomp/parameters.py,sha256=QV7VTyCjFuaXmLy6uXFV2JcKN6438yTJkZmLe-swN6o,8135
+emgdecomp/plots.py,sha256=qB9qY5y-aVNg1dysWPufuc4QQRwVgdpWAqKfmG4Zdvs,2482
+emgdecomp/tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+emgdecomp/tests/_simulations.py,sha256=g5nfuOdrZWRRzWIBBUd8UFyMrITSQCiavE9Z3dxLcAE,2297
+emgdecomp/tests/test_decomposition.py,sha256=V2e1376qxT8u_TPgg_eMwa_20fC-gaMKE3qCXKwmYPw,18488
+emgdecomp-0.1.0.dist-info/LICENSE,sha256=ExccZf6lQAUHX438sGDy8KkOWnPm_jqJFzhiMLtA8xo,1067
+emgdecomp-0.1.0.dist-info/METADATA,sha256=CMGlR_yZvYNGDqnMgKzZ3qZJZZTVzP11NrKn2Lt2SkU,520
+emgdecomp-0.1.0.dist-info/WHEEL,sha256=p46_5Uhzqz6AzeSosiOnxK-zmFja1i22CrQCjmYe8ec,92
+emgdecomp-0.1.0.dist-info/top_level.txt,sha256=j9wjUMs2mGnC96g5MglXvrbiEQNYdwVF1nD9Fm3Kwhw,10
+emgdecomp-0.1.0.dist-info/RECORD,,
