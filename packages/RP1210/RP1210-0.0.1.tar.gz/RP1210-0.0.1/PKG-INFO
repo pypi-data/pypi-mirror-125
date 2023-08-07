@@ -1,0 +1,18 @@
+Metadata-Version: 1.1
+Name: RP1210
+Version: 0.0.1
+Summary: A Python32 implementation of the RP1210C standard.
+Home-page: https://github.com/dfieschko/RP1210
+Author: Darius Fieschko
+Author-email: dfieschko@gmail.com
+License: MIT
+Download-URL: https://github.com/dfieschko/RP1210/archive/refs/tags/v0.0.1-alpha.tar.gz
+Description: UNKNOWN
+Keywords: RP1210,RP1210C,J1939
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.9
