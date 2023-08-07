@@ -1,0 +1,15 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+setup.py
+src/ewc_commons.egg-info/PKG-INFO
+src/ewc_commons.egg-info/SOURCES.txt
+src/ewc_commons.egg-info/dependency_links.txt
+src/ewc_commons.egg-info/entry_points.txt
+src/ewc_commons.egg-info/requires.txt
+src/ewc_commons.egg-info/top_level.txt
+src/ewccommons/__init__.py
+src/ewccommons/__main__.py
+src/ewccommons/carddeck.py
+src/ewccommons/dice.py
