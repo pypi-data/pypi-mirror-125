@@ -1,0 +1,12 @@
+galaxy/__init__.py,sha256=iOEMwnlORWezdO8-2vxBIPSR37D7JGjluZ8f55vzxls,81
+galaxy/project_galaxy_web_stack.py,sha256=bAjzfeCluyZxSqH1cZ0B8_iFo08fLvtUDl9IwSGKE5Y,427
+galaxy/web_stack/__init__.py,sha256=fdBBGrXU8WBDTNIt_2RJRr7OCDWPEVbL3Mh1Sbl2fxc,27098
+galaxy/web_stack/handlers.py,sha256=o57yu-bmyIWJs9ypkAJqJXLXAfO0Kn18eIQ4yitDg34,23729
+galaxy/web_stack/message.py,sha256=E_F92YeRu5tVk5yyycM-6-990UHdpWPheBRXgbEOHDA,5310
+galaxy/web_stack/transport.py,sha256=0mzdxO95SAwxmQcT5mUqShho_VYd8HtLzGqNOcu6D8A,6102
+galaxy_web_stack-21.9.0.dist-info/LICENSE,sha256=zLn8FACIXExVxpD2F498YO0NSi0fKLUIbA9uuN64_NA,11109
+galaxy_web_stack-21.9.0.dist-info/METADATA,sha256=-AsgFfU9ZTanTRMjjV9HoKRDK33BjqvzO-wglBfI6lg,1601
+galaxy_web_stack-21.9.0.dist-info/WHEEL,sha256=Z-nyYpwrcSqxfdux5Mbn_DQ525iP7J2DG3JgGvOYyTQ,110
+galaxy_web_stack-21.9.0.dist-info/entry_points.txt,sha256=freNUk7Y6hU6F_gEh7ZY3-WtlaFd4tQ1ViUA0js9sCE,27
+galaxy_web_stack-21.9.0.dist-info/top_level.txt,sha256=9HENT-IEOWP3NQHcVmb3stdSJQyyjYcyt-qaFqZ0lpk,7
+galaxy_web_stack-21.9.0.dist-info/RECORD,,
