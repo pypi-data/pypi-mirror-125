@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: ais2gpd
+Version: 1.0.3
+Summary: A Python utility to query the City of Philadelphia's Address Information System (AIS)
+License: MIT
+Author: Nick Hand
+Author-email: nick.hand@phila.gov
+Requires-Python: >=3.7,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Requires-Dist: geopandas (>=0.10.1,<0.11.0)
+Requires-Dist: importlib-metadata (>=4.8.1,<5.0.0)
+Requires-Dist: requests (>=2.26.0,<3.0.0)
