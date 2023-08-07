@@ -1,0 +1,16 @@
+Bubblez/__init__.py,sha256=pMCr8gVeHEn9bVg8RsUBVn2Fr2uhg1-zlFivX_YFso0,854
+Bubblez/examples.py,sha256=lmwNHVgFpZsMMOGl2Y2Z47ssV-dZ48F2jDfWSe2wVRQ,10168
+Bubblez/models/__init__.py,sha256=OhLkLf_UeuyEs5XhMFrClnFndlgtEVVW6waXNoFxujU,83
+Bubblez/models/blog.py,sha256=CJOi4VJ6ODrV6vsuhoVKBOjLo8oSOAFedfpkr-xtU5s,869
+Bubblez/models/classes.py,sha256=TFdlvk1ODGkwo1ab8AkCPJMt0CYUIUzX-dFG6cWZx90,334
+Bubblez/models/post.py,sha256=xVOJxX9BUvbkfkv9-lN_hNIKXVd4qPw8m3rGZp8-KEE,5297
+Bubblez/models/reply.py,sha256=LS7dQU21bVItSeXarogwych32y2DxSUu99W3El4oki8,2506
+Bubblez/models/user.py,sha256=UKfvgwfa-mqe7u0OYTBtwFPyfSVIkkybjC703fj0kAY,2558
+Bubblez/sockets/__init__.py,sha256=UhbUI4hAtdoE1bk1_BeHoSSWY8Q1rE7aWiTHVUFX41s,42
+Bubblez/sockets/classes.py,sha256=TR-G4TXP7qc_RgWH1CK7lEUS14nAwHzl4yWD7dJ-d6A,856
+Bubblez/sockets/core.py,sha256=Xip_1BuumegoFisbjgVFhbGkteWoekP6cpRFPLLte3s,4127
+Bubblez.py-0.0.4.1.dist-info/LICENSE,sha256=tz_iN7IUzIEfpYqpfQFjCtxTXqFnPdoPJpk54aZ_ewY,1086
+Bubblez.py-0.0.4.1.dist-info/METADATA,sha256=dyicia1RQSsukSJdrfdwDX8wBxNSl-QyM6wFmHl5KC8,11915
+Bubblez.py-0.0.4.1.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+Bubblez.py-0.0.4.1.dist-info/top_level.txt,sha256=KL_mxaOTt8CsYghsyy0gvqT43wQCiFnoy3rstW0jrqo,8
+Bubblez.py-0.0.4.1.dist-info/RECORD,,
