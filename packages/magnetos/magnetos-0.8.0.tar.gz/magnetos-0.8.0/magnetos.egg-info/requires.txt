@@ -1,0 +1,6 @@
+requests
+future
+validators
+mountains
+html5lib
+beautifulsoup4
