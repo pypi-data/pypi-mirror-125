@@ -1,0 +1,9 @@
+s3_credentials/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+s3_credentials/cli.py,sha256=btNxyKyxhGUedtKiBFrL4L7B6mbvpZ_TSG1I6A6xq_s,7380
+s3_credentials/policies.py,sha256=fET6CWO27cIiYeZ5NSLqjkpsUfkAaWxpgAwxSVo7J28,1323
+s3_credentials-0.1.dist-info/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+s3_credentials-0.1.dist-info/METADATA,sha256=kCsw6Xkzq9MKDw47PlohLnTCtVh-jrEDBX5ipYa8xf4,6578
+s3_credentials-0.1.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+s3_credentials-0.1.dist-info/entry_points.txt,sha256=agRnD6671L770iCRRcOtrlHqBHhUUvQ1fKAwa8QOAqM,77
+s3_credentials-0.1.dist-info/top_level.txt,sha256=TaWW5matOLFWR37LUweod0u7THiDE0-YkrWskon8tpw,15
+s3_credentials-0.1.dist-info/RECORD,,
