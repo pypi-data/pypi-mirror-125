@@ -1,0 +1,116 @@
+Metadata-Version: 2.1
+Name: nanamilang
+Version: 0.1.5
+Summary: NanamiLang - Chiaki Nanami Language
+Home-page: https://nanamilang.jedi2light.moe/
+Author: @jedi2light
+Author-email: stoyan.minaev@gmail.com
+Maintainer: @jedi2light
+Maintainer-email: stoyan.minaev@gmail.com
+License: GNU GPL v2
+Project-URL: Bug Tracker, https://gitea.jedi2light.moe/jedi2light/nanamilang/issues
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: GNU General Public License v2 (GPLv2)
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# NanamiLang - Chiaki Nanami Language
+
+## Small notice
+
+Currently, this project at a **prototype** stage, and I think that **Python 3** is cool for prototyping.
+But once architecture and API get stabilized, I port it to a **C++** language and maybe achieve some benefits.
+
+## Key points
+
+1. The name of this project was inspired by the character Chiaki Nanami from the game named Danganronpa v2
+2. This language was initially made with the aim to make a functional LISP language dialect similar to Clojure
+3. This language was designed as a hosted language and eventually will be ported to C++ once API gets stabilized
+
+## Key objectives
+
+1. [x] - Tokenizer  
+2. [x] - AST Building
+2. [x] - AST Evaluation
+
+## Types
+
+1. **IMPORTANT**: all types are **immutable**
+
+### Base
+
+1. **Boolean**
+   1. Python - based on `bool`
+   2. C++ - based on `bool`
+2. **String**
+   1. Python - based on `str`
+   2. C++ - based on `std::string`
+3. **Date**
+   1. Python - based on `datetime.datetime`
+   2. C++ - Own class needs to be implemented
+4. **FloatNumber**
+   1. Python - based on `float`
+   2. C++ - based on `float`
+5. **IntegerNumber**
+   1. Python - based on `int`
+   2. C++ - based on `int`
+6. **Keyword**
+   1. Python - based on `str`
+   2. C++ - based on `std::string`
+
+### Complex
+
+1. **Set**
+   1. Python - based on `set`
+   2. C++ - based on `std::set`
+2. **Vector**
+   1. Python - based on `list`
+   2. C++ - based on `std::vector`
+3. **HashMap**
+   1. Python - based on `dict`
+   2. C++ - based on `std::unordered_map`
+
+## Goals
+
+1. Implement standard library similar to Clojure (maybe using `toolz` project)
+2. Port this project to C++ language once API gets stabilized (and make it possible to compile built AST using `llvm`)
+3. Being compatible with the most Clojure programs written without Java built-in classes or external libraries in use.
+
+## Collaborators
+
+1. @jedi2light - Stoian Minaiev - Creator, author and maintainer of this project
+2. @buzzer13 - this project contains `AST.mktree()` method which was initially written by this person
+
+## Documentation
+
+Each package, module, class or function has its own docstring, so you are welcome to read them, there is no `doc` now...
+
+## Usage
+
+0. Ensure that you have `GNU Make` installed on your system, then go to the project root and run `make install`
+   1. Alternatively, you can install `nanamilang` from PyPi repository, just run `pip3 install nanamilang` command
+1. Check whether your `~/.local/bin` and `~/.local/lib` directories are present in your `$PATH` environment variable
+2. `nanamilang-eval.py` reads the file (if it exists), evaluates it and return corresponding value to a system on exit
+3. `nanamilang-repl.py` will allow you to type expressions and evaluate them in real mode. But for now, REPL has limits.
+
+## Examples
+
+```python3
+from nanamilang import datatypes, Program
+
+source_code = '(+ 2 2 (* 2 2))'
+program = Program(str(source_code))
+program.format() # => "(+ 2 2 (* 2 2))"
+program.tokenized() # => collection of a Token instances
+program.tree() # => ready to recursively evaluate built AST tree
+
+result: datatypes.Base = program.evaluate() # => <IntegerNumber>: 8 (Data Type instance)
+```
+
+## License and credits
+
+**NanamiLang is licensed under GNU GPL version 2, was initially made by @jedi2light (aka Stoian Minaiev), October 2021**
+
