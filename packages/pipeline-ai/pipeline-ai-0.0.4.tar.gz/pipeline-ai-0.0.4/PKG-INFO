@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: pipeline-ai
+Version: 0.0.4
+Summary: Yay ml pipelines
+Author: Paul Hetherington
+Author-email: paul@getneuro.ai
+Requires-Python: >=3.7,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Requires-Dist: black (>=21.10b0,<22.0)
+Requires-Dist: dill (>=0.3.4,<0.4.0)
+Requires-Dist: pydantic (>=1.8.2,<2.0.0)
+Requires-Dist: transformers (>=4.12.2,<5.0.0)
