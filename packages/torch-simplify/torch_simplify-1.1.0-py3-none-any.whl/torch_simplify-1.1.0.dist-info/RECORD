@@ -1,0 +1,15 @@
+simplify/__init__.py,sha256=7cegenUCaProntsC8SIzak6pHK1J84iBOoLAe6jA3wA,1213
+simplify/fuse.py,sha256=dRfHBwA6vDBBlXJDAwpa87SZifVZTkXablsfxIrNOn8,4810
+simplify/layers.py,sha256=eyjKv5ZbMmxS8Fq3Ot0L8CWK8lxc6fuFbQ-XtoAia7w,3329
+simplify/propagate.py,sha256=n8PqZTAYPyr84hJ2D3qoL_b3923OJCXNMZeBDAeERoo,7011
+simplify/remove.py,sha256=3lHuaubytt3rGj3YPcuiArkzmHhkcxXuzcYYFrw8CXo,6770
+simplify/utils.py,sha256=W6lShmONSTCPhURzMWYudnptk2rykWGKd5ahjQNCaYg,6544
+training/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+training/data_loader_imagenet.py,sha256=rp0ibtfvwu2sBxk47NS20uUjneQPO3Pls9CBNizfuvQ,4018
+training/test_successive_simplifications.py,sha256=Z2aaf-RLtDZi-SJNDqgLz4FG7P5ZxnHwkXVGE7d2iSA,3106
+training/train.py,sha256=ruisaYJlxba64OM4hEiCeYs33Fs3YbWJO1_m7dTA_bc,6242
+torch_simplify-1.1.0.dist-info/LICENSE,sha256=Cbk7Ki2YmrYcN-51rLBqvcqwIBB3RmQ2Ak5EDUxudmQ,1516
+torch_simplify-1.1.0.dist-info/METADATA,sha256=LAqpgPldbI6qsInPxKGHfcR5GBsWWHzGwq3o9M5EUWU,7181
+torch_simplify-1.1.0.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+torch_simplify-1.1.0.dist-info/top_level.txt,sha256=sRRkfeQWqm6sIsgacPvsdCsCqmwMkHsFADzaaMaVL28,18
+torch_simplify-1.1.0.dist-info/RECORD,,
