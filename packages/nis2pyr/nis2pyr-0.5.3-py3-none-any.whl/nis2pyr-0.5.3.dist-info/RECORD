@@ -1,0 +1,13 @@
+nis2pyr/__init__.py,sha256=iuvKcoNkQqB_Kz0rnYMlYHM9cFJqL_NaJ7Zm_XdAbfw,167
+nis2pyr/__main__.py,sha256=5ltL_HW3OB1sw7u1DWX3lpwpsAsav3J4Cakn1KuNYzY,41
+nis2pyr/convertor.py,sha256=bWzm6v76HUCcql8fgMJCnkela4wBuQIxIARS-BM0A0g,1367
+nis2pyr/metadata.py,sha256=eJWPROShSJGgEludwayqsgRInIFPcHcGfAv8Nazek0g,4689
+nis2pyr/nis2pyr.py,sha256=z98mQ4JGf1crIBLeZvO9wdA754MBuB-IafNG7eXIlxM,3231
+nis2pyr/reader.py,sha256=xOTasBX8jD6Hwmh_NZfXdeW1OHchThPezElmsgW8dpA,2819
+nis2pyr/writer.py,sha256=TxaxvFSVXUPRw9-hy8TsD6kcVLpimpBxM5v2n_kmK-Y,4887
+nis2pyr-0.5.3.dist-info/LICENSE,sha256=z04MzQyq0UWjp4KWG-h_kj85487mQVlLy-DFQTP_byU,1531
+nis2pyr-0.5.3.dist-info/METADATA,sha256=2KnHsvoL1vcYCowDufi4_z5CPfJSrR-wKWbohwrmLss,5460
+nis2pyr-0.5.3.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+nis2pyr-0.5.3.dist-info/entry_points.txt,sha256=ICUm2pa1OmFZ5H2e3Dpw7UEJ-f5HyzAHzw0DvSJsjqQ,50
+nis2pyr-0.5.3.dist-info/top_level.txt,sha256=28aPsNqh73jepH84nz_e52hkjuIAx_ZzpIbvMC_nBr0,8
+nis2pyr-0.5.3.dist-info/RECORD,,
