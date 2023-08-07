@@ -1,0 +1,4 @@
+
+            [console_scripts]
+            homage-to-the-square=homage.main:main
+        
