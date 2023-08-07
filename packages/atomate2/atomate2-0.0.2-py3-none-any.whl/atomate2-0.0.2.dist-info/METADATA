@@ -1,0 +1,56 @@
+Metadata-Version: 2.1
+Name: atomate2
+Version: 0.0.2
+Summary: atomate2 is a library of materials science workflows
+Home-page: https://github.com/hackingmaterials/atomate2
+Author: Alex Ganose
+Author-email: alexganose@gmail.com
+License: modified BSD
+Keywords: high-throughput automated workflow dft vasp
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Science/Research
+Classifier: Intended Audience :: System Administrators
+Classifier: Intended Audience :: Information Technology
+Classifier: Operating System :: OS Independent
+Classifier: Topic :: Other/Nonlisted Topic
+Classifier: Topic :: Scientific/Engineering
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+Requires-Dist: pymatgen (>=2019.11.11)
+Requires-Dist: custodian (>=2019.8.24)
+Requires-Dist: pydantic
+Requires-Dist: monty
+Requires-Dist: jobflow
+Requires-Dist: PyYAML
+Requires-Dist: numpy
+Requires-Dist: click
+Requires-Dist: typing-extensions ; python_version < "3.8"
+Provides-Extra: amset
+Requires-Dist: amset (>=0.4.15) ; extra == 'amset'
+Requires-Dist: pydash ; extra == 'amset'
+Provides-Extra: dev
+Requires-Dist: pre-commit (>=2.12.1) ; extra == 'dev'
+Provides-Extra: docs
+Requires-Dist: sphinx (==4.2.0) ; extra == 'docs'
+Requires-Dist: numpydoc (==1.1.0) ; extra == 'docs'
+Requires-Dist: m2r2 (==0.3.1) ; extra == 'docs'
+Requires-Dist: ipython (==7.29.0) ; extra == 'docs'
+Requires-Dist: FireWorks (==1.9.7) ; extra == 'docs'
+Requires-Dist: pydata-sphinx-theme (==0.7.1) ; extra == 'docs'
+Requires-Dist: autodoc-pydantic (==1.5.0) ; extra == 'docs'
+Requires-Dist: sphinx-panels (==0.6.0) ; extra == 'docs'
+Provides-Extra: phonons
+Requires-Dist: phonopy (>=1.10.8) ; extra == 'phonons'
+Provides-Extra: tests
+Requires-Dist: pytest (==6.2.5) ; extra == 'tests'
+Requires-Dist: pytest-cov (==3.0.0) ; extra == 'tests'
+Requires-Dist: FireWorks (==1.9.7) ; extra == 'tests'
+
+# atomate2
+
+
