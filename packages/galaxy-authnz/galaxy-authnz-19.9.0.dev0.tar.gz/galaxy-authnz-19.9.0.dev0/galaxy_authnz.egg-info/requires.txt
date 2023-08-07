@@ -1,0 +1,6 @@
+galaxy-data
+pyjwt
+cloudauthz
+google-api-python-client
+httplib2
+oauth2client
