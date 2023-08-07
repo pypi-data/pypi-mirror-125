@@ -1,0 +1,6 @@
+setup.py
+sokolpackage/main.py
+sokolpackage.egg-info/PKG-INFO
+sokolpackage.egg-info/SOURCES.txt
+sokolpackage.egg-info/dependency_links.txt
+sokolpackage.egg-info/top_level.txt
