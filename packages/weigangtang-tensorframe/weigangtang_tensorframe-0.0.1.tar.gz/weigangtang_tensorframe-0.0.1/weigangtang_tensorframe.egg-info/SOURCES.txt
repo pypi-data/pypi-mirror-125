@@ -1,0 +1,10 @@
+LICENCE.txt
+MANIFEST.in
+README.md
+setup.py
+weigangtang_tensorframe/__init__.py
+weigangtang_tensorframe.egg-info/PKG-INFO
+weigangtang_tensorframe.egg-info/SOURCES.txt
+weigangtang_tensorframe.egg-info/dependency_links.txt
+weigangtang_tensorframe.egg-info/requires.txt
+weigangtang_tensorframe.egg-info/top_level.txt
