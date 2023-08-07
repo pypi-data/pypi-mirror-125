@@ -1,0 +1,8 @@
+README.md
+setup.cfg
+setup.py
+MyProjectCem.egg-info/PKG-INFO
+MyProjectCem.egg-info/SOURCES.txt
+MyProjectCem.egg-info/dependency_links.txt
+MyProjectCem.egg-info/entry_points.txt
+MyProjectCem.egg-info/top_level.txt

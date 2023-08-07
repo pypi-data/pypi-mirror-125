@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: MyProjectCem
+Version: 0.1
+Summary: Greeter. Useless app to tell you my (Cem) name.
+Home-page: https://www.google.com
+Author: Cem
+Author-email: cemsalih@gmail.com
+License: UNKNOWN
+Description: This project is a test setuptools project.
+        
+        Its features:
+            
+        * feature 1
+        * feature 2
+        * feature 3
+Keywords: test,class
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3.9
+Description-Content-Type: text/markdown
