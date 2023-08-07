@@ -1,0 +1,17 @@
+numpy>=1.18
+pandas>=1.2
+scipy>=1.6
+
+[example]
+numpy>=1.18
+pandas>=1.2
+scipy>=1.6
+
+[test]
+numpy>=1.18
+pandas>=1.2
+scipy>=1.6
+pytest
+pytest-cov
+hypothesis
+sympy
