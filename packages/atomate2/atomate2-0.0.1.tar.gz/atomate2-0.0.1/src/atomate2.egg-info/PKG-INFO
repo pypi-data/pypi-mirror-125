@@ -1,0 +1,30 @@
+Metadata-Version: 2.1
+Name: atomate2
+Version: 0.0.1
+Summary: atomate2 is a library of materials science workflows
+Home-page: https://github.com/hackingmaterials/atomate2
+Author: Alex Ganose
+Author-email: alexganose@gmail.com
+License: modified BSD
+Description: # atomate2
+        
+Keywords: high-throughput automated workflow dft vasp
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Science/Research
+Classifier: Intended Audience :: System Administrators
+Classifier: Intended Audience :: Information Technology
+Classifier: Operating System :: OS Independent
+Classifier: Topic :: Other/Nonlisted Topic
+Classifier: Topic :: Scientific/Engineering
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+Provides-Extra: amset
+Provides-Extra: docs
+Provides-Extra: tests
+Provides-Extra: dev
+Provides-Extra: phonons
