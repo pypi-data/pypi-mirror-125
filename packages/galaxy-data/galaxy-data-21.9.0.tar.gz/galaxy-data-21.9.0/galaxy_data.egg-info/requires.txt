@@ -1,0 +1,21 @@
+galaxy-objectstore
+galaxy-sequence-utils
+galaxy-util[template]
+bdbag
+bx-python
+h5py
+isa-rwval
+mrcfile
+parsley
+numpy
+pycryptodome
+pydantic
+pysam
+social-auth-core[openidconnect]==3.3.0
+SQLAlchemy<2,>=1.4.20
+sqlalchemy-migrate
+tifffile<=2020.9.3
+WebOb
+
+[:python_version >= "3.6" and python_version < "3.7"]
+contextvars
