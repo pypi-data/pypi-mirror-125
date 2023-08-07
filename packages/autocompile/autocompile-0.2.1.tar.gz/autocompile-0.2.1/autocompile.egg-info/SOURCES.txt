@@ -1,0 +1,12 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+autocompile/__init__.py
+autocompile.egg-info/PKG-INFO
+autocompile.egg-info/SOURCES.txt
+autocompile.egg-info/dependency_links.txt
+autocompile.egg-info/requires.txt
+autocompile.egg-info/top_level.txt
+tests/__init__.py
+tests/test_main.py
