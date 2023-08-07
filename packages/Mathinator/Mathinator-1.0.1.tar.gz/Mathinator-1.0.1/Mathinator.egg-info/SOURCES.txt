@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.py
+Mathinator.egg-info/PKG-INFO
+Mathinator.egg-info/SOURCES.txt
+Mathinator.egg-info/dependency_links.txt
+Mathinator.egg-info/requires.txt
+Mathinator.egg-info/top_level.txt
+mathinator/__init__.py
+mathinator/__main__.py
+mathinator/utils.py
