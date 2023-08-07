@@ -1,0 +1,3 @@
+[console_scripts]
+mesiqi = mesiqi.framework.cli:main
+
