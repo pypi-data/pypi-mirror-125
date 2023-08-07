@@ -1,0 +1,12 @@
+CHANGELOG.txt
+LICENSE.txt
+MANIFEST.in
+README.md
+setup.py
+rickandmorty_SDK.egg-info/PKG-INFO
+rickandmorty_SDK.egg-info/SOURCES.txt
+rickandmorty_SDK.egg-info/dependency_links.txt
+rickandmorty_SDK.egg-info/requires.txt
+rickandmorty_SDK.egg-info/top_level.txt
+rickandmorty_sdk/__init__.py
+rickandmorty_sdk/rickandmorty_sdk.py

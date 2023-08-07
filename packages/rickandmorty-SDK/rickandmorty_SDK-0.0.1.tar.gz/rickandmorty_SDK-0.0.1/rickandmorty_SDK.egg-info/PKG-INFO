@@ -1,0 +1,66 @@
+Metadata-Version: 2.1
+Name: rickandmorty-SDK
+Version: 0.0.1
+Summary: Rick and Morty information SDK
+Home-page: https://github.com/AlonsoMartinToledano/rickandmortySDK
+Author: Alonso Martin-Toledano
+Author-email: alonsomtgm@gmail.com
+License: MIT
+Keywords: rickandmorty,APIRest,SDK
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Education
+Classifier: Operating System :: Microsoft :: Windows :: Windows 10
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Description-Content-Type: text/markdown
+License-File: LICENSE.txt
+
+# rickandmorty_sdk
+
+
+Acquisition of data from Rick and Morty characters through synchronous requests to the [Rick and Morty API](https://rickandmortyapi.com/)
+
+Library with two options:
+- List all characters: shows the names of all the characters and their identifier
+- Show character info: by entering the identifier of a character, it shows the following information:
+  - Name
+  - Status
+  - Species
+  - Type
+  - Gender
+  - Origin
+  - Location
+
+Can be used as follows:
+
+```py
+import rickAndMortySDK as rams
+```
+
+Being able to access its functions in the following way:
+
+```py
+rams.listAllCharacters()
+```
+
+```py
+rams.showCharacterInfo('id')
+```
+
+Copyright 2021 Alonso Martin-Toledano
+
+Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+
+Change Log
+==================
+
+0.0.1 (02/11/2021)
+------------------
+- First Release
+
+
