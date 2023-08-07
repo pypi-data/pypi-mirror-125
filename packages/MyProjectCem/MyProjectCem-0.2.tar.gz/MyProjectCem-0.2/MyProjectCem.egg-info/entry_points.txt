@@ -1,0 +1,3 @@
+[console_scripts]
+my-greet = pythonpackage.main:greet_main
+
