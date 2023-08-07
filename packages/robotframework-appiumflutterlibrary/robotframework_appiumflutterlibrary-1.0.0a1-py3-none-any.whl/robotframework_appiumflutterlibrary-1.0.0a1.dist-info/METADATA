@@ -1,0 +1,33 @@
+Metadata-Version: 2.1
+Name: robotframework-appiumflutterlibrary
+Version: 1.0.0a1
+Summary: Robot Framework Mobile flutter app testing library for Appium Client Android & iOS & Web
+Home-page: https://github.com/igortavtib/robotframework-appiumflutterlibrary
+Author: Igor Augusto
+Author-email: igortavtib@gmail.com
+License: Apache License 2.0
+Keywords: robotframework flutter testing testautomation mobile appium webdriver app android ios
+Platform: any
+Classifier: Development Status :: 1 - Planning
+Classifier: Framework :: Robot Framework :: Library
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Topic :: Software Development :: Quality Assurance
+Classifier: Topic :: Software Development :: Testing
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+License-File: LICENSE
+Requires-Dist: decorator (>=3.3.2)
+Requires-Dist: robotframework (>=2.6.0)
+Requires-Dist: docutils (>=0.8.1)
+Requires-Dist: Appium-Python-Client (>=1.1.0)
+Requires-Dist: selenium (>=2.47.1)
+Requires-Dist: kitchen (>=1.2.4)
+Requires-Dist: six (>=1.10.0)
+Requires-Dist: Appium-Flutter-Finder (>=0.3.0)
+
+# AppiumFlutterLibary
+AppiumFlutterLibrary is a for testing Flutter apps with [RobotFramework](https://robotframework.org/).
+
+
