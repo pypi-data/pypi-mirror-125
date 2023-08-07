@@ -1,0 +1,8 @@
+setup.py
+package_sh/__init__.py
+package_sh/random_f.py
+package_sh_pkg.egg-info/PKG-INFO
+package_sh_pkg.egg-info/SOURCES.txt
+package_sh_pkg.egg-info/dependency_links.txt
+package_sh_pkg.egg-info/requires.txt
+package_sh_pkg.egg-info/top_level.txt
