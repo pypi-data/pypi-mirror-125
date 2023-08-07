@@ -1,0 +1,3 @@
+[console_scripts]
+mb_excelexport_2csv=mb_excelexport_2csv.main:main
+
