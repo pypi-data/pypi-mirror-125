@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: Mathinator
+Version: 1.0.0
+Summary: A command line tool to do hard math quickly
+Home-page: UNKNOWN
+Author: Israel Waldner
+Author-email: imky171@gmail.com
+License: UNKNOWN
+Description: # Mathinator
+        
+        Command line tool to do hard math quickly
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
