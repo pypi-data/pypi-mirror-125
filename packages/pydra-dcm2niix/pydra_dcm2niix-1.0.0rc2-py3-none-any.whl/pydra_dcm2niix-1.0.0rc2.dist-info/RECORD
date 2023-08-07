@@ -1,0 +1,9 @@
+pydra/tasks/dcm2niix/__init__.py,sha256=SSoTfvL83URENtfw1Go8g2OUXX4l81bhjrSY_bxXLkk,287
+pydra/tasks/dcm2niix/_version.py,sha256=pzeyEJZUvUvTi71QFYkdge27wJX9YJsuHyrbOUu16uw,500
+pydra/tasks/dcm2niix/utils.py,sha256=vBk_d5JAnRVG0pHUZ7SPrDP7p0PrjLO4zAe91984yh8,8269
+pydra/tasks/dcm2niix/tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+pydra_dcm2niix-1.0.0rc2.dist-info/LICENSE,sha256=1UwTTk2FSa_OpgWlBMDqe_u6T0NNnRbBx3oGHHgxzpo,588
+pydra_dcm2niix-1.0.0rc2.dist-info/METADATA,sha256=ebN9nxPO2xe03JpGEGqPYiJDaJaFgDWDf5WwEq3RZXQ,4409
+pydra_dcm2niix-1.0.0rc2.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+pydra_dcm2niix-1.0.0rc2.dist-info/top_level.txt,sha256=D8Pw1DC98AV-QvicdBBTYXiBJAzbSKp-h946UGQotHk,6
+pydra_dcm2niix-1.0.0rc2.dist-info/RECORD,,
