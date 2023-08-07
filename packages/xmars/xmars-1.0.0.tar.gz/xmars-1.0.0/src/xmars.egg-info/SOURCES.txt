@@ -1,0 +1,10 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+src/first_package/__init__.py
+src/first_package/main.py
+src/xmars.egg-info/PKG-INFO
+src/xmars.egg-info/SOURCES.txt
+src/xmars.egg-info/dependency_links.txt
+src/xmars.egg-info/top_level.txt
