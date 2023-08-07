@@ -1,0 +1,6 @@
+pandas
+patool
+pyreadstat
+pandas-weighting
+openpyxl
+xlrd
