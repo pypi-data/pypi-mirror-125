@@ -1,0 +1,6 @@
+tuat_feed/__init__.py,sha256=DUk04sAncXpjGQMgGDha2OSP1NDXaTGKuKWrNgh4qps,25
+tuat_feed/fetch.py,sha256=6Q8HrwEl8qct1-5mH1NSDRUrqUDyQGCxU1eqgnxN-mE,1135
+tuat_feed/post.py,sha256=qgw-rN1FkNV3FmnOwpYNkwPG8ozdlRWlts0t2quotzs,3465
+tuat_feed-0.2.0.dist-info/WHEEL,sha256=y3eDiaFVSNTPbgzfNn0nYn5tEn1cX6WrdetDlQM4xWw,83
+tuat_feed-0.2.0.dist-info/METADATA,sha256=znG_QDMZdma03OGmDo2w5ybBJGvLN0QVyI48RfxyDSc,1855
+tuat_feed-0.2.0.dist-info/RECORD,,
