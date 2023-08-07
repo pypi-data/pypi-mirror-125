@@ -1,0 +1,52 @@
+Metadata-Version: 2.1
+Name: TestTEp37
+Version: 2021.10.dev13
+Summary: Public library of all Token Engineering tools
+Home-page: http://github.com/longtailfinancial/ltf_library
+Author: Long Tail Financial Corp. Token Engineering Team
+Author-email: mohammad@longtailfinancial.com
+License: UNKNOWN
+Project-URL: Bug Tracker, http://github.com/longtailfinancial/ltf_library/issues
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+
+## ltf library
+This library is supposed to be a public library of all Token Engineering tools
+
+## Installation
+```python
+pip install ltf
+```
+
+## List of all packages
+```python
+import ltf
+help(ltf)
+```
+
+## A few examples
+```python
+from ltf.bondingcurves import Sigmoid
+# sample csv file can be found in the data folder
+sbc = Sigmoid(
+    csv_path='./data/bondingcurves_initial_values.csv',
+    current_supply=16000000,
+    zoom=1
+    )
+sbc.fig_builder().show()
+```
+
+> `output:`
+![](./data/sbc.png)
+
+
+```
+import pandas as pd
+df = pd.DataFrame([{'l':1, 's':1, 'm':1, 'k':1, 'steps':1000}]) 
+```
+
+
