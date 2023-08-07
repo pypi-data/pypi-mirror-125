@@ -1,0 +1,20 @@
+Metadata-Version: 2.1
+Name: biodata
+Version: 0.0.1
+Summary: A python package for common biological data I/O
+Home-page: https://github.com/aldenleung/biodata/
+Author: Alden Leung
+Author-email: alden.leung@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Description-Content-Type: text/markdown
+
+# biodata
+A python package for common biological data I/O
+
+The package will support data processing for fasta, bed, bedgraph, vcf, gff, etc. in the stable version.
+
