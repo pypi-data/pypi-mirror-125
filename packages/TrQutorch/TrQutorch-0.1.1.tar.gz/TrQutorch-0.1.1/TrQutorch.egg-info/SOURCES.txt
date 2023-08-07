@@ -1,0 +1,10 @@
+README.md
+setup.py
+TrQutorch/__init__.py
+TrQutorch.egg-info/PKG-INFO
+TrQutorch.egg-info/SOURCES.txt
+TrQutorch.egg-info/dependency_links.txt
+TrQutorch.egg-info/requires.txt
+TrQutorch.egg-info/top_level.txt
+TrQutorch/utils/__init__.py
+TrQutorch/utils/circuit.py
