@@ -1,0 +1,6 @@
+setup.py
+src/salavat_fast_hist.egg-info/PKG-INFO
+src/salavat_fast_hist.egg-info/SOURCES.txt
+src/salavat_fast_hist.egg-info/dependency_links.txt
+src/salavat_fast_hist.egg-info/requires.txt
+src/salavat_fast_hist.egg-info/top_level.txt
