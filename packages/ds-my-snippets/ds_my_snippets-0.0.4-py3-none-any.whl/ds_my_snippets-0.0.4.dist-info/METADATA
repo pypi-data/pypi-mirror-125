@@ -1,0 +1,67 @@
+Metadata-Version: 2.1
+Name: ds-my-snippets
+Version: 0.0.4
+Summary: Snipptes of DataScience: Pandsa and VizualGraph
+Home-page: UNKNOWN
+Author: Rafael Morais de Assis
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+Requires-Dist: pandas
+
+# DS Snippets
+
+Trechso de código úteis sobre DataScience
+
+Autor: Rafael Morais de Assis
+
+## Como criar nova versão
+
+Criar pacote here
+python setup.py sdist bdist_wheel
+
+Instalar aqui e testar
+pip install -e .
+
+## Como atualizar o pacote
+
+=> (mandar para o test-py)
+twine upload --repository-url https://test.pypi.org/legacy/ dist/* 
+=> mandar para Pypi (pip
+python -m twine upload dist/*
+
+
+## Como usar
+
+Instalar com pip
++ Use `!` se estiver no colba/kaggle
+````
+!pip install ds-my-snippets
+````
+
+Chamando
+````
+import ds_my_snippets as ds
+````
+
+Trecho que funciona
+
+````
+import pandas as pd
+import seaborn as sns
+import ds_my_snippets as ds
+
+iris = sns.load_dataset('iris')
+iris = ds.reduce_mem_usage(iris)
+````
+
+Chamando todas as funções
+````
+dir(ds) # lista todas as funçôes do módulo
+````
+
+
