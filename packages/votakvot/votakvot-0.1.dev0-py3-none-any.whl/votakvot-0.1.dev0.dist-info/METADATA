@@ -1,0 +1,35 @@
+Metadata-Version: 2.1
+Name: votakvot
+Version: 0.1.dev0
+Summary: Track information during code testing and researching.
+Home-page: https://github.com/allegro/votakvot
+Author: Andrei Zhlobich
+Author-email: andrei.zhlobich@allegro.pl
+License: apache-2.0
+Platform: UNKNOWN
+Classifier: Intended Audience :: Developers
+Classifier: Development Status :: 3 - Alpha
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Topic :: Software Development :: Testing
+Classifier: Topic :: Software Development
+Requires-Python: <4.0.0,>=3.7.1
+License-File: LICENSE
+Requires-Dist: pyyaml (>=5.4)
+Requires-Dist: fsspec (>=0.8)
+Requires-Dist: multiprocess (>=0.70)
+Requires-Dist: pandas (>=1.1.5)
+Requires-Dist: wrapt (>=1.12)
+Provides-Extra: ab
+Requires-Dist: gevent (>=21) ; extra == 'ab'
+Provides-Extra: beam
+Requires-Dist: apache-beam (>=2.28) ; extra == 'beam'
+Requires-Dist: gcsfs (>=0.72) ; extra == 'beam'
+Provides-Extra: gcm
+Requires-Dist: google-cloud-monitoring (>=2.6) ; extra == 'gcm'
+Requires-Dist: gcsfs (>=0.72) ; extra == 'gcm'
+Provides-Extra: prometheus
+Requires-Dist: prometheus-client (>=0.11) ; extra == 'prometheus'
+
+UNKNOWN
+
