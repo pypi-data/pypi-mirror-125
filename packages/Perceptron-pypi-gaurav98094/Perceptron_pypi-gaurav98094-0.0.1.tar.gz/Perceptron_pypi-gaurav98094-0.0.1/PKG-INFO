@@ -1,0 +1,22 @@
+Metadata-Version: 2.1
+Name: Perceptron_pypi-gaurav98094
+Version: 0.0.1
+Summary: Package to implement perceptron learning algorithms.
+Home-page: https://github.com/gaurav98094/Perceptron_pypi
+Author: gaurav98094
+Author-email: kandelgaurav7@gmail.com
+License: UNKNOWN
+Project-URL: Bug Tracker, https://github.com/gaurav98094/Perceptron_pypi/issues
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# Perceptron_pypi
+
+
+
+
