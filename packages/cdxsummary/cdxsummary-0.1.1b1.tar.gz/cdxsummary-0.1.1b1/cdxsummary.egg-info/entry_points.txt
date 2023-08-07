@@ -1,0 +1,3 @@
+[console_scripts]
+cdxsummary = cdxsummary.__main__:main
+

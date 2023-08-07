@@ -1,0 +1,4 @@
+internetarchive
+humanize
+requests
+rich
