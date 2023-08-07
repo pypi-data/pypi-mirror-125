@@ -1,0 +1,4 @@
+pytz>dev
+pytest~=6.2
+pytest-sugar
+Pyro4
