@@ -1,0 +1,6 @@
+
+    [z3c.autoinclude.plugin]
+    target = plone
+    [console_scripts]
+    patchwatcher = collective.patchwatcher.script:run
+    
