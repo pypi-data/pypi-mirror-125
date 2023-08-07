@@ -1,0 +1,14 @@
+LICENSE
+README.md
+setup.py
+slash_cog/__init__.py
+slash_cog/cog.py
+slash_cog/command_map.py
+slash_cog/context.py
+slash_cog/decorator.py
+slash_cog/message.py
+slash_cog.egg-info/PKG-INFO
+slash_cog.egg-info/SOURCES.txt
+slash_cog.egg-info/dependency_links.txt
+slash_cog.egg-info/not-zip-safe
+slash_cog.egg-info/top_level.txt
